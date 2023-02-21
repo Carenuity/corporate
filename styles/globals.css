@@ -1,3 +1,56 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Solutic - IT Solutions and Services HTML Template
+    Description: IT Solutions and Services HTML Template
+    Author: Website Design Templates
+    Version: 2.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All CSS Plugins & Default Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("global/plugins/bootstrap.min.css");
+
+/* == animate == */
+@import url("global/plugins/animate.css");
+
+/* == fontawesome icon font == */
+@import url("global/plugins/fontawesome-all.min.css");
+
+/* == themify font == */
+@import url("global/plugins/themify-icons.css");
+
+/* == magnific-popup == */
+@import url("global/plugins/magnific-popup.css");
+
+/* == owl.carousel == */
+@import url("global/plugins/owl.carousel.css");
+
+/* == owl theme.carousel == */
+@import url("global/plugins/owl.theme.default.css");
+
+/* == lightgallery css == */
+@import url("global/plugins/lightgallery.css");
+
+/* == default classes == */
+@import url("global/plugins/default.css");
+
+/* == navigation == */
+@import url("global/plugins/nav-menu.css");
+
+/* == prism css == */
+@import url("global/plugins/prism.css");
+
+/* == jarallax css == */
+@import url("global/plugins/jarallax.css");
+
+@import 'global/styles.css';
+@import 'global/custom.css';
+
+/* 
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -104,4 +157,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
