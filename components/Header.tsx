@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
                 className='search-form'
                 action='search.html'
                 method='GET'
-                accept-charset='utf-8'
+                acceptCharset='utf-8'
               >
                 <div className='input-group'>
                   <span className='input-group-addon cursor-pointer'>
@@ -46,13 +47,13 @@ const Header = () => {
                   <nav className='navbar navbar-expand-lg navbar-light p-0'>
                     <div className='navbar-header navbar-header-custom'>
                       {/* <!-- start logo --> */}
-                      <a href='index.html' className='navbar-brand'>
+                      <Link href='/' className='navbar-brand'>
                         <img
                           id='logo'
                           src='img/logos/logo-inner.png'
-                          alt='logo'
+                          alt='Carenuity logo'
                         />
-                      </a>
+                      </Link>
                       {/* <!-- end logo --> */}
                     </div>
 
@@ -439,6 +440,6 @@ const Header = () => {
       </header>
     </>
   );
-}
+};
 
-export default Header
+export default Header;

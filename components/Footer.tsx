@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 
 const Footer = () => {
   return (
@@ -28,9 +29,9 @@ const Footer = () => {
                   data-wow-delay='400ms'
                 >
                   <div className='footer-logo'>
-                    <a href='index.html'>
+                    <Link href='/'>
                       <img src='img/logos/footer-light-logo.png' alt='...' />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div
