@@ -12,10 +12,14 @@ const Layout = ({ children }: { children: any }) => {
       {/* <!-- MAIN WRAPPER
     ================================================== --> */}
       <div className='main-wrapper'>
-       <Header /> 
-       {children}
-       <Footer />
-       </div>
+        <Header />
+        {children}
+        <Footer
+          phone='(44) 123-456-789'
+          email='info@carenuity.com'
+          address='Chipglobe GmbH Cincinnatistr. 60 81549 Munich'
+        />
+      </div>
 
       {/* <!-- SCROLL TO TOP
     ================================================== --> */}

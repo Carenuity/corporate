@@ -1,6 +1,7 @@
 import { Inter } from '@next/font/google'
 import { useEffect, useState } from 'react';
 import Banner from '../components/Banner';
+import Services from '../components/Services';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,77 +32,7 @@ export default function Home() {
 
       {/* <!-- WHAT WE DO
         ================================================== --> */}
-      <section className='card-style09 py-0 overflow-visible bg-transparent'>
-        <div className='container'>
-          <div className='feature-inner'>
-            <div className='row g-xl-5 mt-n1-9'>
-              <div
-                className='col-md-6 col-lg-4 mt-1-9 wow fadeInUp'
-                data-wow-delay='200ms'
-              >
-                <div className='features-box bg-white shadow border-radius-3 p-1-6 p-xl-1-9 h-100'>
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <img src='img/icons/18.png' alt='...' />
-                    </div>
-                    <div className='flex-grow-1 ps-4'>
-                      <h3 className='h5'>
-                        <a href='services.html'>Web Development</a>
-                      </h3>
-                      <p className='mb-0'>
-                        We focus on the best practices for it solutions and
-                        services
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className='col-md-6 col-lg-4 mt-1-9 wow fadeInUp'
-                data-wow-delay='400ms'
-              >
-                <div className='features-box bg-white shadow border-radius-3 p-1-6 p-xl-1-9 h-100'>
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <img src='img/icons/19.png' alt='...' />
-                    </div>
-                    <div className='flex-grow-1 ps-4'>
-                      <h3 className='h5'>
-                        <a href='services.html'>Branding Services</a>
-                      </h3>
-                      <p className='mb-0'>
-                        We focus on the best practices for it solutions and
-                        services
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className='col-md-6 col-lg-4 mt-1-9 wow fadeInUp'
-                data-wow-delay='600ms'
-              >
-                <div className='features-box bg-white shadow border-radius-3 p-1-6 p-xl-1-9 h-100'>
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <img src='img/icons/20.png' alt='...' />
-                    </div>
-                    <div className='flex-grow-1 ps-4'>
-                      <h3 className='h5'>
-                        <a href='services.html'>Digital Marketing</a>
-                      </h3>
-                      <p className='mb-0'>
-                        We focus on the best practices for it solutions and
-                        services
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Services />
 
       {/* <!-- COUNTER
         ================================================== --> */}
