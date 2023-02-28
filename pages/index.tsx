@@ -27,7 +27,7 @@ export default function Home() {
         ================================================== --> */}
       <Banner
         bannerImage='img/banner.jpg'
-        slogan='Lighting the chip world'
+        slogan='Real Estate Electronics Matter'
       />
 
       {/* <!-- WHAT WE DO
