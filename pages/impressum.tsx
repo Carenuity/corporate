@@ -1,0 +1,140 @@
+import { GetStaticProps, GetStaticPropsContext } from 'next';
+import Link from 'next/link';
+import React from 'react'
+import BlogLayout from '../components/BlogLayout';
+import Header from '../components/Header';
+import PageTitle from '../components/PageTitle';
+import { MediaHandleInterface } from '../utils/types/MediaHandle';
+import { PostInterface } from '../utils/types/Post';
+
+const impressum = ({
+  posts,
+  mediaLinks,
+}: {
+  posts: PostInterface[];
+  mediaLinks: MediaHandleInterface[];
+}) => {
+  return (
+    <>
+      {/* <!-- HEADER
+        ================================================== --> */}
+      <Header
+        classNames={['header-style2', 'navbar-brand logodefault']}
+        logoUrl='img/logos/logo.png'
+      />
+
+      {/* <!-- PAGE TITLE
+        ================================================== --> */}
+      <PageTitle
+        prevPage='Home'
+        prevPageUrl='/'
+        pageTitle='Impressum'
+        pageUrl='/impressum'
+        bgImage='img/banner/page-title.jpg'
+      />
+
+      {/* <!-- BLOG DETAILS
+        ================================================== --> */}
+      <BlogLayout
+        search={true}
+        recentPosts={posts}
+        categoryLinks={[]}
+        tagLinks={[]}
+        mediaLinks={mediaLinks}
+        iscommentable={false}
+        comments={[]}
+        hasFooter={false}
+      >
+        <div className='wow fadeIn' data-wow-delay='20ms'>
+          <h3 className='h4 mb-3 text-primary'>Streitschlichtung</h3>
+          {/* <h5 className='h6 mb-2'>Sub Topic</h5> */}
+          <p className='mb-5'>
+            Die Europäische Kommission stellt eine Plattform zur
+            Online-Streitbeilegung (OS) bereit:
+            <Link href='https://ec.europa.eu/consumers/odr'>
+              https://ec.europa.eu/consumers/odr
+            </Link>
+            . Unsere E-Mail-Adresse finden Sie oben im Impressum. Wir sind nicht
+            bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+            Verbraucherschlichtungsstelle teilzunehmen.
+          </p>
+        </div>
+
+        <div className='wow fadeIn' data-wow-delay='20ms'>
+          <h3 className='h4 mb-3 text-primary'>
+            Haftungsausschluss (Disclaimer)
+          </h3>
+          <h5 className='h6 mb-2'>Haftung für Inhalte</h5>
+          <p className='mb-5'>
+            Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte
+            auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach
+            §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
+            verpflichtet, übermittelte oder gespeicherte fremde Informationen zu
+            überwachen oder nach Umständen zu forschen, die auf eine
+            rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung
+            oder Sperrung der Nutzung von Informationen nach den allgemeinen
+            Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist
+            jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten
+            Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
+            Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+          </p>
+          <h5 className='h6 mb-2'>Haftung für Links</h5>
+          <p className='mb-5'>
+            Unser Angebot enthält Links zu externen Websites Dritter, auf deren
+            Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
+            fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
+            verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber
+            der Seiten verantwortlich. Die verlinkten Seiten wurden zum
+            Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft.
+            Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht
+            erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten
+            Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung
+            nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir
+            derartige Links umgehend entfernen.
+          </p>
+          <h5 className='h6 mb-2'>Urheberrecht</h5>
+          <p className='mb-5'>
+            Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
+            diesen Seiten unterliegen dem deutschen Urheberrecht. Die
+            Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
+            Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der
+            schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+            Downloads und Kopien dieser Seite sind nur für den privaten, nicht
+            kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser
+            Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte
+            Dritter beachtet. Insbesondere werden Inhalte Dritter als solche
+            gekennzeichnet. Sollten Sie trotzdem auf eine
+            Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
+            entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
+            werden wir derartige Inhalte
+          </p>
+        </div>
+      </BlogLayout>
+    </>
+  );
+};
+
+export const getStaticProps: GetStaticProps = async (
+  context: GetStaticPropsContext
+) => {
+ const server = process.env.DOMAIN;
+
+ const postsRes = await fetch(`${server}/api/posts/`, {
+   next: { revalidate: 60 },
+ });
+ const postsData = await postsRes.json();
+
+ const mediaRes = await fetch(`${server}/api/media-handles/`, {
+   next: { revalidate: 60 },
+ });
+ const mediaData = await mediaRes.json();
+
+  return {
+    props: {
+      posts: postsData.posts,
+      mediaLinks: mediaData.social_media_handles,
+    },
+  };
+};
+
+export default impressum

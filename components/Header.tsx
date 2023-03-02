@@ -3,12 +3,12 @@ import React from 'react';
 import Menu from './Menu';
 import TopSearch from './TopSearch';
 
-const Header = () => {
+const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string }) => {
   return (
     <>
       {/* <!-- HEADER
         ================================================== --> */}
-      <header className='header-style1 menu_area-light'>
+      <header className={classNames[0]}>
         <div className='navbar-default border-bottom border-color-light-white'>
           {/* <!-- start top search --> */}
           <TopSearch />
@@ -21,10 +21,10 @@ const Header = () => {
                   <nav className='navbar navbar-expand-lg navbar-light p-0'>
                     <div className='navbar-header navbar-header-custom'>
                       {/* <!-- start logo --> */}
-                      <Link href='/' className='navbar-brand'>
+                      <Link href='/' className={classNames[1]}>
                         <img
                           id='logo'
-                          src='img/logos/logo-inner.png'
+                          src={logoUrl}
                           alt='Carenuity logo'
                         />
                       </Link>

@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import Footer from './Footer';
-import Header from './Header';
 
 const Layout = ({ children }: { children: any }) => {
   return (
@@ -12,7 +11,6 @@ const Layout = ({ children }: { children: any }) => {
       {/* <!-- MAIN WRAPPER
     ================================================== --> */}
       <div className='main-wrapper'>
-        <Header />
         {children}
         <Footer
           phone='(44) 123-456-789'
@@ -30,4 +28,4 @@ const Layout = ({ children }: { children: any }) => {
   );
 };
 
-export default Layout
+export default Layout;

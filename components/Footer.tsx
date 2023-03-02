@@ -164,11 +164,24 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
             </div>
           </div>
         </div>
-        <div className='py-4 border-top border-color-light-white'>
+        <div className='py-2 border-top border-color-light-white'>
           <div className='container'>
             <div className='row align-items-center'>
               <div
-                className='col-12 text-center wow fadeIn'
+                className='col-4 text-center wow fadeIn'
+                data-wow-delay='100ms'
+              >
+                <p className='d-inline-block text-white'>
+                  <Link
+                    href='/datenschutz'
+                    className='text-primary text-white-hover'
+                  >
+                    datenschutz
+                  </Link>
+                </p>
+              </div>
+              <div
+                className='col-4 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white mb-0'>
@@ -176,6 +189,19 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
                   {/* <a href='#!' className='text-primary text-white-hover'>
                     Website Design Templates
                   </a> */}
+                </p>
+              </div>
+              <div
+                className='col-4 text-center wow fadeIn'
+                data-wow-delay='100ms'
+              >
+                <p className='d-inline-block text-white'>
+                  <Link
+                    href='/impressum'
+                    className='text-primary text-white-hover'
+                  >
+                    impressum
+                  </Link>
                 </p>
               </div>
             </div>

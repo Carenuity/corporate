@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 export default function Document() {
   return (
-    <Html lang='en'>
+    <Html lang='de-de'>
       <Head>
         {/* metas */}
         <meta charSet='utf-8' />
@@ -23,11 +23,8 @@ export default function Document() {
         />
 
         {/* favicon */}
-        <link rel='shortcut icon' href='assets/img/logos/favicon.ico' />
-        <link
-          rel='apple-touch-icon'
-          href='assets/img/logos/apple-touch-icon.png'
-        />
+        <link rel='shortcut icon' href='img/logos/favicon.ico' />
+        <link rel='apple-touch-icon' href='img/logos/apple-touch-icon.png' />
         {/* <link
           rel='apple-touch-icon'
           sizes='72x72'

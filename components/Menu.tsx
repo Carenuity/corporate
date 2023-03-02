@@ -4,78 +4,53 @@ import React from 'react'
 const Menu = () => {
   return (
     <>
-      <ul className='navbar-nav ms-auto' id='nav' style={{ display: 'none' }}>
+      {/* style={{ display: 'none' }} */}
+      <ul className='navbar-nav ms-auto' id='nav'>
         <li>
           <Link href='/'>Home</Link>
         </li>
         <li>
-          <Link href='/about'>About Us</Link>
-        </li>
-        <li>
-          <Link href='/services'>Product</Link>
-          <ul className='row megamenu'>
-            <li className='col-lg-3'>
-              <img
-                src='img/content/about-03.jpg'
-                alt='...'
-                className='img-fluid'
-              />
+          <Link href='/products'>Products</Link>
+          <ul>
+            <li>
+              <Link href='/services/sensors'>
+                <i className='fa-solid fa-keyboard me-2'></i>
+                Sensors
+              </Link>
             </li>
-            <li className='col-lg-3'>
-              <span className='mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30'>
-                Our Products
-              </span>
-              <ul>
-                <li>
-                  <Link href='/services/sensors'>
-                    <i className='fa-solid fa-keyboard me-2'></i>
-                    Sensors
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/services/boards'>
-                    <span className='ti-desktop me-2'></span>
-                    Boards
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/services/actuators'>
-                    <span className='ti-light-bulb me-2'></span>
-                    Actuators
-                  </Link>
-                </li>
-              </ul>
+            <li>
+              <Link href='/services/boards'>
+                <span className='ti-desktop me-2'></span>
+                Boards
+              </Link>
             </li>
-            <li className='col-lg-3'>
-              <img
-                src='img/content/about-03.jpg'
-                alt='...'
-                className='img-fluid'
-              />
-            </li>
-            <li className='col-lg-3'>
-              <span className='mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30'>
-                Our Services
-              </span>
-              <ul>
-                <li>
-                  <Link href='/services/binaries'>
-                    <i className='fas fa-code me-2'></i>
-                    WebFlashing
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/services/automation'>
-                    <i className='fas fa-microchip me-2'></i>
-                    Home Automation
-                  </Link>
-                </li>
-              </ul>
+            <li>
+              <Link href='/services/actuators'>
+                <span className='ti-light-bulb me-2'></span>
+                Actuators
+              </Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link href='/team'>Team</Link>
+          <Link href='/services'>Services</Link>
+          <ul>
+            <li>
+              <Link href='/services/binaries'>
+                <i className='fas fa-code me-2'></i>
+                WebFlashing
+              </Link>
+            </li>
+            <li>
+              <Link href='/services/automation'>
+                <i className='fas fa-microchip me-2'></i>
+                Home Automation
+              </Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <Link href='/about'>About Us</Link>
         </li>
         <li>
           <a href='#!'>Blog</a>

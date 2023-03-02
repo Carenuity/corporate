@@ -1,18 +1,15 @@
-import { Inter } from '@next/font/google'
-import { useEffect, useState } from 'react';
+import { Inter } from '@next/font/google';
+import { useEffect } from 'react';
 import Banner from '../components/Banner';
+import Header from '../components/Header';
 import Services from '../components/Services';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-
   useEffect(() => {
     if (typeof document !== undefined) {
-      const {
-        jarallax,
-        jarallaxVideo,
-      } = require('jarallax');
+      const { jarallax, jarallaxVideo } = require('jarallax');
       jarallaxVideo();
       jarallax(document.querySelectorAll('.jarallax'), {
         speed: 0.2,
@@ -23,6 +20,13 @@ export default function Home() {
 
   return (
     <>
+      {/* <!-- HEADER
+        ================================================== --> */}
+      <Header
+        classNames={['header-style1 menu_area-light', 'navbar-brand']}
+        logoUrl='img/logos/logo-inner.png'
+      />
+
       {/* <!-- BANNER
         ================================================== --> */}
       <Banner
