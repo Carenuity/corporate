@@ -30,7 +30,7 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
               >
                 <div className='footer-logo'>
                   <Link href='/'>
-                    <img src='img/logos/footer-light-logo.png' alt='...' />
+                    <img src='img/logos/logo-inner.png' alt='...' />
                   </Link>
                 </div>
               </div>

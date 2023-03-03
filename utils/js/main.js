@@ -42,7 +42,6 @@
 
         $('#preloader').fadeOut('normall', function() {
             $(this).remove();
-            console.log('removed');
         });
 
         /*------------------------------------

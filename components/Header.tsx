@@ -22,11 +22,7 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
                     <div className='navbar-header navbar-header-custom'>
                       {/* <!-- start logo --> */}
                       <Link href='/' className={classNames[1]}>
-                        <img
-                          id='logo'
-                          src={logoUrl}
-                          alt='Carenuity logo'
-                        />
+                        <img id='logo' src={logoUrl} alt='Carenuity logo' />
                       </Link>
                       {/* <!-- end logo --> */}
                     </div>
@@ -46,8 +42,13 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
                           </a>
                         </li>
                         <li className='d-none d-xl-inline-block'>
-                          <Link href='/contact' className='btn-style1 medium'>
-                            <span>Contact Us</span>
+                          <Link href='/shop' className='btn-style1 medium'>
+                            <span>Shop</span>
+                          </Link>
+                        </li>
+                        <li className='d-none d-xl-inline-block'>
+                          <Link href='/login' className=''>
+                            <span>Login / Register</span>
                           </Link>
                         </li>
                       </ul>
