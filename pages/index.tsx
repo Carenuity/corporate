@@ -2,7 +2,6 @@ import { Inter } from '@next/font/google';
 import { useEffect } from 'react';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
-import Services from '../components/Services';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -36,11 +35,11 @@ export default function Home() {
 
       {/* <!-- WHAT WE DO
         ================================================== --> */}
-      <Services />
+      {/* <Services /> */}
 
       {/* <!-- COUNTER
         ================================================== --> */}
-      <section className='counter-style-01 bg-light pt-20 pb-16 py-sm-20 overflow-visible'>
+      <section className='d-none counter-style-01 bg-light pt-20 pb-16 py-sm-20 overflow-visible'>
         <div className='container overflow-hidden'>
           <div className='row align-items-end g-5 g-lg-0 position-relative z-index-9 mt-n1-9'>
             <div
@@ -108,7 +107,7 @@ export default function Home() {
 
       {/* <!-- ABOUT US
         ================================================== --> */}
-      <section className='about-style-02 pt-18 pt-lg-24'>
+      <section className='d-none about-style-02 pt-18 pt-lg-24'>
         <div className='container'>
           <div className='border-bottom border-color-light-black mb-6 mb-lg-10 pb-6 pb-lg-10'>
             <div className='row align-items-xl-center mt-n2-9'>
@@ -203,7 +202,7 @@ export default function Home() {
 
       {/* <!-- SERVICES
         ================================================== --> */}
-      <section className='calltoaction-style02 py-0'>
+      <section className='d-none calltoaction-style02 py-0'>
         <div className='bg-secondary pt-6 pb-18 pt-lg-10 pb-lg-20 pt-xl-12 pb-xl-24 position-relative'>
           <div className='container-fluid px-1-6 px-sm-6 px-xxl-10'>
             <div className='row position-relative z-index-9 mt-n1-9'>
@@ -387,7 +386,7 @@ export default function Home() {
 
       {/* <!-- TESTIMONIALS
         ================================================== --> */}
-      <section className='testimonials-style02'>
+      <section className='d-none testimonials-style02'>
         <div className='container'>
           <div className='row g-5'>
             <div className='col-lg-4 wow fadeIn' data-wow-delay='200ms'>
@@ -468,7 +467,7 @@ export default function Home() {
 
       {/* <!-- BLOG
         ================================================== --> */}
-      <section className='bg-light'>
+      <section className='d-none bg-light'>
         <div className='container'>
           <h2
             className='h1 mb-2-9 text-center wow fadeIn'

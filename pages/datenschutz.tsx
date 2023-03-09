@@ -1,16 +1,10 @@
-import { GetStaticProps, GetStaticPropsContext } from 'next'
 import Link from 'next/link'
 import React from 'react'
 import BlogLayout from '../components/BlogLayout'
 import Header from '../components/Header'
 import PageTitle from '../components/PageTitle'
-import { MediaHandleInterface } from '../utils/types/MediaHandle'
-import { PostInterface } from '../utils/types/Post'
-import posts from './api/posts'
 
-const datenschutz = ({ posts, mediaLinks } : {posts: PostInterface[];
-  mediaLinks: MediaHandleInterface[];
-}) => {
+const datenschutz = () => {
   return (
     <>
       {/* <!-- HEADER
@@ -32,16 +26,7 @@ const datenschutz = ({ posts, mediaLinks } : {posts: PostInterface[];
 
       {/* <!-- BLOG DETAILS
         ================================================== --> */}
-      <BlogLayout
-        search={true}
-        recentPosts={posts}
-        categoryLinks={[]}
-        tagLinks={[]}
-        mediaLinks={mediaLinks}
-        iscommentable={false}
-        comments={[]}
-        hasFooter={false}
-      >
+      <BlogLayout>
         <h2 className='text-primary mb-3'>Datenschutzerklärung:</h2>
         <div className='wow fadeIn' data-wow-delay='20ms'>
           <h3 className='h4 mb-3 text-primary'>
@@ -637,29 +622,6 @@ const datenschutz = ({ posts, mediaLinks } : {posts: PostInterface[];
       </BlogLayout>
     </>
   );
-};
-
-export const getStaticProps: GetStaticProps = async (
-  context: GetStaticPropsContext
-) => {
-  const server = process.env.DOMAIN;
-
-  const postsRes = await fetch(`${server}/api/posts/`, {
-    next: { revalidate: 60 },
-  });
-  const postsData = await postsRes.json();
-
-  const mediaRes = await fetch(`${server}/api/media-handles/`, {
-    next: { revalidate: 60 },
-  });
-  const mediaData = await mediaRes.json();
-
-  return {
-    props: {
-      posts: postsData.posts,
-      mediaLinks: mediaData.social_media_handles,
-    },
-  };
 };
 
 export default datenschutz

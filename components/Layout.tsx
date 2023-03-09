@@ -13,9 +13,8 @@ const Layout = ({ children }: { children: any }) => {
       <div className='main-wrapper'>
         {children}
         <Footer
-          phone='(44) 123-456-789'
+          phone='(+49) 89-1222469-40'
           email='info@carenuity.com'
-          address='Chipglobe GmbH Cincinnatistr. 60 81549 Munich'
         />
       </div>
 
@@ -27,5 +26,7 @@ const Layout = ({ children }: { children: any }) => {
     </>
   );
 };
+
+
 
 export default Layout;

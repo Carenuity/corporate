@@ -4,6 +4,10 @@ import Menu from './Menu';
 import TopSearch from './TopSearch';
 
 const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string }) => {
+  const loginUrl =
+    'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
+  const shopUrl = 'https://www.chipglobe.shop';
+  const webFlashingUrl = 'https://chipglobe-dev.web.app/';
   return (
     <>
       {/* <!-- HEADER
@@ -30,7 +34,7 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
                     <div className='navbar-toggler bg-primary'></div>
 
                     {/* <!-- start menu area --> */}
-                    <Menu />
+                    <Menu loginUrl={loginUrl} webFlashingUrl={webFlashingUrl} />
                     {/* <!-- end menu area --> */}
 
                     {/* <!-- start attribute navigation --> */}
@@ -42,12 +46,12 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
                           </a>
                         </li>
                         <li className='d-none d-xl-inline-block'>
-                          <Link href='/shop' className='btn-style1 medium'>
+                          <Link href={shopUrl} className='btn-style1 medium'>
                             <span>Shop</span>
                           </Link>
                         </li>
                         <li className='d-none d-xl-inline-block'>
-                          <Link href='/login' className=''>
+                          <Link href={loginUrl}>
                             <span>Login / Register</span>
                           </Link>
                         </li>

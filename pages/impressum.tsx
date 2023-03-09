@@ -1,19 +1,10 @@
-import { GetStaticProps, GetStaticPropsContext } from 'next';
 import Link from 'next/link';
 import React from 'react'
 import BlogLayout from '../components/BlogLayout';
 import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
-import { MediaHandleInterface } from '../utils/types/MediaHandle';
-import { PostInterface } from '../utils/types/Post';
 
-const impressum = ({
-  posts,
-  mediaLinks,
-}: {
-  posts: PostInterface[];
-  mediaLinks: MediaHandleInterface[];
-}) => {
+const impressum = () => {
   return (
     <>
       {/* <!-- HEADER
@@ -35,16 +26,7 @@ const impressum = ({
 
       {/* <!-- BLOG DETAILS
         ================================================== --> */}
-      <BlogLayout
-        search={true}
-        recentPosts={posts}
-        categoryLinks={[]}
-        tagLinks={[]}
-        mediaLinks={mediaLinks}
-        iscommentable={false}
-        comments={[]}
-        hasFooter={false}
-      >
+      <BlogLayout>
         <div className='wow fadeIn' data-wow-delay='20ms'>
           <h3 className='h4 mb-3 text-primary'>Streitschlichtung</h3>
           {/* <h5 className='h6 mb-2'>Sub Topic</h5> */}
@@ -128,27 +110,27 @@ const impressum = ({
   );
 };
 
-export const getStaticProps: GetStaticProps = async (
-  context: GetStaticPropsContext
-) => {
- const server = process.env.DOMAIN;
+// export const getStaticProps: GetStaticProps = async (
+//   context: GetStaticPropsContext
+// ) => {
+//  const server = process.env.DOMAIN;
 
- const postsRes = await fetch(`${server}/api/posts/`, {
-   next: { revalidate: 60 },
- });
- const postsData = await postsRes.json();
+//  const postsRes = await fetch(`${server}/api/posts/`, {
+//    next: { revalidate: 60 },
+//  });
+//  const postsData = await postsRes.json();
 
- const mediaRes = await fetch(`${server}/api/media-handles/`, {
-   next: { revalidate: 60 },
- });
- const mediaData = await mediaRes.json();
+//  const mediaRes = await fetch(`${server}/api/media-handles/`, {
+//    next: { revalidate: 60 },
+//  });
+//  const mediaData = await mediaRes.json();
 
-  return {
-    props: {
-      posts: postsData.posts,
-      mediaLinks: mediaData.social_media_handles,
-    },
-  };
-};
+//   return {
+//     props: {
+//       posts: postsData.posts,
+//       mediaLinks: mediaData.social_media_handles,
+//     },
+//   };
+// };
 
 export default impressum

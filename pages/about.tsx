@@ -2,6 +2,8 @@ import React from 'react';
 import AboutUs from '../components/AboutUs';
 import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
+import WhyUs from '../components/WhyUs';
+import WorkingProcess from '../components/WorkingProcess';
 
 const about = ({ logoUrl }: { logoUrl: string }) => {
   return (
@@ -26,6 +28,14 @@ const about = ({ logoUrl }: { logoUrl: string }) => {
       {/* <!-- ABOUT
         ================================================== --> */}
       <AboutUs />
+
+      {/* <!-- WHY CHOOSE US
+        ================================================== --> */}
+        <WhyUs />
+
+        {/* <!-- PROCESS
+        ================================================== --> */}
+        <WorkingProcess />
     </>
   );
 };

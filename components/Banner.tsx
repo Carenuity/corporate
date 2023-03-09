@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Banner = ({ bannerImage, slogan }: { bannerImage: string; slogan: string }) => {
@@ -20,9 +21,9 @@ const Banner = ({ bannerImage, slogan }: { bannerImage: string; slogan: string }
                 <h1 className='text-white font-weight-800 display-4 display-xl-3 mb-2-9'>
                   {slogan}
                 </h1>
-                <a href='contact.html' className='btn-style1 animated fadeInUp'>
-                  <span className='animated fadeInUp'>Get Started</span>
-                </a>
+                <Link href='/about' className='btn-style1 animated fadeInUp'>
+                  <span className='animated fadeInUp'>Read More</span>
+                </Link>
               </div>
             </div>
           </div>

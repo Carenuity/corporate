@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
-const Footer = ({ phone, email, address }: { phone: string; email: string; address: string }) => {
+const Footer = ({ phone, email }: { phone: string; email: string; }) => {
   return (
     <>
       {/* <!-- FOOTER
@@ -11,6 +11,7 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
           <div className='container'>
             <div className='row mt-n1-9 align-items-center'>
               <div
+                id='contact-us'
                 className='col-md-6 col-lg-4 mt-1-9 wow fadeIn'
                 data-wow-delay='200ms'
               >
@@ -64,17 +65,22 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
               </h4>
               <ul className='social-icon-style1'>
                 <li>
-                  <a href='#!'>
+                  <a href='https://www.facebook.com/C3.Mini'>
                     <i className='fab fa-facebook-f'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='#!'>
+                  <a href='https://twitter.com/search?q=c3-mini'>
                     <i className='fab fa-twitter'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='#!'>
+                  <a href='https://www.instagram.com/carenuity'>
+                    <i className='fab fa-instagram'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.youtube.com/shorts/sKK5DwQaYok'>
                     <i className='fab fa-youtube'></i>
                   </a>
                 </li>
@@ -94,7 +100,11 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
                 <ul className='footer-link mb-0 list-unstyled'>
                   <li className='text-white mb-3'>
                     <strong>Adress:</strong>{' '}
-                    <span className='opacity8'>{address}</span>
+                    <span className='opacity8'>
+                      Chipglobe GmbH <br />
+                      Cincinnatistr. 60 <br />
+                      81549 Munich
+                    </span>
                   </li>
                   <li className='text-white mb-3'>
                     <strong>Email:</strong>{' '}
@@ -166,12 +176,19 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
         </div>
         <div className='py-2 border-top border-color-light-white'>
           <div className='container'>
-            <div className='row align-items-center'>
+            <div className='row align-items-start'>
               <div
-                className='col-4 text-center wow fadeIn'
+                className='col-md-3 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white'>
+                  <Link
+                    href='/privacy'
+                    className='text-primary text-white-hover'
+                  >
+                    Privacy Policy
+                  </Link>{' '}
+                  |{' '}
                   <Link
                     href='/datenschutz'
                     className='text-primary text-white-hover'
@@ -181,21 +198,30 @@ const Footer = ({ phone, email, address }: { phone: string; email: string; addre
                 </p>
               </div>
               <div
-                className='col-4 text-center wow fadeIn'
+                className='col-md-6 order-first order-md-0 mb-2 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white mb-0'>
-                  &copy; <span className='current-year'></span> Carenuity{' '}
-                  {/* <a href='#!' className='text-primary text-white-hover'>
-                    Website Design Templates
-                  </a> */}
+                  &copy; <span className='current-year'></span> ChipGlobe GmbH{' '}
+                  <br />
+                  <span className='text-primary text-white-hover text-sm'>
+                    ChipGlobe&trade; and Carenuity&trade; are Trademarks of
+                    ChipGlobe GmbH{' '}
+                  </span>
                 </p>
               </div>
               <div
-                className='col-4 text-center wow fadeIn'
+                className='col-md-3 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white'>
+                  <Link
+                    href='/legal'
+                    className='text-primary text-white-hover'
+                  >
+                    Legal Notice
+                  </Link>{' '}
+                  |{' '}
                   <Link
                     href='/impressum'
                     className='text-primary text-white-hover'

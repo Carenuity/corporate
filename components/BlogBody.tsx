@@ -1,14 +1,11 @@
 import React from 'react'
-import BlogFooter from './BlogFooter';
 
 const BlogBody = ({
-  hasFooter,
   date,
   bannerUrl,
   body,
 }: {
   body: any;
-  hasFooter: boolean;
   date?: string;
   bannerUrl?: string;
 }) => {
@@ -46,7 +43,7 @@ const BlogBody = ({
 
             {body}
 
-            {hasFooter && <BlogFooter />}
+            {/* {hasFooter && <BlogFooter />} */}
           </div>
         </article>
       </div>
