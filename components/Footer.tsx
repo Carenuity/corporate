@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
-const Footer = ({ phone, email }: { phone: string; email: string; }) => {
+const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string; aboutUsSammury: string; }) => {
   return (
     <>
       {/* <!-- FOOTER
@@ -60,8 +60,7 @@ const Footer = ({ phone, email }: { phone: string; email: string; }) => {
             >
               <h3 className='text-white h5 mb-1-9'>About Company</h3>
               <h4 className='text-white mb-1-9 fw-light w-75 display-27 lh-base opacity8'>
-                We have 14+ years experience. Helping you overcome technology
-                challenges.
+                {aboutUsSammury}
               </h4>
               <ul className='social-icon-style1'>
                 <li>
@@ -80,7 +79,7 @@ const Footer = ({ phone, email }: { phone: string; email: string; }) => {
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.youtube.com/shorts/sKK5DwQaYok'>
+                  <a href='https://www.youtube.com/@carenuity'>
                     <i className='fab fa-youtube'></i>
                   </a>
                 </li>
@@ -193,7 +192,7 @@ const Footer = ({ phone, email }: { phone: string; email: string; }) => {
                     href='/datenschutz'
                     className='text-primary text-white-hover'
                   >
-                    datenschutz
+                    Datenschutz
                   </Link>
                 </p>
               </div>
@@ -215,10 +214,7 @@ const Footer = ({ phone, email }: { phone: string; email: string; }) => {
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white'>
-                  <Link
-                    href='/legal'
-                    className='text-primary text-white-hover'
-                  >
+                  <Link href='/legal' className='text-primary text-white-hover'>
                     Legal Notice
                   </Link>{' '}
                   |{' '}
@@ -226,7 +222,7 @@ const Footer = ({ phone, email }: { phone: string; email: string; }) => {
                     href='/impressum'
                     className='text-primary text-white-hover'
                   >
-                    impressum
+                    Impressum
                   </Link>
                 </p>
               </div>

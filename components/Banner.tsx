@@ -1,7 +1,15 @@
 import Link from 'next/link';
 import React from 'react'
 
-const Banner = ({ bannerImage, slogan }: { bannerImage: string; slogan: string }) => {
+const Banner = ({
+  bannerImage,
+  slogan,
+  applicationsVideoUrl,
+}: {
+  bannerImage: string;
+  slogan: string;
+  applicationsVideoUrl: string;
+}) => {
   return (
     <>
       <section
@@ -21,9 +29,22 @@ const Banner = ({ bannerImage, slogan }: { bannerImage: string; slogan: string }
                 <h1 className='text-white font-weight-800 display-4 display-xl-3 mb-2-9'>
                   {slogan}
                 </h1>
-                <Link href='/about' className='btn-style1 animated fadeInUp'>
-                  <span className='animated fadeInUp'>Read More</span>
-                </Link>
+                <div className='wow fadeIn' data-wow-delay='400ms'>
+                  <div className='right-img position-relative z-index-9'>
+                    <div className='video-box'>
+                      <div className='story-video'>
+                        <Link
+                          href={applicationsVideoUrl}
+                          className='video btn-style1 animated fadeInUp'
+                        >
+                          <span className='animated fadeInUp'>
+                            Applications
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

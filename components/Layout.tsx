@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 
-const Layout = ({ children }: { children: any }) => {
+const Layout = ({ aboutUsSammury, children }: { aboutUsSammury: string; children: any }) => {
   return (
     <>
       {/* <!-- PAGE LOADING
@@ -15,6 +15,7 @@ const Layout = ({ children }: { children: any }) => {
         <Footer
           phone='(+49) 89-1222469-40'
           email='info@carenuity.com'
+          aboutUsSammury={aboutUsSammury}
         />
       </div>
 

@@ -1,7 +1,14 @@
 import Link from 'next/link';
 import React from 'react'
 
-const Menu = ({ loginUrl, webFlashingUrl }: { loginUrl: string; webFlashingUrl: string; }) => {
+const Menu = ({
+  loginUrl,
+  webFlashingUrl,
+  applicationsUrl,
+}: {
+  loginUrl: string;
+  webFlashingUrl: string;
+  applicationsUrl : string;}) => {
   return (
     <>
       <ul className='navbar-nav ms-auto' id='nav'>
@@ -92,9 +99,9 @@ const Menu = ({ loginUrl, webFlashingUrl }: { loginUrl: string; webFlashingUrl: 
             </li>
           </ul>
         </li>
-        {/* <li>
-          <Link href='/services'>Services</Link>
-        </li> */}
+        <li>
+          <Link href={applicationsUrl} target='_blank'>Applications</Link>
+        </li>
         <li>
           <Link href='/about'>About Us</Link>
         </li>
@@ -110,12 +117,18 @@ const Menu = ({ loginUrl, webFlashingUrl }: { loginUrl: string; webFlashingUrl: 
               </Link>
             </li>
             <li>
-              <Link href='/blogs' style={{ pointerEvents: 'none', color: 'grey' }}>
+              <Link
+                href='/blogs'
+                style={{ pointerEvents: 'none', color: 'grey' }}
+              >
                 Blog
               </Link>
             </li>
             <li>
-              <Link href='/help' style={{ pointerEvents: 'none', color: 'grey' }}>
+              <Link
+                href='/help'
+                style={{ pointerEvents: 'none', color: 'grey' }}
+              >
                 Help Center
               </Link>
             </li>

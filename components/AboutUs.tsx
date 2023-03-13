@@ -1,18 +1,26 @@
 import React from 'react'
 
-const AboutUs = () => {
+const AboutUs = ({
+  aboutUsSammury,
+  mission,
+  vision,
+  visionDescription,
+}: {
+  aboutUsSammury: string;
+  mission: string;
+  vision: string;
+  visionDescription: string;
+}) => {
   return (
     <>
-      <section className='overflow-visible'>
+      <section className='overflow-visible pb-0'>
         <div className='container position-relative z-index-3'>
           <div className='row align-items-center about-style-03'>
-            <div className='col-lg-6 wow fadeIn' data-wow-delay='200ms'>
+            <div className='col-lg-8 wow fadeIn' data-wow-delay='200ms'>
               <div className='pe-lg-1-9'>
                 <div className='section-title mb-1-9'>
                   <span className='sm-title'>About Us</span>
-                  <h2 className='mb-0 h1'>
-                    We’re Delivering The Best Customer Experience
-                  </h2>
+                  <h2 className='mb-0 h3'>{aboutUsSammury}</h2>
                 </div>
                 <div className='mb-1-9'>
                   <div className='d-flex about-text mb-1-9'>
@@ -21,11 +29,7 @@ const AboutUs = () => {
                     </div>
                     <div className='flex-grow-1 ms-3'>
                       <h4 className='h5'>Our Mission</h4>
-                      <p className='mb-0'>
-                        Our Mission is to be the industry&apos;s top-ratede
-                        provider issuer enterprise targeting satisfying the most
-                        to our clients.
-                      </p>
+                      <p className='mb-0'>{mission}</p>
                     </div>
                   </div>
                   <div className='d-flex about-text'>
@@ -34,21 +38,21 @@ const AboutUs = () => {
                     </div>
                     <div className='flex-grow-1 ms-3'>
                       <h4 className='h5'>Our Vision</h4>
-                      <p className='mb-0'>
-                        Our Vision is to be a top Web Design company in the IT
-                        sector and progress in our current position in the
-                        market.
-                      </p>
+                      <p className='mb-0'>{vision}</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='col-lg-6 wow fadeIn' data-wow-delay='400ms'>
-              <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
-                <img src='img/content/about7.jpg' alt='...' />
-                <div className='about-img d-none d-sm-block'>
-                  <img src='img/content/about6.jpg' alt='...' />
+            <div
+              className='col-lg-4 wow fadeIn px-0 align-self-end'
+              data-wow-delay='400ms'
+            >
+              <div className='bg-secondary pt-3 pt-lg-9 pt-xxl-13 pb-3 pb-xxl-8 px-2-2 px-xxl-10 position-relative z-index-9 why-chooseus'>
+                <div className='me-xxl-15'>
+                  <p className='text-white mb-2-3 opacity9'>
+                    {visionDescription}
+                  </p>
                 </div>
               </div>
             </div>
@@ -62,6 +66,6 @@ const AboutUs = () => {
       </section>
     </>
   );
-}
+};
 
 export default AboutUs

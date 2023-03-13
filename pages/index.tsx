@@ -12,7 +12,7 @@ export default function Home() {
       jarallaxVideo();
       jarallax(document.querySelectorAll('.jarallax'), {
         speed: 0.2,
-        videoSrc: 'https://www.youtube.com/watch?v=pDWUf_g2zsc',
+        videoSrc: 'https://www.youtube.com/watch?v=i3pwQ2BWTO8', // 'https://www.youtube.com/watch?v=pDWUf_g2zsc',
       });
     }
   }, []);
@@ -31,6 +31,7 @@ export default function Home() {
       <Banner
         bannerImage='img/banner.jpg'
         slogan='Real Estate Electronics Matter'
+        applicationsVideoUrl='https://www.youtube.com/watch?v=i3pwQ2BWTO8'
       />
 
       {/* <!-- WHAT WE DO

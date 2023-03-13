@@ -8,6 +8,7 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
     'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
   const shopUrl = 'https://www.chipglobe.shop';
   const webFlashingUrl = 'https://chipglobe-dev.web.app/';
+  const applicationsUrl = 'https://www.youtube.com/watch?v=i3pwQ2BWTO8';
   return (
     <>
       {/* <!-- HEADER
@@ -34,7 +35,11 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
                     <div className='navbar-toggler bg-primary'></div>
 
                     {/* <!-- start menu area --> */}
-                    <Menu loginUrl={loginUrl} webFlashingUrl={webFlashingUrl} />
+                    <Menu
+                      loginUrl={loginUrl}
+                      webFlashingUrl={webFlashingUrl}
+                      applicationsUrl={applicationsUrl}
+                    />
                     {/* <!-- end menu area --> */}
 
                     {/* <!-- start attribute navigation --> */}

@@ -12,6 +12,8 @@ declare global {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
+  const aboutUsSammury = `We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`;
+
   useEffect(() => {
     if (typeof document !== undefined) {
       window.$ = window.jQuery = require('jquery');
@@ -35,8 +37,8 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <>
-      <Layout>
-        <Component {...pageProps} />
+      <Layout aboutUsSammury={aboutUsSammury}>
+        <Component aboutUsSammury={aboutUsSammury} {...pageProps} />
       </Layout>
     </>
   );
