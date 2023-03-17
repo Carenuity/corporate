@@ -1,6 +1,6 @@
+import Head from 'next/head';
 import React from 'react';
 import AboutUs from '../components/AboutUs';
-import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
 
 const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
@@ -10,6 +10,18 @@ const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
 
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems'
+        />
+        <meta
+          name='description'
+          content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
+        />
+        <title>About Carenuity</title>
+      </Head>
+      
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle

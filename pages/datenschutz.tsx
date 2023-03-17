@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import BlogLayout from '../components/BlogLayout'
@@ -7,6 +8,18 @@ import PageTitle from '../components/PageTitle'
 const datenschutz = () => {
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Datenschutz'
+        />
+        <meta
+          name='description'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Privacy Policy'
+        />
+        <title>Datenschutz</title>
+      </Head>
+      
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
@@ -235,14 +248,14 @@ const datenschutz = () => {
             effektiver und sicherer zu machen. Cookies sind kleine Textdateien,
             die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
           </p>
-          <p className="mb-4">
+          <p className='mb-4'>
             Die meisten der von uns verwendeten Cookies sind so genannte
             “Session-Cookies”. Sie werden nach Ende Ihres Besuchs automatisch
             gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert bis
             Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser
             beim nächsten Besuch wiederzuerkennen.
           </p>
-          <p className="mb-4">
+          <p className='mb-4'>
             Sie können Ihren Browser so einstellen, dass Sie über das Setzen von
             Cookies informiert werden und Cookies nur im Einzelfall erlauben,
             die Annahme von Cookies für bestimmte Fälle oder generell
@@ -250,7 +263,7 @@ const datenschutz = () => {
             Schließen des Browser aktivieren. Bei der Deaktivierung von Cookies
             kann die Funktionalität dieser Website eingeschränkt sein.
           </p>
-          <p className="mb-4">
+          <p className='mb-4'>
             Cookies, die zur Durchführung des elektronischen
             Kommunikationsvorgangs oder zur Bereitstellung bestimmter, von Ihnen
             erwünschter Funktionen (z.B. Warenkorbfunktion) erforderlich sind,

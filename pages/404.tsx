@@ -6,6 +6,18 @@ import React from 'react'
 const Custom404 = () => {
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems'
+        />
+        <meta
+          name='description'
+          content='Carenuity ChipGlobe Electronics Embedded Systems'
+        />
+        <title>Page Not Found</title>
+      </Head>
+      
       <section className='p-0'>
         <div className='container d-flex flex-column position-relative z-index-9'>
           <div className='row align-items-center min-vh-100 text-center justify-content-center'>

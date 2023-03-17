@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react'
 import BlogLayout from '../components/BlogLayout';
@@ -7,6 +8,15 @@ import PageTitle from '../components/PageTitle';
 const legal = () => {
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Legal Notice'
+        />
+        <meta name='description' content='Real Estate Electronics Matter' />
+        <title>Carenuity</title>
+      </Head>
+      
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle

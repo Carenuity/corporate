@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react'
 import BlogLayout from '../components/BlogLayout';
@@ -7,6 +8,15 @@ import PageTitle from '../components/PageTitle';
 const privacy = () => {
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Privacy Policy'
+        />
+        <meta name='description' content='Real Estate Electronics Matter' />
+        <title>Carenuity</title>
+      </Head>
+      
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
@@ -502,8 +512,8 @@ const privacy = () => {
             server is informed about which of our pages you have visited.
           </p>
           <p className='mb-4'>
-            If you&apos;re logged in to your YouTube account, YouTube allows you to
-            associate your browsing behavior directly with your personal
+            If you&apos;re logged in to your YouTube account, YouTube allows you
+            to associate your browsing behavior directly with your personal
             profile. You can prevent this by logging out of your YouTube
             account.
           </p>
@@ -513,7 +523,7 @@ const privacy = () => {
           </p>
           <p className='mb-4'>
             Further information about handling user data, can be found in the
-            data protection declaration of YouTube under {' '}
+            data protection declaration of YouTube under{' '}
             <Link href='https://www.google.de/intl/de/policies/privacy'>
               https://www.google.de/intl/de/policies/privacy.
             </Link>
@@ -539,11 +549,11 @@ const privacy = () => {
             by your computer.
           </p>
           <p className='mb-4'>
-            Further information about handling user data, can be found at {' '}
+            Further information about handling user data, can be found at{' '}
             <Link href='https://developers.google.com/fonts/faq'>
               https://developers.google.com/fonts/faq
             </Link>{' '}
-            and in Google&apos;s privacy policy at {' '}
+            and in Google&apos;s privacy policy at{' '}
             <Link href='https://www.google.com/policies/privacy/'>
               https://www.google.com/policies/privacy/.
             </Link>

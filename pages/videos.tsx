@@ -1,4 +1,5 @@
 import { GetServerSideProps, GetServerSidePropsContext } from 'next';
+import Head from 'next/head';
 import React from 'react'
 import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
@@ -8,6 +9,15 @@ import { YoutubeVideo } from '../utils/types/YoutubeVideo';
 const videos = ({ videos }: {videos: YoutubeVideo[]}) => {
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Applications Videos'
+        />
+        <meta name='description' content='Real Estate Electronics Matter' />
+        <title>Electronic Applications - Carenuity</title>
+      </Head>
+      
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
@@ -21,10 +31,12 @@ const videos = ({ videos }: {videos: YoutubeVideo[]}) => {
       <section>
         <div className='container'>
           <div className='row mt-n4'>
-
             {videos.length > 0 &&
               videos.map((video: YoutubeVideo, index: number) => (
-                <div key={index} className='col-md-6 col-xl-4 mt-4 wow fadeInUp'>
+                <div
+                  key={index}
+                  className='col-md-6 col-xl-4 mt-4 wow fadeInUp'
+                >
                   <Video
                     banner={video.thumbnail.url}
                     videoUrl={video.url}
@@ -32,7 +44,6 @@ const videos = ({ videos }: {videos: YoutubeVideo[]}) => {
                   />
                 </div>
               ))}
-              
           </div>
         </div>
       </section>

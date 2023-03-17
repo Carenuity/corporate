@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react'
 import BlogLayout from '../components/BlogLayout';
@@ -7,6 +8,18 @@ import PageTitle from '../components/PageTitle';
 const impressum = () => {
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Impressum'
+        />
+        <meta
+          name='description'
+          content='Carenuity ChipGlobe Electronics Embedded Systems Legal Notice'
+        />
+        <title>Impressum</title>
+      </Head>
+      
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle

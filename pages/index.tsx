@@ -1,5 +1,6 @@
 import { Inter } from '@next/font/google';
 import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import { useEffect } from 'react';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
@@ -20,6 +21,15 @@ export default function Home({ isHome }: { isHome: boolean }) {
 
   return (
     <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems'
+        />
+        <meta name='description' content='Real Estate Electronics Matter' />
+        <title>Carenuity</title>
+      </Head>
+      
       {/* <!-- BANNER
         ================================================== --> */}
       <Banner
