@@ -7,13 +7,6 @@ import PageTitle from '../components/PageTitle';
 const privacy = () => {
   return (
     <>
-      {/* <!-- HEADER
-        ================================================== --> */}
-      <Header
-        classNames={['header-style2', 'navbar-brand logodefault']}
-        logoUrl='img/logos/logo.png'
-      />
-
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle

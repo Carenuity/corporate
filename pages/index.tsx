@@ -1,11 +1,12 @@
 import { Inter } from '@next/font/google';
+import { GetStaticProps } from 'next';
 import { useEffect } from 'react';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export default function Home({ isHome }: { isHome: boolean }) {
   useEffect(() => {
     if (typeof document !== undefined) {
       const { jarallax, jarallaxVideo } = require('jarallax');
@@ -19,13 +20,6 @@ export default function Home() {
 
   return (
     <>
-      {/* <!-- HEADER
-        ================================================== --> */}
-      <Header
-        classNames={['header-style1 menu_area-light', 'navbar-brand']}
-        logoUrl='img/logos/logo-inner.png'
-      />
-
       {/* <!-- BANNER
         ================================================== --> */}
       <Banner
@@ -569,4 +563,12 @@ export default function Home() {
       </section>
     </>
   );
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {
+      isHome: true,
+    }
+  }
 }

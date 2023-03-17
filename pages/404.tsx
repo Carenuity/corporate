@@ -1,9 +1,14 @@
+import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react'
 
 const Custom404 = () => {
   return (
     <>
+    <Head>
+      <
+    </Head>
       <section className='p-0'>
         <div className='container d-flex flex-column position-relative z-index-9'>
           <div className='row align-items-center min-vh-100 text-center justify-content-center'>
@@ -38,5 +43,13 @@ const Custom404 = () => {
     </>
   );
 };
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {
+      noHeader: true,
+    }
+  }
+}
 
 export default Custom404;

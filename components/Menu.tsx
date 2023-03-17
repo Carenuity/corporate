@@ -4,11 +4,9 @@ import React from 'react'
 const Menu = ({
   loginUrl,
   webFlashingUrl,
-  applicationsUrl,
 }: {
   loginUrl: string;
-  webFlashingUrl: string;
-  applicationsUrl : string;}) => {
+  webFlashingUrl: string;}) => {
   return (
     <>
       <ul className='navbar-nav ms-auto' id='nav'>
@@ -100,7 +98,7 @@ const Menu = ({
           </ul>
         </li>
         <li>
-          <Link href={applicationsUrl} target='_blank'>Applications</Link>
+          <Link href='/videos'>Applications</Link>
         </li>
         <li>
           <Link href='/about'>About Us</Link>
@@ -121,7 +119,7 @@ const Menu = ({
                 href='/blogs'
                 style={{ pointerEvents: 'none', color: 'grey' }}
               >
-                Blog
+                Blogs
               </Link>
             </li>
             <li>

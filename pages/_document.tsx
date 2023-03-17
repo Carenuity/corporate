@@ -13,28 +13,10 @@ export default function Document() {
           name='viewport'
           content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
         />
-        <meta
-          name='keywords'
-          content='IT Solutions and Services HTML Template'
-        />
-        <meta
-          name='description'
-          content='Solutic - IT Solutions and Services HTML Template'
-        />
 
         {/* favicon */}
         <link rel='shortcut icon' href='img/logos/favicon.ico' />
         <link rel='apple-touch-icon' href='img/logos/apple-touch-icon.png' />
-        {/* <link
-          rel='apple-touch-icon'
-          sizes='72x72'
-          href='img/logos/apple-touch-icon-72x72.png'
-        />
-        <link
-          rel='apple-touch-icon'
-          sizes='114x114'
-          href='img/logos/apple-touch-icon-114x114.png'
-        /> */}
       </Head>
       <body>
         <Main />
