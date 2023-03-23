@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 
-const Layout = ({ aboutUsSammury, children }: { aboutUsSammury: string; children: any }) => {
+const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl, authUrl, logoUrl, children }: { aboutUsSammury: string; applicationVideosUrl: string; shopUrl: string; webFlashingUrl: string; authUrl: string; logoUrl: string; children: any }) => {
   return (
     <>
       {/* <!-- PAGE LOADING
@@ -14,13 +14,21 @@ const Layout = ({ aboutUsSammury, children }: { aboutUsSammury: string; children
       {!children.props.isHome && !children.props.noHeader && (
         <Header
           classNames={['header-style2', 'navbar-brand logodefault']}
-          logoUrl='img/logos/logo.png'
+          logoUrl={logoUrl}
+          applicationVideosUrl={applicationVideosUrl}
+          shopUrl={shopUrl}
+          webFlashingUrl={webFlashingUrl}
+          authUrl={authUrl}
         />
       )}
       {children.props.isHome && !children.props.noHeader && (
         <Header
           classNames={['header-style1 menu_area-light', 'navbar-brand']}
           logoUrl='img/logos/logo-inner.png'
+          applicationVideosUrl={applicationVideosUrl}
+          shopUrl={shopUrl}
+          webFlashingUrl={webFlashingUrl}
+          authUrl={authUrl}
         />
       )}
 

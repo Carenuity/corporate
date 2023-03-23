@@ -1,7 +1,6 @@
 import { GetServerSideProps, GetServerSidePropsContext } from 'next';
 import Head from 'next/head';
 import React from 'react'
-import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
 import Video from '../components/Video';
 import { YoutubeVideo } from '../utils/types/YoutubeVideo';
@@ -17,7 +16,7 @@ const videos = ({ videos }: {videos: YoutubeVideo[]}) => {
         <meta name='description' content='Real Estate Electronics Matter' />
         <title>Electronic Applications - Carenuity</title>
       </Head>
-      
+
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
@@ -44,6 +43,7 @@ const videos = ({ videos }: {videos: YoutubeVideo[]}) => {
                   />
                 </div>
               ))}
+            {videos.length === 0 && <p>No Video Content</p>}
           </div>
         </div>
       </section>
@@ -55,7 +55,7 @@ export const getServerSideProps: GetServerSideProps = async (context: GetServerS
   const channelId = process.env.YOUTUBE_CHANNEL_ID;
   const maxResult = 50;
   const apiKey = process.env.YOUTUBE_API_KEY;
-  try {
+  /* try {
     const res = await fetch(
       `https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=${channelId}&maxResults=${maxResult}&key=${apiKey}&type=video`
     );
@@ -79,7 +79,12 @@ export const getServerSideProps: GetServerSideProps = async (context: GetServerS
         videos: [],
       },
     };
-  }  
+  }*/
+  return {
+    props: {
+      videos: [],
+    },
+  };
 }
 
 export default videos

@@ -3,11 +3,16 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useEffect } from 'react';
 import Banner from '../components/Banner';
-import Header from '../components/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home({ isHome }: { isHome: boolean }) {
+export default function Home({
+  isHome,
+  applicationVideosUrl,
+}: {
+  isHome: boolean;
+  applicationVideosUrl: string;
+}) {
   useEffect(() => {
     if (typeof document !== undefined) {
       const { jarallax, jarallaxVideo } = require('jarallax');
@@ -29,13 +34,13 @@ export default function Home({ isHome }: { isHome: boolean }) {
         <meta name='description' content='Real Estate Electronics Matter' />
         <title>Carenuity</title>
       </Head>
-      
+
       {/* <!-- BANNER
         ================================================== --> */}
       <Banner
         bannerImage='img/banner.jpg'
         slogan='Real Estate Electronics Matter'
-        applicationsVideoUrl='https://www.youtube.com/watch?v=i3pwQ2BWTO8'
+        applicationVideosUrl={applicationVideosUrl}
       />
 
       {/* <!-- WHAT WE DO

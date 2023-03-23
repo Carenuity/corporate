@@ -3,11 +3,21 @@ import React from 'react';
 import Menu from './Menu';
 import TopSearch from './TopSearch';
 
-const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string }) => {
-  const loginUrl =
-    'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
-  const shopUrl = 'https://www.chipglobe.shop';
-  const webFlashingUrl = 'https://chipglobe-dev.web.app/';
+const Header = ({
+  classNames,
+  logoUrl,
+  applicationVideosUrl,
+  shopUrl,
+  webFlashingUrl,
+  authUrl,
+}: {
+  classNames: string[];
+  logoUrl: string;
+  applicationVideosUrl: string;
+  shopUrl: string;
+  webFlashingUrl: string;
+  authUrl: string;
+}) => {
   return (
     <>
       {/* <!-- HEADER
@@ -35,26 +45,27 @@ const Header = ({ classNames, logoUrl }: { classNames: string[]; logoUrl: string
 
                     {/* <!-- start menu area --> */}
                     <Menu
-                      loginUrl={loginUrl}
+                      authUrl={authUrl}
                       webFlashingUrl={webFlashingUrl}
+                      applicationVideosUrl={applicationVideosUrl}
                     />
                     {/* <!-- end menu area --> */}
 
                     {/* <!-- start attribute navigation --> */}
                     <div className='attr-nav align-items-xl-center ms-xl-auto main-font'>
                       <ul>
-                        <li className='search'>
+                        {/* <li className='search'>
                           <a href='#!'>
                             <i className='fas fa-search'></i>
                           </a>
-                        </li>
+                        </li> */}
                         <li className='d-none d-xl-inline-block'>
                           <Link href={shopUrl} className='btn-style1 medium'>
                             <span>Shop</span>
                           </Link>
                         </li>
                         <li className='d-none d-xl-inline-block'>
-                          <Link href={loginUrl}>
+                          <Link href={authUrl}>
                             <span>Login / Register</span>
                           </Link>
                         </li>

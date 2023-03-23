@@ -13,6 +13,11 @@ declare global {
 
 export default function App({ Component, pageProps }: AppProps) {
   const aboutUsSammury = `We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`;
+  const applicationVideosUrl = 'https://www.youtube.com/watch?v=i3pwQ2BWTO8';
+  const shopUrl = 'https://www.chipglobe.shop';
+  const authUrl = 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
+  const webFlashingUrl = 'https://chipglobe-dev.web.app/';
+  const logoUrl = 'img/logos/logo.png';
 
   useEffect(() => {
     if (typeof document !== undefined) {
@@ -37,8 +42,19 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <>
-      <Layout aboutUsSammury={aboutUsSammury}>
-        <Component aboutUsSammury={aboutUsSammury} {...pageProps} />
+      <Layout
+        aboutUsSammury={aboutUsSammury}
+        applicationVideosUrl={applicationVideosUrl}
+        shopUrl={shopUrl}
+        webFlashingUrl={webFlashingUrl}
+        authUrl={authUrl}
+        logoUrl={logoUrl}
+      >
+        <Component
+          aboutUsSammury={aboutUsSammury}
+          applicationVideosUrl={applicationVideosUrl}
+          {...pageProps}
+        />
       </Layout>
     </>
   );

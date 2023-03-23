@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import BlogLayout from '../components/BlogLayout'
-import Header from '../components/Header'
 import PageTitle from '../components/PageTitle'
 
 const datenschutz = () => {

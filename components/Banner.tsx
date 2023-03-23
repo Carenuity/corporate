@@ -4,11 +4,11 @@ import React from 'react'
 const Banner = ({
   bannerImage,
   slogan,
-  applicationsVideoUrl,
+  applicationVideosUrl,
 }: {
   bannerImage: string;
   slogan: string;
-  applicationsVideoUrl: string;
+  applicationVideosUrl: string;
 }) => {
   return (
     <>
@@ -34,7 +34,7 @@ const Banner = ({
                     <div className='video-box'>
                       <div className='story-video'>
                         <Link
-                          href={applicationsVideoUrl}
+                          href={applicationVideosUrl}
                           className='video btn-style1 animated fadeInUp'
                         >
                           <span className='animated fadeInUp'>

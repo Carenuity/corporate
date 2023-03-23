@@ -2,11 +2,14 @@ import Link from 'next/link';
 import React from 'react'
 
 const Menu = ({
-  loginUrl,
+  authUrl,
   webFlashingUrl,
+  applicationVideosUrl,
 }: {
-  loginUrl: string;
-  webFlashingUrl: string;}) => {
+  authUrl: string;
+  webFlashingUrl: string;
+  applicationVideosUrl: string;
+}) => {
   return (
     <>
       <ul className='navbar-nav ms-auto' id='nav'>
@@ -14,7 +17,7 @@ const Menu = ({
           <Link href='/'>Home</Link>
         </li>
         <li>
-          <Link href='/products'>Products</Link>
+          <Link href='/#!'>Products</Link>
           <ul className='row megamenu'>
             <li className='col-lg-2 pt-3'>
               <img
@@ -98,10 +101,9 @@ const Menu = ({
           </ul>
         </li>
         <li>
-          <Link href='/videos'>Applications</Link>
-        </li>
-        <li>
-          <Link href='/about'>About Us</Link>
+          <Link href={applicationVideosUrl} target='_blank'>
+            Applications
+          </Link>
         </li>
         <li>
           <a href='#!'>Contact</a>
@@ -124,7 +126,7 @@ const Menu = ({
             </li>
             <li>
               <Link
-                href='/help'
+                href='/videos'
                 style={{ pointerEvents: 'none', color: 'grey' }}
               >
                 Help Center
@@ -133,10 +135,13 @@ const Menu = ({
             <li>
               <Link href='/#contact-us'>Contact Us</Link>
             </li>
+            <li>
+              <Link href='/about'>About Us</Link>
+            </li>
           </ul>
         </li>
         <li className='d-lg-none d-inline-block'>
-          <Link href={loginUrl} className=''>
+          <Link href={authUrl} className=''>
             <span>Login / Register</span>
           </Link>
         </li>
