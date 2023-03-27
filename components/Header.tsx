@@ -48,6 +48,7 @@ const Header = ({
                       authUrl={authUrl}
                       webFlashingUrl={webFlashingUrl}
                       applicationVideosUrl={applicationVideosUrl}
+                      shopUrl={shopUrl}
                     />
                     {/* <!-- end menu area --> */}
 
@@ -60,7 +61,11 @@ const Header = ({
                           </a>
                         </li> */}
                         <li className='d-none d-xl-inline-block'>
-                          <Link href={shopUrl} target='_blank' className='btn-style1 medium'>
+                          <Link
+                            href={shopUrl}
+                            target='_blank'
+                            className='btn-style1 medium'
+                          >
                             <span>Shop</span>
                           </Link>
                         </li>

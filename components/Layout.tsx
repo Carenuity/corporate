@@ -24,7 +24,7 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
       {children.props.isHome && !children.props.noHeader && (
         <Header
           classNames={['header-style1 menu_area-light', 'navbar-brand']}
-          logoUrl='img/logos/logo-inner.png'
+          logoUrl='/img/logos/logo-inner.png'
           applicationVideosUrl={applicationVideosUrl}
           shopUrl={shopUrl}
           webFlashingUrl={webFlashingUrl}

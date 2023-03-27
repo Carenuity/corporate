@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const AboutUs = ({
@@ -58,10 +59,12 @@ const AboutUs = ({
             </div>
           </div>
         </div>
-        <img
-          src='img/bg/bg-06.png'
+        <Image
+        width={300}
+        height={500}
+          src='/img/bg/bg-06.png'
           className='position-absolute left bottom-5 opacity4'
-          alt='...'
+          alt='Carenuity'
         />
       </section>
     </>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -5,10 +6,12 @@ const Menu = ({
   authUrl,
   webFlashingUrl,
   applicationVideosUrl,
+  shopUrl,
 }: {
   authUrl: string;
   webFlashingUrl: string;
   applicationVideosUrl: string;
+  shopUrl: string;
 }) => {
   return (
     <>
@@ -20,7 +23,9 @@ const Menu = ({
           <Link href='/#!'>Products</Link>
           <ul className='row megamenu'>
             <li className='col-lg-2 pt-3'>
-              <img
+              <Image
+                width={300}
+                height={300}
                 src='/img/banner/PRODUCTS_left_Modular-Sensors-Selection_190x190.png'
                 alt=''
                 className='img-fluid'
@@ -70,9 +75,11 @@ const Menu = ({
               </ul>
             </li>
             <li className='col-lg-3'>
-              <img
-                src='img/banner/PRODUCTS_right_C3-Installer_Service_190x190.png'
-                alt=''
+              <Image
+                width={300}
+                height={300}
+                src='/img/banner/PRODUCTS_right_C3-Installer_Service_190x190.png'
+                alt='Carenuity services'
                 className='img-fluid'
               />
             </li>
@@ -141,8 +148,13 @@ const Menu = ({
           </ul>
         </li>
         <li className='d-lg-none d-inline-block'>
-          <Link href={authUrl} className=''>
-            <span>Login / Register</span>
+          <Link href={shopUrl} target='_blank'>
+            Shop
+          </Link>
+        </li>
+        <li className='d-lg-none d-inline-block'>
+          <Link href={authUrl}>
+            Login / Register
           </Link>
         </li>
       </ul>

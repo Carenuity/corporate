@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -31,10 +32,12 @@ const Custom404 = () => {
               }}
             >
               <div className='my-1-6'>
-                <img
-                  src='img/content/404-img.png'
+                <Image
+                width={225}
+                height={225}
+                  src='/img/404.png'
                   className='mb-1-9'
-                  alt='...'
+                  alt='Page not found'
                 />
                 <h1 className='mb-3 h2'>Oops! This Page is Not Found.</h1>
                 <p className='mb-1-9'>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
@@ -17,7 +18,12 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
               >
                 <div className='d-flex align-items-center'>
                   <div className='flex-shrink-0'>
-                    <img src='img/icons/07.png' alt='...' />
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/img/icons/07.png'
+                      alt='...'
+                    />
                   </div>
                   <div className='flex-grow-1 ms-3'>
                     <p className='mb-0 text-white'>Contact Us</p>
@@ -38,7 +44,12 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
               >
                 <div className='footer-logo'>
                   <Link href='/'>
-                    <img src='img/logos/logo-inner.png' alt='...' />
+                    <Image
+                      width={150}
+                      height={100}
+                      src='/img/logos/logo-inner.png'
+                      alt='...'
+                    />
                   </Link>
                 </div>
               </div>
@@ -59,7 +70,12 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                     </h3>
                   </div>
                   <div className='flex-shrink-0 order-1 order-lg-2'>
-                    <img src='img/icons/08.png' alt='...' />
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/img/icons/08.png'
+                      alt='...'
+                    />
                   </div>
                 </div>
               </div>

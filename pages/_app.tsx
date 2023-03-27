@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const shopUrl = 'https://www.chipglobe.shop';
   const authUrl = 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
   const webFlashingUrl = 'https://chipglobe-dev.web.app/';
-  const logoUrl = 'img/logos/logo.png';
+  const logoUrl = '/img/logos/logo.png';
 
   useEffect(() => {
     if (typeof document !== undefined) {
