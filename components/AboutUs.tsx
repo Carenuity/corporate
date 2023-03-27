@@ -13,7 +13,7 @@ const AboutUs = ({
 }) => {
   return (
     <>
-      <section className='overflow-visible pb-0'>
+      <section className='overflow-visible pb-0 pt-4'>
         <div className='container position-relative z-index-3'>
           <div className='row align-items-center about-style-03'>
             <div className='col-lg-8 wow fadeIn' data-wow-delay='200ms'>
@@ -48,8 +48,8 @@ const AboutUs = ({
               className='col-lg-4 wow fadeIn px-0 align-self-end'
               data-wow-delay='400ms'
             >
-              <div className='bg-secondary pt-3 pt-lg-9 pt-xxl-13 pb-3 pb-xxl-8 px-2-2 px-xxl-10 position-relative z-index-9 why-chooseus'>
-                <div className='me-xxl-15'>
+              <div className='bg-secondary pt-3 pt-lg-9 pt-xxl-13 pb-3 pb-xxl-8 px-2-2 px-xxl-5 position-relative z-index-9 why-chooseus'>
+                <div className='me-xxl-2'>
                   <p className='text-white mb-2-3 opacity9'>
                     {visionDescription}
                   </p>

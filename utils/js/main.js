@@ -123,7 +123,7 @@
             animateClass: 'animated', // default
             offset: 0, // default
             mobile: false, // default
-            live: true // default
+            live: false // default - true
         })
         wow.init();
 

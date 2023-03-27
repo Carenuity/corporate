@@ -6,14 +6,13 @@ const PageTitle = ({
   prevPageUrl,
   pageTitle,
   pageUrl,
-  bgImage,
 }: {
   prevPage: string;
   prevPageUrl: string;
   pageTitle: string;
   pageUrl: string;
-  bgImage: string;
 }) => {
+  const bgImage = 'img/banner.jpg';
   useEffect(() => {
     if (typeof document !== undefined) {
       require('../utils/js/jarallax.min.js');
@@ -24,7 +23,7 @@ const PageTitle = ({
     <>
       <section
         className='page-title-section bg-img cover-background mx-lg-1-6 mx-xl-2-5 mx-xxl-2-9 left-overlay-dark'
-        data-overlay-dark='8'
+        data-overlay-dark='6'
         style={{
           backgroundImage: `url(${bgImage})`,
         }}

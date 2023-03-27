@@ -93,7 +93,7 @@ const Menu = ({
                     style={{ pointerEvents: 'none', color: 'grey' }}
                   >
                     <i className='fas fa-microchip me-2'></i>
-                    SQ-APP (Launch 2024)
+                    SQ-APP (launch 2024)
                   </Link>
                 </li>
               </ul>

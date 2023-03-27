@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react'
 import BlogLayout from '../components/BlogLayout';
 import PageTitle from '../components/PageTitle';
+import { LANG_GERMANY } from '../utils/constants';
 
 const impressum = () => {
   return (
@@ -26,12 +27,11 @@ const impressum = () => {
         prevPageUrl='/'
         pageTitle='Impressum'
         pageUrl='/impressum'
-        bgImage='img/banner/page-title.jpg'
       />
 
       {/* <!-- BLOG DETAILS
         ================================================== --> */}
-      <BlogLayout>
+      <BlogLayout lang={LANG_GERMANY}>
         <div className='wow fadeIn' data-wow-delay='20ms'>
           <h3 className='h4 mb-3 text-primary'>Streitschlichtung</h3>
           {/* <h5 className='h6 mb-2'>Sub Topic</h5> */}

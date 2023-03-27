@@ -60,7 +60,7 @@ const Header = ({
                           </a>
                         </li> */}
                         <li className='d-none d-xl-inline-block'>
-                          <Link href={shopUrl} className='btn-style1 medium'>
+                          <Link href={shopUrl} target='_blank' className='btn-style1 medium'>
                             <span>Shop</span>
                           </Link>
                         </li>

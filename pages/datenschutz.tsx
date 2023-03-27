@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import BlogLayout from '../components/BlogLayout'
 import PageTitle from '../components/PageTitle'
+import { LANG_GERMANY } from '../utils/constants'
 
 const datenschutz = () => {
   return (
@@ -26,12 +27,11 @@ const datenschutz = () => {
         prevPageUrl='/'
         pageTitle='Datenschutz'
         pageUrl='/datenschutz'
-        bgImage='img/banner/page-title.jpg'
       />
 
       {/* <!-- BLOG DETAILS
         ================================================== --> */}
-      <BlogLayout>
+      <BlogLayout lang={LANG_GERMANY}>
         <h2 className='text-primary mb-3'>Datenschutzerklärung:</h2>
         <div className='wow fadeIn' data-wow-delay='20ms'>
           <h3 className='h4 mb-3 text-primary'>

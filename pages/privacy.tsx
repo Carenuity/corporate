@@ -4,6 +4,7 @@ import React from 'react'
 import BlogLayout from '../components/BlogLayout';
 import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
+import { LANG_ENGLISH } from '../utils/constants';
 
 const privacy = () => {
   return (
@@ -24,10 +25,9 @@ const privacy = () => {
         prevPageUrl='/'
         pageTitle='Privacy Policy'
         pageUrl='/privacy'
-        bgImage='img/banner/page-title.jpg'
       />
 
-      <BlogLayout>
+      <BlogLayout lang={LANG_ENGLISH}>
         <h2 className='text-primary mb-3'>Privacy Policy</h2>
 
         <div className='wow fadeIn' data-wow-delay='20ms'>

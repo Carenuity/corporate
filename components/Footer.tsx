@@ -21,7 +21,14 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                   </div>
                   <div className='flex-grow-1 ms-3'>
                     <p className='mb-0 text-white'>Contact Us</p>
-                    <h3 className='mb-0 h5 text-white'>{phone}</h3>
+                    <h3 className='mb-0 h5 text-white'>
+                      <a
+                        href={`mailto:${phone.replaceAll(/[^0-9+]/g, '')}`}
+                        className='text-white text-dark-hover'
+                      >
+                        {phone}
+                      </a>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -42,7 +49,14 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 <div className='d-flex align-items-center text-lg-end'>
                   <div className='flex-grow-1 ms-3 ms-lg-0 me-lg-3 order-2 order-lg-1'>
                     <p className='mb-0 text-white'>Mail Us</p>
-                    <h3 className='mb-0 h5 text-white'>{email}</h3>
+                    <h3 className='mb-0 h5 text-white'>
+                      <a
+                        href={`mailto:${email}`}
+                        className='text-white text-dark-hover'
+                      >
+                        {email}
+                      </a>
+                    </h3>
                   </div>
                   <div className='flex-shrink-0 order-1 order-lg-2'>
                     <img src='img/icons/08.png' alt='...' />
@@ -107,11 +121,18 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                   </li>
                   <li className='text-white mb-3'>
                     <strong>Email:</strong>{' '}
-                    <span className='opacity8'>{email}</span>
+                    <a href={`mailto:${email}`} className='opacity8'>
+                      {email}
+                    </a>
                   </li>
                   <li className='text-white'>
                     <strong>Phone:</strong>{' '}
-                    <span className='opacity8'>{phone}</span>
+                    <a
+                      href={`tel:${phone.replaceAll(/[^0-9+]/gi, '')}`}
+                      className='opacity8'
+                    >
+                      {phone}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -128,10 +149,9 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </p>
                 <form
                   className='quform newsletter-form'
-                  action='quform/newsletter-two.php'
-                  method='post'
+                  action={`mailto:${email}`}
+                  method='GET'
                   encType='multipart/form-data'
-                  onClick={() => {}}
                 >
                   <div className='quform-elements'>
                     <div className='row'>
@@ -140,10 +160,15 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                         <div className='quform-element mb-0'>
                           <div className='quform-input'>
                             <input
+                              type='hidden'
+                              name='subject'
+                              value='Newsletter'
+                            />
+                            <input
                               className='form-control'
                               id='email_address'
                               type='text'
-                              name='email_address'
+                              name='body'
                               placeholder='Subscribe with us'
                             />
                           </div>

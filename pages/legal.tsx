@@ -4,6 +4,7 @@ import React from 'react'
 import BlogLayout from '../components/BlogLayout';
 import Header from '../components/Header';
 import PageTitle from '../components/PageTitle';
+import { LANG_ENGLISH } from '../utils/constants';
 
 const legal = () => {
   return (
@@ -24,10 +25,9 @@ const legal = () => {
         prevPageUrl='/'
         pageTitle='Legal Notice'
         pageUrl='/legal'
-        bgImage='img/banner/page-title.jpg'
       />
 
-      <BlogLayout>
+      <BlogLayout lang={LANG_ENGLISH}>
         <div className='wow fadeIn' data-wow-delay='20ms'>
           <h3 className='h4 mb-3 text-primary'>Legal Notice</h3>
 

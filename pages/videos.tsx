@@ -24,7 +24,6 @@ const videos = ({ videos }: {videos: YoutubeVideo[]}) => {
         prevPageUrl='/'
         pageTitle='Videos'
         pageUrl='/videos'
-        bgImage='img/banner/page-title.jpg'
       />
 
       <section>

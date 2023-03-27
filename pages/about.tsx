@@ -29,7 +29,7 @@ const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
         prevPageUrl='/'
         pageTitle='About Us'
         pageUrl='/about'
-        bgImage='img/banner/page-title.jpg'
+        // 'img/banner/page-title.jpg'
       />
 
       {/* <!-- ABOUT
@@ -40,26 +40,8 @@ const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
         vision={vision}
         visionDescription={visionDescription}
       />
-
-      {/* <!-- WHY CHOOSE US
-        ================================================== --> */}
-      {/* <WhyUs /> */}
-
-      {/* <!-- PROCESS
-        ================================================== --> */}
-      {/* <WorkingProcess /> */}
     </>
   );
 };
-
-// export const getStaticProps: GetStaticProps = async (
-//   context: GetStaticPropsContext
-// ) => {
-//   return {
-//     props: {
-//       logoUrl: 'img/logos/logo.png',
-//     },
-//   };
-// };
 
 export default about;
