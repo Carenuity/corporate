@@ -12,7 +12,7 @@ const PageTitle = ({
   pageTitle: string;
   pageUrl: string;
 }) => {
-  const bgImage = 'img/banner.jpg';
+  const bgImage = '/img/banner.jpg';
   useEffect(() => {
     if (typeof document !== undefined) {
       require('../utils/js/jarallax.min.js');

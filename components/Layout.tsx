@@ -15,7 +15,7 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
       {!children.props.isHome && !children.props.noHeader && (
         <Header
           classNames={['header-style2', 'navbar-brand logodefault']}
-          logoUrl={logoUrl}
+          logoUrl='/img/logos/logo.png'
           shopUrl={shopUrl}
           webFlashingUrl={webFlashingUrl}
           authUrl={authUrl}
@@ -43,7 +43,11 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
       </div>
 
       {/* video pop-up */}
-      <VideoPopUp id='applications-btn' url={applicationVideosUrl} show={false} />
+      <VideoPopUp
+        id='applications-btn'
+        url={applicationVideosUrl}
+        show={false}
+      />
 
       {/* <!-- SCROLL TO TOP
     ================================================== --> */}

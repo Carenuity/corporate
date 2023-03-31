@@ -14,8 +14,8 @@ const SidebarContentDe = () => {
           Cincinnatistr. 60 <br />
           81549 München <br />
         </p>
-        <p>
-          <span>
+        <div>
+          <div>
             Tel.:{' '}
             <a
               href='tel:+4989122246900'
@@ -23,9 +23,8 @@ const SidebarContentDe = () => {
             >
               <strong>+49 89 1222 469 00</strong>
             </a>
-          </span>
-          <br />
-          <span>
+          </div>
+          <div>
             Fax:{' '}
             <a
               href='tel:+4989122246969'
@@ -33,9 +32,8 @@ const SidebarContentDe = () => {
             >
               <strong>+49 89 1222 469 69</strong>
             </a>
-          </span>
-          <br />
-          <span>
+          </div>
+          <div>
             Email:{' '}
             <a
               href='mailto:info@chipglobe.com'
@@ -43,19 +41,18 @@ const SidebarContentDe = () => {
             >
               <strong>info@chipglobe.com</strong>
             </a>
-          </span>
-        </p>
+          </div>
+        </div>
       </address>
-      <p>
-        <span>
+      <div>
+        <p>
           Handelsregister München: <strong>HRB 209414</strong>
-        </span>
-        <br />
-        <span>
+        </p>
+        <p>
           Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:{' '}
           <strong>DE293062415</strong>
-        </span>
-      </p>
+        </p>
+      </div>
       <p>
         <span>
           <strong>Geschäftsführung / V.i.S.d.P.</strong>
@@ -88,14 +85,14 @@ const SidebarContentDe = () => {
         <br />
         Volker Frisch
       </p>
-      <p>
+      <div>
         <strong>Webkonzept/Design</strong> <br />
         <DesignerAddress />
-      </p>
-      <p>
+      </div>
+      <div>
         <strong>Programmierung</strong>
         <DevAddress />
-      </p>
+      </div>
     </>
   );
 }

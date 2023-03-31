@@ -222,19 +222,21 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white'>
-                  <Link
-                    href='/privacy'
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                  <a
+                    href='/privacy/'
                     className='text-primary text-white-hover'
                   >
                     Privacy Policy
-                  </Link>{' '}
+                  </a>{' '}
                   |{' '}
-                  <Link
-                    href='/datenschutz'
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                  <a
+                    href='/datenschutz/'
                     className='text-primary text-white-hover'
                   >
                     Datenschutz
-                  </Link>
+                  </a>
                 </p>
               </div>
               <div
@@ -255,16 +257,18 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white'>
-                  <Link href='/legal' className='text-primary text-white-hover'>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                  <a href='/legal/' className='text-primary text-white-hover'>
                     Legal Notice
-                  </Link>{' '}
+                  </a>{' '}
                   |{' '}
-                  <Link
-                    href='/impressum'
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                  <a
+                    href='/impressum/'
                     className='text-primary text-white-hover'
                   >
                     Impressum
-                  </Link>
+                  </a>
                 </p>
               </div>
             </div>

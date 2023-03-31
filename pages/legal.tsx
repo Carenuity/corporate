@@ -35,7 +35,7 @@ const legal = () => {
           <p className='mb-4'>
             The European Commission provides a platform for online dispute
             resolution (OS):
-            <Link href='https://ec.europa.eu/consumers/odr'>
+            <Link href='https://ec.europa.eu/consumers/odr' target={'_blank'}>
               https://ec.europa.eu/consumers/odr.
             </Link>
             Please find our email in the impressum/legal notice.

@@ -16,8 +16,7 @@ const SidebarContentEn = () => {
           Cincinnatistrasse 60 <br />
           81549 Munich, Germany <br />
         </p>
-        <p>
-          <span>
+          <div>
             Tel.:{' '}
             <a
               href='tel:+4989122246900'
@@ -25,9 +24,8 @@ const SidebarContentEn = () => {
             >
               <strong>+49 89 1222 469 00</strong>
             </a>
-          </span>
-          <br />
-          <span>
+          </div>
+          <div>
             Fax:{' '}
             <a
               href='tel:+4989122246969'
@@ -35,9 +33,8 @@ const SidebarContentEn = () => {
             >
               <strong>+49 89 1222 469 69</strong>
             </a>
-          </span>
-          <br />
-          <span>
+          </div>
+          <div>
             Email:{' '}
             <a
               href='mailto:info@chipglobe.com'
@@ -45,19 +42,17 @@ const SidebarContentEn = () => {
             >
               <strong>info@chipglobe.com</strong>
             </a>
-          </span>
-        </p>
+          </div>
       </address>
-      <p>
-        <span>
+      <div>
+        <p>
           Munich Commercial Register: <strong>HRB 209414</strong>
-        </span>
-        <br />
-        <span>
+        </p>
+        <p>
           VAT ID number pursuant to Section 27a of the German VAT Act (UStG):{' '}
           <strong>DE293062415</strong>
-        </span>
-      </p>
+        </p>
+      </div>
       <p>
         <span>
           <strong>
@@ -95,14 +90,14 @@ const SidebarContentEn = () => {
          <br />
          Volker Frisch
       </p>
-      <p>
+      <div>
         <strong>Web-Concept/Design:</strong> 
         <DesignerAddress />
-      </p>
-      <p>
+      </div>
+      <div>
         <strong>Programming:</strong>
         <DevAddress />
-      </p>
+      </div>
     </>
   );
 }

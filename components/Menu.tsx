@@ -15,7 +15,8 @@ const Menu = ({
     <>
       <ul className='navbar-nav ms-auto' id='nav'>
         <li>
-          <Link href='/'>Home</Link>
+          {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+          <a href='/'>Home</a>
         </li>
         <li>
           <Link href='/#!'>Products</Link>
@@ -106,10 +107,14 @@ const Menu = ({
           </ul>
         </li>
         <li>
-          <Link href='#!' target='_blank' onClick={(e) => {
-            e.preventDefault();
-            window.$('#applications-btn').click();
-          }}>
+          <Link
+            href='#!'
+            target='_blank'
+            onClick={(e) => {
+              e.preventDefault();
+              window.$('#applications-btn').click();
+            }}
+          >
             Applications
           </Link>
         </li>
@@ -144,7 +149,8 @@ const Menu = ({
               <Link href='/#contact-us'>Contact Us</Link>
             </li>
             <li>
-              <Link href='/about'>About Us</Link>
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+              <a href='/about/'>About Us</a>
             </li>
           </ul>
         </li>
@@ -154,9 +160,7 @@ const Menu = ({
           </Link>
         </li>
         <li className='d-lg-none d-inline-block'>
-          <Link href={authUrl}>
-            Login / Register
-          </Link>
+          <Link href={authUrl}>Login / Register</Link>
         </li>
       </ul>
     </>
