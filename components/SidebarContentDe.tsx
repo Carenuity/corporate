@@ -1,4 +1,6 @@
 import React from 'react'
+import DesignerAddress from './DesignerAddress';
+import DevAddress from './DevAddress';
 
 const SidebarContentDe = () => {
   return (
@@ -88,35 +90,11 @@ const SidebarContentDe = () => {
       </p>
       <p>
         <strong>Webkonzept/Design</strong> <br />
-        <address>
-          two wings <br />
-          Georg-Faustner Weg 1, <br />
-          83627 Wall/Warngau <br />
-          Tel.{' '}
-          <a
-            href='tel:+4980259922697'
-            className='text-white text-primary-hover'
-          >
-            +49 8025 992 26 97
-          </a>{' '}
-          <br />
-        </address>
-        Roland Klemt, ChipGlobe GmbH
+        <DesignerAddress />
       </p>
       <p>
-        <strong>Programmierung/Typo3</strong> <br />
-        <address>
-          fairwilly E-Mail Automatisieurng & Webprogrammierung <br />
-          Industriestrasse 31, <br />
-          82194 Gröbenzell <br />
-          Tel.{' '}
-          <a
-            href='tel:+4981423056285'
-            className='text-white text-primary-hover'
-          >
-            +49 8142 305 62 85
-          </a>
-        </address>
+        <strong>Programmierung</strong>
+        <DevAddress />
       </p>
     </>
   );

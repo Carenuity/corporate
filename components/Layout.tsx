@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import VideoPopUp from './VideoPopUp';
 
 const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl, authUrl, logoUrl, children }: { aboutUsSammury: string; applicationVideosUrl: string; shopUrl: string; webFlashingUrl: string; authUrl: string; logoUrl: string; children: any }) => {
   return (
@@ -15,7 +16,6 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
         <Header
           classNames={['header-style2', 'navbar-brand logodefault']}
           logoUrl={logoUrl}
-          applicationVideosUrl={applicationVideosUrl}
           shopUrl={shopUrl}
           webFlashingUrl={webFlashingUrl}
           authUrl={authUrl}
@@ -25,7 +25,6 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
         <Header
           classNames={['header-style1 menu_area-light', 'navbar-brand']}
           logoUrl='/img/logos/logo-inner.png'
-          applicationVideosUrl={applicationVideosUrl}
           shopUrl={shopUrl}
           webFlashingUrl={webFlashingUrl}
           authUrl={authUrl}
@@ -42,6 +41,9 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
           aboutUsSammury={aboutUsSammury}
         />
       </div>
+
+      {/* video pop-up */}
+      <VideoPopUp id='applications-btn' url={applicationVideosUrl} show={false} />
 
       {/* <!-- SCROLL TO TOP
     ================================================== --> */}

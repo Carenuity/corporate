@@ -38,7 +38,7 @@ const BlogLayout = ({
                 {/* {iscommentable && <Reply />} */}
               </div>
             </div>
-            <div className='col-lg-4 pl-xl-2'>
+            <div className='col-lg-4 pl-xl-2  p-0'>
               <Sidebar>
                 {lang === LANG_ENGLISH && <SidebarContentEn />}
                 {lang === LANG_GERMANY && <SidebarContentDe />}

@@ -1,16 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 
 const Menu = ({
   authUrl,
   webFlashingUrl,
-  applicationVideosUrl,
   shopUrl,
 }: {
   authUrl: string;
   webFlashingUrl: string;
-  applicationVideosUrl: string;
   shopUrl: string;
 }) => {
   return (
@@ -108,7 +106,10 @@ const Menu = ({
           </ul>
         </li>
         <li>
-          <Link href={applicationVideosUrl} target='_blank'>
+          <Link href='#!' target='_blank' onClick={(e) => {
+            e.preventDefault();
+            window.$('#applications-btn').click();
+          }}>
             Applications
           </Link>
         </li>

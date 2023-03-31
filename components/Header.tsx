@@ -6,14 +6,12 @@ import TopSearch from './TopSearch';
 const Header = ({
   classNames,
   logoUrl,
-  applicationVideosUrl,
   shopUrl,
   webFlashingUrl,
   authUrl,
 }: {
   classNames: string[];
   logoUrl: string;
-  applicationVideosUrl: string;
   shopUrl: string;
   webFlashingUrl: string;
   authUrl: string;
@@ -47,7 +45,6 @@ const Header = ({
                     <Menu
                       authUrl={authUrl}
                       webFlashingUrl={webFlashingUrl}
-                      applicationVideosUrl={applicationVideosUrl}
                       shopUrl={shopUrl}
                     />
                     {/* <!-- end menu area --> */}

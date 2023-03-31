@@ -1,4 +1,6 @@
 import React from 'react'
+import DesignerAddress from './DesignerAddress';
+import DevAddress from './DevAddress';
 
 const SidebarContentEn = () => {
   return (
@@ -94,10 +96,12 @@ const SidebarContentEn = () => {
          Volker Frisch
       </p>
       <p>
-        <strong>Webkonzept/Design:</strong> tbd
+        <strong>Web-Concept/Design:</strong> 
+        <DesignerAddress />
       </p>
       <p>
-        <strong>Programmierung/Typo3:</strong> tbd
+        <strong>Programming:</strong>
+        <DevAddress />
       </p>
     </>
   );
