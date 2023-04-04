@@ -89,7 +89,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
               data-wow-delay='200ms'
             >
               <h3 className='text-white h5 mb-1-9'>About Company</h3>
-              <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base'>
+              <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9'>
                 {/* opacity8 */}
                 {aboutUsSammury}
               </h4>
