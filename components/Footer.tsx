@@ -29,7 +29,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                     <p className='mb-0 text-white'>Contact Us</p>
                     <h3 className='mb-0 h5 text-white'>
                       <a
-                        href={`mailto:${phone.replaceAll(/[^0-9+]/g, '')}`}
+                        href={`tel:${phone.replaceAll(/[^0-9+]/g, '')}`}
                         className='text-white text-dark-hover'
                       >
                         {phone}
@@ -89,32 +89,53 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
               data-wow-delay='200ms'
             >
               <h3 className='text-white h5 mb-1-9'>About Company</h3>
-              <h4 className='text-white mb-1-9 fw-light w-75 display-27 lh-base opacity8'>
+              <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base'>
+                {/* opacity8 */}
                 {aboutUsSammury}
               </h4>
               <ul className='social-icon-style1'>
                 <li>
-                  <a href='https://www.facebook.com/C3.Mini'>
+                  <a
+                    href='https://www.facebook.com/C3.Mini'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
                     <i className='fab fa-facebook-f'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://twitter.com/search?q=c3-mini'>
+                  <a
+                    href='https://twitter.com/search?q=c3-mini'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
                     <i className='fab fa-twitter'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.instagram.com/carenuity'>
+                  <a
+                    href='https://www.instagram.com/carenuity'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
                     <i className='fab fa-instagram'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.youtube.com/@carenuity'>
+                  <a
+                    href='https://www.youtube.com/@carenuity'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
                     <i className='fab fa-youtube'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.linkedin.com/company/carenuity/'>
+                  <a
+                    href='https://www.linkedin.com/company/carenuity/'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
                     <i className='fab fa-linkedin-in'></i>
                   </a>
                 </li>
@@ -166,7 +187,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 <form
                   className='quform newsletter-form'
                   action={`mailto:${email}`}
-                  method='GET'
+                  method='post'
                   encType='multipart/form-data'
                 >
                   <div className='quform-elements'>
@@ -221,12 +242,9 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 className='col-md-3 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
-                <p className='d-inline-block text-white'>
+                <p className='d-inline-block text-white display-31'>
                   {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href='/privacy/'
-                    className='text-primary text-white-hover'
-                  >
+                  <a href='/privacy/' className='text-primary text-white-hover'>
                     Privacy Policy
                   </a>{' '}
                   |{' '}
@@ -240,13 +258,13 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </p>
               </div>
               <div
-                className='col-md-6 order-first order-md-0 mb-2 text-center wow fadeIn'
+                className='col-md-6 order-first order-md-0 mb-0 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
-                <p className='d-inline-block text-white mb-0'>
+                <p className='d-inline-block text-white mb-0 display-30'>
                   &copy; <span className='current-year'></span> ChipGlobe GmbH{' '}
                   <br />
-                  <span className='text-primary text-white-hover text-sm'>
+                  <span className='text-primary text-white-hover text-sm  display-31'>
                     ChipGlobe&trade; and Carenuity&trade; are Trademarks of
                     ChipGlobe GmbH{' '}
                   </span>
@@ -256,7 +274,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 className='col-md-3 text-center wow fadeIn'
                 data-wow-delay='100ms'
               >
-                <p className='d-inline-block text-white'>
+                <p className='d-inline-block text-white  display-31'>
                   {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a href='/legal/' className='text-primary text-white-hover'>
                     Legal Notice

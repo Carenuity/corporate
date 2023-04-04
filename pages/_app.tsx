@@ -12,7 +12,7 @@ declare global {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-  const aboutUsSammury = `We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`;
+  const aboutUsSammury = `We're delivering peace-in-mind by vital and environmental sensing and care that you see what no one else will see.`;
   const applicationVideosUrl = 'https://www.youtube.com/watch?v=i3pwQ2BWTO8';
   const shopUrl = 'https://www.chipglobe.shop';
   const authUrl = 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
