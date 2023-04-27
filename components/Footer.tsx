@@ -1,8 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
+import { StoreContext } from './context/Store';
 
-const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string; aboutUsSammury: string; }) => {
+const Footer = ({ isMobile }: { isMobile: boolean }) => {
+  const { state } = useContext(StoreContext);
+
   return (
     <>
       {/* <!-- FOOTER
@@ -29,10 +32,13 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                     <p className='mb-0 text-white'>Contact Us</p>
                     <h3 className='mb-0 h5 text-white'>
                       <a
-                        href={`tel:${phone.replaceAll(/[^0-9+]/g, '')}`}
+                        href={`tel:${state.companyInfo.phone.replaceAll(
+                          /[^0-9+]/g,
+                          ''
+                        )}`}
                         className='text-white text-dark-hover'
                       >
-                        {phone}
+                        {state.companyInfo.phone}
                       </a>
                     </h3>
                   </div>
@@ -47,7 +53,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                     <Image
                       width={150}
                       height={100}
-                      src='/img/logos/logo-inner.png'
+                      src={state.urls.logos[1]}
                       alt='...'
                     />
                   </Link>
@@ -62,10 +68,10 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                     <p className='mb-0 text-white'>Mail Us</p>
                     <h3 className='mb-0 h5 text-white'>
                       <a
-                        href={`mailto:${email}`}
+                        href={`mailto:${state.companyInfo.email}`}
                         className='text-white text-dark-hover'
                       >
-                        {email}
+                        {state.companyInfo.email}
                       </a>
                     </h3>
                   </div>
@@ -91,12 +97,12 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
               <h3 className='text-white h5 mb-1-9'>About Company</h3>
               <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9'>
                 {/* opacity8 */}
-                {aboutUsSammury}
+                {state.companyInfo.Sammury}
               </h4>
               <ul className='social-icon-style1'>
                 <li>
                   <a
-                    href='https://www.facebook.com/C3.Mini'
+                    href={state.urls.socialMediaHandles.facebook}
                     target={'_blank'}
                     rel='noreferrer'
                   >
@@ -105,7 +111,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </li>
                 <li>
                   <a
-                    href='https://twitter.com/search?q=c3-mini'
+                    href={state.urls.socialMediaHandles.twitter}
                     target={'_blank'}
                     rel='noreferrer'
                   >
@@ -114,7 +120,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </li>
                 <li>
                   <a
-                    href='https://www.instagram.com/carenuity'
+                    href={state.urls.socialMediaHandles.instagram}
                     target={'_blank'}
                     rel='noreferrer'
                   >
@@ -123,7 +129,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </li>
                 <li>
                   <a
-                    href='https://www.youtube.com/@carenuity'
+                    href={state.urls.socialMediaHandles.youTube}
                     target={'_blank'}
                     rel='noreferrer'
                   >
@@ -132,7 +138,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </li>
                 <li>
                   <a
-                    href='https://www.linkedin.com/company/carenuity/'
+                    href={state.urls.socialMediaHandles.linkedIn}
                     target={'_blank'}
                     rel='noreferrer'
                   >
@@ -151,24 +157,30 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                   <li className='text-white mb-3'>
                     <strong>Adress:</strong>{' '}
                     <span className='opacity8'>
-                      Chipglobe GmbH <br />
-                      Cincinnatistr. 60 <br />
-                      81549 Munich
+                      {state.companyInfo.address[0]} <br />
+                      {state.companyInfo.address[1]} <br />
+                      {state.companyInfo.address[2]}
                     </span>
                   </li>
                   <li className='text-white mb-3'>
                     <strong>Email:</strong>{' '}
-                    <a href={`mailto:${email}`} className='opacity8'>
-                      {email}
+                    <a
+                      href={`mailto:${state.companyInfo.email}`}
+                      className='opacity8'
+                    >
+                      {state.companyInfo.email}
                     </a>
                   </li>
                   <li className='text-white'>
                     <strong>Phone:</strong>{' '}
                     <a
-                      href={`tel:${phone.replaceAll(/[^0-9+]/gi, '')}`}
+                      href={`tel:${state.companyInfo.phone.replaceAll(
+                        /[^0-9+]/gi,
+                        ''
+                      )}`}
                       className='opacity8'
                     >
-                      {phone}
+                      {state.companyInfo.phone}
                     </a>
                   </li>
                 </ul>
@@ -186,7 +198,7 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 </p>
                 <form
                   className='quform newsletter-form'
-                  action={`mailto:${email}`}
+                  action={`mailto:${state.companyInfo.email}`}
                   method='post'
                   encType='multipart/form-data'
                 >
@@ -243,18 +255,41 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white display-31'>
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a href='/privacy/' className='text-primary text-white-hover'>
-                    Privacy Policy
-                  </a>{' '}
+                  {isMobile && (
+                    // eslint-disable-next-line @next/next/no-html-link-for-pages
+                    <a
+                      href='/privacy/'
+                      className='text-primary text-white-hover'
+                    >
+                      Privacy Policy
+                    </a>
+                  )}
+                  {!isMobile && (
+                    <Link
+                      href='/privacy'
+                      className='text-primary text-white-hover'
+                    >
+                      Privacy Policy
+                    </Link>
+                  )}{' '}
                   |{' '}
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href='/datenschutz/'
-                    className='text-primary text-white-hover'
-                  >
-                    Datenschutz
-                  </a>
+                  {isMobile && (
+                    // eslint-disable-next-line @next/next/no-html-link-for-pages
+                    <a
+                      href='/datenschutz/'
+                      className='text-primary text-white-hover'
+                    >
+                      Datenschutz
+                    </a>
+                  )}
+                  {!isMobile && (
+                    <Link
+                      href='/datenschutz'
+                      className='text-primary text-white-hover'
+                    >
+                      Datenschutz
+                    </Link>
+                  )}
                 </p>
               </div>
               <div
@@ -275,18 +310,38 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
                 data-wow-delay='100ms'
               >
                 <p className='d-inline-block text-white  display-31'>
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a href='/legal/' className='text-primary text-white-hover'>
-                    Legal Notice
-                  </a>{' '}
+                  {isMobile && (
+                    // eslint-disable-next-line @next/next/no-html-link-for-pages
+                    <a href='/legal/' className='text-primary text-white-hover'>
+                      Legal Notice
+                    </a>
+                  )}
+                  {!isMobile && (
+                    <Link
+                      href='/legal'
+                      className='text-primary text-white-hover'
+                    >
+                      Legal Notice
+                    </Link>
+                  )}{' '}
                   |{' '}
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href='/impressum/'
-                    className='text-primary text-white-hover'
-                  >
-                    Impressum
-                  </a>
+                  {isMobile && (
+                    // eslint-disable-next-line @next/next/no-html-link-for-pages
+                    <a
+                      href='/impressum/'
+                      className='text-primary text-white-hover'
+                    >
+                      Impressum
+                    </a>
+                  )}
+                  {!isMobile && (
+                    <Link
+                      href='/impressum'
+                      className='text-primary text-white-hover'
+                    >
+                      Impressum
+                    </Link>
+                  )}
                 </p>
               </div>
             </div>
@@ -297,4 +352,4 @@ const Footer = ({ phone, email, aboutUsSammury }: { phone: string; email: string
   );
 };
 
-export default Footer
+export default Footer;

@@ -1,22 +1,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, {  } from 'react';
 
 const Menu = ({
   authUrl,
   webFlashingUrl,
   shopUrl,
+  isMobile,
 }: {
   authUrl: string;
   webFlashingUrl: string;
   shopUrl: string;
+  isMobile: boolean;
 }) => {
   return (
     <>
       <ul className='navbar-nav ms-auto' id='nav'>
         <li>
           {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-          <a href='/'>Home</a>
+          {isMobile && <a href='/'>Home</a>}
+          {!isMobile && <Link href='/'>Home</Link>}
         </li>
         <li>
           <Link href='/#!'>Products</Link>
@@ -115,7 +118,7 @@ const Menu = ({
               window.$('#applications-btn').click();
             }}
           >
-            Applications
+            Benefits
           </Link>
         </li>
         <li>
@@ -146,11 +149,12 @@ const Menu = ({
               </Link>
             </li>
             <li>
-              <Link href='/#contact-us'>Contact Us</Link>
+              <Link href='#contact-us'>Contact Us</Link>
             </li>
             <li>
               {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-              <a href='/about/'>About Us</a>
+              {isMobile && <a href='/about/'>About Us</a>}
+              {!isMobile && <Link href='/about'>About Us</Link>}
             </li>
           </ul>
         </li>
@@ -167,4 +171,4 @@ const Menu = ({
   );
 };
 
-export default Menu
+export default Menu;

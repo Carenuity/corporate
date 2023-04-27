@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { ReactNode, useContext, useEffect, useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import VideoPopUp from './VideoPopUp';
+import { StoreContext } from './context/Store';
+import { handleMediaQueryChanges } from '../utils/common';
 
-const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl, authUrl, logoUrl, children }: { aboutUsSammury: string; applicationVideosUrl: string; shopUrl: string; webFlashingUrl: string; authUrl: string; logoUrl: string; children: any }) => {
+const Layout = ({ children }: { children: any }) => {
+  const { state } = useContext(StoreContext);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    mediaQuery.addEventListener('change', (e: MediaQueryListEvent) =>
+      handleMediaQueryChanges(e.matches, setIsMobile)
+    );
+    handleMediaQueryChanges(mediaQuery.matches, setIsMobile);
+  }, []);
+
+
   return (
     <>
       {/* <!-- PAGE LOADING
@@ -15,19 +29,13 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
       {!children.props.isHome && !children.props.noHeader && (
         <Header
           classNames={['header-style2', 'navbar-brand logodefault']}
-          logoUrl='/img/logos/logo.png'
-          shopUrl={shopUrl}
-          webFlashingUrl={webFlashingUrl}
-          authUrl={authUrl}
+          isMobile={isMobile}
         />
       )}
       {children.props.isHome && !children.props.noHeader && (
         <Header
           classNames={['header-style1 menu_area-light', 'navbar-brand']}
-          logoUrl='/img/logos/logo-inner.png'
-          shopUrl={shopUrl}
-          webFlashingUrl={webFlashingUrl}
-          authUrl={authUrl}
+          isMobile={isMobile}
         />
       )}
 
@@ -35,17 +43,13 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
     ================================================== --> */}
       <div className='main-wrapper'>
         {children}
-        <Footer
-          phone='(+49) 89-1222469-40'
-          email='info@carenuity.com'
-          aboutUsSammury={aboutUsSammury}
-        />
+        <Footer isMobile={isMobile} />
       </div>
 
       {/* video pop-up */}
       <VideoPopUp
         id='applications-btn'
-        url={applicationVideosUrl}
+        url={state.urls.benefitsVideo}
         show={false}
       />
 
@@ -57,7 +61,5 @@ const Layout = ({ aboutUsSammury, applicationVideosUrl, shopUrl, webFlashingUrl,
     </>
   );
 };
-
-
 
 export default Layout;

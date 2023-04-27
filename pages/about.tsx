@@ -1,12 +1,36 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import AboutUs from '../components/AboutUs';
 import PageTitle from '../components/PageTitle';
+import { StoreContext } from '../components/context/Store';
+import { StoreState } from '../utils/types';
 
-const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
-  const mission = `Our Mission is to provide all young and caregiving people with especially easy-to-use sensor-systems that allow them to monitor vital signs and indoor air quality parameters for their elderly family members and to select and recommend best suited sensors-systems for their safety and care.`;
-  const vision = `Our vision is to empower young and caregiving people with innovative and accessible technology solutions that enhance the safety, comfort, and well-being of elderly individuals, enabling them to age in place with dignity, privacy and independence.`;
-  const visionDescription = `This vision emphasizes the company's commitment to providing technology solutions that are both innovative and accessible, addressing the needs of both the elderly individuals and their caregivers. It also highlights the importance of promoting independence, privacy and dignity in aging, while recognizing the role that technology can play in supporting these goals.`;
+const About = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
+  const { state }: { state: StoreState; dispatch: Function } =
+    useContext(StoreContext);
+
+  // useEffect(() => {
+  //   if (typeof document !== undefined) {
+  //     window.$ = window.jQuery = require('jquery');
+  //     require('../utils/js/popper.min.js');
+  //     require('../utils/js/bootstrap.min.js');
+  //     require('../utils/js/nav-menu.js');
+  //     require('../utils/js/owl.carousel.js');
+  //     require('../utils/js/jquery.counterup.min.js');
+  //     require('../utils/js/jquery.stellar.min.js');
+  //     require('../utils/js/easy.responsive.tabs.js');
+  //     require('../utils/js/waypoints.min.js');
+  //     require('../utils/js/countdown.js');
+  //     require('../utils/js/jquery.magnific-popup.min.js');
+  //     require('../utils/js/lightgallery-all.js');
+  //     require('../utils/js/jquery.mousewheel.min.js');
+  //     require('../utils/js/clipboard.min.js');
+  //     require('../utils/js/prism.js');
+  //     window.wow = require('../utils/js/wow.js');
+  //     require('../utils/js/main.js');
+  //   }
+  // }, []);
+
 
   return (
     <>
@@ -21,7 +45,7 @@ const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
         />
         <title>About Carenuity</title>
       </Head>
-      
+
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
@@ -29,19 +53,18 @@ const about = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
         prevPageUrl='/'
         pageTitle='About Us'
         pageUrl='/about'
-        // 'img/banner/page-title.jpg'
       />
 
       {/* <!-- ABOUT
         ================================================== --> */}
       <AboutUs
         aboutUsSammury={aboutUsSammury}
-        mission={mission}
-        vision={vision}
-        visionDescription={visionDescription}
+        mission={state.companyInfo.mission}
+        vision={state.companyInfo.vision}
+        visionDescription={state.companyInfo.visionDescription}
       />
     </>
   );
 };
 
-export default about;
+export default About;

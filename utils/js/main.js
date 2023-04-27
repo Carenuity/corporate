@@ -55,12 +55,12 @@
             if (scroll <= 50) {
                 $("header").removeClass("scrollHeader").addClass("fixedHeader");
                 logochange.attr('src', '/img/logos/logo-inner.png');
-                logodefault.attr('src', '/img/logos/logo.png');
+                logodefault.attr('src', '/img/logos/logo.svg');
             } 
             else {
                 $("header").removeClass("fixedHeader").addClass("scrollHeader");
-                logochange.attr('src', '/img/logos/logo.png');
-                logodefault.attr('src', '/img/logos/logo.png');
+                logochange.attr('src', '/img/logos/logo.svg');
+                logodefault.attr('src', '/img/logos/logo.svg');
             }
         });
 

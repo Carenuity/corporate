@@ -1,7 +1,9 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { useEffect } from 'react';
 import Layout from '../components/Layout';
+import { StoreProvider } from '../components/context/Store';
+import Script from 'next/script';
 
 declare global {
   interface Window {
@@ -12,12 +14,6 @@ declare global {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-  const aboutUsSammury = `We're delivering peace-in-mind by vital and environmental sensing and care that you see what no one else will see.`;
-  const applicationVideosUrl = 'https://www.youtube.com/watch?v=i3pwQ2BWTO8';
-  const shopUrl = 'https://www.chipglobe.shop';
-  const authUrl = 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth';
-  const webFlashingUrl = 'https://chipglobe-dev.web.app/';
-  const logoUrl = '/img/logos/logo.png';
 
   useEffect(() => {
     if (typeof document !== undefined) {
@@ -40,22 +36,14 @@ export default function App({ Component, pageProps }: AppProps) {
       require('../utils/js/main.js');
     }
   }, []);
+
   return (
     <>
-      <Layout
-        aboutUsSammury={aboutUsSammury}
-        applicationVideosUrl={applicationVideosUrl}
-        shopUrl={shopUrl}
-        webFlashingUrl={webFlashingUrl}
-        authUrl={authUrl}
-        logoUrl={logoUrl}
-      >
-        <Component
-          aboutUsSammury={aboutUsSammury}
-          applicationVideosUrl={applicationVideosUrl}
-          {...pageProps}
-        />
-      </Layout>
+      <StoreProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </StoreProvider>
     </>
   );
 }

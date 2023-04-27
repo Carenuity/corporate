@@ -6,7 +6,10 @@ export default function Document() {
       <Head>
         {/* metas */}
         <meta charSet='utf-8' />
-        <meta name='author' content={process.env.AUTHOR} />
+        <meta
+          name='author'
+          content={'https://www.linkedin.com/in/paul-otieno-software-engineer/'}
+        />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta
           name='viewport'

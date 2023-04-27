@@ -1,21 +1,25 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useContext } from 'react';
 import Menu from './Menu';
 import TopSearch from './TopSearch';
+import { StoreContext } from './context/Store';
+import dynamic from 'next/dynamic';
+
 
 const Header = ({
   classNames,
-  logoUrl,
-  shopUrl,
-  webFlashingUrl,
-  authUrl,
+  isMobile,
 }: {
   classNames: string[];
-  logoUrl: string;
-  shopUrl: string;
-  webFlashingUrl: string;
-  authUrl: string;
+  isMobile: boolean;
 }) => {
+  const { state } = useContext(StoreContext);
+  let logoUrl = state.urls.logos[0];
+
+  if (classNames[1] === 'navbar-brand') {
+    logoUrl = state.urls.logos[1];
+  }
+
   return (
     <>
       {/* <!-- HEADER
@@ -43,9 +47,10 @@ const Header = ({
 
                     {/* <!-- start menu area --> */}
                     <Menu
-                      authUrl={authUrl}
-                      webFlashingUrl={webFlashingUrl}
-                      shopUrl={shopUrl}
+                      isMobile={isMobile}
+                      authUrl={state.urls.auth}
+                      webFlashingUrl={state.urls.webFlash}
+                      shopUrl={state.urls.shop}
                     />
                     {/* <!-- end menu area --> */}
 
@@ -59,7 +64,7 @@ const Header = ({
                         </li> */}
                         <li className='d-none d-xl-inline-block'>
                           <Link
-                            href={shopUrl}
+                            href={state.urls.shop}
                             target='_blank'
                             className='btn-style1 medium'
                           >
@@ -67,7 +72,7 @@ const Header = ({
                           </Link>
                         </li>
                         <li className='d-none d-xl-inline-block'>
-                          <Link href={authUrl}>
+                          <Link href={state.urls.auth}>
                             <span>Login / Register</span>
                           </Link>
                         </li>

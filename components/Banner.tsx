@@ -30,24 +30,13 @@ const Banner = ({
                 <h1 className='text-white font-weight-800 display-4 display-xl-3 mb-2-9'>
                   {slogan}
                 </h1>
-                <VideoPopUp url={applicationVideosUrl} title='Applications' show={true} />
-                {/* <div className='wow fadeIn' data-wow-delay='400ms'>
-                  <div className='right-img position-relative z-index-9'>
-                    <div className='video-box'>
-                      <div className='story-video'>
-                        <Link
-                          id='applications-btn'
-                          href={applicationVideosUrl}
-                          className='video btn-style1 animated fadeInUp'
-                        >
-                          <span className='animated fadeInUp'>
-                            Applications
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                {/* <VideoPopUp url={applicationVideosUrl} title='Applications' show={true} /> */}
+                <Link
+                  href={'https://chipglobe-dev.web.app/'}
+                  className='btn-style1 animated fadeInUp'
+                >
+                  <span className='animated fadeInUp'>Install For Free</span>
+                </Link>
               </div>
             </div>
           </div>
