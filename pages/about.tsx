@@ -5,32 +5,9 @@ import PageTitle from '../components/PageTitle';
 import { StoreContext } from '../components/context/Store';
 import { StoreState } from '../utils/types';
 
-const About = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
+const About = () => {
   const { state }: { state: StoreState; dispatch: Function } =
     useContext(StoreContext);
-
-  // useEffect(() => {
-  //   if (typeof document !== undefined) {
-  //     window.$ = window.jQuery = require('jquery');
-  //     require('../utils/js/popper.min.js');
-  //     require('../utils/js/bootstrap.min.js');
-  //     require('../utils/js/nav-menu.js');
-  //     require('../utils/js/owl.carousel.js');
-  //     require('../utils/js/jquery.counterup.min.js');
-  //     require('../utils/js/jquery.stellar.min.js');
-  //     require('../utils/js/easy.responsive.tabs.js');
-  //     require('../utils/js/waypoints.min.js');
-  //     require('../utils/js/countdown.js');
-  //     require('../utils/js/jquery.magnific-popup.min.js');
-  //     require('../utils/js/lightgallery-all.js');
-  //     require('../utils/js/jquery.mousewheel.min.js');
-  //     require('../utils/js/clipboard.min.js');
-  //     require('../utils/js/prism.js');
-  //     window.wow = require('../utils/js/wow.js');
-  //     require('../utils/js/main.js');
-  //   }
-  // }, []);
-
 
   return (
     <>
@@ -58,7 +35,7 @@ const About = ({ aboutUsSammury }: { aboutUsSammury: string }) => {
       {/* <!-- ABOUT
         ================================================== --> */}
       <AboutUs
-        aboutUsSammury={aboutUsSammury}
+        aboutUsSammury={state.companyInfo.Sammury}
         mission={state.companyInfo.mission}
         vision={state.companyInfo.vision}
         visionDescription={state.companyInfo.visionDescription}
