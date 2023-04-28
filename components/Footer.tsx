@@ -196,9 +196,18 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                   Subscribe to our newsletter to receive updates on the latest
                   news!
                 </p>
-                <Link href={`mailto:${state.companyInfo.email}`} className='btn-style1 secondary small text-center col-12'>
+                <a
+                  href={`mailto:${
+                    state.companyInfo.email
+                  }?subject=${encodeURIComponent(
+                    'Subscription to Carenuity Newsletter'
+                  )}&body=${encodeURIComponent(
+                  'Please add me to your Distribution List for the Carenuity Newsletter. Thank you.'
+                )}`}
+                  className='btn-style1 secondary small text-center col-12'
+                >
                   <span>Subscribe with us</span>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
