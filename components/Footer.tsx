@@ -196,53 +196,9 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                   Subscribe to our newsletter to receive updates on the latest
                   news!
                 </p>
-                <form
-                  className='quform newsletter-form'
-                  action={`mailto:${state.companyInfo.email}`}
-                  method='post'
-                  encType='multipart/form-data'
-                >
-                  <div className='quform-elements'>
-                    <div className='row'>
-                      {/* <!-- Begin Text input element --> */}
-                      <div className='col-md-12'>
-                        <div className='quform-element mb-0'>
-                          <div className='quform-input'>
-                            <input
-                              type='hidden'
-                              name='subject'
-                              value='Newsletter'
-                            />
-                            <input
-                              className='form-control'
-                              id='email_address'
-                              type='text'
-                              name='body'
-                              placeholder='Subscribe with us'
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      {/* <!-- End Text input element --> */}
-
-                      {/* <!-- Begin Submit button --> */}
-                      <div className='col-md-12'>
-                        <div className='quform-submit-inner'>
-                          <button
-                            className='btn btn-white text-white m-0'
-                            type='submit'
-                          >
-                            <i className='fas fa-paper-plane'></i>
-                          </button>
-                        </div>
-                        <div className='quform-loading-wrap'>
-                          <span className='quform-loading'></span>
-                        </div>
-                      </div>
-                      {/* <!-- End Submit button --> */}
-                    </div>
-                  </div>
-                </form>
+                <Link href={`mailto:${state.companyInfo.email}`} className='btn-style1 secondary small text-center col-12'>
+                  <span>Subscribe with us</span>
+                </Link>
               </div>
             </div>
           </div>
