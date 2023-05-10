@@ -1,9 +1,14 @@
 import Head from 'next/head';
-import React, { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import AboutUs from '../components/AboutUs';
-import PageTitle from '../components/PageTitle';
 import { StoreContext } from '../components/context/Store';
 import { StoreState } from '../utils/types';
+import dynamic from 'next/dynamic';
+
+const PageTitle = dynamic(() => import('../components/PageTitle'), {
+  ssr: false,
+  loading: () => <p>Loading..</p>
+});
 
 const About = () => {
   const { state }: { state: StoreState; dispatch: Function } =

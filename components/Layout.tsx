@@ -1,4 +1,4 @@
-import React, { ReactNode, useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import VideoPopUp from './VideoPopUp';

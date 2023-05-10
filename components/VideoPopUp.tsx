@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react'
 
 const VideoPopUp = ({ id, url, show, title }: { id?: string; url: string; show: boolean; title?: string }) => {
   return (

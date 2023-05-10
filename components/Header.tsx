@@ -1,9 +1,8 @@
 import Link from 'next/link';
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import Menu from './Menu';
 import TopSearch from './TopSearch';
 import { StoreContext } from './context/Store';
-import dynamic from 'next/dynamic';
 
 
 const Header = ({
@@ -38,6 +37,7 @@ const Header = ({
                     <div className='navbar-header navbar-header-custom'>
                       {/* <!-- start logo --> */}
                       <Link href='/' className={classNames[1]}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img id='logo' src={logoUrl} alt='Carenuity logo' />
                       </Link>
                       {/* <!-- end logo --> */}

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react'
 
 const Video = ({
   banner,
@@ -14,6 +13,7 @@ const Video = ({
     <>
       <div className='portfolio-style01 mb-2-3'>
         <div className='portfolio-img'>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={banner} alt='...' />
         </div>
         <div

@@ -192,7 +192,7 @@
         /*------------------------------------
             12. Sliders
         --------------------------------------*/
-
+/*
         // testmonial-carousel3
         $('.testimonial-carousel1').owlCarousel({
             loop: true,
@@ -408,7 +408,7 @@
             $('.owl-item').not('.cloned').eq(item).find('p').addClass('animated fadeInUp');
             $('.owl-item').not('.cloned').eq(item).find('a').addClass('animated fadeInUp');
         });
-
+*/
         /*------------------------------------
             13. Tabs
         --------------------------------------*/
@@ -433,22 +433,22 @@
         /*------------------------------------
             14. CountUp
         --------------------------------------*/
-
+/*
         $('.countup').counterUp({
             delay: 25,
             time: 2000
         });
-
+*/
         /*------------------------------------
             15. Countdown
         --------------------------------------*/
-
+/*
         // CountDown for coming soon page
         $(".countdown").countdown({
             date: "01 Aug 2025 00:01:00", //set your date and time. EX: 15 May 2025 12:00:00
             format: "on"
         });
-
+*/
         /*------------------------------------
             16. Current Year
         --------------------------------------*/
@@ -463,13 +463,13 @@
         /*------------------------------------
             17. Gallery
         --------------------------------------*/
-
+/*
         $('.portfolio-gallery').lightGallery();
 
         $('.portfolio-link').on('click', (e) => {
             e.stopPropagation();
         })
-
+*/
     });
 
 })(jQuery);

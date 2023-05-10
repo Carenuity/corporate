@@ -1,4 +1,3 @@
-import React from 'react'
 import DevAddress from './DevAddress';
 
 const DesignerAddress = () => {

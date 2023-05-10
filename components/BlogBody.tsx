@@ -1,5 +1,3 @@
-import React from 'react'
-
 const BlogBody = ({
   date,
   bannerUrl,
@@ -14,6 +12,7 @@ const BlogBody = ({
       <div className='col-lg-12'>
         <article className='card border-0 primary-shadow'>
           {bannerUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={bannerUrl}
               alt='...'
@@ -42,8 +41,6 @@ const BlogBody = ({
             )}
 
             {body}
-
-            {/* {hasFooter && <BlogFooter />} */}
           </div>
         </article>
       </div>
@@ -51,4 +48,4 @@ const BlogBody = ({
   );
 };
 
-export default BlogBody
+export default BlogBody;

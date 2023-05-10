@@ -1,4 +1,3 @@
-import React from 'react'
 import { LANG_ENGLISH, LANG_GERMANY } from '../utils/constants';
 import BlogBody from './BlogBody';
 import Sidebar from './Sidebar';

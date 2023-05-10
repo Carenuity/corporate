@@ -1,15 +1,11 @@
 import Link from 'next/link';
-import React from 'react'
-import VideoPopUp from './VideoPopUp';
 
 const Banner = ({
   bannerImage,
   slogan,
-  applicationVideosUrl,
 }: {
   bannerImage: string;
   slogan: string;
-  applicationVideosUrl: string;
 }) => {
   return (
     <>
@@ -21,7 +17,6 @@ const Banner = ({
         }}
         data-jarallax
         data-speed='0.8'
-        // data-video-src='https://www.youtube.com/watch?v=pDWUf_g2zsc'
       >
         <div className='container-fluid d-flex flex-column pt-5 pb-2 py-sm-8 py-md-0 position-relative z-index-9'>
           <div className='row align-items-center justify-content-center min-vh-100'>
@@ -30,7 +25,6 @@ const Banner = ({
                 <h1 className='text-white font-weight-800 display-4 display-xl-3 mb-2-9'>
                   {slogan}
                 </h1>
-                {/* <VideoPopUp url={applicationVideosUrl} title='Applications' show={true} /> */}
                 <Link
                   href={'https://chipglobe-dev.web.app/'}
                   className='btn-style1 animated fadeInUp'
@@ -46,4 +40,4 @@ const Banner = ({
   );
 };
 
-export default Banner
+export default Banner;

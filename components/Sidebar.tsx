@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 function Sidebar({ children }: { children: ReactNode }) {
   return (

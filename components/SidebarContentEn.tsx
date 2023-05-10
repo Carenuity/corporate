@@ -1,4 +1,3 @@
-import React from 'react'
 import DesignerAddress from './DesignerAddress';
 import DevAddress from './DevAddress';
 
