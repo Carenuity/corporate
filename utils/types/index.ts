@@ -52,3 +52,15 @@ export interface StoreReducerObject {
   state: StoreState;
   dispatch: Function;
 }
+
+export interface ServiceUrl {
+  name: string;
+  url: string;
+  icon: string;
+}
+
+export interface Service {
+  standard: ServiceUrl[];
+  premium: ServiceUrl[];
+  business: ServiceUrl[];
+}

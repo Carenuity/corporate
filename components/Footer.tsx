@@ -10,6 +10,10 @@ const FooterUpperSection = dynamic(
   }
 );
 
+const Newsletter = dynamic(() => import('../components/dynamic/Newsletter'), {
+  ssr: false,
+});
+
 const Footer = ({ isMobile }: { isMobile: boolean }) => {
   const { state } = useContext(StoreContext);
 
@@ -34,6 +38,24 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9'>
                 {/* opacity8 */}
                 {state.companyInfo.Sammury}
+              </h4>
+              <h4 className='text-white h5 mb-1-9'>
+                {isMobile && (
+                  <a
+                    href={'/chatgpt-about-Carenuity'}
+                    className='text-white h6'
+                  >
+                    ChatGPT about Carenuity
+                  </a>
+                )}
+                {!isMobile && (
+                  <Link
+                    href={'/chatgpt-about-Carenuity'}
+                    className='text-white h6'
+                  >
+                    ChatGPT about Carenuity
+                  </Link>
+                )}
               </h4>
               <ul className='social-icon-style1'>
                 <li>
@@ -126,25 +148,8 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               className='col-md-6 col-lg-3 mt-5 offset-lg-1 wow fadeIn'
               data-wow-delay='600ms'
             >
-              <div className='ps-xl-4'>
-                <h3 className='text-white h5 mb-1-9'>Newsletter</h3>
-                <p className='text-white opacity8 mb-3'>
-                  Subscribe to our newsletter to receive updates on the latest
-                  news!
-                </p>
-                <Link
-                  href={`mailto:${
-                    state.companyInfo.email
-                  }?subject=${encodeURIComponent(
-                    'Subscription to Carenuity Newsletter'
-                  )}&body=${encodeURIComponent(
-                    'Please add me to your Distribution List for the Carenuity Newsletter. Thank you.'
-                  )}`}
-                  className='btn-style1 secondary small text-center col-12'
-                >
-                  <span>Subscribe with us</span>
-                </Link>
-              </div>
+              {/* Newsletter section */}
+              <Newsletter email={state.companyInfo.email} />
             </div>
           </div>
         </div>

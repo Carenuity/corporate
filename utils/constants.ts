@@ -1,4 +1,4 @@
-import { CompanyInfo, CompanyUrls } from './types';
+import { CompanyInfo, CompanyUrls, Service } from './types';
 
 export const LANG_ENGLISH = 'en';
 export const LANG_GERMANY = 'de';
@@ -34,4 +34,42 @@ export const urls: CompanyUrls = {
   auth: 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth',
   logos: ['/img/logos/logo.svg', '/img/logos/logo-inner.png'],
   banner: '/img/banner.jpg',
+};
+
+export const servicesUrls: Service = {
+  standard: [
+    {
+      name: 'Modular C3-Sensor Box',
+      url: '/c3-mini-box',
+      icon: 'fa-solid fa-keyboard',
+    },
+    {
+      name: 'SQ-Power Supply (launch 1st H.2023)',
+      url: '',
+      icon: 'fa-solid fa-plug',
+    },
+    {
+      name: 'SQ-Weather (launch 2nd H.2023)',
+      url: '',
+      icon: 'fa-solid fa-cloud',
+    },
+    {
+      name: 'SQ-Panel (launch 2024)',
+      url: '',
+      icon: 'fa-solid fa-gauge',
+    },
+  ],
+  premium: [],
+  business: [
+    {
+      name: 'WebFlashing',
+      url: urls.webFlash,
+      icon: 'fas fa-code',
+    },
+    {
+      name: 'SQ-APP (launch 2024)',
+      url: '',
+      icon: 'fas fa-microchip',
+    },
+  ],
 };

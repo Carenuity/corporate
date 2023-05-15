@@ -4,10 +4,11 @@ import AboutUs from '../components/AboutUs';
 import { StoreContext } from '../components/context/Store';
 import { StoreState } from '../utils/types';
 import dynamic from 'next/dynamic';
+import ChatGPTAboutCarenuity from '../components/ChatGPTAboutCarenuity';
 
 const PageTitle = dynamic(() => import('../components/PageTitle'), {
   ssr: false,
-  loading: () => <p>Loading..</p>
+  loading: () => <p>Loading..</p>,
 });
 
 const About = () => {
@@ -45,6 +46,7 @@ const About = () => {
         vision={state.companyInfo.vision}
         visionDescription={state.companyInfo.visionDescription}
       />
+      <ChatGPTAboutCarenuity />
     </>
   );
 };

@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { servicesUrls } from '../utils/constants';
+import { ServiceUrl } from '../utils/types';
 
 const Menu = ({
   authUrl,
@@ -34,10 +36,53 @@ const Menu = ({
             </li>
             <li className='col-lg-4'>
               <span className='mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30'>
-                Our Products
+                Budget for Students
               </span>
               <ul>
-                <li>
+                {servicesUrls.standard.map((service: ServiceUrl) => (
+                  <li key={`${service.url}-${service.name}`}>
+                    {!isMobile && (
+                      <Link
+                        href={service.url}
+                        style={
+                          !!!service.url
+                            ? {
+                                pointerEvents: 'none',
+                                color: 'grey',
+                              }
+                            : {}
+                        }
+                      >
+                        <i className={`${service.icon} me-2`}></i>
+                        {service.name}
+                      </Link>
+                    )}
+                    {isMobile && (
+                      <a
+                        href={service.url}
+                        style={
+                          !!!service.url
+                            ? {
+                                pointerEvents: 'none',
+                                color: 'grey',
+                              }
+                            : {}
+                        }
+                      >
+                        <i className={`${service.icon} me-2`}></i>
+                        {service.name}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </li>
+            <li className='col-lg-3'>
+              <span className='mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30'>
+                Premium for the beloved of Caregivers
+              </span>
+              <ul>
+                {/* <li>
                   <Link
                     href='#!'
                     style={{ pointerEvents: 'none', color: 'grey' }}
@@ -45,65 +90,50 @@ const Menu = ({
                     <i className='fa-solid fa-keyboard me-2'></i>
                     Modular C3-Sensor Box
                   </Link>
-                </li>
-                <li>
-                  <Link
-                    href='#!'
-                    style={{ pointerEvents: 'none', color: 'grey' }}
-                  >
-                    <i className='fa-solid fa-plug me-2'></i>
-                    SQ-Power Supply (launch 1st H.2023)
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='#!'
-                    style={{ pointerEvents: 'none', color: 'grey' }}
-                  >
-                    <i className='fa-solid fa-cloud me-2'></i>
-                    SQ-Weather (launch 2nd H.2023)
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='#!'
-                    style={{ pointerEvents: 'none', color: 'grey' }}
-                  >
-                    <i className='fa-solid fa-gauge me-2'></i>
-                    SQ-Panel (launch 2024)
-                  </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className='col-lg-3'>
-              <Image
-                width={300}
-                height={300}
-                src='/img/banner/PRODUCTS_right_C3-Installer_Service_190x190.png'
-                alt='Carenuity services'
-                className='img-fluid'
-              />
-            </li>
-            <li className='col-lg-3'>
               <span className='mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30'>
-                Our Services
+                Business for Real Estate Tycoons
               </span>
               <ul>
-                <li>
-                  <Link href={webFlashingUrl}>
-                    <i className='fas fa-code me-2'></i>
-                    WebFlashing
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='#!'
-                    style={{ pointerEvents: 'none', color: 'grey' }}
-                  >
-                    <i className='fas fa-microchip me-2'></i>
-                    SQ-APP (launch 2024)
-                  </Link>
-                </li>
+                {servicesUrls.business.map((service: ServiceUrl) => (
+                  <li key={`${service.url}-${service.name}`}>
+                    {!isMobile && (
+                      <Link
+                        href={service.url}
+                        style={
+                          !!!service.url
+                            ? {
+                                pointerEvents: 'none',
+                                color: 'grey',
+                              }
+                            : {}
+                        }
+                      >
+                        <i className={`${service.icon} me-2`}></i>
+                        {service.name}
+                      </Link>
+                    )}
+                    {isMobile && (
+                      <a
+                        href={service.url}
+                        style={
+                          !!!service.url
+                            ? {
+                                pointerEvents: 'none',
+                                color: 'grey',
+                              }
+                            : {}
+                        }
+                      >
+                        <i className={`${service.icon} me-2`}></i>
+                        {service.name}
+                      </a>
+                    )}
+                  </li>
+                ))}
               </ul>
             </li>
           </ul>

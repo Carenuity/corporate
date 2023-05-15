@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { useContext } from 'react';
 import Menu from './Menu';
-import TopSearch from './TopSearch';
 import { StoreContext } from './context/Store';
 
 
@@ -26,7 +25,7 @@ const Header = ({
       <header className={classNames[0]}>
         <div className='navbar-default border-bottom border-color-light-white'>
           {/* <!-- start top search --> */}
-          <TopSearch />
+          {/* <TopSearch /> */}
           {/* <!-- end top search --> */}
 
           <div className='container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9'>

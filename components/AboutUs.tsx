@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import WhyUs from './ChatGPTAboutCarenuity';
 
 const AboutUs = ({
   aboutUsSammury,
@@ -59,8 +60,8 @@ const AboutUs = ({
           </div>
         </div>
         <Image
-        width={300}
-        height={500}
+          width={300}
+          height={500}
           src='/img/bg/bg-06.png'
           className='position-absolute left bottom-5 opacity4'
           alt='Carenuity'
@@ -70,4 +71,4 @@ const AboutUs = ({
   );
 };
 
-export default AboutUs
+export default AboutUs;

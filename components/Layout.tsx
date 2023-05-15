@@ -15,6 +15,12 @@ const Layout = ({ children }: { children: any }) => {
       handleMediaQueryChanges(e.matches, setIsMobile)
     );
     handleMediaQueryChanges(mediaQuery.matches, setIsMobile);
+
+    return () => {
+      mediaQuery.removeEventListener('change', (e: MediaQueryListEvent) =>
+        handleMediaQueryChanges(e.matches, setIsMobile)
+      );
+    }
   }, []);
 
 
