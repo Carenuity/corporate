@@ -1,20 +1,24 @@
+import dynamic from 'next/dynamic';
+
+const ChatGPTBanner = dynamic(
+  () => import('../components/dynamic/ChatGPTBanner'),
+  {
+    ssr: false,
+  }
+);
 
 const ChatGPTAboutCarenuity = () => {
   return (
     <>
       <section className='pt-1-6 pt-md-9 pb-0'>
         <div className='position-relative'>
-          <div
-            className='background-no-repeat position-absolute h-100 w-100 bg-img d-none d-lg-block wow fadeIn'
-            data-wow-delay='200ms'
-            data-background='/img/bg/chatgpt.webp'
-          ></div>
+          <ChatGPTBanner />
           <div className='row g-0 justify-content-end'>
             <div className='col-lg-6 wow fadeIn' data-wow-delay='400ms'>
               <div className='bg-secondary pt-8 pt-lg-14 pt-xxl-18 pb-8 pb-xxl-13 px-2-2 px-xxl-11 position-relative z-index-9 why-chooseus'>
                 <div className='me-xxl-15'>
                   <div className='section-title left mb-4 white'>
-                    <span className='sm-title'>ChatGPT About Carenuity</span>
+                    <span className='sm-title'>About Carenuity</span>
                     <h2 className='h6 mb-0 text-white'>
                       This is what ChatGPT found out about us, analyzing our
                       Social Media Post and Internet presence in May 2023.
@@ -57,6 +61,6 @@ const ChatGPTAboutCarenuity = () => {
       </section>
     </>
   );
-}
+};
 
 export default ChatGPTAboutCarenuity;
