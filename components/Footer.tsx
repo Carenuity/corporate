@@ -34,28 +34,28 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               className='col-md-6 col-lg-5 mt-5 wow fadeIn'
               data-wow-delay='200ms'
             >
-              <h3 className='text-white h5 mb-1-9'>About Company</h3>
+              <Link href={'/about'}>
+                <h3 className='text-white h5 mb-1-9'>About Company</h3>
+              </Link>
               <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9'>
                 {/* opacity8 */}
                 {state.companyInfo.Sammury}
               </h4>
-              <h4 className='text-white h5 mb-1-9'>
+              <h4 className='text-white h5 mb-1-5'>
                 {isMobile && (
-                  <a
-                    href={'/chatgpt-about-Carenuity'}
-                    className='text-white h6'
-                  >
+                  <a href={'/about/#chatgpt'} className='text-white h6'>
                     ChatGPT about Carenuity
                   </a>
                 )}
                 {!isMobile && (
-                  <Link
-                    href={'/chatgpt-about-Carenuity'}
-                    className='text-white h6'
-                  >
+                  <Link href={'/about/#chatgpt'} className='text-white h6'>
                     ChatGPT about Carenuity
                   </Link>
                 )}
+              </h4>
+              <h4 className='text-white mb-1-9 fw-light w-75 display-29 lh-base opacity8'>
+                {/* opacity8 */}
+                Read what ChatGPT found out about us.
               </h4>
               <ul className='social-icon-style1'>
                 <li>

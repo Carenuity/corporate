@@ -33,11 +33,14 @@ const Index = () => {
         <div className='row mb-1-9'>
           <div className='col-md-6 wow fadeIn' data-wow-delay='200ms'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src='/img/services/service-details-6.jpg' alt='Carenuity Sensors' />
+            <img
+              src='/img/services/service-details-6.jpg'
+              alt='Carenuity Sensors'
+            />
           </div>
           <div className='col-md-6 wow fadeIn' data-wow-delay='400ms'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src='/img/services/service-details-6.jpg' alt='C3-Mini' />
+            <img src='/img/services/Sensor-Selection-Box.jpeg' alt='C3-Mini' />
             <p className='mb-1-9 wow fadeIn' data-wow-delay='200ms'>
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.
@@ -95,9 +98,10 @@ const Index = () => {
               <div className='flex-shrink-0'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src='/img/services/service-details-2.jpg'
+                  src='/img/content/Quick-Change-Feature.png'
                   className='rounded-circle'
                   alt='Carenuity Device'
+                  style={{width: '130px', height: '100px'}}
                 />
               </div>
               <div className='flex-grow-1 ms-3'>
@@ -147,5 +151,5 @@ export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
   pageUrl: '/c3-mini-box',
   pageTitle: 'Modular C3-Mini Sensor Selection Box',
-  serviceCategory: 'BUdget For Students',
+  serviceCategory: 'Budget Friendly Not Only For Students',
 });

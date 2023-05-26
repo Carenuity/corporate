@@ -26,7 +26,7 @@ const Banner = ({
                   {slogan}
                 </h1>
                 <Link
-                  href={'https://chipglobe-dev.web.app/'}
+                  href={'/install-for-free'}
                   className='btn-style1 animated fadeInUp'
                 >
                   <span className='animated fadeInUp'>Install For Free</span>

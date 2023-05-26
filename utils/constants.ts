@@ -28,7 +28,7 @@ export const urls: CompanyUrls = {
     instagram: 'https://www.instagram.com/carenuity',
     youTube: 'https://www.youtube.com/@carenuity',
   },
-  shop: 'https://www.chipglobe.shop',
+  shop: 'https://www.chipglobe.shop/en',
   webFlash: 'https://chipglobe-dev.web.app/',
   benefitsVideo: 'https://www.youtube.com/watch?v=i3pwQ2BWTO8',
   auth: 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth',
@@ -39,37 +39,49 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'Modular C3-Sensor Box',
+      name: 'C3-Mini™ Sensor Box​',
       url: '/c3-mini-box',
       icon: 'fa-solid fa-keyboard',
     },
-    {
-      name: 'SQ-Power Supply (launch 1st H.2023)',
-      url: '',
-      icon: 'fa-solid fa-plug',
-    },
-    {
-      name: 'SQ-Weather (launch 2nd H.2023)',
-      url: '',
-      icon: 'fa-solid fa-cloud',
-    },
-    {
-      name: 'SQ-Panel (launch 2024)',
-      url: '',
-      icon: 'fa-solid fa-gauge',
-    },
-  ],
-  premium: [],
-  business: [
     {
       name: 'WebFlashing',
       url: urls.webFlash,
       icon: 'fas fa-code',
     },
     {
+      name: 'C3-Mini™ Weather-Panel (launch 2nd H.2023)',
+      url: '/c3-mini-weather-panel',
+      icon: 'fa-solid fa-cloud',
+    },
+  ],
+  premium: [
+    {
+      name: 'SQ-Panel (launch 2024)',
+      url: '',
+      icon: 'fa-solid fa-gauge',
+    },
+    {
+      name: 'SQ-Power Supply (launch 1st H.2023)',
+      url: '',
+      icon: 'fa-solid fa-plug',
+    },
+  ],
+  business: [
+    {
       name: 'SQ-APP (launch 2024)',
       url: '',
       icon: 'fas fa-microchip',
     },
+    {
+      name: 'SQ-Multi-Home & Office value adder (launch 2025)',
+      url: '',
+      icon: 'fas fa-building',
+    },
   ],
 };
+
+export const navigationBannerUrls: string[] = [
+  '/img/banner/BUDGET-Products.png',
+  '/img/banner/PREMIUM-Products.png',
+  '/img/banner/BUSINESS-Products.png',
+];

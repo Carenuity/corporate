@@ -10,7 +10,7 @@ const ChatGPTBanner = dynamic(
 const ChatGPTAboutCarenuity = () => {
   return (
     <>
-      <section className='pt-1-6 pt-md-9 pb-0'>
+      <section id={'chatgpt'} className='pt-1-6 pt-md-9 pb-0'>
         <div className='position-relative'>
           <ChatGPTBanner />
           <div className='row g-0 justify-content-end'>

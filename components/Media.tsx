@@ -8,7 +8,7 @@ const Media = () => {
       <div className='widget bg-secondary wow fadeIn' data-wow-delay='600ms'>
         <div className='widget-content'>
           <h5 className='mb-4 text-white'>Follow Us</h5>
-          <ul className='social-icon-style2 list-unstyled ps-0'>
+          <ul className='social-icon-style1 list-unstyled ps-0'>
             <li>
               <a href={state.urls.socialMediaHandles.facebook}>
                 <i className='fab fa-facebook-f'></i>
