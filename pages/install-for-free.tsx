@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import { StoreContext } from '../components/context/Store';
 
 const Index = () => {
   const pageTitle = 'Install For Free';
-  const boardImage = '/img/services/service-03.jpg';
+  const boardImage = '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.png';
   const {state} = useContext(StoreContext);
   return (
     <>
@@ -124,7 +124,7 @@ const Index = () => {
                     </div>
                     <div className='flex-grow-1 ms-3'>
                       <h4 className='h5'>
-                        Housing your device, e.g. by an card board enclosure​
+                        Housing your device, e.g. by an card board enclosure
                       </h4>
                       <p className='mb-0'>
                         Discover the joy of customization and unlock your
@@ -153,9 +153,9 @@ const Index = () => {
               <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={boardImage} alt='Micro-controller' />
-                <div className='about-img d-none d-sm-block bg-success'>
+                <div className='about-img d-none d-sm-block'>
                   <p
-                    className='px-4 py-3 text-align-justify'
+                    className='px-4 py-3 text-align-justify bg-success pb-4'
                     style={{ textAlign: 'justify' }}
                   >
                     For your orientation, we have simplified the stacking by

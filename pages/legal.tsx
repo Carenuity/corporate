@@ -1,9 +1,10 @@
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import PageSpinner from '../components/PageSpinner';
 
 const Legal = dynamic(() => import('../components/dynamic/Legal'), {
   ssr: false,
-  loading: () => <p>Loading...</p>,
+  loading: () => <PageSpinner />,
 });
 
 const legal = () => {

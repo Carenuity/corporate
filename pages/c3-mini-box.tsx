@@ -34,13 +34,13 @@ const Index = () => {
           <div className='col-md-6 wow fadeIn' data-wow-delay='200ms'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src='/img/services/service-details-6.jpg'
+              src={'/img/content/modular-C3-Mini-sensor-selection-box.png'} //'/img/services/service-details-6.jpg'
               alt='Carenuity Sensors'
             />
           </div>
           <div className='col-md-6 wow fadeIn' data-wow-delay='400ms'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src='/img/services/Sensor-Selection-Box.jpeg' alt='C3-Mini' />
+            <img src='/img/content/Sensor-Selection-Box.jpeg' alt='C3-Mini' />
             <p className='mb-1-9 wow fadeIn' data-wow-delay='200ms'>
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.
@@ -98,10 +98,10 @@ const Index = () => {
               <div className='flex-shrink-0'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src='/img/content/Quick-Change-Feature.png'
+                  src='/img/content/quick-change-feature.png'
                   className='rounded-circle'
                   alt='Carenuity Device'
-                  style={{width: '130px', height: '100px'}}
+                  style={{ width: '130px', height: '100px' }}
                 />
               </div>
               <div className='flex-grow-1 ms-3'>
@@ -126,8 +126,9 @@ const Index = () => {
               <div className='flex-shrink-0'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src='/img/services/service-details-2.jpg'
-                  className='rounded-circle'
+                  src='/img/content/D1-C3-Mini-logo.png'
+                  className=' img-fluid'
+                  style={{ width: '100px', height: '100px' }} // rounded-circle
                   alt='Carenuity Device'
                 />
               </div>

@@ -1,10 +1,11 @@
+import Spinner from '../components/Spinner';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
 import dynamic from 'next/dynamic';
 
 const InstaEmbedding = dynamic(() => import('../components/InstaEmbedding'), {
  ssr: false,
- loading: () => <p>Loading Video...</p>
+ loading: () => <Spinner />
 });
 
 const Index = () => {

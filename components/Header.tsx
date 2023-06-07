@@ -48,7 +48,6 @@ const Header = ({
                     <Menu
                       isMobile={isMobile}
                       authUrl={state.urls.auth}
-                      webFlashingUrl={state.urls.webFlash}
                       shopUrl={state.urls.shop}
                     />
                     {/* <!-- end menu area --> */}

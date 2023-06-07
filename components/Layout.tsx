@@ -1,4 +1,11 @@
-import { useContext, useEffect, useState } from 'react';
+import {
+  Children,
+  cloneElement,
+  isValidElement,
+  useContext,
+  useEffect,
+  useState,
+} from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import VideoPopUp from './VideoPopUp';
@@ -20,9 +27,8 @@ const Layout = ({ children }: { children: any }) => {
       mediaQuery.removeEventListener('change', (e: MediaQueryListEvent) =>
         handleMediaQueryChanges(e.matches, setIsMobile)
       );
-    }
+    };
   }, []);
-
 
   return (
     <>
@@ -48,7 +54,18 @@ const Layout = ({ children }: { children: any }) => {
       {/* <!-- MAIN WRAPPER
     ================================================== --> */}
       <div className='main-wrapper'>
-        {children}
+        {Children.map(children, (child) => {
+          const props = child.props;
+          if (isValidElement(child)) {
+            const clonedChild = cloneElement<any>(child, {
+              props,
+              isMobile: isMobile,
+            });
+            return clonedChild;
+          }
+          return child;
+        })}
+
         <Footer isMobile={isMobile} />
       </div>
 

@@ -6,12 +6,10 @@ import { useState } from 'react';
 
 const Menu = ({
   authUrl,
-  webFlashingUrl,
   shopUrl,
   isMobile,
 }: {
   authUrl: string;
-  webFlashingUrl: string;
   shopUrl: string;
   isMobile: boolean;
 }) => {

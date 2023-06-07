@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+import PageSpinner from '../components/PageSpinner';
 
 const PrivacyPolicy = dynamic(
   () => import('../components/dynamic/Datenschutz'),
   {
     ssr: false,
-    loading: () => <p>Loading..</p>,
+    loading: () => <PageSpinner />,
   }
 );
 

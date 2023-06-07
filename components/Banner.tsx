@@ -3,9 +3,11 @@ import Link from 'next/link';
 const Banner = ({
   bannerImage,
   slogan,
+  isMobile,
 }: {
   bannerImage: string;
   slogan: string;
+  isMobile: boolean;
 }) => {
   return (
     <>
@@ -25,12 +27,23 @@ const Banner = ({
                 <h1 className='text-white font-weight-800 display-4 display-xl-3 mb-2-9'>
                   {slogan}
                 </h1>
-                <Link
-                  href={'/install-for-free'}
-                  className='btn-style1 animated fadeInUp'
-                >
-                  <span className='animated fadeInUp'>Install For Free</span>
-                </Link>
+                {!isMobile && (
+                  <Link
+                    href={'/install-for-free'}
+                    className='btn-style1 animated fadeInUp'
+                  >
+                    <span className='animated fadeInUp'>Install For Free</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/install-for-free'}
+                    className='btn-style1 animated fadeInUp'
+                  >
+                    <span className='animated fadeInUp'>Install For Free</span>
+                  </a>
+                )}
               </div>
             </div>
           </div>

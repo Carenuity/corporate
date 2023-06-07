@@ -1,9 +1,12 @@
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import PageSpinner from '../components/PageSpinner';
 
 const PrivacyPolicy = dynamic(() => import('../components/dynamic/Privacy'), {
   ssr: false,
-  loading: () => <p>Loading...</p>,
+  loading: () => (
+    <PageSpinner />
+  ),
 });
 
 const Privacy = () => {

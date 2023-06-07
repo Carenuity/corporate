@@ -1,12 +1,18 @@
-// import { Inter } from '@next/font/google';
+import { Inter } from '@next/font/google';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useEffect } from 'react';
 import Banner from '../components/Banner';
 
-// const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] });
 
-export default function Home({ isHome }: { isHome: boolean }) {
+export default function Home({
+  isHome,
+  isMobile,
+}: {
+  isHome: boolean;
+  isMobile: boolean;
+}) {
   useEffect(() => {
     if (typeof document !== undefined) {
       const { jarallax, jarallaxVideo } = require('jarallax');
@@ -34,6 +40,7 @@ export default function Home({ isHome }: { isHome: boolean }) {
       <Banner
         bannerImage='img/banner.jpg'
         slogan='Real Estate Electronics Matter'
+        isMobile={isMobile}
       />
     </>
   );

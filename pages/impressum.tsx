@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+import PageSpinner from '../components/PageSpinner';
 
 const Impressum = dynamic(() => import('../components/dynamic/Impressum'), {
   ssr: false,
-  loading: () => <p>Loading...</p>,
+  loading: () => <PageSpinner />,
 });
 
 const impressum = () => {
