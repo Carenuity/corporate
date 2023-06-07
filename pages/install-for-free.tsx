@@ -2,11 +2,14 @@ import { useContext } from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import { StoreContext } from '../components/context/Store';
+import Link from 'next/link';
 
-const Index = () => {
+const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Install For Free';
-  const boardImage = '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.png';
-  const {state} = useContext(StoreContext);
+  const boardImage =
+    '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.png';
+  // const { state } = useContext(StoreContext);
+
   return (
     <>
       <Head>
@@ -74,22 +77,42 @@ const Index = () => {
                       </p>
 
                       <p className='text-center mt-3'>
-                        <a
-                          href={state.urls.webFlash}
-                          className='btn-style2 primary wow fadeInUp p-3'
-                          data-wow-delay='400ms'
-                          style={{
-                            visibility: 'visible',
-                            animationDelay: '400ms',
-                            animationName: 'fadeInUp',
-                            height: '3.5rem',
-                          }}
-                        >
-                          <span className='small'>
-                            Install For Free{' '}
-                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                          </span>
-                        </a>
+                        {!isMobile && (
+                          <Link
+                            href={'/microcontrollers'}
+                            className='btn-style2 primary wow fadeInUp p-3'
+                            data-wow-delay='400ms'
+                            style={{
+                              visibility: 'visible',
+                              animationDelay: '400ms',
+                              animationName: 'fadeInUp',
+                              height: '3.5rem',
+                            }}
+                          >
+                            <span className='small'>
+                              Select Microcontroller{' '}
+                            </span>
+                          </Link>
+                        )}
+
+                        {isMobile && (
+                          <a
+                            href={'/microcontrollers'}
+                            className='btn-style2 primary wow fadeInUp p-3'
+                            data-wow-delay='400ms'
+                            style={{
+                              visibility: 'visible',
+                              animationDelay: '400ms',
+                              animationName: 'fadeInUp',
+                              height: '3.5rem',
+                            }}
+                          >
+                            <span className='small'>
+                              Select Microcontroller{' '}
+                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                            </span>
+                          </a>
+                        )}
                       </p>
                     </div>
                   </div>
@@ -152,7 +175,11 @@ const Index = () => {
             >
               <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={boardImage} alt='Micro-controller' className='d-sm-none d-inline-block' />
+                <img
+                  src={boardImage}
+                  alt='Micro-controller'
+                  className='d-sm-none d-inline-block'
+                />
                 <div className='about-img d-none d-sm-block'>
                   <p
                     className='px-4 py-3 text-align-justify bg-success pb-4'

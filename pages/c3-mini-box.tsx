@@ -86,7 +86,7 @@ const Index = () => {
         </div>
         <div className='row mb-1-9 bg-secondary p-3 text-white'>
           <div
-            className='col-lg-6 mb-4 mb-lg-0 wow fadeIn'
+            className='col-lg-5 mb-4 mb-lg-0 wow fadeIn'
             data-wow-delay='200ms'
             style={{
               visibility: 'visible',
@@ -114,7 +114,7 @@ const Index = () => {
             </div>
           </div>
           <div
-            className='col-lg-6 wow fadeIn'
+            className='col-lg-7 wow fadeIn'
             data-wow-delay='200ms'
             style={{
               visibility: 'visible',
@@ -126,9 +126,9 @@ const Index = () => {
               <div className='flex-shrink-0'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src='/img/content/D1-C3-Mini-logo.png'
+                  src='/img/content/replacing-the-sensor.png'
                   className=' img-fluid'
-                  style={{ width: '100px', height: '100px' }} // rounded-circle
+                  style={{ width: '174px', height: '120px' }} // rounded-circle
                   alt='Carenuity Device'
                 />
               </div>
