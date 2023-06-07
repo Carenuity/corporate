@@ -152,7 +152,7 @@ const Index = () => {
             >
               <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={boardImage} alt='Micro-controller' />
+                <img src={boardImage} alt='Micro-controller' className='d-sm-none d-inline-block' />
                 <div className='about-img d-none d-sm-block'>
                   <p
                     className='px-4 py-3 text-align-justify bg-success pb-4'

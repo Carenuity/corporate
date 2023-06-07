@@ -34,7 +34,7 @@ const Index = () => {
           <div className='col-md-6 wow fadeIn' data-wow-delay='200ms'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={'/img/content/modular-C3-Mini-sensor-selection-box.png'} //'/img/services/service-details-6.jpg'
+              src={'/img/content/modular-C3-Mini-sensor-selection-box.png'}
               alt='Carenuity Sensors'
             />
           </div>
