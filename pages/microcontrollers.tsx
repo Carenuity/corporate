@@ -6,7 +6,7 @@ import { useContext } from 'react';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Select what you have';
-  const boardImage = '/img/content/selection-of-microcontroller-platform.png';
+  const boardImage = '/img/content/selection-of-microcontroller-platform.webp';
   const { state } = useContext(StoreContext);
 
   return (

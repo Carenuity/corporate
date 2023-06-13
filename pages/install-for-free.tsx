@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Install For Free';
   const boardImage =
-    '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.png';
+    '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.webp';
   // const { state } = useContext(StoreContext);
 
   return (

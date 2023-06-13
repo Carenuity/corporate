@@ -38,7 +38,7 @@ export default function Home({
       {/* <!-- BANNER
         ================================================== --> */}
       <Banner
-        bannerImage='img/banner.jpg'
+        bannerImage='img/banner.webp'
         slogan='Real Estate Electronics Matter'
         isMobile={isMobile}
       />

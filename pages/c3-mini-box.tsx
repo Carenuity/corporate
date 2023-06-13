@@ -34,7 +34,7 @@ const Index = () => {
           <div className='col-md-6 wow fadeIn' data-wow-delay='200ms'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={'/img/content/modular-C3-Mini-sensor-selection-box.png'}
+              src={'/img/content/modular-C3-Mini-sensor-selection-box.webp'}
               alt='Carenuity Sensors'
             />
           </div>
@@ -98,7 +98,7 @@ const Index = () => {
               <div className='flex-shrink-0'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src='/img/content/quick-change-feature.png'
+                  src='/img/content/quick-change-feature.webp'
                   className='rounded-circle'
                   alt='Carenuity Device'
                   style={{ width: '130px', height: '100px' }}
@@ -126,7 +126,7 @@ const Index = () => {
               <div className='flex-shrink-0'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src='/img/content/replacing-the-sensor.png'
+                  src='/img/content/replacing-the-sensor.webp'
                   className=' img-fluid'
                   style={{ width: '174px', height: '120px' }} // rounded-circle
                   alt='Carenuity Device'

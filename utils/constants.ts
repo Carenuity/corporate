@@ -31,7 +31,7 @@ export const urls: CompanyUrls = {
   shop: 'https://www.chipglobe.shop/en',
   webFlash: 'https://chipglobe-dev.web.app/',
   benefitsVideo: 'https://www.youtube.com/watch?v=i3pwQ2BWTO8',
-  auth: 'https://carenuity-customer-app-dot-roomsensorgcp01.ey.r.appspot.com/auth',
+  auth: 'https://sq-panel.vercel.app/login',
   logos: ['/img/logos/logo.svg', '/img/logos/logo-inner.png'],
   banner: '/img/banner.jpg',
 };
@@ -81,7 +81,7 @@ export const servicesUrls: Service = {
 };
 
 export const navigationBannerUrls: string[] = [
-  '/img/banner/BUDGET-Products.png',
-  '/img/banner/PREMIUM-Products.png',
-  '/img/banner/BUSINESS-Products.png',
+  '/img/banner/BUDGET-Products.webp',
+  '/img/banner/PREMIUM-Products.webp',
+  '/img/banner/BUSINESS-Products.webp',
 ];
