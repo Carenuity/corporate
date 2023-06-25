@@ -1,8 +1,7 @@
-import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
-import Link from 'next/link';
-import { StoreContext } from '../components/context/Store';
 import { useContext } from 'react';
+import PageTitle from '../../components/PageTitle';
+import { StoreContext } from '../../components/context/Store';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Select what you have';
@@ -26,8 +25,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
+        prevPage='Install For Free'
+        prevPageUrl='/install-for-free/'
         pageTitle={pageTitle}
         pageUrl='/microcontrollers'
       />
@@ -132,6 +131,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   src={boardImage}
                   alt='Micro-controller'
                   className='d-sm-none d-inline-block'
+                  style={{ width: '500px' }}
+                  useMap='#image_map'
                 />
                 <div className='about-img d-none d-sm-block'>
                   <p
@@ -147,8 +148,58 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     src={boardImage}
                     className='img-fluid'
                     alt='Micro-controller'
-                    style={{ width: '100%' }}
+                    style={{ width: '500px' }}
+                    useMap='#image_map'
                   />
+                  <map name='image_map'>
+                    <area
+                      alt='C3-Mini'
+                      title='C3-Mini - Read More'
+                      href='/microcontrollers/C3-Mini'
+                      coords='0,0,150,180'
+                      shape='rect'
+                      data-bs-toggle='tooltip'
+                    />
+                    <area
+                      alt='ESP32-Mini'
+                      title='ESP32-Mini - Read More'
+                      href='/microcontrollers/ESP32-Mini'
+                      coords='160,0,350,160'
+                      shape='rect'
+                      data-bs-toggle='tooltip'
+                    />
+                    <area
+                      alt='D1-Mini'
+                      title='D1-Mini - Read More'
+                      href='/microcontrollers/D1-Mini'
+                      coords='0,200,150,360'
+                      shape='rect'
+                      data-bs-toggle='tooltip'
+                    />
+                    <area
+                      alt='ESP32-CAM'
+                      title='ESP32-CAM - Read More'
+                      href='/microcontrollers/ESP32-CAM'
+                      coords='160,170,350,370'
+                      shape='rect'
+                      data-bs-toggle='tooltip'
+                    />
+                    <area
+                      alt='RPi-Pico-W'
+                      title='RPi-Pico-W - Read More'
+                      href='/microcontrollers/RPi-Pico-W'
+                      coords='0,500,320,200'
+                      shape='rect'
+                      data-bs-toggle='tooltip'
+                    />
+                    {/* <area
+                      alt='ESP32-Mini'
+                      title='ESP32-Mini'
+                      href='http://carenuity.com/ESP32-Mini'
+                      coords='1068,22,2151,1140'
+                      shape='rect'
+                    /> */}
+                  </map>
                 </div>
               </div>
             </div>

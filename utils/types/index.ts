@@ -64,3 +64,13 @@ export interface Service {
   premium: ServiceUrl[];
   business: ServiceUrl[];
 }
+
+export interface Microcontroller {
+  name: string;
+  id: string;
+  description: string;
+  imageUrl: string;
+  imageHighlight: string;
+  disclaimer?: string;
+  externalUrl?: string;
+}

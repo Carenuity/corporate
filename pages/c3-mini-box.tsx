@@ -1,7 +1,10 @@
+import { useContext } from 'react';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
+import { StoreContext } from '../components/context/Store';
 
 const Index = () => {
+  const { state } = useContext(StoreContext);
   return (
     <>
       <div>
@@ -141,6 +144,35 @@ const Index = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        {/* <h3 className='h5'>Build your own device within seconds:</h3> */}
+        <div className='row mb-1-9'>
+          <div
+            className='col-md-12 text-center wow fadeIn'
+            data-wow-delay='200ms'
+          >
+            <p className='text-start'>
+              From this Modular C3-Mini™ Sensor Selection Box you select one of
+              the 7 sensors, which you combine with the C3-Mini microcontroller
+              and the OLED display on the Triple-Adapter, as illustrated and
+              install the selected application:
+            </p>
+            <a href={state.urls.webFlash} className='btn-style2 px-3 small text-center'>
+              <span className='text-white'>Install For Free</span>
+            </a>
+            <p className='mt-3 text-start'>
+              Once you want to buy more parts or spare parts, be it sensors or
+              microcontrollers, you find a good offer in the ChipGlobe WebShop:
+            </p>
+            <a
+              href='https://www.chipglobe.shop/en/c/iot-systems/wemos-d1-mini?sort=position-asc&page=2'
+              target='_blank'
+              rel='noreferrer'
+              className='btn-style2 px-3 small text-center'
+            >
+              <span className='text-white'>Buy C3-Mini Parts</span>
+            </a>
           </div>
         </div>
       </div>
