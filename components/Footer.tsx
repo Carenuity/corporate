@@ -150,6 +150,62 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* Newsletter section */}
               <Newsletter email={state.companyInfo.email} />
+
+              <div className='text-center mt-3 display-31'>
+                {/* Payment & Delivery */}
+                <div className='small'>
+                  <a
+                    href='/payment-and-delivery/en'
+                    className='text-white text-primary-hover'
+                  >
+                    Payment & Delivery
+                  </a>{' '}
+                  <span className='text-success'> / </span>
+                  <a
+                    href='/payment-and-delivery/de'
+                    className='text-white text-primary-hover'
+                  >
+                    {' '}
+                    Zahlung & Versand
+                  </a>
+                </div>
+
+                {/* Terms & conditions */}
+                <div className='small mt-1'>
+                  <a
+                    href='/terms-and-conditions/en'
+                    className='text-white text-primary-hover'
+                  >
+                    Terms & conditions
+                  </a>{' '}
+                  <span className='text-success'> / </span>
+                  <a
+                    href='/terms-and-conditions/de'
+                    className='text-white text-primary-hover'
+                  >
+                    {' '}
+                    Allgemeine Geschäftsbedingungen
+                  </a>
+                </div>
+
+                {/* Right of withdrawal */}
+                <div className='small mt-1'>
+                  <a
+                    href='/rights-of-withdrawal/en'
+                    className='text-white text-primary-hover'
+                  >
+                    Right of withdrawal
+                  </a>{' '}
+                  <span className='text-success'> / </span>
+                  <a
+                    href='/rights-of-withdrawal/de'
+                    className='text-white text-primary-hover'
+                  >
+                    {' '}
+                    Widerrufsrecht
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

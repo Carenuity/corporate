@@ -57,7 +57,7 @@ export const servicesUrls: Service = {
   premium: [
     {
       name: 'SQ-Panel (launch 2024)',
-      url: '',
+      url: '/sq-panel',
       icon: 'fa-solid fa-gauge',
     },
     {

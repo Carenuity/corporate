@@ -79,7 +79,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       <p className='text-center mt-3'>
                         {!isMobile && (
                           <Link
-                            href={'/microcontrollers'}
+                            href={'/sensors'}
                             className='btn-style2 primary wow fadeInUp p-3'
                             data-wow-delay='400ms'
                             style={{
@@ -90,14 +90,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                             }}
                           >
                             <span className='small'>
-                              Select Microcontroller{' '}
+                              Select Sensor{' '}
                             </span>
                           </Link>
                         )}
 
                         {isMobile && (
                           <a
-                            href={'/microcontrollers'}
+                            href={'/sensors'}
                             className='btn-style2 primary wow fadeInUp p-3'
                             data-wow-delay='400ms'
                             style={{
@@ -108,7 +108,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                             }}
                           >
                             <span className='small'>
-                              Select Microcontroller{' '}
+                              Select Sensor{' '}
                               {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                             </span>
                           </a>
