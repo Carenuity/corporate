@@ -154,6 +154,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               <div className='text-center mt-3 display-31'>
                 {/* Payment & Delivery */}
                 <div className='small'>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a
                     href='/payment-and-delivery/en'
                     className='text-white text-primary-hover'
@@ -161,6 +162,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                     Payment & Delivery
                   </a>{' '}
                   <span className='text-success'> / </span>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a
                     href='/payment-and-delivery/de'
                     className='text-white text-primary-hover'
@@ -172,6 +174,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
 
                 {/* Terms & conditions */}
                 <div className='small mt-1'>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a
                     href='/terms-and-conditions/en'
                     className='text-white text-primary-hover'
@@ -179,6 +182,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                     Terms & conditions
                   </a>{' '}
                   <span className='text-success'> / </span>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a
                     href='/terms-and-conditions/de'
                     className='text-white text-primary-hover'
@@ -190,6 +194,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
 
                 {/* Right of withdrawal */}
                 <div className='small mt-1'>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a
                     href='/rights-of-withdrawal/en'
                     className='text-white text-primary-hover'
@@ -197,6 +202,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                     Right of withdrawal
                   </a>{' '}
                   <span className='text-success'> / </span>
+                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                   <a
                     href='/rights-of-withdrawal/de'
                     className='text-white text-primary-hover'
