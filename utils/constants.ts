@@ -69,7 +69,7 @@ export const servicesUrls: Service = {
   business: [
     {
       name: 'SQ-APP (launch 2024)',
-      url: '',
+      url: 'https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de',
       icon: 'fas fa-microchip',
     },
     {

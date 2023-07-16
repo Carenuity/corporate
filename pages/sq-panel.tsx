@@ -46,11 +46,12 @@ const SqPanel = () => {
             </div>
             <div className='col-lg-10 mt-n1-9 mb-2'>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src='/img/content/SQ-Panel-sideview.webp'
-                className='mt-1-9 wow fadeInUp'
+              <video
+                src='/videos/content/SQ-Panel_on_TableStand.mp4'
+                loop={true}
+                autoPlay={true}
+                className='mt-1-9 wow fadeInUp w-100'
                 data-wow-delay='100ms'
-                alt='...'
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
