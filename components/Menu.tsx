@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { navigationBannerUrls, servicesUrls } from '../utils/constants';
 import { ServiceUrl } from '../utils/types';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { StoreContext } from './context/Store';
 
 const Menu = ({
   authUrl,
@@ -14,6 +15,9 @@ const Menu = ({
   isMobile: boolean;
 }) => {
   const [banner, setBanner] = useState(navigationBannerUrls[0]);
+  const {
+    state: { urls },
+  } = useContext(StoreContext);
 
   return (
     <>
@@ -208,11 +212,28 @@ const Menu = ({
             </li>
             <li>
               <Link
-                href='/videos'
-                style={{ pointerEvents: 'none', color: 'grey' }}
+                href='#!'
+                // style={{ pointerEvents: 'none', color: 'grey' }}
               >
                 Help Center
               </Link>
+              <ul>
+                <li className='border-bottom'>
+                  <span className='mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted'>
+                    {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
+                    University Program for AI
+                  </span>
+                </li>
+                <li>
+                  <a
+                    href={urls.supplimentAiMaterials}
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    Supplemental Materials
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
               <Link href='#contact-us'>Contact Us</Link>

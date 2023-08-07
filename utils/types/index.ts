@@ -33,6 +33,7 @@ export interface CompanyUrls {
   socialMediaHandles: SocialMedia;
   shop: string;
   webFlash: string;
+  supplimentAiMaterials: string;
   benefitsVideo: string;
   auth: string;
   logos: string[];

@@ -30,6 +30,7 @@ export const urls: CompanyUrls = {
   },
   shop: 'https://www.chipglobe.shop/en',
   webFlash: 'https://chipglobe-dev.web.app/',
+  supplimentAiMaterials: 'https://www.youtube.com/@AshutoshTripathi_AI/videos',
   benefitsVideo: 'https://www.youtube.com/watch?v=i3pwQ2BWTO8',
   auth: 'https://sq-panel.vercel.app/login',
   logos: ['/img/logos/logo.svg', '/img/logos/logo-inner.png'],
