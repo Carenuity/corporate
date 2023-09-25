@@ -2,6 +2,40 @@ import Head from 'next/head';
 import { useContext } from 'react';
 import PageTitle from '../../components/PageTitle';
 import { StoreContext } from '../../components/context/Store';
+import ModuleImage from '../../components/ModuleImage';
+import Link from 'next/link';
+
+const Microcontrollers = () => {
+  return (
+    <div className='row'>
+      <ModuleImage
+        url={'/actuators'}
+        image={'/img/boards/C3-Mini-microcontroller.webp'}
+        gridClass='col-md-6'
+      />
+      <ModuleImage
+        url={'/actuators'}
+        image={'/img/boards/ESP32-Mini-microcontroller.webp'}
+        gridClass='col-md-6'
+      />
+      <ModuleImage
+        url={'/actuators'}
+        image={'/img/boards/D1-Mini-microcontroller.webp'}
+        gridClass='col-md-6'
+      />
+      <ModuleImage
+        url={'/actuators'}
+        image={'/img/boards/ESP32-CAM-microcontroller.webp'}
+        gridClass='col-md-6'
+      />
+      <ModuleImage
+        url={'/actuators'}
+        image={'/img/boards/Pico-W-microcontroller.webp'}
+        gridClass='col-12'
+      />
+    </div>
+  );
+}
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Select what you have';
@@ -67,8 +101,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       </p>
 
                       <p className='text-center mt-3'>
-                        <a
-                          href={state.urls.webFlash}
+                        <Link
+                          href={'/actuators'}
                           className='btn-style2 primary wow fadeInUp p-3'
                           data-wow-delay='400ms'
                           style={{
@@ -78,8 +112,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                             height: '3.5rem',
                           }}
                         >
-                          <span className='small'>Install For Free</span>
-                        </a>
+                          <span className='small'>Select Actuator</span>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -126,14 +160,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               }}
             >
               <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={boardImage}
-                  alt='Micro-controller'
-                  className='d-sm-none d-inline-block'
-                  style={{ width: '500px' }}
-                  useMap='#image_map'
-                />
+                <div className='d-sm-none'>
+                  <Microcontrollers />
+                </div>
                 <div className='about-img d-none d-sm-block'>
                   <p
                     className='px-4 py-3 text-align-justify bg-success pb-4'
@@ -143,15 +172,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     support with care. Just click the desired one you possibly
                     are familiar with:
                   </p>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={boardImage}
-                    className='img-fluid'
-                    alt='Micro-controller'
-                    style={{ width: '500px' }}
-                    useMap='#image_map'
-                  />
-                  <map name='image_map'>
+                  <Microcontrollers />
+                  {/* <map name='image_map'>
                     <area
                       alt='C3-Mini'
                       title='C3-Mini - Read More'
@@ -192,14 +214,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       shape='rect'
                       data-bs-toggle='tooltip'
                     />
-                    {/* <area
-                      alt='ESP32-Mini'
-                      title='ESP32-Mini'
-                      href='http://carenuity.com/ESP32-Mini'
-                      coords='1068,22,2151,1140'
-                      shape='rect'
-                    /> */}
-                  </map>
+                  </map> */}
                 </div>
               </div>
             </div>

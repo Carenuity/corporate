@@ -225,12 +225,18 @@ const Menu = ({
                   </span>
                 </li>
                 <li>
+                  <Link href={'/AI-Program-Kenya'}>🇰🇪 Kenya</Link>
+                </li>
+                <li>
+                  <Link href={'/AI-Program-Greece'}>🇬🇷 Greece</Link>
+                </li>
+                <li>
                   <a
                     href={urls.supplimentAiMaterials}
                     target='_blank'
                     rel='noreferrer'
                   >
-                    Supplemental Materials
+                    🦾 Supplemental Materials
                   </a>
                 </li>
               </ul>

@@ -7,6 +7,7 @@ export default function Document() {
         {/* metas */}
         <meta charSet='utf-8' />
         {/* <meta http-equiv="Access-Control-Allow-Origin" content="https://carenuity.com" /> */}
+        <link rel='canonical' href='https://…' />
         <meta
           name='author'
           content={'https://www.linkedin.com/in/paul-otieno-software-engineer/'}

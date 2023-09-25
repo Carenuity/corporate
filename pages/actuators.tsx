@@ -3,8 +3,8 @@ import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 import ModuleImage from '../components/ModuleImage';
 
-const sensors = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'Sensor Selection';
+const Actuators = ({ isMobile }: { isMobile: boolean }) => {
+  const pageTitle = 'Actuator Selection';
   return (
     <>
       <Head>
@@ -22,10 +22,10 @@ const sensors = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Install For Free'
-        prevPageUrl='/install-for-free'
+        prevPage='Microcontrollers'
+        prevPageUrl='/microcontrollers'
         pageTitle={pageTitle}
-        pageUrl='/sensors'
+        pageUrl='/actuators'
       />
 
       <section className='pt-4'>
@@ -35,81 +35,56 @@ const sensors = ({ isMobile }: { isMobile: boolean }) => {
               <div className='pe-lg-1-9'>
                 <div className='row mt-1-9'>
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Barometer-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/0.66-OLED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Hygrometer-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/wemos-RGB-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Hygro-Thermometer-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/Lolin-RGB-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Luxmeter-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/RGB-LED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Thermo-Barometer-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/wemos-matrix-LED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/IR-Radiometer-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/wemos-buzzer-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Motion-Detector-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/0.78-OLED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Radar-Meter-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/water-pump-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Thermometer-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/sim-800c-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Presence-Detector-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/circular-matrix-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Air-Qual-CO2-Meter-sensor.png'}
-                  />
-                  <ModuleImage url={'/microcontrollers'} image={'/img/sensors/Motion-sensor.png'} />
-                  <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Air-Parameter-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/traffic-light-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Hygrometer-2-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/2.8-OLED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/UV-Radiometer-sensor.png'}
-                  />
-                  <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Motion-Detector-2-sensor.png'}
-                  />
-                  <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/CO2-Meter-sensor.png'}
-                  />
-                  <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Air-Quality-Meter-sensor.png'}
-                  />
-                  <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Heart-Pulse-Oximeter-sensor.png'}
-                  />
-                  <ModuleImage
-                    url={'/microcontrollers'}
-                    image={'/img/sensors/Moisture-Meter-sensor.png'}
+                    url={'/environments'}
+                    image={'/img/actuators/micro-servo-actuator.png'}
                   />
                 </div>
               </div>
@@ -139,49 +114,64 @@ const sensors = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 >
-                  Carenuity is a sensor device specialist with a portfolio of 24
-                  devices, which you get with an enclosure as well as customized
-                  for your needs.
+                  Actuators typically are displays, LEDs, buzzers or motors,
+                  that act once the sensor detects a signal and the
+                  microcontroller requests that respective action. Therefore
+                  these parts are called &apos;Actuators&apos;.
                 </p>
 
                 <div className='row mb-1-9'>
                   <div className='col-md-6 wow fadeIn' data-wow-delay='200ms'>
                     <div className='d-flex align-items-center'>
                       <i className='ti-check display-26 text-primary'></i>
-                      <span className='ms-3 text-dark fw-bold'>Barometer</span>
-                    </div>
-                    <div className='d-flex align-items-center mt-4'>
-                      <i className='ti-check display-26 text-primary'></i>
-                      <span className='ms-3 text-dark fw-bold'>Hygrometer</span>
-                    </div>
-                    <div className='d-flex align-items-center mt-4'>
-                      <i className='ti-check display-26 text-primary'></i>
                       <span className='ms-3 text-dark fw-bold'>
-                        Thermometer
+                        0.66&quot; OLED
                       </span>
                     </div>
                     <div className='d-flex align-items-center mt-4'>
                       <i className='ti-check display-26 text-primary'></i>
+                      <span className='ms-3 text-dark fw-bold'>Wemos RGB</span>
+                    </div>
+                    <div className='d-flex align-items-center mt-4'>
+                      <i className='ti-check display-26 text-primary'></i>
                       <span className='ms-3 text-dark fw-bold'>
-                        Motion Detector
+                        Lolin RGB LED
                       </span>
+                    </div>
+                    <div className='d-flex align-items-center mt-4'>
+                      <i className='ti-check display-26 text-primary'></i>
+                      <span className='ms-3 text-dark fw-bold'>Water Pump</span>
+                    </div>
+                    <div className='d-flex align-items-center mt-4'>
+                      <i className='ti-check display-26 text-primary'></i>
+                      <span className='ms-3 text-dark fw-bold'>RGB LED</span>
                     </div>
                   </div>
                   <div className='col-md-6 wow fadeIn' data-wow-delay='400ms'>
                     <div className='d-flex align-items-center mt-4 mt-md-0'>
                       <i className='ti-check display-26 text-primary'></i>
-                      <span className='ms-3 text-dark fw-bold'>Luxmeter</span>
+                      <span className='ms-3 text-dark fw-bold'>SIM</span>
+                    </div>
+                    <div className='d-flex align-items-center mt-4'>
+                      <i className='ti-check display-26 text-primary'></i>
+                      <span className='ms-3 text-dark fw-bold'>Matrix LED</span>
                     </div>
                     <div className='d-flex align-items-center mt-4'>
                       <i className='ti-check display-26 text-primary'></i>
                       <span className='ms-3 text-dark fw-bold'>
-                        IR Radiometer
+                        0.78&quot; OLED
                       </span>
                     </div>
                     <div className='d-flex align-items-center mt-4'>
                       <i className='ti-check display-26 text-primary'></i>
                       <span className='ms-3 text-dark fw-bold'>
-                        Presence Button
+                        2.8&quot; OLED
+                      </span>
+                    </div>
+                    <div className='d-flex align-items-center mt-4'>
+                      <i className='ti-check display-26 text-primary'></i>
+                      <span className='ms-3 text-dark fw-bold'>
+                        Wemos Buzzer
                       </span>
                     </div>
                   </div>
@@ -189,7 +179,7 @@ const sensors = ({ isMobile }: { isMobile: boolean }) => {
 
                 {!isMobile && (
                   <Link
-                    href={'/microcontrollers'}
+                    href={'/environments'}
                     className='btn-style2 primary wow fadeInUp p-3'
                     data-wow-delay='400ms'
                     style={{
@@ -199,13 +189,13 @@ const sensors = ({ isMobile }: { isMobile: boolean }) => {
                       height: '3.5rem',
                     }}
                   >
-                    <span className='small'>Select Microcontroller </span>
+                    <span className='small'>Select Environment </span>
                   </Link>
                 )}
 
                 {isMobile && (
                   <a
-                    href={'/microcontrollers'}
+                    href={'/environments'}
                     className='btn-style2 primary wow fadeInUp p-3'
                     data-wow-delay='400ms'
                     style={{
@@ -227,4 +217,4 @@ const sensors = ({ isMobile }: { isMobile: boolean }) => {
   );
 };
 
-export default sensors;
+export default Actuators;
