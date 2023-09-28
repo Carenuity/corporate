@@ -40,7 +40,7 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™ Sensor Box​',
+      name: 'C3-Mini™ Sensor Box',
       url: '/c3-mini-box',
       icon: 'fa-solid fa-keyboard',
     },
@@ -53,6 +53,11 @@ export const servicesUrls: Service = {
       name: 'C3-Mini™ Weather-Panel (launch 2nd H.2023)',
       url: '/c3-mini-weather-panel',
       icon: 'fa-solid fa-cloud',
+    },
+    {
+      name: 'C3-Mini™ Spotify Remote Control (launch 4th Quarter of 2023)',
+      url: '/c3-mini-spotify-remote-control',
+      icon: 'fa-solid fa-music',
     },
   ],
   premium: [

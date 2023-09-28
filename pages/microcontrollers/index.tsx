@@ -4,38 +4,57 @@ import PageTitle from '../../components/PageTitle';
 import { StoreContext } from '../../components/context/Store';
 import ModuleImage from '../../components/ModuleImage';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Microcontrollers = () => {
+  const router = useRouter();
+  const query = router.query;
+
   return (
     <div className='row'>
       <ModuleImage
-        url={'/actuators'}
+        url={{
+          pathname: '/actuators',
+          query: { ...query, microcontroller: 'C3-Mini' },
+        }}
         image={'/img/boards/C3-Mini-microcontroller.webp'}
         gridClass='col-md-6'
       />
       <ModuleImage
-        url={'/actuators'}
+        url={{
+          pathname: '/actuators',
+          query: { ...query, microcontroller: 'ESP32-Mini' },
+        }}
         image={'/img/boards/ESP32-Mini-microcontroller.webp'}
         gridClass='col-md-6'
       />
       <ModuleImage
-        url={'/actuators'}
+        url={{
+          pathname: '/actuators',
+          query: { ...query, microcontroller: 'D1-Mini' },
+        }}
         image={'/img/boards/D1-Mini-microcontroller.webp'}
         gridClass='col-md-6'
       />
       <ModuleImage
-        url={'/actuators'}
+        url={{
+          pathname: '/actuators',
+          query: { ...query, microcontroller: 'ESP32-CAM' },
+        }}
         image={'/img/boards/ESP32-CAM-microcontroller.webp'}
         gridClass='col-md-6'
       />
       <ModuleImage
-        url={'/actuators'}
+        url={{
+          pathname: '/actuators',
+          query: { ...query, microcontroller: 'Pico-W' },
+        }}
         image={'/img/boards/Pico-W-microcontroller.webp'}
         gridClass='col-12'
       />
     </div>
   );
-}
+};
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Select what you have';

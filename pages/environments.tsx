@@ -2,9 +2,13 @@ import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 import ModuleImage from '../components/ModuleImage';
+import { useRouter } from 'next/router';
 
 const Actuators = ({ isMobile }: { isMobile: boolean }) => {
+  const router = useRouter()
+  const query = router.query;
   const pageTitle = 'Environment Selection';
+  const webFlash = 'https://chipglobe-dev.web.app/';
   return (
     <>
       <Head>
@@ -43,28 +47,43 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
               >
                 <div className='row mt-1-9'>
                   <ModuleImage
-                    url={'/microcontrollers'}
+                    url={{
+                      pathname: '/#!',
+                      query: { ...query, environment: '0.66-OLED' },
+                    }}
                     image={'/img/environments/environments-title.png'}
                     gridClass='col-12'
                   />
                   <div className='d-flex flex-column justify-content-between mt-5'>
                     <ModuleImage
-                      url={'/microcontrollers'}
+                      url={{
+                        pathname: webFlash,
+                        query: { ...query, environment: 'ha' },
+                      }}
                       image={'/img/environments/Home-assistant-environment.png'}
                     />
                     <ModuleImage
-                      url={'/microcontrollers'}
+                      url={{
+                        pathname: webFlash,
+                        query: { ...query, environment: 'ias' },
+                      }}
                       image={'/img/environments/IoT-appstore-environment.png'}
                       gridClass='col-md-5 mt-3'
                     />
                   </div>
                   <div className='d-flex justify-content-between mt-5 align-items-end'>
                     <ModuleImage
-                      url={'/microcontrollers'}
+                      url={{
+                        pathname: webFlash,
+                        query: { ...query, environment: 'cloudfree' },
+                      }}
                       image={'/img/environments/cloud-free-environment.png'}
                     />
                     <ModuleImage
-                      url={'/microcontrollers'}
+                      url={{
+                        pathname: webFlash,
+                        query: { ...query, environment: 'matter' },
+                      }}
                       image={'/img/environments/matter-environment.png'}
                     />
                   </div>
@@ -111,7 +130,9 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                     </div>
                     <div className='d-flex align-items-center mt-4'>
                       <i className='ti-check display-26 text-primary'></i>
-                      <span className='ms-3 text-dark fw-bold'>IoT AppStore</span>
+                      <span className='ms-3 text-dark fw-bold'>
+                        IoT AppStore
+                      </span>
                     </div>
                   </div>
                   <div className='col-md-6 wow fadeIn' data-wow-delay='400ms'>
@@ -121,9 +142,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                     </div>
                     <div className='d-flex align-items-center mt-4'>
                       <i className='ti-check display-26 text-primary'></i>
-                      <span className='ms-3 text-dark fw-bold'>
-                        Matter
-                      </span>
+                      <span className='ms-3 text-dark fw-bold'>Matter</span>
                     </div>
                   </div>
                 </div>

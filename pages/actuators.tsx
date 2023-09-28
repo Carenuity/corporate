@@ -2,8 +2,11 @@ import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 import ModuleImage from '../components/ModuleImage';
+import { useRouter } from 'next/router';
 
 const Actuators = ({ isMobile }: { isMobile: boolean }) => {
+  const router = useRouter();
+  const query = router.query;
   const pageTitle = 'Actuator Selection';
   return (
     <>
@@ -35,55 +38,94 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
               <div className='pe-lg-1-9'>
                 <div className='row mt-1-9'>
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: '0.66-OLED' },
+                    }}
                     image={'/img/actuators/0.66-OLED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'wemos-RGB' },
+                    }}
                     image={'/img/actuators/wemos-RGB-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'Lolin-RGB' },
+                    }}
                     image={'/img/actuators/Lolin-RGB-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'RGB-LED' },
+                    }}
                     image={'/img/actuators/RGB-LED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'wemos-matrix-LED' },
+                    }}
                     image={'/img/actuators/wemos-matrix-LED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'wemos-buzzer' },
+                    }}
                     image={'/img/actuators/wemos-buzzer-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: '0.78-OLED' },
+                    }}
                     image={'/img/actuators/0.78-OLED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'water-pump' },
+                    }}
                     image={'/img/actuators/water-pump-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'sim-800c' },
+                    }}
                     image={'/img/actuators/sim-800c-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'circular-matrix' },
+                    }}
                     image={'/img/actuators/circular-matrix-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'traffic-light' },
+                    }}
                     image={'/img/actuators/traffic-light-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: '2.8-OLED' },
+                    }}
                     image={'/img/actuators/2.8-OLED-actuator.png'}
                   />
                   <ModuleImage
-                    url={'/environments'}
+                    url={{
+                      pathname: '/environments',
+                      query: { ...query, actuator: 'micro-servo' },
+                    }}
                     image={'/img/actuators/micro-servo-actuator.png'}
                   />
                 </div>

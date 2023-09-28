@@ -2,11 +2,15 @@ import { useContext } from 'react';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
 import { StoreContext } from '../components/context/Store';
+import Head from 'next/head';
 
 const Index = () => {
   const { state } = useContext(StoreContext);
   return (
     <>
+      <Head>
+        <title>Sensor Selection Box</title>
+      </Head>
       <div>
         <div className='wow fadeIn' data-wow-delay='200ms'>
           <div className='section-title mb-1-9'>
@@ -158,7 +162,10 @@ const Index = () => {
               and the OLED display on the Triple-Adapter, as illustrated and
               install the selected application:
             </p>
-            <a href={state.urls.webFlash} className='btn-style2 px-3 small text-center'>
+            <a
+              href={state.urls.webFlash}
+              className='btn-style2 px-3 small text-center'
+            >
               <span className='text-white'>Install For Free</span>
             </a>
             <p className='mt-3 text-start'>
