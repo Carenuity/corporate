@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import CarenuityDevice from '../components/CarenuityDevice';
+import CarouselImage from '../components/CarouselImage';
 
 const Index = () => {
   return (
@@ -33,30 +34,89 @@ const Index = () => {
             <div className='col-lg-8 mt-n1-9'>
               <div className='pe-lg-1-9 mt-3'>
                 <div className='owl-carousel owl-theme text-center testimonial-carousel1'>
-                  <div className='item'>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src='/img/content/Sensor-Selection-Box.jpeg'
-                      alt='...'
-                      style={{ maxHeight: '20rem' }}
-                    />
-                  </div>
-                  <div className='item'>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src='/img/content/modular-C3-Mini-sensor-selection-box.webp'
-                      alt='...'
-                      style={{ maxHeight: '20rem' }}
-                    />
-                  </div>
-                  <div className='item'>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src='/img/content/triple-adapter-with-letters-S-M-A-for-orientation.webp'
-                      alt='...'
-                      style={{ maxHeight: '20rem' }}
-                    />
-                  </div>
+                  <CarouselImage
+                    url={'/img/content/Sensor-Selection-Box.jpeg'}
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/modular-C3-Mini-sensor-selection-box.webp'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.webp'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_Barometer.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_Hygrometer-1.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_IR-Radiometer.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_Luxmeter.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_Motion-Detector.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_Presence-Detector.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/Application_Thermometer.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/BH1750_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/BMP180_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/BUTTON_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/DHT11_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/DS18B20_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/H6XXT_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
+                  <CarouselImage
+                    url={
+                      '/img/content/C3-Mini-Sensor-Box/PIR_C3-Mini_0.66-OLED_HA.PNG'
+                    }
+                  />
                 </div>
                 <div>
                   {/* Barometric */}
