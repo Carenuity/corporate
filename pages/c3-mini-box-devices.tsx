@@ -1,0 +1,175 @@
+import Head from 'next/head';
+import React from 'react';
+import PageTitle from '../components/PageTitle';
+import CarenuityDevice from '../components/CarenuityDevice';
+
+const Index = () => {
+  return (
+    <>
+      <Head>
+        <meta
+          name='keywords'
+          content='Carenuity ChipGlobe Electronics Embedded Systems'
+        />
+        <meta
+          name='description'
+          content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
+        />
+        <title>Sensor Selection Box Modules</title>
+      </Head>
+
+      {/* <!-- PAGE TITLE
+        ================================================== --> */}
+      <PageTitle
+        prevPage='C3-Mini Sensor Box'
+        prevPageUrl='/c3-mini-box'
+        pageTitle={'C3-Mini Sensor Box Devices'}
+        pageUrl='/c3-mini-box-devices'
+      />
+
+      <section className='pt-4'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-8 mt-n1-9'>
+              <div className='pe-lg-1-9 mt-3'>
+                <div className='owl-carousel owl-theme text-center testimonial-carousel1'>
+                  <div className='item'>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src='/img/content/Sensor-Selection-Box.jpeg'
+                      alt='...'
+                      style={{ maxHeight: '20rem' }}
+                    />
+                  </div>
+                  <div className='item'>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src='/img/content/modular-C3-Mini-sensor-selection-box.webp'
+                      alt='...'
+                      style={{ maxHeight: '20rem' }}
+                    />
+                  </div>
+                  <div className='item'>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src='/img/content/triple-adapter-with-letters-S-M-A-for-orientation.webp'
+                      alt='...'
+                      style={{ maxHeight: '20rem' }}
+                    />
+                  </div>
+                </div>
+                <div>
+                  {/* Barometric */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'Barometer',
+                      long: `Barometric Pressure & Temperature by BMP180-Sensor (BOSCH)`,
+                    }}
+                    imageUrl={'/img/sensors/Barometer-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/BMP180/C3-Mini'
+                    }
+                  />
+
+                  {/* Hygrometer-1 */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'Hygrometer-1',
+                      long: `Temperature & Humidity by DHT11 (AOSONG/ASAIR)`,
+                    }}
+                    imageUrl={'/img/sensors/Hygrometer-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/DHT11/C3-Mini'
+                    }
+                  />
+
+                  {/* IR Radiometer */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'IR Radiometer',
+                      long: `Infrared Radiation Detector by IRM-H6XXT/TR2 (EVERLIGHT)`,
+                    }}
+                    imageUrl={'/img/sensors/IR-Radiometer-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/H6XXT/C3-Mini'
+                    }
+                  />
+
+                  {/* Luxmeter */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'Luxmeter',
+                      long: `Ambient Light by BH1750FVI (ROHM SEMICONDUCTOR)`,
+                    }}
+                    imageUrl={'/img/sensors/Luxmeter-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/BH1750/C3-Mini'
+                    }
+                  />
+
+                  {/* Thermometer */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'Thermometer',
+                      long: `Temperature by DS18B20 (MAXIM ANALOG DEVICES)`,
+                    }}
+                    imageUrl={'/img/sensors/Thermometer-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/DS18B20/C3-Mini'
+                    }
+                  />
+
+                  {/* Motion Detector */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'Motion Detector',
+                      long: `Passive Infrared Radiation Detector by PIR (ADAFRUIT)`,
+                    }}
+                    imageUrl={'/img/sensors/Motion-Detector-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/PIR/C3-Mini'
+                    }
+                  />
+
+                  {/* Presence Detector */}
+                  <CarenuityDevice
+                    name={{
+                      short: 'Presence Detector',
+                      long: `Push / Click Control by One-Button (DIGIKEY)`,
+                    }}
+                    imageUrl={'/img/sensors/Presence-Detector-sensor.png'}
+                    webFlashUrl={
+                      'https://chipglobe-dev.web.app/cloudfree/BUTTON/C3-Mini'
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-4 text-center'>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src='/img/sensors/YOUR-SENSOR_C3-Mini_0.66-OLED_cloudfree.png'
+                alt='Custom Sensor'
+                className='img-fluid'
+              />
+              <div className='d-flex flex-column bg-success'>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src='/img/content/replacing-the-sensor.webp'
+                  alt='Tripple Adaptor'
+                />
+                <p className='text-white mx-3'>
+                  Stack one of the seven sensor boards onto the Triple-Adapter,
+                  Have the C3-Mini in the middle and the display board on the
+                  right.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Index;

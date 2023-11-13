@@ -59,7 +59,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={UOP}
-                        alt='Kisii University'
+                        alt='UOP'
                         className='rounded-circle shadow'
                         style={{ width: '5rem', height: '5rem' }}
                       />
@@ -78,16 +78,19 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={calendar}
-                        alt='Kisii University'
+                        alt='UOP'
                         className='rounded-circle shadow'
                         style={{ width: '5rem', height: '5rem' }}
                       />
                     </div>
                     <div className='flex-grow-1 ms-3'>
-                      <h4 className='h5'>Upcoming events</h4>
+                      <h4 className='h5'>Past Events</h4>
                       <p className='mb-0'>
-                        News: On the 20th of October 2023, Carenuity will
-                        participate on the next HETiA event in Thessaloniki ​
+                        News: 19th-20th of October 2023, Carenuity participated
+                        on the HETiA Emerging Tech Conference on Edge
+                        Intelligence at the Aristotle University in Thessaloniki
+                        and met interested students for Internships, starting in
+                        March 2024.
                       </p>
                     </div>
                   </div>
@@ -120,6 +123,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   />
                 </div>
               </div>
+            </div>
+            <div className='col-12'>
+              <iframe
+                src='https://hetia.org/portfolio-item/chipglobe-en/'
+                frameBorder={0}
+                className='w-100'
+                style={{ height: '50rem' }}
+              ></iframe>
             </div>
           </div>
         </div>

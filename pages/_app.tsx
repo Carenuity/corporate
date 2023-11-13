@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       // require('../utils/js/popper.min.js');
       require('../utils/js/bootstrap.min.js');
       require('../utils/js/nav-menu.js');
-      // require('../utils/js/owl.carousel.js');
+      require('../utils/js/owl.carousel.js');
       // require('../utils/js/jquery.counterup.min.js');
       // require('../utils/js/jquery.stellar.min.js');
       // require('../utils/js/easy.responsive.tabs.js');

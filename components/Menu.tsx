@@ -239,6 +239,22 @@ const Menu = ({
                     🦾 Supplemental Materials
                   </a>
                 </li>
+                <li>
+                  <span className='mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted'>
+                    {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
+                    Supplemental API Keys
+                  </span>
+                </li>
+                <li>
+                  <Link href={'/open-weather-map'} className='text-nowrap'>
+                    🔑 Get OpenWeather API Key
+                  </Link>
+                </li>
+                <li>
+                  <Link href={'/spotify-api'} className='text-nowrap'>
+                    🔑 Get Spotify API Key
+                  </Link>
+                </li>
               </ul>
             </li>
             <li>

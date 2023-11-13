@@ -188,11 +188,10 @@
 
     // === when document ready === //
     $(document).ready(function(){
-
-        /*------------------------------------
+      /*------------------------------------
             12. Sliders
         --------------------------------------*/
-/*
+      
         // testmonial-carousel3
         $('.testimonial-carousel1').owlCarousel({
             loop: true,
@@ -370,91 +369,109 @@
             }
         });
 
-        // Sliderfade
-        $('.slider-fade1').owlCarousel({
-            items: 1,
-            loop:true,
-            dots: true,
-            margin: 0,
-            nav: false,
-            navText: ["<span class='fas fa-chevron-left'></span>", "<span class='fas fa-chevron-right'></span>"],
-            autoplay: false,
-            smartSpeed:1500,
-            mouseDrag:false,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut'
-        });
-        
-        // Default owlCarousel
-        $('.owl-carousel').owlCarousel({
-            items: 1,
-            loop:true,
-            dots: false,
-            margin: 0,
-            autoplay:false,
-            smartSpeed:500
-        });   
+      // Sliderfade
+      $('.slider-fade1').owlCarousel({
+        items: 1,
+        loop: true,
+        dots: true,
+        margin: 0,
+        nav: false,
+        navText: [
+          "<span class='fas fa-chevron-left'></span>",
+          "<span class='fas fa-chevron-right'></span>",
+        ],
+        autoplay: false,
+        smartSpeed: 1500,
+        mouseDrag: false,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+      });
 
-        // Slider text animation
-        var owl = $('.slider-fade1');
-        owl.on('changed.owl.carousel', function(event) {
-            var item = event.item.index - 2;     // Position of the current item
-            $('span').removeClass('animated fadeInUp');
-            $('h1').removeClass('animated fadeInUp');
-            $('p').removeClass('animated fadeInUp');
-            $('a').removeClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('span').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('h1').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('p').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('a').addClass('animated fadeInUp');
-        });
-*/
-        /*------------------------------------
+      // Default owlCarousel
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        dots: false,
+        margin: 0,
+        autoplay: false,
+        smartSpeed: 500,
+      });
+
+      // Slider text animation
+      var owl = $('.slider-fade1');
+      owl.on('changed.owl.carousel', function (event) {
+        var item = event.item.index - 2; // Position of the current item
+        $('span').removeClass('animated fadeInUp');
+        $('h1').removeClass('animated fadeInUp');
+        $('p').removeClass('animated fadeInUp');
+        $('a').removeClass('animated fadeInUp');
+        $('.owl-item')
+          .not('.cloned')
+          .eq(item)
+          .find('span')
+          .addClass('animated fadeInUp');
+        $('.owl-item')
+          .not('.cloned')
+          .eq(item)
+          .find('h1')
+          .addClass('animated fadeInUp');
+        $('.owl-item')
+          .not('.cloned')
+          .eq(item)
+          .find('p')
+          .addClass('animated fadeInUp');
+        $('.owl-item')
+          .not('.cloned')
+          .eq(item)
+          .find('a')
+          .addClass('animated fadeInUp');
+      });
+      /*------------------------------------
             13. Tabs
         --------------------------------------*/
 
-        //Horizontal Tab
-        if ($(".horizontaltab").length !== 0) {
-            $('.horizontaltab').easyResponsiveTabs({
-                type: 'default', //Types: default, vertical, accordion
-                width: 'auto', //auto or any width like 600px
-                fit: true, // 100% fit in a container
-                tabidentify: 'hor_1', // The tab groups identifier
-                activate: function(event) { // Callback function if tab is switched
-                    var $tab = $(this);
-                    var $info = $('#nested-tabInfo');
-                    var $name = $('span', $info);
-                    $name.text($tab.text());
-                    $info.show();
-                }
-            });
-        }
+      //Horizontal Tab
+      if ($('.horizontaltab').length !== 0) {
+        $('.horizontaltab').easyResponsiveTabs({
+          type: 'default', //Types: default, vertical, accordion
+          width: 'auto', //auto or any width like 600px
+          fit: true, // 100% fit in a container
+          tabidentify: 'hor_1', // The tab groups identifier
+          activate: function (event) {
+            // Callback function if tab is switched
+            var $tab = $(this);
+            var $info = $('#nested-tabInfo');
+            var $name = $('span', $info);
+            $name.text($tab.text());
+            $info.show();
+          },
+        });
+      }
 
-        /*------------------------------------
+      /*------------------------------------
             14. CountUp
         --------------------------------------*/
-/*
+      /*
         $('.countup').counterUp({
             delay: 25,
             time: 2000
         });
 */
-        /*------------------------------------
+      /*------------------------------------
             15. Countdown
         --------------------------------------*/
-/*
+      /*
         // CountDown for coming soon page
         $(".countdown").countdown({
             date: "01 Aug 2025 00:01:00", //set your date and time. EX: 15 May 2025 12:00:00
             format: "on"
         });
 */
-        /*------------------------------------
+      /*------------------------------------
             16. Current Year
         --------------------------------------*/
 
-        $('.current-year').text(new Date().getFullYear());
-      
+      $('.current-year').text(new Date().getFullYear());
     });
 
     // === when window loading === //

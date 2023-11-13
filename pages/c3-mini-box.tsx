@@ -52,6 +52,12 @@ const Index = () => {
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.
             </p>
+            <a
+              href={'/c3-mini-box-devices'}
+              className='btn-style2 px-3 small text-center'
+            >
+              <span className='text-white'>Install For Free (7 Devices)</span>
+            </a>
           </div>
         </div>
         <h3 className='h5'>Build your own device within seconds:</h3>

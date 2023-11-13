@@ -88,11 +88,19 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       <h4 className='h5'>
                         Technical University of Kenya (TUK)
                       </h4>
-                      <p className='mb-0'>
-                        News: October 2023 onwards, an alumni from Nairobi
-                        successfully finished his exams and starts his
-                        internship in our offices,
+                      <p className='mb-2 pb-2 border-bottom'>
+                        News: December 2023, an Intern from Nairobi will finish
+                        his remotely mentored internship on AI-assisted Edge
+                        Devices, with focus on Object Detection using Edge
+                        Impulse.
                       </p>
+                      <em>
+                        TUK News November 2023, Cyntia participated at IEEE TUK
+                        SB INNOVATION WEEK & INDUSTRY SYMPOSIUM <br />
+                        <a href='https://edu.ieee.org/ke-tuk' target='_blank' rel="noreferrer">
+                          https://edu.ieee.org/ke-tuk
+                        </a>
+                      </em>
                     </div>
                   </div>
                   <div className='d-flex about-text'>

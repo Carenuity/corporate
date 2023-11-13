@@ -1,5 +1,3 @@
-import DesignerAddress from './DesignerAddress';
-import DevAddress from './DevAddress';
 
 const SidebarContentEn = () => {
   return (
@@ -89,14 +87,6 @@ const SidebarContentEn = () => {
          <br />
          Volker Frisch
       </p>
-      <div>
-        <strong>Web-Concept/Design:</strong> 
-        <DesignerAddress />
-      </div>
-      <div>
-        <strong>Programming:</strong>
-        <DevAddress />
-      </div>
     </>
   );
 }
