@@ -127,7 +127,8 @@ const Index = () => {
                     }}
                     imageUrl={'/img/sensors/Barometer-sensor.png'}
                     webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/BMP180/C3-Mini'
+                      'https://chipglobe-dev.web.app/bin/BMP180/BMP180_0.66-OLED_cloudfree.json'
+                      // 'https://chipglobe-dev.web.app/cloudfree/BMP180/C3-Mini'
                     }
                   />
 
@@ -212,7 +213,7 @@ const Index = () => {
                 alt='Custom Sensor'
                 className='img-fluid'
               />
-              <div className='d-flex flex-column bg-success'>
+              <div className='d-flex flex-column bg-secondary'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src='/img/content/replacing-the-sensor.webp'

@@ -1,4 +1,5 @@
 import React from 'react'
+import EspWebInstallButton from './EspWebInstallButton';
 
 const CarenuityDevice = ({
   name: { short, long },
@@ -24,10 +25,11 @@ const CarenuityDevice = ({
           <h4 className='h6 mb-2'>
             <strong className='fw-bold'>{short}:</strong> {long}
           </h4>
-          <p>
-            <a href={webFlashUrl} target='_blank' rel="noreferrer">{webFlashUrl}</a>
-            <i className='fa-solid fa-up-right-from-square ms-2'></i>
-          </p>
+          <div className='d-flex justify-content-end'>
+            <EspWebInstallButton manifest={webFlashUrl} />
+            {/* <a href={webFlashUrl} target='_blank' rel="noreferrer">{webFlashUrl}</a>
+            <i className='fa-solid fa-up-right-from-square ms-2'></i> */}
+          </div>
         </div>
       </div>
     </>

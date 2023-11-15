@@ -32,6 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
       // require('../utils/js/clipboard.min.js');
       // require('../utils/js/prism.js');
       window.wow = require('../utils/js/wow.js');
+      require('esp-web-tools/dist/web/install-button');
       require('../utils/js/main.js');
     }
   }, []);

@@ -19,6 +19,7 @@
     "clipboard": "^2.0.4",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "esp-web-tools": "^9.4.1",
     "jarallax": "^1.11.0",
     "jquery": "^3.6.0",
     "jquery.counterup": "^2.1.0",
