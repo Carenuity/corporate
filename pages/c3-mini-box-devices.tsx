@@ -44,7 +44,7 @@ const Index = () => {
                   />
                   <CarouselImage
                     url={
-                      '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.webp'
+                      '/img/content/WebFlashing_S-M-A_Building_Blocks_on_TRIPLE_ADAPTER.png'
                     }
                   />
                   <CarouselImage
@@ -119,6 +119,9 @@ const Index = () => {
                   />
                 </div>
                 <div>
+                  <h3 className='border-bottom mb-2 pb-2 h5'>
+                    C3-Mini Devices
+                  </h3>
                   {/* Barometric */}
                   <CarenuityDevice
                     name={{
@@ -212,6 +215,15 @@ const Index = () => {
                 alt='Custom Sensor'
                 className='img-fluid'
               />
+              <div className='mt-4'>
+                <h3 className='h5 text-start'>WebFlashing Video Guide</h3>
+                <video
+                  src='/videos/content/Installing_App_on_C3-Mini.MOV'
+                  className='rounded-2 img-fluid'
+                  controls
+                  loop
+                ></video>
+              </div>
               <div className='d-flex flex-column bg-secondary'>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
