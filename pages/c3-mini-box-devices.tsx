@@ -34,7 +34,7 @@ const Index = () => {
             <div className='col-lg-8 mt-n1-9'>
               <div className='pe-lg-1-9 mt-3'>
                 <div className='owl-carousel owl-theme text-center testimonial-carousel1'>
-                  <CarouselImage
+                  {/* <CarouselImage
                     url={'/img/content/Sensor-Selection-Box.jpeg'}
                   />
                   <CarouselImage
@@ -46,58 +46,38 @@ const Index = () => {
                     url={
                       '/img/content/WebFlashing_S-M-A_Building_Blocks_on_TRIPLE_ADAPTER.png'
                     }
+                  /> */}
+                  <CarouselImage
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide1.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_Barometer.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide2.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_Hygrometer-1.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide3.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_IR-Radiometer.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide4.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_Luxmeter.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide5.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_Motion-Detector.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide6.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_Presence-Detector.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide7.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/Application_Thermometer.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide8.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/BH1750_C3-Mini_0.66-OLED_HA.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide9.PNG'}
                   />
                   <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/BMP180_C3-Mini_0.66-OLED_HA.PNG'
-                    }
+                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide10.PNG'}
                   />
-                  <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/BUTTON_C3-Mini_0.66-OLED_HA.PNG'
-                    }
-                  />
-                  <CarouselImage
+                  {/* <CarouselImage
                     url={
                       '/img/content/C3-Mini-Sensor-Box/DHT11_C3-Mini_0.66-OLED_HA.PNG'
                     }
@@ -116,7 +96,7 @@ const Index = () => {
                     url={
                       '/img/content/C3-Mini-Sensor-Box/PIR_C3-Mini_0.66-OLED_HA.PNG'
                     }
-                  />
+                  /> */}
                 </div>
                 <div>
                   <h3 className='border-bottom mb-2 pb-2 h5'>
