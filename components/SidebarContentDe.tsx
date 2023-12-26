@@ -1,8 +1,7 @@
-
 const SidebarContentDe = () => {
   return (
     <>
-      <h3 className='h5 text-white'>
+      <h3 className="h5 text-white">
         <strong>Angaben gemäß § 5 TMG:</strong>
       </h3>
       <address>
@@ -15,8 +14,8 @@ const SidebarContentDe = () => {
           <div>
             Tel.:{' '}
             <a
-              href='tel:+4989122246900'
-              className='text-white text-primary-hover'
+              href="tel:+4989122246900"
+              className="text-white text-primary-hover"
             >
               <strong>+49 89 1222 469 00</strong>
             </a>
@@ -24,8 +23,8 @@ const SidebarContentDe = () => {
           <div>
             Fax:{' '}
             <a
-              href='tel:+4989122246969'
-              className='text-white text-primary-hover'
+              href="tel:+4989122246969"
+              className="text-white text-primary-hover"
             >
               <strong>+49 89 1222 469 69</strong>
             </a>
@@ -33,8 +32,8 @@ const SidebarContentDe = () => {
           <div>
             Email:{' '}
             <a
-              href='mailto:info@chipglobe.com'
-              className='text-white text-primary-hover'
+              href="mailto:info@chipglobe.com"
+              className="text-white text-primary-hover"
             >
               <strong>info@chipglobe.com</strong>
             </a>
@@ -60,8 +59,8 @@ const SidebarContentDe = () => {
         <span>
           Telefon:{' '}
           <a
-            href='tel:+4989122246901'
-            className='text-white text-primary-hover'
+            href="tel:+4989122246901"
+            className="text-white text-primary-hover"
           >
             +49 89 1222 469 01
           </a>
@@ -70,8 +69,8 @@ const SidebarContentDe = () => {
         <span>
           Email:{' '}
           <a
-            href='mailto:volker.frisch@chipglobe.com'
-            className='text-white text-primary-hover'
+            href="mailto:volker.frisch@chipglobe.com"
+            className="text-white text-primary-hover"
           >
             volker.frisch@chipglobe.com
           </a>
@@ -84,6 +83,6 @@ const SidebarContentDe = () => {
       </p>
     </>
   );
-}
+};
 
-export default SidebarContentDe
+export default SidebarContentDe;

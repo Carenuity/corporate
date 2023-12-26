@@ -16,10 +16,10 @@ const Index = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
-        pageTitle='Allgemeine Geschäftsbedingungen'
-        pageUrl='/terms-and-conditions/en'
+        prevPage="Home"
+        prevPageUrl="/"
+        pageTitle="Allgemeine Geschäftsbedingungen"
+        pageUrl="/terms-and-conditions/en"
       />
 
       <Allgemeine />

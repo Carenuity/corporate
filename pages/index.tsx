@@ -28,18 +28,18 @@ export default function Home({
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
-        <meta name='description' content='Real Estate Electronics Matter' />
+        <meta name="description" content="Real Estate Electronics Matter" />
         <title>Carenuity</title>
       </Head>
 
       {/* <!-- BANNER
         ================================================== --> */}
       <Banner
-        bannerImage='img/banner.webp'
-        slogan='Real Estate Electronics Matter'
+        bannerImage="img/banner.webp"
+        slogan="Real Estate Electronics Matter"
         isMobile={isMobile}
       />
     </>

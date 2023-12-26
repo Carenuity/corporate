@@ -34,7 +34,7 @@ const Layout = ({ children }: { children: any }) => {
     <>
       {/* <!-- PAGE LOADING
     ================================================== --> */}
-      <div id='preloader'></div>
+      <div id="preloader"></div>
 
       {/* <!-- HEADER
         ================================================== --> */}
@@ -53,7 +53,7 @@ const Layout = ({ children }: { children: any }) => {
 
       {/* <!-- MAIN WRAPPER
     ================================================== --> */}
-      <div className='main-wrapper'>
+      <div className="main-wrapper">
         {Children.map(children, (child) => {
           const props = child.props;
           if (isValidElement(child)) {
@@ -71,15 +71,15 @@ const Layout = ({ children }: { children: any }) => {
 
       {/* video pop-up */}
       <VideoPopUp
-        id='applications-btn'
+        id="applications-btn"
         url={state.urls.benefitsVideo}
         show={false}
       />
 
       {/* <!-- SCROLL TO TOP
     ================================================== --> */}
-      <a href='#!' className='scroll-to-top'>
-        <i className='fas fa-angle-up' aria-hidden='true'></i>
+      <a href="#!" className="scroll-to-top">
+        <i className="fas fa-angle-up" aria-hidden="true"></i>
       </a>
     </>
   );

@@ -4,9 +4,7 @@ import PageSpinner from '../components/PageSpinner';
 
 const PrivacyPolicy = dynamic(() => import('../components/dynamic/Privacy'), {
   ssr: false,
-  loading: () => (
-    <PageSpinner />
-  ),
+  loading: () => <PageSpinner />,
 });
 
 const Privacy = () => {
@@ -14,10 +12,10 @@ const Privacy = () => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems Privacy Policy'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems Privacy Policy"
         />
-        <meta name='description' content='Real Estate Electronics Matter' />
+        <meta name="description" content="Real Estate Electronics Matter" />
         <title>Carenuity</title>
       </Head>
 

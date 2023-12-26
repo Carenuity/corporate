@@ -16,10 +16,10 @@ const RightsOfWithdrawal = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
-        pageTitle='Widerrufsrecht'
-        pageUrl='/rights-of-withdrawal/de'
+        prevPage="Home"
+        prevPageUrl="/"
+        pageTitle="Widerrufsrecht"
+        pageUrl="/rights-of-withdrawal/de"
       />
       <Widerrufsrecht />
     </>

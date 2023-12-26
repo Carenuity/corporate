@@ -1,6 +1,6 @@
-import dynamic from "next/dynamic";
-import PageTitle from "../../components/PageTitle";
-import PageSpinner from "../../components/PageSpinner";
+import dynamic from 'next/dynamic';
+import PageTitle from '../../components/PageTitle';
+import PageSpinner from '../../components/PageSpinner';
 
 const TermsAndConditions = dynamic(
   () => import('../../components/dynamic/TermsAndConditions'),
@@ -16,12 +16,12 @@ const Index = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
-        pageTitle='Terms and Conditions'
-        pageUrl='/terms-and-conditions/en'
+        prevPage="Home"
+        prevPageUrl="/"
+        pageTitle="Terms and Conditions"
+        pageUrl="/terms-and-conditions/en"
       />
-      
+
       <TermsAndConditions />
     </>
   );

@@ -14,11 +14,11 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
         <meta
-          name='description'
+          name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
         <title>{pageTitle}</title>
@@ -27,65 +27,65 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
+        prevPage="Home"
+        prevPageUrl="/"
         pageTitle={pageTitle}
-        pageUrl='/AI-Program-Kenya'
+        pageUrl="/AI-Program-Kenya"
       />
 
-      <section className='overflow-hidden py-3'>
-        <div className='container position-relative z-index-3'>
-          <div className='row align-items-center about-style-03'>
+      <section className="overflow-hidden py-3">
+        <div className="container position-relative z-index-3">
+          <div className="row align-items-center about-style-03">
             <div
-              className='col-lg-8 wow fadeIn'
-              data-wow-delay='200ms'
+              className="col-lg-8 wow fadeIn"
+              data-wow-delay="200ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '200ms',
                 animationName: 'fadeIn',
               }}
             >
-              <div className='pe-lg-1-9'>
-                <div className='section-title mb-1-9'>
-                  <span className='sm-title'>Greece</span>
-                  <h2 className='mb-0 h3'>
+              <div className="pe-lg-1-9">
+                <div className="section-title mb-1-9">
+                  <span className="sm-title">Greece</span>
+                  <h2 className="mb-0 h3">
                     ChipGlobe / Carenuity recently joined the HETiA Alliance,
                     formerly known as Semiconductor Alliance of Greece.
                   </h2>
                 </div>
-                <div className='mb-1-9'>
-                  <div className='d-flex about-text mb-1-9'>
-                    <div className='flex-shrink-0'>
+                <div className="mb-1-9">
+                  <div className="d-flex about-text mb-1-9">
+                    <div className="flex-shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={UOP}
-                        alt='UOP'
-                        className='rounded-circle shadow'
+                        alt="UOP"
+                        className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
                       />
                     </div>
-                    <div className='flex-grow-1 ms-3'>
-                      <h4 className='h5'>Cooperation with RENESAS and UOP​</h4>
-                      <p className='mb-0'>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">Cooperation with RENESAS and UOP​</h4>
+                      <p className="mb-0">
                         News: Carenuity evaluates cooperations with the
                         University of the Peloponnese and RENESAS, headquartered
                         in Patras.
                       </p>
                     </div>
                   </div>
-                  <div className='d-flex about-text mb-1-9'>
-                    <div className='flex-shrink-0'>
+                  <div className="d-flex about-text mb-1-9">
+                    <div className="flex-shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={calendar}
-                        alt='UOP'
-                        className='rounded-circle shadow'
+                        alt="UOP"
+                        className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
                       />
                     </div>
-                    <div className='flex-grow-1 ms-3'>
-                      <h4 className='h5'>Past Events</h4>
-                      <p className='mb-0'>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">Past Events</h4>
+                      <p className="mb-0">
                         News: 19th-20th of October 2023, Carenuity participated
                         on the HETiA Emerging Tech Conference on Edge
                         Intelligence at the Aristotle University in Thessaloniki
@@ -98,37 +98,37 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
             <div
-              className='col-lg-4 wow fadeIn text-white'
-              data-wow-delay='400ms'
+              className="col-lg-4 wow fadeIn text-white"
+              data-wow-delay="400ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '400ms',
                 animationName: 'fadeIn',
               }}
             >
-              <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
+              <div className="ps-lg-2-9 position-relative text-center text-sm-start">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={boardImage}
-                  alt='Micro-controller'
-                  className='d-sm-none d-inline-block'
+                  alt="Micro-controller"
+                  className="d-sm-none d-inline-block"
                 />
-                <div className='about-img d-none d-sm-block'>
+                <div className="about-img d-none d-sm-block">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={boardImage}
-                    className='img-fluid'
-                    alt='Micro-controller'
+                    className="img-fluid"
+                    alt="Micro-controller"
                     style={{ width: '100%' }}
                   />
                 </div>
               </div>
             </div>
-            <div className='col-12'>
+            <div className="col-12">
               <iframe
-                src='https://hetia.org/portfolio-item/chipglobe-en/'
+                src="https://hetia.org/portfolio-item/chipglobe-en/"
                 frameBorder={0}
-                className='w-100'
+                className="w-100"
                 style={{ height: '50rem' }}
               ></iframe>
             </div>
@@ -136,9 +136,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src='/img/bg/bg-06.png'
-          className='position-absolute left bottom-5 opacity4'
-          alt='...'
+          src="/img/bg/bg-06.png"
+          className="position-absolute left bottom-5 opacity4"
+          alt="..."
         />
       </section>
     </>

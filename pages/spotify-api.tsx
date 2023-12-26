@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React from 'react'
+import React from 'react';
 import PageTitle from '../components/PageTitle';
 
 const SpotifyApi = () => {
@@ -8,11 +8,11 @@ const SpotifyApi = () => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
         <meta
-          name='description'
+          name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
         <title>{pageTitle}</title>
@@ -21,25 +21,25 @@ const SpotifyApi = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
+        prevPage="Home"
+        prevPageUrl="/"
         pageTitle={pageTitle}
-        pageUrl='/AI-Program-Kenya'
+        pageUrl="/AI-Program-Kenya"
       />
 
-      <section className='overflow-hidden py-3'>
-        <div className='container position-relative z-index-3'>
-          <div className='row align-items-center about-style-03'>
+      <section className="overflow-hidden py-3">
+        <div className="container position-relative z-index-3">
+          <div className="row align-items-center about-style-03">
             <div
-              className='col-lg-7 wow fadeIn'
-              data-wow-delay='200ms'
+              className="col-lg-7 wow fadeIn"
+              data-wow-delay="200ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '200ms',
                 animationName: 'fadeIn',
               }}
             >
-              <h2 className='text-muted border-bottom pb-2 mb-3'>
+              <h2 className="text-muted border-bottom pb-2 mb-3">
                 How to get the Spotify API Key
               </h2>
               <p>
@@ -67,8 +67,8 @@ const SpotifyApi = () => {
               </p>
             </div>
             <div
-              className='col-lg-5 wow fadeIn'
-              data-wow-delay='200ms'
+              className="col-lg-5 wow fadeIn"
+              data-wow-delay="200ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '200ms',
@@ -76,19 +76,19 @@ const SpotifyApi = () => {
               }}
             >
               <iframe
-                width='560'
-                height='315'
-                src='https://www.youtube.com/embed/xKmXMUoo8ps?si=BiOEZI3YQE6WCdaV'
-                title='YouTube video player'
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/xKmXMUoo8ps?si=BiOEZI3YQE6WCdaV"
+                title="YouTube video player"
                 frameBorder={0}
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
-              <p className='my-4 border-5 border-start border-success ps-3 h5'>
+              <p className="my-4 border-5 border-start border-success ps-3 h5">
                 More page content on{' '}
-                <a href='https://github.com/ThingPulse/esp8266-spotify-remote#get-access-to-the-spotify-api'>
+                <a href="https://github.com/ThingPulse/esp8266-spotify-remote#get-access-to-the-spotify-api">
                   How to get the Spotify API key
-                  <i className='fa-solid fa-up-right-from-square ms-2 small me-1 text-success'></i>
+                  <i className="fa-solid fa-up-right-from-square ms-2 small me-1 text-success"></i>
                 </a>{' '}
               </p>
             </div>
@@ -97,6 +97,6 @@ const SpotifyApi = () => {
       </section>
     </>
   );
-}
+};
 
-export default SpotifyApi
+export default SpotifyApi;

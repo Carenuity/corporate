@@ -12,13 +12,13 @@ const legal = () => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems Legal Notice'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems Legal Notice"
         />
-        <meta name='description' content='Real Estate Electronics Matter' />
+        <meta name="description" content="Real Estate Electronics Matter" />
         <title>Carenuity</title>
       </Head>
-      
+
       <Legal />
     </>
   );

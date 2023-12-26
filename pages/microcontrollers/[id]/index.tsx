@@ -32,11 +32,11 @@ const Index = ({
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
         <meta
-          name='description'
+          name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
         <title>{name}</title>
@@ -45,8 +45,8 @@ const Index = ({
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Microcontrollers'
-        prevPageUrl='/microcontrollers'
+        prevPage="Microcontrollers"
+        prevPageUrl="/microcontrollers"
         pageTitle={name}
         pageUrl={`/microcontrollers/${id}`}
       />

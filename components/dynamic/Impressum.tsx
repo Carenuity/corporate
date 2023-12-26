@@ -9,40 +9,40 @@ const Index = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
-        pageTitle='Impressum'
-        pageUrl='/impressum'
+        prevPage="Home"
+        prevPageUrl="/"
+        pageTitle="Impressum"
+        pageUrl="/impressum"
       />
 
       {/* <!-- BLOG DETAILS
         ================================================== --> */}
       <BlogLayout lang={LANG_GERMANY}>
-        <div className='wow fadeIn' data-wow-delay='20ms'>
-          <h3 className='h4 mb-3 text-primary'>Streitschlichtung</h3>
+        <div className="wow fadeIn" data-wow-delay="20ms">
+          <h3 className="h4 mb-3 text-primary">Streitschlichtung</h3>
           {/* <h5 className='h6 mb-2'>Sub Topic</h5> */}
-          <p className='mb-4'>
+          <p className="mb-4">
             Die Europäische Kommission stellt eine Plattform zur
             Online-Streitbeilegung (OS) bereit:{' '}
-            <Link href='https://ec.europa.eu/consumers/odr'>
+            <Link href="https://ec.europa.eu/consumers/odr">
               https://ec.europa.eu/consumers/odr
             </Link>
             . Unsere E-Mail-Adresse finden Sie oben im Impressum.
           </p>
-          <p className='mb-4'>
+          <p className="mb-4">
             Wir sind nicht bereit oder verpflichtet, an
             Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
             teilzunehmen.
           </p>
         </div>
 
-        <div className='wow fadeIn' data-wow-delay='20ms'>
-          <h3 className='h4 mb-3 text-primary'>
+        <div className="wow fadeIn" data-wow-delay="20ms">
+          <h3 className="h4 mb-3 text-primary">
             Haftungsausschluss (Disclaimer)
           </h3>
 
-          <h5 className='h6 mb-2'>Haftung für Inhalte</h5>
-          <p className='mb-4'>
+          <h5 className="h6 mb-2">Haftung für Inhalte</h5>
+          <p className="mb-4">
             Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte
             auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach
             §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
@@ -50,7 +50,7 @@ const Index = () => {
             überwachen oder nach Umständen zu forschen, die auf eine
             rechtswidrige Tätigkeit hinweisen.
           </p>
-          <p className='mb-4'>
+          <p className="mb-4">
             Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
             Informationen nach den allgemeinen Gesetzen bleiben hiervon
             unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem
@@ -59,8 +59,8 @@ const Index = () => {
             Inhalte umgehend entfernen.
           </p>
 
-          <h5 className='h6 mb-2'>Haftung für Links</h5>
-          <p className='mb-4'>
+          <h5 className="h6 mb-2">Haftung für Links</h5>
+          <p className="mb-4">
             Unser Angebot enthält Links zu externen Websites Dritter, auf deren
             Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
             fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
@@ -70,15 +70,15 @@ const Index = () => {
             Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht
             erkennbar.
           </p>
-          <p className='mb-4'>
+          <p className="mb-4">
             Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist
             jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht
             zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir
             derartige Links umgehend entfernen.
           </p>
 
-          <h5 className='h6 mb-2'>Urheberrecht</h5>
-          <p className='mb-4'>
+          <h5 className="h6 mb-2">Urheberrecht</h5>
+          <p className="mb-4">
             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
             diesen Seiten unterliegen dem deutschen Urheberrecht. Die
             Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
@@ -87,7 +87,7 @@ const Index = () => {
             Downloads und Kopien dieser Seite sind nur für den privaten, nicht
             kommerziellen Gebrauch gestattet.
           </p>
-          <p className='mb-4'>
+          <p className="mb-4">
             Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt
             wurden, werden die Urheberrechte Dritter beachtet. Insbesondere
             werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie

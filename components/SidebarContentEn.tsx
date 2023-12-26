@@ -1,8 +1,7 @@
-
 const SidebarContentEn = () => {
   return (
     <>
-      <h3 className='h5 text-white'>
+      <h3 className="h5 text-white">
         <strong>
           Information pursuant to Section 5 of the German Telemedia Act (TMG):
         </strong>
@@ -13,33 +12,33 @@ const SidebarContentEn = () => {
           Cincinnatistrasse 60 <br />
           81549 Munich, Germany <br />
         </p>
-          <div>
-            Tel.:{' '}
-            <a
-              href='tel:+4989122246900'
-              className='text-white text-primary-hover'
-            >
-              <strong>+49 89 1222 469 00</strong>
-            </a>
-          </div>
-          <div>
-            Fax:{' '}
-            <a
-              href='tel:+4989122246969'
-              className='text-white text-primary-hover'
-            >
-              <strong>+49 89 1222 469 69</strong>
-            </a>
-          </div>
-          <div>
-            Email:{' '}
-            <a
-              href='mailto:info@chipglobe.com'
-              className='text-white text-primary-hover'
-            >
-              <strong>info@chipglobe.com</strong>
-            </a>
-          </div>
+        <div>
+          Tel.:{' '}
+          <a
+            href="tel:+4989122246900"
+            className="text-white text-primary-hover"
+          >
+            <strong>+49 89 1222 469 00</strong>
+          </a>
+        </div>
+        <div>
+          Fax:{' '}
+          <a
+            href="tel:+4989122246969"
+            className="text-white text-primary-hover"
+          >
+            <strong>+49 89 1222 469 69</strong>
+          </a>
+        </div>
+        <div>
+          Email:{' '}
+          <a
+            href="mailto:info@chipglobe.com"
+            className="text-white text-primary-hover"
+          >
+            <strong>info@chipglobe.com</strong>
+          </a>
+        </div>
       </address>
       <div>
         <p>
@@ -62,8 +61,8 @@ const SidebarContentEn = () => {
         <span>
           Phone:{' '}
           <a
-            href='tel:+4989122246901'
-            className='text-white text-primary-hover'
+            href="tel:+4989122246901"
+            className="text-white text-primary-hover"
           >
             +49 89 1222 469 01
           </a>
@@ -72,23 +71,23 @@ const SidebarContentEn = () => {
         <span>
           Email:{' '}
           <a
-            href='mailto:volker.frisch@chipglobe.com'
-            className='text-white text-primary-hover'
+            href="mailto:volker.frisch@chipglobe.com"
+            className="text-white text-primary-hover"
           >
             volker.frisch@chipglobe.com
           </a>
         </span>
       </p>
       <p>
-         <strong>
-           Responsible for content pursuant to Section 55 para. 2 of the German
-           Interstate Broadcasting Treaty (RStV):
-         </strong>{' '}
-         <br />
-         Volker Frisch
+        <strong>
+          Responsible for content pursuant to Section 55 para. 2 of the German
+          Interstate Broadcasting Treaty (RStV):
+        </strong>{' '}
+        <br />
+        Volker Frisch
       </p>
     </>
   );
-}
+};
 
-export default SidebarContentEn
+export default SidebarContentEn;

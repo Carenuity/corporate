@@ -13,10 +13,10 @@ const PaymentAndDelivery = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
-        pageTitle='Zahlung und Versand'
-        pageUrl='/payment-and-delivery/de'
+        prevPage="Home"
+        prevPageUrl="/"
+        pageTitle="Zahlung und Versand"
+        pageUrl="/payment-and-delivery/de"
       />
       <Zahlung />
     </>

@@ -7,6 +7,6 @@ const nextConfig = {
   trailingSlash: true,
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
 
 // https://nextjs.org/docs/api-reference/next.config.js/redirects

@@ -12,12 +12,12 @@ const impressum = () => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems Impressum'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems Impressum"
         />
         <meta
-          name='description'
-          content='Carenuity ChipGlobe Electronics Embedded Systems Legal Notice'
+          name="description"
+          content="Carenuity ChipGlobe Electronics Embedded Systems Legal Notice"
         />
         <title>Impressum</title>
       </Head>

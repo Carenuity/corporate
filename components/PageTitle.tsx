@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 
 const PageTitle = ({
   prevPage,
@@ -22,17 +22,17 @@ const PageTitle = ({
   return (
     <>
       <section
-        className='page-title-section bg-img cover-background mx-lg-1-6 mx-xl-2-5 mx-xxl-2-9 left-overlay-dark'
-        data-overlay-dark='6'
+        className="page-title-section bg-img cover-background mx-lg-1-6 mx-xl-2-5 mx-xxl-2-9 left-overlay-dark"
+        data-overlay-dark="6"
         style={{
           backgroundImage: `url(${bgImage})`,
         }}
         data-background={bgImage}
       >
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-12'>
-              <div className='position-relative'>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="position-relative">
                 <h1>{pageTitle}</h1>
               </div>
               <ul>
@@ -46,7 +46,7 @@ const PageTitle = ({
             </div>
           </div>
         </div>
-        <div className='line-animated'>
+        <div className="line-animated">
           <span></span>
           <span></span>
           <span></span>
@@ -58,4 +58,4 @@ const PageTitle = ({
   );
 };
 
-export default PageTitle
+export default PageTitle;

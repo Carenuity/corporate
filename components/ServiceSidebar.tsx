@@ -15,14 +15,14 @@ const ServiceSidebar = ({
 }) => {
   return (
     <>
-      <div className='sidebar me-xxl-1-9'>
+      <div className="sidebar me-xxl-1-9">
         <div
-          className='widget bg-secondary mb-1-9 wow fadeIn'
-          data-wow-delay='200ms'
+          className="widget bg-secondary mb-1-9 wow fadeIn"
+          data-wow-delay="200ms"
         >
-          <div className='widget-content'>
-            <h5 className='mb-4 text-white'>{title}</h5>
-            <ul className='category-list list-unstyled mb-0'>
+          <div className="widget-content">
+            <h5 className="mb-4 text-white">{title}</h5>
+            <ul className="category-list list-unstyled mb-0">
               {serviceUrls.map((service: ServiceUrl) => {
                 if (isMobile) {
                   return (

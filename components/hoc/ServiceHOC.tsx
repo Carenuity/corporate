@@ -46,15 +46,15 @@ const ServiceHOC = <P extends object>(
     return (
       <>
         <PageTitle
-          prevPage='Home'
-          prevPageUrl='/'
+          prevPage="Home"
+          prevPageUrl="/"
           pageTitle={pageTitle}
           pageUrl={pageUrl}
         />
-        <section className='py-3'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-xl-4 order-2 order-xl-1'>
+        <section className="py-3">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-4 order-2 order-xl-1">
                 <ServiceSidebar
                   isMobile={isMobile}
                   title={serviceCategory}
@@ -62,7 +62,7 @@ const ServiceHOC = <P extends object>(
                   activeUrl={pageUrl}
                 />
               </div>
-              <div className='col-xl-8 mb-2-9 mb-xl-0 order-1 order-xl-2'>
+              <div className="col-xl-8 mb-2-9 mb-xl-0 order-1 order-xl-2">
                 <Elem {...pageProps} />
               </div>
             </div>

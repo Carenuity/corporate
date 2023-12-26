@@ -1,24 +1,24 @@
-import { LANG_ENGLISH } from "../../utils/constants";
-import BlogLayout from "../BlogLayout";
+import { LANG_ENGLISH } from '../../utils/constants';
+import BlogLayout from '../BlogLayout';
 
 const Withdrawal = () => {
   return (
     <>
       <BlogLayout lang={LANG_ENGLISH}>
-        <div className='wow fadeIn' data-wow-delay='20ms'>
+        <div className="wow fadeIn" data-wow-delay="20ms">
           {/* <h3 className='h4 mb-3 text-primary'>Payment and shipping</h3> */}
 
-          <h5 className='h6 mb-2'>
+          <h5 className="h6 mb-2">
             Information on the right of withdrawal for consumers
           </h5>
-          <p className='mb-4'>
+          <p className="mb-4">
             A consumer is any natural person who concludes a legal transaction
             for purposes which can predominantly neither be attributed to his
             commercial nor his self-employed professional activity.
           </p>
 
-          <h5 className='h6 mb-2'>Right of revocation</h5>
-          <p className='mb-1'>
+          <h5 className="h6 mb-2">Right of revocation</h5>
+          <p className="mb-1">
             You may revoke your contractual declaration within one month without
             stating reasons in text form (e.g. letter, fax, e-mail). The period
             begins after receipt of this instruction in text form, but not
@@ -29,11 +29,11 @@ const Withdrawal = () => {
             timely dispatch of the revocation is sufficient to comply with the
             revocation period. The revocation is to be addressed to:
           </p>
-          <p className='mb-1'>Chipglobe GmbH </p>
-          <p className='mb-1'>Cincinnatistr. 60 </p>
-          <p className='mb-1'>81549 Munich</p>
-          <p className='mb-4'>Germany</p>
-          <p className='mb-4'>
+          <p className="mb-1">Chipglobe GmbH </p>
+          <p className="mb-1">Cincinnatistr. 60 </p>
+          <p className="mb-1">81549 Munich</p>
+          <p className="mb-4">Germany</p>
+          <p className="mb-4">
             You must return or hand over the goods to us immediately and in any
             case within fourteen days of the day on which you notify us of the
             revocation of this contract at the latest. This period shall be
@@ -42,8 +42,8 @@ const Withdrawal = () => {
             the goods.
           </p>
 
-          <h5 className='h6 mb-2'>Consequences of revocation</h5>
-          <p className='mb-4'>
+          <h5 className="h6 mb-2">Consequences of revocation</h5>
+          <p className="mb-4">
             In the event of an effective revocation, the services received by
             both parties shall be returned and any benefits derived (e.g.
             interest) shall be surrendered. If you are unable to return the
@@ -56,18 +56,18 @@ const Withdrawal = () => {
             declaration of revocation, for us with its receipt.
           </p>
 
-          <h5 className='h6 mb-2'>Special notes</h5>
-          <p className='mb-4'>
+          <h5 className="h6 mb-2">Special notes</h5>
+          <p className="mb-4">
             Your right of withdrawal expires prematurely if the contract is
             completely fulfilled by both parties at your express request before
             you have exercised your right of withdrawal.
           </p>
 
-          <h5 className='h6 mb-2'>End of the revocation instruction</h5>
+          <h5 className="h6 mb-2">End of the revocation instruction</h5>
         </div>
       </BlogLayout>
     </>
   );
-}
+};
 
-export default Withdrawal
+export default Withdrawal;

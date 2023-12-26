@@ -11,14 +11,14 @@ const Microcontrollers = () => {
   const query = router.query;
 
   return (
-    <div className='row'>
+    <div className="row">
       <ModuleImage
         url={{
           pathname: '/actuators',
           query: { ...query, microcontroller: 'C3-Mini' },
         }}
         image={'/img/boards/C3-Mini-microcontroller.webp'}
-        gridClass='col-md-6'
+        gridClass="col-md-6"
       />
       <ModuleImage
         url={{
@@ -26,7 +26,7 @@ const Microcontrollers = () => {
           query: { ...query, microcontroller: 'ESP32-Mini' },
         }}
         image={'/img/boards/ESP32-Mini-microcontroller.webp'}
-        gridClass='col-md-6'
+        gridClass="col-md-6"
       />
       <ModuleImage
         url={{
@@ -34,7 +34,7 @@ const Microcontrollers = () => {
           query: { ...query, microcontroller: 'D1-Mini' },
         }}
         image={'/img/boards/D1-Mini-microcontroller.webp'}
-        gridClass='col-md-6'
+        gridClass="col-md-6"
       />
       <ModuleImage
         url={{
@@ -42,7 +42,7 @@ const Microcontrollers = () => {
           query: { ...query, microcontroller: 'ESP32-CAM' },
         }}
         image={'/img/boards/ESP32-CAM-microcontroller.webp'}
-        gridClass='col-md-6'
+        gridClass="col-md-6"
       />
       <ModuleImage
         url={{
@@ -50,7 +50,7 @@ const Microcontrollers = () => {
           query: { ...query, microcontroller: 'Pico-W' },
         }}
         image={'/img/boards/Pico-W-microcontroller.webp'}
-        gridClass='col-12'
+        gridClass="col-12"
       />
     </div>
   );
@@ -65,11 +65,11 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
         <meta
-          name='description'
+          name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
         <title>{pageTitle}</title>
@@ -78,52 +78,52 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Sensor Selection'
-        prevPageUrl='/sensors'
+        prevPage="Sensor Selection"
+        prevPageUrl="/sensors"
         pageTitle={pageTitle}
-        pageUrl='/microcontrollers'
+        pageUrl="/microcontrollers"
       />
 
-      <section className='overflow-hidden py-3'>
-        <div className='container position-relative z-index-3'>
-          <div className='row align-items-center about-style-03'>
+      <section className="overflow-hidden py-3">
+        <div className="container position-relative z-index-3">
+          <div className="row align-items-center about-style-03">
             <div
-              className='col-lg-8 wow fadeIn'
-              data-wow-delay='200ms'
+              className="col-lg-8 wow fadeIn"
+              data-wow-delay="200ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '200ms',
                 animationName: 'fadeIn',
               }}
             >
-              <div className='pe-lg-1-9'>
-                <div className='section-title mb-1-9'>
-                  <span className='sm-title'>{pageTitle}</span>
-                  <h2 className='mb-0 h3'>
+              <div className="pe-lg-1-9">
+                <div className="section-title mb-1-9">
+                  <span className="sm-title">{pageTitle}</span>
+                  <h2 className="mb-0 h3">
                     For sustainability reasons we care and support your chosen
                     microcontroller platforms from the past.
                   </h2>
                 </div>
-                <div className='mb-1-9'>
-                  <div className='d-flex about-text mb-1-9'>
-                    <div className='flex-shrink-0'>
-                      <i className='fa-solid fa-microchip'></i>
+                <div className="mb-1-9">
+                  <div className="d-flex about-text mb-1-9">
+                    <div className="flex-shrink-0">
+                      <i className="fa-solid fa-microchip"></i>
                     </div>
-                    <div className='flex-grow-1 ms-3'>
-                      <h4 className='h5'>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
                         Select your preferred microcontroller
                       </h4>
-                      <p className='mb-0'>
-                        Our recommendation is the C3-Mini™ as it is future proof
-                        for the upcoming Matter standard and it fits into the
-                        3D-printed housings we prepared for you.
+                      <p className="mb-0">
+                        Our recommendation is the C3-Mini™ as it is future
+                        proof for the upcoming Matter standard and it fits into
+                        the 3D-printed housings we prepared for you.
                       </p>
 
-                      <p className='text-center mt-3'>
+                      <p className="text-center mt-3">
                         <Link
                           href={'/actuators'}
-                          className='btn-style2 primary wow fadeInUp p-3'
-                          data-wow-delay='400ms'
+                          className="btn-style2 primary wow fadeInUp p-3"
+                          data-wow-delay="400ms"
                           style={{
                             visibility: 'visible',
                             animationDelay: '400ms',
@@ -131,20 +131,20 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                             height: '3.5rem',
                           }}
                         >
-                          <span className='small'>Select Actuator</span>
+                          <span className="small">Select Actuator</span>
                         </Link>
                       </p>
                     </div>
                   </div>
-                  <div className='d-flex about-text mb-1-9'>
-                    <div className='flex-shrink-0'>
-                      <i className='fa-solid fa-laptop-code'></i>
+                  <div className="d-flex about-text mb-1-9">
+                    <div className="flex-shrink-0">
+                      <i className="fa-solid fa-laptop-code"></i>
                     </div>
-                    <div className='flex-grow-1 ms-3'>
-                      <h4 className='h5'>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
                         Learn about the evolution for the C3-Mini™
                       </h4>
-                      <p className='mb-0'>
+                      <p className="mb-0">
                         The D1 is the predecessor of the C3-Mini™, which comes
                         additionally with Bluetooth on board. Bluetooth is
                         required for onboarding devices into the upcoming Matter
@@ -152,13 +152,13 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       </p>
                     </div>
                   </div>
-                  <div className='d-flex about-text'>
-                    <div className='flex-shrink-0'>
-                      <i className='fa-solid fa-briefcase'></i>
+                  <div className="d-flex about-text">
+                    <div className="flex-shrink-0">
+                      <i className="fa-solid fa-briefcase"></i>
                     </div>
-                    <div className='flex-grow-1 ms-3'>
-                      <h4 className='h5'>Learn about Matter</h4>
-                      <p className='mb-0'>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">Learn about Matter</h4>
+                      <p className="mb-0">
                         We are preparing to get the following 12 sensor
                         solutions into Matter, utilizing Matter-over-Wifi. Our
                         premium sensor device, the SQ-Panel, comes with
@@ -170,21 +170,21 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
             <div
-              className='col-lg-4 wow fadeIn text-white'
-              data-wow-delay='400ms'
+              className="col-lg-4 wow fadeIn text-white"
+              data-wow-delay="400ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '400ms',
                 animationName: 'fadeIn',
               }}
             >
-              <div className='ps-lg-2-9 position-relative text-center text-sm-start'>
-                <div className='d-sm-none'>
+              <div className="ps-lg-2-9 position-relative text-center text-sm-start">
+                <div className="d-sm-none">
                   <Microcontrollers />
                 </div>
-                <div className='about-img d-none d-sm-block'>
+                <div className="about-img d-none d-sm-block">
                   <p
-                    className='px-4 py-3 text-align-justify bg-success pb-4'
+                    className="px-4 py-3 text-align-justify bg-success pb-4"
                     style={{ textAlign: 'justify' }}
                   >
                     For your convenience, we have prepared these platforms we
@@ -241,9 +241,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src='/img/bg/bg-06.png'
-          className='position-absolute left bottom-5 opacity4'
-          alt='...'
+          src="/img/bg/bg-06.png"
+          className="position-absolute left bottom-5 opacity4"
+          alt="..."
         />
       </section>
     </>

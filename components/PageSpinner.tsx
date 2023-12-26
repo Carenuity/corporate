@@ -8,6 +8,6 @@ const PageSpinner = () => {
       </div>
     </>
   );
-}
+};
 
-export default PageSpinner
+export default PageSpinner;

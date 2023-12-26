@@ -15,12 +15,12 @@ const Datenschutz = () => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems Datenschutz'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems Datenschutz"
         />
         <meta
-          name='description'
-          content='Carenuity ChipGlobe Electronics Embedded Systems Privacy Policy'
+          name="description"
+          content="Carenuity ChipGlobe Electronics Embedded Systems Privacy Policy"
         />
         <title>Datenschutz</title>
       </Head>

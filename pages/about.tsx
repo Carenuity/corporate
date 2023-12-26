@@ -20,11 +20,11 @@ const About = () => {
     <>
       <Head>
         <meta
-          name='keywords'
-          content='Carenuity ChipGlobe Electronics Embedded Systems'
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
         <meta
-          name='description'
+          name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
         <title>About Carenuity</title>
@@ -33,10 +33,10 @@ const About = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage='Home'
-        prevPageUrl='/'
-        pageTitle='About Us'
-        pageUrl='/about'
+        prevPage="Home"
+        prevPageUrl="/"
+        pageTitle="About Us"
+        pageUrl="/about"
       />
 
       {/* <!-- ABOUT

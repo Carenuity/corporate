@@ -17,11 +17,11 @@ const BlogLayout = ({
 }) => {
   return (
     <>
-      <section className=' pt-4'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-8 mb-5 mb-lg-0'>
-              <div className='row'>
+      <section className=" pt-4">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mb-5 mb-lg-0">
+              <div className="row">
                 <BlogBody
                   date={dateOfAuthor}
                   bannerUrl={bannerUrl}
@@ -37,7 +37,7 @@ const BlogLayout = ({
                 {/* {iscommentable && <Reply />} */}
               </div>
             </div>
-            <div className='col-lg-4 pl-xl-2  p-0'>
+            <div className="col-lg-4 pl-xl-2  p-0">
               <Sidebar>
                 {lang === LANG_ENGLISH && <SidebarContentEn />}
                 {lang === LANG_GERMANY && <SidebarContentDe />}
@@ -50,4 +50,4 @@ const BlogLayout = ({
   );
 };
 
-export default BlogLayout
+export default BlogLayout;

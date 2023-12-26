@@ -13,7 +13,6 @@ declare global {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-
   useEffect(() => {
     if (typeof document !== undefined) {
       window.$ = window.jQuery = require('jquery');

@@ -44,11 +44,16 @@ export const servicesUrls: Service = {
       url: '/c3-mini-box',
       icon: 'fa-solid fa-keyboard',
     },
-    // {
-    //   name: 'WebFlashing',
-    //   url: urls.webFlash,
-    //   icon: 'fas fa-code',
-    // },
+    {
+      name: 'C3-Mini',
+      url: '/c3-mini',
+      icon: 'fas fa-code',
+    },
+    {
+      name: 'Single Sensor Box',
+      url: '/c3-mini-sensor',
+      icon: 'fas fa-box',
+    },
     {
       name: 'C3-Mini™ Weather-Panel (launch 2nd H.2023)',
       url: '/c3-mini-weather-panel',
