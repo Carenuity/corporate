@@ -196,7 +196,7 @@ const Index = () => {
                 className="img-fluid"
               />
               <div className="mt-4">
-                <h3 className="h5 text-start">WebFlashing Video Guide</h3>
+                <h3 className="h5 text-start">Install-for-Free Video Guide</h3>
                 <video
                   src="/videos/content/Installing_App_on_C3-Mini.MOV"
                   className="rounded-2 img-fluid"
@@ -204,13 +204,17 @@ const Index = () => {
                   loop
                 ></video>
               </div>
-              <div className="d-flex flex-column bg-secondary">
+              <div className="d-flex flex-column bg-secondary align-items-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/replacing-the-sensor.webp"
                   alt="Tripple Adaptor"
+                  className='img-fluid'
+                  style={{
+                    width: '10rem'
+                  }}
                 />
-                <p className="text-white mx-3">
+                <p className="text-white mx-3 text-start">
                   Stack one of the seven sensor boards onto the Triple-Adapter,
                   Have the C3-Mini in the middle and the display board on the
                   right.
