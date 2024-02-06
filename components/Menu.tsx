@@ -195,20 +195,29 @@ const Menu = ({
           <a href="#!">Contact</a>
           <ul>
             <li>
-              <Link
-                href="/team"
-                style={{ pointerEvents: 'none', color: 'grey' }}
-              >
-                Team
-              </Link>
+              <Link href="/sq-labs">Team</Link>
             </li>
             <li>
-              <Link
-                href="/blogs"
-                style={{ pointerEvents: 'none', color: 'grey' }}
-              >
-                Blogs
-              </Link>
+              <Link href="/blogs">Blogs</Link>
+              <ul>
+                <li className="border-bottom">
+                  <span className="mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted">
+                    {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
+                    Featured Blogs
+                  </span>
+                </li>
+                <li>
+                  <Link href={'/co2-insights'}>💡 C02 Measurement</Link>
+                </li>
+                <li>
+                  <Link
+                    href={'https://chipglobe.wixsite.com/embedded-ai-journal'}
+                    target="_blank"
+                  >
+                    🧠 Embedded AI
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li>
               <Link

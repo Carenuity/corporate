@@ -64,6 +64,11 @@ export const servicesUrls: Service = {
       url: '/c3-mini-spotify-remote-control',
       icon: 'fa-solid fa-music',
     },
+    {
+      name: 'SQ-Labs Team',
+      url: '/sq-labs',
+      icon: 'fa-solid fa-flask',
+    },
   ],
   premium: [
     {

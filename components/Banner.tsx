@@ -27,23 +27,41 @@ const Banner = ({
                 <h1 className="text-white font-weight-800 display-4 display-xl-3 mb-2-9">
                   {slogan}
                 </h1>
-                {!isMobile && (
-                  <Link
-                    href={'/install-for-free'}
-                    className="btn-style1 animated fadeInUp"
-                  >
-                    <span className="animated fadeInUp">Install For Free</span>
-                  </Link>
-                )}
 
-                {isMobile && (
+                <div className="hstack justify-content-between">
+                  {!isMobile && (
+                    <Link
+                      href={'/install-for-free'}
+                      className="btn-style1 animated fadeInUp"
+                    >
+                      <span className="animated fadeInUp">
+                        Install For Free
+                      </span>
+                    </Link>
+                  )}
+
+                  {isMobile && (
+                    <a
+                      href={'/install-for-free'}
+                      className="btn-style1 animated fadeInUp"
+                    >
+                      <span className="animated fadeInUp">
+                        Install For Free
+                      </span>
+                    </a>
+                  )}
+
                   <a
-                    href={'/install-for-free'}
+                    href={'https://webflashing.vercel.app/'}
                     className="btn-style1 animated fadeInUp"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    <span className="animated fadeInUp">Install For Free</span>
+                    <span className="animated fadeInUp">
+                      Try Solution Builder
+                    </span>
                   </a>
-                )}
+                </div>
               </div>
             </div>
           </div>
