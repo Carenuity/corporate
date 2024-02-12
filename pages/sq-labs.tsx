@@ -28,17 +28,17 @@ const Index = () => {
           {/* <h2 className="mb-3 h3">What is the C3-Mini?</h2> */}
           <p className="mb-lg-1-9">
             As elderly like grandma needs care by a supportive talent, the
-            SQ-Labs Team <strong>supports these care giving talents</strong>, so
-            that they can perfectly customize the Install-for-Free applications
-            to their relatives needs and even enhace them.
+            SQ-Labs Team <strong>supports care giving talents</strong>, so that
+            they can customize the Install-for-Free applications for their
+            relatives needs or even enhance them.
           </p>
-          <p>We support this e.g.</p>
+          <p>We support this e.g. by</p>
           <div className="row mb-1-9">
             <div className="col-12 wow fadeIn" data-wow-delay="200ms">
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
-                <span className="ms-3 text-dark fw-bold">
-                  By sharing all applications on{' '}
+                <span className="ms-3 text-dark">
+                  sharing all applications on{' '}
                   <a
                     href="https://github.com/Carenuity/WOKWI"
                     target="_blank"
@@ -48,38 +48,41 @@ const Index = () => {
                   </a>{' '}
                 </span>
               </div>
-            </div>
-            <div className="col-12 wow fadeIn" data-wow-delay="200ms">
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
-                <span className="ms-3 text-dark fw-bold">
-                  By providing instructions on how to get sensor data
-                  accesssible, e.g. by{' '}
-                  <Link href="/open-weather-map">OpenWeather API</Link> key,
+                <span className="ms-3 text-dark">
+                  providing instructions on how to get sensor data accesssible,
+                  e.g. by <Link href="/open-weather-map">OpenWeather API</Link>{' '}
+                  key,
                   <Link href="/spotify-api"> Spotify API</Link> key, Adafruit IO
                   key or Thingspeak API key.
                 </span>
               </div>
-            </div>
-            <div className="col-12 wow fadeIn" data-wow-delay="200ms">
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
-                <span className="ms-3 text-dark fw-bold">
-                  By providing insights in sensor measirements e.g.{' '}
+                <span className="ms-3 text-dark">
+                  providing insights in sensor measirements e.g.{' '}
                   <Link
                     href={'/co2-insights'}
                     className="text-decoration-underline"
                   >
                     CO<sub>2</sub>
-                  </Link>.
+                  </Link>
+                  .
+                </span>
+              </div>
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-26 text-primary"></i>
+                <span className="ms-3 text-dark">
+                  providing instructions on hackster.io
                 </span>
               </div>
             </div>
           </div>
           <p className="mb-lg-1-9">
-            The SG-Labs Team makes is super to get across hurdles and assist
-            talents to make it enjoyable fun for anyone building high-quality
-            devices within 3 minutes.
+            The SQ-Labs Team makes it easy to get across hurdles and assist
+            talents to make it enjoyable fun for anyone building own devices
+            within 3 minutes.
           </p>
         </div>
       </div>
