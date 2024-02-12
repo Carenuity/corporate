@@ -122,14 +122,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       <p className="text-center mt-3">
                         <Link
                           href={'/actuators'}
-                          className="btn-style2 primary wow fadeInUp p-3"
-                          data-wow-delay="400ms"
-                          style={{
-                            visibility: 'visible',
-                            animationDelay: '400ms',
-                            animationName: 'fadeInUp',
-                            height: '3.5rem',
-                          }}
+                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                          // data-wow-delay="400ms"
+                          // style={{
+                          //   visibility: 'visible',
+                          //   animationDelay: '400ms',
+                          //   animationName: 'fadeInUp',
+                          //   height: '3.5rem',
+                          // }}
                         >
                           <span className="small">Select Actuator</span>
                         </Link>

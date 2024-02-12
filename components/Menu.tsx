@@ -136,7 +136,7 @@ const Menu = ({
               onMouseEnter={() => setBanner(navigationBannerUrls[2])}
             >
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
-                Business for Real Estate Tycoons
+                B2B for Real Estate Tycoons
               </span>
               <ul>
                 {servicesUrls.business.map((service: ServiceUrl) => (
@@ -198,26 +198,9 @@ const Menu = ({
               <Link href="/sq-labs">Team</Link>
             </li>
             <li>
-              <Link href="/blogs">Blogs</Link>
-              <ul>
-                <li className="border-bottom">
-                  <span className="mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted">
-                    {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
-                    Featured Blogs
-                  </span>
-                </li>
-                <li>
-                  <Link href={'/co2-insights'}>💡 C02 Measurement</Link>
-                </li>
-                <li>
-                  <Link
-                    href={'https://chipglobe.wixsite.com/embedded-ai-journal'}
-                    target="_blank"
-                  >
-                    🧠 Embedded AI
-                  </Link>
-                </li>
-              </ul>
+              <Link href="https://chipglobe.wixsite.com/embedded-ai-journal">
+                Blogs
+              </Link>
             </li>
             <li>
               <Link
@@ -249,9 +232,9 @@ const Menu = ({
                   </a>
                 </li>
                 <li>
-                  <span className="mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted">
+                  <span className="mb-0 mb-lg-1 d-block py-2 px-4 text-uppercase sub-title small text-muted">
                     {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
-                    Supplemental API Keys
+                    Guides
                   </span>
                 </li>
                 <li>
@@ -262,6 +245,15 @@ const Menu = ({
                 <li>
                   <Link href={'/spotify-api'} className="text-nowrap">
                     🔑 Get Spotify API Key
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={'/c3-mini-spotify-remote-control'}
+                    className="text-wrap"
+                  >
+                    🎼 C3-Mini™ Spotify Remote Control (launch 4th Quarter of
+                    2024)
                   </Link>
                 </li>
               </ul>

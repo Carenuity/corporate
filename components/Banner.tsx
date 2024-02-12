@@ -28,40 +28,23 @@ const Banner = ({
                   {slogan}
                 </h1>
 
-                <div className="hstack justify-content-between">
-                  {!isMobile && (
-                    <Link
-                      href={'/install-for-free'}
-                      className="btn-style1 animated fadeInUp"
-                    >
-                      <span className="animated fadeInUp">
-                        Install For Free
-                      </span>
-                    </Link>
-                  )}
-
-                  {isMobile && (
-                    <a
-                      href={'/install-for-free'}
-                      className="btn-style1 animated fadeInUp"
-                    >
-                      <span className="animated fadeInUp">
-                        Install For Free
-                      </span>
-                    </a>
-                  )}
-
-                  <a
-                    href={'https://webflashing.vercel.app/'}
-                    className="btn-style1 animated fadeInUp"
-                    target="_blank"
-                    rel="noreferrer"
+                {!isMobile && (
+                  <Link
+                    href={'/install-for-free'}
+                    className={'btn btn-lg btn-success rounded-pill shadow'} // "btn-style1 animated fadeInUp"
                   >
-                    <span className="animated fadeInUp">
-                      Try Solution Builder
-                    </span>
+                    <span className="animated fadeInUp">Install For Free</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/install-for-free'}
+                    className={'btn btn-lg btn-success rounded-pill shadow'} // "btn-style1 animated fadeInUp"
+                  >
+                    <span className="animated fadeInUp">Install For Free</span>
                   </a>
-                </div>
+                )}
               </div>
             </div>
           </div>

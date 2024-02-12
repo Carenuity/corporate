@@ -8,7 +8,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
   const router = useRouter();
   const query = router.query;
   const pageTitle = 'Environment Selection';
-  const webFlash = 'https://chipglobe-dev.web.app/';
+  const webFlash = 'https://webflashing.vercel.app';
   return (
     <>
       <Head>
@@ -149,15 +149,15 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
 
                 {!isMobile && (
                   <Link
-                    href={'/microcontrollers'}
-                    className="btn-style2 primary wow fadeInUp p-3"
-                    data-wow-delay="400ms"
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '400ms',
-                      animationName: 'fadeInUp',
-                      height: '3.5rem',
-                    }}
+                    href={webFlash}
+                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    // data-wow-delay="400ms"
+                    // style={{
+                    //   visibility: 'visible',
+                    //   animationDelay: '400ms',
+                    //   animationName: 'fadeInUp',
+                    //   height: '3.5rem',
+                    // }}
                   >
                     <span className="small">Install For Free</span>
                   </Link>
@@ -165,17 +165,17 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
 
                 {isMobile && (
                   <a
-                    href={'/microcontrollers'}
-                    className="btn-style2 primary wow fadeInUp p-3"
-                    data-wow-delay="400ms"
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '400ms',
-                      animationName: 'fadeInUp',
-                      height: '3.5rem',
-                    }}
+                    href={webFlash}
+                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    // data-wow-delay="400ms"
+                    // style={{
+                    //   visibility: 'visible',
+                    //   animationDelay: '400ms',
+                    //   animationName: 'fadeInUp',
+                    //   height: '3.5rem',
+                    // }}
                   >
-                    <span className="small">Select Microcontroller </span>
+                    <span className="small">Install For Free</span>
                   </a>
                 )}
               </div>

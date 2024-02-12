@@ -80,14 +80,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                         {!isMobile && (
                           <Link
                             href={'/sensors'}
-                            className="btn-style2 primary wow fadeInUp p-3"
-                            data-wow-delay="400ms"
-                            style={{
-                              visibility: 'visible',
-                              animationDelay: '400ms',
-                              animationName: 'fadeInUp',
-                              height: '3.5rem',
-                            }}
+                            className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                            // data-wow-delay="400ms"
+                            // style={{
+                            //   visibility: 'visible',
+                            //   animationDelay: '400ms',
+                            //   animationName: 'fadeInUp',
+                            //   height: '3.5rem',
+                            // }}
                           >
                             <span className="small">Select Sensor </span>
                           </Link>
@@ -96,14 +96,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                         {isMobile && (
                           <a
                             href={'/sensors'}
-                            className="btn-style2 primary wow fadeInUp p-3"
-                            data-wow-delay="400ms"
-                            style={{
-                              visibility: 'visible',
-                              animationDelay: '400ms',
-                              animationName: 'fadeInUp',
-                              height: '3.5rem',
-                            }}
+                            className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                            // data-wow-delay="400ms"
+                            // style={{
+                            //   visibility: 'visible',
+                            //   animationDelay: '400ms',
+                            //   animationName: 'fadeInUp',
+                            //   height: '3.5rem',
+                            // }}
                           >
                             <span className="small">
                               Select Sensor{' '}

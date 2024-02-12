@@ -19,23 +19,20 @@ const Index = () => {
               SQ-Labs Team
             </span>
             <h2 className="mb-0 h6">
-              Coding in not required for customers to experience any of our
-              Carenuity Sensor Solutions, nevertheless, for learning more on
-              coding your-own-self-made-device, the team shares the knowledge on
-              these Carenuity SQ-Lab Team pages.
+              Knowledge is not required to experience Carenuity sensor
+              solutions. Nevertheless for learning more on coding for
+              customizing your own self-made device, we shares the knowledge on
+              the following team pages and in the blog.
             </h2>
-            <h2 className="mb-0 h6">Coding in not required for
-              customers to experience any of our Carenuity Sensor Solutions,
-              nevertheless, for learning more on coding
-              your-own-self-made-device, the team shares the knowledge on these
-              Carenuity SQ-Lab Team pages.</h2>
           </div>
           {/* <h2 className="mb-3 h3">What is the C3-Mini?</h2> */}
           <p className="mb-lg-1-9">
-            As anyone like grandma needs care by a younger talent, the SQ-Labs
-            team supports the young talents, so that they can enhance and
-            perfectly customize all the Install-for-Free applications, e.g.
+            As elderly like grandma needs care by a supportive talent, the
+            SQ-Labs Team <strong>supports these care giving talents</strong>, so
+            that they can perfectly customize the Install-for-Free applications
+            to their relatives needs and even enhace them.
           </p>
+          <p>We support this e.g.</p>
           <div className="row mb-1-9">
             <div className="col-12 wow fadeIn" data-wow-delay="200ms">
               <div className="d-flex align-items-center">
@@ -56,18 +53,33 @@ const Index = () => {
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
                 <span className="ms-3 text-dark fw-bold">
-                  By providing instructions on how to get{' '}
+                  By providing instructions on how to get sensor data
+                  accesssible, e.g. by{' '}
                   <Link href="/open-weather-map">OpenWeather API</Link> key,
                   <Link href="/spotify-api"> Spotify API</Link> key, Adafruit IO
                   key or Thingspeak API key.
                 </span>
               </div>
             </div>
+            <div className="col-12 wow fadeIn" data-wow-delay="200ms">
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-26 text-primary"></i>
+                <span className="ms-3 text-dark fw-bold">
+                  By providing insights in sensor measirements e.g.{' '}
+                  <Link
+                    href={'/co2-insights'}
+                    className="text-decoration-underline"
+                  >
+                    CO<sub>2</sub>
+                  </Link>.
+                </span>
+              </div>
+            </div>
           </div>
           <p className="mb-lg-1-9">
-            The SG-Labs Team makes is super easy to get across hurdles and
-            assist talents to make it enjoyable fun for anyone building
-            high-quality devices within 3 minutes.
+            The SG-Labs Team makes is super to get across hurdles and assist
+            talents to make it enjoyable fun for anyone building high-quality
+            devices within 3 minutes.
           </p>
         </div>
       </div>

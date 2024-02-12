@@ -257,14 +257,14 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 {!isMobile && (
                   <Link
                     href={'/microcontrollers'}
-                    className="btn-style2 primary wow fadeInUp p-3"
-                    data-wow-delay="400ms"
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '400ms',
-                      animationName: 'fadeInUp',
-                      height: '3.5rem',
-                    }}
+                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    // data-wow-delay="400ms"
+                    // style={{
+                    //   visibility: 'visible',
+                    //   animationDelay: '400ms',
+                    //   animationName: 'fadeInUp',
+                    //   height: '3.5rem',
+                    // }}
                   >
                     <span className="small">Select Microcontroller </span>
                   </Link>
@@ -273,14 +273,14 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 {isMobile && (
                   <a
                     href={'/microcontrollers'}
-                    className="btn-style2 primary wow fadeInUp p-3"
-                    data-wow-delay="400ms"
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '400ms',
-                      animationName: 'fadeInUp',
-                      height: '3.5rem',
-                    }}
+                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    // data-wow-delay="400ms"
+                    // style={{
+                    //   visibility: 'visible',
+                    //   animationDelay: '400ms',
+                    //   animationName: 'fadeInUp',
+                    //   height: '3.5rem',
+                    // }}
                   >
                     <span className="small">Select Microcontroller </span>
                   </a>

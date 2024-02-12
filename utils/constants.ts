@@ -40,11 +40,6 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™ Sensor Box',
-      url: '/c3-mini-box',
-      icon: 'fa-solid fa-keyboard',
-    },
-    {
       name: 'C3-Mini',
       url: '/c3-mini',
       icon: 'fas fa-code',
@@ -55,19 +50,14 @@ export const servicesUrls: Service = {
       icon: 'fas fa-box',
     },
     {
-      name: 'C3-Mini™ Weather-Panel (launch 2nd H.2023)',
+      name: 'C3-Mini™ Sensor Box',
+      url: '/c3-mini-box',
+      icon: 'fa-solid fa-keyboard',
+    },
+    {
+      name: 'C3-Mini™ Weather-Panel (launch 2nd H.2024)',
       url: '/c3-mini-weather-panel',
       icon: 'fa-solid fa-cloud',
-    },
-    {
-      name: 'C3-Mini™ Spotify Remote Control (launch 4th Quarter of 2023)',
-      url: '/c3-mini-spotify-remote-control',
-      icon: 'fa-solid fa-music',
-    },
-    {
-      name: 'SQ-Labs Team',
-      url: '/sq-labs',
-      icon: 'fa-solid fa-flask',
     },
   ],
   premium: [
