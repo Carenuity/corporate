@@ -40,7 +40,7 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini',
+      name: 'C3-Mini™',
       url: '/c3-mini',
       icon: 'fas fa-code',
     },

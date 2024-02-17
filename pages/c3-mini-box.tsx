@@ -196,6 +196,6 @@ const Index = () => {
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
   pageUrl: '/c3-mini-box',
-  pageTitle: 'Modular C3-Mini Sensor Selection Box',
+  pageTitle: 'Modular C3-Mini Selection Box',
   serviceCategory: 'Budget Friendly Not Only For Students',
 });

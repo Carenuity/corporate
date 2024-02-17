@@ -40,25 +40,30 @@ const Menu = ({
               />
             </li>
             <li
-              className="col-lg-4"
+              className="col-lg-4 has-sub"
               onMouseEnter={() => setBanner(navigationBannerUrls[0])}
             >
+              <span className="submenu-button"></span>
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
                 BUDGET FRIENDLY NOT ONLY FOR STUDENTS
               </span>
-              <ul>
+              <ul className="sub-menu">
                 {servicesUrls.standard.map((service: ServiceUrl) => (
                   <li key={`${service.url}-${service.name}`}>
                     {!isMobile && (
                       <Link
+                        className="ms-3"
                         href={service.url}
                         style={
-                          !!!service.url
-                            ? {
-                                pointerEvents: 'none',
-                                color: 'grey',
-                              }
-                            : {}
+                          // !!!service.url
+                          //   ? {
+                          //       pointerEvents: 'none',
+                          //       color: 'grey',
+                          //     }
+                          //   : {}
+                          {
+                            textAlign: 'left',
+                          }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -67,14 +72,18 @@ const Menu = ({
                     )}
                     {isMobile && (
                       <a
+                        className="ms-3"
                         href={service.url}
                         style={
-                          !!!service.url
-                            ? {
-                                pointerEvents: 'none',
-                                color: 'grey',
-                              }
-                            : {}
+                          // !!!service.url
+                          //   ? {
+                          //       pointerEvents: 'none',
+                          //       color: 'grey',
+                          //     }
+                          //   : {}
+                          {
+                            textAlign: 'left',
+                          }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -86,25 +95,28 @@ const Menu = ({
               </ul>
             </li>
             <li
-              className="col-lg-3"
+              className="col-lg-3 has-sub"
               onMouseEnter={() => setBanner(navigationBannerUrls[1])}
             >
-              <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
+              <span className="submenu-button"></span>
+              <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-2 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
                 Premium for your beloved
               </span>
-              <ul>
+              <ul className="sub-menu">
                 {servicesUrls.premium.map((service: ServiceUrl) => (
                   <li key={`${service.url}-${service.name}`}>
                     {!isMobile && (
                       <Link
+                        className="ms-3"
                         href={service.url}
                         style={
                           !!!service.url
                             ? {
                                 pointerEvents: 'none',
                                 color: 'grey',
+                                textAlign: 'left',
                               }
-                            : {}
+                            : { textAlign: 'left' }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -113,14 +125,16 @@ const Menu = ({
                     )}
                     {isMobile && (
                       <a
+                        className="ms-3"
                         href={service.url}
                         style={
                           !!!service.url
                             ? {
                                 pointerEvents: 'none',
                                 color: 'grey',
+                                textAlign: 'left',
                               }
-                            : {}
+                            : { textAlign: 'left' }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -132,25 +146,28 @@ const Menu = ({
               </ul>
             </li>
             <li
-              className="col-lg-3"
+              className="col-lg-3 has-sub"
               onMouseEnter={() => setBanner(navigationBannerUrls[2])}
             >
+              <span className="submenu-button"></span>
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
                 B2B for Real Estate Tycoons
               </span>
-              <ul>
+              <ul className="sub-menu">
                 {servicesUrls.business.map((service: ServiceUrl) => (
                   <li key={`${service.url}-${service.name}`}>
                     {!isMobile && (
                       <Link
+                        className="ms-3"
                         href={service.url}
                         style={
                           !!!service.url
                             ? {
                                 pointerEvents: 'none',
                                 color: 'grey',
+                                textAlign: 'left',
                               }
-                            : {}
+                            : { textAlign: 'left' }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -159,14 +176,16 @@ const Menu = ({
                     )}
                     {isMobile && (
                       <a
+                        className="ms-3"
                         href={service.url}
                         style={
                           !!!service.url
                             ? {
                                 pointerEvents: 'none',
                                 color: 'grey',
+                                textAlign: 'left',
                               }
-                            : {}
+                            : { textAlign: 'left' }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -195,55 +214,87 @@ const Menu = ({
           <a href="#!">Contact</a>
           <ul>
             <li>
-              <Link href="/sq-labs">Team</Link>
-            </li>
-            <li>
-              <Link href="https://chipglobe.wixsite.com/embedded-ai-journal">
-                Blogs
+              <Link href="/sq-labs" style={{ textAlign: 'left' }}>
+                Team
               </Link>
             </li>
             <li>
               <Link
+                href="https://chipglobe.wixsite.com/embedded-ai-journal"
+                style={{ textAlign: 'left' }}
+              >
+                Blogs
+              </Link>
+            </li>
+            <li className="has-sub">
+              <span className="submenu-button"></span>
+              <Link
                 href="#!"
+                style={{ textAlign: 'left' }}
                 // style={{ pointerEvents: 'none', color: 'grey' }}
               >
                 Help Center
               </Link>
-              <ul>
+              <ul className="sub-menu">
                 <li className="border-bottom">
-                  <span className="mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted">
+                  <span
+                    className="mb-0 mb-lg-2 d-block py-2 px-4 text-uppercase sub-title small text-muted"
+                    style={{ textAlign: 'left' }}
+                  >
                     {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
                     University Program for AI
                   </span>
                 </li>
                 <li>
-                  <Link href={'/AI-Program-Kenya'}>🇰🇪 Kenya</Link>
+                  <Link
+                    href={'/AI-Program-Kenya'}
+                    style={{ textAlign: 'left' }}
+                  >
+                    🇰🇪 Kenya
+                  </Link>
                 </li>
                 <li>
-                  <Link href={'/AI-Program-Greece'}>🇬🇷 Greece</Link>
+                  <Link
+                    href={'/AI-Program-Greece'}
+                    style={{ textAlign: 'left' }}
+                  >
+                    🇬🇷 Greece
+                  </Link>
                 </li>
                 <li>
                   <a
                     href={urls.supplimentAiMaterials}
                     target="_blank"
                     rel="noreferrer"
+                    style={{ textAlign: 'left' }}
                   >
                     🦾 Supplemental Materials
                   </a>
                 </li>
                 <li>
-                  <span className="mb-0 mb-lg-1 d-block py-2 px-4 text-uppercase sub-title small text-muted">
+                  <span
+                    className="mb-0 mb-lg-1 d-block py-2 px-4 text-uppercase sub-title small text-muted"
+                    style={{ textAlign: 'left' }}
+                  >
                     {/* font-weight-700 px-lg-0 p-lg-0 display-31 */}
                     Guides
                   </span>
                 </li>
                 <li>
-                  <Link href={'/open-weather-map'} className="text-nowrap">
+                  <Link
+                    href={'/open-weather-map'}
+                    className="text-nowrap"
+                    style={{ textAlign: 'left' }}
+                  >
                     🔑 Get OpenWeather API Key
                   </Link>
                 </li>
                 <li>
-                  <Link href={'/spotify-api'} className="text-nowrap">
+                  <Link
+                    href={'/spotify-api'}
+                    className="text-nowrap"
+                    style={{ textAlign: 'left' }}
+                  >
                     🔑 Get Spotify API Key
                   </Link>
                 </li>
@@ -251,6 +302,7 @@ const Menu = ({
                   <Link
                     href={'/c3-mini-spotify-remote-control'}
                     className="text-wrap"
+                    style={{ textAlign: 'left' }}
                   >
                     🎼 C3-Mini™ Spotify Remote Control (launch 4th Quarter of
                     2024)
@@ -259,12 +311,22 @@ const Menu = ({
               </ul>
             </li>
             <li>
-              <Link href="#contact-us">Contact Us</Link>
+              <Link href="#contact-us" style={{ textAlign: 'left' }}>
+                Contact Us
+              </Link>
             </li>
             <li>
-              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-              {isMobile && <a href="/about/">About Us</a>}
-              {!isMobile && <Link href="/about">About Us</Link>}
+              {isMobile && (
+                /* eslint-disable-next-line @next/next/no-html-link-for-pages */
+                <a href="/about/" style={{ textAlign: 'left' }}>
+                  About Us
+                </a>
+              )}
+              {!isMobile && (
+                <Link href="/about" style={{ textAlign: 'left' }}>
+                  About Us
+                </Link>
+              )}
             </li>
           </ul>
         </li>

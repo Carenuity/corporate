@@ -27,10 +27,10 @@ const Index = () => {
           </div>
           {/* <h2 className="mb-3 h3">What is the C3-Mini?</h2> */}
           <p className="mb-lg-1-9">
-            As elderly like grandma needs care by a supportive talent, the
+            Elderly like grandma need care by a supportive talent. The
             SQ-Labs Team <strong>supports care giving talents</strong>, so that
             they can customize the Install-for-Free applications for their
-            relatives needs or even enhance them.
+            relatives or even enhance them.
           </p>
           <p>We support this e.g. by</p>
           <div className="row mb-1-9">
@@ -61,7 +61,7 @@ const Index = () => {
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
                 <span className="ms-3 text-dark">
-                  providing insights in sensor measirements e.g.{' '}
+                  providing insights in sensor measurements e.g.{' '}
                   <Link
                     href={'/co2-insights'}
                     className="text-decoration-underline"
@@ -80,7 +80,7 @@ const Index = () => {
             </div>
           </div>
           <p className="mb-lg-1-9">
-            The SQ-Labs Team makes it easy to get across hurdles and assist
+            The SQ-Labs Team makes it easy to get across hurdles and assists
             talents to make it enjoyable fun for anyone building own devices
             within 3 minutes.
           </p>

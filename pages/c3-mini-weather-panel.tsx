@@ -71,6 +71,6 @@ const Index = () => {
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
   pageUrl: '/c3-mini-weather-panel',
-  pageTitle: 'C3-Mini™ Weather-Panel',
+  pageTitle: 'C3-Mini Weather-Panel',
   serviceCategory: 'Budget Friendly Not Only For Students',
 });

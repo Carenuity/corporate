@@ -64,6 +64,6 @@ const Index = () => {
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
   pageUrl: '/c3-mini-spotify-remote-control',
-  pageTitle: 'C3-Mini™ Spotify Remote Control',
+  pageTitle: 'C3-Mini Spotify Remote Control',
   serviceCategory: 'Budget Friendly Not Only For Students',
 });
