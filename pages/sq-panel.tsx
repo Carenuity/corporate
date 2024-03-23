@@ -104,8 +104,8 @@ const SqPanel = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-26 text-primary"></i>
                   <span className="ms-3 text-dark fw-bold">
-                    Check the status and location of your loved ones in your
-                    home, and communicate with them via voice or text messages.
+                    Check the environment and location of your loved ones in your
+                    home.
                   </span>
                 </div>
                 <div className="d-flex align-items-center">
