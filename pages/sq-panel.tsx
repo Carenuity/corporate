@@ -136,11 +136,11 @@ const SqPanel = () => {
               <p className="mt-3">
                 The Carenuity SQ-Panel is easy to install and use. You can mount
                 it on the wall or place it on a table. You can customize the
-                display settings, such as brightness, color, and layout,
+                display settings, such as brightness, color and layout,
                 according to your preferences.
               </p>
               <p className="mt-1">
-                The Carenuity SQ-Panel is more than just a device - it&apos;s a
+                The SQ-Panel is more than just a device - it&apos;s a
                 way of caring for your loved ones and yourself. It helps you
                 create a comfortable, healthy, and safe environment in your
                 home. It also keeps you connected with your loved ones, and
