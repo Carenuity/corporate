@@ -59,6 +59,21 @@ const SqPanel = () => {
                 }}
               />
             </div>
+
+            <div className="col-lg-10 mt-n1-9 mb-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case_5.png"
+                className="mt-1-9 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
             <div className="col-lg-10 mt-n1-9" style={{ textAlign: 'justify' }}>
               <p className="mt-5">
                 Do you want to make your home smarter, safer, and healthier?{' '}
