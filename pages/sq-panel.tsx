@@ -88,15 +88,16 @@ const SqPanel = () => {
               </p>
               <p className="mt-1">
                 The Carenuity SQ-Panel is a 3-inch touch screen that measures
-                and displays various sensor values in your home, such as
+                and displays various sensor values in your home, such as the overall Air Quality,
                 temperature, humidity, air pressure, C02 and TVOC levels. It
-                also detects the presence of people in the rooms that it covers,
-                using a passive infrared sensor.
+                also detects the presence of people in the rooms that its range covers,
+                using a radar sensor.
               </p>
               <p className="mt-1">
                 The Carenuity SQ-Panel connects to the Carenuity cloud via the
-                Carenuity Border Router, which acts as a gateway between your
-                home network and the internet. This enables you to access and
+                Carenuity Border Router, which acts as a gateway between the
+                SQ-Panel and the internet and extends the range. Its long range surpasses wifi ranges by far.
+                The App enables you to access and
                 control your Carenuity SQ-Panel from anywhere, using the
                 Carenuity Home app on your smartphone.
               </p>
