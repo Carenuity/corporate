@@ -2,6 +2,7 @@ import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 
+
 const SqPanel = () => {
   const pageTitle = 'SQ Panel';
   return (
@@ -60,20 +61,8 @@ const SqPanel = () => {
               />
             </div>
 
-            <div className="col-lg-10 mt-n1-9 mb-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/case_5.png"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
+            
+            
             <div className="col-lg-10 mt-n1-9" style={{ textAlign: 'justify' }}>
               <p className="mt-5">
                 Do you want to make your home smarter, safer, and healthier?{' '}
@@ -154,6 +143,213 @@ const SqPanel = () => {
               </p>
             </div>
           </div>
+
+
+         { /* <!--casestudy --> */}
+
+      <hr />
+       <h4>Case study for the SQ-Panel</h4>
+       < br />
+          <div className='container'>
+          <div className='row'>
+
+           {/* case1 */}
+          <div className="col-lg-4 mt-n1-9 mb-2">
+          <div className="e-card" 
+          style={{
+            boxShadow:'3px 3px 15px 3px  hsla(0, 0%, 80%)',
+            height:'620px',
+            
+          }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case/case1.png"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              
+              <div style={{padding: '10px', }}>
+              <h5>Home office:</h5>
+              <p>You work from home and want to ensure that the indoor air quality is optimal. 
+              <br />The SQ-Panel shows you the current valuesand warns you if necessary so that you can concentrate on your work.
+              </p>
+              </div>
+            </div>
+            </div>
+
+            {/* case2 */}
+          <div className="col-lg-4 mt-n1-9 mb-2">
+
+            <div className="e-card" 
+          style={{
+            boxShadow:'3px 3px 15px 3px  hsla(0, 0%, 80%)',
+            height:'620px',
+          }}>
+          
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case/case2.png"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              
+              <div style={{padding: '10px', }}>
+              <h5>Bedroom:</h5>
+              <p>Before you go to sleep, check the air quality. If the CO2 level is too high, open the window or switch on an air purifier.
+
+              </p>
+              </div>
+            </div>
+            </div>
+
+          {/* case3 */}
+            <div className="col-lg-4 mt-n1-9 mb-2">
+
+            <div className="e-card" 
+          style={{
+            boxShadow:'3px 3px 15px 3px  hsla(0, 0%, 80%)',
+            height:'620px',
+            
+          }}>
+          
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case/case3.png"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              <div style={{padding: '10px', }}>
+              <h5>Children's room:</h5>
+              <p>The SQ-Panel warns you if the air quality is not ideal.  
+              <br />This allows you to take timely action to protect your children's health
+              </p>
+              </div>
+              
+            </div>
+            </div>
+
+        <div><br /><br /></div>
+
+          {/* case4 */}
+          <div className="col-lg-4 mt-n1-9 mb-2">
+          <div className="e-card" 
+          style={{
+            boxShadow:'3px 3px 15px 3px  hsla(0, 0%, 80%)',
+            height:'620px',
+            
+          }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case/case4.jfif"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              
+              <div style={{padding: '10px', }}>
+              <h5>Large offices:</h5>
+              <p>You work from home and want to ensure that the indoor air quality is optimal. 
+              <br />The SQ-Panel shows you the current values and warns you if necessary so that you can concentrate on your work.
+              </p>
+              </div>
+            </div>
+            </div>
+
+            {/* case5 */}
+          <div className="col-lg-4 mt-n1-9 mb-2">
+
+            <div className="e-card" 
+          style={{
+            boxShadow:'3px 3px 15px 3px  hsla(0, 0%, 80%)',
+            height:'620px',
+          }}>
+          
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case/case5.png"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              
+              <div style={{padding: '10px', }}>
+              <h5>Vaccation Home:</h5>
+              <p>Even if you are far away, you can use the app to check the indoor air parameters in your vacation home and make sure everything is in order.
+
+
+              </p>
+              </div>
+            </div>
+            </div>
+
+          {/* case6 */}
+            <div className="col-lg-4 mt-n1-9 mb-2">
+
+            <div className="e-card" 
+          style={{
+            boxShadow:'3px 3px 15px 3px  hsla(0, 0%, 80%)',
+            height:'620px',
+            
+          }}>
+          
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/case/case6.png"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              <div style={{padding: '10px', }}>
+              <h5>Kitchen and cooking:</h5>
+              <p>You are preparing a feast and want to monitor the indoor air quality in the kitchen. 
+                
+  
+              <br />The SQ-Panel shows you the current values and helps you to optimize the air circulation. 
+              If the CO2 level rises, you know it's time to open the window and let some fresh air in.
+
+              </p>
+              </div>
+              
+            </div>
+            </div>
+
+            </div>
+            </div>
+                 
+
         </div>
       </section>
     </>
