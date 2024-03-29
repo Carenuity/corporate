@@ -77,15 +77,16 @@ const SqPanel = () => {
               </p>
               <p className="mt-1">
                 The Carenuity SQ-Panel is a 3-inch touch screen that measures
-                and displays various sensor values in your home, such as
+                and displays various sensor values in your home, such as the overall Air Quality,
                 temperature, humidity, air pressure, C02 and TVOC levels. It
-                also detects the presence of people in the rooms that it covers,
-                using a passive infrared sensor.
+                also detects the presence of people in the rooms that its range covers,
+                using a radar sensor.
               </p>
               <p className="mt-1">
                 The Carenuity SQ-Panel connects to the Carenuity cloud via the
-                Carenuity Border Router, which acts as a gateway between your
-                home network and the internet. This enables you to access and
+                Carenuity Border Router, which acts as a gateway between the
+                SQ-Panel and the internet and extends the range. Its long range surpasses wifi ranges by far.
+                The App enables you to access and
                 control your Carenuity SQ-Panel from anywhere, using the
                 Carenuity Home app on your smartphone.
               </p>
@@ -108,8 +109,8 @@ const SqPanel = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-26 text-primary"></i>
                   <span className="ms-3 text-dark fw-bold">
-                    Check the status and location of your loved ones in your
-                    home, and communicate with them via voice or text messages.
+                    Check the environment and location of your loved ones in your
+                    home.
                   </span>
                 </div>
                 <div className="d-flex align-items-center">
@@ -124,12 +125,11 @@ const SqPanel = () => {
               <p className="mt-3">
                 The Carenuity SQ-Panel is easy to install and use. You can mount
                 it on the wall or place it on a table. You can customize the
-                display settings, such as brightness, color, and layout,
-                according to your preferences. You can also interact with the
-                Carenuity SQ-Panel using voice commands or gestures.
+                display settings, such as brightness, color and layout,
+                according to your preferences.
               </p>
               <p className="mt-1">
-                The Carenuity SQ-Panel is more than just a device - it&apos;s a
+                The SQ-Panel is more than just a device - it&apos;s a
                 way of caring for your loved ones and yourself. It helps you
                 create a comfortable, healthy, and safe environment in your
                 home. It also keeps you connected with your loved ones, and
