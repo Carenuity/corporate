@@ -209,9 +209,9 @@ const Index = () => {
                 <img
                   src="/img/content/replacing-the-sensor.webp"
                   alt="Tripple Adaptor"
-                  className='img-fluid'
+                  className="img-fluid"
                   style={{
-                    width: '10rem'
+                    width: '10rem',
                   }}
                 />
                 <p className="text-white mx-3 text-start">

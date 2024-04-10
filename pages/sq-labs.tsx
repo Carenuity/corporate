@@ -27,10 +27,10 @@ const Index = () => {
           </div>
           {/* <h2 className="mb-3 h3">What is the C3-Mini?</h2> */}
           <p className="mb-lg-1-9">
-            Elderly like grandma need care by a supportive talent. The
-            SQ-Labs Team <strong>supports care giving talents</strong>, so that
-            they can customize the Install-for-Free applications for their
-            relatives or even enhance them.
+            Elderly like grandma need care by a supportive talent. The SQ-Labs
+            Team <strong>supports care giving talents</strong>, so that they can
+            customize the Install-for-Free applications for their relatives or
+            even enhance them.
           </p>
           <p>We support this e.g. by</p>
           <div className="row mb-1-9">

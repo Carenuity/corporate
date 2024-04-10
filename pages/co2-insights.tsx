@@ -215,10 +215,10 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
 
               <div className="pe-lg-1-9 mb-3">
                 <h3 className="mb-2 h5">Conclusion</h3>
-                These are the main methods to measure the CO<sub>2</sub> level in the air.
-                Each method has its own advantages and disadvantages, and the
-                choice of the best method depends on the application and the
-                requirements.
+                These are the main methods to measure the CO<sub>2</sub> level
+                in the air. Each method has its own advantages and
+                disadvantages, and the choice of the best method depends on the
+                application and the requirements.
               </div>
             </div>
             <div className="col-lg-4">
