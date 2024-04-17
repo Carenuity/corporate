@@ -68,7 +68,7 @@ export const servicesUrls: Service = {
     },
     {
       name: 'SQ-Power Supply (launch 1st H.2024)',
-      url: '',
+      url: '/sq-power',
       icon: 'fa-solid fa-plug',
     },
   ],
