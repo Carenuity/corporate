@@ -260,7 +260,7 @@ const SqPanel = () => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/case/case4.jfif"
+                    src="/img/content/case/case4.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
