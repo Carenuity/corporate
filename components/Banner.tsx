@@ -28,23 +28,23 @@ const Banner = ({
                   {slogan}
                 </h1>
 
-                {!isMobile && (
+                {/* {!isMobile && (
                   <Link
                     href={'/install-for-free'}
                     className={'btn btn-lg btn-success rounded-pill shadow'} // "btn-style1 animated fadeInUp"
                   >
                     <span className="animated fadeInUp">Install For Free</span>
                   </Link>
-                )}
+                )} */}
 
-                {isMobile && (
+                {/* {isMobile && (
                   <a
                     href={'/install-for-free'}
                     className={'btn btn-lg btn-success rounded-pill shadow'} // "btn-style1 animated fadeInUp"
                   >
                     <span className="animated fadeInUp">Install For Free</span>
                   </a>
-                )}
+                )} */}
               </div>
             </div>
           </div>

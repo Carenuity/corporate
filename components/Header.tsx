@@ -60,13 +60,26 @@ const Header = ({
                           </a>
                         </li> */}
                         <li className="d-none d-xl-inline-block">
-                          <Link
+                          {/* <Link
                             href={state.urls.shop}
                             target="_blank"
                             className="btn-style1 medium"
                           >
                             <span>Shop</span>
-                          </Link>
+                          </Link> */}
+
+                          <div>
+                            <Link
+                              href={'/install-for-free'}
+                              className={
+                                'btn btn-lg btn-success rounded-pill shadow'
+                              } // "btn-style1 animated fadeInUp"
+                            >
+                              <span className="animated fadeInUp">
+                                Install For Free
+                              </span>
+                            </Link>
+                          </div>
                         </li>
                         <li className="d-none d-xl-inline-block">
                           <Link href={state.urls.auth}>

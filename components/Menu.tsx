@@ -4,6 +4,8 @@ import { navigationBannerUrls, servicesUrls } from '../utils/constants';
 import { ServiceUrl } from '../utils/types';
 import { useContext, useState } from 'react';
 import { StoreContext } from './context/Store';
+import LanguageSwitcher from './LanguageSwitcher';
+import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const Menu = ({
   authUrl,
@@ -18,17 +20,31 @@ const Menu = ({
   const {
     state: { urls },
   } = useContext(StoreContext);
+  const { state: language } = useContext(LanguageSwitchContext);
 
   return (
     <>
       <ul className="navbar-nav ms-auto" id="nav">
         <li>
-          {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-          {isMobile && <a href="/">Home</a>}
-          {!isMobile && <Link href="/">Home</Link>}
+          {isMobile && (
+            // eslint-disable-next-line @next/next/no-html-link-for-pages
+            <a href="/">
+              {language.includes('en') && 'Home'}
+              {language.includes('de') && 'STARTSEITE'}
+            </a>
+          )}
+          {!isMobile && (
+            <Link href="/">
+              {language.includes('en') && 'Home'}
+              {language.includes('de') && 'STARTSEITE'}
+            </Link>
+          )}
         </li>
         <li>
-          <Link href="/#!">Products</Link>
+          <Link href="/#!">
+            {language.includes('en') && 'Products'}
+            {language.includes('de') && 'PRODUKTE'}
+          </Link>
           <ul className="row megamenu">
             <li className="col-lg-2 pt-3">
               <Image
@@ -207,11 +223,15 @@ const Menu = ({
               window.$('#applications-btn').click();
             }}
           >
-            Benefits
+            {language.includes('en') && 'Benefits'}
+            {language.includes('de') && 'VORTEILE'}
           </Link>
         </li>
         <li>
-          <a href="#!">Contact</a>
+          <a href="#!">
+            {language.includes('en') && 'Contact'}
+            {language.includes('de') && 'KONTAKT'}
+          </a>
           <ul>
             <li>
               <Link href="/sq-labs" style={{ textAlign: 'left' }}>
@@ -330,9 +350,18 @@ const Menu = ({
             </li>
           </ul>
         </li>
+        <li className="d-inline-block">
+          <LanguageSwitcher />
+        </li>
         <li className="d-lg-none d-inline-block">
-          <Link href={shopUrl} target="_blank">
+          {/* <Link href={shopUrl} target="_blank">
             Shop
+          </Link> */}
+          <Link
+            href={'/install-for-free'}
+            className={'btn btn-lg btn-success rounded-pill shadow'} // "btn-style1 animated fadeInUp"
+          >
+            <span className="animated fadeInUp">Install For Free</span>
           </Link>
         </li>
         <li className="d-lg-none d-inline-block">

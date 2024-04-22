@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { StoreContext } from './context/Store';
 import dynamic from 'next/dynamic';
+import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const FooterUpperSection = dynamic(
   () => import('./dynamic/FooterUpperSection'),
@@ -16,6 +17,7 @@ const Newsletter = dynamic(() => import('../components/dynamic/Newsletter'), {
 
 const Footer = ({ isMobile }: { isMobile: boolean }) => {
   const { state } = useContext(StoreContext);
+  const { state: language } = useContext(LanguageSwitchContext);
 
   return (
     <>
@@ -35,7 +37,10 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               data-wow-delay="200ms"
             >
               <Link href={'/about'}>
-                <h3 className="text-white h5 mb-1-9">About Company</h3>
+                <h3 className="text-white h5 mb-1-9">
+                  {language.includes('en') && 'About Carenuity'}
+                  {language.includes('de') && 'über Carenuity'}
+                </h3>
               </Link>
               <h4 className="text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9">
                 {/* opacity8 */}
@@ -110,7 +115,10 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               data-wow-delay="400ms"
             >
               <div className="ps-0">
-                <h3 className="text-white h5 mb-1-9">Contacts</h3>
+                <h3 className="text-white h5 mb-1-9">
+                  {language.includes('en') && 'Contacts'}
+                  {language.includes('de') && 'Kontakte'}
+                </h3>
                 <ul className="footer-link mb-0 list-unstyled">
                   <li className="text-white mb-3">
                     <strong>Adress:</strong>{' '}

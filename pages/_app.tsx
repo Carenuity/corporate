@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app';
 import { useEffect } from 'react';
 import Layout from '../components/Layout';
 import { StoreProvider } from '../components/context/Store';
+import { LanguageSwitchProvider } from '../components/context/LanguageSwitch';
 
 declare global {
   interface Window {
@@ -38,11 +39,13 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <StoreProvider>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </StoreProvider>
+      <LanguageSwitchProvider>
+        <StoreProvider>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </StoreProvider>
+      </LanguageSwitchProvider>
     </>
   );
 }
