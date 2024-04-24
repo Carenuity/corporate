@@ -58,8 +58,9 @@ const Page = () => {
                 }}
               />
             </div>
-
-            {/* <div
+           
+        
+           {/* <div
                   className="e-card"
                   style={{
                     boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
@@ -68,47 +69,166 @@ const Page = () => {
                 >  */}
               <div className="container">
                 <div className="row">
-                <div className="col-lg-4 mt-n1-9 mb-5">
+                <div className="col-lg-6 mt-n1-9">
                 <br />
-                <h5>Basic Information</h5>
-                <b>Product series:</b>Wall mounting power module<br />
-                <b>Type:</b>Flyback<br />
-                <b>Voltage:</b>85-265 VAC 50/60Hz<br />
-                <b>Max power:</b>5W 1A<br />
-                <b>Safety standard:</b>EN 60669-2-5<br />
-                <b>Installation category:</b>III<br /> 
-                <b>Certification:</b>CE/ROHS/WEEE<br />
+                <h6>Basic Information</h6>
+                </div>
+
+                <div className="col-lg-6 mt-n1-9">
+                <br />
+                <h6>Appearance</h6>
+                </div>
+
+                
+
+                <div className="col-lg-3 mt-n1-9 mb-5">
+                <br />
+                
+                <b>Product series:</b><br />
+                <b>Type:</b><br />
+                <b>Voltage:</b><br />
+                <b>Max power:</b><br />
+                <b>Safety standard:</b><br />
+                <b>Installation category:</b><br /> 
+                <b>Certification:</b><br />
                 
                 </div>
 
-                <div className="col-lg-4 mt-n1-9 mb-5">
+                <div className="col-lg-3 mt-n1-9 mb-5">
                 <br />
-                <h5>Appearance</h5>
-                <b>Weight:</b>49g<br />
-                <b>Casing materials:</b>PCLEXAN121R<br />
-
-                
-                <h5>Working Environment</h5>
-                <b>Applicable place:</b>Indoor<br />
-                <b>Working temperature:</b>-40 ~ 80 °C<br />
-                <b>Working humidity:</b>Up to 90 % RH<br /> 
-                <b>Certification:</b>CE/ROHS/WEEE<br />
+                Wall mounting power module<br />
+                Flyback<br />
+                85-265 VAC 50/60Hz<br />
+                5W 1A<br />
+                EN 60669-2-5<br />
+                III<br />  
+                CE/ROHS/WEEE<br />
                 
                 </div>
 
-                <div className="col-lg-4 mt-n1-9 mb-5">
+                
+
+                <div className="col-lg-3 mt-n1-9 mb-5">
                 <br />
-                <h5>Installation</h5>
-                <b>Installation method:</b>Flush mounting box<br />
-                <b>Installation type:</b>Screws installation<br />
-                <b>Wiring way:</b>N and L<br />
-                <b>Wire diameter:</b>0.75 – 2.5 mm2<br />
-                </div>
-                </div>
-              </div>
               
+                <b>Weight:</b><br />
+                <b>Casing materials:</b><br />
+                
+                <h6>Working Environment</h6>
+                <b>Applicable place:</b><br />
+                <b>Working temperature:</b><br />
+                <b>Working humidity:</b><br /> 
+                <b>Certification:</b><br />
+                
+                </div>
+
+                <div className="col-lg-3 mt-n1-9 mb-5">
+                <br />
+              
+                49g<br />
+                PCLEXAN121R<br /><br />
+                Indoor<br />
+                -40 ~ 80 °C<br />
+                Up to 90 % RH<br /> 
+                CE/ROHS/WEEE<br />
+                
+                </div>
+                
+                <div className="col-lg-10 mt-n1-9">
+                <br />
+                <h6>Installation</h6>
+                </div>
+                
+                <div className="col-lg-3 mt-n1-9 mb-5">
+                <br />
+                
+                <b>Installation method:</b><br />
+                <b>Installation type:</b><br />
+                <b>Wiring way:</b><br />
+                <b>Wire diameter:</b><br />
+                </div>
+
+                <div className="col-lg-3 mt-n1-9 mb-5">
+                <br />
+                
+                Flush mounting box<br />
+                Screws installation<br />
+                N and L<br />
+                0.75 – 2.5 mm2<br />
+                </div>
+                
+              </div>
+            </div>
+
+             {/* How sq-power works*/} 
              
                 <hr className="mb-5 "/>
+
+                <h5 >How does Sq-Power work? </h5>
+                <p>You flash mount your Sq-power on the wall instead of nailing the 
+                  Sq-panel table stand to the wall.
+                </p>
+                <p>On the left side of the video is the sq-panel. The black clip on the sq-panel helps to clip the sq-power inside the wall.</p>
+                
+
+
+          <div className="container">
+          <div className="row">
+            
+                
+                <div className=" col-lg-12 mt-n1-9 mb-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <video
+                src="/img/content/sq-power/sq-power.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <p> It also will help you to maintain your house aesthetics for their are no cables required.
+                </p>
+                <p> This is how neat your house will look.
+                </p>
+            <div className="col-lg-6 mt-n1-9 mb-5">
+    
+              <img
+                src="/img/content/sq-power/sq-power.png"
+                className="mt-1-9 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className="col-lg-6 mt-n1-9 mb-5">
+    
+              <img
+                src="/img/content/sq-power/sq-power2.png"
+                className="mt-1-9 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            </div>
+            </div>
+
+                
+
+
               <div className="container">
           <div className="row">
             <h5 >Sq-Power Drawings</h5>
@@ -116,7 +236,7 @@ const Page = () => {
             <div className="col-lg-6 ">
     
               <img
-                src="/img/content/sq-powerdrawing1.png"
+                src="/img/content/sq-power/sq-powerdrawing1.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -129,7 +249,7 @@ const Page = () => {
             </div>
             <div className="col-lg-6 ">
               <img
-                src="/img/content/sq-powerdrawing2.png"
+                src="/img/content/sq-power/sq-powerdrawing2.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -142,6 +262,8 @@ const Page = () => {
             </div>
             </div>
             </div>
+            
+
           </div>
         </div>
       </section>
