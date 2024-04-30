@@ -1,15 +1,16 @@
 import { ReactNode, createContext, useReducer } from 'react';
 import {
+  LANG,
   LanguageSwitchAction,
   LanguageSwitchReducerObject,
 } from './index.types';
 
-const initialState: string = 'en';
+const initialState: LANG = 'en';
 
-const reducer = (state: string, action: LanguageSwitchAction): string => {
+const reducer = (state: LANG, action: LanguageSwitchAction): LANG => {
   switch (action.type) {
     case 'SET':
-      return action.lang.toLowerCase();
+      return action.lang;
 
     default:
       return state;

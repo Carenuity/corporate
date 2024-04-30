@@ -1,11 +1,13 @@
 import { Dispatch } from 'react';
 
 export interface LanguageSwitchReducerObject {
-  state: string;
+  state: LANG;
   dispatch: Dispatch<LanguageSwitchAction>;
 }
 
+export type LANG = 'en' | 'de';
+
 export interface LanguageSwitchAction {
   type: 'SET';
-  lang: string;
+  lang: LANG;
 }

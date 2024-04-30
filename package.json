@@ -34,6 +34,7 @@
     "prismjs": "^1.16.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sharp": "^0.33.3",
     "typescript": "4.9.5",
     "waypoints": "^4.0.1",
     "wow.js": "^1.1.3"

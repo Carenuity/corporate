@@ -3,6 +3,7 @@ import { useContext, useState } from 'react';
 import { StoreContext } from './context/Store';
 import dynamic from 'next/dynamic';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const FooterUpperSection = dynamic(
   () => import('./dynamic/FooterUpperSection'),
@@ -44,7 +45,14 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               </Link>
               <h4 className="text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9">
                 {/* opacity8 */}
-                {state.companyInfo.Sammury}
+                {language === 'en' && state.companyInfo.Sammury}
+                {language === 'de' && (
+                  <>
+                    Wir sorgen für Seelenfrieden durch Vital- und
+                    Umwelterkennung und sorgen dafür, dass Sie sehen, was kein
+                    anderer sieht.
+                  </>
+                )}
               </h4>
               <h4 className="text-white h5 mb-1-5">
                 {isMobile && (
@@ -60,7 +68,12 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               </h4>
               <h4 className="text-white mb-1-9 fw-light w-75 display-29 lh-base opacity8">
                 {/* opacity8 */}
-                Read what ChatGPT found out about us.
+                {language === 'en' && (
+                  <>Read what ChatGPT found out about us.</>
+                )}
+                {language === 'de' && (
+                  <>Lesen Sie, was ChatGPT über uns herausgefunden hat.</>
+                )}
               </h4>
               <ul className="social-icon-style1">
                 <li>
@@ -149,6 +162,10 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                       {state.companyInfo.phone}
                     </a>
                   </li>
+
+                  <li className="text-white mt-4">
+                    <LanguageSwitcher />
+                  </li>
                 </ul>
               </div>
             </div>
@@ -162,62 +179,89 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               <div className="text-center mt-3 display-31">
                 {/* Payment & Delivery */}
                 <div className="small">
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href="/payment-and-delivery/en"
-                    className="text-white text-primary-hover"
-                  >
-                    Payment & Delivery
-                  </a>{' '}
-                  <span className="text-success"> / </span>
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href="/payment-and-delivery/de"
-                    className="text-white text-primary-hover"
-                  >
-                    {' '}
-                    Zahlung & Versand
-                  </a>
+                  {language === 'en' && (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                      <a
+                        href="/payment-and-delivery/en"
+                        className="text-white text-primary-hover"
+                      >
+                        Payment & Delivery
+                      </a>
+                    </>
+                  )}
+                  {language === 'de' && (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                      <a
+                        href="/payment-and-delivery/de"
+                        className="text-white text-primary-hover"
+                      >
+                        {' '}
+                        Zahlung & Versand
+                      </a>
+                    </>
+                  )}
+                  {/* <span className="text-success"> / </span> */}
                 </div>
 
                 {/* Terms & conditions */}
                 <div className="small mt-1">
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href="/terms-and-conditions/en"
-                    className="text-white text-primary-hover"
-                  >
-                    Terms & conditions
-                  </a>{' '}
-                  <span className="text-success"> / </span>
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href="/terms-and-conditions/de"
-                    className="text-white text-primary-hover"
-                  >
-                    {' '}
-                    Allgemeine Geschäftsbedingungen
-                  </a>
+                  {language === 'en' && (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                      <a
+                        href="/terms-and-conditions/en"
+                        className="text-white text-primary-hover"
+                      >
+                        Terms & conditions
+                      </a>
+                    </>
+                  )}
+
+                  {language === 'de' && (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                      <a
+                        href="/terms-and-conditions/de"
+                        className="text-white text-primary-hover"
+                      >
+                        {' '}
+                        Allgemeine Geschäftsbedingungen
+                      </a>
+                    </>
+                  )}
+
+                  {/* <span className="text-success"> / </span> */}
                 </div>
 
                 {/* Right of withdrawal */}
                 <div className="small mt-1">
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href="/rights-of-withdrawal/en"
-                    className="text-white text-primary-hover"
-                  >
-                    Right of withdrawal
-                  </a>{' '}
-                  <span className="text-success"> / </span>
-                  {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                  <a
-                    href="/rights-of-withdrawal/de"
-                    className="text-white text-primary-hover"
-                  >
-                    {' '}
-                    Widerrufsrecht
-                  </a>
+                  {language === 'en' && (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                      <a
+                        href="/rights-of-withdrawal/en"
+                        className="text-white text-primary-hover"
+                      >
+                        Right of withdrawal
+                      </a>
+                    </>
+                  )}
+                  {language === 'de' && (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                      <a
+                        href="/rights-of-withdrawal/de"
+                        className="text-white text-primary-hover"
+                      >
+                        {' '}
+                        Widerrufsrecht
+                      </a>
+                    </>
+                  )}
+
+                  {/* <span className="text-success"> / </span> */}
                 </div>
               </div>
             </div>
@@ -231,40 +275,47 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                 data-wow-delay="100ms"
               >
                 <p className="d-inline-block text-white display-31">
-                  {isMobile && (
-                    // eslint-disable-next-line @next/next/no-html-link-for-pages
-                    <a
-                      href="/privacy/"
-                      className="text-primary text-white-hover"
-                    >
-                      Privacy Policy
-                    </a>
+                  {language === 'en' && (
+                    <>
+                      {isMobile && (
+                        // eslint-disable-next-line @next/next/no-html-link-for-pages
+                        <a
+                          href="/privacy/"
+                          className="text-primary text-white-hover"
+                        >
+                          Privacy Policy
+                        </a>
+                      )}
+                      {!isMobile && (
+                        <Link
+                          href="/privacy"
+                          className="text-primary text-white-hover"
+                        >
+                          Privacy Policy
+                        </Link>
+                      )}
+                    </>
                   )}
-                  {!isMobile && (
-                    <Link
-                      href="/privacy"
-                      className="text-primary text-white-hover"
-                    >
-                      Privacy Policy
-                    </Link>
-                  )}{' '}
-                  |{' '}
-                  {isMobile && (
-                    // eslint-disable-next-line @next/next/no-html-link-for-pages
-                    <a
-                      href="/datenschutz/"
-                      className="text-primary text-white-hover"
-                    >
-                      Datenschutz
-                    </a>
-                  )}
-                  {!isMobile && (
-                    <Link
-                      href="/datenschutz"
-                      className="text-primary text-white-hover"
-                    >
-                      Datenschutz
-                    </Link>
+                  {language === 'de' && (
+                    <>
+                      {isMobile && (
+                        // eslint-disable-next-line @next/next/no-html-link-for-pages
+                        <a
+                          href="/datenschutz/"
+                          className="text-primary text-white-hover"
+                        >
+                          Datenschutz
+                        </a>
+                      )}
+                      {!isMobile && (
+                        <Link
+                          href="/datenschutz"
+                          className="text-primary text-white-hover"
+                        >
+                          Datenschutz
+                        </Link>
+                      )}
+                    </>
                   )}
                 </p>
               </div>
@@ -286,37 +337,47 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                 data-wow-delay="100ms"
               >
                 <p className="d-inline-block text-white  display-31">
-                  {isMobile && (
-                    // eslint-disable-next-line @next/next/no-html-link-for-pages
-                    <a href="/legal/" className="text-primary text-white-hover">
-                      Legal Notice
-                    </a>
+                  {language === 'en' && (
+                    <>
+                      {isMobile && (
+                        // eslint-disable-next-line @next/next/no-html-link-for-pages
+                        <a
+                          href="/legal/"
+                          className="text-primary text-white-hover"
+                        >
+                          Legal Notice
+                        </a>
+                      )}
+                      {!isMobile && (
+                        <Link
+                          href="/legal"
+                          className="text-primary text-white-hover"
+                        >
+                          Legal Notice
+                        </Link>
+                      )}
+                    </>
                   )}
-                  {!isMobile && (
-                    <Link
-                      href="/legal"
-                      className="text-primary text-white-hover"
-                    >
-                      Legal Notice
-                    </Link>
-                  )}{' '}
-                  |{' '}
-                  {isMobile && (
-                    // eslint-disable-next-line @next/next/no-html-link-for-pages
-                    <a
-                      href="/impressum/"
-                      className="text-primary text-white-hover"
-                    >
-                      Impressum
-                    </a>
-                  )}
-                  {!isMobile && (
-                    <Link
-                      href="/impressum"
-                      className="text-primary text-white-hover"
-                    >
-                      Impressum
-                    </Link>
+                  {language === 'de' && (
+                    <>
+                      {isMobile && (
+                        // eslint-disable-next-line @next/next/no-html-link-for-pages
+                        <a
+                          href="/impressum/"
+                          className="text-primary text-white-hover"
+                        >
+                          Impressum
+                        </a>
+                      )}
+                      {!isMobile && (
+                        <Link
+                          href="/impressum"
+                          className="text-primary text-white-hover"
+                        >
+                          Impressum
+                        </Link>
+                      )}
+                    </>
                   )}
                 </p>
               </div>

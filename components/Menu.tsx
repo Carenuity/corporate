@@ -21,6 +21,7 @@ const Menu = ({
     state: { urls },
   } = useContext(StoreContext);
   const { state: language } = useContext(LanguageSwitchContext);
+  const { state } = useContext(LanguageSwitchContext);
 
   return (
     <>
@@ -61,7 +62,10 @@ const Menu = ({
             >
               <span className="submenu-button"></span>
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
-                BUDGET FRIENDLY NOT ONLY FOR STUDENTS
+                {state === 'en' && <>BUDGET FRIENDLY NOT ONLY FOR STUDENTS</>}
+                {state === 'de' && (
+                  <>Budgetfreundlich, nicht nur für Studierende</>
+                )}
               </span>
               <ul className="sub-menu">
                 {servicesUrls.standard.map((service: ServiceUrl) => (
@@ -116,7 +120,8 @@ const Menu = ({
             >
               <span className="submenu-button"></span>
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-2 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
-                Premium for your beloved
+                {state === 'en' && <>Premium for your beloved</>}
+                {state === 'de' && <>Premium für Ihre Liebsten</>}
               </span>
               <ul className="sub-menu">
                 {servicesUrls.premium.map((service: ServiceUrl) => (
@@ -167,7 +172,8 @@ const Menu = ({
             >
               <span className="submenu-button"></span>
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
-                B2B for Real Estate Tycoons
+                {state === 'en' && <>B2B for Real Estate Tycoons</>}
+                {state === 'de' && <>B2B für Immobilienmagnaten</>}
               </span>
               <ul className="sub-menu">
                 {servicesUrls.business.map((service: ServiceUrl) => (
@@ -349,9 +355,6 @@ const Menu = ({
               )}
             </li>
           </ul>
-        </li>
-        <li className="d-inline-block">
-          <LanguageSwitcher />
         </li>
         <li className="d-lg-none d-inline-block">
           {/* <Link href={shopUrl} target="_blank">

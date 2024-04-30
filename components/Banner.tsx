@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { useContext } from 'react';
+import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const Banner = ({
   bannerImage,
@@ -9,6 +11,8 @@ const Banner = ({
   slogan: string;
   isMobile: boolean;
 }) => {
+  const { state } = useContext(LanguageSwitchContext);
+
   return (
     <>
       <section
@@ -25,7 +29,8 @@ const Banner = ({
             <div className="col-md-9 col-lg-7 col-xl-8 col-xxl-6 text-center py-5">
               <div className="banner-content text-center">
                 <h1 className="text-white font-weight-800 display-4 display-xl-3 mb-2-9">
-                  {slogan}
+                  {state === 'en' && slogan}
+                  {state === 'de' && <>Immobilienelektronik ist wichtig</>}
                 </h1>
 
                 {/* {!isMobile && (
