@@ -5,7 +5,7 @@ const Kickstarter = () => {
   return (
     <>
       <div
-        className="modal fade"
+        className="modal fade bg-white bg-opacity-50"
         id="grid"
         tabIndex={-1}
         aria-labelledby="gridLabel"
