@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { useContext } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
+import { createPortal } from 'react-dom';
 
 const Banner = ({
   bannerImage,
@@ -12,6 +13,13 @@ const Banner = ({
   isMobile: boolean;
 }) => {
   const { state } = useContext(LanguageSwitchContext);
+  const kickstarterRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (kickstarterRef.current && state === 'de') {
+      kickstarterRef.current.click();
+    }
+  }, [state]);
 
   return (
     <>
@@ -29,9 +37,19 @@ const Banner = ({
             <div className="col-md-9 col-lg-7 col-xl-8 col-xxl-6 text-center py-5">
               <div className="banner-content text-center">
                 <h1 className="text-white font-weight-800 display-4 display-xl-3 mb-2-9">
-                  {state === 'en' && slogan}
-                  {state === 'de' && <>Immobilienelektronik ist wichtig</>}
+                  {slogan}
                 </h1>
+
+                {/* Kickstarter button */}
+                <button
+                  ref={kickstarterRef}
+                  type="button"
+                  className="btn-style1 border-0 medium invisible"
+                  data-bs-toggle="modal"
+                  data-bs-target="#grid"
+                >
+                  <span>Grid modal</span>
+                </button>
 
                 {/* {!isMobile && (
                   <Link

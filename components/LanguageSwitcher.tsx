@@ -32,8 +32,8 @@ const LanguageSwitcher = () => {
           }}
         />
         <label className="form-check-label" htmlFor="langSwitch">
-          {state === 'en' && <>Switch to German</>}
-          {state === 'de' && <>Zu englisch wechseln</>}
+          {state === 'en' && <>German</>}
+          {state === 'de' && <>English</>}
         </label>
       </div>
     </>

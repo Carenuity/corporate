@@ -4,7 +4,6 @@ import { navigationBannerUrls, servicesUrls } from '../utils/constants';
 import { ServiceUrl } from '../utils/types';
 import { useContext, useState } from 'react';
 import { StoreContext } from './context/Store';
-import LanguageSwitcher from './LanguageSwitcher';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const Menu = ({
@@ -242,6 +241,11 @@ const Menu = ({
             <li>
               <Link href="/sq-labs" style={{ textAlign: 'left' }}>
                 Team
+              </Link>
+            </li>
+            <li>
+              <Link href={shopUrl} target="_blank">
+                Shop
               </Link>
             </li>
             <li>

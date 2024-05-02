@@ -72,7 +72,7 @@ const Header = ({
                             <Link
                               href={'/install-for-free'}
                               className={
-                                'btn btn-lg btn-success rounded-pill shadow'
+                                'btn btn-sm btn-outline-success rounded-pill shadow'
                               } // "btn-style1 animated fadeInUp"
                             >
                               <span className="animated fadeInUp">

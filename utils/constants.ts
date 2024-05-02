@@ -62,19 +62,19 @@ export const servicesUrls: Service = {
   ],
   premium: [
     {
-      name: 'SQ-Panel (launch 2024)',
+      name: 'SQ-Panel (Now on Kickstarter)',
       url: '/sq-panel',
       icon: 'fa-solid fa-gauge',
     },
     {
-      name: 'SQ-Power Supply (launch 1st H.2024)',
+      name: 'SQ-Power Supply',
       url: '/sq-power',
       icon: 'fa-solid fa-plug',
     },
   ],
   business: [
     {
-      name: 'SQ-APP (launch 2024)',
+      name: 'SQ-APP',
       url: 'https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de',
       icon: 'fas fa-microchip',
     },

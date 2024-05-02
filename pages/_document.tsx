@@ -1,8 +1,9 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Kickstarter from '../components/Kickstarter';
 
 export default function Document() {
   return (
-    <Html lang="de-de">
+    <Html lang="en">
       <Head>
         {/* metas */}
         <meta charSet="utf-8" />
@@ -27,6 +28,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Kickstarter />
       </body>
     </Html>
   );
