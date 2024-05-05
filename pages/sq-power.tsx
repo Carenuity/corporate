@@ -31,8 +31,10 @@ const Page = () => {
         <div className="container">
           <div className="row">
             <h5>High quality wall mount power module</h5>
+            <p><b>Top side</b> of the SQ-Power with 2x4pin Socket for 
+            attaching the SQ-Panel</p>
             <br />
-            <div className="col-lg-6  mb-5">
+            <div className="col-lg-9  mb-5">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/sq-power/sq-power-front.png"
@@ -46,22 +48,8 @@ const Page = () => {
                 }}
               />
             </div>
-            <div className="col-lg-6  mb-5">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-power/sq-power-back.png"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
 
-            <div className="col-lg-3 mt-n1-9 mb-5">
+            <div className="col-lg-5 mt-n1-9 mb-5">
               <h6>Basic Information</h6>
               <strong>Product series:</strong>
               <br />
@@ -81,7 +69,7 @@ const Page = () => {
               <br />
             </div>
 
-            <div className="col-lg-3 mt-n1-9 mb-5">
+            <div className="col-lg-4 mt-n1-9 mb-5">
               <br />
               Wall mounting power module
               <br />
@@ -99,24 +87,7 @@ const Page = () => {
               <br />
             </div>
 
-            <div className="col-lg-3 mt-n1-9 mb-5">
-              <h6>Appearance</h6>
-
-              <strong>Weight:</strong>
-              <br />
-              <strong>Casing materials:</strong>
-              <br />
-            </div>
-
-            <div className="col-lg-3 mt-n1-9 mb-5">
-              <br />
-              49g
-              <br />
-              PCLEXAN121R
-              <br />
-            </div>
-
-            <div className="col-lg-3 mt-n1-9 mb-5">
+            <div className="col-lg-5 mt-n1-9 mb-5">
               <h6>Working Environment</h6>
               <strong>Applicable place:</strong>
               <br />
@@ -128,7 +99,7 @@ const Page = () => {
               <br />
             </div>
 
-            <div className="col-lg-3 mt-n1-9 mb-5">
+            <div className="col-lg-4 mt-n1-9 mb-5">
               <br />
               Indoor
               <br />
@@ -140,7 +111,46 @@ const Page = () => {
               <br />
             </div>
 
-            <div className="col-lg-3 mt-n1-9 mb-5">
+
+            <div className="col-lg-9  mb-5">
+              <p><b>Bottom side</b> of the SQ-Power with terminals to connect 
+                22V cables for domestic installations.</p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-power/sq-power-back.png"
+                className="mt-1-9 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+
+            
+
+            <div className="col-lg-5 mt-n1-9 mb-5">
+              <h6>Appearance</h6>
+
+              <strong>Weight:</strong>
+              <br />
+              <strong>Casing materials:</strong>
+              <br />
+            </div>
+
+            <div className="col-lg-4 mt-n1-9 mb-5">
+              <br />
+              49g
+              <br />
+              PCLEXAN121R
+              <br />
+            </div>
+
+            
+
+            <div className="col-lg-5 mt-n1-9 mb-5">
               <h6>Installation</h6>
 
               <strong>Installation method:</strong>
@@ -153,7 +163,7 @@ const Page = () => {
               <br />
             </div>
 
-            <div className="col-lg-3 mt-n1-9 mb-5">
+            <div className="col-lg-4 mt-n1-9 mb-5">
               <br />
               Flush mounting box
               <br />

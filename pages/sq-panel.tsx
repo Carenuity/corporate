@@ -67,39 +67,39 @@ const SqPanel = () => {
               <p className="mt-5">
                 {state === 'en' && (
                   <>
-                    Do you want to make your home smarter, safer, and healthier?
+                   Would you like to make your home smarter, safer and healthier?
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Möchten Sie Ihr Zuhause intelligenter, sicherer und gesünder
-                    machen?
+                    Möchten Sie Ihr Zuhause intelligenter, sicherer und gesünder gestalten?
                   </>
                 )}{' '}
                 <br />
                 {state === 'en' && (
                   <>
-                    Do you want to monitor and improve the air quality and
-                    comfort in your home?
+                    Would you like to monitor and improve the air quality and comfort in 
+                    your home and breathe healthy air?
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Möchten Sie die Luftqualität und den Komfort in Ihrem
-                    Zuhause überwachen und verbessern?
+                    Möchten Sie die Luftqualität und den Komfort in Ihrem Zuhause 
+                    überwachen, verbessern und gesunde Luft atmen?
                   </>
                 )}
                 <br />
                 {state === 'en' && (
                   <>
-                    Do you want to stay connected with your loved ones and care
-                    for them from a distance?
+                    Would you like to stay in touch with your loved ones and know that 
+                    they are safe and well ventilated even from a distance?
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Möchten Sie mit Ihren Lieben in Verbindung bleiben und sie
-                    aus der Ferne betreuen?
+                    Möchten Sie mit Ihren Lieben in Verbindung bleiben und sie auch 
+                    aus der Ferne wohlbehalten in guter Raumluft wissen und sehen dass
+                     regelmäßig gelüftet wird?
                   </>
                 )}
                 <br />
@@ -107,36 +107,51 @@ const SqPanel = () => {
                   <>
                     If you answered yes to any of these questions, then you need
                     the <strong>Carenuity SQ-Panel</strong> - the smart device
-                    that helps you live a connected life with your loved ones.
+                    that helps you live a healthy and connected life with your loved ones.
                   </>
                 )}
                 {state === 'de' && (
                   <>
                     Wenn Sie eine dieser Fragen mit „Ja“ beantwortet haben,
-                    benötigen Sie das <strong>Carenuity SQ-Panel</strong> - das
-                    intelligente Gerät, das Ihnen hilft, ein vernetztes Leben
-                    mit Ihren Lieben zu führen.
+                    benötigen Sie das <strong>Carenuity SQ-Panel</strong> - das 
+                    intelligente Gerät, das Ihnen hilft, ein gesundes und vernetztes 
+                    Leben mit Ihren Lieben zu führen.
                   </>
                 )}
               </p>
               <p className="mt-1">
                 {state === 'en' && (
                   <>
-                    The Carenuity SQ-Panel is a 3-inch touch screen that
-                    measures and displays various sensor values in your home,
-                    such as temperature, humidity, air pressure, C02 and TVOC
-                    levels. It also detects the presence of people in the rooms
-                    that it covers, using a passive infrared sensor.
+                  The Carenuity SQ-Panel is a 2.6-inch touchscreen with built-in sensors. 
+                  It displays the relevant sensor values of the room air. These are temperature, 
+                  humidity, air pressure, carbon dioxide (C02) and airborne organic compounds 
+                  (TVOC). It also detects the presence of people in the room, which it can 
+                  detect and monitor up to 6m.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das Carenuity SQ-Panel ist ein 3-Zoll-Touchscreen misst und
-                    zeigt verschiedene Sensorwerte in Ihrem Zuhause an, wie
-                    Temperatur, Luftfeuchtigkeit, Luftdruck, C02 und TVOC
-                    Ebenen. Es erkennt auch die Anwesenheit von Personen in den
-                    Räumen die es abdeckt, mithilfe eines
-                    Passiv-Infrarot-Sensors.
+                    Das Carenuity SQ-Panel ist ein 2.6-Zoll-Touchscreen mit 
+                    eingebauten Sensoren. Es zeigt die relevanten Sensorwerte 
+                    der Raumluft an. Dies sind Temperatur, Luftfeuchtigkeit, 
+                    Luftdruck, Kohlendioxid (C02) und organische Verbindungen 
+                    in der Luft (TVOC). Es erkennt auch die Anwesenheit von 
+                    Personen im Raum, den er bis zu 6m erfassen und überwachen kann.
+                  </>
+                )}
+              </p>
+              <p className="mt-1">
+                {state === 'en' && (
+                  <>
+                  The Carenuity smartphone app allows you to access the SQ-Panel while on the move and 
+                  lets you monitor the SQ-Panel from anywhere and, for example, activate the alarm when you are away.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Die Carenuity Smartphone App erlaubt Ihnen den Zugriff auf das SQ-Panel von unterwegs 
+                    und lässt Sie das SQ-Panel von überall aus monitoren und beispielsweise den Alarm bei 
+                    Abwesenheit aktivieren.
                   </>
                 )}
               </p>
@@ -174,14 +189,14 @@ const SqPanel = () => {
                   <span className="ms-3 text-dark fw-bold">
                     {state === 'en' && (
                       <>
-                        View the sensor values from your Carenuity SQ-Panel in
-                        real-time, from anywhere and at anytime.
+                       View the sensor values of your Carenuity SQ panel 
+                       in real time, from anywhere and at any time.
                       </>
                     )}
                     {state === 'de' && (
                       <>
-                        Sehen Sie sich die Sensorwerte Ihres Carenuity SQ-Panels
-                        an Echtzeit, von überall und jederzeit.
+                        Sehen Sie sich die Sensorwerte Ihres Carenuity SQ-Panels 
+                        in Echtzeit an, von überall und jederzeit.
                       </>
                     )}
                   </span>
@@ -191,15 +206,15 @@ const SqPanel = () => {
                   <span className="ms-3 text-dark fw-bold">
                     {state === 'en' && (
                       <>
-                        Receive alerts and notifications when the sensor values
-                        exceed or fall below the thresholds that you set.
+                        Receive alerts and notifications if the sensor values 
+                        exceed or fall below the threshold values you have set.
                       </>
                     )}
                     {state === 'de' && (
                       <>
-                        Erhalten Sie Warnungen und Benachrichtigungen, wenn der
-                        Sensor Werte anzeigt die von Ihnen festgelegten
-                        Schwellenwerte überschreiten oder unterschreiten.
+                        Erhalten Sie Warnungen und Benachrichtigungen, wenn der Sensor 
+                        Werte die von Ihnen festgelegten Schwellenwerte überschreiten oder 
+                        unterschreiten.
                       </>
                     )}
                   </span>
@@ -209,16 +224,17 @@ const SqPanel = () => {
                   <span className="ms-3 text-dark fw-bold">
                     {state === 'en' && (
                       <>
-                        Check the status and location of your loved ones in your
-                        home, and communicate with them via voice or text
-                        messages.
+                        Monitor the air quality over time at your loved ones' location or in 
+                        your home and communicate with your loved ones if you notice that an 
+                        expected airing or other daily routine has not or not yet taken place.
                       </>
                     )}
                     {state === 'de' && (
                       <>
-                        Überprüfen Sie den Status und den Standort Ihrer Lieben
-                        in Ihrem Zuhause und kommunizieren Sie mit ihnen per
-                        Sprach- oder Textnachricht.
+                        Überwachen Sie den zeitlichen Verlauf der Luftqualität am Standort 
+                        Ihrer Lieben oder in Ihrem Zuhause und kommunizieren Sie mit ihren 
+                        Lieben, wenn Sie bemerken, dass ein erwartetes Lüften oder eine andere 
+                        Alltagsroutine nicht oder noch nicht stattgefunden hat.
                       </>
                     )}
                   </span>
@@ -228,16 +244,17 @@ const SqPanel = () => {
                   <span className="ms-3 text-dark fw-bold">
                     {state === 'en' && (
                       <>
-                        Access historical data and trends of the sensor values,
-                        and get insights and tips on how to improve the air
-                        quality and safety in your home.
+                        The historical data and trends of the sensor values can also be helpful. 
+                        Get personalized insights and tips to improve air quality and safety in
+                         your home.
                       </>
                     )}
                     {state === 'de' && (
                       <>
-                        Zugriff auf historische Daten und Trends der Sensorwerte
-                        und Erhalten Sie Einblicke und Tipps zur Verbesserung
-                        der Luftqualität und Sicherheit in Ihrem Zuhause.
+                        Auch die historische Daten und Trends der Sensorwerte 
+                        können hilfreich sein. Erhalten Sie individuelle Einblicke 
+                        und Tipps zur Verbesserung der Luftqualität und Sicherheit 
+                        in Ihrem Zuhause.
                       </>
                     )}
                   </span>
@@ -246,62 +263,54 @@ const SqPanel = () => {
               <p className="mt-3">
                 {state === 'en' && (
                   <>
-                    The Carenuity SQ-Panel is easy to install and use. You can
-                    mount it on the wall or place it on a table. You can
-                    customize the display settings, such as brightness, color,
-                    and layout, according to your preferences. You can also
-                    interact with the Carenuity SQ-Panel using voice commands or
-                    gestures.
+                    The Carenuity SQ panel is easy to install and use. You can have
+                     it mounted in the wall, in which case it is wireless, or you can 
+                     simply place it on a table, chest of drawers or shelf. You can adjust 
+                     the display settings such as brightness and color to suit your preferences. 
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das Carenuity SQ-Panel ist einfach zu installieren und zu
-                    verwenden. Sie können montieren Hängen Sie es an die Wand
-                    oder stellen Sie es auf einen Tisch. Sie können die anpassen
-                    Anzeigeeinstellungen wie Helligkeit, Farbe und Layout, ganz
-                    nach Ihren Vorlieben. Sie können auch mit dem interagieren
-                    Carenuity SQ-Panel mit Sprachbefehlen oder Gesten.
+                    Das Carenuity SQ-Panel ist einfach zu installieren und zu 
+                    verwenden. Sie können es in die Wand montieren lassen, dann 
+                    ist es kabellos, oder Sie stellen es einfach auf einen Tisch, 
+                    eine Kommode oder ins Regal. Sie können die Anzeigeeinstellungen
+                     wie Helligkeit und Farbe anpassen, ganz nach Ihren Vorlieben. 
                   </>
                 )}
               </p>
               <p className="mt-1">
                 {state === 'en' && (
                   <>
-                    The Carenuity SQ-Panel is more than just a device -
-                    it&apos;s a way of caring for your loved ones and yourself.
-                    It helps you create a comfortable, healthy, and safe
-                    environment in your home. It also keeps you connected with
-                    your loved ones, and allows you to provide care and
-                    assistance to them, even when you are not physically
-                    present.
+                    The Carenuity SQ panel is more than just a device: it&apos;s 
+                    a good and totally discreet way to show your loved ones you care, 
+                    and for yourself too. It helps to create a comfortable, healthy and 
+                    safe environment in your home.It also keeps you connected to your 
+                    loved ones and allows you to care for and support them even when you 
+                    are not physically there.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das Carenuity SQ-Panel ist mehr als nur ein Gerät - es ist
-                    ein Art, für Ihre Lieben und sich selbst zu sorgen. Es hilft
-                    dir Schaffen Sie eine komfortable, gesunde und sichere
-                    Umgebung in Ihrem heim. Es hält Sie auch mit Ihren Lieben in
-                    Verbindung ermöglicht es Ihnen, sie zu betreuen und zu
-                    unterstützen, auch wenn Sie sich befinden sind physisch
-                    nicht vorhanden.
+                   Das Carenuity SQ-Panel ist mehr als nur ein Gerät: Es ist gute und absolut 
+                   diskrete Art und Weise, ihren Lieben Ihre Fürsorge zu zeigen, und auch für 
+                   Sie selbst. Es hilft eine komfortable, gesunde und sichere Umgebung in Ihrem 
+                   Heim zu schaffen. Es hält Sie auch mit Ihren Lieben in einer Verbindung und 
+                   ermöglicht Ihnen, sie zu betreuen und zu unterstützen, auch wenn Sie sich nicht 
+                   physisch vor Ort befinden.
                   </>
                 )}
               </p>
               <p className="mt-1">
                 {state === 'en' && (
                   <>
-                    The Carenuity SQ-Panel is the ultimate solution for smart
-                    home care. Order yours today and enjoy the benefits of
-                    living a connected life with Carenuity.
-                  </>
+                    The Carenuity SQ panel is the solution for your smart home. 
+                  Support us on Kickstarter and order it today.</>
                 )}
                 {state === 'de' && (
                   <>
-                    Das Carenuity SQ-Panel ist die ultimative Lösung für Smart
-                    Home Pflege. Bestellen Sie noch heute und genießen Sie die
-                    Vorteile eines Lebens vernetztes Leben mit Carenuity.
+                    Das Carenuity SQ-Panel ist die Lösung für Ihr Smart Home. 
+                    Unterstützen Sie uns auf Kickstarter und bestellen Sie es noch heute.
                   </>
                 )}
               </p>
@@ -598,25 +607,16 @@ const SqPanel = () => {
                     <p>
                       {state === 'en' && (
                         <>
-                          You are preparing a feast and want to monitor the
-                          indoor air quality in the kitchen.
-                          <br />
-                          The SQ-Panel shows you the current values and helps
-                          you to optimize the air circulation. If the CO2 level
-                          rises, you know it&apos;s time to open the window and
-                          let some fresh air in.
+                          You are preparing a feast and want to monitor the air quality in the kitchen. 
+                          The SQ-Panel shows you the current values and helps you to optimize the air circulation.
+                           If the VOC content rises, it's time to ventilate.
                         </>
                       )}
                       {state === 'de' && (
                         <>
-                          Sie bereiten ein Festmahl vor und möchten den
-                          Innenbereich überwachen Luftqualität in der Küche.
-                          <br />
-                          Das SQ-Panel zeigt Ihnen die aktuellen Werte an und
-                          hilft Ihnen dabei Optimieren Sie die Luftzirkulation.
-                          Wenn der CO2-Gehalt steigt, werden Sie wissen, dass es
-                          Zeit ist, das Fenster zu öffnen und etwas Frisches
-                          hereinzulassen Luft rein.
+                          Sie bereiten ein Festmahl vor und möchten die Luftqualität in der Küche überwachen. 
+                          Das SQ-Panel zeigt Ihnen die aktuellen Werte an und hilft Ihnen dabei, 
+                          die Luftzirkulation zu optimieren. Wenn der VOC-Gehalt steigt, wird es Zeit zu lüften.
                         </>
                       )}
                     </p>
@@ -851,20 +851,17 @@ const SqPanel = () => {
                     <p>
                       {state === 'en' && (
                         <>
-                          When your guests leave the room, the SQ-Panel detects
-                          their absence. Users can then switch off the lights or
-                          turn down the heating to save energy. When they
-                          return, the device alerts them and helps to ensure
-                          comfort.
+                          When guests leave the room, the device detects their absence. 
+                          Users can now switch off the light or turn down the heating 
+                          to save energy until guests return. The device provides information 
+                          and ensures comfort.
                         </>
                       )}
                       {state === 'de' && (
                         <>
-                          Wenn Ihre Gäste den Raum verlassen, erkennt das
-                          SQ-Panel ihre Abwesenheit. Benutzer können dann das
-                          Licht ausschalten bzw Drehen Sie die Heizung herunter,
-                          um Energie zu sparen. Wenn sie zurückkommen, Das Gerät
-                          warnt sie und sorgt für Komfort.
+                          Wenn Gäste den Raum verlassen, erkennt das Gerät die Abwesenheit. 
+                          Nutzer können das Licht nun ausschalten bzw. die Heizung herunterdrehen, 
+                          um Energie zu sparen, bis Gäste wieder kommen. Das Gerät informiert und sorgt für Komfort.
                         </>
                       )}
                     </p>
@@ -901,19 +898,16 @@ const SqPanel = () => {
                     <p>
                       {state === 'en' && (
                         <>
-                          The SQ-Panel can notify you when expected and
-                          unexpected events occur. For example, if a window is
-                          left open or cooking is taking place in a room, you
-                          will receive a notification.
+                          The SQ-Panel can notify you of expected and unexpected events. 
+                          For example, if a window is left open or if cooking is taking 
+                          place in a room, you will receive a notification.
                         </>
                       )}
                       {state === 'de' && (
                         <>
-                          Das SQ-Panel kann Sie bei erwarteten und unerwarteten
-                          Ereignissen benachrichtigen Ereignisse passieren. Zum
-                          Beispiel, wenn ein Fenster offen gelassen wird oder
-                          Wenn in einem Raum gekocht wird, erhalten Sie eine
-                          Benachrichtigung.
+                          Das SQ-Panel kann Sie bei erwarteten und unerwarteten Ereignissen 
+                          benachrichtigen. Zum Beispiel, wenn ein Fenster offen gelassen wird 
+                          oder wenn in einem Raum gekocht wird, erhalten Sie eine Benachrichtigung.
                         </>
                       )}
                     </p>
