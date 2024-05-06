@@ -198,7 +198,7 @@ const SqPanel = () => {
                         Sehen Sie sich die Sensorwerte Ihres Carenuity SQ-Panels 
                         in Echtzeit an, von überall und jederzeit.
                       </>
-                    )}
+                    )};
                   </span>
                 </div>
                 <div className="d-flex align-items-center">
@@ -609,7 +609,7 @@ const SqPanel = () => {
                         <>
                           You are preparing a feast and want to monitor the air quality in the kitchen. 
                           The SQ-Panel shows you the current values and helps you to optimize the air circulation.
-                           If the VOC content rises, it&ap0s;s time to ventilate.
+                           If the VOC content rises, it&apos;s time to ventilate.
                         </>
                       )}
                       {state === 'de' && (
