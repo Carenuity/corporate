@@ -198,7 +198,7 @@ const SqPanel = () => {
                         Sehen Sie sich die Sensorwerte Ihres Carenuity SQ-Panels 
                         in Echtzeit an, von überall und jederzeit.
                       </>
-                    )};
+                    )}
                   </span>
                 </div>
                 <div className="d-flex align-items-center">
