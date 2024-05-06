@@ -224,7 +224,7 @@ const SqPanel = () => {
                   <span className="ms-3 text-dark fw-bold">
                     {state === 'en' && (
                       <>
-                        Monitor the air quality over time at your loved ones' location or in 
+                        Monitor the air quality over time at your loved ones&apos; location or in 
                         your home and communicate with your loved ones if you notice that an 
                         expected airing or other daily routine has not or not yet taken place.
                       </>
@@ -609,7 +609,7 @@ const SqPanel = () => {
                         <>
                           You are preparing a feast and want to monitor the air quality in the kitchen. 
                           The SQ-Panel shows you the current values and helps you to optimize the air circulation.
-                           If the VOC content rises, it's time to ventilate.
+                           If the VOC content rises, it&ap0s;s time to ventilate.
                         </>
                       )}
                       {state === 'de' && (
