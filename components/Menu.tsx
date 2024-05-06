@@ -26,19 +26,19 @@ const Menu = ({
     <>
       <ul className="navbar-nav ms-auto" id="nav">
         <li>
-          {isMobile && (
-            // eslint-disable-next-line @next/next/no-html-link-for-pages
-            <a href="/">
-              {language.includes('en') && 'Home'}
-              {language.includes('de') && 'STARTSEITE'}
-            </a>
-          )}
-          {!isMobile && (
+          {/* {isMobile && ( */}
+          {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+          <a href="/">
+            {language.includes('en') && 'Home'}
+            {language.includes('de') && 'STARTSEITE'}
+          </a>
+          {/* )} */}
+          {/* {!isMobile && (
             <Link href="/">
               {language.includes('en') && 'Home'}
               {language.includes('de') && 'STARTSEITE'}
             </Link>
-          )}
+          )} */}
         </li>
         <li>
           <Link href="/#!">

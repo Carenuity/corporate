@@ -5,12 +5,10 @@ import { createPortal } from 'react-dom';
 
 const Banner = ({
   bannerImage,
-  identity,
   slogan,
   isMobile,
 }: {
   bannerImage: string;
-  identity: string;
   slogan: string;
   isMobile: boolean;
 }) => {
@@ -26,7 +24,7 @@ const Banner = ({
   return (
     <>
       <section
-        className={`${identity} p-0 top-position1 full-screen video-banner dark-overlay`}
+        className={`primaryCallToAction jarallax p-0 top-position1 full-screen video-banner dark-overlay`}
         data-overlay-dark="65"
         style={{
           backgroundImage: `url(${bannerImage})`,
