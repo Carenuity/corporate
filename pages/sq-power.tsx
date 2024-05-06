@@ -31,8 +31,10 @@ const Page = () => {
         <div className="container">
           <div className="row">
             <h5>High quality wall mount power module</h5>
-            <p><b>Top side</b> of the SQ-Power with 2x4pin Socket for 
-            attaching the SQ-Panel</p>
+            <p>
+              <b>Top side</b> of the SQ-Power with 2x4pin Socket for attaching
+              the SQ-Panel
+            </p>
             <br />
             <div className="col-lg-9  mb-5">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -111,10 +113,11 @@ const Page = () => {
               <br />
             </div>
 
-
             <div className="col-lg-9  mb-5">
-              <p><b>Bottom side</b> of the SQ-Power with terminals to connect 
-                22V cables for domestic installations.</p>
+              <p>
+                <b>Bottom side</b> of the SQ-Power with terminals to connect 22V
+                cables for domestic installations.
+              </p>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/sq-power/sq-power-back.png"
@@ -128,8 +131,6 @@ const Page = () => {
                 }}
               />
             </div>
-
-            
 
             <div className="col-lg-5 mt-n1-9 mb-5">
               <h6>Appearance</h6>
@@ -147,8 +148,6 @@ const Page = () => {
               PCLEXAN121R
               <br />
             </div>
-
-            
 
             <div className="col-lg-5 mt-n1-9 mb-5">
               <h6>Installation</h6>
