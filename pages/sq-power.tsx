@@ -243,7 +243,7 @@ const Page = () => {
 
             <div className="container">
               <div className="row">
-                <h5>Sq-Power Drawings</h5>
+                <h5>Sq-Power (Tecnical Drawings)</h5>
                 <br />
                 <div className="col-lg-6 ">
                   {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky || true"
+    "prepare": "husky"
   },
   "dependencies": {
     "@next/font": "13.1.6",
