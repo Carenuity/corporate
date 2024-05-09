@@ -1,1 +1,5 @@
+#!/usr/bin/env sh
+
+git pull --rebase
+
 npm run build
