@@ -9,7 +9,7 @@ const Custom404 = () => {
       <Head>
         <meta
           name="keywords"
-          content="Carenuity ChipGlobe Electronics Embedded Systems"
+          content="Carenuity ChipGlobe Electronics Embedded Systems."
         />
         <meta
           name="description"
