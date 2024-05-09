@@ -1,3 +1,1 @@
-git pull --rebase
-
 npm run build
