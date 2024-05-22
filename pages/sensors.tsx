@@ -26,8 +26,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Install For Free"
-        prevPageUrl="/install-for-free"
+        links={[{ path: '/install-for-free', title: 'Install For Free' }]}
         pageTitle={pageTitle}
         pageUrl="/sensors"
       />

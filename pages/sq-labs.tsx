@@ -55,7 +55,8 @@ const Index = () => {
                   e.g. by <Link href="/open-weather-map">OpenWeather API</Link>{' '}
                   key,
                   <Link href="/spotify-api"> Spotify API</Link> key, Adafruit IO
-                  key or Thingspeak API key.
+                  key, Thingspeak API key or{' '}
+                  <Link href="/youtube-api"> YouTube API</Link>.
                 </span>
               </div>
               <div className="d-flex align-items-center">

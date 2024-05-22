@@ -25,8 +25,11 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Microcontrollers"
-        prevPageUrl="/microcontrollers"
+        links={[
+          { path: '/install-for-free', title: 'Install For Free' },
+          { path: '/sensors', title: 'Sensors' },
+          { path: '/microcontrollers', title: ' Microcontrollers' },
+        ]}
         pageTitle={pageTitle}
         pageUrl="/actuators"
       />

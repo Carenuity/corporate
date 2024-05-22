@@ -78,8 +78,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Sensor Selection"
-        prevPageUrl="/sensors"
+        links={[
+          { path: '/install-for-free', title: 'Install For Free' },
+          { path: '/sensors', title: 'Sensors' },
+        ]}
         pageTitle={pageTitle}
         pageUrl="/microcontrollers"
       />

@@ -28,8 +28,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[{ path: '/', title: 'Home' }]}
         pageTitle={pageTitle}
         pageUrl="/AI-Program-Kenya"
       />

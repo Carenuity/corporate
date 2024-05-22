@@ -45,8 +45,7 @@ const Index = ({
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Microcontrollers"
-        prevPageUrl="/microcontrollers"
+        links={[{ path: '/microcontrollers', title: 'Microcontrollers' }]}
         pageTitle={name}
         pageUrl={`/microcontrollers/${id}`}
       />

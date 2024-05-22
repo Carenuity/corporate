@@ -46,8 +46,7 @@ const ServiceHOC = <P extends object>(
     return (
       <>
         <PageTitle
-          prevPage="Home"
-          prevPageUrl="/"
+          links={[{ path: '/', title: 'Home' }]}
           pageTitle={pageTitle}
           pageUrl={pageUrl}
         />

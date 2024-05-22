@@ -33,8 +33,7 @@ const About = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[{ path: '/', title: 'Home' }]}
         pageTitle="About Us"
         pageUrl="/about"
       />

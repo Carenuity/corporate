@@ -13,8 +13,7 @@ const PaymentAndDelivery = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[{ path: '/', title: 'Home' }]}
         pageTitle="Payment & Delivery"
         pageUrl="/payment-and-delivery/en"
       />

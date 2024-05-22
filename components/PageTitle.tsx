@@ -1,16 +1,19 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
 
+type BreadcrumbLink = {
+  path: string;
+  title: string;
+};
+
 const PageTitle = ({
-  prevPage,
-  prevPageUrl,
   pageTitle,
   pageUrl,
+  links,
 }: {
-  prevPage: string;
-  prevPageUrl: string;
   pageTitle: string;
   pageUrl: string;
+  links: BreadcrumbLink[];
 }) => {
   const bgImage = '/img/banner.webp';
   useEffect(() => {
@@ -36,10 +39,12 @@ const PageTitle = ({
                 <h1>{pageTitle}</h1>
               </div>
               <ul>
-                <li>
-                  <Link href={prevPageUrl}>{prevPage}</Link>
-                </li>
-                <li>
+                {links.map(({ path, title }, index) => (
+                  <li key={index}>
+                    <Link href={path}>{title}</Link>
+                  </li>
+                ))}
+                <li className="border-bottom border-3 border-success">
                   <Link href={pageUrl}>{pageTitle}</Link>
                 </li>
               </ul>

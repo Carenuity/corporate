@@ -244,7 +244,11 @@ const Menu = ({
               </Link>
             </li>
             <li>
-              <Link href={shopUrl} target="_blank">
+              <Link
+                href={shopUrl}
+                target="_blank"
+                style={{ textAlign: 'left' }}
+              >
                 Shop
               </Link>
             </li>
@@ -326,6 +330,15 @@ const Menu = ({
                     style={{ textAlign: 'left' }}
                   >
                     🔑 Get Spotify API Key
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={'/youtube-api'}
+                    className="text-nowrap"
+                    style={{ textAlign: 'left' }}
+                  >
+                    🔑 Get YouTube API Key
                   </Link>
                 </li>
                 <li>

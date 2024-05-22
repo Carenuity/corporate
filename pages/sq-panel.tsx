@@ -24,10 +24,9 @@ export const SqPanel = () => {
       {/* <!-- PAGE TITLE
                 ================================================== --> */}
       <PageTitle
-        prevPage="Install For Free"
-        prevPageUrl="/install-for-free"
+        links={[{ path: '/', title: 'Home' }]}
         pageTitle={pageTitle}
-        pageUrl="/sensors"
+        pageUrl="/sq-panel"
       />
 
       <section className="pt-4">

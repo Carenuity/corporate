@@ -27,8 +27,10 @@ const OpenWeatherMap = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[
+          { path: '/', title: 'Home' },
+          { path: '/sq-labs', title: 'Team' },
+        ]}
         pageTitle={pageTitle}
         pageUrl="/AI-Program-Kenya"
       />

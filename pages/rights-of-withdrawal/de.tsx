@@ -16,8 +16,7 @@ const RightsOfWithdrawal = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[{ path: '/', title: 'STARTSEITE' }]}
         pageTitle="Widerrufsrecht"
         pageUrl="/rights-of-withdrawal/de"
       />

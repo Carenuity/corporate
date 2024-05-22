@@ -9,8 +9,7 @@ const Index = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[{ path: '/', title: 'Home' }]}
         pageTitle="Privacy Policy"
         pageUrl="/privacy"
       />

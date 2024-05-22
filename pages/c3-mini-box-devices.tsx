@@ -22,8 +22,7 @@ const Index = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="C3-Mini Sensor Box"
-        prevPageUrl="/c3-mini-box"
+        links={[{ path: '/c3-mini-box', title: 'C3-Mini Sensor Box' }]}
         pageTitle={'C3-Mini Sensor Box Devices'}
         pageUrl="/c3-mini-box-devices"
       />

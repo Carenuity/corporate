@@ -16,8 +16,7 @@ const Index = () => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        prevPage="Home"
-        prevPageUrl="/"
+        links={[{ path: '/', title: 'STARTSEITE' }]}
         pageTitle="Allgemeine Geschäftsbedingungen"
         pageUrl="/terms-and-conditions/en"
       />
