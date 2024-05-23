@@ -343,6 +343,15 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
+                    href={'/adafruit-api'}
+                    className="text-nowrap"
+                    style={{ textAlign: 'left' }}
+                  >
+                    🔑 Get Adafruit IO API Key
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href={'/c3-mini-spotify-remote-control'}
                     className="text-wrap"
                     style={{ textAlign: 'left' }}
