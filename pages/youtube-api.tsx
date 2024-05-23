@@ -37,7 +37,7 @@ const Page = () => {
           { path: '/sq-labs', title: 'Team' },
         ]}
         pageTitle={pageTitle}
-        pageUrl="/AI-Program-Kenya"
+        pageUrl="/youtube-api"
       />
 
       <section className="overflow-hidden py-3">
@@ -78,7 +78,7 @@ const Page = () => {
               }}
             >
               <h3>Step 1</h3>
-              <Image src={img1} alt="open-weather-api" />
+              <Image src={img1} alt="step one" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -90,7 +90,7 @@ const Page = () => {
               }}
             >
               <h3>Step 2</h3>
-              <Image src={img2} alt="open-weather-api" />
+              <Image src={img2} alt="step two" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -102,7 +102,7 @@ const Page = () => {
               }}
             >
               <h3>Step 3</h3>
-              <Image src={img3} alt="open-weather-api" />
+              <Image src={img3} alt="step three" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -114,7 +114,7 @@ const Page = () => {
               }}
             >
               <h3>Step 4</h3>
-              <Image src={img4} alt="open-weather-api" />
+              <Image src={img4} alt="step four" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -126,7 +126,7 @@ const Page = () => {
               }}
             >
               <h3>Step 5</h3>
-              <Image src={img5} alt="open-weather-api" />
+              <Image src={img5} alt="step five" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -138,7 +138,7 @@ const Page = () => {
               }}
             >
               <h3>Step 6</h3>
-              <Image src={img6} alt="open-weather-api" />
+              <Image src={img6} alt="step six" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -150,7 +150,7 @@ const Page = () => {
               }}
             >
               <h3>Step 7</h3>
-              <Image src={img7} alt="open-weather-api" />
+              <Image src={img7} alt="step seven" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -162,7 +162,7 @@ const Page = () => {
               }}
             >
               <h3>Step 8</h3>
-              <Image src={img8} alt="open-weather-api" />
+              <Image src={img8} alt="step eight" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -174,7 +174,7 @@ const Page = () => {
               }}
             >
               <h3>Step 9</h3>
-              <Image src={img9} alt="open-weather-api" />
+              <Image src={img9} alt="step nine" />
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -186,7 +186,7 @@ const Page = () => {
               }}
             >
               <h3>Step 10</h3>
-              <Image src={img10} alt="open-weather-api" />
+              <Image src={img10} alt="step ten" />
             </div>
           </div>
         </div>

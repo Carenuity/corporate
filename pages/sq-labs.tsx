@@ -51,12 +51,12 @@ const Index = () => {
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
                 <span className="ms-3 text-dark">
-                  providing instructions on how to get sensor data accesssible,
+                  providing instructions on how to get sensor data accessible,
                   e.g. by <Link href="/open-weather-map">OpenWeather API</Link>{' '}
                   key,
-                  <Link href="/spotify-api"> Spotify API</Link> key, Adafruit IO
-                  key, Thingspeak API key or{' '}
-                  <Link href="/youtube-api"> YouTube API</Link>.
+                  <Link href="/spotify-api"> Spotify API</Link> key,{' '}
+                  <Link href="/adafruit-api">Adafruit IO</Link> key, Thingspeak
+                  API key or <Link href="/youtube-api"> YouTube API</Link>.
                 </span>
               </div>
               <div className="d-flex align-items-center">
