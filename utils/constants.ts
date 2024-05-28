@@ -14,7 +14,7 @@ export const carenuity: CompanyInfo = {
   phone: '(+49) 89-1222469-40',
   email: 'info@carenuity.com',
   slogan: `Real Estate Electronics Matter`,
-  Sammury: `We're delivering peace-in-mind by vital and environmental sensing and care that you see what no one else will see.`,
+  Sammury: `Carenuity provides modular and highly customizable sensor solutions for monitoring vital signs and real estate air quality. Premium and popular is the SQ-Panel, delivering peace-in-mind by 24/7 vital and environmental sensing & care inside one device, so that you can see what no one else will see.`,
   mission: `Our Mission is to provide all young and caregiving people with especially easy-to-use sensor-systems that allow them to monitor vital signs and indoor air quality parameters for their elderly family members and to select and recommend best suited sensors-systems for their safety and care.`,
   vision: `Our vision is to empower young and caregiving people with innovative and accessible technology solutions that enhance the safety, comfort, and well-being of elderly individuals, enabling them to age in place with dignity, privacy and independence.`,
   visionDescription: `This vision emphasizes the company's commitment to providing technology solutions that are both innovative and accessible, addressing the needs of both the elderly individuals and their caregivers. It also highlights the importance of promoting independence, privacy and dignity in aging, while recognizing the role that technology can play in supporting these goals.`,

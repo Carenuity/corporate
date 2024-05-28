@@ -48,9 +48,12 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                 {language === 'en' && state.companyInfo.Sammury}
                 {language === 'de' && (
                   <>
-                    Wir sorgen für Seelenfrieden durch Vital- und
-                    Umwelterkennung und sorgen dafür, dass Sie sehen, was kein
-                    anderer sieht.
+                    Carenuity bietet modulare und hochgradig anpassbare
+                    Sensorlösungen zur Überwachung von Vitalfunktionen und der
+                    Luftqualität in Immobilien. Erstklassig und beliebt ist das
+                    SQ-Panel, das durch die Vital- und Umwelterkennung und
+                    -pflege rund um die Uhr in einem Gerät Sicherheit bietet,
+                    sodass Sie sehen können, was kein anderer sieht.
                   </>
                 )}
               </h4>

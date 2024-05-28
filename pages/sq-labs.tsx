@@ -10,16 +10,16 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>SQ-Labs Team</title>
+        <title>SQ-Labs Team & AI Community</title>
       </Head>
       <div>
         <div className="wow fadeIn" data-wow-delay="200ms">
           <div className="section-title mb-1-9">
             <span className="sm-title" style={{ fontSize: '.7em' }}>
-              SQ-Labs Team
+              SQ-Labs Team & AI Community
             </span>
             <h2 className="mb-0 h6">
-              Knowledge is not required to experience Carenuity sensor
+              Any prior knowledge is not required to experience Carenuity sensor
               solutions. Nevertheless for learning more on coding for
               customizing your own self-made device, we shares the knowledge on
               the following team pages and in the blog.
@@ -27,14 +27,21 @@ const Index = () => {
           </div>
           {/* <h2 className="mb-3 h3">What is the C3-Mini?</h2> */}
           <p className="mb-lg-1-9">
-            Elderly like grandma need care by a supportive talent. The SQ-Labs
-            Team <strong>supports care giving talents</strong>, so that they can
-            customize the Install-for-Free applications for their relatives or
-            even enhance them.
+            As elderly like grandma need care by a supportive talent. The
+            SQ-Labs Team <strong>supports care giving talents</strong>, so that
+            they can customize the Install-for-Free applications for their
+            relatives or even enhance them.
           </p>
           <p>We support this e.g. by</p>
           <div className="row mb-1-9">
             <div className="col-12 wow fadeIn" data-wow-delay="200ms">
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-26 text-primary"></i>
+                <span className="ms-3 text-dark">
+                  Internship Offerings for dedicated sharing with our AI
+                  Community
+                </span>
+              </div>
               <div className="d-flex align-items-center">
                 <i className="ti-check display-26 text-primary"></i>
                 <span className="ms-3 text-dark">
@@ -46,6 +53,12 @@ const Index = () => {
                   >
                     WOKWI and Github
                   </a>{' '}
+                </span>
+              </div>
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-26 text-primary"></i>
+                <span className="ms-3 text-dark">
+                  Provide a reqular Blog articles to deepen the insights.
                 </span>
               </div>
               <div className="d-flex align-items-center">
@@ -94,6 +107,6 @@ const Index = () => {
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
   pageUrl: '/sq-labs',
-  pageTitle: 'SQ-Labs Team',
+  pageTitle: 'SQ-Labs Team & AI Community',
   serviceCategory: 'Budget Friendly Not Only For Students',
 });
