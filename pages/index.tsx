@@ -110,25 +110,25 @@ export default function Home({
         <div className="row">
           <div className="col-md-3">
             <EcosystemCard
-              image="/img/content/sq-power/sq-power2.png"
+              image="/img/content/ecosystems/EcoSystem_CloudFree.png"
               label="Cloudfree"
             />
           </div>
           <div className="col-md-3">
             <EcosystemCard
-              image="/img/content/sq-power/sq-power2.png"
+              image="/img/content/ecosystems/EcoSystem_HomeAssistant.png"
               label="Home Assistant"
             />
           </div>
           <div className="col-md-3">
             <EcosystemCard
-              image="/img/content/sq-power/sq-power2.png"
+              image="/img/content/ecosystems/EcoSystem_IoT-AppStore.png"
               label="IoT AppStore"
             />
           </div>
           <div className="col-md-3">
             <EcosystemCard
-              image="/img/content/sq-power/sq-power2.png"
+              image="/img/content/ecosystems/EcoSystem_Matter.png"
               label="Matter"
             />
           </div>
