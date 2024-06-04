@@ -493,6 +493,6 @@ const Index = () => {
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
   pageUrl: '/c3-mini',
-  pageTitle: 'C3-Mini microcontroller',
+  pageTitle: 'C3-Mini Microcontroller',
   serviceCategory: 'Budget Friendly Not Only For Students',
 });
