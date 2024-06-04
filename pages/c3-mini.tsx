@@ -342,7 +342,7 @@ const Index = () => {
           <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/selection-boxes/SGP30_C3-Mini_0.66-OLED_White.jpeg"
+              src="/img/selection-boxes/C3-mini_selection-box_case.png"
               alt="C3-Mini"
             />
             <p className="mb-1-9 wow fadeIn" data-wow-delay="200ms">
