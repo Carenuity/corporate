@@ -4,6 +4,9 @@ import { servicesUrls } from '../utils/constants';
 import { StoreContext } from '../components/context/Store';
 import Head from 'next/head';
 import Link from 'next/link';
+import CarenuityDevice from '../components/CarenuityDevice';
+import ecosystemsImage from '../public/img/environments/ecosystems.png';
+import Image from 'next/image';
 
 const Index = () => {
   const { state } = useContext(StoreContext);
@@ -313,11 +316,94 @@ const Index = () => {
         <Link href={'#applications'} id="applications" className="h3">
           Applications
         </Link>
-        <h2 className="mb-2 mt-3 h6">
+        {/* <h2 className="mb-2 mt-3 h6">
           Grab the C3-Mini microcontroller and build your own device, by
           installing 7 different sensors for getting a Barometer, Hygrometer,
           Luxmeter, Motion Detector … all for free
+        </h2> */}
+        <p className="mb-1 mt-3">
+          The C3-mini, particularly the Carenuity C3 Mini, is a compact
+          microcontroller that&apos;s quite versatile due to its features like
+          WiFi and Bluetooth LE capabilities, a RISC-V Single-Core CPU, and
+          compatibility with various programming environments such as
+          MicroPython, Arduino, and CircuitPython12. Carenuity even supports
+          install-for-free applications for the EcoSystems:
+          <strong className="text-black"> CloudFree</strong>,
+          <strong className="text-black"> Home Assistant</strong>,
+          <strong className="text-black"> IoT AppStore</strong> and
+          <strong className="text-black"> Matter/ESPZero</strong>.
+        </p>
+        <Image
+          src={ecosystemsImage}
+          width={1029}
+          height={128}
+          alt="ecosystems"
+          className="img-fluid mb-3"
+        />
+
+        <h2 className="mb-1 h5">
+          Applications for the plain C3-mini &apos;standalone&apos;, no Display
+          or Sensor required
         </h2>
+        <p className="mb-2 mt-1">
+          Grab your plain C3-Mini and build your own device within 3 minutes, by
+          installing the popular{' '}
+          <strong>
+            {' '}
+            <a
+              href="https://chipglobe-dev.web.app/cloudfree/WLED/C3-Mini"
+              className="link-success"
+            >
+              WLED-Application
+            </a>
+          </strong>
+          , the helpful{' '}
+          <strong>
+            <a
+              href="https://chipglobe-dev.web.app/cloudfree/GPIO/C3-Mini"
+              className="link-success"
+            >
+              GPIO-Viewer
+            </a>
+          </strong>{' '}
+          or a plain “empty” ESPHome device for Home Assistant with no special
+          features built-in. Ready to make it your own.
+        </p>
+
+        <h2 className="mb-1 h5">Applications for the C3-mini with Display</h2>
+        <p className="mb-2 mt-1">
+          Grab your C3-Mini and build your own device within 3 minutes, by
+          attaching a display{' '}
+          <strong>
+            [
+            <a
+              href="https://www.chipglobe.shop/p/0-66-zoll-oled-shield"
+              className="link-success"
+            >
+              buy here
+            </a>
+            ]
+          </strong>{' '}
+          to enable applications like a WiFi Signal Strength Meter, a
+          Weather-Station or a{' '}
+          <a
+            href="https://chipglobe-dev.web.app/cloudfree/YOUTUBE-METEER/C3-Mini"
+            className="link-success"
+          >
+            YouTube-Counter
+          </a>{' '}
+          for Followers and Likes.
+        </p>
+
+        <h2 className="mb-1 h5">
+          Applications for the C3-mini with Sensor & Display
+        </h2>
+        <p className="mb-2 mt-1">
+          Grab your C3-Mini and build your own device within 3 minutes, by free
+          installing various sensor applications like a Barometer, Hygrometer,
+          Luxmeter or Motion Detector.
+        </p>
+
         <h2 className="mb-2 h4">What is the C3-Mini?</h2>
         <p className="mb-lg-1-9">
           The ESP32-Mini was the successor of the D1-Mini, comes with added
@@ -394,6 +480,39 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        {/* GPIO Viewer */}
+        <CarenuityDevice
+          name={{
+            short: 'GPIO Viewer',
+            long: `Monitor GPIO pins on your browser`,
+          }}
+          imageUrl={'/img/sensors/GPIO_banner.jpeg'}
+          webFlashUrl={'https://chipglobe-dev.web.app/cloudfree/GPIO/C3-Mini'}
+        />
+
+        {/* WLED */}
+        <CarenuityDevice
+          name={{
+            short: 'WLED',
+            long: `C3-Mini WLED Installer`,
+          }}
+          imageUrl={'/img/sensors/WLED.jpeg'}
+          webFlashUrl={'https://chipglobe-dev.web.app/cloudfree/WLED/C3-Mini'}
+        />
+
+        {/* YouTube Meter */}
+        <CarenuityDevice
+          name={{
+            short: 'YouTube Meter',
+            long: `YouTube Channel Statistics Meter with C3-Mini`,
+          }}
+          imageUrl={'/img/sensors/Youtube-Meter.jpeg'}
+          webFlashUrl={
+            'https://chipglobe-dev.web.app/cloudfree/YOUTUBE-METEER/C3-Mini'
+          }
+        />
+
         <div className="row mb-1-9 bg-secondary p-3 text-white">
           <div
             className="col-lg-5 mb-4 mb-lg-0 wow fadeIn"

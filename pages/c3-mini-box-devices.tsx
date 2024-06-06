@@ -33,19 +33,6 @@ const Index = () => {
             <div className="col-lg-8 mt-n1-9">
               <div className="pe-lg-1-9 mt-3">
                 <div className="owl-carousel owl-theme text-center testimonial-carousel1">
-                  {/* <CarouselImage
-                    url={'/img/content/Sensor-Selection-Box.jpeg'}
-                  />
-                  <CarouselImage
-                    url={
-                      '/img/content/modular-C3-Mini-sensor-selection-box.webp'
-                    }
-                  />
-                  <CarouselImage
-                    url={
-                      '/img/content/WebFlashing_S-M-A_Building_Blocks_on_TRIPLE_ADAPTER.png'
-                    }
-                  /> */}
                   <CarouselImage
                     url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide1.PNG'}
                   />
@@ -76,26 +63,6 @@ const Index = () => {
                   <CarouselImage
                     url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide10.PNG'}
                   />
-                  {/* <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/DHT11_C3-Mini_0.66-OLED_HA.PNG'
-                    }
-                  />
-                  <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/DS18B20_C3-Mini_0.66-OLED_HA.PNG'
-                    }
-                  />
-                  <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/H6XXT_C3-Mini_0.66-OLED_HA.PNG'
-                    }
-                  />
-                  <CarouselImage
-                    url={
-                      '/img/content/C3-Mini-Sensor-Box/PIR_C3-Mini_0.66-OLED_HA.PNG'
-                    }
-                  /> */}
                 </div>
                 <div>
                   <h3 className="border-bottom mb-2 pb-2 h5">
