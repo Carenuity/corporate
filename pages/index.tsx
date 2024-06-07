@@ -32,6 +32,11 @@ export default function Home({
         speed: 0.2,
         videoSrc: 'https://youtu.be/nCnTdzlanPo',
       });
+
+      jarallax(document.querySelectorAll('.thirdCallToAction'), {
+        speed: 0.2,
+        videoSrc: 'https://youtu.be/kLtLz_UDwzY',
+      });
     }
   }, []);
 
@@ -64,6 +69,7 @@ export default function Home({
         data-jarallax
         data-speed="0.8"
       ></section>
+
       <section className="container">
         <h2 className="text-black mb-3">
           Build your own device within 3 minutes to immediately sense
@@ -134,6 +140,15 @@ export default function Home({
           </div>
         </div>
       </section>
+
+      <section
+        className={`thirdCallToAction jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
+        style={{
+          backgroundImage: `url(${secondaryBgImage})`,
+        }}
+        data-jarallax
+        data-speed="0.8"
+      ></section>
     </>
   );
 }

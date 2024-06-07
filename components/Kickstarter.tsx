@@ -67,18 +67,22 @@ const Kickstarter = () => {
                   href={'/sq-panel'}
                   className="btn btn-lg btn-success rounded-pill shadow"
                 >
-                  Read More
+                  Mehr Infos
                 </Link>
               </div>
-              <div className="ps-3 fw-bold fs-3 text-uppercase">
-                <span className="border-success border-bottom">SQ-PANEL</span>{' '}
-                <span className="text-success">going live</span> ✨
+              <div className="ps-3 fw-bold fs-3 hstack gap-2">
+                <span className="border-success border-bottom text-uppercase text-nowrap">
+                  SQ-PANEL
+                </span>{' '}
+                <span className="text-success">
+                  Ein Invest in ✨ Gesundheit!
+                </span>
               </div>
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/SQ_PANEL.png"
-                className="position-absolute end-0 top-0 mt-3"
+                src="/img/SQ_PANEL.jpeg"
+                className="position-absolute end-0 top-0 mt-3 me-2"
                 style={{ width: '25%', height: 'auto' }}
                 alt="download app qr code"
               />

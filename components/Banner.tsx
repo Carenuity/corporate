@@ -1,3 +1,6 @@
+import { useContext, useRef, useEffect } from 'react';
+import { LanguageSwitchContext } from './context/LanguageSwitch';
+
 const Banner = ({
   bannerImage,
   slogan,
@@ -7,14 +10,14 @@ const Banner = ({
   slogan: string;
   isMobile: boolean;
 }) => {
-  // const { state } = useContext(LanguageSwitchContext);
-  // const kickstarterRef = useRef<HTMLButtonElement>(null);
+  const { state } = useContext(LanguageSwitchContext);
+  const kickstarterRef = useRef<HTMLButtonElement>(null);
 
-  // useEffect(() => {
-  //   if (kickstarterRef.current && state === 'de') {
-  //     kickstarterRef.current.click();
-  //   }
-  // }, [state]);
+  useEffect(() => {
+    if (kickstarterRef.current && state === 'de') {
+      kickstarterRef.current.click();
+    }
+  }, [state]);
 
   return (
     <>
@@ -36,7 +39,7 @@ const Banner = ({
                 </h1>
 
                 {/* Kickstarter button */}
-                {/* <button
+                <button
                   ref={kickstarterRef}
                   type="button"
                   className="btn-style1 border-0 medium invisible"
@@ -44,7 +47,7 @@ const Banner = ({
                   data-bs-target="#grid"
                 >
                   <span>Grid modal</span>
-                </button> */}
+                </button>
 
                 {/* {!isMobile && (
                   <Link

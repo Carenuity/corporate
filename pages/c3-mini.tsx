@@ -398,7 +398,7 @@ const Index = () => {
         <h2 className="mb-1 h5">
           Applications for the C3-mini with Sensor & Display
         </h2>
-        <p className="mb-2 mt-1">
+        <p className="mb-3 mt-1">
           Grab your C3-Mini and build your own device within 3 minutes, by free
           installing various sensor applications like a Barometer, Hygrometer,
           Luxmeter or Motion Detector.

@@ -40,7 +40,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               <Link href={'/about'}>
                 <h3 className="text-white h5 mb-1-9">
                   {language.includes('en') && 'About Carenuity'}
-                  {language.includes('de') && 'über Carenuity'}
+                  {language.includes('de') && 'Was macht Carenuity?'}
                 </h3>
               </Link>
               <h4 className="text-white mb-1-9 fw-light w-75 display-29 lh-base opacity9">
@@ -48,12 +48,12 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                 {language === 'en' && state.companyInfo.Sammury}
                 {language === 'de' && (
                   <>
-                    Carenuity bietet modulare und hochgradig anpassbare
-                    Sensorlösungen zur Überwachung von Vitalfunktionen und der
-                    Luftqualität in Immobilien. Erstklassig und beliebt ist das
-                    SQ-Panel, das durch die Vital- und Umwelterkennung und
-                    -pflege rund um die Uhr in einem Gerät Sicherheit bietet,
-                    sodass Sie sehen können, was kein anderer sieht.
+                    Carenuity bietet modular anpassbare Sensorlösungen zur
+                    Überwachung von Vitalfunktionen und der Luftqualität in
+                    Immobilien. Hierbei ist das SQ-Panel die erstklassige Wahl
+                    und beliebt, weil es mit seiner Vital- und Umwelterkennung
+                    rund um die Uhr in einem Gerät auf einem Blick die Kontrolle
+                    behalten lässt.
                   </>
                 )}
               </h4>
