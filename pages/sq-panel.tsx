@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
@@ -6,6 +6,23 @@ import Head from 'next/head';
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';
   const { state } = useContext(LanguageSwitchContext);
+  const bannerImage = '/img/content/SQ-Panel-sideview.webp';
+
+  useEffect(() => {
+    if (typeof document !== undefined) {
+      const { jarallax, jarallaxVideo } = require('jarallax');
+      jarallaxVideo();
+      jarallax(document.querySelectorAll('.videoOne'), {
+        speed: 0.2,
+        videoSrc: 'https://youtu.be/5rwa3OWmB0Q',
+      });
+
+      jarallax(document.querySelectorAll('.videoTwo'), {
+        speed: 0.2,
+        videoSrc: 'https://youtu.be/b_ILJvUFYYY',
+      });
+    }
+  }, [state]);
 
   return (
     <>
@@ -23,11 +40,20 @@ export const SqPanel = () => {
 
       {/* <!-- PAGE TITLE
                 ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: 'Home' }]}
-        pageTitle={pageTitle}
-        pageUrl="/sq-panel"
-      />
+      {/* <PageTitle
+            links={[{ path: '/', title: 'Home' }]}
+            pageTitle={pageTitle}
+            pageUrl="/sq-panel"
+          /> */}
+
+      <section
+        className={`videoOne jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
+        style={{
+          backgroundImage: `url(${bannerImage})`,
+        }}
+        data-jarallax
+        data-speed="0.8"
+      ></section>
 
       <section className="pt-4">
         <div className="container">
@@ -943,6 +969,15 @@ export const SqPanel = () => {
           </div>
         </div>
       </section>
+
+      <section
+        className={`videoTwo jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
+        style={{
+          backgroundImage: `url(${bannerImage})`,
+        }}
+        data-jarallax
+        data-speed="0.8"
+      ></section>
     </>
   );
 };
