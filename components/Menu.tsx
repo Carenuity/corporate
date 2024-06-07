@@ -125,7 +125,7 @@ const Menu = ({
               <ul className="sub-menu">
                 {servicesUrls.premium.map((service: ServiceUrl) => (
                   <li key={`${service.url}-${service.name}`}>
-                    {!isMobile && (
+                    {/* {!isMobile && (
                       <Link
                         className="ms-3"
                         href={service.url}
@@ -143,24 +143,24 @@ const Menu = ({
                         {service.name}
                       </Link>
                     )}
-                    {isMobile && (
-                      <a
-                        className="ms-3"
-                        href={service.url}
-                        style={
-                          !!!service.url
-                            ? {
-                                pointerEvents: 'none',
-                                color: 'grey',
-                                textAlign: 'left',
-                              }
-                            : { textAlign: 'left' }
-                        }
-                      >
-                        <i className={`${service.icon} me-2`}></i>
-                        {service.name}
-                      </a>
-                    )}
+                    {isMobile && ( */}
+                    <a
+                      className="ms-3"
+                      href={service.url}
+                      style={
+                        !!!service.url
+                          ? {
+                              pointerEvents: 'none',
+                              color: 'grey',
+                              textAlign: 'left',
+                            }
+                          : { textAlign: 'left' }
+                      }
+                    >
+                      <i className={`${service.icon} me-2`}></i>
+                      {service.name}
+                    </a>
+                    {/* )} */}
                   </li>
                 ))}
               </ul>

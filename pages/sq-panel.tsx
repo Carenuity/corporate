@@ -21,8 +21,13 @@ export const SqPanel = () => {
         speed: 0.2,
         videoSrc: 'https://youtu.be/b_ILJvUFYYY',
       });
+
+      jarallax(document.querySelectorAll('.videoThree'), {
+        speed: 0.2,
+        videoSrc: 'mp4:/videos/content/SQ-Panel_on_TableStand.mp4',
+      });
     }
-  }, [state]);
+  }, []);
 
   return (
     <>
@@ -55,25 +60,38 @@ export const SqPanel = () => {
         data-speed="0.8"
       ></section>
 
+      <section className="container">
+        <div className="row">
+          <div className="col-lg-12 mt-n1-9 mb-2">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/SQ-Panel-frontview.webp"
+              className="mt-1-9 wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        className={`videoThree jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
+        style={{
+          backgroundImage: `url(${bannerImage})`,
+        }}
+        data-jarallax
+        data-speed="0.8"
+      ></section>
+
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-10 mt-n1-9 mb-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/SQ-Panel-frontview.webp"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            <div className="col-lg-10 mt-n1-9 mb-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
+            {/* <div className="col-lg-10 mt-n1-9 mb-2">
               <video
                 src="/videos/content/SQ-Panel_on_TableStand.mp4"
                 loop={true}
@@ -86,7 +104,7 @@ export const SqPanel = () => {
                   animationName: 'fadeIn',
                 }}
               />
-            </div>
+            </div> */}
 
             <div className="col-lg-10 mt-n1-9" style={{ textAlign: 'justify' }}>
               <p className="mt-5">
