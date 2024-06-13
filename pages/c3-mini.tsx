@@ -174,13 +174,34 @@ const Index = () => {
           <div className="col-12">
             <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
+              <a href='/docs/Schematic V2.2.1.pdf' target="_blank" className="ms-2 link-success" rel="noreferrer">
+                Schematic V2.2.1 [PDF]
+              </a>
+            </div>
+          </div>
+          <div className="col-12">
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/Dimension V2.2.1.PDF"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+                Dimension V2.2.1 [PDF]
+              </a>
+            </div>
+          </div>
+          <div className="col-12">
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
               <a
                 href="https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v2.1.0.pdf"
                 target="_blank"
                 className="ms-2 link-success"
                 rel="noreferrer"
               >
-                Schematic V2.1.0[PDF]
+                Schematic V2.1.0 [PDF]
               </a>
             </div>
           </div>
@@ -193,7 +214,7 @@ const Index = () => {
                 className="ms-2 link-success"
                 rel="noreferrer"
               >
-                Dimension V2.1.0[PDF]
+                Dimension V2.1.0 [PDF]
               </a>
             </div>
           </div>
