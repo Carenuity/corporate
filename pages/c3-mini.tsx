@@ -174,7 +174,12 @@ const Index = () => {
           <div className="col-12">
             <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
-              <a href='/docs/Schematic V2.2.1.pdf' target="_blank" className="ms-2 link-success" rel="noreferrer">
+              <a
+                href="/docs/Schematic V2.2.1.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
                 Schematic V2.2.1 [PDF]
               </a>
             </div>
