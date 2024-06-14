@@ -1,7 +1,5 @@
-import { useContext } from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
-import { StoreContext } from '../components/context/Store';
 import Link from 'next/link';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
@@ -52,17 +50,18 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     go shopping
                   </h2>
                 </div>
-            </div>   
+              </div>
             </div>
 
-                
-
-              <div className="col-lg-8 wow fadeIn  ">
-              <h4>Build your own device within 3 minutes to immediately sense what's going on</h4>
-                <h5>1. Make Your Triple</h5>
+            <div className="col-lg-8 wow fadeIn  ">
+              <h4>
+                Build your own device within 3 minutes to immediately sense
+                what&apos;s going on
+              </h4>
+              <h5>1. Make Your Triple</h5>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/Slide1.png"
+                src="/img/content/Install/Slide1.PNG"
                 className="mt-1-6 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -74,30 +73,28 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            
-                <div className=" col-lg-4 ">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <video
-                    src="/img/content/Install/install.mp4"
-                    loop={true}
-                    autoPlay={true}
-                    className="mt-1-9 wow fadeInUp w-100"
-                    data-wow-delay="100ms"
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                </div>
-            
+            <div className=" col-lg-4 ">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <video
+                src="/img/content/Install/install.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
 
             <div className="col-lg-8 wow fadeIn  ">
-            <h5>2. Install your application</h5>
+              <h5>2. Install your application</h5>
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/Slide2.png"
+                src="/img/content/Install/Slide2.PNG"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -110,10 +107,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <div className="col-lg-8 wow fadeIn ">
-            <h5>3. Enclose and place in your home</h5>
+              <h5>3. Enclose and place in your home</h5>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/Slide3.png"
+                src="/img/content/Install/Slide3.PNG"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -123,135 +120,128 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               />
-              Your Own Device Is 5 Clicks Away.Start Your Journey Now to explore All The Solutions
-
+              Your Own Device Is 5 Clicks Away.Start Your Journey Now to explore
+              All The Solutions
             </div>
             <hr className="mb-5 " />
-           
 
-
-
-                <div className="col-lg-8 wow fadeIn">
-                <div className="pe-lg-1-9">
-                  <div className="d-flex about-text mb-1-9">
-                    <div className="flex-shrink-0">
-                      <i className="fa-solid fa-microchip"></i>
-                    </div>
-                    <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">Get your hardware at hand</h4>
-                      <p className="mb-0">
-                        As all these boards are so popular, we assume that you
-                        possibly have them at your hand. If you want to refill
-                        your drawer, find all parts in dedicated assortment
-                        boxes or buy any part separately as spare parts in our
-                        store, e.g. to build more devices of a desired kind:
-                        Here is a{' '}
-                        <a
-                          href="https://www.chipglobe.shop/en/"
-                          className="text-success"
-                        >
-                          recommended link
-                        </a>{' '}
-                        to re-fill your drawer.
-                      </p>
-
-                      <p className="text-center mt-3">
-                        {!isMobile && (
-                          <Link
-                            href={'/sensors'}
-                            className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                            // data-wow-delay="400ms"
-                            // style={{
-                            //   visibility: 'visible',
-                            //   animationDelay: '400ms',
-                            //   animationName: 'fadeInUp',
-                            //   height: '3.5rem',
-                            // }}
-                          >
-                            <span className="small">Select Sensor </span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={'/sensors'}
-                            className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                            // data-wow-delay="400ms"
-                            // style={{
-                            //   visibility: 'visible',
-                            //   animationDelay: '400ms',
-                            //   animationName: 'fadeInUp',
-                            //   height: '3.5rem',
-                            // }}
-                          >
-                            <span className="small">
-                              Select Sensor{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                    </div>
+            <div className="col-lg-8 wow fadeIn">
+              <div className="pe-lg-1-9">
+                <div className="d-flex about-text mb-1-9">
+                  <div className="flex-shrink-0">
+                    <i className="fa-solid fa-microchip"></i>
                   </div>
-                  <div className="d-flex about-text mb-1-9">
-                    <div className="flex-shrink-0">
-                      <i className="fa-solid fa-laptop-code"></i>
-                    </div>
-                    <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">Install the desired software</h4>
-                      <p className="mb-0">
-                        For building your own desired device, you select from a
-                        wide range of sensors to build your own device, e.g. a
-                        Barometer, Hygrometer, Thermometer, Luxmeter, IR
-                        Radiometer, Motion Detector or a Presence Button. Simply
-                        use the{' '}
-                        <a
-                          href="https://chipglobe-dev.web.app/cloudfree"
-                          className="text-success"
+                  <div className="flex-grow-1 ms-3">
+                    <h4 className="h5">Get your hardware at hand</h4>
+                    <p className="mb-0">
+                      As all these boards are so popular, we assume that you
+                      possibly have them at your hand. If you want to refill
+                      your drawer, find all parts in dedicated assortment boxes
+                      or buy any part separately as spare parts in our store,
+                      e.g. to build more devices of a desired kind: Here is a{' '}
+                      <a
+                        href="https://www.chipglobe.shop/en/"
+                        className="text-success"
+                      >
+                        recommended link
+                      </a>{' '}
+                      to re-fill your drawer.
+                    </p>
+
+                    <p className="text-center mt-3">
+                      {!isMobile && (
+                        <Link
+                          href={'/sensors'}
+                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                          // data-wow-delay="400ms"
+                          // style={{
+                          //   visibility: 'visible',
+                          //   animationDelay: '400ms',
+                          //   animationName: 'fadeInUp',
+                          //   height: '3.5rem',
+                          // }}
                         >
-                          Install-For-Free App
-                        </a>{' '}
-                        to seamlessly transition between the different types of
-                        devices. Whether you&apos;re tracking atmospheric
-                        changes, monitoring moisture levels, or detecting
-                        motion, the possibilities are endless.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="d-flex about-text">
-                    <div className="flex-shrink-0">
-                      <i className="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">
-                        Housing your device, e.g. by an card board enclosure
-                      </h4>
-                      <p className="mb-0">
-                        Discover the joy of customization and unlock your
-                        creative potential e.g. in housing the electronics in a
-                        hand made card paper enclosure. Don&apos;t miss out to
-                        the{' '}
-                        <a href="https://www.chipglobe.shop/c/zubehoer/3d-print-for-makers">
-                          printed ones from our store
+                          <span className="small">Select Sensor </span>
+                        </Link>
+                      )}
+
+                      {isMobile && (
+                        <a
+                          href={'/sensors'}
+                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                          // data-wow-delay="400ms"
+                          // style={{
+                          //   visibility: 'visible',
+                          //   animationDelay: '400ms',
+                          //   animationName: 'fadeInUp',
+                          //   height: '3.5rem',
+                          // }}
+                        >
+                          <span className="small">
+                            Select Sensor{' '}
+                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                          </span>
                         </a>
-                        .
-                      </p>
-                    </div>
+                      )}
+                    </p>
                   </div>
                 </div>
+                <div className="d-flex about-text mb-1-9">
+                  <div className="flex-shrink-0">
+                    <i className="fa-solid fa-laptop-code"></i>
+                  </div>
+                  <div className="flex-grow-1 ms-3">
+                    <h4 className="h5">Install the desired software</h4>
+                    <p className="mb-0">
+                      For building your own desired device, you select from a
+                      wide range of sensors to build your own device, e.g. a
+                      Barometer, Hygrometer, Thermometer, Luxmeter, IR
+                      Radiometer, Motion Detector or a Presence Button. Simply
+                      use the{' '}
+                      <a
+                        href="https://chipglobe-dev.web.app/cloudfree"
+                        className="text-success"
+                      >
+                        Install-For-Free App
+                      </a>{' '}
+                      to seamlessly transition between the different types of
+                      devices. Whether you&apos;re tracking atmospheric changes,
+                      monitoring moisture levels, or detecting motion, the
+                      possibilities are endless.
+                    </p>
+                  </div>
                 </div>
-            
+                <div className="d-flex about-text">
+                  <div className="flex-shrink-0">
+                    <i className="fa-solid fa-briefcase"></i>
+                  </div>
+                  <div className="flex-grow-1 ms-3">
+                    <h4 className="h5">
+                      Housing your device, e.g. by an card board enclosure
+                    </h4>
+                    <p className="mb-0">
+                      Discover the joy of customization and unlock your creative
+                      potential e.g. in housing the electronics in a hand made
+                      card paper enclosure. Don&apos;t miss out to the{' '}
+                      <a href="https://www.chipglobe.shop/c/zubehoer/3d-print-for-makers">
+                        printed ones from our store
+                      </a>
+                      .
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <div className="col-lg-4 wow fadeIn text-white"
+            <div
+              className="col-lg-4 wow fadeIn text-white"
               data-wow-delay="400ms"
               style={{
                 visibility: 'visible',
                 animationDelay: '400ms',
                 animationName: 'fadeIn',
               }}
-              >
-                
-
+            >
               <div className="ps-lg-2-9 position-relative text-center text-sm-start">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -279,11 +269,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
             </div>
-
-            
-            </div>
           </div>
-        
+        </div>
+
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/img/bg/bg-06.png"
