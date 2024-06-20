@@ -40,3 +40,5 @@ archived
 /.env
 
 Todo.md
+
+*.zip

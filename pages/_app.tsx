@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Layout from '../components/Layout';
 import { StoreProvider } from '../components/context/Store';
 import { LanguageSwitchProvider } from '../components/context/LanguageSwitch';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 declare global {
   interface Window {
@@ -46,6 +47,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </Layout>
         </StoreProvider>
       </LanguageSwitchProvider>
+      <GoogleTagManager gtmId="GTM-NW9Q5ZRJ" />
     </>
   );
 }

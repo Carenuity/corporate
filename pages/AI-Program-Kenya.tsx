@@ -1,6 +1,5 @@
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
-import Link from 'next/link';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'University Program for AI - Kenya ​';
