@@ -76,7 +76,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className=" col-lg-4 ">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <video
-                src="/img/content/Install/install.mp4"
+                src="/img/content/Install/install2.mp4"
                 loop={true}
                 autoPlay={true}
                 className="mt-1-9 wow fadeInUp w-100"
@@ -90,7 +90,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <div className="col-lg-8 wow fadeIn  ">
-              <h5>2. Install your application</h5>
+              <h5>2. Install one of the various prepared applications</h5>
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
