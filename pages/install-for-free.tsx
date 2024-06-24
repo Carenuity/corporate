@@ -46,8 +46,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="section-title mb-1-9">
                   <span className="sm-title">{pageTitle}</span>
                   <h2 className="mb-0 h3">
-                    Grab & plug your Triple (S, M & A) e.g. from your drawer or
-                    go shopping
+                  Build your own device within 3 minutes to immediately sense
+                  what&apos;s going on
+                    
                   </h2>
                 </div>
               </div>
@@ -55,8 +56,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
 
             <div className="col-lg-8 wow fadeIn  ">
               <h4>
-                Build your own device within 3 minutes to immediately sense
-                what&apos;s going on
+              Grab & plug your Triple (S, M & A) e.g. from your drawer or
+              go shopping
               </h4>
               <h5>1. Make Your Triple</h5>
               {/* eslint-disable-next-line @next/next/no-img-element */}
