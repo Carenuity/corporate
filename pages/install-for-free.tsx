@@ -55,7 +55,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <div className="col-lg-8 wow fadeIn  ">
-              <h4>
+              <h4 className=" mb-1-9">
               Grab & plug your Triple (S, M & A) e.g. from your drawer or
               go shopping
               </h4>
