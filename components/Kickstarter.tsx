@@ -64,7 +64,10 @@ const Kickstarter = () => {
               </div>
               <div className="position-absolute top-0 start-0 end-0 d-flex justify-content-center">
                 <Link
-                  href={'/sq-panel'}
+                  href={
+                    'https://www.kickstarter.com/projects/sq-panel/endlich-ein-einfach-bedienbares-sensor-display-in-matter'
+                  }
+                  target="_blank"
                   className="btn btn-lg btn-success rounded-pill shadow"
                 >
                   Mehr Infos
