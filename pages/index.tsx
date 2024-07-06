@@ -86,11 +86,7 @@ export default function Home({
                 >
       <div className=" row "> 
       
-      <div 
-          className="col-md-8 mb-6"
-          style={{
-            verticalAlign: 'center'
-          }}> 
+      <div className="col-md-8 mb-6"> 
       <h4>About Us</h4>
       <p>We provides modular and highly customizable sensor solutions for monitoring 
       vital signs and real estate air quality.</p> 
@@ -334,11 +330,10 @@ export default function Home({
        <hr className="mb-6 " />
 
        {/* sensors */}
-
-       <h4 className=" mb-4" >
-          We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>500</strong> solutions
-         
-        </h4>
+        <div className=" mb-4">
+          <h4  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>500</strong> solutions</h4>
+        </div>
+       
 
         <div className="row mb-6">
           {/* hstack justify-content-center align-items-center gap-2 */}
