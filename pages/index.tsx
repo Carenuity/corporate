@@ -144,7 +144,7 @@ export default function Home({
                     <h4 className="h5">Get your hardware at hand</h4>
                     <p className="mb-0">
                     As all these boards are super popular, we assume you have them at your hand. 
-                    If not, checkout our free offer below or refill your drawers: You find all parts 
+                    If not, checkout our free offer below or refill your drawers. You will find all parts 
                     in dedicated assortment boxes or buy any individual part, e.g. spare parts from our store. 
                     Here is a {' '}
                       <a
@@ -534,7 +534,7 @@ export default function Home({
               <p style={{ padding: '10px' }}>
               <h5>IoT AppStore</h5>
               If you have the idea of more devices, which you want to jointly orchester 
-              by updates over the air, possibly at remote locations (e.g. at your parents home) 
+              by updates over the air, possibly at remote locations (e.g. at your parents home)
               the IoT solution is your first choice. </p>
             
           </div>
@@ -565,8 +565,8 @@ export default function Home({
               <p style={{ padding: '10px' }}>
               <h5>Matter</h5>
               Matter allows you to integrate your sensor device with up to five of the most 
-              popular platforms at once, such as Amazon's Alexa, Apple's Home, 
-              Google Home, Samsung's SmartThings, or Home Assistant (HA). 
+              popular platforms at once, such as Amazon&apos;s Alexa, Apple&apos;s Home, 
+              Google Home, Samsung&apos;s SmartThings, or Home Assistant (HA). 
               </p>
             
           </div>
