@@ -112,6 +112,7 @@ export default function Home({
       </div>
       </div>
       <div className="col-md-4">
+         {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
                     src="/img/content/case/case5.png"
                     className="wow fadeInUp"
@@ -142,7 +143,7 @@ export default function Home({
                   <div className="flex-grow-1 ms-3">
                       
                     <h4 className="h5">Get your hardware at hand</h4>
-                    <p className="mb-0">
+                    <p>
                     As all these boards are super popular, we assume you have them at your hand. 
                     If not, checkout our free offer below or refill your drawers. You will find all parts 
                     in dedicated assortment boxes or buy any individual part, e.g. spare parts from our store. 
@@ -265,7 +266,7 @@ export default function Home({
                     <h4 className="h5">
                       Housing your device, e.g. by an card board enclosure
                     </h4>
-                    <p className="mb-0">
+                    <p>
                     Discover the joy of perfect customization and unlock your creative 
                     potential e.g. in housing the electronics you have built, to give 
                     them to your beloved. You can do this in various ways, e.g. by a 
@@ -373,7 +374,8 @@ export default function Home({
         </div>
 
         {/* How to install */}
-          <h4 className=" mb-1" >
+        <div>
+        <h4 className=" mb-1" >
            How to build your own device within 3 minutes to immediately sense
            what&apos;s going on.
            </h4>
@@ -382,12 +384,14 @@ export default function Home({
               Grab & plug your Triple (S, M & A) e.g. from your drawer or
               go shopping
               </strong>
+        </div>
+          
             <div className="col-lg-4 wow fadeIn  ">
               
               
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/"
+                src="/img/content/Install/Slide1.png"
                 className="mt-1-6 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -406,7 +410,7 @@ export default function Home({
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/"
+                src="/img/content/Install/Slide2.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -423,7 +427,7 @@ export default function Home({
               
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/"
+                src="/img/content/Install/Slide3.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -443,10 +447,12 @@ export default function Home({
         
       
 
-
+        <div>
         <h4 className=" mb-3">
           Providing 16 Smart Home Applications in four EcoSystems
         </h4>
+        </div>
+        
         <div className="row">
           <div className="col-md-3">
           <div
@@ -456,6 +462,7 @@ export default function Home({
                     height: '550px',
                   }}
                 >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/img/content/ecosystems/EcoSystem_CloudFree.png"
                     className="wow fadeInUp"
@@ -488,6 +495,7 @@ export default function Home({
                     height: '550px',
                   }}
                 >
+                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/img/content/ecosystems/EcoSystem_HomeAssistant.png"
                     className="wow fadeInUp"
@@ -518,6 +526,7 @@ export default function Home({
                     height: '550px',
                   }}
                 >
+                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/img/content/ecosystems/EcoSystem_IoT-AppStore.png"
                     className="wow fadeInUp"
@@ -549,6 +558,7 @@ export default function Home({
                     height: '550px',
                   }}
                 >
+                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/img/content/ecosystems/EcoSystem_Matter.png"
                     className="wow fadeInUp"
