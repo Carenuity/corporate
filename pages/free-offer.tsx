@@ -180,8 +180,8 @@ const Page = () => {
             
             <div className=' mt-n1-9 mb-4'>
             <p><strong>TIP:</strong> place some other electronics around your photo to share your other electronic parts & interests with us.</p>
-            <p><strong>Note:</strong> We won't share photos containing private content. 
-            We'll offer you tips tailored to your interests based on the other things 
+            <p><strong>Note:</strong> We won&apos;t share photos containing private content. 
+            We&apos;ll offer you tips tailored to your interests based on the other things 
             visible of your submitted photo.<strong>We want to help you succeed in what you build.</strong> </p>
             </div>
             
@@ -202,7 +202,7 @@ const Page = () => {
             
             <p><strong>2.</strong> Build your own first device on WOKWI (virtually first) </p>
             <p><strong>3.</strong>Send us that WOKWI link to qualify for the next level </p>
-            <p>We'll ship a free D1- / or C3-Mini. Check YouTube for Part 2.  </p>
+            <p>We&apos;ll ship a free D1- / or C3-Mini. Check YouTube for Part 2.  </p>
             </div>
             <div className="col-lg-3 mt-n1-9 ">
               {/* eslint-disable-next-line @next/next/no-img-element */}
