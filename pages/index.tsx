@@ -87,7 +87,7 @@ export default function Home({
       <div className=" row "> 
       
       <div className="col-md-8 mb-6"> 
-      <h5>Sq-panel</h5>
+      <h5>Sq-Panel</h5>
       <p>The SQ-Panel has built-in sensors for measuring air quality, temperature, humidity, pressure, carbon dioxide, TVOC and presence. 
       The SQ-Panel connects to the Carenuity cloud via the Carenuity Border Router, which acts as a gateway between 
         your home network and the internet. This enables you to monitor the sensor values and define their threshold values from anywhere, 
@@ -126,12 +126,25 @@ export default function Home({
                 }}
               />
             </div> 
-
-
-         
     
       </div>
       </div>
+
+      <div className="col-lg-12 mt-n1-9 mb-2">
+              <video
+                src="/videos/content/Sq-Panel.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '400',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div> 
      
         <div className="container position-relative z-index-3">
           <div className="row align-items-center about-style-03 mb-4">
@@ -164,7 +177,7 @@ export default function Home({
                     <p className=" mt-3">
                       {!isMobile && (
                         <Link
-                          href={'/freeOffer'}
+                          href={'/free-offer'}
                           className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
                           // data-wow-delay="400ms"
                           // style={{
