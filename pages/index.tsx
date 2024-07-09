@@ -80,59 +80,63 @@ export default function Home({
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '440px',
+                    height: '350px',
                     padding: '20px'
                   }}
                 >
       <div className=" row "> 
       
       <div className="col-md-8 mb-6"> 
-      <h4>About Us</h4>
-      <p>We provides modular and highly customizable sensor solutions for monitoring 
-      vital signs and real estate air quality.</p> 
-      <p>The goal is to provide all young and caregiving 
-      people with especially easy-to-use sensor-systems that allow them to monitor vital signs 
-      and indoor air quality parameters for their elderly family members and to select and recommend
-      best suited sensors-systems for their safety and care.</p>
+      <h5>Sq-panel</h5>
+      <p>The SQ-Panel has built-in sensors for measuring air quality, temperature, humidity, pressure, carbon dioxide, TVOC and presence. 
+      The SQ-Panel connects to the Carenuity cloud via the Carenuity Border Router, which acts as a gateway between 
+        your home network and the internet. This enables you to monitor the sensor values and define their threshold values from anywhere, 
+        using the Carenuity Home app on your smartphone.</p> 
+      <p></p>
       
-     <p><strong >We provide 24/7 vital, environmental sensing & care inside 
-     one device, so that you can see what no one else will see.</strong></p>
+     <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
 
 <div className=" mb-6">
       {!isMobile && (
                         <Link
-                          href={'/about'}
+                          href={'/sq-panel'}
                           className={'btn btn-lg btn-success rounded-pill'} 
                           
                    
                         >
-                          <span className="small">Learn more about us </span>
+                          <span className="small">Learn more  </span>
                         </Link>
                       )}
       </div>
       </div>
-      <div className="col-md-4">
-         {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-                    src="/img/content/case/case5.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '400px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-      </div>
+   
+
+<div className="col-lg-4 mt-n1-9 mb-2">
+              <video
+                src="/videos/content/SQ-Panel_on_TableStand.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '400',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div> 
+
+
+         
+    
       </div>
       </div>
      
         <div className="container position-relative z-index-3">
           <div className="row align-items-center about-style-03 mb-4">
             
-          <h3 >Getting started</h3>       
+          <h4 >Getting started</h4>       
                    {/* Getting started */}
                    <div className="col-lg-8 mb-4 wow fadeIn">
               <div className="pe-lg-1-9">
@@ -332,7 +336,7 @@ export default function Home({
 
        {/* sensors */}
         <div className=" mb-4">
-          <h4  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>500</strong> solutions</h4>
+          <h5  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>500</strong> solutions</h5>
         </div>
        
 
@@ -375,10 +379,10 @@ export default function Home({
 
         {/* How to install */}
         <div>
-        <h4 className=" mb-1" >
+        <h5 className=" mb-1" >
            How to build your own device within 3 minutes to immediately sense
            what&apos;s going on.
-           </h4>
+           </h5>
                 
             <strong className=" mb-1">
               Grab & plug your Triple (S, M & A) e.g. from your drawer or
@@ -448,9 +452,9 @@ export default function Home({
       
 
         <div>
-        <h4 className=" mb-3">
+        <h5 className=" mb-3">
           Providing 16 Smart Home Applications in four EcoSystems
-        </h4>
+        </h5>
         </div>
         
         <div className="row">
@@ -479,7 +483,7 @@ export default function Home({
                   
            
             <p style={{ padding: '10px' }}>
-              <h5>Cloudfree</h5>
+              <h6>Cloudfree</h6>
               The most secure and simple device does not relate to the internet at all. 
               You install it and it just works. This device category is the best, if you do 
               not need features besides the major task of sensing something.</p>
@@ -510,7 +514,7 @@ export default function Home({
                   />
 
               <p style={{ padding: '10px' }}>
-              <h5>Home Assistant</h5>
+              <h6>Home Assistant</h6>
               Home Assistant specifies in detail, which actions is to be taken, 
               if a device senses a certain situation. HA is currently the 
               worlds most popular environment for smart home devices.</p>
@@ -541,7 +545,7 @@ export default function Home({
                   />
 
               <p style={{ padding: '10px' }}>
-              <h5>IoT AppStore</h5>
+              <h6>IoT AppStore</h6>
               If you have the idea of more devices, which you want to jointly orchester 
               by updates over the air, possibly at remote locations (e.g. at your parents home)
               the IoT solution is your first choice. </p>
@@ -573,7 +577,7 @@ export default function Home({
                   />
 
               <p style={{ padding: '10px' }}>
-              <h5>Matter</h5>
+              <h6>Matter</h6>
               Matter allows you to integrate your sensor device with up to five of the most 
               popular platforms at once, such as Amazon&apos;s Alexa, Apple&apos;s Home, 
               Google Home, Samsung&apos;s SmartThings, or Home Assistant (HA). 
