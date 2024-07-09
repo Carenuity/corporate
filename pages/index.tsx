@@ -87,7 +87,7 @@ export default function Home({
       <div className=" row "> 
       
       <div className="col-md-8 mb-6"> 
-      <h5>Sq-Panel</h5>
+      <h5>SQ-Panel</h5>
       <p>The SQ-Panel has built-in sensors for measuring air quality, temperature, humidity, pressure, carbon dioxide, TVOC and presence. 
       The SQ-Panel connects to the Carenuity cloud via the Carenuity Border Router, which acts as a gateway between 
         your home network and the internet. This enables you to monitor the sensor values and define their threshold values from anywhere, 
