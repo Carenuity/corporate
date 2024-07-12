@@ -151,48 +151,6 @@ export default function Home({
 
 
 
-       {/* sensors */}
-       <div className=" mb-4">
-          <h5  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>1500</strong> solutions</h5>
-        </div>
-       
-
-        <div className="row mb-6">
-          {/* hstack justify-content-center align-items-center gap-2 */}
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount 
-              count={28} 
-              label="Sensors" 
-              bgColor="#3d8346" />
-            
-          </div>
-
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount
-              count={5}
-              label="Microcontrollers"
-              bgColor="#493356"
-            />
-            
-          </div>
-
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount
-              count={12}
-              label="Actuators"
-              bgColor="#065988"
-            />
-          
-          </div>
-
-          <div className="col-md-3">
-            <IoTComponentsCount
-              count={1500}
-              label="Solutions"
-              bgColor="#275b37"
-            />
-          </div>
-        </div>
         <hr className="mb-6 " />
 
 
@@ -396,7 +354,49 @@ export default function Home({
                 </div>
 
       
+       {/* sensors */}
+       <div className=" mb-4">
+          <h5  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>1500</strong> solutions</h5>
+        </div>
+       
 
+        <div className="row mb-6">
+          {/* hstack justify-content-center align-items-center gap-2 */}
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount 
+              count={28} 
+              label="Sensors" 
+              bgColor="#3d8346" />
+            
+          </div>
+
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount
+              count={5}
+              label="Microcontrollers"
+              bgColor="#493356"
+            />
+            
+          </div>
+
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount
+              count={12}
+              label="Actuators"
+              bgColor="#065988"
+            />
+          
+          </div>
+
+          <div className="col-md-3">
+            <IoTComponentsCount
+              count={1500}
+              label="Solutions"
+              bgColor="#275b37"
+            />
+          </div>
+        </div>
+        <hr className="mb-6 " />
 
         {/* How to install */}
         <div>
