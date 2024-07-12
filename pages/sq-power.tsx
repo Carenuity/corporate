@@ -27,30 +27,32 @@ const Page = () => {
       />
 
       <section className="pt-4">
+        
         <div className="container">
+        <h4 className=" mb-3">High quality wall mount power module</h4>
+        <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '500px',
+                    padding: '20px',
+                    
+                  }}
+                >
           <div className="row">
-            <h5>High quality wall mount power module</h5>
-            <p>
-              <b>Top side</b> of the SQ-Power with 2x4pin Socket for attaching
+          
+          <div className=" mb-5">
+            
+            <h5>
+              <strong>Top side</strong> of the SQ-Power with 2x4pin Socket for attaching
               the SQ-Panel
-            </p>
-            <br />
-            <div className="col-lg-9  mb-5">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-power/sq-power-front.png"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
+            </h5>
             </div>
-
-            <div className="col-lg-5 mt-n1-9 mb-5">
+            
+            
+             
+            <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className=" mb-4">
               <h6>Basic Information</h6>
               <strong>Product series:</strong>
               <br />
@@ -67,10 +69,24 @@ const Page = () => {
               <strong>Installation category:</strong>
               <br />
               <strong>Certification:</strong>
+              </div>
+
+              <div className="col-lg-6 mb-5">
+              <h6>Working Environment</h6>
+              <strong>Applicable place:</strong>
+              <br />
+              <strong>Working temperature:</strong>
+              <br />
+              <strong>Working humidity:</strong>
+              <br />
+              <strong>Certification:</strong>
               <br />
             </div>
 
+            </div>
+
             <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className=" mb-4">
               <br />
               Wall mounting power module
               <br />
@@ -86,21 +102,9 @@ const Page = () => {
               <br />
               CE/ROHS/WEEE
               <br />
-            </div>
+              </div>
 
-            <div className="col-lg-5 mt-n1-9 mb-5">
-              <h6>Working Environment</h6>
-              <strong>Applicable place:</strong>
-              <br />
-              <strong>Working temperature:</strong>
-              <br />
-              <strong>Working humidity:</strong>
-              <br />
-              <strong>Certification:</strong>
-              <br />
-            </div>
-
-            <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className=" mb-4">
               <br />
               Indoor
               <br />
@@ -111,27 +115,51 @@ const Page = () => {
               CE/ROHS/WEEE
               <br />
             </div>
-
-            <div className="col-lg-9  mb-5">
-              <p>
-                <b>Bottom side</b> of the SQ-Power with terminals to connect 22V
-                cables for domestic installations.
-              </p>
+            </div>
+            <div className="col-lg-4 mt-n1-9 ">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/sq-power/sq-power-back.png"
+                src="/img/content/sq-power/sq-power-front.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
+                  height: '350px',
                   animationName: 'fadeIn',
                 }}
               />
             </div>
+            </div>
+            </div>
 
-            <div className="col-lg-5 mt-n1-9 mb-5">
+            
+           
+            
+
+
+            <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '380px',
+                    padding: '20px',
+                    
+                  }}
+                >
+                  <div className='row mb-5'>
+                <div className=" mb-5">
+            <h5>
+                <strong>Bottom side</strong> of the SQ-Power with terminals to connect 22V
+                cables for domestic installations.
+              </h5>
+              </div>
+            
+            
+
+            <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className=" mb-5">
               <h6>Appearance</h6>
 
               <strong>Weight:</strong>
@@ -139,16 +167,8 @@ const Page = () => {
               <strong>Casing materials:</strong>
               <br />
             </div>
-
-            <div className="col-lg-4 mt-n1-9 mb-5">
-              <br />
-              49g
-              <br />
-              PCLEXAN121R
-              <br />
-            </div>
-
-            <div className="col-lg-5 mt-n1-9 mb-5">
+            
+            <div >
               <h6>Installation</h6>
 
               <strong>Installation method:</strong>
@@ -161,7 +181,19 @@ const Page = () => {
               <br />
             </div>
 
+            </div>
+
+
+
             <div className="col-lg-4 mt-n1-9 mb-5">
+            <div className=" mb-5">
+              <br />
+              49g
+              <br />
+              PCLEXAN121R
+              <br />
+            </div>
+            <div >
               <br />
               Flush mounting box
               <br />
@@ -170,12 +202,33 @@ const Page = () => {
               N and L<br />
               0.75 - 2.5 mm2
               <br />
+            </div> 
+            </div>
+           
+           
+
+            <div className="col-lg-4 mt-n1-9 ">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-power/sq-power-back.png"
+                className="mt-1-9 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '250px',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            </div>
             </div>
 
             {/* How sq-power works*/}
 
-            <hr className="mb-5 " />
-
+           
+          <div className=" mb-2">
             <h5>How does Sq-Power work? </h5>
             <p>
               You flash mount your Sq-power on the wall instead of nailing the
@@ -185,8 +238,8 @@ const Page = () => {
               On the left side of the video is the sq-panel. The black clip on
               the sq-panel helps to clip the sq-power inside the wall.
             </p>
-
-            <div className="container">
+            </div>
+            
               <div className="row">
                 <div className=" col-lg-12 mt-n1-9 mb-2">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -238,9 +291,9 @@ const Page = () => {
                   />
                 </div>
               </div>
-            </div>
+            
 
-            <div className="container">
+            
               <div className="row">
                 <h5>Sq-Power (Tecnical Drawings)</h5>
                 <br />
@@ -273,9 +326,9 @@ const Page = () => {
                   />
                 </div>
               </div>
-            </div>
+           
           </div>
-        </div>
+     
       </section>
     </>
   );

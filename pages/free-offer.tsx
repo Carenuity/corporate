@@ -30,49 +30,16 @@ const Page = () => {
       <section className="pt-4">
         <div className="container">
        
-        <div
-                  className="e-card mb-6"
-                  style={{
-                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '300px',
-                    padding: '20px'
-                  }}
-                >
-          <div className="row">
-            
-            <div className="col-lg-9 ">
-                
-            <h5>Home Challenge</h5>
-                <p>Showcase your skills and accept the Home Challenge to start your journey. 
-                    For those in Munich, Mombasa, Thessaloniki, Hamburg, Trieste, Nairobi, 
-                    Belgrade, Patras or Kisii get ready to experience this at no cost. 
-                    Claim your free triple adapter now and join the community!</p>
-            <p>
-              Welcome to a journey of building your own device within  3 minutes to immediately sense whats’s going on.
-            </p>
-
-            <p><strong>Becoming a distinguished AI talent is a journey worth taking.</strong></p>
-            </div>
-            <div className="col-lg-3 mt-n1-9 ">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/free-offer/free-offer1.png"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  width: '260px',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            </div>
-          </div>
-
-          <div className=' mb-6'>
-            <h5>A. HW-Challenge (soldering)</h5>
+       <div className=' mb-6'>
+        <h4>Level 1</h4>
+            <h5>A. Hardware-Challenge (soldering)</h5>
+            <p>Watch a {' '}<a
+                        href="https://www.youtube.com/watch?v=RHMUW-Oyl9c"
+                        className="text-success"
+                        
+                      >
+                         video 
+                      </a> {' '}to learn more on level 1 challenge</p>
           </div>
           
         <div className="row">

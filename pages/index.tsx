@@ -15,8 +15,8 @@ export default function Home({
 }: {
   isHome: boolean;
   isMobile: boolean;
-}) {
-  const bannerImage = 'img/banner.webp';
+}) {const bannerImage = 'img/banner.webp';
+  
   const secondaryBgImage = 'img/content/SQ-Panel-sideview.webp';
   
 
@@ -148,8 +148,58 @@ export default function Home({
      
         <div className="container position-relative z-index-3">
           <div className="row align-items-center about-style-03 mb-4">
+
+
+
+       {/* sensors */}
+       <div className=" mb-4">
+          <h5  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>1500</strong> solutions</h5>
+        </div>
+       
+
+        <div className="row mb-6">
+          {/* hstack justify-content-center align-items-center gap-2 */}
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount 
+              count={28} 
+              label="Sensors" 
+              bgColor="#3d8346" />
             
-          <h4 >Getting started</h4>       
+          </div>
+
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount
+              count={5}
+              label="Microcontrollers"
+              bgColor="#493356"
+            />
+            
+          </div>
+
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount
+              count={12}
+              label="Actuators"
+              bgColor="#065988"
+            />
+          
+          </div>
+
+          <div className="col-md-3">
+            <IoTComponentsCount
+              count={1500}
+              label="Solutions"
+              bgColor="#275b37"
+            />
+          </div>
+        </div>
+        <hr className="mb-6 " />
+
+
+           <h4>Dreaming of owning your own business? 
+            Why not take the leap and start building it with Carenuity S-M-A?</h4> 
+            
+                
                    {/* Getting started */}
                    <div className="col-lg-8 mb-4 wow fadeIn">
               <div className="pe-lg-1-9">
@@ -177,7 +227,7 @@ export default function Home({
                     <p className=" mt-3">
                       {!isMobile && (
                         <Link
-                          href={'/free-offer'}
+                          href={'/home-challenge'}
                           className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
                           // data-wow-delay="400ms"
                           // style={{
@@ -345,50 +395,8 @@ export default function Home({
                 </div>
                 </div>
 
-       <hr className="mb-6 " />
+      
 
-       {/* sensors */}
-        <div className=" mb-4">
-          <h5  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>500</strong> solutions</h5>
-        </div>
-       
-
-        <div className="row mb-6">
-          {/* hstack justify-content-center align-items-center gap-2 */}
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount 
-              count={28} 
-              label="Sensors" 
-              bgColor="#3d8346" />
-            
-          </div>
-
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount
-              count={5}
-              label="Microcontrollers"
-              bgColor="#493356"
-            />
-            
-          </div>
-
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount
-              count={12}
-              label="Actuators"
-              bgColor="#065988"
-            />
-          
-          </div>
-
-          <div className="col-md-3">
-            <IoTComponentsCount
-              count={1500}
-              label="Solutions"
-              bgColor="#275b37"
-            />
-          </div>
-        </div>
 
         {/* How to install */}
         <div>
