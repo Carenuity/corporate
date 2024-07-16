@@ -154,9 +154,22 @@ export default function Home({
         <hr className="mb-6 " />
 
 
-           <h4>Dreaming of owning your own business? 
+           <h4 className="mb-6 ">Dreaming of owning your own business? 
             Why not take the leap and start building it with Carenuity S-M-A?</h4> 
-            
+          
+            <hr className="mb-6 " />  
+
+            <div className="mb-4 ">
+        <h5 className=" mb-1" >
+           How to build your own device within 3 minutes to immediately sense
+           what&apos;s going on.
+           </h5>
+                
+            <strong className=" mb-1">
+              Grab & plug your Triple (S, M & A) e.g. from your drawer or
+              go shopping
+              </strong>
+        </div>
                 
                    {/* Getting started */}
                    <div className="col-lg-8 mb-4 wow fadeIn">
@@ -182,42 +195,7 @@ export default function Home({
                       to re-fill your drawer.
                     </p>
 
-                    <p className=" mt-3">
-                      {!isMobile && (
-                        <Link
-                          href={'/home-challenge'}
-                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                          // data-wow-delay="400ms"
-                          // style={{
-                          //   visibility: 'visible',
-                          //   animationDelay: '400ms',
-                          //   animationName: 'fadeInUp',
-                          //   height: '3.5rem',
-                          // }}
-                        >
-                          <span className="small">Free Offer </span>
-                        </Link>
-                      )}
-
-                      {isMobile && (
-                        <a
-                          href={'/freeOffer'}
-                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                          // data-wow-delay="400ms"
-                          // style={{
-                          //   visibility: 'visible',
-                          //   animationDelay: '400ms',
-                          //   animationName: 'fadeInUp',
-                          //   height: '3.5rem',
-                          // }}
-                        >
-                          <span className="small">
-                            Free Offer{' '}
-                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                          </span>
-                        </a>
-                      )}
-                    </p>
+                    
                   </div>
                 </div>
                 <div className="d-flex about-text mb-1-9">
@@ -396,89 +374,19 @@ export default function Home({
             />
           </div>
         </div>
-        <hr className="mb-6 " />
-
-        {/* How to install */}
-        <div>
-        <h5 className=" mb-1" >
-           How to build your own device within 3 minutes to immediately sense
-           what&apos;s going on.
-           </h5>
-                
-            <strong className=" mb-1">
-              Grab & plug your Triple (S, M & A) e.g. from your drawer or
-              go shopping
-              </strong>
         </div>
-          
-            <div className="col-lg-4 wow fadeIn  ">
-              
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Install/Slide1.png"
-                className="mt-1-6 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-              <strong>1. Make Your Triple</strong>
             </div>
 
-            
-            <div className="col-lg-4 wow fadeIn  ">
-             
-
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Install/Slide2.png"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-               <strong>2. Install one of the various prepared applications to your tripple</strong>
-            </div>
-
-            <div className="col-lg-4 mb-6 wow fadeIn ">
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Install/Slide3.png"
-                className="mt-1-9 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-              <strong>3. Enclose and place in your home</strong>
-              
-            </div>
+        <hr className='mb-6' />
                     
           
-            </div>
-            </div>
-        
-      
-
-        <div>
+          <div>
         <h5 className=" mb-3">
           Providing 16 Smart Home Applications in four EcoSystems
         </h5>
         </div>
         
-        <div className="row">
+        <div className="row mb-6">
           <div className="col-md-3">
           <div
                   className="e-card"
@@ -608,16 +516,31 @@ export default function Home({
             
           </div>
         </div>
+        <div className="col-lg-12 mt-n1-9 mb-2">
+              <video
+                src="/img/content/sq-power/sq-power.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '400',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div> 
           </section>
 
-      <section
+      {/* <section
         className={`thirdCallToAction jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
         style={{
           backgroundImage: `url(${secondaryBgImage})`,
         }}
         data-jarallax
         data-speed="0.8"
-      ></section>
+      ></section> */}
     </>
   );
 }
