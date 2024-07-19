@@ -87,7 +87,7 @@ export default function Home({
       <div className=" row "> 
       
       <div className="col-md-8 mb-6"> 
-      <h5>SQ-Panel</h5>
+      <h5>SQ-Panel now on Kickstarter</h5>
       <p>The SQ-Panel has built-in sensors for measuring air quality, temperature, humidity, pressure, carbon dioxide, TVOC and presence. 
       The SQ-Panel connects to the Carenuity cloud via the Carenuity Border Router, which acts as a gateway between 
         your home network and the internet. This enables you to monitor the sensor values and define their threshold values from anywhere, 
@@ -159,182 +159,14 @@ export default function Home({
           
             <hr className="mb-6 " />  
 
-            <div className="mb-4 ">
-        <h5 className=" mb-1" >
-           How to build your own device within 3 minutes to immediately sense
-           what&apos;s going on.
-           </h5>
-                
-            <strong className=" mb-1">
-              Grab & plug your Triple (S, M & A) e.g. from your drawer or
-              go shopping
-              </strong>
-        </div>
-                
-                   {/* Getting started */}
-                   <div className="col-lg-8 mb-4 wow fadeIn">
-              <div className="pe-lg-1-9">
-                <div className="d-flex about-text mb-1-9">
-                  <div className="flex-shrink-0">
-                    <i className="fa-solid fa-microchip"></i>
-                  </div>
-                  <div className="flex-grow-1 ms-3">
-                      
-                    <h4 className="h5">Get your hardware at hand</h4>
-                    <p>
-                    As all these boards are super popular, we assume you have them at your hand. 
-                    If not, checkout our free offer below or refill your drawers. You will find all parts 
-                    in dedicated assortment boxes or buy any individual part, e.g. spare parts from our store. 
-                    Here is a {' '}
-                      <a
-                        href="https://www.chipglobe.shop/en/"
-                        className="text-success"
-                      >
-                        recommended link
-                      </a>{' '}
-                      to re-fill your drawer.
-                    </p>
-
-                    
-                  </div>
-                </div>
-                <div className="d-flex about-text mb-1-9">
-                  <div className="flex-shrink-0">
-                    <i className="fa-solid fa-laptop-code"></i>
-                  </div>
-                  <div className="flex-grow-1 ms-3">
-                    <h4 className="h5">Install the desired software</h4>
-                    <p className="mb-0">
-                    For building your own device within 3 minutes, you can select from a wide range of 
-                    sensors to build your own device, e.g. a Barometer, Hygrometer, Thermometer, Luxmeter, 
-                    IR Radiometer, Motion Detector or a Presence Button. Simply use the
-                    {' '}
-                      <a
-                        href="https://chipglobe-dev.web.app/cloudfree"
-                        className="text-success"
-                      >
-                        Install-For-Free App
-                      </a>{' '}
-                      directly from browser to seamlessly transition between the different types
-                     of devices. No software install on your PC is required. Whether you&apos;re tracking 
-                     atmospheric changes of the weather, monitoring moisture levels downstairs, 
-                     or detecting motion at your entrance, the possibilities are endless.
-
-                     <p className=" mt-3">
-                      {!isMobile && (
-                        <Link
-                          href={'/sensors'}
-                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                          // data-wow-delay="400ms"
-                          // style={{
-                          //   visibility: 'visible',
-                          //   animationDelay: '400ms',
-                          //   animationName: 'fadeInUp',
-                          //   height: '3.5rem',
-                          // }}
-                        >
-                          <span className="small">Select Sensor </span>
-                        </Link>
-                      )}
-
-                      {isMobile && (
-                        <a
-                          href={'/sensors'}
-                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                          // data-wow-delay="400ms"
-                          // style={{
-                          //   visibility: 'visible',
-                          //   animationDelay: '400ms',
-                          //   animationName: 'fadeInUp',
-                          //   height: '3.5rem',
-                          // }}
-                        >
-                          <span className="small">
-                            Select Sensor{' '}
-                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                          </span>
-                        </a>
-                      )}
-                    </p> 
-
-                      
-                    </p>
-                  </div>
-                </div>
-                <div className="d-flex about-text">
-                  <div className="flex-shrink-0">
-                    <i className="fa-solid fa-briefcase"></i>
-                  </div>
-                  <div className="flex-grow-1 ms-3">
-                    <h4 className="h5">
-                      Housing your device, e.g. by an card board enclosure
-                    </h4>
-                    <p>
-                    Discover the joy of perfect customization and unlock your creative 
-                    potential e.g. in housing the electronics you have built, to give 
-                    them to your beloved. You can do this in various ways, e.g. by a 
-                    handmade card paper enclosure or a 3D-print. Don&apos;t miss out to the
-                    {' '}
-                      <a 
-                      href="https://www.chipglobe.shop/c/zubehoer/3d-print-for-makers"
-                      className="text-success"
-                      >
-                        printed ones from our store
-                      </a>{' '}
-                      or challenge our community of 3D-design artists, who will realize the 
-                      3D-print as you specify.
-                      .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 wow fadeIn text-white"
-              data-wow-delay="400ms"
-              style={{
-                visibility: 'visible',
-                animationDelay: '400ms',
-                animationName: 'fadeIn',
-              }}
-            >
-
-
-              
-              <div className="ps-lg-2-9 position-relative text-center text-sm-start">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/micro-controler.webp"
-                  alt="Micro-controller"
-                  className="d-sm-none d-inline-block"
-                />
-                <div className="about-img d-none d-sm-block">
-                  <p
-                    className="px-4 py-3 text-align-justify bg-success pb-4"
-                    style={{ textAlign: 'justify' }}
-                  >
-                    For your orientation, we have simplified the stacking by
-                    these letters S, M and A onto the Triple-Adapter. This makes
-                    it as simple as possible to attach the three boards. Follow
-                    the respective illustrations for building your own device.
-                  </p>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/micro-controler.webp"
-                    className="img-fluid"
-                    alt="Micro-controller"
-                    style={{ width: '100%' }}
-                  />
-                  
-                </div>
-                </div>
-                </div>
+     
 
       
        {/* sensors */}
        <div className=" mb-4">
-          <h5  >We have <strong>28</strong> sensors, <strong>5</strong> Microcontrollers <strong>12</strong> Actuators that you can use to get upto <strong>1500</strong> solutions</h5>
+        <h4> Discover our sustainability secret: S-M-A can also
+                make your business smart, by Green Modularity 
+        </h4>
         </div>
        
 
@@ -377,145 +209,47 @@ export default function Home({
         </div>
             </div>
 
-        <hr className='mb-6' />
-                    
-          
-          <div>
-        <h5 className=" mb-3">
-          Providing 16 Smart Home Applications in four EcoSystems
-        </h5>
-        </div>
+
+
         
-        <div className="row mb-6">
-          <div className="col-md-3">
-          <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '550px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/ecosystems/EcoSystem_CloudFree.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '320px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                  
-                  
-           
-            <p style={{ padding: '10px' }}>
-              <h6>Cloudfree</h6>
-              The most secure and simple device does not relate to the internet at all. 
-              You install it and it just works. This device category is the best, if you do 
-              not need features besides the major task of sensing something.</p>
-          </div>
-          </div>
-
-          <div className="col-md-3">
-
-          <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '550px',
-                  }}
-                >
-                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/ecosystems/EcoSystem_HomeAssistant.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '320px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-              <p style={{ padding: '10px' }}>
-              <h6>Home Assistant</h6>
-              Home Assistant specifies in detail, which actions is to be taken, 
-              if a device senses a certain situation. HA is currently the 
-              worlds most popular environment for smart home devices.</p>
-            
-          </div>
-          </div>
-          <div className="col-md-3">
-
-          <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '550px',
-                  }}
-                >
-                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/ecosystems/EcoSystem_IoT-AppStore.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '320px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-              <p style={{ padding: '10px' }}>
-              <h6>IoT AppStore</h6>
-              If you have the idea of more devices, which you want to jointly orchester 
-              by updates over the air, possibly at remote locations (e.g. at your parents home)
-              the IoT solution is your first choice. </p>
-            
-          </div>
-           
-          </div>
-          <div className="col-md-3">
-
-          <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '550px',
-                  }}
-                >
-                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/ecosystems/EcoSystem_Matter.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '320px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-              <p style={{ padding: '10px' }}>
-              <h6>Matter</h6>
-              Matter allows you to integrate your sensor device with up to five of the most 
-              popular platforms at once, such as Amazon&apos;s Alexa, Apple&apos;s Home, 
-              Google Home, Samsung&apos;s SmartThings, or Home Assistant (HA). 
-              </p>
-            
-          </div>
-            
-          </div>
+       <div className=" mb-4">
+        <h4> 
+          Unlock your success with our smart modular approach today!
+        </h4>
+        
         </div>
+        <div className=" mb-6">
+        <p>Matter allows you to integrate your sensor device with up to five of the most 
+          popular platforms at once, such as Amazon's Alexa, 
+          Apple's Home, Google Home, Samsung's SmartThings, or Home Assistant (HA).</p>           
+          </div> 
+
+          <div className=" mt-n1-9 mb-2">
+
+          <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '500px',
+                    padding: '20px'
+                  }}
+                >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+                    src="/img/content/home/Matter.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                    width: '1920px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+          </div>
+          </div>
+        
         <div className="col-lg-12 mt-n1-9 mb-2">
               <video
                 src="/img/content/sq-power/sq-power.mp4"
