@@ -64,11 +64,11 @@ const Page = () => {
               
             <h6>Italian eBay-Shop</h6>
             <a
-                        href="https://www.ebay.it/sch/i.html"
+                        href="https://www.ebay.it/itm/315504989636"
                        
                         
                       >
-                        <p className="text-success">https://www.ebay.it/sch/i.html</p>
+                        <p className="text-success">https://www.ebay.it/itm/315504989636</p>
                       </a>
               
               </p>

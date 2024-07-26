@@ -82,13 +82,14 @@ export default function Home({
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '250px',
+                   
+                    maxHeight:'800px',
                     padding: '20px'
                   }}
                 >
       <div className=" row "> 
       
-      <div className="col-md-8 mb-6"> 
+      <div className="col-md-8 "> 
       <h5>SQ-Panel now on Kickstarter</h5>
       <p>The SQ-Panel has built-in sensors for measuring air quality, temperature, humidity, pressure, carbon dioxide, TVOC and presence. 
       The SQ-Panel connects to the Carenuity cloud via the Carenuity Border Router, which acts as a gateway between 
@@ -96,24 +97,11 @@ export default function Home({
         using the Carenuity Home app on your smartphone.</p> 
       <p></p>
       
-     {/* <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
-
-<div className=" mb-6">
-      {!isMobile && (
-                        <Link
-                          href={'/sq-panel'}
-                          className={'btn btn-lg btn-success rounded-pill'} 
-                          
-                   
-                        >
-                          <span className="small">Learn more  </span>
-                        </Link>
-                      )}
-      </div> */}
+     
       </div>
    
 
-<div className="col-lg-4 mt-n1-9 mb-2">
+<div className="col-lg-4 mt-n1-9 ">
               <video
                 src="/videos/content/SQ-Panel_on_TableStand.mp4"
                 loop={true}
@@ -139,51 +127,84 @@ export default function Home({
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '450px',
-                    padding: '20px'
+                  maxHeight:'800px',
+                    padding: '20px',
+                  
+
                   }}
                 >
       <div className=" row "> 
 
-      <div className="col-md-4 mb-6">
+      <div className="col-md-4 "
+       style={{
+          
+        alignContent: 'center',
+        
+      }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-                    src="/img/content/case/case5.png"
+                    src="/img/content/case/children01.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
                     style={{
                       visibility: 'visible',
                       animationDelay: '100ms',
+                  
                       animationName: 'fadeIn',
                     }}
                   /></div>
       
-      <div className="col-md-8 mb-6"> 
+      <div className="col-md-8 "> 
       <h5>Why choose SQ-Panel </h5>
       <p> SQ-Panel can be connected to your mobile phone with careniuty app 
         which lets you monitor SQ-Panel sensor values from anywhere and get notification incase the values changes
         It also has a sensor that detects human presence in the room. Once you activate your alarm you will be 
-        able to get an alert when a person is detected.</p> 
+        able to get an alert when a person is detected.These are few resons why SQ-Panel is impotant. Click on learn more and learn the 11 use cases we have
+        on SQ-Panel</p> 
      
-        <p>These are few resons why SQ-Panel is impotant. Click on learn more and learn the 11 use cases we have
-           on SQ-Panel
-        </p>
-      
-     <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
+        
+        <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
 
-<div className=" mb-6">
-      {!isMobile && (
+        <p className=" ">
+                      {!isMobile && (
                         <Link
                           href={'/sq-panel'}
-                          className={'btn btn-lg btn-success rounded-pill'} 
-                          
-                   
+                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                          // data-wow-delay="400ms"
+                          // style={{
+                          //   visibility: 'visible',
+                          //   animationDelay: '400ms',
+                          //   animationName: 'fadeInUp',
+                          //   height: '3.5rem',
+                          // }}
                         >
-                          <span className="small">Learn more  </span>
+                          <span className="small">Learn More </span>
                         </Link>
                       )}
-      </div>
+
+                      {isMobile && (
+                        <a
+                          href={'/sq-panel'}
+                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                          // data-wow-delay="400ms"
+                          // style={{
+                          //   visibility: 'visible',
+                          //   animationDelay: '400ms',
+                          //   animationName: 'fadeInUp',
+                          //   height: '3.5rem',
+                          // }}
+                        >
+                          <span className="small">
+                            Learn More{' '}
+                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                          </span>
+                        </a>
+                      )}
+                    </p> 
+      
+
+
       </div>
   
     
@@ -194,7 +215,7 @@ export default function Home({
         
       
         
-      <div className="col-lg-9 mt-n1-9 mb-2">
+      <div className="col-lg-9 mt-n1-9 ">
               <video
                 src="/videos/content/Sq-Panel.mp4"
                 loop={true}
@@ -209,7 +230,7 @@ export default function Home({
                 }}
               />
             </div> 
-            <div className="col-md-3 mb-2"
+            <div className="col-md-3 "
         style={{
           
           alignContent: 'center',
@@ -219,8 +240,10 @@ export default function Home({
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '200px',
+                    maxHeight:'800px',
                     alignContent: 'center',
+                    backgroundColor:'#3d8346',
+                    color:'#FFFFFF',
                     padding: '20px'
                   }}
                 >
@@ -242,11 +265,13 @@ export default function Home({
           
         }}>
         <div
-                  className="e-card mb-6"
+                  className="e-card "
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '200px',
+                    maxHeight:'800px',
                     alignContent: 'center',
+                    backgroundColor:'#3d8346',
+                    color:'#FFFFFF',
                     padding: '20px'
                   }}
                 >
@@ -254,7 +279,7 @@ export default function Home({
           aesthetics for their are no cables required</p>
         
                   </div> </div>
-     <div className="col-lg-9 mt-n1-9 mb-2">
+     <div className="col-lg-9 mt-n1-9 ">
               <video
                 src="/img/content/sq-power/sq-power.mp4"
                 loop={true}
@@ -269,10 +294,13 @@ export default function Home({
                 }}
               />
             </div> </div></div> 
-            
+          
 
             <div className='row mb-1'>
-            <h6>Some images showing the flash mount and the table stand SQ-Panel</h6>
+            <h4>Some images showing the flash mount and the table stand SQ-Panel</h4>
+            <p> Get one and improve the air quality, comfort in your home and breathe healthy air.
+            It will also connect you with your loved ones and know that they are safe and well 
+            ventilated even from a distance.</p>
             <div className="col-md-6 mb-6">
         {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
@@ -336,7 +364,7 @@ export default function Home({
           </div>
           <div className="col-lg-12 mt-n1-9 mb-2">
               <video
-                src="/videos/content/Sq-Panel.mp4"
+                src="/videos/content/Sq-Panel2.mp4"
                 loop={true}
                 autoPlay={true}
                 className="mt-1-9 wow fadeInUp w-100"
