@@ -301,7 +301,8 @@ export default function Home({
             <p> Get one and improve the air quality, comfort in your home and breathe healthy air.
             It will also connect you with your loved ones and know that they are safe and well 
             ventilated even from a distance.</p>
-            <div className="col-md-6 mb-6">
+
+            <div className="col-md-6 mb-5">
         {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
                     src="/img/content/case/cv.png"
@@ -314,8 +315,11 @@ export default function Home({
                       
                       animationName: 'fadeIn',
                     }}
-                  /></div>
-                  <div className="col-md-6 mb-6">
+                  />
+                   
+                  </div>
+
+                  <div className="col-md-6 mb-5">
         {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
                     src="/img/content/case/case6.png"
@@ -328,9 +332,11 @@ export default function Home({
                     
                       animationName: 'fadeIn',
                     }}
-                  /></div>
+                  />
+                  
+                  </div>
      </div>
- < hr className=" mb-6" />
+ < hr className=" mb-3" />
           <div className=" mb-2">
           <div className=" mb-2">
         <p>Matter allows you to integrate your sensor device with up to five of the most 
