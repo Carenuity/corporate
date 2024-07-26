@@ -75,12 +75,14 @@ export default function Home({
       
 
       <section className="container">
+
+      
         
       <div
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '350px',
+                    height: '250px',
                     padding: '20px'
                   }}
                 >
@@ -94,7 +96,7 @@ export default function Home({
         using the Carenuity Home app on your smartphone.</p> 
       <p></p>
       
-     <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
+     {/* <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
 
 <div className=" mb-6">
       {!isMobile && (
@@ -107,7 +109,7 @@ export default function Home({
                           <span className="small">Learn more  </span>
                         </Link>
                       )}
-      </div>
+      </div> */}
       </div>
    
 
@@ -130,7 +132,69 @@ export default function Home({
       </div>
       </div>
 
-      <div className="col-lg-12 mt-n1-9 mb-2">
+      
+
+
+            <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '450px',
+                    padding: '20px'
+                  }}
+                >
+      <div className=" row "> 
+
+      <div className="col-md-4 mb-6">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+                    src="/img/content/case/case5.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  /></div>
+      
+      <div className="col-md-8 mb-6"> 
+      <h5>Why choose SQ-Panel </h5>
+      <p> SQ-Panel can be connected to your mobile phone with careniuty app 
+        which lets you monitor SQ-Panel sensor values from anywhere and get notification incase the values changes
+        It also has a sensor that detects human presence in the room. Once you activate your alarm you will be 
+        able to get an alert when a person is detected.</p> 
+     
+        <p>These are few resons why SQ-Panel is impotant. Click on learn more and learn the 11 use cases we have
+           on SQ-Panel
+        </p>
+      
+     <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
+
+<div className=" mb-6">
+      {!isMobile && (
+                        <Link
+                          href={'/sq-panel'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                          
+                   
+                        >
+                          <span className="small">Learn more  </span>
+                        </Link>
+                      )}
+      </div>
+      </div>
+  
+    
+      </div>
+      </div>
+
+      <div className='row mb-4'>
+        
+      
+        
+      <div className="col-lg-9 mt-n1-9 mb-2">
               <video
                 src="/videos/content/Sq-Panel.mp4"
                 loop={true}
@@ -145,86 +209,106 @@ export default function Home({
                 }}
               />
             </div> 
-     
-        <div className="container position-relative z-index-3">
-          <div className="row align-items-center about-style-03 mb-4">
-
-
-
-        <hr className="mb-6 " />
-
-
-           <h4 className="mb-6 ">Dreaming of owning your own business? 
-            Why not take the leap and start building it with Carenuity S-M-A?</h4> 
+            <div className="col-md-3 mb-2"
+        style={{
           
-            <hr className="mb-6 " />  
+          alignContent: 'center',
+          
+        }}>
+        <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '200px',
+                    alignContent: 'center',
+                    padding: '20px'
+                  }}
+                >
+        <p>The SQ-Panel is a portable device with a 2.6-inch touchscreen which be 
+        can place on a table or on a flat base</p>
+        
+                  </div> </div>
+           
+      </div>
 
-     
-
+      < hr className=" mb-6" />
+<div className=" mb-6">
+     <div className='row mb-1'>
       
-       {/* sensors */}
-       <div className=" mb-4">
-        <h4> Discover our sustainability secret: S-M-A can also
-                make your business smart, by Green Modularity 
-        </h4>
-        </div>
-       
-
-        <div className="row mb-6">
-          {/* hstack justify-content-center align-items-center gap-2 */}
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount 
-              count={28} 
-              label="Sensors" 
-              bgColor="#3d8346" />
-            
-          </div>
-
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount
-              count={5}
-              label="Microcontrollers"
-              bgColor="#493356"
-            />
-            
-          </div>
-
-          <div className="col-md-3 d-flex">
-            <IoTComponentsCount
-              count={12}
-              label="Actuators"
-              bgColor="#065988"
-            />
+<div className="col-md-3 mb-2"
+        style={{
           
-          </div>
-
-          <div className="col-md-3">
-            <IoTComponentsCount
-              count={1500}
-              label="Solutions"
-              bgColor="#275b37"
-            />
-          </div>
-        </div>
-        </div>
-            </div>
-
-
-
+          alignContent: 'center',
+          
+        }}>
+        <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '200px',
+                    alignContent: 'center',
+                    padding: '20px'
+                  }}
+                >
+        <p>You can also get a flash mount to the wall which will help you to maintain your house 
+          aesthetics for their are no cables required</p>
         
-       <div className=" mb-4">
-        <h4> 
-          Unlock your success with our smart modular approach today!
-        </h4>
-        
-        </div>
-        <div className=" mb-6">
+                  </div> </div>
+     <div className="col-lg-9 mt-n1-9 mb-2">
+              <video
+                src="/img/content/sq-power/sq-power.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '400',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div> </div></div> 
+            
+
+            <div className='row mb-1'>
+            <h6>Some images showing the flash mount and the table stand SQ-Panel</h6>
+            <div className="col-md-6 mb-6">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+                    src="/img/content/case/cv.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      
+                      animationName: 'fadeIn',
+                    }}
+                  /></div>
+                  <div className="col-md-6 mb-6">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+                    src="/img/content/case/case6.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                    
+                      animationName: 'fadeIn',
+                    }}
+                  /></div>
+     </div>
+ < hr className=" mb-6" />
+          <div className=" mb-2">
+          <div className=" mb-2">
         <p>Matter allows you to integrate your sensor device with up to five of the most 
           popular platforms at once, such as Amazon's Alexa, 
           Apple's Home, Google Home, Samsung's SmartThings, or Home Assistant (HA).</p>           
           </div> 
-
-          <div className=" mt-n1-9 mb-2">
 
           <div
                   className="e-card mb-6"
@@ -248,11 +332,11 @@ export default function Home({
                     }}
                   />
           </div>
+          
           </div>
-        
-        <div className="col-lg-12 mt-n1-9 mb-2">
+          <div className="col-lg-12 mt-n1-9 mb-2">
               <video
-                src="/img/content/sq-power/sq-power.mp4"
+                src="/videos/content/Sq-Panel.mp4"
                 loop={true}
                 autoPlay={true}
                 className="mt-1-9 wow fadeInUp w-100"
@@ -265,6 +349,8 @@ export default function Home({
                 }}
               />
             </div> 
+        
+        
           </section>
 
       {/* <section

@@ -29,6 +29,11 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
+          
+        <h4 className="mb-6 ">Dreaming of owning your own business? 
+            Why not take the leap and start building it with Carenuity S-M-A?</h4> 
+          
+            <hr className="mb-6 " />  
             <h4>Sales Partners</h4>
         <div className="row">
           <div className="col-md-4 mb-4">

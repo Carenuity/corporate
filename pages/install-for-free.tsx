@@ -1,6 +1,7 @@
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import Link from 'next/link';
+import IoTComponentsCount from '../components/IoTComponentsCount';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Install For Free';
@@ -441,6 +442,57 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             
           </div>
         </div>
+
+        <div className=" mb-4">
+        <h4> Discover our sustainability secret: S-M-A can also
+                make your business smart, by Green Modularity 
+        </h4>
+        </div>
+       
+
+        <div className="row mb-6">
+          {/* hstack justify-content-center align-items-center gap-2 */}
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount 
+              count={28} 
+              label="Sensors" 
+              bgColor="#3d8346" />
+            
+          </div>
+
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount
+              count={5}
+              label="Microcontrollers"
+              bgColor="#493356"
+            />
+            
+          </div>
+
+          <div className="col-md-3 d-flex">
+            <IoTComponentsCount
+              count={12}
+              label="Actuators"
+              bgColor="#065988"
+            />
+          
+          </div>
+
+          <div className="col-md-3">
+            <IoTComponentsCount
+              count={1500}
+              label="Solutions"
+              bgColor="#275b37"
+            />
+          </div>
+        </div>
+        <div className=" mb-4">
+        <h4> 
+          Unlock your success with our smart modular approach today!
+        </h4>
+        
+        </div>
+
       </div>
      </section>
     </>
