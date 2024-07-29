@@ -157,11 +157,11 @@ export default function Home({
       
       <div className="col-md-8 "> 
       <h5>Why choose SQ-Panel </h5>
-      <p> SQ-Panel can be connected to your mobile phone with careniuty app 
-        which lets you monitor SQ-Panel sensor values from anywhere and get notification incase the values changes
+      <p> The SQ-Panel comes with a smartphone app which 
+        lets you monitor SQ-Panel sensor values from anywhere and get notification incase the values change.
         It also has a sensor that detects human presence in the room. Once you activate your alarm you will be 
-        able to get an alert when a person is detected.These are few resons why SQ-Panel is impotant. Click on learn more and learn the 11 use cases we have
-        on SQ-Panel</p> 
+        able to get an alert when a person is detected.These are few reasons why SQ-Panel is beneficial. Click on learn more and learn the 11 use cases you get
+       by the SQ-Panel</p> 
      
         
         <p><strong >We provide 24/7 vital, environmental sensing & care, so that you can see what no one else will see.</strong></p>
@@ -215,9 +215,9 @@ export default function Home({
         
       
         
-      <div className="col-lg-9 mt-n1-9 ">
+      <div className="col-lg-12 mt-n1-9 ">
               <video
-                src="/videos/content/Sq-Panel.mp4"
+                src="/videos/content/Sq-Panelv.mp4"
                 loop={true}
                 autoPlay={true}
                 className="mt-1-9 wow fadeInUp w-100"
@@ -230,58 +230,15 @@ export default function Home({
                 }}
               />
             </div> 
-            <div className="col-md-3 "
-        style={{
-          
-          alignContent: 'center',
-          
-        }}>
-        <div
-                  className="e-card mb-6"
-                  style={{
-                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    maxHeight:'800px',
-                    alignContent: 'center',
-                    backgroundColor:'#3d8346',
-                    color:'#FFFFFF',
-                    padding: '20px'
-                  }}
-                >
-        <p>The SQ-Panel is a portable device with a 2.6-inch touchscreen which be 
-        can place on a table or on a flat base</p>
-        
-                  </div> </div>
+            
            
       </div>
 
-      < hr className=" mb-6" />
-<div className=" mb-6">
-     <div className='row mb-1'>
-      
-<div className="col-md-3 mb-2"
-        style={{
-          
-          alignContent: 'center',
-          
-        }}>
-        <div
-                  className="e-card "
-                  style={{
-                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    maxHeight:'800px',
-                    alignContent: 'center',
-                    backgroundColor:'#3d8346',
-                    color:'#FFFFFF',
-                    padding: '20px'
-                  }}
-                >
-        <p>You can also get a flash mount to the wall which will help you to maintain your house 
-          aesthetics for their are no cables required</p>
-        
-                  </div> </div>
-     <div className="col-lg-9 mt-n1-9 ">
+     
+
+     <div className="col-lg-12 mt-n1-9 mb-6 ">
               <video
-                src="/img/content/sq-power/sq-power.mp4"
+                src="/videos/content/sq-power01.mp4"
                 loop={true}
                 autoPlay={true}
                 className="mt-1-9 wow fadeInUp w-100"
@@ -293,8 +250,8 @@ export default function Home({
                   animationName: 'fadeIn',
                 }}
               />
-            </div> </div></div> 
-          
+            </div> 
+            {/* < hr className=" mb-6" />   */}
 
             <div className='row mb-1'>
             <h4>Some images showing the flash mount and the table stand SQ-Panel</h4>
@@ -305,7 +262,7 @@ export default function Home({
             <div className="col-md-6 mb-5">
         {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-                    src="/img/content/case/cv.png"
+                    src="/img/content/case/home.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -348,7 +305,7 @@ export default function Home({
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '500px',
+                    maxHeight:'800px',
                     padding: '20px'
                   }}
                 >
