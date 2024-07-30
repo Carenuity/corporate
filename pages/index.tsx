@@ -120,7 +120,78 @@ export default function Home({
       </div>
       </div>
 
-      
+      <div className='row'>
+      <div className="col-md-6 mb-2">
+      <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                  maxHeight:'800px',
+                
+
+                  }}
+                >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+                    src="/img/content/case/SQ-Panel_Quote_Patricia.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <p style={{
+                      padding: '10px'
+                      
+                    }}>
+                      I support the Carenuity SQ-Panel for its impressive features. 
+                    The air quality monitoring, real-time alerts, and remote access 
+                    via the app are essential for keeping my family healthy. The historical 
+                    data and insights help me ensure our living environment is safe and comfortable. 
+                    It&apos;s a smart choice for anyone who values home wellness.</p>
+                   
+                  </div></div>
+
+                  <div className="col-md-6 ">
+                  <div
+                  className="e-card"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                  maxHeight:'800px',
+                 
+                  
+
+                  }}
+                >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+                    src="/img/content/case/SQ-Panel_Quote_Patric.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <p style={{
+                      padding: '10px'
+                      
+                    }}>
+                    I back the Carenuity SQ-Panel for its top-notch features. 
+                    The comprehensive air quality monitoring, real-time alerts, 
+                    and remote access via the app help me maintain a healthy home for
+                     my family. The historical data and insights are a bonus, making it
+                      a smart investment for anyone serious about home comfort and safety.</p>
+                   
+                  </div>
+      </div></div>
 
 
             <div
@@ -211,11 +282,8 @@ export default function Home({
       </div>
       </div>
 
-      <div className='row mb-4'>
-        
       
-        
-      <div className="col-lg-12 mt-n1-9 ">
+      <div className=" mt-n1-9 ">
               <video
                 src="/videos/content/Sq-Panelv.mp4"
                 loop={true}
@@ -230,13 +298,8 @@ export default function Home({
                 }}
               />
             </div> 
-            
-           
-      </div>
-
-     
-
-     <div className="col-lg-12 mt-n1-9 mb-6 ">
+      
+     <div className=" mt-n1-9 mb-6 ">
               <video
                 src="/videos/content/sq-power01.mp4"
                 loop={true}
