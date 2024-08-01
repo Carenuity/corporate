@@ -390,6 +390,22 @@ export default function Home({
           </div>
           <div className="col-lg-12 mt-n1-9 mb-2">
               <video
+                src="/videos/content/Das-SQ-Panel.mp4"
+                loop={true}
+                autoPlay={true}
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '400',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div> 
+
+            <div className="col-lg-12 mt-n1-9 mb-2">
+              <video
                 src="/videos/content/Sq-Panel2.mp4"
                 loop={true}
                 autoPlay={true}
