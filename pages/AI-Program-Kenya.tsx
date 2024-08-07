@@ -1,6 +1,7 @@
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 
+// eslint-disable-next-line no-unused-vars
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'University Program for AI - Kenya ​';
   const boardImage = 'https://vemaps.com/uploads/img/large/ke-03.jpg';

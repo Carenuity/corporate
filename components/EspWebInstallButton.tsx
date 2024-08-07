@@ -4,7 +4,9 @@ import React from 'react';
 // import 'esp-web-tools/dist/web/install-button';
 
 declare global {
+  // eslint-disable-next-line no-unused-vars
   namespace JSX {
+    // eslint-disable-next-line no-unused-vars
     interface IntrinsicElements {
       'esp-web-install-button': any;
     }

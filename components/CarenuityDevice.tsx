@@ -1,5 +1,4 @@
 import React from 'react';
-import EspWebInstallButton from './EspWebInstallButton';
 
 const CarenuityDevice = ({
   name: { short, long },

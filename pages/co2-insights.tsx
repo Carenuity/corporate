@@ -1,12 +1,8 @@
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
-import ModuleImage from '../components/ModuleImage';
-import { useRouter } from 'next/router';
 
 const Sensors = ({ isMobile }: { isMobile: boolean }) => {
-  const router = useRouter();
-  const query = router.query;
   const pageTitle = 'CO2 Measurement Methods';
 
   return (

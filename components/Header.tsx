@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { useContext } from 'react';
 import Menu from './Menu';
 import { StoreContext } from './context/Store';
+import { Overpass } from '@next/font/google';
+
+const overpass = Overpass({ subsets: ['latin'], weight: ['100', '200'] });
 
 const Header = ({
   classNames,
@@ -21,7 +24,7 @@ const Header = ({
     <>
       {/* <!-- HEADER
         ================================================== --> */}
-      <header className={classNames[0]}>
+      <header className={`${classNames[0]} ${overpass.className}`}>
         <div className="navbar-default border-bottom border-color-light-white">
           {/* <!-- start top search --> */}
           {/* <TopSearch /> */}

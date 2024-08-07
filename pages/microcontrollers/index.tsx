@@ -1,7 +1,5 @@
 import Head from 'next/head';
-import { useContext } from 'react';
 import PageTitle from '../../components/PageTitle';
-import { StoreContext } from '../../components/context/Store';
 import ModuleImage from '../../components/ModuleImage';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -56,10 +54,11 @@ const Microcontrollers = () => {
   );
 };
 
+// eslint-disable-next-line no-unused-vars
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Select what you have';
-  const boardImage = '/img/content/selection-of-microcontroller-platform.webp';
-  const { state } = useContext(StoreContext);
+  // const boardImage = '/img/content/selection-of-microcontroller-platform.webp';
+  // const { state } = useContext(StoreContext);
 
   return (
     <>

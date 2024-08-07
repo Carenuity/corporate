@@ -148,7 +148,7 @@ const Menu = ({
                       className="ms-3"
                       href={service.url}
                       style={
-                        !!!service.url
+                        !service.url
                           ? {
                               pointerEvents: 'none',
                               color: 'grey',
@@ -182,7 +182,7 @@ const Menu = ({
                         className="ms-3"
                         href={service.url}
                         style={
-                          !!!service.url
+                          !service.url
                             ? {
                                 pointerEvents: 'none',
                                 color: 'grey',
@@ -200,7 +200,7 @@ const Menu = ({
                         className="ms-3"
                         href={service.url}
                         style={
-                          !!!service.url
+                          !service.url
                             ? {
                                 pointerEvents: 'none',
                                 color: 'grey',

@@ -90,6 +90,7 @@ export const getStaticProps: GetStaticProps = async (
 };
 
 export const getStaticPaths: GetStaticPaths = async (
+  // eslint-disable-next-line no-unused-vars
   context: GetStaticPathsContext
 ) => {
   const microcontrollerIds = Object.keys(microcontrollers);

@@ -7,6 +7,7 @@ import { LanguageSwitchProvider } from '../components/context/LanguageSwitch';
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 declare global {
+  // eslint-disable-next-line no-unused-vars
   interface Window {
     $: any;
     jQuery: any;
@@ -16,7 +17,7 @@ declare global {
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    if (typeof document !== undefined) {
+    if (document !== undefined) {
       window.$ = window.jQuery = require('jquery');
       // require('../utils/js/popper.min.js');
       require('../utils/js/bootstrap.min.js');

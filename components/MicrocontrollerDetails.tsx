@@ -3,7 +3,6 @@ import { StoreContext } from './context/Store';
 
 const MicrocontrollerDetails = ({
   name,
-  id,
   description,
   imageUrl,
   imageHighlight,

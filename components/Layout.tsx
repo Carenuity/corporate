@@ -11,6 +11,11 @@ import Header from './Header';
 import VideoPopUp from './VideoPopUp';
 import { StoreContext } from './context/Store';
 import { handleMediaQueryChanges } from '../utils/common';
+import Head from 'next/head';
+import { Overpass } from '@next/font/google';
+
+// const inter = Inter({ subsets: ['latin'] });
+const overpass = Overpass({ subsets: ['latin'], weight: ['100', '200'] });
 
 const Layout = ({ children }: { children: any }) => {
   const { state } = useContext(StoreContext);
@@ -32,6 +37,24 @@ const Layout = ({ children }: { children: any }) => {
 
   return (
     <>
+      <Head>
+        {/* metas */}
+        <meta charSet="utf-8" />
+        <meta
+          name="author"
+          content={'https://www.linkedin.com/in/paul-otieno-software-engineer/'}
+        />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta name="theme-color" content="#010101" />
+        <meta
+          name="p:domain_verify"
+          content="29dbf3f18f2a145ddd0e32d0823c949e"
+        />
+      </Head>
       {/* <!-- PAGE LOADING
     ================================================== --> */}
       <div id="preloader"></div>
@@ -53,7 +76,7 @@ const Layout = ({ children }: { children: any }) => {
 
       {/* <!-- MAIN WRAPPER
     ================================================== --> */}
-      <div className="main-wrapper">
+      <div className={`main-wrapper ${overpass.className}`}>
         {Children.map(children, (child) => {
           const props = child.props;
           if (isValidElement(child)) {

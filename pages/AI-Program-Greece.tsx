@@ -1,6 +1,7 @@
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 
+// eslint-disable-next-line no-unused-vars
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'University Program for AI - Greece';
   const boardImage =
@@ -63,7 +64,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       />
                     </div>
                     <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">Cooperation with RENESAS and UOP​</h4>
+                      <h4 className="h5">Cooperation with RENESAS and UOP</h4>
                       <p className="mb-0">
                         News: Carenuity evaluates cooperations with the
                         University of the Peloponnese and RENESAS, headquartered

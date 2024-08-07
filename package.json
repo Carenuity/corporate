@@ -15,13 +15,8 @@
     "@next/font": "13.1.6",
     "@next/third-parties": "^14.2.4",
     "@popperjs/core": "^2.10.2",
-    "@types/node": "18.13.0",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.10",
     "bootstrap": "^5.2.3",
     "clipboard": "^2.0.4",
-    "eslint": "8.34.0",
-    "eslint-config-next": "13.1.6",
     "esp-web-tools": "^9.4.1",
     "jarallax": "^1.11.0",
     "jquery": "^3.6.0",
@@ -37,13 +32,18 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "^0.33.3",
-    "typescript": "4.9.5",
     "waypoints": "^4.0.1",
     "wow.js": "^1.1.3"
   },
   "devDependencies": {
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.10",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "prettier": "^3.1.1"
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "prettier": "^3.1.1",
+    "typescript": "4.9.5"
   }
 }

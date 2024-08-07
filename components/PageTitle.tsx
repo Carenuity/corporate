@@ -17,7 +17,7 @@ const PageTitle = ({
 }) => {
   const bgImage = '/img/banner.webp';
   useEffect(() => {
-    if (typeof document !== undefined) {
+    if (document !== undefined) {
       require('../utils/js/jarallax.min.js');
     }
   }, []);

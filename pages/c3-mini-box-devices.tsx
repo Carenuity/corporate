@@ -164,7 +164,7 @@ const Index = () => {
               <div className="mt-4">
                 <h3 className="h5 text-start">Install-for-Free Video Guide</h3>
                 <video
-                  src="/videos/content/Installing_App_on_C3-Mini.MOV"
+                  src="/videos/content/installing_app_on_C3-Mini.MOV"
                   className="rounded-2 img-fluid"
                   controls
                   loop

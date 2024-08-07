@@ -4,6 +4,7 @@ import { LanguageSwitchContext } from './context/LanguageSwitch';
 const Banner = ({
   bannerImage,
   slogan,
+  // eslint-disable-next-line no-unused-vars
   isMobile,
 }: {
   bannerImage: string;
@@ -14,9 +15,9 @@ const Banner = ({
   const kickstarterRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    if (kickstarterRef.current && state === 'de') {
-      kickstarterRef.current.click();
-    }
+    // if (kickstarterRef.current && state === 'de') {
+    //   kickstarterRef.current.click();
+    // }
   }, [state]);
 
   return (

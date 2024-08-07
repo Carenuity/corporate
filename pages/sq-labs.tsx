@@ -1,12 +1,10 @@
-import { useContext } from 'react';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
-import { StoreContext } from '../components/context/Store';
 import Head from 'next/head';
 import Link from 'next/link';
 
 const Index = () => {
-  const { state } = useContext(StoreContext);
+  // const { state } = useContext(StoreContext);
   return (
     <>
       <Head>

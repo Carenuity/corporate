@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 import { LANG } from './context/LanguageSwitch/index.types';
 

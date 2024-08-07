@@ -28,7 +28,7 @@ const Kickstarter = () => {
                 className="position-absolute w-25 bottom-0 start-0 ms-3"
               />
               <video
-                src="/videos/content/SQ-Panel-latest_0001-0180 1.mp4"
+                src="/videos/content/sq-panel-latest.mp4"
                 autoPlay
                 playsInline
                 muted
