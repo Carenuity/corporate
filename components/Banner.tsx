@@ -6,18 +6,23 @@ const Banner = ({
   slogan,
   // eslint-disable-next-line no-unused-vars
   isMobile,
+  hasKickStarter,
 }: {
   bannerImage: string;
   slogan: string;
   isMobile: boolean;
+  hasKickStarter?: boolean;
 }) => {
   const { state } = useContext(LanguageSwitchContext);
   const kickstarterRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    // if (kickstarterRef.current && state === 'de') {
-    //   kickstarterRef.current.click();
-    // }
+    if (hasKickStarter) {
+      if (kickstarterRef.current && state === 'de') {
+        kickstarterRef.current.click();
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state]);
 
   return (

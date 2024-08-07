@@ -15,12 +15,12 @@ const Menu = ({
   shopUrl: string;
   isMobile: boolean;
 }) => {
-  const [banner, setBanner] = useState(navigationBannerUrls[0]);
+  const [banner, setBanner] = useState(navigationBannerUrls[1]);
   const {
     state: { urls },
   } = useContext(StoreContext);
   const { state: language } = useContext(LanguageSwitchContext);
-  const { state } = useContext(LanguageSwitchContext);
+  const { state, dispatch } = useContext(LanguageSwitchContext);
 
   return (
     <>
@@ -54,64 +54,6 @@ const Menu = ({
                 alt="Products"
                 className="img-fluid"
               />
-            </li>
-            <li
-              className="col-lg-4 has-sub"
-              onMouseEnter={() => setBanner(navigationBannerUrls[0])}
-            >
-              <span className="submenu-button"></span>
-              <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
-                {state === 'en' && <>BUDGET FRIENDLY NOT ONLY FOR STUDENTS</>}
-                {state === 'de' && (
-                  <>Budgetfreundlich, nicht nur für Studierende</>
-                )}
-              </span>
-              <ul className="sub-menu">
-                {servicesUrls.standard.map((service: ServiceUrl) => (
-                  <li key={`${service.url}-${service.name}`}>
-                    {!isMobile && (
-                      <Link
-                        className="ms-3"
-                        href={service.url}
-                        style={
-                          // !!!service.url
-                          //   ? {
-                          //       pointerEvents: 'none',
-                          //       color: 'grey',
-                          //     }
-                          //   : {}
-                          {
-                            textAlign: 'left',
-                          }
-                        }
-                      >
-                        <i className={`${service.icon} me-2`}></i>
-                        {service.name}
-                      </Link>
-                    )}
-                    {isMobile && (
-                      <a
-                        className="ms-3"
-                        href={service.url}
-                        style={
-                          // !!!service.url
-                          //   ? {
-                          //       pointerEvents: 'none',
-                          //       color: 'grey',
-                          //     }
-                          //   : {}
-                          {
-                            textAlign: 'left',
-                          }
-                        }
-                      >
-                        <i className={`${service.icon} me-2`}></i>
-                        {service.name}
-                      </a>
-                    )}
-                  </li>
-                ))}
-              </ul>
             </li>
             <li
               className="col-lg-3 has-sub"
@@ -207,6 +149,64 @@ const Menu = ({
                                 textAlign: 'left',
                               }
                             : { textAlign: 'left' }
+                        }
+                      >
+                        <i className={`${service.icon} me-2`}></i>
+                        {service.name}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </li>
+            <li
+              className="col-lg-4 has-sub"
+              onMouseEnter={() => setBanner(navigationBannerUrls[0])}
+            >
+              <span className="submenu-button"></span>
+              <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-400 display-30">
+                {state === 'en' && <>BUDGET FRIENDLY NOT ONLY FOR STUDENTS</>}
+                {state === 'de' && (
+                  <>Budgetfreundlich, nicht nur für Studierende</>
+                )}
+              </span>
+              <ul className="sub-menu">
+                {servicesUrls.standard.map((service: ServiceUrl) => (
+                  <li key={`${service.url}-${service.name}`}>
+                    {!isMobile && (
+                      <Link
+                        className="ms-3 fw-light"
+                        href={service.url}
+                        style={
+                          // !!!service.url
+                          //   ? {
+                          //       pointerEvents: 'none',
+                          //       color: 'grey',
+                          //     }
+                          //   : {}
+                          {
+                            textAlign: 'left',
+                          }
+                        }
+                      >
+                        <i className={`${service.icon} me-2`}></i>
+                        {service.name}
+                      </Link>
+                    )}
+                    {isMobile && (
+                      <a
+                        className="ms-3"
+                        href={service.url}
+                        style={
+                          // !!!service.url
+                          //   ? {
+                          //       pointerEvents: 'none',
+                          //       color: 'grey',
+                          //     }
+                          //   : {}
+                          {
+                            textAlign: 'left',
+                          }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -382,16 +382,42 @@ const Menu = ({
             </li>
           </ul>
         </li>
+        <li>
+          <a href="#!">Lang</a>
+          <ul>
+            <li>
+              <a
+                className="fw-light"
+                style={{ textAlign: 'left', cursor: 'pointer' }}
+                onClick={() => {
+                  dispatch({ lang: 'en', type: 'SET' });
+                }}
+              >
+                English - EN
+              </a>
+              <a
+                className="fw-light"
+                style={{ textAlign: 'left', cursor: 'pointer' }}
+                onClick={() => {
+                  dispatch({ lang: 'de', type: 'SET' });
+                }}
+              >
+                Germany - DE
+              </a>
+            </li>
+          </ul>
+        </li>
         <li className="d-lg-none d-inline-block">
           {/* <Link href={shopUrl} target="_blank">
             Shop
           </Link> */}
-          <Link
+
+          {/* <Link
             href={'/install-for-free'}
-            className={'btn btn-lg btn-success text-white rounded-pill shadow'} // "btn-style1 animated fadeInUp"
+            className={'btn btn-lg btn-success text-white rounded-pill shadow'}
           >
             <span className="animated fadeInUp">Install For Free</span>
-          </Link>
+          </Link> */}
         </li>
         <li className="d-lg-none d-inline-block">
           <Link href={authUrl}>Login / Register</Link>

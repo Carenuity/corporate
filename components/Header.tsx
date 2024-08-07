@@ -71,18 +71,18 @@ const Header = ({
                             <span>Shop</span>
                           </Link> */}
 
-                          <div>
+                          {/* <div>
                             <Link
                               href={'/install-for-free'}
                               className={
                                 'btn btn-sm btn-outline-success rounded-pill shadow'
-                              } // "btn-style1 animated fadeInUp"
+                              }
                             >
                               <span className="animated fadeInUp">
                                 Install For Free
                               </span>
                             </Link>
-                          </div>
+                          </div> */}
                         </li>
                         <li className="d-none d-xl-inline-block">
                           <Link href={state.urls.auth}>
