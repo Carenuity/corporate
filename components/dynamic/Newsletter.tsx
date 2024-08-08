@@ -31,7 +31,7 @@ const Newsletter = ({ email }: { email: string }) => {
         >
           <span>
             {state === 'en' && <>Subscribe with us</>}
-            {state === 'de' && <>Abonnieren Sie bei uns</>}
+            {state === 'de' && <>Abonnieren Sie uns</>}
           </span>
         </Link>
       </div>

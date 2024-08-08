@@ -62,7 +62,7 @@ export const servicesUrls: Service = {
   ],
   premium: [
     {
-      name: 'SQ-Panel (Now on Kickstarter)',
+      name: 'SQ-Panel (AirQuality Sensor Display)',
       url: '/sq-panel',
       icon: 'fa-solid fa-gauge',
     },

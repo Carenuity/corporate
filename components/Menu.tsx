@@ -114,7 +114,7 @@ const Menu = ({
               <span className="submenu-button"></span>
               <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
                 {state === 'en' && <>B2B for Real Estate Tycoons</>}
-                {state === 'de' && <>B2B für Immobilienmagnaten</>}
+                {state === 'de' && <>B2B für Immobilien profis</>}
               </span>
               <ul className="sub-menu">
                 {servicesUrls.business.map((service: ServiceUrl) => (
@@ -402,7 +402,7 @@ const Menu = ({
                   dispatch({ lang: 'de', type: 'SET' });
                 }}
               >
-                Germany - DE
+                German - DE
               </a>
             </li>
           </ul>
