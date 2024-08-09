@@ -51,7 +51,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </strong>
           </div>
 
-          <div className="col-lg-4 wow fadeIn  ">
+          <div className="col-lg-4 mb-6 wow fadeIn  ">
             <div
               className="e-card"
               style={{
@@ -69,7 +69,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
-                  height: '400',
+                
                   animationName: 'fadeIn',
                 }}
               />
@@ -79,7 +79,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </div>
           </div>
 
-          <div className="col-lg-4 wow fadeIn  ">
+          <div className="col-lg-4 mb-6 wow fadeIn  ">
             <div
               className="e-card"
               style={{

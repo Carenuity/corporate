@@ -75,7 +75,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
                 </div>
-                <div className="e-card col-lg-8 mb-6"
+                <h5 className=" mb-1">
+        Install the prototypes
+        
+            </h5>
+
+                <div className="e-card col-lg-6 mb-6"
           style={{
             boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
             maxHeight: '800px',
@@ -86,53 +91,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className='row'>
                 <div className='col-lg-6'> 
 
-        <h5 className=" mb-1">
-        Install the prototypes
         
-            </h5>
 
             <p> <strong>Prototype S "Triple Adapter</strong></p>
             <p>Suited for D1- and C3-Mini Boards and all Sensors</p>
             <p>Compatible with 0.66 inch and 0.96inch Displays</p>
-            <p className=" ">
-                {!isMobile && (
-                  <Link
-                    href={'/install-for-free'}
-                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
-                  >
-                    <span className="small">Install for free </span>
-                  </Link>
-                )}
-
-                {isMobile && (
-                  <a
-                    href={'/install-for-free'}
-                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
-                  >
-                    <span className="small">
-                    Install for free{' '}
-                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                    </span>
-                  </a>
-                )}
-              </p>
-        </div>
+           
+                 </div>
         <div className='col-lg-6'>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+        {' '}
+            <Link href="/install-for-free" className="text-success">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/evaluate/install-03.png"
                 className="mt-1-6 wow fadeInUp"
@@ -144,10 +113,127 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   alignContent:"center",
                   animationName: 'fadeIn',
                 }}
-              /></div>
+              />
+            </Link>
+            </div>
 
         </div>
-        </div>
+         </div>
+         <div className="e-card col-lg-6 mb-6"
+          style={{
+            boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+            maxHeight: '800px',
+            alignContent:"center",
+            padding: '20px',
+          }}>
+            <div className='row'>
+                <div className='col-lg-6'> 
+
+        
+
+            <p> <strong>Prototype S within Sensor Selection Box</strong></p>
+            <p>Suited for D1- and C3-Mini Boards and all Sensors</p>
+            <p>Compatible with 0.66 inch and 0.96inch Displays</p>
+           
+                 </div>
+                 <div className='col-lg-6'>
+        {' '}
+            <Link href="/install-for-free" className="text-success">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/evaluate/sma2.webp"
+                className="mt-1-6 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  alignContent:"center",
+                  animationName: 'fadeIn',
+                }}
+              />
+            </Link>
+            </div>  
+
+            </div> </div>
+
+            <div className="e-card col-lg-6 mb-6"
+          style={{
+            boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+            maxHeight: '800px',
+            alignContent:"center",
+            padding: '20px',
+          }}>
+            <div className='row'>
+                <div className='col-lg-6'> 
+
+        
+
+            <p> <strong>Prototype L for standard Displays</strong></p>
+            <p>Suited for Raspberry Pi Pico-W boards with Infineon Wifi module</p>
+            <p>Compatible with 0.66 inch and 0.96inch Displays</p>
+           
+                 </div>
+                 <div className='col-lg-6'>
+        {' '}
+            <Link href="/install-for-free" className="text-success">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/evaluate/sma3.webp"
+                className="mt-1-6 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  alignContent:"center",
+                  animationName: 'fadeIn',
+                }}
+              />
+            </Link>
+            </div>  
+
+            </div> </div>
+
+            <div className="e-card col-lg-6 mb-6"
+          style={{
+            boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+            maxHeight: '800px',
+            alignContent:"center",
+            padding: '20px',
+          }}>
+            <div className='row'>
+                <div className='col-lg-6'> 
+
+        
+
+            <p> <strong>Prototype XL for large 2.8 inch Display</strong></p>
+            <p>Suited for D1- and C3-Mini Boards and all Sensors</p>
+            <p>Compatible with 2.6 inch and 2.8 inch Displays</p>
+           
+                 </div>
+                 <div className='col-lg-6'>
+        {' '}
+            <Link href="/install-for-free" className="text-success">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/evaluate/sma.webp"
+                className="mt-1-6 wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  alignContent:"center",
+                  animationName: 'fadeIn',
+                }}
+              />
+            </Link>
+            </div>  
+
+            </div> </div>
+
+        
         </div>
         </div>
       </section>
