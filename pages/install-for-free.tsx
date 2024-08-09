@@ -59,15 +59,17 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 height: '320px',
               }}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Install/install-03.png"
-                className="mt-1-6 wow fadeInUp"
+              <video
+                src="/videos/content/sma.mp4"
+                loop={true}
+                autoPlay={true}
+                muted
+                className="mt-1-9 wow fadeInUp w-100"
                 data-wow-delay="100ms"
-                alt="..."
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
+                  height: '400',
                   animationName: 'fadeIn',
                 }}
               />
@@ -116,7 +118,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/install-01.png"
+                src="/img/content/Install/sma1.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
