@@ -71,7 +71,7 @@ export default function Home({
         data-speed="0.8"
       ></section> --> */}
 
-      <section className="container">
+      <section id="kickstarter" className="container">
         <div
           className="e-card mb-6"
           style={{

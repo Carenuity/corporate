@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useContext } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 import Menu from './Menu';
 import { StoreContext } from './context/Store';
 import { Overpass } from '@next/font/google';
@@ -13,12 +13,22 @@ const Header = ({
   classNames: string[];
   isMobile: boolean;
 }) => {
+  const installBtnRef = useRef<HTMLDivElement>(null);
   const { state } = useContext(StoreContext);
   let logoUrl = state.urls.logos[0];
 
   if (classNames[1] === 'navbar-brand') {
     logoUrl = state.urls.logos[1];
   }
+
+  useEffect(() => {
+    if (installBtnRef && installBtnRef.current) {
+      const isKickStarterPage = document.querySelector('#kickstarter');
+      if (isKickStarterPage) {
+        installBtnRef.current.classList.remove('d-none');
+      }
+    }
+  }, []);
 
   return (
     <>
@@ -71,9 +81,9 @@ const Header = ({
                             <span>Shop</span>
                           </Link> */}
 
-                          {/* <div>
+                          <div ref={installBtnRef} className="d-none">
                             <Link
-                              href={'/install-for-free'}
+                              href={'/evaluate-at-home'}
                               className={
                                 'btn btn-sm btn-outline-success rounded-pill shadow'
                               }
@@ -82,7 +92,7 @@ const Header = ({
                                 Install For Free
                               </span>
                             </Link>
-                          </div> */}
+                          </div>
                         </li>
                         <li className="d-none d-xl-inline-block">
                           <Link href={state.urls.auth}>
