@@ -59,7 +59,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               /></div>
         
                 <div className='mb-4'>
-                    <h5>What size do you prefer for evaluating feature at home?
+                    <h5>What size do you prefer for evaluating features at home?
                     </h5>
 
                     {/* eslint-disable-next-line @next/next/no-img-element */}
