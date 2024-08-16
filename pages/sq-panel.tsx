@@ -957,7 +957,10 @@ export const SqPanel = () => {
               </div>
             </div>
           </div>
-         
+          {' '}
+            <Link href="/evaluate-at-home" className="text-success">
+              <h6 className="text-success">Level 2</h6>
+            </Link>
         </div>
       </section>
 
