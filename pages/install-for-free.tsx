@@ -90,7 +90,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/Install/install-02.png"
-                className="mt-1-9 wow fadeInUp"
+                className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
