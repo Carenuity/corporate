@@ -56,7 +56,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '320px',
+                height: '340px',
               }}
             >
               <video
@@ -84,7 +84,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '320px',
+                height: '340px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -97,6 +97,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
+                   height: "230px"
                 }}
               />
               <p style={{ padding: '10px' }}>
@@ -113,19 +114,20 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '320px',
+                height: '340px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/sma1.png"
-                className="mt-1-9 wow fadeInUp"
+                src="/img/content/Install/sma.jpeg"
+                className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
+                 
                 }}
               />
               <p style={{ padding: '10px' }}>
@@ -434,7 +436,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
 
           <div className="row mb-6">
             {/* hstack justify-content-center align-items-center gap-2 */}
-            <div className="col-md-3 d-flex">
+            <div className="col-md-3 mb-2 d-flex">
               <IoTComponentsCount
                 count={28}
                 label="Sensors"
@@ -442,7 +444,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            <div className="col-md-3 d-flex">
+            <div className="col-md-3 mb-2 d-flex">
               <IoTComponentsCount
                 count={5}
                 label="Microcontrollers"
@@ -450,7 +452,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            <div className="col-md-3 d-flex">
+            <div className="col-md-3 mb-2 d-flex">
               <IoTComponentsCount
                 count={12}
                 label="Actuators"
@@ -458,7 +460,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3 mb-2">
               <IoTComponentsCount
                 count={1500}
                 label="Solutions"
