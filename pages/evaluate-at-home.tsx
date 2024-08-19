@@ -241,7 +241,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
 
           <div className='col-md-3 mb-2 '>
-            <h6>Implimentation of the feature</h6>
+            <h6>Implementation of the feature</h6>
             <img
                 src="/img/content/Evaluate/sq-panel.png"
                 className="wow fadeInUp"
