@@ -7,6 +7,7 @@ import Link from 'next/link';
 import CarenuityDevice from '../components/CarenuityDevice';
 import ecosystemsImage from '../public/img/environments/ecosystems.png';
 import Image from 'next/image';
+import SolutionWidget from '../components/SolutionWidget';
 
 const Index = () => {
   const { state } = useContext(StoreContext);
@@ -538,6 +539,9 @@ const Index = () => {
             'https://chipglobe-dev.web.app/cloudfree/YOUTUBE-METEER/C3-Mini'
           }
         />
+
+        <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
+        <SolutionWidget solutionId="5KmjmXd7VKCqDOk0yvL4" />
 
         <div className="row mb-1-9 bg-secondary p-3 text-white">
           <div
