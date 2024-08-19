@@ -1,7 +1,6 @@
 import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
-import Link from 'next/link';
 
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';

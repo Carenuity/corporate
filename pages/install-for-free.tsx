@@ -69,7 +69,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
-                
+
                   animationName: 'fadeIn',
                 }}
               />
@@ -97,7 +97,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
-                   
                 }}
               />
               <p style={{ padding: '10px' }}>
@@ -127,7 +126,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
-                 
                 }}
               />
               <p style={{ padding: '10px' }}>

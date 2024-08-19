@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { navigationBannerUrls, servicesUrls } from '../utils/constants';
 import { ServiceUrl } from '../utils/types';
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 import { StoreContext } from './context/Store';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 
@@ -21,6 +21,16 @@ const Menu = ({
   } = useContext(StoreContext);
   const { state: language } = useContext(LanguageSwitchContext);
   const { state, dispatch } = useContext(LanguageSwitchContext);
+  const installBtnRef = useRef<HTMLLIElement>(null);
+
+  useEffect(() => {
+    if (installBtnRef && installBtnRef.current) {
+      const isKickStarterPage = document.querySelector('#kickstarter');
+      if (isKickStarterPage) {
+        installBtnRef.current.classList.remove('d-none');
+      }
+    }
+  }, []);
 
   return (
     <>
@@ -407,17 +417,22 @@ const Menu = ({
             </li>
           </ul>
         </li>
-        <li className="d-lg-none d-inline-block">
+        <li
+          ref={installBtnRef}
+          className="d-lg-none d-inline-block px-3 d-none"
+        >
           {/* <Link href={shopUrl} target="_blank">
             Shop
           </Link> */}
 
-          {/* <Link
+          <Link
             href={'/install-for-free'}
-            className={'btn btn-lg btn-success text-white rounded-pill shadow'}
+            className={
+              'btn btn-lg btn-success text-white rounded-pill shadow my-1'
+            }
           >
             <span className="animated fadeInUp">Install For Free</span>
-          </Link> */}
+          </Link>
         </li>
         <li className="d-lg-none d-inline-block">
           <Link href={authUrl}>Login / Register</Link>
