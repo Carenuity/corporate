@@ -1,6 +1,7 @@
 import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 import { LANG } from './context/LanguageSwitch/index.types';
+import Link from 'next/link';
 
 const LanguageSwitcher = () => {
   const { state, dispatch } = useContext(LanguageSwitchContext);
@@ -17,7 +18,31 @@ const LanguageSwitcher = () => {
 
   return (
     <>
-      <div className="form-check form-switch">
+      <div className="hstack small gap-1 align-items-center justify-content-center ms-md-3">
+        <Link
+          title="English"
+          href={'#'}
+          className={`${
+            state === 'en' ? 'link-success fw-bold' : ''
+          } border-end border-2 pe-1`}
+          onClick={() => {
+            dispatch({ lang: 'en', type: 'SET' });
+          }}
+        >
+          EN
+        </Link>
+        <Link
+          title="German"
+          href={'#'}
+          className={state === 'de' ? 'link-success fw-bold' : ''}
+          onClick={() => {
+            dispatch({ lang: 'de', type: 'SET' });
+          }}
+        >
+          DE
+        </Link>
+      </div>
+      {/* <div className="form-check form-switch">
         <input
           className="form-check-input"
           type="checkbox"
@@ -35,7 +60,7 @@ const LanguageSwitcher = () => {
           {state === 'en' && <>German</>}
           {state === 'de' && <>English</>}
         </label>
-      </div>
+      </div> */}
     </>
   );
 };

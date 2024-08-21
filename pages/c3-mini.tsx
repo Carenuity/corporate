@@ -44,20 +44,34 @@ const Index = () => {
           </div>
         </div>
 
-        <p className="mb-lg-1-5 mt-3">
-          A mini wifi & Bluetooth5 (LE) boards based ESP32-C3FH4. [
-          <a
-            href="https://www.chipglobe.shop/p/carenuity-original-c3-mini-v2-2-1-esp32-c3-iot-development-board"
-            className="link-success"
-          >
-            Buy it
-          </a>
-          ]
+        <p className="mb-1 mt-3">
+          A mini wifi & Bluetooth5 (LE) boards based ESP32-C3FH4.
         </p>
+
+        <div className="mb-5">
+          <a
+            href={
+              'https://www.chipglobe.shop/p/carenuity-original-c3-mini-v2-2-1-esp32-c3-iot-development-board'
+            }
+            target="_blank"
+            className="btn btn-sm btn-success rounded-pill me-3"
+            rel="noreferrer"
+          >
+            Buy in Munich
+          </a>
+          <a
+            href={'https://openelab.io/products/esp32-c3-iot-development-board'}
+            target="_blank"
+            className="btn btn-sm btn-success rounded-pill"
+            rel="noreferrer"
+          >
+            Buy in Shenzhen
+          </a>
+        </div>
 
         <div className="row">
           <Link href={'#features'} className="mb-2 h4" id="features">
-            Features
+            Hardware Features
           </Link>
           <div className="col-12">
             <div className="d-flex align-items-center">
@@ -432,12 +446,23 @@ const Index = () => {
         </p>
 
         <h2 className="mb-2 h4">What is the C3-Mini?</h2>
-        <p className="mb-lg-1-9">
+        <p className="mb-2">
           The ESP32-Mini was the successor of the D1-Mini, comes with added
           Bluetooth and is now the predecessor of the latest C3-Mini™, which we
           recommend to stay future proof with respect to the upcoming Matter
           standard.
         </p>
+        <div className="mb-2">
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/WGcBlZnaca0?si=loH8TmDK1uRvrf2J"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
         <p>
           For flashing C3-Mini successfully, you need to hold the BOOT-Button,
           click in parallel the RST-Button for a moment while still keeping BOOT

@@ -13,6 +13,7 @@ const SolutionWidget = ({ solutionId }: { solutionId: string }) => {
         <div style={{ height: 0, paddingTop: '56.25%' }}>
           <iframe
             src={solutionsWidgetUrl + solutionId}
+            allow="usb *; serial *;"
             className="w-100 h-100 position-absolute top-0 start-0"
           />
         </div>

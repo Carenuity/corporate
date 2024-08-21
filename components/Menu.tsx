@@ -20,7 +20,7 @@ const Menu = ({
     state: { urls },
   } = useContext(StoreContext);
   const { state: language } = useContext(LanguageSwitchContext);
-  const { state, dispatch } = useContext(LanguageSwitchContext);
+  const { state } = useContext(LanguageSwitchContext);
   const installBtnRef = useRef<HTMLLIElement>(null);
 
   useEffect(() => {
@@ -392,7 +392,7 @@ const Menu = ({
             </li>
           </ul>
         </li>
-        <li>
+        {/* <li>
           <a href="#!">Lang</a>
           <ul>
             <li>
@@ -416,7 +416,7 @@ const Menu = ({
               </a>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li
           ref={installBtnRef}
           className="d-lg-none d-inline-block px-3 d-none"

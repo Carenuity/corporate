@@ -105,7 +105,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    Contact us for very special places … (mailto Max)
+                    <a href="mailto:max.mergenthaler@chipglobe.com">
+                      <span className="text-success fw-bold">Contact us</span>{' '}
+                      for very special places
+                    </a>
                   </p>
                 </div>
               </div>

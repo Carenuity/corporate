@@ -3,6 +3,7 @@ import { useContext, useEffect, useRef } from 'react';
 import Menu from './Menu';
 import { StoreContext } from './context/Store';
 import { Overpass } from '@next/font/google';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const overpass = Overpass({ subsets: ['latin'], weight: ['100', '200'] });
 
@@ -98,6 +99,10 @@ const Header = ({
                           <Link href={state.urls.auth}>
                             <span>Login / Register</span>
                           </Link>
+                        </li>
+                        <li className="">
+                          {/* d-none d-xl-inline-block */}
+                          <LanguageSwitcher />
                         </li>
                       </ul>
                     </div>

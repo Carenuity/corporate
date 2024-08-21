@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import { StoreContext } from './context/Store';
 import dynamic from 'next/dynamic';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
-import LanguageSwitcher from './LanguageSwitcher';
 
 const FooterUpperSection = dynamic(
   () => import('./dynamic/FooterUpperSection'),
@@ -166,9 +165,9 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                     </a>
                   </li>
 
-                  <li className="text-white mt-4">
+                  {/* <li className="text-white mt-4">
                     <LanguageSwitcher />
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
