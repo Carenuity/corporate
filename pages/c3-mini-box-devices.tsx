@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
 import PageTitle from '../components/PageTitle';
-import CarenuityDevice from '../components/CarenuityDevice';
 import CarouselImage from '../components/CarouselImage';
+import SolutionWidget from '../components/SolutionWidget';
 
 const Index = () => {
   return (
@@ -69,7 +69,7 @@ const Index = () => {
                     C3-Mini Devices
                   </h3>
                   {/* Barometric */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'Barometer',
                       long: `Barometric Pressure & Temperature by BMP180-Sensor (BOSCH)`,
@@ -78,10 +78,11 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/BMP180/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="nzeAXNAV3LOeRA2avVDM" />
 
                   {/* Hygrometer-1 */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'Hygrometer-1',
                       long: `Temperature & Humidity by DHT11 (AOSONG/ASAIR)`,
@@ -90,10 +91,11 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/DHT11/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
 
                   {/* IR Radiometer */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'IR Radiometer',
                       long: `Infrared Radiation Detector by IRM-H6XXT/TR2 (EVERLIGHT)`,
@@ -102,10 +104,11 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/H6XXT/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
 
                   {/* Luxmeter */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'Luxmeter',
                       long: `Ambient Light by BH1750FVI (ROHM SEMICONDUCTOR)`,
@@ -114,10 +117,11 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/BH1750/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
 
                   {/* Thermometer */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'Thermometer',
                       long: `Temperature by DS18B20 (MAXIM ANALOG DEVICES)`,
@@ -126,10 +130,11 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/DS18B20/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
 
                   {/* Motion Detector */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'Motion Detector',
                       long: `Passive Infrared Radiation Detector by PIR (ADAFRUIT)`,
@@ -138,10 +143,11 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/PIR/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
 
                   {/* Presence Detector */}
-                  <CarenuityDevice
+                  {/* <CarenuityDevice
                     name={{
                       short: 'Presence Detector',
                       long: `Push / Click Control by One-Button (DIGIKEY)`,
@@ -150,7 +156,8 @@ const Index = () => {
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/BUTTON/C3-Mini'
                     }
-                  />
+                  /> */}
+                  <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
                 </div>
               </div>
             </div>
