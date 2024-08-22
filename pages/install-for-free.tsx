@@ -56,15 +56,15 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '340px',
+                height: '400px',
               }}
             >
               <video
-                src="/videos/content/sma.mp4"
+                src="/videos/content/sma02.mp4"
                 loop={true}
                 autoPlay={true}
                 muted
-                className="mt-1-9 wow fadeInUp w-100"
+                className="wow fadeInUp w-100"
                 data-wow-delay="100ms"
                 style={{
                   visibility: 'visible',
@@ -84,12 +84,12 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '340px',
+                height: '400px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/install-02.png"
+                src="/img/content/Install/install.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -113,13 +113,13 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '340px',
+                height: '400px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/Install/sma.jpeg"
-                className=" wow fadeInUp"
+                className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
