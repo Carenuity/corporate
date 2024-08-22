@@ -85,6 +85,28 @@ const Page = () => {
               <h3>Step 2</h3>
               <Image src={img2} alt="step one" />
             </div>
+            <div
+              className="col-lg-12 wow fadeIn mt-3"
+              data-wow-delay="200ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
+              }}
+            >
+              <h3>Complete guide</h3>
+              <p className="fw-bold">
+                For further reading{' '}
+                <a
+                  href="/docs/adafruit_IO.pdf"
+                  target="_blank"
+                  className="link-success"
+                >
+                  see this conclusive guide
+                </a>
+                .
+              </p>
+            </div>
           </div>
         </div>
       </section>
