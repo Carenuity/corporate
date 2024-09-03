@@ -1,6 +1,7 @@
 import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
+import PageTitle from '../components/PageTitle';
 
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';
@@ -44,16 +45,569 @@ export const SqPanel = () => {
 
       {/* <!-- PAGE TITLE
                 ================================================== --> */}
-      {/* <PageTitle
+      <PageTitle
             links={[{ path: '/', title: 'Home' }]}
             pageTitle={pageTitle}
             pageUrl="/sq-panel"
-          /> */}
+          />
+
+      <section className="container">
+      <div className="row">
+
+      <h4 className="">
+              {state === 'en' && (
+                <>
+                  The SQ-Panel easy-to-use sensor display, Matter-compatible
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Das SQ-Panel - endlich ein einfach-bedienbares Sensor Display, Matter-kompatibel
+                </>
+              )}
+            </h4>
+            <p>
+            {state === 'en' && (
+                <>
+                  SQ panel for the indoor air quality display, attached to the SQ table stand. 
+                  Alternatively, we recommend cable-free wall mounting.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  SQ-Panel für die Raumluftqualitäts-Anzeige, hier aufgesteckt auf den SQ-Tischaufsteller. 
+                  Alternativ empfehlen wir die kabelfreie Wandmontage.
+                </>
+              )} 
+            </p>
+            <div className='mb-4'>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/SQ-Panel-frontview.webp"
+              className="mt-1-9 wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            /></div>
+
+            <h4>
+            {state === 'en' && (
+                <>
+                 What is the SQ panel exactly? 
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                 Was ist das SQ-Panel genau? 
+                </>
+              )} 
+            </h4>
+            <p>
+            {state === 'en' && (
+                <>
+                  The SQ panel is a display with built-in environmental sensors to show air quality and 
+                  human presence to keep you feeling comfortable and protected. If necessary, it warns 
+                  you if something is wrong.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Das SQ-Panel ist ein Display mit integrierten Umgebungs-Sensoren, 
+                  um die Luftqualität und die Anwesenheit von Personen anzuzeigen, 
+                  damit Sie sich stets wohl und geschützt fühlen. Es warnt Sie notfalls, 
+                  wenn etwas nicht stimmt.
+                </>
+              )} 
+            </p>
+            <h4>
+            {state === 'en' && (
+                <>
+                  What components does it consist of?
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                 Aus welchen Komponenten besteht es? 
+                </>
+              )} 
+            
+            </h4>
+              <p>
+              {state === 'en' && (
+                <>
+                  The starter set of the SQ panel consists of the display with built-in sensors 
+                  for measuring air quality and presence, a connector for a higher range that is 
+                  mesh-capable and is connected to the Internet (e.g. Fritz Box) and an app 
+                  (Apple or Android ) to put the SQ panel into operation so that you can monitor 
+                  the sensor values and define their threshold values.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                 Das SQ-Panel besteht im Starter-Set aus dem Display mit 
+                 eingebauten Sensoren zur Messung der Luftqualität und der 
+                 Anwesenheit, einem Verbinder für höhere Reichweite, der meshfähig 
+                 ist und ans Internet (z.B. Fritz-Box) angeschlossen wird und einer 
+                 App (Apple oder Android), um das SQ-Panel in Betrieb zu nehmen, so 
+                 dass Sie die Sensorwerte überwachen und deren Schwell-Werte definieren können. 
+                </>
+              )} 
+              </p>
+              {state === 'en' && (
+                <>
+              <div className='col-lg-6 mb-4'>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/kickstarter/starter-kit02.png"
+              className="mt-1-9 wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            /></div>
+              </>
+              )}
+              {state === 'de' && (
+                <>
+                  <div className='col-lg-6 mb-4'>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/kickstarter/starter-kit.png"
+              className="mt-1-9 wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            /></div>
+                </>
+              )} 
+        
+        <div className='col-lg-6 mb-4'>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/kickstarter/Sq-panel.png"
+              className="mt-1-9 wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            /></div>
+            <p>
+            {state === 'en' && (
+                <>
+                 The sensors in the display check the air quality by monitoring the current 
+                 room temperature, air pressure, CO2 content, air quality index, relative 
+                 humidity and organic compounds (tVOC) in the indoor air and displaying them 
+                 on the display. You can operate as many SQ panels as you like on one connector 
+                 and manage them with the app. One connector is required per apartment. 
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Die Sensoren im Display prüfen die Luftqualität, indem sie die 
+                  aktuellen Raum-Temperatur, den Luftdruck, den CO2-Gehalt, den 
+                  Luftqualitäts-Index, die relative Luftfeuchte und die organischen 
+                  Verbindungen (tVOC) in der Innenraumluft überwachen und auf dem Display 
+                  anzeigen. An einem Verbinder können Sie beliebig viele SQ-Panels betreiben 
+                  und mit der App verwalten. Es ist ein Verbinder pro Wohnung notwendig.
+                </>
+              )} 
+            </p>
+            <h4>
+            {state === 'en' && (
+                <>
+                  The measurement results from the sensors are displayed on six clear tiles and in the app:
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Die Messergebnisse von den Sensoren werden auf sechs übersichtlichen Kacheln und in der App dargestellt:
+                </>
+              )} 
+            </h4>
+            <p>
+            {state === 'en' && (
+                <>
+                 These tiles can change color to red or blue and start flashing when preset thresholds are exceeded or 
+                 not reached. You can see the SQ panel in operation in the video.< br/>
+                 With your help, the harmful particles PM1, PM2.5 and PM10 could soon also monitor your ambient air for 
+                 the benefit of your health, in addition to the sensors already implemented in the device.  
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Diese Kacheln können die Farbe nach rot oder blau wechseln und beginnen zu blinken, 
+                  wenn vor-eingestellte Schwellwerte unter- oder überschritten werden. Sie sehen das 
+                  SQ-Panel im Video in Betrieb.< br/>
+                  Bald könnten mit Ihrer Unterstützung auch die schädliche 
+                  Partikel PM1, PM2.5 und PM10 ergänzend zu den bereits im Gerät implementierten Sensoren 
+                  über Ihre Umgebungsluft zum Wohl Ihrer Gesundheit wachen. 
+                </>
+              )} 
+            </p>
+            <h4>
+              {state === 'en' && (
+                <>
+                 During normal operation you will see the following 6 tiles in the two columns: 
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Folgende 6 Kacheln sehen Sie bei Normalbetrieb in den beiden Spalten:
+                </>
+              )} 
+              </h4>
+              
+              <div className='col-lg-6 '>
+              
+              <ul style={{ listStyleType: 'square' }}>
+                  <li>{state === 'en' && ( <>
+                   Room temperature
+                </>)}{state === 'de' && (
+                <>Raumtemperatur</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  Relative humidity
+                </>)}{state === 'de' && (
+                <>Relative Luftfeuchte</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  Air pressure (soon in mbar)
+                </>)}{state === 'de' && (
+                <>Luftdruck (bald in mbar)</>)}</li>
+
+                
+              <li>{state === 'en' && ( <>
+                    Air quality index
+                </>)}{state === 'de' && (
+                <>Luftqualitäts-Index</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  Carbon dioxide content of the air / CO2
+                </>)}{state === 'de' && (
+                <>Kohlendioxid-Gehalt der Luft / CO2</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  Number of organic comp. VOC
+                </>)}{state === 'de' && (
+                <>Anzahl organischer Komp. VOC</>)}</li>
+
+                  </ul>
+                
+              </div>
+              <div className='col-lg-6 mb-4'>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/kickstarter/Sq-panel02.png"
+              className=" wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+                height:'150px'
+              }}
+            /></div>
+         
+              <h4>
+              {state === 'en' && (<>
+                Room temperature, humidity, etc. with alarm function
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Raumtemperatur, Luftfeuchte, etc. mit Alarmfunktion
+                  </>)} 
+              </h4>
+              <p>
+              {state === 'en' && (
+                <>
+                  To monitor the temperature and humidity as well as other air parameters, 
+                  you can set threshold values that, if exceeded, automatically trigger a 
+                  flashing alarm on the display and a notification on your smartphone. < br/>
+                  
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Für die Überwachung der Temperatur und der Luftfeuchte sowie der anderen 
+                  Luft-Parametern, können Sie Schwellwerte setzen, die bei Überschreitung 
+                  automatisch einen blinkenden Alarm auf dem Display und eine Benachrichtigung 
+                  auf Ihrem Smartphone auslösen. < br/>
+                  
+                </>
+              )} 
+              </p>
+
+              <div className="col-lg-4 mb-6 wow fadeIn  ">
+            <div
+              className="e-card"
+              style={{
+                boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                height: '580px',
+              }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/temp.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              <p style={{ padding: '10px' }}>
+              {state === 'en' && (<>
+                Here is an example of the setting option for the temperature
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Hier sehen Sie exemplarisch die Einstellmöglichkeit für die Temperatur:
+                  </>)} 
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 mb-6 wow fadeIn  ">
+            <div
+              className="e-card"
+              style={{
+                boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                height: '580px',
+              }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/humidity.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              <p style={{ padding: '10px' }}>
+              {state === 'en' && (<>
+                Control and display of the humidity. This can help you prevent possible mold formation. The 
+                device can determine the dew point and warn you before so-called condensation occurs.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Kontrolle und Anzeige der Luftfeuchte. Das kann Ihnen helfen, einer möglichen 
+                Schimmelbildung vorzubeugen. Hierfür kann das Gerät den Taupunkt bestimmen und warnen,
+                 bevor sogn. Kondensfeuchte entsteht.
+                  </>)} 
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 mb-6 wow fadeIn  ">
+            <div
+              className="e-card"
+              style={{
+                boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                height: '580px',
+              }}
+            >
+               {state === 'en' && (<>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/tiles.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/tiles02.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+                  </>)} 
+              
+              <h6 style={{ padding: '10px' }}>
+              {state === 'en' && (<>
+                All tiles at a glance
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Alle Kacheln im Überblick
+                  </>)} 
+              </h6>
+            </div>
+          </div>
+          <h4>
+          {state === 'en' && (<>
+            Operating the display (demonstration)
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Bedienung des Displays (Demonstration)
+                  </>)} 
+                  
+          </h4>
+          <div className="mb-2">
+          <iframe
+            width="1150"
+            height="450"
+            src="https://www.youtube.com/embed/WGcBlZnaca0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div>
+        <h4>
+        {state === 'en' && (<>
+          What other radar features are on the roadmap?
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Welche weiteren Radar-Features stehen auf der Roadmap?
+                  </>)} 
+        
+        </h4>
+        <p>
+        {state === 'en' && (<>
+          A current 60GHz radar sensor (mmWave) is already integrated in the SQ panel, which will allow further 
+          features to be activated on the SQ panel. This allows us to enable various functions for your smart 
+          home that improve energy efficiency as well as security and comfort. Here are some features that will 
+          be implemented once the funding goal is reached:
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Im SQ-Panel ist ein aktueller 60GHz Radarsensor (mmWave) bereits integriert, der es 
+                    erlauben wird, weitere Features auf dem SQ-Panel freizuschalten. So können wir für Ihr 
+                    Smart Home verschiedene Funktionen ermöglichen, die sowohl die Energieeffizienz als auch 
+                    die Sicherheit und den Komfort verbessern. Hier sind einige Features, die nach erreichen 
+                    des Finanzierungsziels realisiert werden sollen:
+                  </>)} 
+        </p>
+       
+              
+              <ul style={{ listStyleType: 'square' }}>
+                  <li>{state === 'en' && ( <>
+                    <strong>Energy efficiency :</strong> By monitoring occupancy, the sensor can detect whether people are in the
+                     room and control the activity of devices accordingly to save energy1.
+                </>)}{state === 'de' && (
+                <><strong>Energieeffizienz:</strong> Durch die Überwachung der Anwesenheit kann der Sensor erkennen, ob Personen im Raum sind und entsprechend die Aktivität von Geräten steuern, um Energie zu sparen1.
+                </>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Safety :</strong> Radar sensors can help improve safety by detecting movement and triggering alarms when an unauthorized person is detected or when a person is in danger of falling or falls and assistance is needed
+                </>)}{state === 'de' && (
+                <><strong>Sicherheit:</strong> Radar-Sensoren können zur Verbesserung der Sicherheit beitragen, indem sie Bewegungen erkennen und Alarme auslösen, wenn eine unbefugte Person erkannt wird oder wenn eine Person sturz-gefährdet ist, bzw. stürzt und Hilfe benötigt wird
+                </>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Comfort :</strong> Automatic lighting and temperature control based on the detection 
+                  of people in the room for greater comfort.
+                </>)}{state === 'de' && (
+                <><strong>Komfort:</strong> Automatische Lichtsteuerung und Temperaturregelung basierend 
+                auf der Erkennung von Personen im Raum für mehr Komfort.
+                </>)}</li>
+
+                
+              <li>{state === 'en' && ( <>
+                <strong>Non-invasive monitoring :</strong> For the elderly or patients, the sensor can monitor 
+                movements and vital signs without violating privacy.
+                </>)}{state === 'de' && (
+                <><strong>Nicht-invasive Überwachung:</strong> Für ältere Menschen oder Patienten kann der Sensor 
+                Bewegungen und Vitalfunktionen überwachen, ohne die Privatsphäre zu verletzen.
+                </>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Precise motion detection :</strong> With high sensitivity, even sub-millimeter movements 
+                  can be detected, which can be useful for applications such as sleep monitoring or sensitive gesture 
+                  control.
+                </>)}{state === 'de' && (
+                <><strong>Präzise Bewegungserkennung:</strong> Mit hoher Sensitivität können selbst submillimeterkleine 
+                Bewegungen erfasst werden, was für Anwendungen wie Schlafüberwachung oder feinfühlige Gestensteuerung 
+                nützlich sein kann.
+                </>)}</li>
+
+                  </ul>
+                <p>
+                {state === 'en' && (<>
+                  <strong>Your participation is desired:</strong> Join our community via our website to be directly involved in defining and 
+                  prioritizing these features. Your voice and suggestions will help us to make the SQ panel the central building block for every room monitoring.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    <strong>Ihre Mitwirkung ist gewünscht:</strong> Treten Sie über unsere Website unserer Community bei, um bei der 
+                Definition und Priorisierung dieser Features direkt dabei zu sein. Ihre Stimme und Anregungen helfen 
+                uns, das SQ-Panel zum zentralen Baustein für jedes Raum-Monitoring zu machen.
+                  </>)} 
+                
+                  </p>    
+                  <p>
+                {state === 'en' && (<>
+                  Our <strong>AI competence team</strong> is constantly developing concepts to recognize recurring patterns from the wealth of different measurement data from the SQ panel. 
+                  These patterns represent relevant life situations that can further improve the comfort of the smart home at home or in the office.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Unser <strong>Team für KI-Kompetenz</strong>  entwickelt stetig Konzepte, um aus der Fülle verschiedener Messdaten 
+                    des SQ-Panels wiederkehrende Muster zu erkennen. Diese Muster repräsentieren relevante Lebenssituationen, 
+                    die den Komfort im Smart Home zu Hause oder Büro weiter verbessern können.
+                  </>)} 
+                
+                  </p>            
+
+        </div>
+        
+
+           
+
+            {state === 'en' && (<>
+                  
+                </>
+              )}{state === 'de' && (
+                <>
+                  
+                </>)} 
+        
+      </div>
+      </section>
 
       <section
         className={`videoOne jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
         style={{
           backgroundImage: `url(${bannerImage})`,
+          
         }}
         data-jarallax
         data-speed="0.8"
