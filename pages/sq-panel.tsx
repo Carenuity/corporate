@@ -357,7 +357,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '580px',
+                height: '490px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -389,7 +389,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '580px',
+                height: '490px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -406,14 +406,12 @@ export const SqPanel = () => {
               />
               <p style={{ padding: '10px' }}>
               {state === 'en' && (<>
-                Control and display of the humidity. This can help you prevent possible mold formation. The 
-                device can determine the dew point and warn you before so-called condensation occurs.
+                Control and display of the humidity. This can help you prevent possible mold formation.
                   </>
                 )}{state === 'de' && (
                   <>
                     Kontrolle und Anzeige der Luftfeuchte. Das kann Ihnen helfen, einer möglichen 
-                Schimmelbildung vorzubeugen. Hierfür kann das Gerät den Taupunkt bestimmen und warnen,
-                 bevor sogn. Kondensfeuchte entsteht.
+                Schimmelbildung vorzubeugen. 
                   </>)} 
               </p>
             </div>
@@ -424,7 +422,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '580px',
+                height: '490px',
               }}
             >
                {state === 'en' && (<>
