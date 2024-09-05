@@ -588,8 +588,342 @@ export const SqPanel = () => {
                   </p>            
 
         </div>
-        
+        <h4>
+          {state === 'en' && (<>
+            What can the app do and why do I need the app if the Smart Home Standard Matter is 
+            supported by the SQ panel?
+                  </>
+                )}{state === 'de' && (
+                  <>
+                Was kann die App und warum benötige ich die App, wenn doch der Smart-Home Standard 
+                Matter vom SQ-Panel unterstützt wird?    
+                  </>)} 
+          </h4>
+        <div >
+          
+          <p>
+          {state === 'en' && (<>
+            You use the Carenuity app, which is available for Apple and Android, to put the SQ panel and 
+            connector into operation. This is done very easily using a QR code that is shown directly on 
+            the display. The app also allows you to monitor the sensor values over time in a particularly 
+            suitable way.
+            Example of a measurement curve, time course
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Sie nutzen die Carenuity App, die für Apple und Android zur Verfügung steht, um das SQ-Panel 
+                    und den Verbinder in Betrieb zu nehmen. Dies erfolgt in einfachster Weise über einen QR-Code, 
+                    der direkt auf dem Display angezeigt wird. Außerdem lassen sich mit der App die Sensorwerte über 
+                    die Zeit in einer besonders geeigneter Weise monitoren.
+                    Beispiel einer Messkurve, zeitlicher Verlauf
+                  </>)} 
+          </p>
+        </div>
+        <div className='mb-4'>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+                src="/img/content/Kickstarter/curve.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+        </div>
 
+        <div className=''>
+          
+          <p>
+          {state === 'en' && (<>
+            Using the app after the initial setup is then optional. With the integration into Matter, 
+            you can use the SQ Panel exclusively in your preferred ecosystem (multi-admin mode) and rely 
+            on these well-known standard apps:<strong>Amazon&apos;s Alexa, Apple&apos;s Home, Google Home,
+            Samsung&apos;s SmartThings, or Home Assistant (HA)</strong><br/>
+            The Carenuity app will soon provide additional information on what measures should be taken if 
+            measured values exceed the predefined thresholds.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Die Verwendung der App nach der Erst-Einrichtung ist dann optional. Mit der Integration in 
+                    Matter können Sie das SQ-Panel ausschließlich in Ihrem bevorzugten Ökosystem (Multi-Admin-Modus) 
+                    verwenden und dabei auf diese bekannten Standard-Apps zurückgreifen:<strong>Amazon&apos;s Alexa, Apple&apos;s Home, Google Home,
+                    Samsung&apos;s SmartThings, or Home Assistant (HA)</strong><br/>
+                    Über die Carenuity-App werden bald zusätzlich Hinweise gegeben, welche Maßnahmen sinnvoller Weise 
+                    zu ergreifen sind, wenn Messwerte die vordefinierten Schwellwerte übersteigen.
+                  </>)} 
+          </p>
+        </div>
+        <div className="col-lg- mb-6 wow fadeIn  ">
+            
+               <h4 >
+              {state === 'en' && (<>
+                All tiles with explanation at a glance.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Alle Kacheln mit Erklärung im Überblick.
+                  </>)} 
+              </h4>
+              <p >
+              {state === 'en' && (<>
+                The tiles change color as soon as values become critical. Using the colors 
+                of a traffic light, for example, this tile changes to red when the CO2 concentration is high. 
+                  </>
+                )}{state === 'de' && (
+                  <>
+                   Die Kacheln wechseln die Farbe, sobald Werte kritisch werden. 
+                   Mittels den Farben einer Ampel wechselt beispielsweise bei hoher 
+                   CO2-Konzentration diese Kachel auf eine rote Farbe. 
+                  </>)} 
+              </p>
+           
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/tile03.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+             
+              
+             
+          </div>
+          <div className=" mb-6 wow fadeIn  ">
+            
+               <h4 >
+              {state === 'en' && (<>
+                Commissioning.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Inbetriebnahme.
+                  </>)} 
+              </h4>
+              <p >
+              {state === 'en' && (<>
+                Detailed instructions and explanatory videos are available for commissioning. 
+                You can view and download these on our website.<br/>
+                <strong>Note:</strong> The parts in red, Fritzbox and cable, are not included in the starter kit.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                   Zur Inbetriebnahme stehen ihnen ausführliche Anleitungen und Erklärvideos zur 
+                   Verfügung. Diese können Sie auf unserer Website anschauen und herunterladen. <br/>
+                   <strong>Hinweis:</strong>  Die in rot gehaltenen Teile, Fritzbox und Kabel, sind nicht im Starter-Kit enthalten.
+                  </>)} 
+              </p>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/long-range.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+           
+          </div>
+          <h4>
+          {state === 'en' && (<>
+            Connecting the green USB cable to the connector.
+                  </>
+                )}{state === 'de' && (
+                  <>
+                    Anschluss des grünen USB-Kabels an den Verbinder.
+                  </>)} 
+          </h4>
+        <div className='col-lg-6 mb-4'>
+           {/* eslint-disable-next-line @next/next/no-img-element */}
+           <img
+                src="/img/content/Kickstarter/connection.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+        </div>
+        <div className='col-lg-6 mb-4'>
+           {/* eslint-disable-next-line @next/next/no-img-element */}
+           <img
+                src="/img/content/Kickstarter/connection02.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+        </div>
+        <div className='mb-4'>
+        <h4>
+           {state === 'en' && (<>
+            Can I place the SQ panel anywhere?
+                  </>
+                )}{state === 'de' && (
+                  <>
+                  Kann ich das SQ-Panel überall platzieren?  
+                  </>)} 
+           </h4>
+           <p>
+           {state === 'en' && (<>
+            On our website we offer you detailed information on what considerations you 
+            should make in order to identify the optimal location for the SQ panel. <br/>
+
+            Using the SQ panel as a tabletop device or wall-mounted offers its own advantages:
+                  </>
+                )}{state === 'de' && (
+                  <>
+                Auf unserer Webseite bieten wir Ihnen detaillierte Hinweise, welche Überlegungen 
+                Sie anstellen sollten, um den optimalen Platz für das SQ-Panel zu identifizieren.<br/> 
+
+                Die Verwendung des SQ-Panels als Tischgerät oder in Wandmontage bietet jeweils eigene Vorteile:    
+                  </>)} 
+           </p>
+           <ul style={{ listStyleType: 'square' }}>
+                  <li>{state === 'en' && ( <>
+                    <strong>Flexibility:</strong>  Easy to move and reposition.
+
+                </>)}{state === 'de' && (
+                <><strong>Flexibilität:</strong> Leicht zu bewegen und umzupositionieren.</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Easy installation:</strong>  No need for drilling or wall mounting.
+                </>)}{state === 'de' && (
+                <><strong>Einfache Installation:</strong> Keine Notwendigkeit für Bohrungen oder Wandbefestigungen.</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Accessibility:</strong>  Easy access for maintenance or replacement, but less reliable operation.
+
+                </>)}{state === 'de' && (
+                <><strong>Zugänglichkeit:</strong> Einfacher Zugang für Wartung oder Austausch, allerdings weniger verlässlicher Betrieb</>)}</li>
+                </ul>
+           <div className="mb-2">
+          <iframe
+            width="1150"
+            height="450"
+            src="https://www.youtube.com/embed/nCnTdzlanPo"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        </div>
+        <div>
+        <h4>
+           {state === 'en' && (<>
+            Wall mounting with SQ-Power in the flush-mounted installation, which supplies the SQ panel with 220V:
+                  </>
+                )}{state === 'de' && (
+                  <>
+                 Wandmontage mit SQ-Power im Unterputz, der das SQ-Panel mit 220V versorgt:
+                  </>)} 
+           </h4>
+           <strong>
+           {state === 'en' && (<>
+            The advantages of the flush-mounted solution are in the wall:
+                  </>
+                )}{state === 'de' && (
+                  <>
+                Die Vorteile der Unterputz-Lösung liegen in der Wand:  
+                  </>)} 
+           </strong>
+           <ul style={{ listStyleType: 'square' }}>
+                  <li>{state === 'en' && ( <>
+                    <strong>Space-saving: </strong> The SQ panel does not take up valuable space on work surfaces or shelves such as tables, dressers or shelves.
+
+                </>)}{state === 'de' && (
+                <><strong>Platzsparend:</strong>  Das SQ-Panel nimmt keinen wertvollen Platz auf Arbeits- / oder Stellflächen wie Tisch, Kommode oder Regal ein.
+                 </>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Aesthetics:</strong>   Wall mounting ensures a modern and tidy appearance. No cables - cable-free!
+                </>)}{state === 'de' && (
+                <><strong>Ästhetik:</strong> Die Wandmontage sorgt für ein modernes und aufgeräumtes Erscheinungsbild. Keine Kabel - kabelfrei!</>)}</li>
+
+                <li>{state === 'en' && ( <>
+                  <strong>Safety:</strong>   Reduced risk of the device being knocked over or moved. Accuracy and comparability of measurement results. Ensuring that 
+                  the SQ panel is not accidentally or intentionally switched off, thereby deactivating safety functions.
+
+                </>)}{state === 'de' && (
+                <><strong>Sicherheit:</strong> Weniger Risiko, dass das Gerät umgestoßen oder verschoben wird. Genauigkeit und Vergleichbarkeit der Messergebnisse. 
+                 Sicherstellung, dass das SQ-Panel nicht versehentlich oder absichtlich ausgeschaltet wird und damit Sicherheitsfunktionen inaktiviert werden.</>)}</li>
+                </ul>
+           <div className="mb-2">
+          <iframe
+            width="1150"
+            height="450"
+            src="https://www.youtube.com/embed/kLtLz_UDwzY"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        </div>
+
+        <div className='mb-4'>
+        <h4>
+           {state === 'en' && (<>
+            Conclusion on the mounting options.                  </>
+                )}{state === 'de' && (
+                  <>
+                 Fazit zu den Montageoptionen.
+                  </>)} 
+           </h4>
+           <p>
+           {state === 'en' && (<>
+            Both mounting options have their advantages and the choice depends on your specific 
+            requirements and preferences. We recommend wall mounting for permanent installation 
+            and table stand (docking station) for the initial phase of familiarizing yourself with the SQ panel.      
+                  </>
+                )}{state === 'de' && (
+                  <>
+              Beide Montage-Optionen haben ihre Vorzüge, und die Wahl hängt von Ihren spezifischen 
+              Anforderungen und Präferenzen ab. Wir empfehlen für die dauerhafte Montage die Anbringung 
+              an der Wand, und für die erste Phase des Vertraut-Werdens mit dem SQ-Panel die Aufstellung 
+              mittels Tischständer (Docking-Station).      
+                  </>)} 
+           </p>
+        </div>
+        <div className='mb-4'>
+        <h4>
+           {state === 'en' && (<>
+            Information video on the technology used. </>
+                )}{state === 'de' && (
+                  <>
+                 Informationsvideo zur eingesetzten Technik
+                  </>)} 
+           </h4>
+           <div className="mb-2">
+          <iframe
+            width="1150"
+            height="450"
+            src="https://www.youtube.com/embed/b_ILJvUFYYY"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        </div>
            
 
             {state === 'en' && (<>
