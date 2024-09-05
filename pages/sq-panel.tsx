@@ -358,7 +358,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '490px',
+                height: '500px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -390,7 +390,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '490px',
+                height: '500px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -423,7 +423,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '490px',
+                height: '500px',
               }}
             >
                {state === 'en' && (<>
@@ -481,7 +481,7 @@ export const SqPanel = () => {
           <iframe
             width="1150"
             height="450"
-            src="https://www.youtube.com/embed/WGcBlZnaca0"
+            src="https://www.youtube.com/embed/watch?v=azuZXhZeEnw"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
