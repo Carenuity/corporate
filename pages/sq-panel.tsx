@@ -481,7 +481,7 @@ export const SqPanel = () => {
           <iframe
             width="1150"
             height="450"
-            src="https://www.youtube.com/embed/watch?v=azuZXhZeEnw"
+            src="https://www.youtube.com/embed/b_ILJvUFYYY"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
