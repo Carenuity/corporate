@@ -45,12 +45,19 @@ export const SqPanel = () => {
 
       {/* <!-- PAGE TITLE
                 ================================================== --> */}
-      <PageTitle
+      {/* <PageTitle
             links={[{ path: '/', title: 'Home' }]}
             pageTitle={pageTitle}
             pageUrl="/sq-panel"
-          />
-
+          /> */}
+<section
+        className={`videoTwo jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
+        style={{
+          backgroundImage: `url(${bannerImage})`,
+        }}
+        data-jarallax
+        data-speed="0.8"
+      ></section>
       <section className="container">
 {/* kickstarter */}
       <div className="row">
