@@ -45,22 +45,27 @@ export const SqPanel = () => {
 
       {/* <!-- PAGE TITLE
                 ================================================== --> */}
-      {/* <PageTitle
+       <PageTitle
             links={[{ path: '/', title: 'Home' }]}
             pageTitle={pageTitle}
             pageUrl="/sq-panel"
-          /> */}
-<section
-        className={`videoTwo jarallax p-0 top-position2 full-screen video-banner dark-overlay`}
-        style={{
-          backgroundImage: `url(${bannerImage})`,
-        }}
-        data-jarallax
-        data-speed="0.8"
-      ></section>
+          /> 
+
       <section className="container">
 {/* kickstarter */}
       <div className="row">
+
+      <div className="mb-2">
+          <iframe
+            width="1150"
+            height="450"
+            src="https://www.youtube.com/embed/5rwa3OWmB0Q"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
 
       <h4 className="">
               {state === 'en' && (
@@ -488,7 +493,7 @@ export const SqPanel = () => {
           <iframe
             width="1150"
             height="450"
-            src="https://www.youtube.com/embed/b_ILJvUFYYY"
+            src="https://www.youtube.com/embed/azuZXhZeEnw"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
