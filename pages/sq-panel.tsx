@@ -370,7 +370,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '500px',
+                height: '520px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -402,7 +402,7 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '500px',
+                height: '520px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -435,19 +435,21 @@ export const SqPanel = () => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '500px',
+                height: '520px',
+                
               }}
             >
                {state === 'en' && (<>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/tiles.png"
+                src="/img/content/Kickstarter/tile.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
+                  height:"480px",
                   animationName: 'fadeIn',
                 }}
               />
@@ -456,19 +458,21 @@ export const SqPanel = () => {
                   <>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/tiles02.png"
+                src="/img/content/Kickstarter/tile02.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
+                  height:"480px",
                   animationName: 'fadeIn',
+                  
                 }}
               />
                   </>)} 
               
-              <h6 style={{ padding: '10px' }}>
+              <p style={{ padding: '10px' }}>
               {state === 'en' && (<>
                 All tiles at a glance
                   </>
@@ -476,7 +480,7 @@ export const SqPanel = () => {
                   <>
                     Alle Kacheln im Überblick
                   </>)} 
-              </h6>
+              </p>
             </div>
           </div>
           <h4>
@@ -690,10 +694,11 @@ export const SqPanel = () => {
                    CO2-Konzentration diese Kachel auf eine rote Farbe. 
                   </>)} 
               </p>
-           
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
+
+              {state === 'en' && (<>
+                 {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/tile03.png"
+                src="/img/content/Kickstarter/Slide1.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -703,6 +708,25 @@ export const SqPanel = () => {
                   animationName: 'fadeIn',
                 }}
               />
+                  </>
+                )}{state === 'de' && (
+                  <>
+                   {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Kickstarter/Slide2.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+                  
+                  </>)} 
+           
+                 
              
               
              
