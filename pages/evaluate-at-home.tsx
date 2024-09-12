@@ -336,7 +336,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '500px',
+                    height: '550px',
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -365,7 +365,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '500px',
+                    height: '550px',
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -395,7 +395,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   className="e-card mb-6"
                   style={{
                     boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '500px',
+                    height: '550px',
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
