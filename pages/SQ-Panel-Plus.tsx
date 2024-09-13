@@ -80,11 +80,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <label  className={' rounded-pill'}style={{backgroundColor:'#D3D3D3',}}>
 
                 <input type='text' placeholder='Enter your email' 
-                className={'btn btn-lg  rounded-pill'}
+                className={'btn   rounded-pill'}
                 style={{backgroundColor:'#D3D3D3',
                     textAlign:'left',
                     width:'450px',
-                    
+                    border:'none'
                 }}></input>
                 <button className={'btn btn-lg btn-success rounded-pill'}
                 style={{
