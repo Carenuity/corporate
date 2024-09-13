@@ -32,16 +32,16 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mb-20">
-              <h4 className=" mb-1">
+              <h5 className=" mb-1">
               Carenuity SQ-Panel Plus
-              </h4>
+              </h5>
               <h1>
-              The world's first smart sensor display with built-in sensors and Matter support.
+              The world&apos;s first smart sensor display with built-in sensors and Matter support.
               </h1>
               
               {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                src="/img/content/sq-panel-plus/matter1.jpeg"
+                src="/img/content/sq-panel-plus/matter.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -53,10 +53,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
               
         </div>
-        <div className="col-lg-5 mb-20">
+        <div className="col-lg-1 mb-20"></div>
+        <div className="col-lg-4 mb-20">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                src="/img/content/sq-panel-plus/sq-panel1.png"
+                src="/img/content/sq-panel-plus/sq-panel.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -107,9 +108,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               /> </div>
-               <h3>
+               <h4>
                Super easy to use
-            </h3>
+            </h4>
                <p>
                Just unbox and power it. It automatically comes with proper 
                settings, shows the values and alarms, which you can customize at any time.
@@ -131,9 +132,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               /> </div>
-               <h3>
+               <h4>
                Acts as a Gateway
-            </h3>
+            </h4>
                <p>
                No Hub needed. Smart Relay Switch can automate scenarios based on 
                sunrise/sunset, temperature, event triggering, and more.
@@ -155,9 +156,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               /> </div>
-               <h3>
+               <h4>
                Supports Matter
-            </h3>
+            </h4>
                <p>
                Can be used with Apple Home for even more smart home magic.
             </p>
@@ -178,9 +179,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               /> </div>
-               <h3>
+               <h4>
                Part of SwitchBot Ecosystem
-            </h3>
+            </h4>
                <p>
                Can be paired with more devices to provide you with more smart home scene solutions.
             </p>
