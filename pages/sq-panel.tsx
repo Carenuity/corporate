@@ -2,6 +2,7 @@ import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
+import Link from 'next/link';
 
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';
@@ -2431,11 +2432,23 @@ export const SqPanel = () => {
                 </div>
               </div>
             </div>
+            <div>
+              <h4>
+              SQ-Panel-Plus
+              </h4>
+              <p>
+              We are preparing a major upgrade for the SQ-Panel following the proposals from 
+              our community. To get early news, insights and potentially get a free Eval-Kit 
+              for early bird testing of new features, pls subscribe 
+              {' '}
+            <Link href="/SQ-Panel-Plus" className="text-success">
+              <strong className="text-success">here </strong>
+            </Link>
+            and stay tuned.
+              </p>
+            </div>
           </div>
-          {/* {' '}
-            <Link href="/evaluate-at-home" className="text-success">
-              <h6 className="text-success">Level 2</h6>
-            </Link> */}
+          
         </div>
       </section>
 
