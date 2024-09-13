@@ -97,7 +97,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div  className=" mb-6">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                src="/img/content/sq-panel-plus/installation.png"
+                src="/img/content/sq-panel-plus/easy.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
