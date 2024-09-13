@@ -188,15 +188,16 @@ const Menu = ({
                         className="ms-3 fw-light"
                         href={service.url}
                         style={
-                          // !!!service.url
-                          //   ? {
-                          //       pointerEvents: 'none',
-                          //       color: 'grey',
-                          //     }
-                          //   : {}
-                          {
-                            textAlign: 'left',
-                          }
+                          !service.url
+                            ? {
+                                pointerEvents: 'none',
+                                color: 'grey',
+                                textAlign: 'left',
+                              }
+                            : { textAlign: 'left' }
+                          // {
+                          //   textAlign: 'left',
+                          // }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>

@@ -40,12 +40,12 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™',
+      name: 'C3-Mini™ | Solution Builder',
       url: '/c3-mini',
       icon: 'fas fa-code',
     },
     {
-      name: 'Single Sensor Box',
+      name: 'Single Sensor Boxes',
       url: '/c3-mini-sensor',
       icon: 'fas fa-box',
     },
@@ -55,10 +55,15 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-keyboard',
     },
     {
-      name: 'C3-Mini™ Weather-Panel (launch 2nd H.2024)',
-      url: '/c3-mini-weather-panel',
-      icon: 'fa-solid fa-cloud',
+      name: 'AI Assisted Solutions (launch 3rd Q.2024)',
+      url: '',
+      icon: 'fa-solid fa-brain',
     },
+    // {
+    //   name: 'C3-Mini™ Weather-Panel (launch 2nd H.2024)',
+    //   url: '/c3-mini-weather-panel',
+    //   icon: 'fa-solid fa-cloud',
+    // },
   ],
   premium: [
     {
