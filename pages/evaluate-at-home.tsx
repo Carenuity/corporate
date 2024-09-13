@@ -341,26 +341,29 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                  src="/img/content/evaluate/sma.png"
-                  className="wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    
-                    animationName: 'fadeIn',
-                  }}
-                />
-                <p style={{padding:"20px"}}>
-                DHT22_C3-Mini_O.96OLED-Enclosure is a compact and functional 3D-printable case designed 
-                to accommodate a DHT22 temperature and humidity sensor, a C3-Mini microcontroller, and a 
-                0.96-inch OLED display. This enclosure provides protective housing for your electronics 
-                while allowing for easy access to ports and components.
-                </p>
-                </div></div>
+                    src="/img/content/evaluate/sma.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
 
-                <div className="col-md-4 mb-2">
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <p style={{ padding: '20px' }}>
+                    DHT22_C3-Mini_O.96OLED-Enclosure is a compact and functional
+                    3D-printable case designed to accommodate a DHT22
+                    temperature and humidity sensor, a C3-Mini microcontroller,
+                    and a 0.96-inch OLED display. This enclosure provides
+                    protective housing for your electronics while allowing for
+                    easy access to ports and components.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"
                   style={{
@@ -370,27 +373,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                  src="/img/content/evaluate/sq-panel03.png"
-                  className="wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                   
-                    animationName: 'fadeIn',
-                  }}
-                />
-                <p style={{padding:"20px"}}>
-                The enclosure offers a compact and efficient solution for integrating these components 
-                into projects requiring motion detection and display feedback. It features a precise snug 
-                fit to securely hold the Pico, PIR sensor, and OLED screen.
-                The triple-adapter design allows easy wiring and modularity, making it suitable 
-                for IoT, security, and automation applications.
-                </p>
-                </div></div>
+                    src="/img/content/evaluate/sq-panel03.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
 
-                <div className="col-md-4 mb-2">
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <p style={{ padding: '20px' }}>
+                    The enclosure offers a compact and efficient solution for
+                    integrating these components into projects requiring motion
+                    detection and display feedback. It features a precise snug
+                    fit to securely hold the Pico, PIR sensor, and OLED screen.
+                    The triple-adapter design allows easy wiring and modularity,
+                    making it suitable for IoT, security, and automation
+                    applications.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"
                   style={{
@@ -400,24 +406,20 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                  src="/img/content/evaluate/sq-panel02.png"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    width: '1980px',
-                    animationName: 'fadeIn',
-                  }}
-                />
-                <p style={{padding:"20px"}}>
-
-                </p>
-
-                </div></div>
-
-             
+                    src="/img/content/evaluate/sq-panel02.png"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      width: '1980px',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <p style={{ padding: '20px' }}></p>
+                </div>
+              </div>
 
               <div>
                 <h6>You can download the STL from here:</h6>

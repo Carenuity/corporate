@@ -46,7 +46,7 @@ export const servicesUrls: Service = {
     },
     {
       name: 'Single Sensor Boxes',
-      url: '/c3-mini-sensor',
+      url: '/single-sensor-boxes',
       icon: 'fas fa-box',
     },
     {
@@ -56,7 +56,7 @@ export const servicesUrls: Service = {
     },
     {
       name: 'AI Assisted Solutions (launch 3rd Q.2024)',
-      url: '',
+      url: '/ai-assisted-devices',
       icon: 'fa-solid fa-brain',
     },
     // {

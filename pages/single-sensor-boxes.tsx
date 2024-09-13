@@ -55,7 +55,7 @@ const Index = () => {
               src="/img/selection-boxes/C3-mini_selection-box_case.png"
               alt="selection box"
             />
-            <p className="mb-1-9 wow fadeIn" data-wow-delay="200ms">
+            {/* <p className="mb-1-9 wow fadeIn" data-wow-delay="200ms">
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.
             </p>
@@ -64,10 +64,10 @@ const Index = () => {
               className="btn-style2 px-3 small text-center"
             >
               <span className="text-white">Install For Free (7 Devices)</span>
-            </a>
+            </a> */}
           </div>
         </div>
-        <h3 className="h5">Build your own device within seconds:</h3>
+        {/* <h3 className="h5">Build your own device within seconds:</h3>
         <div className="row mb-1-9">
           <div className="col-md-4 wow fadeIn" data-wow-delay="200ms">
             <div className="d-flex align-items-center">
@@ -103,7 +103,7 @@ const Index = () => {
               <span className="ms-3 text-dark fw-bold">Presence Button</span>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row mb-1-9 bg-secondary p-3 text-white">
           <div
             className="col-lg-5 mb-4 mb-lg-0 wow fadeIn"
@@ -202,7 +202,7 @@ const Index = () => {
 
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.standard,
-  pageUrl: '/c3-mini-sensor',
-  pageTitle: 'Single Sensor Box',
+  pageUrl: '/single-sensor-boxes',
+  pageTitle: 'Single Sensor Boxes',
   serviceCategory: 'Budget Friendly Not Only For Students',
 });

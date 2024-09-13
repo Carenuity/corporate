@@ -1,11 +1,10 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
-import Link from 'next/link';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'AI-Assisted Devices';
+  const pageTitle = 'HealthCare Assisting Devices';
   return (
     <>
       <Head>
@@ -32,11 +31,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-10">
-              <h3 className=" mb-1">
-              AI-Assisted Devices
-              </h3>
-        </div>
-        </div>
+              <h3 className=" mb-1">HealthCare Assisting Devices</h3>
+            </div>
+          </div>
         </div>
       </section>
     </>
