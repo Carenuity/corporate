@@ -133,7 +133,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               /> </div>
                <h4>
-               Built-in Home assistsnt
+               Built-in Home Assistant
             </h4>
                <p>
                No Hub needed. The SQ-Panel Plus can automate your home 
