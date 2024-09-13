@@ -133,11 +133,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               /> </div>
                <h4>
-               Acts as a Gateway
+               Built-in Home assistsnt
             </h4>
                <p>
-               No Hub needed. Smart Relay Switch can automate scenarios based on 
-               sunrise/sunset, temperature, event triggering, and more.
+               No Hub needed. The SQ-Panel Plus can automate your home 
+               based on sunrise/sunset, temperature, event triggering, and more.
             </p>
         </div>
         
@@ -180,10 +180,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               /> </div>
                <h4>
-               Part of SwitchBot Ecosystem
+               Part of the Carenuity Platform
             </h4>
                <p>
-               Can be paired with more devices to provide you with more smart home scene solutions.
+               Can be paired with more devices like a particle-matter sensor to provice you with more smart home Solutions.
             </p>
         </div>
         </div>
