@@ -31,8 +31,33 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-10">
-              <h3 className=" mb-1">
+          <div
+          className="e-card mb-6"
+          style={{
+            boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+
+            maxHeight: '800px',
+            padding: '20px',
+          }}
+        >
+          <div className="row">
+          <div className="col-lg-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/Evaluate/intergate.jpeg"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                  height:''
+                }}
+              />
+            </div>
+            <div className="col-lg-9">
+              <h3 className=" mb-4">
                 Curious about new features for the SQ-Panel?
               </h3>
 
@@ -44,23 +69,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 looking forward to get your feedback on features! What is your
                 daily life experience with it at your home?{' '}
               </p>
-              <h3>Our motto: integrate - evaluate -advocate!</h3>
-            </div>
-            <div className="col-lg-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Evaluate/evaluate.jpeg"
-                className="mt-1-6 wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-
+              
+            </div></div></div>
+            
+            <h3>Our motto: integrate - evaluate -advocate!</h3>
             <div className="row">
               <div className="col-md-4 mb-2">
                 <div
@@ -205,7 +217,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
-              <div className="col-md-2 mb-2 ">
+              <div className="col-md-2 mb-6 ">
                 <h6>Results</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -221,7 +233,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 />
               </div>
-              <div className="col-md-6 mb-2 ">
+              <div className="col-md-6 mb-6 ">
                 <h6>
                   From SQ-Panel Prototype to an implemented feature of SQ-Panel
                 </h6>
@@ -240,14 +252,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </span>
                 </div>
 
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center ">
                   <i className="ti-check display-26 text-primary"></i>
                   <span className="ms-3 text-dark fw-bold">
                     It is interesting for more users with similar usecases.
                   </span>
                 </div>
               </div>
-              <div className="col-md-1 mb-2 ">
+              <div className="col-md-1 mb-6 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/Evaluate/arrow.png"
@@ -263,7 +275,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 />
               </div>
 
-              <div className="col-md-3 mb-2 ">
+              <div className="col-md-3 mb-6 ">
                 <h6>Implementation of the feature</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -282,12 +294,16 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <div className="mb-4">
-              <h5>What size do you prefer for evaluating features at home?</h5>
+              <h5>Eval-Kits for early bird testing of new features</h5>
+              <p>
+              We provide Eval-Kits in various sizes for placement at any spot and at 
+              any height. Which size do you prefer for evaluating the desired features at home?
+              </p>
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/Evaluate/sq-power-evaluate.jpeg"
-                className="mt-1-6 wow fadeInUp"
+                className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
