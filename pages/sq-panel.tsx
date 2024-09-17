@@ -3,6 +3,7 @@ import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
+import Translatable from '../components/Translatable';
 
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';
@@ -32,6 +33,7 @@ export const SqPanel = () => {
 
   return (
     <>
+      <Translatable />
       <Head>
         <meta
           name="keywords"
@@ -97,7 +99,7 @@ export const SqPanel = () => {
           <div className="mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/SQ-Panel-frontview.webp"
+              src="/img/content/sq-panel-frontview.webp"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -163,7 +165,7 @@ export const SqPanel = () => {
               <div className="col-lg-6 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/kickstarter/starter-kit02.png"
+                  src="/img/content/kickstarter/starter-kit02.PNG"
                   className="mt-1-9 wow fadeInUp img-fluid"
                   data-wow-delay="100ms"
                   alt="..."
@@ -181,7 +183,7 @@ export const SqPanel = () => {
               <div className="col-lg-6 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/kickstarter/starter-kit.png"
+                  src="/img/content/kickstarter/starter-kit.PNG"
                   className="mt-1-9 wow fadeInUp img-fluid"
                   data-wow-delay="100ms"
                   alt="..."
@@ -198,7 +200,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/Sq-panel.png"
+              src="/img/content/kickstarter/sq-panel.PNG"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -325,7 +327,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/Sq-panel02.png"
+              src="/img/content/kickstarter/sq-panel02.PNG"
               className=" wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -376,7 +378,7 @@ export const SqPanel = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/temp.png"
+                src="/img/content/kickstarter/temp.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -412,7 +414,7 @@ export const SqPanel = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/humidity.png"
+                src="/img/content/kickstarter/humidity.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -451,7 +453,7 @@ export const SqPanel = () => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Kickstarter/tile.png"
+                    src="/img/content/kickstarter/tile.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -468,7 +470,7 @@ export const SqPanel = () => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Kickstarter/tile02.png"
+                    src="/img/content/kickstarter/tile02.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -714,7 +716,7 @@ export const SqPanel = () => {
           <div className="mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/curve.png"
+              src="/img/content/kickstarter/curve.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -789,7 +791,7 @@ export const SqPanel = () => {
               <>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Kickstarter/Slide1.png"
+                  src="/img/content/kickstarter/slide1.PNG"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -805,7 +807,7 @@ export const SqPanel = () => {
               <>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Kickstarter/Slide2.png"
+                  src="/img/content/kickstarter/slide2.PNG"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -845,7 +847,7 @@ export const SqPanel = () => {
             </p>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/long-range.png"
+              src="/img/content/kickstarter/long-range.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -867,7 +869,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/connection.png"
+              src="/img/content/kickstarter/connection.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -881,7 +883,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/connection02.png"
+              src="/img/content/kickstarter/connection02.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1250,7 +1252,7 @@ export const SqPanel = () => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/gaia-x.png"
+              src="/img/content/kickstarter/gaia-x.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1362,7 +1364,7 @@ export const SqPanel = () => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/hz.png"
+              src="/img/content/kickstarter/hz.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1569,7 +1571,7 @@ export const SqPanel = () => {
           <div className="col-lg-4 ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/sq-panel03.png"
+              src="/img/content/kickstarter/sq-panel03.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1967,7 +1969,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mt-n1-9 mb-4 ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/SQ-Panel-frontview.webp"
+              src="/img/content/sq-panel-frontview.webp"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -2865,7 +2867,7 @@ export const SqPanel = () => {
                 proposals from our community. To get early news, insights and
                 potentially get a free Eval-Kit for early bird testing of new
                 features, pls subscribe{' '}
-                <Link href="/SQ-Panel-Plus" className="text-success">
+                <Link href="/sq-panel-plus" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.

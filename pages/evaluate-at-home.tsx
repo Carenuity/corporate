@@ -44,7 +44,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Evaluate/intergate.jpeg"
+                src="/img/content/evaluate/intergate.jpeg"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -84,7 +84,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Evaluate/evaluate1.jpeg"
+                    src="/img/content/evaluate/evaluate1.jpeg"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -135,7 +135,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Evaluate/evaluate2.jpeg"
+                    src="/img/content/evaluate/evaluate2.jpeg"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -187,7 +187,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Evaluate/evaluate3.jpeg"
+                    src="/img/content/evaluate/evaluate3.jpeg"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -221,7 +221,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h6>Results</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Evaluate/check1.png"
+                  src="/img/content/evaluate/check1.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -262,7 +262,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <div className="col-md-1 mb-6 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Evaluate/arrow.png"
+                  src="/img/content/evaluate/arrow.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -279,7 +279,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h6>Implementation of the feature</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Evaluate/sq-panel.png"
+                  src="/img/content/evaluate/sq-panel.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -302,7 +302,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Evaluate/sq-power-evaluate.jpeg"
+                src="/img/content/evaluate/sq-power-evaluate.jpeg"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -357,7 +357,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sma.png"
+                    src="/img/content/evaluate/sma.PNG"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -389,7 +389,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel03.png"
+                    src="/img/content/evaluate/sq-panel03.PNG"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -422,7 +422,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel02.png"
+                    src="/img/content/evaluate/sq-panel02.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."

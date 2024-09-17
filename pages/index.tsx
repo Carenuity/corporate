@@ -4,6 +4,7 @@ import { useContext, useEffect } from 'react';
 import Banner from '../components/Banner';
 import Link from 'next/link';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
+import Translatable from '../components/Translatable';
 
 export default function Home({
   // eslint-disable-next-line no-unused-vars
@@ -41,6 +42,7 @@ export default function Home({
 
   return (
     <>
+      <Translatable />
       <Head>
         <meta
           name="keywords"
