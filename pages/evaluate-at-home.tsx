@@ -305,7 +305,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/evaluate/sq-power-evaluate.jpeg"
+                src="/img/content/evaluate/Evaluation-Kits-Overview_2.jpeg"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."

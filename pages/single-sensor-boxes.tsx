@@ -18,43 +18,70 @@ const Index = () => {
               Single Sensor Box
             </span>
             <h2 className="mb-0 h5">
-              Grab any of the single sensor boxes and build your own device, by
-              installing 7 different sensors for getting a Barometer,
-              Hygrometer, Luxmeter, Motion Detector … all for free
+            Build your own device within 3 minutes.
             </h2>
+            <p>Single Sensor Boxes contain all you need to build your own device within 3 minutes.</p>
+          <p>Build devices like a Barometer, Hygrometer, Luxmeter or a Motion Detector.</p>
           </div>
+
           <h2 className="mb-3 h3">What is a Sensor Box</h2>
           <p className="mb-lg-1-9">
-            A Single Sensor Box is a module that comes with{' '}
+            {/* A Single Sensor Box is a module that comes with{' '}
             <strong>a Triple-Adapter</strong> to ease connecting sensor,
             microcontroller and actuator in any combination you prefer,{' '}
             <strong>a plastic casing</strong> to house the setup,{' '}
             <strong>a C3-Mini microcontroller</strong>,{' '}
             <strong>a display</strong> to read the measurement and{' '}
-            <strong>the seven sensors</strong> you can test with.
+            <strong>the seven sensors</strong> you can test with. */}
+            Each Single Sensor Box comes in an Acrylic Box, which includes a 
+            Triple-Adapter, three stackable boards (S-M-A), a 3D-printed enclosures
+             and an USB Type-C cable to power it.
           </p>
           <p>
+          The three slots with letters S-M-A stand for Sensor, Microcontroller 
+          and Actuator, typically a display. Besides the sensor, the core part 
+          is the C3-Mini microcontroller.
+          </p>
+          <p>
+          The plastic casing, a 3D-printed enclosure houses all the electronics. 
+          You can also print yourself enclosures in your preferred color and 
+          customized style. Find our free 3D-models on Thingiverse.
+          </p>
+          <p>
+          The Triple-Adapter makes it a breeze connecting the three boards, 
+          sensor, microcontroller and actuator, and you can even build new 
+          combinations of S-M-A by this base board, using the IoT Triple 
+          Selector of the Solution Builder.
+          </p>
+          <p>
+          All Sensor Boxes contain an actuator (display, buzzer or LED) 
+          to make the sensor measurements readable or to trigger acoustic 
+          or optical alarms.  
+          </p>
+          <p>
+          The USB Type-C data cable finally allows to inject a certain software 
+          (install-for-free from a browser window) and later on powering your 
+          built device at any location, e.g. by a phone charger.
+          </p>
+          
+          {/* <p>
             Beside the C3-Mini comes one Display to visualize the sensors
             measurements and a Buzzer for triggering an alarm. A Triple-Adapter
             allows to conveniently plug the parts together and the USB-A Type-C
             data cable inside allows powering your built device. Just use the
             free C3-Installer - of course for free.
-          </p>
+          </p> */}
+          <h4>By Single Sensor Boxes, you ca build the following devices</h4>
+          <h6>HealthCare Assisting Devices</h6>
         </div>
         <div className="row mb-1-9">
-          <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={'/img/selection-boxes/PIR_C3-Mini_0.66-OLED.jpeg'}
-              alt="selection box"
-            />
-          </div>
-          <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
+        <div className="col-md-6 wow mb-4 fadeIn" data-wow-delay="400ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/img/selection-boxes/C3-mini_selection-box_case.png"
               alt="selection box"
             />
+            <p>Air-Quality-Meter: Air Quality (VOCs, CO2 & Humidity)</p>
             {/* <p className="mb-1-9 wow fadeIn" data-wow-delay="200ms">
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.
@@ -66,6 +93,24 @@ const Index = () => {
               <span className="text-white">Install For Free (7 Devices)</span>
             </a> */}
           </div>
+          <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={'/img/selection-boxes/Bio-Pulse-Meter.jpeg'}
+              alt="selection box"
+            />
+            <p>Bio-Pulse Meter: Bio-Pulse Meter</p>
+          </div>
+          <h4>Motion Detection Devices</h4>
+          <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={'/img/selection-boxes/PIR_C3-Mini_0.66-OLED.jpeg'}
+              alt="selection box"
+            />
+            <p> Fridge Openings Counter</p>
+          </div>
+          
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
         <div className="row mb-1-9">
