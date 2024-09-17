@@ -302,7 +302,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Evaluate/sq-power-evaluate.jpeg"
+                src="/img/content/Evaluate/Evaluation-Kits-Overview_1.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -310,30 +310,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
+                  height:'400px'
                 }}
               />
             </div>
-            {/* <h5 className=" mb-1">
-        Install the prototypes
-        
-            </h5> */}
+          
 
             <div className="row">
-              {/* <div className='col-lg-6'> 
-
-        
-
-            <p> <strong>Prototype S "Triple Adapter</strong></p>
-            <p>Suited for D1- and C3-Mini Boards and all Sensors</p>
-            <p>Compatible with 0.66 inch and 0.96inch Displays</p>
-           
-                 </div> */}
+              
+                 
               <div className="col-lg-12">
                 {' '}
                 <Link href="/install-for-free" className="text-success">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sma01.jpeg"
+                    src="/img/content/evaluate/Evaluation-Kits-Overview_2.png"
                     className="mt-1-6 wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -368,13 +359,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       animationName: 'fadeIn',
                     }}
                   />
+                  <h6 style={{ padding: '20px' }}>
+                  Alternative Enclosure for Evaluation Kit – Size “S”
+                  </h6>
                   <p style={{ padding: '20px' }}>
-                    DHT22_C3-Mini_O.96OLED-Enclosure is a compact and functional
-                    3D-printable case designed to accommodate a DHT22
-                    temperature and humidity sensor, a C3-Mini microcontroller,
-                    and a 0.96-inch OLED display. This enclosure provides
-                    protective housing for your electronics while allowing for
-                    easy access to ports and components.
+                  This enclosure is optimized to save space on your desk and is first choice 
+                  for beginners. It comes in variants to match various sensors and accommodate
+                   the 0.66 inch or the 0.96 inch OLED display. You can stack it on 3D-printable TableStands.
                   </p>
                 </div>
               </div>
@@ -400,14 +391,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       animationName: 'fadeIn',
                     }}
                   />
+                  <h6 style={{ padding: '20px' }}>
+                  Alternative Enclosure for Evaluation Kit - Size “L”
+                  </h6>
                   <p style={{ padding: '20px' }}>
-                    The enclosure offers a compact and efficient solution for
-                    integrating these components into projects requiring motion
-                    detection and display feedback. It features a precise snug
-                    fit to securely hold the Pico, PIR sensor, and OLED screen.
-                    The triple-adapter design allows easy wiring and modularity,
-                    making it suitable for IoT, security, and automation
-                    applications.
+                  This medium-sized housing has a square shape and is optimized to lie 
+                  flat on the desk or stand, as shown. It is also available in variants 
+                  to match the sensors and accommodates the 0.66 inch or the 0.96 inch OLED 
+                  display. A TableStand is available on request.
                   </p>
                 </div>
               </div>
@@ -433,7 +424,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       animationName: 'fadeIn',
                     }}
                   />
-                  <p style={{ padding: '20px' }}></p>
+                  <h6 style={{ padding: '20px' }}>
+                  Alternative Enclosure for Evaluation Kit - Size “XL”
+                  </h6>
+                  <p style={{ padding: '20px' }}>
+                  This square shape housing comes with a TableStand, just like the SQ panel. 
+                  The electronics are located next to the large 2.4- or 2.8-inch display, 
+                  which preferably is covered with a spy mirror foil to conceal the electronics 
+                  and give it the appearance of a smart mirror.
+                  </p>
                 </div>
               </div>
 
