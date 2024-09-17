@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import { StoreProvider } from '../components/context/Store';
 import { LanguageSwitchProvider } from '../components/context/LanguageSwitch';
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
+import { TranslatableProvider } from '../components/context/TranslatableContext';
 
 declare global {
   // eslint-disable-next-line no-unused-vars
@@ -41,13 +42,15 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <LanguageSwitchProvider>
-        <StoreProvider>
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        </StoreProvider>
-      </LanguageSwitchProvider>
+      <TranslatableProvider>
+        <LanguageSwitchProvider>
+          <StoreProvider>
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          </StoreProvider>
+        </LanguageSwitchProvider>
+      </TranslatableProvider>
       <GoogleTagManager gtmId="GTM-NW9Q5ZRJ" />
       <GoogleAnalytics gaId="G-G9GH7W1RWR" />
     </>

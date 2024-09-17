@@ -1,13 +1,15 @@
 'use client';
 
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 import { LANG } from './context/LanguageSwitch/index.types';
 import Link from 'next/link';
+import { TranslatableContext } from './context/TranslatableContext';
 
 const LanguageSwitcher = () => {
   const { state, dispatch } = useContext(LanguageSwitchContext);
-  const [show, setShow] = useState(false);
+  const { state: show, dispatch: setShowDispatch } =
+    useContext(TranslatableContext);
 
   useEffect(() => {
     if (window.document !== undefined) {
@@ -17,12 +19,12 @@ const LanguageSwitcher = () => {
           const lang: LANG = navigator.language.includes('de') ? 'de' : 'en';
           dispatch({ lang, type: 'SET' });
         }
-        setShow(true);
+        setShowDispatch({ type: 'SHOW' });
       }
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [show]);
 
   return (
     <>
