@@ -31,47 +31,49 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-          <div
-          className="e-card mb-6"
-          style={{
-            boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+            <div
+              className="e-card mb-6"
+              style={{
+                boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
 
-            maxHeight: '800px',
-            padding: '20px',
-          }}
-        >
-          <div className="row">
-          <div className="col-lg-3">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Evaluate/intergate.jpeg"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                  height:''
-                }}
-              />
+                maxHeight: '800px',
+                padding: '20px',
+              }}
+            >
+              <div className="row">
+                <div className="col-lg-3">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/evaluate/intergate.jpeg"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                      height: '',
+                    }}
+                  />
+                </div>
+                <div className="col-lg-9">
+                  <h3 className=" mb-4">
+                    Curious about new features for the SQ-Panel?
+                  </h3>
+
+                  <p>
+                    Here you find fresh features for the SQ-Panel directly from
+                    the SQ-Labs development! Are you curious about features that
+                    are not yet included in your SQ-Panel? Then simply
+                    install-for-free new apps onto your prototype and try them
+                    at home. We&apos;re looking forward to get your feedback on
+                    features! What is your daily life experience with it at your
+                    home?{' '}
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="col-lg-9">
-              <h3 className=" mb-4">
-                Curious about new features for the SQ-Panel?
-              </h3>
 
-              <p>
-                Here you find fresh features for the SQ-Panel directly from the
-                SQ-Labs development! Are you curious about features that are not
-                yet included in your SQ-Panel? Then simply install-for-free new
-                apps onto your prototype and try them at home. We&apos;re
-                looking forward to get your feedback on features! What is your
-                daily life experience with it at your home?{' '}
-              </p>
-              
-            </div></div></div>
-            
             <h3>Our motto: integrate - evaluate -advocate!</h3>
             <div className="row">
               <div className="col-md-4 mb-2">
@@ -84,7 +86,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Evaluate/evaluate1.jpeg"
+                    src="/img/content/evaluate/evaluate1.jpeg"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -135,7 +137,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Evaluate/evaluate2.jpeg"
+                    src="/img/content/evaluate/evaluate2.jpeg"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -187,7 +189,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Evaluate/evaluate3.jpeg"
+                    src="/img/content/evaluate/evaluate3.jpeg"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -221,7 +223,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h6>Results</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Evaluate/check1.png"
+                  src="/img/content/evaluate/check1.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -262,7 +264,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <div className="col-md-1 mb-6 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Evaluate/arrow.png"
+                  src="/img/content/evaluate/arrow.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -279,7 +281,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h6>Implementation of the feature</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Evaluate/sq-panel.png"
+                  src="/img/content/evaluate/sq-panel.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -296,13 +298,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="mb-4">
               <h5>Eval-Kits for early bird testing of new features</h5>
               <p>
-              We provide Eval-Kits in various sizes for placement at any spot and at 
-              any height. Which size do you prefer for evaluating the desired features at home?
+                We provide Eval-Kits in various sizes for placement at any spot
+                and at any height. Which size do you prefer for evaluating the
+                desired features at home?
               </p>
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Evaluate/Evaluation-Kits-Overview_1.png"
+                src="/img/content/evaluate/sq-power-evaluate.jpeg"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -348,7 +351,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sma.png"
+                    src="/img/content/evaluate/sma.PNG"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -380,7 +383,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel03.png"
+                    src="/img/content/evaluate/sq-panel03.PNG"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -413,7 +416,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel02.png"
+                    src="/img/content/evaluate/sq-panel02.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."

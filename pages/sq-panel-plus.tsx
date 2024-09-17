@@ -181,8 +181,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <h4>Part of the Carenuity Platform</h4>
               <p>
-              Can be paired with more devices like a particle-matter sensor etc. 
-              to provide you with more smart home solutions.
+                Can be paired with more devices like a particle-matter sensor
+                etc. to provide you with more smart home solutions.
               </p>
             </div>
           </div>

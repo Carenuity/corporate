@@ -3,6 +3,7 @@ import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
+import Translatable from '../components/Translatable';
 
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';
@@ -32,6 +33,7 @@ export const SqPanel = () => {
 
   return (
     <>
+      <Translatable />
       <Head>
         <meta
           name="keywords"
@@ -97,7 +99,7 @@ export const SqPanel = () => {
           <div className="mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/SQ-Panel-frontview.webp"
+              src="/img/content/sq-panel-frontview.webp"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -163,7 +165,7 @@ export const SqPanel = () => {
               <div className="col-lg-6 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/kickstarter/starter-kit02.png"
+                  src="/img/content/kickstarter/starter-kit02.PNG"
                   className="mt-1-9 wow fadeInUp img-fluid"
                   data-wow-delay="100ms"
                   alt="..."
@@ -181,7 +183,7 @@ export const SqPanel = () => {
               <div className="col-lg-6 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/kickstarter/starter-kit.png"
+                  src="/img/content/kickstarter/starter-kit.PNG"
                   className="mt-1-9 wow fadeInUp img-fluid"
                   data-wow-delay="100ms"
                   alt="..."
@@ -198,7 +200,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/Sq-panel.png"
+              src="/img/content/kickstarter/sq-panel.PNG"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -325,7 +327,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/Sq-panel02.png"
+              src="/img/content/kickstarter/sq-panel02.PNG"
               className=" wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -376,7 +378,7 @@ export const SqPanel = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/temp.png"
+                src="/img/content/kickstarter/temp.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -412,7 +414,7 @@ export const SqPanel = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Kickstarter/humidity.png"
+                src="/img/content/kickstarter/humidity.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -451,7 +453,7 @@ export const SqPanel = () => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Kickstarter/tile.png"
+                    src="/img/content/kickstarter/tile.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -468,7 +470,7 @@ export const SqPanel = () => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Kickstarter/tile02.png"
+                    src="/img/content/kickstarter/tile02.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -714,7 +716,7 @@ export const SqPanel = () => {
           <div className="mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/curve.png"
+              src="/img/content/kickstarter/curve.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -789,7 +791,7 @@ export const SqPanel = () => {
               <>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Kickstarter/Slide1.png"
+                  src="/img/content/kickstarter/slide1.PNG"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -805,7 +807,7 @@ export const SqPanel = () => {
               <>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Kickstarter/Slide2.png"
+                  src="/img/content/kickstarter/slide2.PNG"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -845,7 +847,7 @@ export const SqPanel = () => {
             </p>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/long-range.png"
+              src="/img/content/kickstarter/long-range.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -867,7 +869,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/connection.png"
+              src="/img/content/kickstarter/connection.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -881,7 +883,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/connection02.png"
+              src="/img/content/kickstarter/connection02.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1119,98 +1121,107 @@ export const SqPanel = () => {
             </div>
           </div>
           <div>
-          <h4>
-              {state === 'en' && (
-                <>Advantages of the 868 MHz Frequency </>
-              )}
-              {state === 'de' && (
-                <>Vorteile der 868 MHz-Frequenz</>
-              )}
+            <h4>
+              {state === 'en' && <>Advantages of the 868 MHz Frequency </>}
+              {state === 'de' && <>Vorteile der 868 MHz-Frequenz</>}
             </h4>
-          <ul style={{ listStyleType: 'square' }}>
+            <ul style={{ listStyleType: 'square' }}>
               <li>
                 {state === 'en' && (
                   <>
-                    <strong> Increased Range: </strong> 
-                    The 868 MHz frequency allows for a greater range of wireless 
-                    connections, which is particularly beneficial in larger homes
-                     or buildings.
+                    <strong> Increased Range: </strong>
+                    The 868 MHz frequency allows for a greater range of wireless
+                    connections, which is particularly beneficial in larger
+                    homes or buildings.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <strong>Erhöhte Reichweite:</strong> 
-                    Die 868 MHz-Frequenz ermöglicht eine größere Reichweite der Funkverbindungen, 
-                    was besonders in größeren Häusern oder Gebäuden von Vorteil ist.
+                    <strong>Erhöhte Reichweite:</strong>
+                    Die 868 MHz-Frequenz ermöglicht eine größere Reichweite der
+                    Funkverbindungen, was besonders in größeren Häusern oder
+                    Gebäuden von Vorteil ist.
                   </>
                 )}
               </li>
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Better Wall Penetration:</strong> 
-                    frequency has better penetration through thick walls compared to 2.4 GHz, 
-                    leading to more reliable connections indoors.
+                    <strong>Better Wall Penetration:</strong>
+                    frequency has better penetration through thick walls
+                    compared to 2.4 GHz, leading to more reliable connections
+                    indoors.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <strong>Bessere Durchdringung von Wänden: </strong> 
-                    Diese Frequenz hat eine bessere Durchdringung von dicken Wänden im Vergleich
-                     zu 2,4 GHz, was zu einer zuverlässigeren Verbindung in Innenräumen führt.
+                    <strong>Bessere Durchdringung von Wänden: </strong>
+                    Diese Frequenz hat eine bessere Durchdringung von dicken
+                    Wänden im Vergleich zu 2,4 GHz, was zu einer zuverlässigeren
+                    Verbindung in Innenräumen führt.
                   </>
                 )}
               </li>
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Less Interference and More Bandwidth for Your Home Network:</strong> 
-                    Since the 868 MHz frequency is less congested than the 2.4 GHz band, there is 
-                    less interference from other devices like Wi-Fi or Bluetooth, resulting in 
-                    more speed and bandwidth for your devices.
+                    <strong>
+                      Less Interference and More Bandwidth for Your Home
+                      Network:
+                    </strong>
+                    Since the 868 MHz frequency is less congested than the 2.4
+                    GHz band, there is less interference from other devices like
+                    Wi-Fi or Bluetooth, resulting in more speed and bandwidth
+                    for your devices.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <strong>Weniger Störungen und mehr Bandbreite für Ihre Geräte:</strong> 
-                    Da die 868 MHz-Frequenz weniger überlastet ist als das 2,4 GHz-Band, gibt es weniger 
-                    Störungen durch andere Geräte wie WLAN oder Bluetooth und mehr Geschwindigkeit und Bandbreite für Ihre Geräte.
+                    <strong>
+                      Weniger Störungen und mehr Bandbreite für Ihre Geräte:
+                    </strong>
+                    Da die 868 MHz-Frequenz weniger überlastet ist als das 2,4
+                    GHz-Band, gibt es weniger Störungen durch andere Geräte wie
+                    WLAN oder Bluetooth und mehr Geschwindigkeit und Bandbreite
+                    für Ihre Geräte.
                   </>
                 )}
               </li>
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Energy Efficiency:</strong> 
+                    <strong>Energy Efficiency:</strong>
                     Devices operating on 868 MHz can be more energy-efficient as
-                     they require less power to penetrate walls.
+                    they require less power to penetrate walls.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <strong> Sparsamer dank Energieeffizienz: </strong> 
-                    Geräte, die auf 868 MHz senden, können energieeffizienter sein, da sie weniger Energie 
-                    benötigen, um durch Wände zu dringen.
+                    <strong> Sparsamer dank Energieeffizienz: </strong>
+                    Geräte, die auf 868 MHz senden, können energieeffizienter
+                    sein, da sie weniger Energie benötigen, um durch Wände zu
+                    dringen.
                   </>
                 )}
               </li>
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Security and Reliability:</strong> 
-                    The bidirectional communication and encryption of all radio packets 
-                    enhance the security and reliability of the system.
+                    <strong>Security and Reliability:</strong>
+                    The bidirectional communication and encryption of all radio
+                    packets enhance the security and reliability of the system.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <strong>Sicherheit und Zuverlässigkeit:</strong> 
-                    Die bidirektionale Kommunikation und die Verschlüsselung aller Funkpakete erhöhen 
-                    die Sicherheit und Zuverlässigkeit des Systems.
+                    <strong>Sicherheit und Zuverlässigkeit:</strong>
+                    Die bidirektionale Kommunikation und die Verschlüsselung
+                    aller Funkpakete erhöhen die Sicherheit und Zuverlässigkeit
+                    des Systems.
                   </>
                 )}
               </li>
-              </ul>
+            </ul>
           </div>
           <div className="mb-4">
             <h4>
@@ -1250,7 +1261,7 @@ export const SqPanel = () => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/gaia-x.png"
+              src="/img/content/kickstarter/gaia-x.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1362,7 +1373,7 @@ export const SqPanel = () => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/hz.png"
+              src="/img/content/kickstarter/hz.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1569,7 +1580,7 @@ export const SqPanel = () => {
           <div className="col-lg-4 ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Kickstarter/sq-panel03.png"
+              src="/img/content/kickstarter/sq-panel03.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1967,7 +1978,7 @@ export const SqPanel = () => {
           <div className="col-lg-6 mt-n1-9 mb-4 ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/SQ-Panel-frontview.webp"
+              src="/img/content/sq-panel-frontview.webp"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -2865,7 +2876,7 @@ export const SqPanel = () => {
                 proposals from our community. To get early news, insights and
                 potentially get a free Eval-Kit for early bird testing of new
                 features, pls subscribe{' '}
-                <Link href="/SQ-Panel-Plus" className="text-success">
+                <Link href="/sq-panel-plus" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.
