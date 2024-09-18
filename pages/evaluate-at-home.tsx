@@ -44,7 +44,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="col-lg-3">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/intergate.jpeg"
+                    src="/img/content/evaluate/intergrate.jpeg"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -60,15 +60,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <h3 className=" mb-4">
                     Curious about new features for the SQ-Panel?
                   </h3>
-
+                    <p><strong>Install-for-Free new Features on your Evaluation Kit and feedback to make it perfect.</strong></p>
                   <p>
-                    Here you find fresh features for the SQ-Panel directly from
-                    the SQ-Labs development! Are you curious about features that
-                    are not yet included in your SQ-Panel? Then simply
-                    install-for-free new apps onto your prototype and try them
-                    at home. We&apos;re looking forward to get your feedback on
-                    features! What is your daily life experience with it at your
-                    home?{' '}
+                  This is the way to get new features into your home, directly from the 
+                  SQ-Labs development. Are you curious about features that are not yet 
+                  available on your SQ-Panel? Then simply install-for-free the new ones
+                   on your evaluation kit - and try them out at home. We look forward to 
+                   your feedback on each new feature! What experiences have you had with 
+                   it in your everyday life at home?
                   </p>
                 </div>
               </div>
@@ -109,10 +108,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    Integrate your SQ-Panel Prototype at home, right at the
-                    desired and very specific spot. Place it e.g. right at the
-                    location to be e.g. beside your bed, on your desk or on top
-                    of your cupboard or even inside something specific.
+                    Get your Evaluation Kit, install-for-free the desired application and 
+                    integrate it into your home, integrate it into your smart home or use 
+                    it standalone (cloudfree) at home, exactly in the desired and very
+                     specific place. For example, For example, place it at the perfect 
+                     location for you, e.g. next to your bed, on your desk or on top of your 
+                     wardrobe or even inside something else.
                   </p>
                   <p
                     style={{
@@ -341,6 +342,78 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </Link>
               </div>
 
+                    <div>
+                      <h4>
+                      Select the right Sensor
+                      </h4>
+                      <p>
+                      
+                      Choose one of the ready-made Single Sensor Boxes or get inspired from a walk through
+                       the Show-Rooms to select the sensor, microcontroller and actuator individually.
+                      </p></div>
+                      
+                      <div className="col-lg-4" >
+                      <p >
+                      {!isMobile && (
+                        <Link
+                          href={'/single-sensor-boxes'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">Choose Single Sensor Boxes </span>
+                        </Link>
+                      )}
+
+                      {isMobile && (
+                        <a
+                          href={'/single-sensor-boxes'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">
+                          Choose Single Sensor Boxes{' '}
+                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                          </span>
+                        </a>
+                      )} 
+                    </p>
+                      </div>
+                      <div className="col-lg-1 mt-3">
+                        <p><strong>or</strong></p>
+                      </div>
+                      <div className="col-lg-6" >
+                      <p >
+                      {!isMobile && (
+                        <Link
+                          href={'/sensors'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">Select other Sensor </span>
+                        </Link>
+                      )}
+
+                      {isMobile && (
+                        <a
+                          href={'/sensors'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">
+                          Select other Sensor {' '}
+                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                          </span>
+                        </a>
+                      )} 
+                    </p>
+                      </div>
+                      <div>
+                        <h4>
+                        Housing for your device
+                        </h4>
+                        <p>
+                        
+                        Single Sensor Boxes come with enclosure. If you want 
+                        to customize your device, we offer 3D-printables on Thingiverse.
+                        </p>
+                      </div>
+                 
               <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"

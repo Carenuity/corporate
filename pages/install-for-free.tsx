@@ -186,7 +186,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     is required. Whether you&apos;re tracking atmospheric
                     changes of the weather, monitoring moisture levels
                     downstairs, or detecting motion at your entrance, the
-                    possibilities are endless.
+                    possibilities are endless. </p>
                     <p className=" mt-3">
                       {!isMobile && (
                         <Link
@@ -223,7 +223,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                         </a>
                       )}
                     </p>
-                  </p>
+                 
                 </div>
               </div>
               <div className="d-flex about-text">

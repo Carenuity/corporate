@@ -1137,7 +1137,7 @@ export const SqPanel = () => {
                 )}
                 {state === 'de' && (
                   <>
-                    <strong>Erhöhte Reichweite:</strong>
+                    <strong>Erhöhte Reichweite: </strong>
                     Die 868 MHz-Frequenz ermöglicht eine größere Reichweite der
                     Funkverbindungen, was besonders in größeren Häusern oder
                     Gebäuden von Vorteil ist.
@@ -1147,8 +1147,8 @@ export const SqPanel = () => {
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Better Wall Penetration:</strong>
-                    frequency has better penetration through thick walls
+                    <strong>Better Wall Penetration: </strong>
+                    Frequency has better penetration through thick walls
                     compared to 2.4 GHz, leading to more reliable connections
                     indoors.
                   </>
@@ -1167,8 +1167,7 @@ export const SqPanel = () => {
                   <>
                     <strong>
                       Less Interference and More Bandwidth for Your Home
-                      Network:
-                    </strong>
+                      Network: </strong>
                     Since the 868 MHz frequency is less congested than the 2.4
                     GHz band, there is less interference from other devices like
                     Wi-Fi or Bluetooth, resulting in more speed and bandwidth
@@ -1178,8 +1177,7 @@ export const SqPanel = () => {
                 {state === 'de' && (
                   <>
                     <strong>
-                      Weniger Störungen und mehr Bandbreite für Ihre Geräte:
-                    </strong>
+                      Weniger Störungen und mehr Bandbreite für Ihre Geräte: </strong>
                     Da die 868 MHz-Frequenz weniger überlastet ist als das 2,4
                     GHz-Band, gibt es weniger Störungen durch andere Geräte wie
                     WLAN oder Bluetooth und mehr Geschwindigkeit und Bandbreite
@@ -1190,7 +1188,7 @@ export const SqPanel = () => {
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Energy Efficiency:</strong>
+                    <strong>Energy Efficiency: </strong>
                     Devices operating on 868 MHz can be more energy-efficient as
                     they require less power to penetrate walls.
                   </>
@@ -1207,14 +1205,14 @@ export const SqPanel = () => {
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Security and Reliability:</strong>
+                    <strong>Security and Reliability: </strong>
                     The bidirectional communication and encryption of all radio
                     packets enhance the security and reliability of the system.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <strong>Sicherheit und Zuverlässigkeit:</strong>
+                    <strong>Sicherheit und Zuverlässigkeit: </strong>
                     Die bidirektionale Kommunikation und die Verschlüsselung
                     aller Funkpakete erhöhen die Sicherheit und Zuverlässigkeit
                     des Systems.

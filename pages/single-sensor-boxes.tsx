@@ -101,7 +101,7 @@ const Index = () => {
             />
             <p>Bio-Pulse Meter: Bio-Pulse Meter</p>
           </div>
-          <h4>Motion Detection Devices</h4>
+          <h6>Motion Detection Devices</h6>
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -110,6 +110,7 @@ const Index = () => {
             />
             <p> Fridge Openings Counter</p>
           </div>
+          <h6>Weather Station Devices</h6>
           
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
