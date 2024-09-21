@@ -42,19 +42,20 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             >
               <div className="row">
                 <div className="col-lg-3">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/evaluate/intergrate.jpeg"
-                    className=" wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      height: '',
-                    }}
-                  />
+                <video
+                src="/videos/content/sma1.mp4"
+                loop={true}
+                autoPlay={true}
+                muted
+                className="mt-1-9 wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  height: '400',
+                  animationName: 'fadeIn',
+                }}
+              />
                 </div>
                 <div className="col-lg-9">
                   <h3 className=" mb-4">
