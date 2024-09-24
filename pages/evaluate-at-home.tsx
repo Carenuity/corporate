@@ -86,7 +86,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/evaluate1.jpeg"
+                    src="/img/content/evaluate/evaluate01.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -139,7 +139,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/evaluate2.jpeg"
+                    src="/img/content/evaluate/evaluate02.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -191,7 +191,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/evaluate3.jpeg"
+                    src="/img/content/evaluate/evaluate03.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
