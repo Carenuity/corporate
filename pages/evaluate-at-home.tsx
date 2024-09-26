@@ -353,7 +353,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                        the Show-Rooms to select the sensor, microcontroller and actuator individually.
                       </p></div>
                       
-                      <div className="col-lg-4" >
+                      <div className="col-lg-4 mb-6" >
                       <p >
                       {!isMobile && (
                         <Link
@@ -377,10 +377,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       )} 
                     </p>
                       </div>
-                      <div className="col-lg-1 mt-3">
+                      <div className="col-lg-1 mt-3 mb-6">
                         <p><strong>or</strong></p>
                       </div>
-                      <div className="col-lg-6" >
+                      <div className="col-lg-6 mb-6" >
                       <p >
                       {!isMobile && (
                         <Link
@@ -414,6 +414,131 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         to customize your device, we offer 3D-printables on Thingiverse.
                         </p>
                       </div>
+
+                      <div className="col-md-4 mb-2">
+                <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '700px',
+                  }}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/evaluate/sq-panel-s-m.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <h6
+                    style={{
+                      padding: '10px',
+                    }}
+                  >
+                   SQ-Panel-like Enclosure for Evaluation Kit - Size “M”
+                  </h6>
+                  <p
+                    style={{
+                      padding: '10px',
+                    }}
+                  >
+                    A SQ-Panel-like M-sized housing with the SQ-TableStand to 
+                    accommodate the 66.4 mm x 66.4 mm Evaluation-Kit, that is 
+                    optimized to house the Triple-Adapter with Sensor, C3-Mini 
+                    and an 0.66 inch or the 0.96 inch OLED display. An S-sized 
+                    variant 64.0mm x 64.0 mm is in preparation.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-4 mb-2">
+                <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '700px',
+                  }}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/evaluate/sq-panel-l.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <h6
+                    style={{
+                      padding: '10px',
+                    }}
+                  >
+                    SQ-Panel-like Enclosure for Evaluation Kit - Size “L”
+                  </h6>
+                  <p
+                    style={{
+                      padding: '10px',
+                    }}
+                  >
+                    A large SQ-Panel-like L-sized housing with the SQ-TableStand 
+                    to accommodate the 79.1 mm x 79.1 mm Evaluation-Kit, that is 
+                    optimized to house a variety of Sensors with the Raspberry-Pi 
+                    Pico W (Infineon Wifi) and the 0.66 inch or the 0.96 inch OLED display.
+
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-4 mb-2">
+                <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '700px',
+                  }}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/evaluate/sq-panel-xl.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <h6
+                    style={{
+                      padding: '10px',
+                    }}
+                  >
+                   SQ-Panel-like Enclosure for Evaluation Kit – Size “XL”
+                  </h6>
+                  <p
+                    style={{
+                      padding: '10px',
+                    }}
+                  >
+                    The extra large SQ-Panel-like XL-sized housing with the SQ-TableStand
+                     for the large 2.4- or 2.8-inch displays can accommodate the 87.0 mm x
+                      87.0 mm Evaluation-Kit. It preferably gets covered with a spy mirror
+                       foil to conceal the electronics and give it the appearance of a smart 
+                       mirror.
+                  </p>
+                </div>
+              </div>
+
                  
               <div className="col-md-4 mb-2">
                 <div

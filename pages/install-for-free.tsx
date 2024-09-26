@@ -39,15 +39,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               Build your own device within 3 minutes to immediately sense
               what&apos;s going on.
             </h3>
-
+            
             <strong className=" mb-1">
-              Grab & plug your Triple (S, M & A) from your drawer or go shop{' '}
-              <a
+            Select your S-M-A Triple, grab the available parts from your drawer or go <a
                 href="https://www.chipglobe.shop/c/iot-systeme/d1-c3-mini-shield"
                 className="text-success"
               >
-                here
-              </a>{' '}
+                shopping 
+              </a>{' '} for getting more suited sensor boxes.
             </strong>
           </div>
 
@@ -56,7 +55,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '400px',
+                height: '500px',
               }}
             >
               <video
@@ -71,11 +70,17 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   animationDelay: '100ms',
 
                   animationName: 'fadeIn',
+                   
                 }}
               />
+              <h6 style={{ padding: '10px' }}>1. Make Your Triple</h6>
               <p style={{ padding: '10px' }}>
-                <strong>1. Make Your Triple</strong>
+                
+                Make your S-M-A Triple by attaching the three basic components 
+                  of any IoT solution, the Sensor, the Microcontroller and the Actuator 
+                  onto the black Triple-Adapter.
               </p>
+              
             </div>
           </div>
 
@@ -84,7 +89,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '400px',
+                height: '500px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -99,12 +104,16 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               />
-              <p style={{ padding: '10px' }}>
-                <strong>
+              <h6 style={{ padding: '10px' }}>
                   2. Install one of the various prepared applications to your
                   tripple
-                </strong>
+                </h6>
+              <p style={{ padding: '10px' }}>
+               
+                Inject an application from Solution Builder website into your Triple 
+                by using any browser on your laptop or pc, no extra pc-software-installation is required.
               </p>
+              
             </div>
           </div>
 
@@ -113,12 +122,12 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               className="e-card"
               style={{
                 boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                height: '400px',
+                height: '500px',
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/sma.jpeg"
+                src="/img/content/Install/Install-for-Free.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -126,11 +135,16 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
+                 
                 }}
               />
+              <h6 style={{ padding: '10px' }}>3. Enclose and place in your home</h6>
               <p style={{ padding: '10px' }}>
-                <strong>3. Enclose and place in your home</strong>
+              
+                House your Triple by a 3D-printed enclosure (optional)
+                 and place it in your apartment, powered by a phone charger, no pc required.
               </p>
+              
             </div>
           </div>
 
@@ -319,9 +333,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-
+                  <h6 style={{ padding: '10px' }}>Cloudfree</h6>
                 <p style={{ padding: '10px' }}>
-                  <h6>Cloudfree</h6>
+                  
                   The most secure and simple device does not relate to the
                   internet at all. You install it and it just works. This device
                   category is the best, if you do not need features besides the
@@ -351,9 +365,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-
+                   <h6 style={{ padding: '10px' }}>Home Assistant</h6>
                 <p style={{ padding: '10px' }}>
-                  <h6>Home Assistant</h6>
+                 
                   Home Assistant specifies in detail, which actions is to be
                   taken, if a device senses a certain situation. HA is currently
                   the worlds most popular environment for smart home devices.
@@ -381,9 +395,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-
+                  <h6 style={{ padding: '10px' }}>IoT AppStore</h6>
                 <p style={{ padding: '10px' }}>
-                  <h6>IoT AppStore</h6>
+                  
                   If you have the idea of more devices, which you want to
                   jointly orchester by updates over the air, possibly at remote
                   locations (e.g. at your parents home) the IoT solution is your
@@ -412,9 +426,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-
+                <h6 style={{ padding: '10px' }}>Matter</h6>
                 <p style={{ padding: '10px' }}>
-                  <h6>Matter</h6>
+                  
                   Matter allows you to integrate your sensor device with up to
                   five of the most popular platforms at once, such as
                   Amazon&apos;s Alexa, Apple&apos;s Home, Google Home,

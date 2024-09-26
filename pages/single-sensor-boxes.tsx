@@ -112,6 +112,14 @@ const Index = () => {
           </div>
           <h6>Weather Station Devices</h6>
           
+          <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={'/img/selection-boxes/envirosence.jpeg'}
+              alt="selection box"
+            />
+            </div>
+          
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
         <div className="row mb-1-9">
