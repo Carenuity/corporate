@@ -77,8 +77,22 @@ const Page = () => {
             </div>
           </div>
 
+          <div className=" mb-6">
+            <h5 className=" mb-3">IoT Smart Home Challenge Overview</h5>
+            <p>
+            The IoT Smart Home Challenge is a structured program designed to guide students 
+            through progressively complex tasks in the realm of IoT and smart home devices. 
+            Targeted at beginners with basic knowledge in electronics and programming, this 
+            challenge aims to enhance both technical skills and practical knowledge. Each 
+            level builds on the previous one, ensuring a comprehensive learning experience
+             that is both educational and motivational. The challenge covers a wide range 
+             of topics, from basic soldering and simulation to advanced machine learning 
+             and image recognition.
+            </p>
+            </div>
+
           <div>
-            <h5 className=" mb-3">Talent Walkthrough</h5>
+            <h5 className=" mb-3">Preview on Talents Walkthrough</h5>
             <p>
               The <strong>Talents&apos; </strong>Walkthrough overview for the
               Home Challenge is a guide designed to help users navigate and
@@ -96,7 +110,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '280px',
+                  height: '300px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -127,7 +141,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '280px',
+                  height: '300px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -157,7 +171,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '280px',
+                  height: '300px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
