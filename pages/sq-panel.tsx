@@ -1167,7 +1167,8 @@ export const SqPanel = () => {
                   <>
                     <strong>
                       Less Interference and More Bandwidth for Your Home
-                      Network: </strong>
+                      Network:{' '}
+                    </strong>
                     Since the 868 MHz frequency is less congested than the 2.4
                     GHz band, there is less interference from other devices like
                     Wi-Fi or Bluetooth, resulting in more speed and bandwidth
@@ -1177,7 +1178,8 @@ export const SqPanel = () => {
                 {state === 'de' && (
                   <>
                     <strong>
-                      Weniger Störungen und mehr Bandbreite für Ihre Geräte: </strong>
+                      Weniger Störungen und mehr Bandbreite für Ihre Geräte:{' '}
+                    </strong>
                     Da die 868 MHz-Frequenz weniger überlastet ist als das 2,4
                     GHz-Band, gibt es weniger Störungen durch andere Geräte wie
                     WLAN oder Bluetooth und mehr Geschwindigkeit und Bandbreite

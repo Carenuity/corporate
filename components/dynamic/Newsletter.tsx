@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useContext } from 'react';
 import { LanguageSwitchContext } from '../context/LanguageSwitch';
 
-const Newsletter = ({ email }: { email: string }) => {
+const Newsletter = (/*{ email }: { email: string }*/) => {
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -22,16 +22,18 @@ const Newsletter = ({ email }: { email: string }) => {
           )}
         </p>
         <Link
-          href={`mailto:${email}?subject=${encodeURIComponent(
-            'Subscription to Carenuity Newsletter'
-          )}&body=${encodeURIComponent(
-            'Please add me to your Distribution List for the Carenuity Newsletter. Thank you.'
-          )}`}
-          className="btn-style1 secondary small text-center col-12"
+          href={'/sq-panel-plus#subscribe'}
+          // href={`mailto:${email}?subject=${encodeURIComponent(
+          //   'Subscription to Carenuity Newsletter'
+          // )}&body=${encodeURIComponent(
+          //   'Please add me to your Distribution List for the Carenuity Newsletter. Thank you.'
+          // )}`}
+          className="btn btn-sm btn-success rounded-pill secondary small text-center col-12"
+          // className="btn-style1 secondary small text-center col-12"
         >
           <span>
-            {state === 'en' && <>Subscribe with us</>}
-            {state === 'de' && <>Abonnieren Sie uns</>}
+            {state === 'en' && <>Subscribe</>}
+            {state === 'de' && <>Abonnieren</>}
           </span>
         </Link>
       </div>

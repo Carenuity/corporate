@@ -661,19 +661,19 @@ const Index = () => {
         </div>
 
         <video
-                src="/videos/content/c3-mini.mp4"
-                loop={true}
-                autoPlay={true}
-                muted
-                className="mt-1-9 wow fadeInUp w-100"
-                data-wow-delay="100ms"
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  height: '400',
-                  animationName: 'fadeIn',
-                }}
-              />
+          src="/videos/content/c3-mini.mp4"
+          loop={true}
+          autoPlay={true}
+          muted
+          className="mt-1-9 wow fadeInUp w-100"
+          data-wow-delay="100ms"
+          style={{
+            visibility: 'visible',
+            animationDelay: '100ms',
+            height: '400',
+            animationName: 'fadeIn',
+          }}
+        />
       </div>
     </>
   );

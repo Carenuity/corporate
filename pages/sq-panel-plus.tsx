@@ -65,7 +65,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div className=" mb-4" style={{ textAlign: 'center' }}>
+            <div
+              id="subscribe"
+              className=" mb-4"
+              style={{ textAlign: 'center' }}
+            >
               <h2>Subscription</h2>
               <p>Sign up for exclusive product launch discounts!</p>
             </div>
@@ -77,7 +81,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <input
                   type="text"
                   placeholder="Enter your email"
-                  className={'btn   rounded-pill'}
+                  className={'btn rounded-pill'}
                   style={{
                     backgroundColor: '#D3D3D3',
                     textAlign: 'left',

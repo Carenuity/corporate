@@ -42,33 +42,39 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             >
               <div className="row">
                 <div className="col-lg-3">
-                <video
-                src="/videos/content/sma1.mp4"
-                loop={true}
-                autoPlay={true}
-                muted
-                className="mt-1-9 wow fadeInUp w-100"
-                data-wow-delay="100ms"
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  height: '400',
-                  animationName: 'fadeIn',
-                }}
-              />
+                  <video
+                    src="/videos/content/sma1.mp4"
+                    loop={true}
+                    autoPlay={true}
+                    muted
+                    className="mt-1-9 wow fadeInUp w-100"
+                    data-wow-delay="100ms"
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      height: '400',
+                      animationName: 'fadeIn',
+                    }}
+                  />
                 </div>
                 <div className="col-lg-9">
                   <h3 className=" mb-4">
                     Curious about new features for the SQ-Panel?
                   </h3>
-                    <p><strong>Install-for-Free new Features on your Evaluation Kit and feedback to make it perfect.</strong></p>
                   <p>
-                  This is the way to get new features into your home, directly from the 
-                  SQ-Labs development. Are you curious about features that are not yet 
-                  available on your SQ-Panel? Then simply install-for-free the new ones
-                   on your evaluation kit - and try them out at home. We look forward to 
-                   your feedback on each new feature! What experiences have you had with 
-                   it in your everyday life at home?
+                    <strong>
+                      Install-for-Free new Features on your Evaluation Kit and
+                      feedback to make it perfect.
+                    </strong>
+                  </p>
+                  <p>
+                    This is the way to get new features into your home, directly
+                    from the SQ-Labs development. Are you curious about features
+                    that are not yet available on your SQ-Panel? Then simply
+                    install-for-free the new ones on your evaluation kit - and
+                    try them out at home. We look forward to your feedback on
+                    each new feature! What experiences have you had with it in
+                    your everyday life at home?
                   </p>
                 </div>
               </div>
@@ -109,12 +115,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    Get your Evaluation Kit, install-for-free the desired application and 
-                    integrate it into your home, integrate it into your smart home or use 
-                    it standalone (cloudfree) at home, exactly in the desired and very
-                     specific place. For example, For example, place it at the perfect 
-                     location for you, e.g. next to your bed, on your desk or on top of your 
-                     wardrobe or even inside something else.
+                    Get your Evaluation Kit, install-for-free the desired
+                    application and integrate it into your home, integrate it
+                    into your smart home or use it standalone (cloudfree) at
+                    home, exactly in the desired and very specific place. For
+                    example, For example, place it at the perfect location for
+                    you, e.g. next to your bed, on your desk or on top of your
+                    wardrobe or even inside something else.
                   </p>
                   <p
                     style={{
@@ -315,15 +322,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
-                  height:'400px'
+                  height: '400px',
                 }}
               />
             </div>
-          
 
             <div className="row">
-              
-                 
               <div className="col-lg-12">
                 {' '}
                 <Link href="/install-for-free" className="text-success">
@@ -343,79 +347,77 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </Link>
               </div>
 
-                    <div>
-                      <h4>
-                      Select the right Sensor
-                      </h4>
-                      <p>
-                      
-                      Choose one of the ready-made Single Sensor Boxes or get inspired from a walk through
-                       the Show-Rooms to select the sensor, microcontroller and actuator individually.
-                      </p></div>
-                      
-                      <div className="col-lg-4 mb-6" >
-                      <p >
-                      {!isMobile && (
-                        <Link
-                          href={'/single-sensor-boxes'}
-                          className={'btn btn-lg btn-success rounded-pill'} 
-                        >
-                          <span className="small">Choose Single Sensor Boxes </span>
-                        </Link>
-                      )}
+              <div>
+                <h4>Select the right Sensor</h4>
+                <p>
+                  Choose one of the ready-made Single Sensor Boxes or get
+                  inspired from a walk through the Show-Rooms to select the
+                  sensor, microcontroller and actuator individually.
+                </p>
+              </div>
 
-                      {isMobile && (
-                        <a
-                          href={'/single-sensor-boxes'}
-                          className={'btn btn-lg btn-success rounded-pill'} 
-                        >
-                          <span className="small">
-                          Choose Single Sensor Boxes{' '}
-                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                          </span>
-                        </a>
-                      )} 
-                    </p>
-                      </div>
-                      <div className="col-lg-1 mt-3 mb-6">
-                        <p><strong>or</strong></p>
-                      </div>
-                      <div className="col-lg-6 mb-6" >
-                      <p >
-                      {!isMobile && (
-                        <Link
-                          href={'/sensors'}
-                          className={'btn btn-lg btn-success rounded-pill'} 
-                        >
-                          <span className="small">Select other Sensor </span>
-                        </Link>
-                      )}
+              <div className="col-lg-4 mb-6">
+                <p>
+                  {!isMobile && (
+                    <Link
+                      href={'/single-sensor-boxes'}
+                      className={'btn btn-lg btn-success rounded-pill'}
+                    >
+                      <span className="small">Choose Single Sensor Boxes </span>
+                    </Link>
+                  )}
 
-                      {isMobile && (
-                        <a
-                          href={'/sensors'}
-                          className={'btn btn-lg btn-success rounded-pill'} 
-                        >
-                          <span className="small">
-                          Select other Sensor {' '}
-                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                          </span>
-                        </a>
-                      )} 
-                    </p>
-                      </div>
-                      <div>
-                        <h4>
-                        Housing for your device
-                        </h4>
-                        <p>
-                        
-                        Single Sensor Boxes come with enclosure. If you want 
-                        to customize your device, we offer 3D-printables on Thingiverse.
-                        </p>
-                      </div>
+                  {isMobile && (
+                    <a
+                      href={'/single-sensor-boxes'}
+                      className={'btn btn-lg btn-success rounded-pill'}
+                    >
+                      <span className="small">
+                        Choose Single Sensor Boxes{' '}
+                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      </span>
+                    </a>
+                  )}
+                </p>
+              </div>
+              <div className="col-lg-1 mt-3 mb-6">
+                <p>
+                  <strong>or</strong>
+                </p>
+              </div>
+              <div className="col-lg-6 mb-6">
+                <p>
+                  {!isMobile && (
+                    <Link
+                      href={'/sensors'}
+                      className={'btn btn-lg btn-success rounded-pill'}
+                    >
+                      <span className="small">Select other Sensor </span>
+                    </Link>
+                  )}
 
-                      <div className="col-md-4 mb-2">
+                  {isMobile && (
+                    <a
+                      href={'/sensors'}
+                      className={'btn btn-lg btn-success rounded-pill'}
+                    >
+                      <span className="small">
+                        Select other Sensor{' '}
+                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      </span>
+                    </a>
+                  )}
+                </p>
+              </div>
+              <div>
+                <h4>Housing for your device</h4>
+                <p>
+                  Single Sensor Boxes come with enclosure. If you want to
+                  customize your device, we offer 3D-printables on Thingiverse.
+                </p>
+              </div>
+
+              <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"
                   style={{
@@ -441,17 +443,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                   SQ-Panel-like Enclosure for Evaluation Kit - Size “M”
+                    SQ-Panel-like Enclosure for Evaluation Kit - Size “M”
                   </h6>
                   <p
                     style={{
                       padding: '10px',
                     }}
                   >
-                    A SQ-Panel-like M-sized housing with the SQ-TableStand to 
-                    accommodate the 66.4 mm x 66.4 mm Evaluation-Kit, that is 
-                    optimized to house the Triple-Adapter with Sensor, C3-Mini 
-                    and an 0.66 inch or the 0.96 inch OLED display. An S-sized 
+                    A SQ-Panel-like M-sized housing with the SQ-TableStand to
+                    accommodate the 66.4 mm x 66.4 mm Evaluation-Kit, that is
+                    optimized to house the Triple-Adapter with Sensor, C3-Mini
+                    and an 0.66 inch or the 0.96 inch OLED display. An S-sized
                     variant 64.0mm x 64.0 mm is in preparation.
                   </p>
                 </div>
@@ -489,11 +491,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    A large SQ-Panel-like L-sized housing with the SQ-TableStand 
-                    to accommodate the 79.1 mm x 79.1 mm Evaluation-Kit, that is 
-                    optimized to house a variety of Sensors with the Raspberry-Pi 
-                    Pico W (Infineon Wifi) and the 0.66 inch or the 0.96 inch OLED display.
-
+                    A large SQ-Panel-like L-sized housing with the SQ-TableStand
+                    to accommodate the 79.1 mm x 79.1 mm Evaluation-Kit, that is
+                    optimized to house a variety of Sensors with the
+                    Raspberry-Pi Pico W (Infineon Wifi) and the 0.66 inch or the
+                    0.96 inch OLED display.
                   </p>
                 </div>
               </div>
@@ -523,23 +525,23 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                   SQ-Panel-like Enclosure for Evaluation Kit - Size “XL”
+                    SQ-Panel-like Enclosure for Evaluation Kit - Size “XL”
                   </h6>
                   <p
                     style={{
                       padding: '10px',
                     }}
                   >
-                    The extra large SQ-Panel-like XL-sized housing with the SQ-TableStand
-                     for the large 2.4- or 2.8-inch displays can accommodate the 87.0 mm x
-                      87.0 mm Evaluation-Kit. It preferably gets covered with a spy mirror
-                       foil to conceal the electronics and give it the appearance of a smart 
-                       mirror.
+                    The extra large SQ-Panel-like XL-sized housing with the
+                    SQ-TableStand for the large 2.4- or 2.8-inch displays can
+                    accommodate the 87.0 mm x 87.0 mm Evaluation-Kit. It
+                    preferably gets covered with a spy mirror foil to conceal
+                    the electronics and give it the appearance of a smart
+                    mirror.
                   </p>
                 </div>
               </div>
 
-                 
               <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"
@@ -562,12 +564,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     }}
                   />
                   <h6 style={{ padding: '20px' }}>
-                  Alternative Enclosure for Evaluation Kit – Size “S”
+                    Alternative Enclosure for Evaluation Kit – Size “S”
                   </h6>
                   <p style={{ padding: '20px' }}>
-                  This enclosure is optimized to save space on your desk and is first choice 
-                  for beginners. It comes in variants to match various sensors and accommodate
-                   the 0.66 inch or the 0.96 inch OLED display. You can stack it on 3D-printable TableStands.
+                    This enclosure is optimized to save space on your desk and
+                    is first choice for beginners. It comes in variants to match
+                    various sensors and accommodate the 0.66 inch or the 0.96
+                    inch OLED display. You can stack it on 3D-printable
+                    TableStands.
                   </p>
                 </div>
               </div>
@@ -594,13 +598,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     }}
                   />
                   <h6 style={{ padding: '20px' }}>
-                  Alternative Enclosure for Evaluation Kit - Size “L”
+                    Alternative Enclosure for Evaluation Kit - Size “L”
                   </h6>
                   <p style={{ padding: '20px' }}>
-                  This medium-sized housing has a square shape and is optimized to lie 
-                  flat on the desk or stand, as shown. It is also available in variants 
-                  to match the sensors and accommodates the 0.66 inch or the 0.96 inch OLED 
-                  display. A TableStand is available on request.
+                    This medium-sized housing has a square shape and is
+                    optimized to lie flat on the desk or stand, as shown. It is
+                    also available in variants to match the sensors and
+                    accommodates the 0.66 inch or the 0.96 inch OLED display. A
+                    TableStand is available on request.
                   </p>
                 </div>
               </div>
@@ -627,13 +632,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     }}
                   />
                   <h6 style={{ padding: '20px' }}>
-                  Alternative Enclosure for Evaluation Kit - Size “XL”
+                    Alternative Enclosure for Evaluation Kit - Size “XL”
                   </h6>
                   <p style={{ padding: '20px' }}>
-                  This square shape housing comes with a TableStand, just like the SQ panel. 
-                  The electronics are located next to the large 2.4- or 2.8-inch display, 
-                  which preferably is covered with a spy mirror foil to conceal the electronics 
-                  and give it the appearance of a smart mirror.
+                    This square shape housing comes with a TableStand, just like
+                    the SQ panel. The electronics are located next to the large
+                    2.4- or 2.8-inch display, which preferably is covered with a
+                    spy mirror foil to conceal the electronics and give it the
+                    appearance of a smart mirror.
                   </p>
                 </div>
               </div>

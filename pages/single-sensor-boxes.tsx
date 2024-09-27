@@ -17,11 +17,15 @@ const Index = () => {
             <span className="sm-title" style={{ fontSize: '.7em' }}>
               Single Sensor Box
             </span>
-            <h2 className="mb-0 h5">
-            Build your own device within 3 minutes.
-            </h2>
-            <p>Single Sensor Boxes contain all you need to build your own device within 3 minutes.</p>
-          <p>Build devices like a Barometer, Hygrometer, Luxmeter or a Motion Detector.</p>
+            <h2 className="mb-0 h5">Build your own device within 3 minutes.</h2>
+            <p>
+              Single Sensor Boxes contain all you need to build your own device
+              within 3 minutes.
+            </p>
+            <p>
+              Build devices like a Barometer, Hygrometer, Luxmeter or a Motion
+              Detector.
+            </p>
           </div>
 
           <h2 className="mb-3 h3">What is a Sensor Box</h2>
@@ -33,37 +37,38 @@ const Index = () => {
             <strong>a C3-Mini microcontroller</strong>,{' '}
             <strong>a display</strong> to read the measurement and{' '}
             <strong>the seven sensors</strong> you can test with. */}
-            Each Single Sensor Box comes in an Acrylic Box, which includes a 
-            Triple-Adapter, three stackable boards (S-M-A), a 3D-printed enclosures
-             and an USB Type-C cable to power it.
+            Each Single Sensor Box comes in an Acrylic Box, which includes a
+            Triple-Adapter, three stackable boards (S-M-A), a 3D-printed
+            enclosures and an USB Type-C cable to power it.
           </p>
           <p>
-          The three slots with letters S-M-A stand for Sensor, Microcontroller 
-          and Actuator, typically a display. Besides the sensor, the core part 
-          is the C3-Mini microcontroller.
+            The three slots with letters S-M-A stand for Sensor, Microcontroller
+            and Actuator, typically a display. Besides the sensor, the core part
+            is the C3-Mini microcontroller.
           </p>
           <p>
-          The plastic casing, a 3D-printed enclosure houses all the electronics. 
-          You can also print yourself enclosures in your preferred color and 
-          customized style. Find our free 3D-models on Thingiverse.
+            The plastic casing, a 3D-printed enclosure houses all the
+            electronics. You can also print yourself enclosures in your
+            preferred color and customized style. Find our free 3D-models on
+            Thingiverse.
           </p>
           <p>
-          The Triple-Adapter makes it a breeze connecting the three boards, 
-          sensor, microcontroller and actuator, and you can even build new 
-          combinations of S-M-A by this base board, using the IoT Triple 
-          Selector of the Solution Builder.
+            The Triple-Adapter makes it a breeze connecting the three boards,
+            sensor, microcontroller and actuator, and you can even build new
+            combinations of S-M-A by this base board, using the IoT Triple
+            Selector of the Solution Builder.
           </p>
           <p>
-          All Sensor Boxes contain an actuator (display, buzzer or LED) 
-          to make the sensor measurements readable or to trigger acoustic 
-          or optical alarms.  
+            All Sensor Boxes contain an actuator (display, buzzer or LED) to
+            make the sensor measurements readable or to trigger acoustic or
+            optical alarms.
           </p>
           <p>
-          The USB Type-C data cable finally allows to inject a certain software 
-          (install-for-free from a browser window) and later on powering your 
-          built device at any location, e.g. by a phone charger.
+            The USB Type-C data cable finally allows to inject a certain
+            software (install-for-free from a browser window) and later on
+            powering your built device at any location, e.g. by a phone charger.
           </p>
-          
+
           {/* <p>
             Beside the C3-Mini comes one Display to visualize the sensors
             measurements and a Buzzer for triggering an alarm. A Triple-Adapter
@@ -75,7 +80,7 @@ const Index = () => {
           <h6>HealthCare Assisting Devices</h6>
         </div>
         <div className="row mb-1-9">
-        <div className="col-md-6 wow mb-4 fadeIn" data-wow-delay="400ms">
+          <div className="col-md-6 wow mb-4 fadeIn" data-wow-delay="400ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/img/selection-boxes/C3-mini_selection-box_case.png"
@@ -111,15 +116,14 @@ const Index = () => {
             <p> Fridge Openings Counter</p>
           </div>
           <h6>Weather Station Devices</h6>
-          
+
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={'/img/selection-boxes/envirosence.jpeg'}
               alt="selection box"
             />
-            </div>
-          
+          </div>
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
         <div className="row mb-1-9">

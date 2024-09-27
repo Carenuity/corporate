@@ -176,7 +176,8 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
               data-wow-delay="600ms"
             >
               {/* Newsletter section */}
-              <Newsletter email={state.companyInfo.email} />
+              <Newsletter />
+              {/* email={state.companyInfo.email} */}
 
               <div className="text-center mt-3 display-31">
                 {/* Payment & Delivery */}

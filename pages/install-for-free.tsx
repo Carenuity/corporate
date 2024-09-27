@@ -39,14 +39,17 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               Build your own device within 3 minutes to immediately sense
               what&apos;s going on.
             </h3>
-            
+
             <strong className=" mb-1">
-            Select your S-M-A Triple, grab the available parts from your drawer or go <a
+              Select your S-M-A Triple, grab the available parts from your
+              drawer or go{' '}
+              <a
                 href="https://www.chipglobe.shop/c/iot-systeme/d1-c3-mini-shield"
                 className="text-success"
               >
-                shopping 
-              </a>{' '} for getting more suited sensor boxes.
+                shopping
+              </a>{' '}
+              for getting more suited sensor boxes.
             </strong>
           </div>
 
@@ -70,17 +73,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   animationDelay: '100ms',
 
                   animationName: 'fadeIn',
-                   
                 }}
               />
               <h6 style={{ padding: '10px' }}>1. Make Your Triple</h6>
               <p style={{ padding: '10px' }}>
-                
-                Make your S-M-A Triple by attaching the three basic components 
-                  of any IoT solution, the Sensor, the Microcontroller and the Actuator 
-                  onto the black Triple-Adapter.
+                Make your S-M-A Triple by attaching the three basic components
+                of any IoT solution, the Sensor, the Microcontroller and the
+                Actuator onto the black Triple-Adapter.
               </p>
-              
             </div>
           </div>
 
@@ -105,15 +105,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
               <h6 style={{ padding: '10px' }}>
-                  2. Install one of the various prepared applications to your
-                  tripple
-                </h6>
+                2. Install one of the various prepared applications to your
+                tripple
+              </h6>
               <p style={{ padding: '10px' }}>
-               
-                Inject an application from Solution Builder website into your Triple 
-                by using any browser on your laptop or pc, no extra pc-software-installation is required.
+                Inject an application from Solution Builder website into your
+                Triple by using any browser on your laptop or pc, no extra
+                pc-software-installation is required.
               </p>
-              
             </div>
           </div>
 
@@ -135,16 +134,16 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
-                 
                 }}
               />
-              <h6 style={{ padding: '10px' }}>3. Enclose and place in your home</h6>
+              <h6 style={{ padding: '10px' }}>
+                3. Enclose and place in your home
+              </h6>
               <p style={{ padding: '10px' }}>
-              
-                House your Triple by a 3D-printed enclosure (optional)
-                 and place it in your apartment, powered by a phone charger, no pc required.
+                House your Triple by a 3D-printed enclosure (optional) and place
+                it in your apartment, powered by a phone charger, no pc
+                required.
               </p>
-              
             </div>
           </div>
 
@@ -200,44 +199,44 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     is required. Whether you&apos;re tracking atmospheric
                     changes of the weather, monitoring moisture levels
                     downstairs, or detecting motion at your entrance, the
-                    possibilities are endless. </p>
-                    <p className=" mt-3">
-                      {!isMobile && (
-                        <Link
-                          href={'/sensors'}
-                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                          // data-wow-delay="400ms"
-                          // style={{
-                          //   visibility: 'visible',
-                          //   animationDelay: '400ms',
-                          //   animationName: 'fadeInUp',
-                          //   height: '3.5rem',
-                          // }}
-                        >
-                          <span className="small">Select Sensor </span>
-                        </Link>
-                      )}
+                    possibilities are endless.{' '}
+                  </p>
+                  <p className=" mt-3">
+                    {!isMobile && (
+                      <Link
+                        href={'/sensors'}
+                        className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                        // data-wow-delay="400ms"
+                        // style={{
+                        //   visibility: 'visible',
+                        //   animationDelay: '400ms',
+                        //   animationName: 'fadeInUp',
+                        //   height: '3.5rem',
+                        // }}
+                      >
+                        <span className="small">Select Sensor </span>
+                      </Link>
+                    )}
 
-                      {isMobile && (
-                        <a
-                          href={'/sensors'}
-                          className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                          // data-wow-delay="400ms"
-                          // style={{
-                          //   visibility: 'visible',
-                          //   animationDelay: '400ms',
-                          //   animationName: 'fadeInUp',
-                          //   height: '3.5rem',
-                          // }}
-                        >
-                          <span className="small">
-                            Select Sensor{' '}
-                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                          </span>
-                        </a>
-                      )}
-                    </p>
-                 
+                    {isMobile && (
+                      <a
+                        href={'/sensors'}
+                        className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                        // data-wow-delay="400ms"
+                        // style={{
+                        //   visibility: 'visible',
+                        //   animationDelay: '400ms',
+                        //   animationName: 'fadeInUp',
+                        //   height: '3.5rem',
+                        // }}
+                      >
+                        <span className="small">
+                          Select Sensor{' '}
+                          {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                        </span>
+                      </a>
+                    )}
+                  </p>
                 </div>
               </div>
               <div className="d-flex about-text">
@@ -333,9 +332,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-                  <h6 style={{ padding: '10px' }}>Cloudfree</h6>
+                <h6 style={{ padding: '10px' }}>Cloudfree</h6>
                 <p style={{ padding: '10px' }}>
-                  
                   The most secure and simple device does not relate to the
                   internet at all. You install it and it just works. This device
                   category is the best, if you do not need features besides the
@@ -365,9 +363,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-                   <h6 style={{ padding: '10px' }}>Home Assistant</h6>
+                <h6 style={{ padding: '10px' }}>Home Assistant</h6>
                 <p style={{ padding: '10px' }}>
-                 
                   Home Assistant specifies in detail, which actions is to be
                   taken, if a device senses a certain situation. HA is currently
                   the worlds most popular environment for smart home devices.
@@ -395,9 +392,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 />
-                  <h6 style={{ padding: '10px' }}>IoT AppStore</h6>
+                <h6 style={{ padding: '10px' }}>IoT AppStore</h6>
                 <p style={{ padding: '10px' }}>
-                  
                   If you have the idea of more devices, which you want to
                   jointly orchester by updates over the air, possibly at remote
                   locations (e.g. at your parents home) the IoT solution is your
@@ -428,7 +424,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 />
                 <h6 style={{ padding: '10px' }}>Matter</h6>
                 <p style={{ padding: '10px' }}>
-                  
                   Matter allows you to integrate your sensor device with up to
                   five of the most popular platforms at once, such as
                   Amazon&apos;s Alexa, Apple&apos;s Home, Google Home,
