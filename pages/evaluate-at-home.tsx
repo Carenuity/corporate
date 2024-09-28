@@ -523,7 +523,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                   SQ-Panel-like Enclosure for Evaluation Kit – Size “XL”
+                   SQ-Panel-like Enclosure for Evaluation Kit - Size “XL”
                   </h6>
                   <p
                     style={{

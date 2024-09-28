@@ -41,6 +41,15 @@ const Page = () => {
               </a>{' '}
               to learn more on level 1 challenge
             </p>
+            <h5>Solder Triple Adapter & Familiarize with WOKWI</h5>
+            <p>
+            In this Level, students will begin their journey by learning basic soldering techniques. 
+            They will solder triple adapters and familiarize themselves with WOKWI, a powerful 
+            simulation tool for electronics and IoT projects. This level focuses on understanding 
+            sensor integration and building a solid foundation in hardware skills. By the end of this 
+            level, students will have a practical understanding of soldering and the ability to simulate 
+            sensor solutions using WOKWI. The reward for completing this level is a C3-Mini.
+            </p>
           </div>
 
           <div className="row">

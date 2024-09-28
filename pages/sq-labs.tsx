@@ -3,7 +3,9 @@ import { servicesUrls } from '../utils/constants';
 import Head from 'next/head';
 import Link from 'next/link';
 
-const Index = () => {
+const Index = ({ isMobile }: { isMobile: boolean }) => {
+  const pageTitle = 'SQ-Labs';
+// const Index = () => {
   // const { state } = useContext(StoreContext);
   return (
     <>
@@ -96,6 +98,64 @@ const Index = () => {
             talents to make it enjoyable fun for anyone building own devices
             within 3 minutes.
           </p>
+          <div className='row'>
+                      
+                      <p>
+                      
+                      Learn more on new features or Install-for-Free new applications:
+                      </p>
+                      
+                      <div className="col-lg-5 mb-6" >
+                      <p >
+                      {!isMobile && (
+                        <Link
+                          href={'/evaluate-at-home'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">SQ-Labs Feature Evaluation </span>
+                        </Link>
+                      )}
+
+                      {isMobile && (
+                        <a
+                          href={'/evaluate-at-home'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">
+                          SQ-Labs Feature Evaluation{' '}
+                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                          </span>
+                        </a>
+                      )} 
+                    </p>
+                      </div>
+                      
+                      <div className="col-lg-6 mb-6" >
+                      <p >
+                      {!isMobile && (
+                        <Link
+                          href={'/install-for-free'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">Install-for-Free </span>
+                        </Link>
+                      )}
+
+                      {isMobile && (
+                        <a
+                          href={'/install-for-free'}
+                          className={'btn btn-lg btn-success rounded-pill'} 
+                        >
+                          <span className="small">
+                          Install-for-Free {' '}
+                            {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                          </span>
+                        </a>
+                      )} 
+                    </p>
+                      </div>
+                      </div>
+
         </div>
       </div>
     </>
