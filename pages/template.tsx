@@ -3,7 +3,7 @@ import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 
 const Page = () => {
-  const pageTitle = 'Templete';
+  const pageTitle = 'Template';
   return (
     <>
       <Head>
