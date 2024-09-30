@@ -111,7 +111,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '300px',
+                  height: '520px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -132,7 +132,12 @@ const Page = () => {
                   <Link href="/free-offer" className="text-success">
                     <h6 className="text-success">Level 1</h6>
                   </Link>
-                  <strong>Reward:</strong> D1 or C3-mini
+                  <p>
+                  This level focuses on understanding sensor integration and building a foundation
+                   in hardware skills. By the end of this level, students will have a practical 
+                   understanding of soldering and the ability to simulate sensor solutions using WOKWI
+                  </p>
+                  <strong>Reward:</strong> C3-mini
                 </div>
               </div>
             </div>
@@ -142,7 +147,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '300px',
+                  height: '520px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -160,10 +165,15 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/gpio-viewer" className="text-success">
+                  <Link href="/gpio-viewer" className="text-success" style={{textUnderlinePosition:'under'}}>
                     <h6 className="text-success">Level 2</h6>
                   </Link>
-                  <strong>Reward:</strong> 0.96 inch display
+                  <p>
+                  This level emphasizes the importance of precise design and modification skills 
+                  using tools like KiCAD. By completing this level, students will gain proficiency 
+                  in PCB design and the ability to create customized electronic components.
+                  </p>
+                  <strong>Reward:</strong> 0.66 / 0.96 OLED Display
                 </div>
               </div>
             </div>
@@ -172,7 +182,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '300px',
+                  height: '520px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -193,7 +203,12 @@ const Page = () => {
                   <Link href="/api-usage">
                     <h6 className="text-success">Level 3</h6>
                   </Link>
-                  <strong>Reward:</strong> DS18B20
+                  <p>
+                  This level encourages students to share their success on LinkedIn, promoting 
+                  their work within the professional community. The focus is on developing coding 
+                  skills, managing projects, and leveraging API integrations to enhance functionality.
+                  </p>
+                  <strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor
                 </div>
               </div>
             </div>
@@ -202,7 +217,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '300px',
+                  height: '520px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -223,7 +238,15 @@ const Page = () => {
                   <Link href="/3d-modelling">
                     <h6 className="text-success">Level 4</h6>
                   </Link>
-                  <strong>Reward:</strong> A voucher foe shop
+                  <p>
+                  {/* Students learn to automate home devices using Home Assistant. This level combines 
+                  hardware design with software automation, providing a comprehensive skill set. */}
+                  This level not only enhances students&apos; technical skills in 3D modelling but also 
+                  encourages creativity and innovation in designing custom solutions for their projects. 
+                  By mastering these skills, students will be able to create professional-looking enclosures 
+                  that enhance the functionality and aesthetics of their IoT devices.
+                  </p>
+                  <strong>Reward:</strong> 25% voucher for ChipGlobe.shop
                 </div>
               </div>
             </div>
@@ -233,7 +256,7 @@ const Page = () => {
                 className="e-card "
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '300px',
+                  height: '520px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -254,18 +277,20 @@ const Page = () => {
                   <Link href="/ai-algo" className="text-success">
                     <h6 className="text-success">Level 5</h6>
                   </Link>
-                  <strong>Reward:</strong> Three years access to our cloud for
-                  data analysis / AI
+                  <p>
+                  This level also encourages students to market their algorithms by describing
+                   their unique selling points (USP) and considering startup opportunities. 
+                   The focus is on developing ML skills, data management, and entrepreneurial thinking.
+                  </p>
+                  <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.69 OLED plus 2 years free 
+                  access to SQ-Cloud (Google Firebase) for data analysis / AI
                 </div>
               </div>
             </div>
           </div>
 
           <div>
-            {' '}
-            <Link href="/partners" className="text-success">
-              <h6 className="text-success">Level 2</h6>
-            </Link>
+           
           </div>
         </div>
       </section>
