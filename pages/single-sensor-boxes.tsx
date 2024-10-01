@@ -123,6 +123,17 @@ const Index = () => {
               src={'/img/selection-boxes/envirosence.jpeg'}
               alt="selection box"
             />
+            <p>EnviroSence 680 - Advanced Environmental Monitoring Solution</p>
+            <p>
+              Click {' '}
+              <a
+                href="/EnviroSence-680"
+                className="text-success"
+              >
+                <strong>here </strong>
+              </a>{' '}
+              to learn more on EnviroSence 680
+            </p>
           </div>
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
