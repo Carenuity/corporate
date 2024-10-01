@@ -39,9 +39,9 @@ const Page = () => {
             }}
           > 
           <div className="row ">
-           
+          <h4>EnviroSence 680 - Advanced Environmental Monitoring Solution</h4>
             <div className='col-lg-9'>
-            <h4>EnviroSence 680 - Advanced Environmental Monitoring Solution</h4>
+            
             <p>
             EnviroSence 680 is a versatile and compact device designed to monitor and display 
             essential environmental data in real-time. It integrates the powerful BME680 sensor 
