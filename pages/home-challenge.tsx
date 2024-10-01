@@ -133,9 +133,11 @@ const Page = () => {
                     <h6 className="text-success">Level 1</h6>
                   </Link>
                   <p>
-                  This level focuses on understanding sensor integration and building a foundation
-                   in hardware skills. By the end of this level, students will have a practical 
-                   understanding of soldering and the ability to simulate sensor solutions using WOKWI
+                    This level focuses on understanding sensor integration and
+                    building a foundation in hardware skills. By the end of this
+                    level, students will have a practical understanding of
+                    soldering and the ability to simulate sensor solutions using
+                    WOKWI
                   </p>
                   <strong>Reward:</strong> C3-mini
                 </div>
@@ -165,13 +167,18 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/gpio-viewer" className="text-success" style={{textUnderlinePosition:'under'}}>
+                  <Link
+                    href="/gpio-viewer"
+                    className="text-success"
+                    style={{ textUnderlinePosition: 'under' }}
+                  >
                     <h6 className="text-success">Level 2</h6>
                   </Link>
                   <p>
-                  This level emphasizes the importance of precise design and modification skills 
-                  using tools like KiCAD. By completing this level, students will gain proficiency 
-                  in PCB design and the ability to create customized electronic components.
+                    This level emphasizes the importance of precise design and
+                    modification skills using tools like KiCAD. By completing
+                    this level, students will gain proficiency in PCB design and
+                    the ability to create customized electronic components.
                   </p>
                   <strong>Reward:</strong> 0.66 / 0.96 OLED Display
                 </div>
@@ -204,9 +211,11 @@ const Page = () => {
                     <h6 className="text-success">Level 3</h6>
                   </Link>
                   <p>
-                  This level encourages students to share their success on LinkedIn, promoting 
-                  their work within the professional community. The focus is on developing coding 
-                  skills, managing projects, and leveraging API integrations to enhance functionality.
+                    This level encourages students to share their success on
+                    LinkedIn, promoting their work within the professional
+                    community. The focus is on developing coding skills,
+                    managing projects, and leveraging API integrations to
+                    enhance functionality.
                   </p>
                   <strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor
                 </div>
@@ -239,12 +248,14 @@ const Page = () => {
                     <h6 className="text-success">Level 4</h6>
                   </Link>
                   <p>
-                  {/* Students learn to automate home devices using Home Assistant. This level combines 
+                    {/* Students learn to automate home devices using Home Assistant. This level combines 
                   hardware design with software automation, providing a comprehensive skill set. */}
-                  This level not only enhances students&apos; technical skills in 3D modelling but also 
-                  encourages creativity and innovation in designing custom solutions for their projects. 
-                  By mastering these skills, students will be able to create professional-looking enclosures 
-                  that enhance the functionality and aesthetics of their IoT devices.
+                    This level not only enhances students&apos; technical skills
+                    in 3D modelling but also encourages creativity and
+                    innovation in designing custom solutions for their projects.
+                    By mastering these skills, students will be able to create
+                    professional-looking enclosures that enhance the
+                    functionality and aesthetics of their IoT devices.
                   </p>
                   <strong>Reward:</strong> 25% voucher for ChipGlobe.shop
                 </div>
@@ -278,20 +289,21 @@ const Page = () => {
                     <h6 className="text-success">Level 5</h6>
                   </Link>
                   <p>
-                  This level also encourages students to market their algorithms by describing
-                   their unique selling points (USP) and considering startup opportunities. 
-                   The focus is on developing ML skills, data management, and entrepreneurial thinking.
+                    This level also encourages students to market their
+                    algorithms by describing their unique selling points (USP)
+                    and considering startup opportunities. The focus is on
+                    developing ML skills, data management, and entrepreneurial
+                    thinking.
                   </p>
-                  <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.69 OLED plus 2 years free 
-                  access to SQ-Cloud (Google Firebase) for data analysis / AI
+                  <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.69
+                  OLED plus 2 years free access to SQ-Cloud (Google Firebase)
+                  for data analysis / AI
                 </div>
               </div>
             </div>
           </div>
 
-          <div>
-           
-          </div>
+          <div></div>
         </div>
       </section>
     </>
