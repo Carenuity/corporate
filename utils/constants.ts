@@ -163,3 +163,6 @@ export const microcontrollers: any = {
       'https://home-assistant-guide.com/changelog/esphome/esphome-2022-11-0/esphome-supports-the-raspberry-pi-pico-w-rp2040/',
   } as Microcontroller,
 };
+
+export const NewsletterHostname =
+  'https://newsletter-test-dot-solution-builder-421307.ew.r.appspot.com';

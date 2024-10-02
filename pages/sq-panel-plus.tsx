@@ -1,6 +1,7 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
+import SubscriptionWidget from '../components/SubscriptionWidget';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
@@ -73,13 +74,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <h2>Subscription</h2>
               <p>Sign up for exclusive product launch discounts!</p>
             </div>
-            <div className=" mb-20" style={{ textAlign: 'center' }}>
+            <SubscriptionWidget categoryId={1} />
+            {/* <form
+              method="post"
+              className=" mb-20"
+              style={{ textAlign: 'center' }}
+            >
               <label
                 className={' rounded-pill'}
                 style={{ backgroundColor: '#D3D3D3' }}
+                htmlFor="subscriber-email"
               >
                 <input
-                  type="text"
+                  type="email"
+                  id="subscriber-email"
+                  name="subscriber-email"
                   placeholder="Enter your email"
                   className={'btn rounded-pill'}
                   style={{
@@ -88,8 +97,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     width: '450px',
                     border: 'none',
                   }}
+                  required
                 ></input>
                 <button
+                  type="submit"
                   className={'btn btn-lg btn-success rounded-pill'}
                   style={{
                     width: '150px',
@@ -99,7 +110,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Subcribe
                 </button>
               </label>
-            </div>
+            </form> */}
             <div className="col-lg-5 mb-6" style={{ textAlign: 'center' }}>
               <div className=" mb-6">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
