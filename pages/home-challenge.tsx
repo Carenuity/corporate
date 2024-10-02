@@ -129,7 +129,7 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/free-offer" className="text-success">
+                  <Link href="/level-1" className="text-success">
                     <h6 className="text-success">Level 1</h6>
                   </Link>
                   <p>
@@ -165,7 +165,7 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/gpio-viewer" className="text-success" style={{textUnderlinePosition:'under'}}>
+                  <Link href="/level-2" className="text-success" style={{textUnderlinePosition:'under'}}>
                     <h6 className="text-success">Level 2</h6>
                   </Link>
                   <p>
@@ -200,7 +200,7 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/api-usage">
+                  <Link href="/level-3">
                     <h6 className="text-success">Level 3</h6>
                   </Link>
                   <p>
@@ -235,12 +235,11 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/3d-modelling">
+                  <Link href="/level-4">
                     <h6 className="text-success">Level 4</h6>
                   </Link>
                   <p>
-                  {/* Students learn to automate home devices using Home Assistant. This level combines 
-                  hardware design with software automation, providing a comprehensive skill set. */}
+                
                   This level not only enhances students&apos; technical skills in 3D modelling but also 
                   encourages creativity and innovation in designing custom solutions for their projects. 
                   By mastering these skills, students will be able to create professional-looking enclosures 
@@ -274,7 +273,7 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/ai-algo" className="text-success">
+                  <Link href="/level-5" className="text-success">
                     <h6 className="text-success">Level 5</h6>
                   </Link>
                   <p>
@@ -285,6 +284,39 @@ const Page = () => {
                   <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.69 OLED plus 2 years free 
                   access to SQ-Cloud (Google Firebase) for data analysis / AI
                 </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div
+                className="e-card "
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '520px',
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/free-offer/gray.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+
+                <div style={{ padding: '10px' }}>
+                  <Link href="/level-6" className="text-success">
+                    <h6 className="text-success">Level 6</h6>
+                  </Link>
+                  <p>
+                  This level covers edge computing concepts, data acquisition, 
+                  model training, and deployment using Edge Impulse. Students will also learn to promote and sell their AI-assisted devices through platforms like Shopify.
+                  </p>
+                  <strong>Reward:</strong> Own website, free stocking & sales of 5 devices, incl. fulfillment, getting 100% sales profit.</div>
               </div>
             </div>
           </div>
