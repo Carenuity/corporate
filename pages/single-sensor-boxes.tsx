@@ -3,6 +3,8 @@ import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
 import { StoreContext } from '../components/context/Store';
 import Head from 'next/head';
+import Link from 'next/link';
+import React from 'react';
 
 const Index = () => {
   const { state } = useContext(StoreContext);
@@ -125,13 +127,10 @@ const Index = () => {
             />
             <p>EnviroSence 680 - Advanced Environmental Monitoring Solution</p>
             <p>
-              Click {' '}
-              <a
-                href="/EnviroSence-680"
-                className="text-success"
-              >
+              Click{' '}
+              <Link href="/EnviroSence-680" className="text-success">
                 <strong>here </strong>
-              </a>{' '}
+              </Link>{' '}
               to learn more on EnviroSence 680
             </p>
           </div>

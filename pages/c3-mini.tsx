@@ -8,24 +8,29 @@ import CarenuityDevice from '../components/CarenuityDevice';
 import ecosystemsImage from '../public/img/environments/ecosystems.png';
 import Image from 'next/image';
 import SolutionWidget from '../components/SolutionWidget';
+import React from 'react';
 
 const Index = () => {
   const { state } = useContext(StoreContext);
   return (
     <>
       <Head>
-        <title>C3-Mini Board</title>
+        <title>C3-Mini</title>
       </Head>
-      <div>
-        <div className="wow fadeIn" data-wow-delay="200ms">
+      <div className="container">
+        <div className="wow fadeIn ms-3" data-wow-delay="200ms">
           <div className="section-title mb-1-9">
             <span className="sm-title" style={{ fontSize: '.7em' }}>
               C3-Mini
             </span>
+            <h2 className="mb-0 display-6 fw-bold">C3-Mini</h2>
           </div>
         </div>
 
         <div className="row">
+          {/* <div className="col-12">
+            <h3 className="display-6 fw-bold">C3-Mini</h3>
+          </div> */}
           <div className="col-6 px-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -45,7 +50,7 @@ const Index = () => {
         </div>
 
         <p className="mb-1 mt-3">
-          A mini wifi & Bluetooth5 (LE) boards based ESP32-C3FH4.
+          A mini Wifi & Bluetooth5 (LE) board based on ESP32-C3FH4.
         </p>
 
         <div className="mb-5">
@@ -115,7 +120,7 @@ const Index = () => {
             <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-primary"></i>
               <span className="ms-2 text-dark">
-                Compatible with LOLIN D1 mini shields
+                Compatible with LOLIN D1 Mini shields
               </span>
             </div>
           </div>
@@ -339,7 +344,7 @@ const Index = () => {
               </span>
             </div>
           </div>
-          <div className="col-12">
+          <div className="col-12 mb-5">
             <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
               <a
@@ -386,7 +391,7 @@ const Index = () => {
           Applications for the plain C3-mini &apos;standalone&apos;, no Display
           or Sensor required
         </h2>
-        <p className="mb-2 mt-1">
+        <p className="mb-2 mt-1 mb-5">
           Grab your plain C3-Mini and build your own device within 3 minutes, by
           installing the popular{' '}
           <strong>
@@ -412,7 +417,7 @@ const Index = () => {
         </p>
 
         <h2 className="mb-1 h5">Applications for the C3-mini with Display</h2>
-        <p className="mb-2 mt-1">
+        <p className="mb-2 mt-1 mb-5">
           Grab your C3-Mini and build your own device within 3 minutes, by
           attaching a display{' '}
           <strong>
@@ -439,11 +444,14 @@ const Index = () => {
         <h2 className="mb-1 h5">
           Applications for the C3-mini with Sensor & Display
         </h2>
-        <p className="mb-3 mt-1">
+        <p className="mb-3 mt-1 mb-5">
           Grab your C3-Mini and build your own device within 3 minutes, by free
           installing various sensor applications like a Barometer, Hygrometer,
           Luxmeter or Motion Detector.
         </p>
+
+        <h2 className="mb-2 h3">Environments</h2>
+        <p className="mb-5"></p>
 
         <h2 className="mb-2 h4">What is the C3-Mini?</h2>
         <p className="mb-2">
@@ -565,10 +573,14 @@ const Index = () => {
           }
         />
 
-        <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
-        <SolutionWidget solutionId="5KmjmXd7VKCqDOk0yvL4" />
+        <h2 className="h3 mt-5 mb-2">Solution Builder Widgets</h2>
 
-        <div className="row mb-1-9 bg-secondary p-3 text-white">
+        <div className="mt-4 pb-5">
+          <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
+          <SolutionWidget solutionId="5KmjmXd7VKCqDOk0yvL4" />
+        </div>
+
+        <div className="row mb-1-9 bg-secondary p-3 text-white mt-5">
           <div
             className="col-lg-5 mb-4 mb-lg-0 wow fadeIn"
             data-wow-delay="200ms"
