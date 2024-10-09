@@ -80,10 +80,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       
                       target="_blank"
                     >
-                    <h5 className="text-success" style={{padding:'10px'}}>A Beginner's Guide to HLK-LD2410C 24GHz Radar Sensor</h5>
+                    <h5 
+                    style={{padding:'10px',
+                          
+                    }}><u>A Beginner's Guide to HLK-LD2410C 24GHz Radar Sensor</u></h5>
                     </a>
                 
-                <p style={{padding:'10px'}}>Today, let's delve into the fascinating world of the HLK-LD2410,
+                <p style={{paddingLeft:'10px',paddingRight:'10px'}}>
+                  Today, let's delve into the fascinating world of the HLK-LD2410,
                    a 24GHz Human Presence Radar Sensor. The exciting part? No coding
                     required! In this tutorial, we'll walk you through the simple yet 
                     captivating.....</p>
@@ -117,10 +121,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="text-success"
                       target="_blank"
                     >
-                    <h5 className="text-success" style={{padding:'10px'}}>Discovering the LD2410C Radar Sensor</h5>
+                    <h5  style={{padding:'10px'}}>
+                      <u>Discovering the LD2410C Radar Sensor</u></h5>
                     </a>
                 
-                <p style={{padding:'10px'}}>
+                <p style={{paddingLeft:'10px',paddingRight:'10px'}}>
                 What if you could see through walls, fog, and darkness, with accuracy 
                 and speed? This has been made possible thanks to the LD2410C radar sensor,
                  a high sensitivity 24GHz human presence status sensing module developed by
