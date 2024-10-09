@@ -80,7 +80,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       
                       target="_blank"
                     >
-                    <h4 className="text-success" style={{padding:'10px'}}>A Beginner's Guide to HLK-LD2410C 24GHz Radar Sensor</h4>
+                    <h5 className="text-success" style={{padding:'10px'}}>A Beginner's Guide to HLK-LD2410C 24GHz Radar Sensor</h5>
                     </a>
                 
                 <p style={{padding:'10px'}}>Today, let's delve into the fascinating world of the HLK-LD2410,
@@ -117,7 +117,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="text-success"
                       target="_blank"
                     >
-                    <h4 className="text-success" style={{padding:'10px'}}>Discovering the LD2410C Radar Sensor</h4>
+                    <h5 className="text-success" style={{padding:'10px'}}>Discovering the LD2410C Radar Sensor</h5>
                     </a>
                 
                 <p style={{padding:'10px'}}>
