@@ -213,12 +213,13 @@ const Page = () => {
                     </p>
                   </a>
                 </div>
-                
               </div>
             </div>
             <Link href="/partners-program" className="text-success">
-                    <h6 className="text-success"><u>Check out our partners program</u></h6>
-                  </Link>
+              <h6 className="text-success">
+                <u>Check out our partners program</u>
+              </h6>
+            </Link>
           </div>
         </div>
       </section>

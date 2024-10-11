@@ -167,7 +167,11 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/level-2" className="text-success" style={{textUnderlinePosition:'under'}}>
+                  <Link
+                    href="/level-2"
+                    className="text-success"
+                    style={{ textUnderlinePosition: 'under' }}
+                  >
                     <h6 className="text-success">Level 2</h6>
                   </Link>
                   <p>
@@ -244,11 +248,12 @@ const Page = () => {
                     <h6 className="text-success">Level 4</h6>
                   </Link>
                   <p>
-                
-                  This level not only enhances students&apos; technical skills in 3D modelling but also 
-                  encourages creativity and innovation in designing custom solutions for their projects. 
-                  By mastering these skills, students will be able to create professional-looking enclosures 
-                  that enhance the functionality and aesthetics of their IoT devices.
+                    This level not only enhances students&apos; technical skills
+                    in 3D modelling but also encourages creativity and
+                    innovation in designing custom solutions for their projects.
+                    By mastering these skills, students will be able to create
+                    professional-looking enclosures that enhance the
+                    functionality and aesthetics of their IoT devices.
                   </p>
                   <strong>Reward:</strong> 25% voucher for ChipGlobe.shop
                 </div>
@@ -321,10 +326,14 @@ const Page = () => {
                     <h6 className="text-success">Level 6</h6>
                   </Link>
                   <p>
-                  This level covers edge computing concepts, data acquisition, 
-                  model training, and deployment using Edge Impulse. Students will also learn to promote and sell their AI-assisted devices through platforms like Shopify.
+                    This level covers edge computing concepts, data acquisition,
+                    model training, and deployment using Edge Impulse. Students
+                    will also learn to promote and sell their AI-assisted
+                    devices through platforms like Shopify.
                   </p>
-                  <strong>Reward:</strong> Own website, free stocking & sales of 5 devices, incl. fulfillment, getting 100% sales profit.</div>
+                  <strong>Reward:</strong> Own website, free stocking & sales of
+                  5 devices, incl. fulfillment, getting 100% sales profit.
+                </div>
               </div>
             </div>
           </div>

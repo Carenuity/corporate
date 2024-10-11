@@ -1,6 +1,7 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
+import SubscriptionWidget from '../components/SubscriptionWidget';
 
 const Page = () => {
   const pageTitle = 'Envirosence 680';
@@ -113,6 +114,14 @@ const Page = () => {
               animationName: 'fadeIn',
             }}
           />
+          <div id="subscribe" className="my-5" style={{ textAlign: 'center' }}>
+            <h2>Product Wishlist</h2>
+            <p>
+              Join <strong>Envirosence 680</strong> wishlist for updates when
+              ready
+            </p>
+            <SubscriptionWidget categoryId={3} />
+          </div>
         </div>
       </section>
     </>

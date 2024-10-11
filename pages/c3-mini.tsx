@@ -147,39 +147,36 @@ const Index = () => {
             Tutorials
           </Link>
           <div className="col-12">
-          <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
-              
               Get started with Snapping off the Frame
             </div>
             <div className="mb-2">
-          <iframe
-            width="800"
-            height="450"
-            src="https://www.youtube.com/embed/WGcBlZnaca0?si=loH8TmDK1uRvrf2J"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-        <div className="d-flex align-items-center">
-              <i className="ti-check display-31 text-black"></i>
-             
-              Get started with Initialization, Web-/ Flashing, Programming
-            
+              <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube.com/embed/WGcBlZnaca0?si=loH8TmDK1uRvrf2J"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
             </div>
-            
-            <p style={{paddingLeft:'20px'}}>
-          For flashing C3-Mini successfully, you need to hold the BOOT-Button,
-          click in parallel the RST-Button for a moment while still keeping BOOT
-          button pressed and then start WebFlashing. Once Flashing started you
-          can release the BOOT-Button. Whenever you want to quick change a
-          sensor, do the same procedure. We know this is tedious, compared to
-          old ESP8266 / ESP32 boards. Therefore we work on convenience measures
-          against it.
-        </p>
-        <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              Get started with Initialization, Web-/ Flashing, Programming
+            </div>
+
+            <p style={{ paddingLeft: '20px' }}>
+              For flashing C3-Mini successfully, you need to hold the
+              BOOT-Button, click in parallel the RST-Button for a moment while
+              still keeping BOOT button pressed and then start WebFlashing. Once
+              Flashing started you can release the BOOT-Button. Whenever you
+              want to quick change a sensor, do the same procedure. We know this
+              is tedious, compared to old ESP8266 / ESP32 boards. Therefore we
+              work on convenience measures against it.
+            </p>
+            <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
               <a
                 href="https://www.wemos.cc/en/latest/tutorials/c3/get_started_with_micropython_c3.html"
@@ -190,7 +187,6 @@ const Index = () => {
                 Get started with MicroPython [C3 series]
               </a>
             </div>
-            
           </div>
           <div className="col-12">
             <div className="d-flex align-items-center">
@@ -412,7 +408,6 @@ const Index = () => {
           <strong className="text-black"> IoT AppStore</strong> and
           <strong className="text-black"> Matter/ESPZero</strong>.
         </p>
-       
 
         <h2 className="mb-1 h5">
           Applications for the plain C3-mini &apos;standalone&apos;, no Display
@@ -487,14 +482,21 @@ const Index = () => {
         />
         <p className="mb-5"></p>
 
-        <h2 className="mb-2 h3">What is the difference between the D1- and the C3-Mini?</h2>
+        <h2 className="mb-2 h3">
+          What is the difference between the D1- and the C3-Mini?
+        </h2>
         <p className="mb-2">
-        The two super popular boards, the D1 and C3-Mini share the same footprint and pinout, 
-        making them a perfect fit for the world's largest sensor and actuator portfolio, 
-        which includes Mikroe's sensors by adapters.<br/>
-        The improvements to the C3-Mini are shown in the following illustration:
+          The two super popular boards, the D1 and C3-Mini share the same
+          footprint and pinout, making them a perfect fit for the world&apos;s
+          largest sensor and actuator portfolio, which includes Mikroe&apos;s
+          sensors by adapters.
+          <br />
+          The improvements to the C3-Mini are shown in the following
+          illustration:
         </p>
-        <h2 className="mb-2 h3">Evolution of the popular footprint and pinout</h2>
+        <h2 className="mb-2 h3">
+          Evolution of the popular footprint and pinout
+        </h2>
         <p className="mb-2">
           The ESP32-Mini was the successor of the D1-Mini, comes with added
           Bluetooth and is now the predecessor of the latest C3-Mini™, which we
