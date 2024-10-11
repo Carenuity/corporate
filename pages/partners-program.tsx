@@ -67,7 +67,7 @@ const Page = () => {
                 />
                 </div>
 
-            <div className='mb-6' style={{backgroundColor:'#eeeeee',
+            <div className='mb-12' style={{backgroundColor:'#eeeeee',
                         textAlign:'center'
             }}>
                 <div className='row '>
@@ -131,7 +131,7 @@ const Page = () => {
                 
             </div>
 
-            <h2 className='mb-4' style={{textAlign:'center'}}>HOW TO REGISTER </h2>
+            <h4 className='mb-4' style={{textAlign:'center'}}>HOW TO REGISTER </h4>
             <div className='row'>
                 <div className='col-md-4 mb-12' style={{ textAlign:'center'}}>
                 <div
