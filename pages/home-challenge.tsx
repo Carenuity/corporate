@@ -49,7 +49,7 @@ const Page = () => {
                 </p>
                 <p>
                   Welcome to a journey of building your own device within 3
-                  minutes to immediately sense whats’s going on.
+                  minutes to immediately sense what&apos;s going on.
                 </p>
 
                 <p>
@@ -62,7 +62,7 @@ const Page = () => {
               <div className="col-lg-3 mt-n1-9 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/free-offer1.png"
+                  src="/img/content/home-challenge/free-offer1.png"
                   className="mt-1-9 wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -116,7 +116,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/free-offer3.png"
+                  src="/img/content/home-challenge/level1.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -154,7 +154,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gpio.jpeg"
+                  src="/img/content/home-challenge/level2.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -190,7 +190,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/solutions.png"
+                  src="/img/content/home-challenge/level3.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -227,7 +227,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray.png"
+                  src="/img/content/home-challenge/level4.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -265,7 +265,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray.png"
+                  src="/img/content/home-challenge/level05.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -304,7 +304,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray.png"
+                  src="/img/content/home-challenge/level06.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."

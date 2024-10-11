@@ -32,7 +32,7 @@ const Page = () => {
         <h4 className=" mb-4">Level 6: Image Recognition by AI-assisted Edge Device</h4>
         
         <div
-            className="e-card mb-6"
+            className="e-card mb-4"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
               maxHeight: '1000px',
@@ -60,7 +60,7 @@ const Page = () => {
             <div className='col-lg-3'>
                  {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray01.png"
+                  src="/img/content/home-challenge/level06.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -100,7 +100,7 @@ const Page = () => {
               </a>{' '}
                   to create your own object detection system.
             </p>
-          <div className="mb-6">
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"

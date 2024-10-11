@@ -31,7 +31,7 @@ const Page = () => {
         <h4 className=" mb-4">Level 3: API Usage and App Development</h4>
         
         <div
-            className="e-card mb-6"
+            className="e-card mb-4"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
               maxHeight: '1000px',
@@ -47,21 +47,12 @@ const Page = () => {
             Arduino IDE and upload on Solution Builder. Share your success on LinkedIn. <br/>
             <strong>Tools: </strong>API-keys, Arduino, ChatGPT and Solution Builder
             </p>
-            <h5>
-           Gained Tech Competences
-           </h5>
-            <p>
-            In Level 3, students will advance to creating and coding applications in the Arduino 
-            IDE. They will use their own API keys to integrate external services and upload their 
-            projects on Solution Builder. This level encourages students to share their success on 
-            LinkedIn, promoting their work within the professional community. The focus is on developing 
-            coding skills, managing projects, and leveraging API integrations to enhance functionality.
-            </p>
+            
             </div>
             <div className='col-lg-3'>
                  {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/solutions.png"
+                  src="/img/content/home-challenge/level3.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -74,7 +65,19 @@ const Page = () => {
                 /></div>
            </div>
           </div>
-          <div className="mb-6">
+          <div className="mb-4">
+          <h5>
+           Gained Tech Competences
+           </h5>
+            <p>
+            In Level 3, students will advance to creating and coding applications in the Arduino 
+            IDE. They will use their own API keys to integrate external services and upload their 
+            projects on Solution Builder. This level encourages students to share their success on 
+            LinkedIn, promoting their work within the professional community. The focus is on developing 
+            coding skills, managing projects, and leveraging API integrations to enhance functionality.
+            </p>
+          </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"

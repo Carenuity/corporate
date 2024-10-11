@@ -31,7 +31,7 @@ const Page = () => {
         <h4 className=" mb-4">Level 2: GPIO-Viewer and PCB-Design</h4>
         
         <div
-            className="e-card mb-6"
+            className="e-card mb-4"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
               maxHeight: '1000px',
@@ -46,21 +46,12 @@ const Page = () => {
             GPIO Viewer & PCB-Desing (add your own logo)  design modification.<br/>
             <strong>Tools: </strong>GPIO-Viewer and KiCAD
             </p>
-            <h5>
-           Gained Tech Competences
-           </h5>
-            <p>
-            Level 2 introduces students to the world of PCB (Printed Circuit Board) design. Using the 
-            GPIO Viewer, students will configure pins and design their own PCBs, including adding custom 
-            logos. This level emphasizes the importance of precise design and modification skills using 
-            tools like KiCAD. By completing this level, students will gain proficiency in PCB design and 
-            the ability to create customized electronic components.
-            </p>
+           
             </div>
             <div className='col-lg-3'>
                  {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gpio.jpeg"
+                  src="/img/content/home-challenge/level2.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -73,7 +64,20 @@ const Page = () => {
                 /></div>
            </div>
           </div>
-          <div className="mb-6">
+          <div className="mb-4">
+          <h5>
+           Gained Tech Competences
+           </h5>
+            <p>
+            Level 2 introduces students to the world of PCB (Printed Circuit Board) 
+            design. Using the GPIO Viewer, students will configure pins and design 
+            their own PCBs, including adding custom logos. This level emphasizes the
+             importance of precise design and modification skills using tools like 
+             KiCAD. By completing this level, students will gain proficiency in PCB 
+             design and the ability to create customized electronic components.
+            </p>
+          </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"
@@ -106,12 +110,13 @@ const Page = () => {
             Summary for this Level
             </h5>
             <p>
-            The second level introduces students to the GPIO Viewer and PCB design using KiCAD. Students will 
-            learn to design and modify printed circuit boards (PCBs), including the integration of custom logos. 
-            This level emphasizes the importance of understanding GPIO pins and the basics of PCB design, which 
-            are crucial for creating functional and aesthetically pleasing electronic devices. By mastering these 
-            skills, students will be able to design their own PCBs and understand the intricacies of hardware design,
-             preparing them for more advanced tasks in the subsequent levels.
+            The second level introduces students to the PCB design using KiCAD and the GPIO Viewer. 
+            Students will learn to modify a printed circuit board (PCBs) design, including the 
+            integration of a custom logos or symbol of their choice. This level emphasizes  basics
+             of PCB design and the importance of understanding GPIO pins, which are crucial for 
+             creating aesthetically pleasing and functional  electronic devices. By mastering these
+              skills, students will gain confidence to handle their own PCBs and understand the 
+              intricacies of hardware design, preparing them for more advanced tasks in the subsequent levels.
             </p>
             </div>      
            

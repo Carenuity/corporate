@@ -32,7 +32,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="row">
            
               
-              <h4>Innovative Radar Device for Preventing Sudden Infant Death Syndrome (SIDS)</h4>
+              <h4>Intelligent Radar Device for Preventing Sudden Infant Death Syndrome (SIDS)</h4>
 
                 <p>Our cutting-edge radar device is designed to help prevent Sudden Infant Death Syndrome 
                   (SIDS) by continuously monitoring your baby&apos;s vital signs without physical contact. 

@@ -31,7 +31,7 @@ const Page = () => {
         <h4 className=" mb-4">Level 4: 3D Modelling and Custom Enclosures</h4>
         
         <div
-            className="e-card mb-6"
+            className="e-card mb-4"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
               maxHeight: '1000px',
@@ -48,22 +48,12 @@ const Page = () => {
             with your triple and 3D-printable case.<br/>
             <strong>Tools: </strong>SketchUp 3D-Tool, Home-Assistant
             </p>
-            <h5>
-           Gained Tech Competences
-           </h5>
-            <p>
-            	
-            Level 4 challenges students to design custom enclosures using 3D modeling software such as SketchUp. 
-            They will integrate these 3D-printed components with their electronic projects, enhancing both the 
-            functionality and aesthetics of their devices. Additionally, students will learn to automate home 
-            devices using Home Assistant. This level combines hardware design with software automation, providing a comprehensive skill set. 
-            Successful completion of this level earns students a 25% voucher for ChipGlobe.shop.
-            </p>
+           
             </div>
             <div className='col-lg-3'>
                  {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray01.png"
+                  src="/img/content/home-challenge/level4.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -76,7 +66,20 @@ const Page = () => {
                 /></div>
            </div>
           </div>
-          <div className="mb-6">
+          <div className="mb-4">
+          <h5>
+           Gained Tech Competences
+           </h5>
+            <p>
+            	
+            Level 4 challenges students to design custom enclosures using 3D modeling software such as SketchUp. 
+            They will integrate these 3D-printed components with their electronic projects, enhancing both the 
+            functionality and aesthetics of their devices. Additionally, students will learn to automate home 
+            devices using Home Assistant. This level combines hardware design with software automation, providing a comprehensive skill set. 
+            Successful completion of this level earns students a 25% voucher for ChipGlobe.shop.
+            </p>
+          </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"

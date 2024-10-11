@@ -31,7 +31,7 @@ const Page = () => {
         <h4 className=" mb-4">Level 1: Solder Triple Adapter & Familiarize with WOKWI</h4>
         
         <div
-            className="e-card mb-6"
+            className="e-card mb-4"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
               maxHeight: '1000px',
@@ -47,24 +47,12 @@ const Page = () => {
                   <br />
                   <strong>Tools: </strong>Solder iron and WOKWI
                 </p>
-                <h5>Gained Tech Competences</h5>
-                <p>
-                  In Level 1, students begin their journey with learning a basic
-                  skill, soldering. They will solder the Triple Adapter and then
-                  familiarize themselves with WOKWI, a powerful simulation tool
-                  for electronics and IoT projects. This level focuses on
-                  understanding sensor integration and building a foundation in
-                  hardware skills. By the end of this level, students will have
-                  a practical understanding of soldering and the ability to
-                  simulate sensor solutions using WOKWI. The reward for
-                  completing this level is a C3-Mini microcontroller, which is
-                  prerequisite for the next level.
-                </p>
+                
               </div>
               <div className="col-lg-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/free-offer2.png"
+                  src="/img/content/home-challenge/level1.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -78,7 +66,21 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="mb-6">
+          <div className='mb-4'>
+          <h5>Gained Tech Competences</h5>
+                <p>
+                In Level 1, students begin their journey with the learning a basic
+                 skill, soldering. They will solder the Triple Adapter and then 
+                 familiarize themselves with WOKWI, a powerful simulation tool for
+                  electronics and IoT projects. This level focuses on understanding
+                   sensor integration and building a foundation in hardware skills.
+                    By the end of this level, students will have a practical understanding
+                     of soldering and the ability to simulate sensor solutions using WOKWI.
+                      The reward for completing this level is a C3-Mini microcontroller,
+                       which is prerequisite for the next level.
+                </p>
+          </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"
@@ -121,17 +123,14 @@ const Page = () => {
           <div>
             <h5>Summary for this Level</h5>
             <p>
-              In the first level of the IoT Smart Home Challenge, students will
-              embark on their journey by learning the basics of soldering. They
-              will work on soldering triple adapters, which is a fundamental
-              skill in electronics. Additionally, students will familiarize
-              themselves with the WOKWI simulator, a powerful tool for
-              simulating various sensor solutions. This level aims to build a
-              strong foundation in practical electronics and simulation,
-              ensuring that students are comfortable with basic hardware tasks
-              and virtual environments. By the end of this level, students will
-              have gained essential skills in soldering and using simulation
-              tools, setting the stage for more complex projects.
+            In the first level of the IoT Smart Home Challenge, students will embark on their 
+            journey by learning the basics of soldering. They will work on soldering their Triple
+             Adapter, which is a fundamental skill in electronics. Additionally, students will 
+             familiarize themselves with the WOKWI simulator, a powerful tool for simulating various
+              sensor solutions. This level aims to foster their foundation in practical electronics 
+              and simulation, ensuring that students are comfortable with basic hardware tasks and 
+              virtual environments. By the end of this level, students will have gained the essential
+               skill of soldering and using a simulation tool, setting the stage for more complex projects.
             </p>
           </div>
         </div>

@@ -32,7 +32,7 @@ const Page = () => {
         <h4 className=" mb-4">Level 5: Sensor Selection and Machine Learning</h4>
         
         <div
-            className="e-card mb-6"
+            className="e-card mb-4"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
               maxHeight: '1000px',
@@ -55,7 +55,7 @@ const Page = () => {
             <div className='col-lg-3'>
                  {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray.png"
+                  src="/img/content/home-challenge/level05.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -68,6 +68,7 @@ const Page = () => {
                 /></div>
            </div>
           </div>
+          <div className='mb-4'>
           <h5>
            Gained Tech Competences
            </h5>
@@ -81,7 +82,7 @@ const Page = () => {
 
               Gaining competence on the various databases on IoT:  Setup your device to feed own data into one of these 6 
               databases:
-              
+              </p>
               <ul style={{ listStyleType: 'square' }}>
                   <li><Link href="https://www.thingspeak.com " className="text-success">
                     <h6 className="text-success">https://www.thingspeak.com </h6>
@@ -103,8 +104,9 @@ const Page = () => {
                   </Link></li>
                   
                 </ul>
-            </p>
-          <div className="mb-6">
+            
+            </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"

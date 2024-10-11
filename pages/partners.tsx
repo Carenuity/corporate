@@ -1,6 +1,7 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Page = () => {
   const pageTitle = 'Partners';
@@ -110,7 +111,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/gray.png"
+                  src="/img/content/home-challenge/gray.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -212,8 +213,12 @@ const Page = () => {
                     </p>
                   </a>
                 </div>
+                
               </div>
             </div>
+            <Link href="/partners-program" className="text-success">
+                    <h6 className="text-success"><u>Check out our partners program</u></h6>
+                  </Link>
           </div>
         </div>
       </section>
