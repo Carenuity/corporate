@@ -143,83 +143,9 @@ const Page = () => {
                 
             </div>
 
-            <div className="col-md-6 mb-6">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/partners/hand.jpeg"
-                className="wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  width: '420px',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
+            
 
-            <div
-              className="mb-12"
-              style={{ backgroundColor: '#eeeeee', textAlign: 'center' }}
-            >
-              <div className="row ">
-                <div className="col-md-4 ">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/partners/tick.png"
-                    className="mt-3 mb-2 wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      maxWidth: '40px',
-                    }}
-                  />
-                  <h6>10% commission</h6>
-                  <p>per successfully paid invoice</p>
-                </div>
-                <div className="col-md-4">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/partners/tick.png"
-                    className="mt-3 mb-2 wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      maxWidth: '40px',
-                    }}
-                  />
-                  <h6>Personal dashboard</h6>
-                  <p>with your KPIs</p>
-                </div>
-                <div className="col-md-4">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/partners/tick.png"
-                    className="mt-3 mb-2 wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      maxWidth: '40px',
-                    }}
-                  />
-                  <h6>90 days</h6>
-                  <p>cookie tracking</p>
-                </div>
-              </div>
-            </div>
+            
 
             <h4 className="mb-4" style={{ textAlign: 'center' }}>
               HOW TO REGISTER{' '}
@@ -354,9 +280,7 @@ const Page = () => {
                   <p>Embed a link, advertise and earn money!</p>
                 </div>
               </div>
-              <div style={{ textAlign: 'center' }}>
-                {/* <h2>Register</h2> */}
-              </div>
+              
                 
                 </div>
                 <div style={{textAlign:'center'}}>
@@ -522,13 +446,26 @@ const Page = () => {
                   </form>
                   
                   </div>
-</div>
-
-
                   </div>
+                  </div>
+
+                {/* <div className="dropdown">
+                <button className="btn btn-primary dropdown-toggle" 
+                type="button"
+                data-toggle="dropdown">
+                  <h4>How does affiliate marketing work?</h4>
+                <span className="caret"></span></button>
+                <ul className="dropdown-menu">
+                  <li><a href="#">You include your individual affiliate link in the next email to
+                     your customers or on the website and receive your commission for each sale.</a></li>
+                  
+                </ul>
+              </div> */}
             </div>
-          </div>
-        </div>
+            </div>
+          
+          
+        
       </section>
     </>
   );
