@@ -33,7 +33,7 @@ const Page = () => {
         <div className="container">
           <div className="row">
             <div className=" mt-6">
-              <h2 className="mb-4">The Boby.pro affiliate program</h2>
+              <h2 className="mb-4">The Carenuity affiliate program</h2>
             </div>
             <div
               className="col-md-6 mb-6"
@@ -44,10 +44,10 @@ const Page = () => {
               }}
             >
               <p style={{ paddingLeft: '10px' }}>
-                Are you an influencer/blogger, kitchen builder, electrician, or
+                Are you an influencer/blogger, home start builder, electrician, or
                 something similar in the Smart Home sector? Then become an
                 advertising partner or affiliate, because we have something
-                smart for you. By advertising and marketing our Boby products,
+                smart for you. By advertising and marketing our Carenuity products,
                 you get a commission and your customers/prospects get something
                 great for their home.
               </p>

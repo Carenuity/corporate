@@ -494,6 +494,19 @@ const Index = () => {
           The improvements to the C3-Mini are shown in the following
           illustration:
         </p>
+         {/* eslint-disable-next-line @next/next/no-img-element */}
+         <img
+                  src="/img/content/C3-MINI/D1-versus-C3-Mini.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
         <h2 className="mb-2 h3">
           Evolution of the popular footprint and pinout
         </h2>
