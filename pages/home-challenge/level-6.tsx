@@ -1,11 +1,12 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import Link from 'next/link';
+import PageTitle from '../../components/PageTitle';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
 
-  const pageTitle = 'Free offer';
+
+  const pageTitle = 'AI-assisted Edge Device';
   return (
     <>
       <Head>
@@ -53,7 +54,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                 </p>
           <h4 className=" mb-4">
-            Level 1: Solder Triple Adapter & Familiarize with WOKWI
+            Level 6: Image Recognition by AI-assisted Edge Device
           </h4>
 
           <div
@@ -66,18 +67,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           >
             <div className="row ">
               <div className="col-lg-9">
-                <h5>Solder Triple Adapter & Familiarize with WOKWI</h5>
+                <h5>Build AI-assisted Device for Image Recognition</h5>
+                <ul style={{ listStyleType: 'square' }}>
+                  <li>Use ESP32-CAM for image recognition.</li>
+                  <li>Training AI models with Edge Impulse</li>
+                  <li>
+                    Cup or vegetable detection using ESP32-CAM, deploying
+                    machine learning models on ESP32-CAM
+                  </li>
+                  <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
+                </ul>
                 <p>
-                  Soldering triple adapters and familiarize yourself with WOKWI,
-                  especially with some sensor solutions.
+                  Grow visibility, open a Shopify shop Start promoting your
+                  AI-assisted device.
                   <br />
-                  <strong>Tools: </strong>Solder iron and WOKWI
+                  <strong>Tools: </strong>Edge-Impulse and Solution-Builder.
                 </p>
               </div>
               <div className="col-lg-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/home-challenge/level1.png"
+                  src="/img/content/home-challenge/level06.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -91,26 +101,40 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-          <div className="mb-4">
-            <h5>Gained Tech Competences</h5>
-            <p>
-              In Level 1, students begin their journey with the learning a basic
-              skill, soldering. They will solder the Triple Adapter and then
-              familiarize themselves with WOKWI, a powerful simulation tool for
-              electronics and IoT projects. This level focuses on understanding
-              sensor integration and building a foundation in hardware skills.
-              By the end of this level, students will have a practical
-              understanding of soldering and the ability to simulate sensor
-              solutions using WOKWI. The reward for completing this level is a
-              C3-Mini microcontroller, which is prerequisite for the next level.
-            </p>
-          </div>
+          <h5>Gained Tech Competences</h5>
+          <p>
+            Level 6 is the culmination of the challenge, where students will
+            build an image recognition system using the ESP32-CAM module. They
+            will train and deploy machine learning models on the ESP32-CAM to
+            identify objects such as vegetables. This level covers edge
+            computing concepts, data acquisition, model training, and deployment
+            using Edge Impulse. Students will also learn to promote and sell
+            their AI-assisted devices through platforms like Shopify. Completing
+            this level provides students with free stocking and sales of five
+            devices, including fulfillment and 100% sales profit. On Level 6,
+            you are able to build an image recognition system using the
+            ESP32-CAM modul e to identify vegetables like tomatoes, potatoes,
+            and onions. Using the Edge Impulse platform, you train and deploy a
+            machine learning model to run directly on the ESP32-CAM. The results
+            are displayed on an OLED screen for easy viewing. Learn the basics
+            of edge computing, data acquisition, model training, and deployment.{' '}
+          </p>
+          <p>
+            Check out our detailed{' '}
+            <a
+              href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
+              className="text-success"
+            >
+              <strong>blog post</strong>
+            </a>{' '}
+            to create your own object detection system.
+          </p>
           <div className="mb-4">
             <h5>Tutorial for this level</h5>
             <iframe
               width="1300"
               height="450"
-              src="https://www.youtube.com/embed/RHMUW-Oyl9c"
+              src="https://www.youtube.com/embed/bZIKVaD3dRk"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
@@ -119,13 +143,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div>
             <h5 className="mb-4">Reward:</h5>
-            <p>
-              The reward for completing this level is a C3-Mini microcontroller,
-              which is prerequisite for the next level.
-            </p>
-          </div>
-          <div>
-            <h5>Gained Soft Skills</h5>
             <p>
               The reward for completing this level is a C3-Mini microcontroller,
               which is prerequisite for the next level.
@@ -150,15 +167,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <p>
               In the first level of the IoT Smart Home Challenge, students will
               embark on their journey by learning the basics of soldering. They
-              will work on soldering their Triple Adapter, which is a
-              fundamental skill in electronics. Additionally, students will
-              familiarize themselves with the WOKWI simulator, a powerful tool
-              for simulating various sensor solutions. This level aims to foster
-              their foundation in practical electronics and simulation, ensuring
-              that students are comfortable with basic hardware tasks and
-              virtual environments. By the end of this level, students will have
-              gained the essential skill of soldering and using a simulation
-              tool, setting the stage for more complex projects.
+              will work on soldering triple adapters, which is a fundamental
+              skill in electronics. Additionally, students will familiarize
+              themselves with the WOKWI simulator, a powerful tool for
+              simulating various sensor solutions. This level aims to build a
+              strong foundation in practical electronics and simulation,
+              ensuring that students are comfortable with basic hardware tasks
+              and virtual environments. By the end of this level, students will
+              have gained essential skills in soldering and using simulation
+              tools, setting the stage for more complex projects.
             </p>
           </div>
         </div>

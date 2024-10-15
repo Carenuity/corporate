@@ -1,7 +1,7 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import Link from 'next/link';
+import PageTitle from '../../components/PageTitle';
 
 const Page = () => {
   const pageTitle = 'Home Challenge';
@@ -129,14 +129,14 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/level-1" className="text-success">
+                  <Link href="/home-challenge/level-1" className="text-success">
                     <h6 className="text-success">Level 1</h6>
                   </Link>
                   <p>
-                  This level focuses on understanding electronic connections, building a 
-                  foundation in hardware skills. By the end of this level, students have 
-                  a practical understanding of soldering and the ability to simulate sensor
-                   solutions using WOKWI
+                    This level focuses on understanding electronic connections,
+                    building a foundation in hardware skills. By the end of this
+                    level, students have a practical understanding of soldering
+                    and the ability to simulate sensor solutions using WOKWI
                   </p>
                   <strong>Reward:</strong> C3-mini
                 </div>
@@ -167,17 +167,18 @@ const Page = () => {
 
                 <div style={{ padding: '10px' }}>
                   <Link
-                    href="/level-2"
+                    href="/home-challenge/level-2"
                     className="text-success"
                     style={{ textUnderlinePosition: 'under' }}
                   >
                     <h6 className="text-success">Level 2</h6>
                   </Link>
                   <p>
-                  In this level, PCB design modification skills are practiced using the
-                   KiCAD tool. Upon completion of this course, students will be able to 
-                   update and store a PCB design and furthermore monitor the pins of a 
-                   microcontroller live on their smartphone.
+                    In this level, PCB design modification skills are practiced
+                    using the KiCAD tool. Upon completion of this course,
+                    students will be able to update and store a PCB design and
+                    furthermore monitor the pins of a microcontroller live on
+                    their smartphone.
                   </p>
                   <strong>Reward:</strong> 0.66 / 0.96 OLED Display
                 </div>
@@ -206,13 +207,15 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/level-3">
+                  <Link href="/home-challenge/level-3">
                     <h6 className="text-success">Level 3</h6>
                   </Link>
                   <p>
-                  The third level encourages students to share their success within the solution 
-                  builder community. The focus is on developing coding skills in Arduino, optimizing
-                   sketches by AI, and leveraging API integrations to enhance functionality of own Apps.
+                    The third level encourages students to share their success
+                    within the solution builder community. The focus is on
+                    developing coding skills in Arduino, optimizing sketches by
+                    AI, and leveraging API integrations to enhance functionality
+                    of own Apps.
                   </p>
                   <strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor
                 </div>
@@ -241,15 +244,17 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/level-4">
+                  <Link href="/home-challenge/level-4">
                     <h6 className="text-success">Level 4</h6>
                   </Link>
                   <p>
-                  This level not only enhances students' technical skills in 3D modelling and rendering,
-                   but also encourages creativity and innovation in designing custom enclosures for their
-                    rendered electronics. By mastering this level, students will be able to create 
-                    professional-looking PCBs & enclosures that enhance the acceptance and aesthetics
-                     of their IoT devices.
+                    This level not only enhances students&apos; technical skills
+                    in 3D modelling and rendering, but also encourages
+                    creativity and innovation in designing custom enclosures for
+                    their rendered electronics. By mastering this level,
+                    students will be able to create professional-looking PCBs &
+                    enclosures that enhance the acceptance and aesthetics of
+                    their IoT devices.
                   </p>
                   <strong>Reward:</strong> 25% voucher for ChipGlobe.shop
                 </div>
@@ -279,15 +284,18 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/level-5" className="text-success">
+                  <Link href="/home-challenge/level-5" className="text-success">
                     <h6 className="text-success">Level 5</h6>
                   </Link>
                   <p>
-                  Level 5 focuses on recording and analyzing sensor data. Students commission a sensor
-                   device, visualize and analyze its data in a database in order to later develop algorithms
-                    for machine learning and predictive models. The focus is on the selection of a suitable
-                     database for target achievement and automation in real time. At the end of this level,
-                      students will implement a data logger to use the data for smart AI-assisted solutions.
+                    Level 5 focuses on recording and analyzing sensor data.
+                    Students commission a sensor device, visualize and analyze
+                    its data in a database in order to later develop algorithms
+                    for machine learning and predictive models. The focus is on
+                    the selection of a suitable database for target achievement
+                    and automation in real time. At the end of this level,
+                    students will implement a data logger to use the data for
+                    smart AI-assisted solutions.
                   </p>
                   <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.69
                   OLED plus 2 years free access to SQ-Cloud (Google Firebase)
@@ -318,14 +326,15 @@ const Page = () => {
                 />
 
                 <div style={{ padding: '10px' }}>
-                  <Link href="/level-6" className="text-success">
+                  <Link href="/home-challenge/level-6" className="text-success">
                     <h6 className="text-success">Level 6</h6>
                   </Link>
                   <p>
-                    	
-              This level covers data acquisition, model training, deployment and AI-assisted 
-              edge computing using Edge Impulse for object detection. Students will learn to 
-              describe, promote and optionally market their AI-assisted device on a sharing platform.
+                    This level covers data acquisition, model training,
+                    deployment and AI-assisted edge computing using Edge Impulse
+                    for object detection. Students will learn to describe,
+                    promote and optionally market their AI-assisted device on a
+                    sharing platform.
                   </p>
                   <strong>Reward:</strong> Own website, free stocking & sales of
                   5 devices, incl. fulfillment, getting 100% sales profit.

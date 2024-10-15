@@ -147,6 +147,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
+          {/* <iframe
+            src="https://carenuityblog.wixsite.com/embedded-ai-journal/post/using-the-bgt60ltr11-radar-shield2go-with-esp32-for-ai-applications"
+            width={800}
+            height={485}
+          /> */}
         </div>
       </section>
     </>

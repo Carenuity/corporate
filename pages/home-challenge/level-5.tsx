@@ -1,7 +1,7 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import Link from 'next/link';
+import PageTitle from '../../components/PageTitle';
 
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {

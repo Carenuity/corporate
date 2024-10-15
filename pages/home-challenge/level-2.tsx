@@ -1,12 +1,11 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import Link from 'next/link';
+import PageTitle from '../../components/PageTitle';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
 
-
-  const pageTitle = '3D Modeling';
+  const pageTitle = 'GPIO-Viewer';
   return (
     <>
       <Head>
@@ -53,7 +52,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     </a>
                   )}
                 </p>
-          <h4 className=" mb-4">Level 4: 3D Modelling and Custom Enclosures</h4>
+          <h4 className=" mb-4">Level 2: GPIO-Viewer and PCB-Design</h4>
 
           <div
             className="e-card mb-4"
@@ -65,20 +64,20 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           >
             <div className="row ">
               <div className="col-lg-9">
-                <h5>Design Custom Enclosure with 3D Modeling</h5>
+                <h5>
+                  Show Pins by GPIO-Viewer and modify a PCB-Design with KiCAD
+                </h5>
                 <p>
-                  Familiarize with 3D-Modelling software to build your own
-                  customized enclosure. You will get your own hero page on
-                  Solution Builder to present it with your triple and
-                  3D-printable case.
+                  GPIO Viewer & PCB-Desing (add your own logo) design
+                  modification.
                   <br />
-                  <strong>Tools: </strong>SketchUp 3D-Tool, Home-Assistant
+                  <strong>Tools: </strong>GPIO-Viewer and KiCAD
                 </p>
               </div>
               <div className="col-lg-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/home-challenge/level4.png"
+                  src="/img/content/home-challenge/level2.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -95,15 +94,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="mb-4">
             <h5>Gained Tech Competences</h5>
             <p>
-              Level 4 challenges students to design custom enclosures using 3D
-              modeling software such as SketchUp. They will integrate these
-              3D-printed components with their electronic projects, enhancing
-              both the functionality and aesthetics of their devices.
-              Additionally, students will learn to automate home devices using
-              Home Assistant. This level combines hardware design with software
-              automation, providing a comprehensive skill set. Successful
-              completion of this level earns students a 25% voucher for
-              ChipGlobe.shop.
+              Level 2 introduces students to the world of PCB (Printed Circuit
+              Board) design. Using the GPIO Viewer, students will configure pins
+              and design their own PCBs, including adding custom logos. This
+              level emphasizes the importance of precise design and modification
+              skills using tools like KiCAD. By completing this level, students
+              will gain proficiency in PCB design and the ability to create
+              customized electronic components.
             </p>
           </div>
           <div className="mb-4">
@@ -111,7 +108,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <iframe
               width="1300"
               height="450"
-              src="https://www.youtube.com/embed/Axb_8qcjv1s"
+              src="https://www.youtube.com/embed/j9v6RvyUrvc"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
@@ -121,36 +118,36 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div>
             <h5 className="mb-4">Reward:</h5>
             <p>
-              The reward for completing this level is 25% voucher for
-              ChipGlobe.shop.
+              The reward for completing this level is a 0.66 / 0.96 OLED
+              Display.
             </p>
           </div>
           <div>
             <h5>Gained Soft Skills</h5>
             <p>
-              Level 4 emphasizes creativity and problem-solving as students
-              design custom enclosures using 3D modeling software. They will
-              improve their communication skills by documenting their design
-              process and explaining their choices. Time management is crucial
-              for balancing design and integration tasks. Adaptability is
-              required to learn new software tools, and attention to detail
-              ensures high-quality designs. Resilience is built as they iterate
-              on their designs to achieve the desired outcome.
+              Level 2 focuses on teamwork and collaboration as students may seek
+              feedback on their PCB designs. They will improve their
+              adaptability by learning to use new tools like KiCAD. Leadership
+              and initiative are fostered as they take ownership of their design
+              projects. Attention to detail is further developed through precise
+              PCB modifications, and creativity is encouraged in adding custom
+              logos.
             </p>
           </div>
 
           <div>
             <h5>Summary for this Level</h5>
             <p>
-              Level 4 focuses on 3D modelling and the creation of custom
-              enclosures for electronic projects. Students will use 3D modelling
-              software like SketchUp to design and build their own enclosures,
-              which will be showcased on a hero page. This level not only
-              enhances students&apos; technical skills in 3D modelling but also
-              encourages creativity and innovation in designing custom solutions
-              for their projects. By mastering these skills, students will be
-              able to create professional-looking enclosures that enhance the
-              functionality and aesthetics of their IoT devices.
+              The second level introduces students to the PCB design using KiCAD
+              and the GPIO Viewer. Students will learn to modify a printed
+              circuit board (PCBs) design, including the integration of a custom
+              logos or symbol of their choice. This level emphasizes basics of
+              PCB design and the importance of understanding GPIO pins, which
+              are crucial for creating aesthetically pleasing and functional
+              electronic devices. By mastering these skills, students will gain
+              confidence to handle their own PCBs and understand the intricacies
+              of hardware design, preparing them for more advanced tasks in the
+              subsequent levels.
             </p>
           </div>
         </div>
