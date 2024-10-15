@@ -634,7 +634,7 @@ const Index = () => {
         <div className="mt-4 pb-5">
           {/* Air Quality */}
           <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
-          
+
           {/* BMP180 */}
           <SolutionWidget solutionId="nzeAXNAV3LOeRA2avVDM" />
           {/* Bio-Pulse */}

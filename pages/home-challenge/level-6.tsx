@@ -4,8 +4,6 @@ import Link from 'next/link';
 import PageTitle from '../../components/PageTitle';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-
-
   const pageTitle = 'AI-assisted Edge Device';
   return (
     <>
@@ -31,28 +29,28 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-        <p>
-                  {!isMobile && (
-                    <Link
-                      href={'/home-challenge'}
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">Back to Home Challenge</span>
-                    </Link>
-                  )}
+          <p>
+            {!isMobile && (
+              <Link
+                href={'/home-challenge'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Back to Home Challenge</span>
+              </Link>
+            )}
 
-                  {isMobile && (
-                    <a
-                      href={'/single-sensor-boxes'}
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">
-                        Back to Home Challenge{' '}
-                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                      </span>
-                    </a>
-                  )}
-                </p>
+            {isMobile && (
+              <a
+                href={'/single-sensor-boxes'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Back to Home Challenge{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
           <h4 className=" mb-4">
             Level 6: Image Recognition by AI-assisted Edge Device
           </h4>
