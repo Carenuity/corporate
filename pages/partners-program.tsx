@@ -144,7 +144,7 @@ const Page = () => {
            
 
             
-
+            
             <h4 className="mb-4" id='register' style={{ textAlign: 'center' }}>
               HOW TO REGISTER{' '}
             </h4>

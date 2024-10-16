@@ -126,7 +126,7 @@ const Page = () => {
                 <div style={{ padding: '10px' }}>
                   <h6>Kenya Sleep-Tracking</h6>
                   <a href="https://malynjahi.wixsite.com/mysite-1">
-                    <h6 className="text-success">https://malynjahi.wixsite.com/mysite-1</h6>
+                    <p className="text-success">https://malynjahi.wixsite.com/mysite-1</p>
                   </a>
                 </div>
               </div>
