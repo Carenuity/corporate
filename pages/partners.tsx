@@ -111,7 +111,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/home-challenge/gray.png"
+                  src="/img/content/partners/sleep-technology.jpeg"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -125,8 +125,8 @@ const Page = () => {
 
                 <div style={{ padding: '10px' }}>
                   <h6>Kenya Sleep-Tracking</h6>
-                  <a href="">
-                    <h6 className="text-success">Url</h6>
+                  <a href="https://malynjahi.wixsite.com/mysite-1">
+                    <h6 className="text-success">https://malynjahi.wixsite.com/mysite-1</h6>
                   </a>
                 </div>
               </div>

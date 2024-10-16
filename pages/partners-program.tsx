@@ -52,14 +52,12 @@ const Page = () => {
                 great for their home.
               </p>
 
-              <Link href="/partners-program" className="text-success">
+              <Link href="#register" className="text-success">
                 <h5 className="text-success" style={{ paddingLeft: '10px' }}>
                   Register now for free!
                 </h5>
               </Link>
-                     <Link href="/partners-program" className="text-success">
-                    <h5 className="text-success" style={{paddingLeft:'10px'}}>Register now for free!</h5>
-                  </Link>
+                     
                   </div>
                   
                   <div className='col-md-4 mb-6'>
@@ -147,10 +145,10 @@ const Page = () => {
 
             
 
-            <h4 className="mb-4" style={{ textAlign: 'center' }}>
+            <h4 className="mb-4" id='register' style={{ textAlign: 'center' }}>
               HOW TO REGISTER{' '}
             </h4>
-            <div className="row">
+            <div className="row" >
               <div className="col-md-4 mb-12" style={{ textAlign: 'center' }}>
                 <div
                   className="e-card mb-4"
@@ -286,7 +284,7 @@ const Page = () => {
                 <div style={{textAlign:'center'}}>
                 <h2>Register</h2>
                 </div>
-                  <div style={{
+                  <div className='mb-12' style={{
                     paddingLeft:"350PX"
                   }}>
                   
@@ -449,23 +447,52 @@ const Page = () => {
                   </div>
                   </div>
 
-                {/* <div className="dropdown">
-                <button className="btn btn-primary dropdown-toggle" 
-                type="button"
-                data-toggle="dropdown">
-                  <h4>How does affiliate marketing work?</h4>
-                <span className="caret"></span></button>
-                <ul className="dropdown-menu">
-                  <li><a href="#">You include your individual affiliate link in the next email to
-                     your customers or on the website and receive your commission for each sale.</a></li>
+                <div className="dropdown" >
+                <button className="btn  " 
+                        type="button" 
+                       
+                        style={{width:"1150px",
+                          backgroundColor:"#eeeeee",
+                          textAlign:'left'
+                        }}>
+                  <h4>How does affiliate marketing work?
+                    <i className="fa fa-caret-down"
+                  style={
+                    {textAlign:"right"}
+                  }></i></h4>
+                </button>
+                <div className="dropdown-content">
+                <a href="#">
                   
-                </ul>
+                  You include your individual affiliate link in the next email to
+                     your customers or on the website and receive your commission for each sale.</a>
+                  
+                </div>
+              </div>
+
+
+              {/* <div className="dropdown" >
+                <button className="btn  dropdown-toggle" 
+                        type="button" 
+                        data-toggle="dropdown"
+                        style={{width:"1200px",
+                          backgroundColor:"#eeeeee",
+                          textAlign:'left'
+                        }}>
+                  <h4>How does affiliate marketing work?<i className="fa fa-caret-down"
+                  style={
+                    {textAlign:"right"}
+                  }></i></h4>
+                </button>
+                <div className="dropdown-content">
+                <a href="#">You include your individual affiliate link in the next email to
+                     your customers or on the website and receive your commission for each sale.</a>
+                  
+                </div>
               </div> */}
             </div>
             </div>
-          
-          
-        
+
       </section>
     </>
   );
