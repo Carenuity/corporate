@@ -82,81 +82,21 @@ const Index = () => {
                   <SolutionWidget solutionId="nzeAXNAV3LOeRA2avVDM" />
 
                   {/* Hygrometer-1 */}
-                  {/* <CarenuityDevice
-                    name={{
-                      short: 'Hygrometer-1',
-                      long: `Temperature & Humidity by DHT11 (AOSONG/ASAIR)`,
-                    }}
-                    imageUrl={'/img/sensors/Hygrometer-sensor.png'}
-                    webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/DHT11/C3-Mini'
-                    }
-                  /> */}
                   <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
 
                   {/* IR Radiometer */}
-                  {/* <CarenuityDevice
-                    name={{
-                      short: 'IR Radiometer',
-                      long: `Infrared Radiation Detector by IRM-H6XXT/TR2 (EVERLIGHT)`,
-                    }}
-                    imageUrl={'/img/sensors/IR-Radiometer-sensor.png'}
-                    webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/H6XXT/C3-Mini'
-                    }
-                  /> */}
                   <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
 
                   {/* Luxmeter */}
-                  {/* <CarenuityDevice
-                    name={{
-                      short: 'Luxmeter',
-                      long: `Ambient Light by BH1750FVI (ROHM SEMICONDUCTOR)`,
-                    }}
-                    imageUrl={'/img/sensors/Luxmeter-sensor.png'}
-                    webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/BH1750/C3-Mini'
-                    }
-                  /> */}
                   <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
 
                   {/* Thermometer */}
-                  {/* <CarenuityDevice
-                    name={{
-                      short: 'Thermometer',
-                      long: `Temperature by DS18B20 (MAXIM ANALOG DEVICES)`,
-                    }}
-                    imageUrl={'/img/sensors/Thermometer-sensor.png'}
-                    webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/DS18B20/C3-Mini'
-                    }
-                  /> */}
                   <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
 
                   {/* Motion Detector */}
-                  {/* <CarenuityDevice
-                    name={{
-                      short: 'Motion Detector',
-                      long: `Passive Infrared Radiation Detector by PIR (ADAFRUIT)`,
-                    }}
-                    imageUrl={'/img/sensors/Motion-Detector-sensor.png'}
-                    webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/PIR/C3-Mini'
-                    }
-                  /> */}
                   <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
 
                   {/* Presence Detector */}
-                  {/* <CarenuityDevice
-                    name={{
-                      short: 'Presence Detector',
-                      long: `Push / Click Control by One-Button (DIGIKEY)`,
-                    }}
-                    imageUrl={'/img/sensors/Presence-Detector-sensor.png'}
-                    webFlashUrl={
-                      'https://chipglobe-dev.web.app/cloudfree/BUTTON/C3-Mini'
-                    }
-                  /> */}
                   <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
                 </div>
               </div>

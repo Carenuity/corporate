@@ -1,11 +1,9 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import Link from 'next/link';
+import PageTitle from '../../components/PageTitle';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-
-
   const pageTitle = '3D Modeling';
   return (
     <>
@@ -31,28 +29,28 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-        <p>
-                  {!isMobile && (
-                    <Link
-                      href={'/home-challenge'}
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">Back to Home Challenge</span>
-                    </Link>
-                  )}
+          <p>
+            {!isMobile && (
+              <Link
+                href={'/home-challenge'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Back to Home Challenge</span>
+              </Link>
+            )}
 
-                  {isMobile && (
-                    <a
-                      href={'/single-sensor-boxes'}
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">
-                        Back to Home Challenge{' '}
-                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                      </span>
-                    </a>
-                  )}
-                </p>
+            {isMobile && (
+              <a
+                href={'/single-sensor-boxes'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Back to Home Challenge{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
           <h4 className=" mb-4">Level 4: 3D Modelling and Custom Enclosures</h4>
 
           <div

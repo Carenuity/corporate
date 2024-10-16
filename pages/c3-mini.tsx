@@ -494,19 +494,19 @@ const Index = () => {
           The improvements to the C3-Mini are shown in the following
           illustration:
         </p>
-         {/* eslint-disable-next-line @next/next/no-img-element */}
-         <img
-                  src="/img/content/C3-MINI/D1-versus-C3-Mini.png"
-                  className="wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '420px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/img/content/C3-MINI/D1-versus-C3-Mini.png"
+          className="wow fadeInUp"
+          data-wow-delay="100ms"
+          alt="..."
+          style={{
+            visibility: 'visible',
+            width: '420px',
+            animationDelay: '100ms',
+            animationName: 'fadeIn',
+          }}
+        />
         <h2 className="mb-2 h3">
           Evolution of the popular footprint and pinout
         </h2>
@@ -632,8 +632,61 @@ const Index = () => {
         <h2 className="h3 mt-5 mb-2">Solution Builder Widgets</h2>
 
         <div className="mt-4 pb-5">
+          {/* Air Quality */}
           <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
-          <SolutionWidget solutionId="5KmjmXd7VKCqDOk0yvL4" />
+
+          {/* BMP180 */}
+          <SolutionWidget solutionId="nzeAXNAV3LOeRA2avVDM" />
+          {/* Bio-Pulse */}
+          <SolutionWidget solutionId="QucQ05EfksGSmSeHVHZY" />
+
+          {/* Envirosence */}
+          <SolutionWidget solutionId="EVfcgU5gUOrAKLN3Ik0Y" />
+
+          {/* GPIO Viewer */}
+          <SolutionWidget solutionId="mKjGP6fwSk1SotR7VjmK" />
+
+          {/* Home Challenge */}
+          <SolutionWidget solutionId="hOKYr6kDq4FQmG3oamNe" />
+
+          {/* SHT30 */}
+          <SolutionWidget solutionId="wcs3mCGrCzP5BnAHjjIH" />
+
+          {/* DHT22 */}
+          <SolutionWidget solutionId="HgZnhYqfUiktMbMPin16" />
+
+          {/* Hygrometer-1 */}
+          <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
+
+          {/* IR Radiometer */}
+          <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
+
+          {/* Logo Display */}
+          <SolutionWidget solutionId="FC4a4O0YW3Q7dMKYBJJ7" />
+
+          {/* Luxmeter */}
+          <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
+
+          {/* Motion Beeper */}
+          <SolutionWidget solutionId="ce57xKxHhSJGVzb4P1Jk" />
+
+          {/* Thermometer */}
+          <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
+
+          {/* Motion Detector */}
+          <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
+
+          {/* Presence Detector */}
+          <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
+
+          {/* HP303B */}
+          <SolutionWidget solutionId="gmwQRjIo2V8nyZ2N9D8x" />
+
+          {/* WLED */}
+          <SolutionWidget solutionId="pDNf45XWUJcTJcMBGM4z" />
+
+          {/* YouTube Meter */}
+          <SolutionWidget solutionId="33ShEVCKo7u5L24bznXc" />
         </div>
 
         <div className="row mb-1-9 bg-secondary p-3 text-white mt-5">
