@@ -29,28 +29,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <p>
-            {!isMobile && (
-              <Link
-                href={'/home-challenge'}
-                className={'btn btn-lg btn-success rounded-pill'}
-              >
-                <span className="small">Back to Home Challenge</span>
-              </Link>
-            )}
-
-            {isMobile && (
-              <a
-                href={'/single-sensor-boxes'}
-                className={'btn btn-lg btn-success rounded-pill'}
-              >
-                <span className="small">
-                  Back to Home Challenge{' '}
-                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                </span>
-              </a>
-            )}
-          </p>
+         
           <h4 className=" mb-4">
             Level 5: Sensor Selection and Machine Learning
           </h4>
@@ -201,6 +180,28 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               commercialize their projects.
             </p>
           </div>
+          <p>
+            {!isMobile && (
+              <Link
+                href={'/home-challenge'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Back to Home Challenge</span>
+              </Link>
+            )}
+
+            {isMobile && (
+              <a
+                href={'/single-sensor-boxes'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Back to Home Challenge{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
         </div>
       </section>
     </>

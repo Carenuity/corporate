@@ -111,7 +111,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '470px',
+                  height: '500px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -148,7 +148,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '470px',
+                  height: '500px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -189,7 +189,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '470px',
+                  height: '500px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
