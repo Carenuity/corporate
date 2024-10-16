@@ -143,67 +143,7 @@ const Page = () => {
 
            
 
-            <div
-              className="mb-12"
-              style={{ backgroundColor: '#eeeeee', textAlign: 'center' }}
-            >
-              <div className="row ">
-                <div className="col-md-4 ">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/partners/tick.png"
-                    className="mt-3 mb-2 wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      maxWidth: '40px',
-                    }}
-                  />
-                  <h6>10% commission</h6>
-                  <p>per successfully paid invoice</p>
-                </div>
-                <div className="col-md-4">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/partners/tick.png"
-                    className="mt-3 mb-2 wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      maxWidth: '40px',
-                    }}
-                  />
-                  <h6>Personal dashboard</h6>
-                  <p>with your KPIs</p>
-                </div>
-                <div className="col-md-4">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/partners/tick.png"
-                    className="mt-3 mb-2 wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                      maxWidth: '40px',
-                    }}
-                  />
-                  <h6>90 days</h6>
-                  <p>cookie tracking</p>
-                </div>
-              </div>
-            </div>
+            
 
             <h4 className="mb-4" id='register' style={{ textAlign: 'center' }}>
               HOW TO REGISTER{' '}
