@@ -5,7 +5,7 @@ import PageTitle from '../../components/PageTitle';
 // import styles from './level1.module.css';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'THWS Home Challenge';
+  const pageTitle = 'TUK Home Challenge';
   return (
     <>
       <Head>
@@ -29,18 +29,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       />
 
       <section className="pt-4">
-        {/* <div className='container'>
-            <iframe src="https://thws-home-challenge.my.canva.site/" width="100%" height="2000px"></iframe>
-
-        </div> */}
+        
 
 <div className='container'>
   <iframe loading="lazy" className='mb-4'
-    src="https://www.canva.com/design/DAGTv8E29BE/vw2sd2l1Wp4OwFOmFTSw1A/view?embed" width="100%" height="600px" >
+    src="https://www.canva.com/design/DAGT0LQPP38/0xAv2oZwmeCv63m-bM4I4w/view?embed" width="100%" height="600px" >
   </iframe>
 
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGTv8E29BE&#x2F;vw2sd2l1Wp4OwFOmFTSw1A&#x2F;view?utm_content=DAGTv8E29BE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
- target="_blank" rel="noopener"><u>THWS Home Challenge</u></a> by carenuity
+  <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGT0LQPP38&#x2F;0xAv2oZwmeCv63m-bM4I4w&#x2F;view?utm_content=DAGT0LQPP38&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
+  target="_blank" rel="noopener"><u>TUK Home Challenge</u></a> by carenuity
 </div>
       </section>
     </>

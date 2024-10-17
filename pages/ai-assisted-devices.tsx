@@ -66,17 +66,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             
 
-            <div className="col-lg-8 mb-4">
+            <div className="col-lg-4 mb-4">
               <div
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '500px',
+                  height: '430px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/radar-sensor01.png"
+                  src="/img/content/Ai-assisted/radar-sensor1.jpeg"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -102,41 +102,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                 <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
                   Today, let&apos;s delve into the fascinating world of the
-                  HLK-LD2410, a 24GHz Human Presence Radar Sensor. The exciting
-                  part? No coding required! In this tutorial, we&apos;ll walk
-                  you through the simple yet captivating.....
+                  HLK-LD2410, a 24GHz Human Presence .....
                 </p>
               </div>
             </div>
-
-            <div>
-              
-              <ul>
-                <li><h5>	ESP32-Cam</h5></li>
-                
-              </ul>
-              <p>The ESP32-CAM is a compact, low-cost module that combines an ESP32-S microcontroller
-                 with an OV2640 camera.
-                 In the field of object detection, it is particularly useful due to its
-                  built-in Wi-Fi and Bluetooth capabilities, allowing for wireless image
-                   transmission and processing. By leveraging libraries like OpenCV and machine
-                    learning models, the ESP32-CAM can perform real-time object detection and 
-                    identification. This makes it ideal for applications in home automation, 
-                    security systems, and IoT projects where capturing and analyzing visual data is essential.
-                </p>
-            </div>
-
-            <div className="col-lg-8 mb-4">
+            <div className="col-lg-4 mb-4">
               <div
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '500px',
+                  height: '430px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/radar-sensor02.png"
+                  src="/img/content/Ai-assisted/radar-sensor2.jpeg"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -161,10 +141,106 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                 <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
                   What if you could see through walls, fog, and darkness, with
-                  accuracy and speed? This has been made possible thanks to the
-                  LD2410C radar sensor, a high sensitivity 24GHz human presence
-                  status sensing module developed by Hi-Link Electronics. In a
-                  world .....
+                  accuracy and speed? This has been made possible thanks .....
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '430px',
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/Ai-assisted/esp32-cam1.jpeg"
+                  className=" wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    width:"100%",
+                    animationName: 'fadeIn',
+                  }}
+                />
+
+                <a
+                  href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/using-the-bgt60ltr11-radar-shield2go-with-esp32-for-ai-applications"
+                  className="text-success"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h5 style={{ padding: '10px' }}>
+                    <u>Using the BGT60LTR11 Radar Shield2Go with ESP32 for AI Applications</u>
+                  </h5>
+                </a>
+
+                <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
+                The BGT60LTR11 Radar Shield2Go is a compact and versatile radar sensor.....
+                </p>
+              </div>
+            </div>
+            <div>
+              
+              <ul>
+                <li><h5>	ESP32-Cam</h5></li>
+                
+              </ul>
+              <p>The ESP32-CAM is a compact, low-cost module that combines an ESP32-S microcontroller
+                 with an OV2640 camera.
+                 In the field of object detection, it is particularly useful due to its
+                  built-in Wi-Fi and Bluetooth capabilities, allowing for wireless image
+                   transmission and processing. By leveraging libraries like OpenCV and machine
+                    learning models, the ESP32-CAM can perform real-time object detection and 
+                    identification. This makes it ideal for applications in home automation, 
+                    security systems, and IoT projects where capturing and analyzing visual data is essential.
+                </p>
+            </div>
+
+           
+           
+            <div className="col-lg-6 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '600px',
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/Ai-assisted/esp32-cam2.jpeg"
+                  className=" wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    width:"100%",
+                    animationName: 'fadeIn',
+                  }}
+                />
+
+                <a
+                  href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
+                  className="text-success"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h5 style={{ padding: '10px' }}>
+                    <u>Turning Your ESP32-CAM into a Smart Object Detector with Edge Impulse</u>
+                  </h5>
+                </a>
+
+                <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
+                Hello, tech enthusiasts, welcome to the AI Journal tutorial! In this blog post, we're diving 
+                into the exciting world of creating your own object detection model on the ESP32-CAM using 
+                Edge.....
+
+
                 </p>
               </div>
             </div>
