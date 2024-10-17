@@ -33,7 +33,7 @@ const Page = () => {
             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-THWS/Pressebild-1.png"
+                src="/img/content/press-materials-for-thws/Pressebild-1.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -49,7 +49,7 @@ const Page = () => {
             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-THWS/Pressebild-2.png"
+                src="/img/content/press-materials-for-thws/Pressebild-2.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -65,7 +65,7 @@ const Page = () => {
             <div className="col-lg-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-THWS/Pressebild-3.png"
+                src="/img/content/press-materials-for-thws/Pressebild-3.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
