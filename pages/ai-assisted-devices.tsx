@@ -56,7 +56,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div>
               <h4>Our Sensors / Featured Sensors</h4>
               <ul>
-                <li>	Radar Sensor</li>
+                <li><h5>Radar Sensor</h5>	</li>
                 
               </ul>
               <p>A radar sensor is a device that uses radio waves to detect [stationary, approaching, departing, missing] objects and measure their distance, speed, and other characteristics, in instance segmentation of an area. 
@@ -66,17 +66,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             
 
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-8 mb-4">
               <div
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '550px',
+                  height: '500px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/radar-sensor1.jpeg"
+                  src="/img/content/Ai-assisted/radar-sensor01.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -112,7 +112,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div>
               
               <ul>
-                <li>	ESP32-Cam</li>
+                <li><h5>	ESP32-Cam</h5></li>
                 
               </ul>
               <p>The ESP32-CAM is a compact, low-cost module that combines an ESP32-S microcontroller
@@ -126,17 +126,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </p>
             </div>
 
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-8 mb-4">
               <div
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '550px',
+                  height: '500px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/radar-sensor2.jpeg"
+                  src="/img/content/Ai-assisted/radar-sensor02.png"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
