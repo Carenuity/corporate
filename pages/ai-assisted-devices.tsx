@@ -31,11 +31,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <div className="row">
             <h4>
-              Intelligent Radar Device for Preventing Sudden Infant Death
-              Syndrome (SIDS)
+            AI-assisted sensors
+              {/* Intelligent Radar Device for Preventing Sudden Infant Death
+              Syndrome (SIDS) */}
             </h4>
 
-            <p>
+            {/* <p>
               Our cutting-edge radar device is designed to help prevent Sudden
               Infant Death Syndrome (SIDS) by continuously monitoring your
               baby&apos;s vital signs without physical contact. Utilizing
@@ -45,21 +46,25 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               solution ensures your baby&apos;s safety and gives you peace of
               mind, knowing that your little one is being closely monitored
               around the clock.
-            </p>
+            </p> */}
+
+            <p>AI-assisted sensors are devices that combine sensor technology with artificial
+               intelligence to gather, process, and analyze data from their environment. These
+                sensors can detect various physical parameters such as temperature, motion, light,
+                 and more, and use AI to make intelligent decisions based on the data collected.</p>
 
             <div>
-              <h6>Radar states:</h6>
-              <ol>
-                <li>Approaching object</li>
-                <li>Moving away object</li>
-                <li>Stationary object</li>
-                <li>No object</li>
-              </ol>
+              <h4>Our Sensors / Featured Sensors</h4>
+              <ul>
+                <li>	Radar Sensor</li>
+                
+              </ul>
+              <p>A radar sensor is a device that uses radio waves to detect [stationary, approaching, departing, missing] objects and measure their distance, speed, and other characteristics, in instance segmentation of an area. 
+              <br/>Take a look to the radars that we use in our projects:
+                </p>
             </div>
 
-            <h4 className=" mb-4">
-              Go through the blogs to learn more about Radar Device
-            </h4>
+            
 
             <div className="col-lg-6 mb-4">
               <div
@@ -102,6 +107,23 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   you through the simple yet captivating.....
                 </p>
               </div>
+            </div>
+
+            <div>
+              
+              <ul>
+                <li>	ESP32-Cam</li>
+                
+              </ul>
+              <p>The ESP32-CAM is a compact, low-cost module that combines an ESP32-S microcontroller
+                 with an OV2640 camera.
+                 In the field of object detection, it is particularly useful due to its
+                  built-in Wi-Fi and Bluetooth capabilities, allowing for wireless image
+                   transmission and processing. By leveraging libraries like OpenCV and machine
+                    learning models, the ESP32-CAM can perform real-time object detection and 
+                    identification. This makes it ideal for applications in home automation, 
+                    security systems, and IoT projects where capturing and analyzing visual data is essential.
+                </p>
             </div>
 
             <div className="col-lg-6 mb-4">
