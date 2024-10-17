@@ -29,7 +29,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          
           <h4 className=" mb-4">Level 2: GPIO-Viewer and PCB-Design</h4>
 
           <div

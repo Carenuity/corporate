@@ -29,7 +29,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          
           <h4 className=" mb-4">Level 3: API Usage and App Development</h4>
 
           <div

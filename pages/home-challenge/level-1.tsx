@@ -30,7 +30,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-        
           <h4 className=" mb-4">
             Level 1: Solder Triple Adapter & Familiarize with WOKWI
           </h4>

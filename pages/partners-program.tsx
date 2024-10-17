@@ -56,99 +56,91 @@ const Page = () => {
                   Register now for free!
                 </h5>
               </Link>
-                     
-                  </div>
-                  
-                  <div className='col-md-4 mb-6'>
-                  <video
-                    src="/videos/content/Partnerprogramm.mp4"
-                    loop={true}
-                    autoPlay={true}
-                    muted
-                    className=" wow fadeInUp w-100"
-                    data-wow-delay="100ms"
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '100ms',
-                      // height: '150',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                </div>
-
-            <div className='mb-12' style={{backgroundColor:'#eeeeee',
-                        textAlign:'center'
-            }}>
-                <div className='row '>
-                    <div className='col-md-4 '>
-                    <img
-                  src="/img/content/partners/tick.png"
-                  className="mt-3 mb-2 wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '420px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                    maxWidth:'40px'
-                    
-                  }}
-                />
-                    <h6>10% commission</h6>
-                    <p>per successfully paid invoice</p>
-                    </div>
-                    <div className='col-md-4'>
-                    <img
-                  src="/img/content/partners/tick.png"
-                  className="mt-3 mb-2 wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '420px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                    maxWidth:'40px'
-                    
-                  }}
-                />
-                    <h6>Personal dashboard</h6>
-                    <p>with your KPIs</p>
-                    </div>
-                    <div className='col-md-4'>
-                    <img
-                  src="/img/content/partners/tick.png"
-                  className="mt-3 mb-2 wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '420px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                    maxWidth:'40px'
-                    
-                  }}
-                />
-                    <h6>90 days</h6>
-                    <p>cookie tracking</p>
-                    </div>
-
-                  
-                </div>
-                
-              
             </div>
 
-           
+            <div className="col-md-4 mb-6">
+              <video
+                src="/videos/content/Partnerprogramm.mp4"
+                loop={true}
+                autoPlay={true}
+                muted
+                className=" wow fadeInUp w-100"
+                data-wow-delay="100ms"
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  // height: '150',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
 
-            
-            
-            <h4 className="mb-4" id='register' style={{ textAlign: 'center' }}>
+            <div
+              className="mb-12"
+              style={{ backgroundColor: '#eeeeee', textAlign: 'center' }}
+            >
+              <div className="row ">
+                <div className="col-md-4 ">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/partners/tick.png"
+                    className="mt-3 mb-2 wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      width: '420px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                      maxWidth: '40px',
+                    }}
+                  />
+                  <h6>10% commission</h6>
+                  <p>per successfully paid invoice</p>
+                </div>
+                <div className="col-md-4">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/partners/tick.png"
+                    className="mt-3 mb-2 wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      width: '420px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                      maxWidth: '40px',
+                    }}
+                  />
+                  <h6>Personal dashboard</h6>
+                  <p>with your KPIs</p>
+                </div>
+                <div className="col-md-4">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/partners/tick.png"
+                    className="mt-3 mb-2 wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      width: '420px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                      maxWidth: '40px',
+                    }}
+                  />
+                  <h6>90 days</h6>
+                  <p>cookie tracking</p>
+                </div>
+              </div>
+            </div>
+
+            <h4 className="mb-4" id="register" style={{ textAlign: 'center' }}>
               HOW TO REGISTER{' '}
             </h4>
-            <div className="row" >
+            <div className="row">
               <div className="col-md-4 mb-12" style={{ textAlign: 'center' }}>
                 <div
                   className="e-card mb-4"
@@ -278,11 +270,9 @@ const Page = () => {
                   <p>Embed a link, advertise and earn money!</p>
                 </div>
               </div>
-              
-                
-                </div>
+            </div>
 
-                {/* <div style={{textAlign:'center'}}>
+            {/* <div style={{textAlign:'center'}}>
                 <h2>Register</h2>
                 </div>
                   <div className='mb-12' style={{
@@ -302,7 +292,7 @@ const Page = () => {
                       border:'1px solid #ccc',
                       padding:'20px',
                       borderRadius:"10px"}}> */}
-                  
+
             <div style={{ textAlign: 'center' }}>
               <h2>Register</h2>
             </div>
@@ -351,8 +341,6 @@ const Page = () => {
                       ></input>
                     </div>
 
-               
-                
                     <div>
                       <label>
                         <strong>Last Name</strong>
@@ -462,7 +450,6 @@ const Page = () => {
                       {' '}
                       I have read and agree to the terms and conditions . *
                     </label>
-                   
 
                     <button
                       type="submit"
@@ -475,8 +462,7 @@ const Page = () => {
                       Register
                     </button>
                   </form>
-               
-              </div>
+                </div>
               </div>
             </div>
 
@@ -516,9 +502,8 @@ const Page = () => {
                   
                 </div>
               </div> */}
-            </div>
-            </div>
-
+          </div>
+        </div>
       </section>
     </>
   );

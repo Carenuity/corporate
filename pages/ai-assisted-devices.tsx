@@ -31,7 +31,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <div className="row">
             <h4>
-            AI-assisted sensors
+              AI-assisted sensors
               {/* Intelligent Radar Device for Preventing Sudden Infant Death
               Syndrome (SIDS) */}
             </h4>
@@ -48,23 +48,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               around the clock.
             </p> */}
 
-            <p>AI-assisted sensors are devices that combine sensor technology with artificial
-               intelligence to gather, process, and analyze data from their environment. These
-                sensors can detect various physical parameters such as temperature, motion, light,
-                 and more, and use AI to make intelligent decisions based on the data collected.</p>
+            <p>
+              AI-assisted sensors are devices that combine sensor technology
+              with artificial intelligence to gather, process, and analyze data
+              from their environment. These sensors can detect various physical
+              parameters such as temperature, motion, light, and more, and use
+              AI to make intelligent decisions based on the data collected.
+            </p>
 
             <div>
               <h4>Our Sensors / Featured Sensors</h4>
               <ul>
-                <li><h5>Radar Sensor</h5>	</li>
-                
+                <li>
+                  <h5>Radar Sensor</h5>{' '}
+                </li>
               </ul>
-              <p>A radar sensor is a device that uses radio waves to detect [stationary, approaching, departing, missing] objects and measure their distance, speed, and other characteristics, in instance segmentation of an area. 
-              <br/>Take a look to the radars that we use in our projects:
-                </p>
+              <p>
+                A radar sensor is a device that uses radio waves to detect
+                [stationary, approaching, departing, missing] objects and
+                measure their distance, speed, and other characteristics, in
+                instance segmentation of an area.
+                <br />
+                Take a look to the radars that we use in our projects:
+              </p>
             </div>
-
-            
 
             <div className="col-lg-4 mb-4">
               <div
@@ -162,7 +169,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   style={{
                     visibility: 'visible',
                     animationDelay: '100ms',
-                    width:"100%",
+                    width: '100%',
                     animationName: 'fadeIn',
                   }}
                 />
@@ -174,34 +181,38 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   rel="noreferrer"
                 >
                   <h5 style={{ padding: '10px' }}>
-                    <u>Using the BGT60LTR11 Radar Shield2Go with ESP32 for AI Applications</u>
+                    <u>
+                      Using the BGT60LTR11 Radar Shield2Go with ESP32 for AI
+                      Applications
+                    </u>
                   </h5>
                 </a>
 
                 <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
-                The BGT60LTR11 Radar Shield2Go is a compact and versatile radar sensor.....
+                  The BGT60LTR11 Radar Shield2Go is a compact and versatile
+                  radar sensor.....
                 </p>
               </div>
             </div>
             <div>
-              
               <ul>
-                <li><h5>	ESP32-Cam</h5></li>
-                
+                <li>
+                  <h5> ESP32-Cam</h5>
+                </li>
               </ul>
-              <p>The ESP32-CAM is a compact, low-cost module that combines an ESP32-S microcontroller
-                 with an OV2640 camera.
-                 In the field of object detection, it is particularly useful due to its
-                  built-in Wi-Fi and Bluetooth capabilities, allowing for wireless image
-                   transmission and processing. By leveraging libraries like OpenCV and machine
-                    learning models, the ESP32-CAM can perform real-time object detection and 
-                    identification. This makes it ideal for applications in home automation, 
-                    security systems, and IoT projects where capturing and analyzing visual data is essential.
-                </p>
+              <p>
+                The ESP32-CAM is a compact, low-cost module that combines an
+                ESP32-S microcontroller with an OV2640 camera. In the field of
+                object detection, it is particularly useful due to its built-in
+                Wi-Fi and Bluetooth capabilities, allowing for wireless image
+                transmission and processing. By leveraging libraries like OpenCV
+                and machine learning models, the ESP32-CAM can perform real-time
+                object detection and identification. This makes it ideal for
+                applications in home automation, security systems, and IoT
+                projects where capturing and analyzing visual data is essential.
+              </p>
             </div>
 
-           
-           
             <div className="col-lg-6 mb-4">
               <div
                 className="e-card"
@@ -219,7 +230,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   style={{
                     visibility: 'visible',
                     animationDelay: '100ms',
-                    width:"100%",
+                    width: '100%',
                     animationName: 'fadeIn',
                   }}
                 />
@@ -231,16 +242,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   rel="noreferrer"
                 >
                   <h5 style={{ padding: '10px' }}>
-                    <u>Turning Your ESP32-CAM into a Smart Object Detector with Edge Impulse</u>
+                    <u>
+                      Turning Your ESP32-CAM into a Smart Object Detector with
+                      Edge Impulse
+                    </u>
                   </h5>
                 </a>
 
                 <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
-                Hello, tech enthusiasts, welcome to the AI Journal tutorial! In this blog post, we're diving 
-                into the exciting world of creating your own object detection model on the ESP32-CAM using 
-                Edge.....
-
-
+                  Hello, tech enthusiasts, welcome to the AI Journal tutorial!
+                  In this blog post, we&apos;re diving into the exciting world
+                  of creating your own object detection model on the ESP32-CAM
+                  using Edge.....
                 </p>
               </div>
             </div>

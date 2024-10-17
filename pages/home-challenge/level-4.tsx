@@ -29,7 +29,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          
           <h4 className=" mb-4">Level 4: 3D Modelling and Custom Enclosures</h4>
 
           <div
