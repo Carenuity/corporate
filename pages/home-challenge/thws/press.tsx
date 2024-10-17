@@ -1,10 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 import PageTitle from '../../../components/PageTitle';
-// import styles from './level1.module.css';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Page = () => {
   const pageTitle = 'Press Materials';
   return (
     <>
@@ -29,60 +27,58 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       />
 
       <section className="pt-4">
-        
+        <div className="container">
+          <div className="row">
+            <h4>Press Materials</h4>
+            <div className="col-lg-12 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/press-materials-for-THWS/Pressebild-1.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
 
-<div className='container'>
-    <div className='row'>
-  <h4>Press Materials</h4>
-  <div className="col-lg-12 mb-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/press-materials-for-THWS/Pressebild-1.png"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
 
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              
-              <div className="col-lg-12 mb-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/press-materials-for-THWS/Pressebild-2.png"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
+            <div className="col-lg-12 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/press-materials-for-THWS/Pressebild-2.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
 
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <h5>Scan</h5>
-              <div className="col-lg-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/press-materials-for-THWS/Pressebild-3.png"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <h5>Scan</h5>
+            <div className="col-lg-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/press-materials-for-THWS/Pressebild-3.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
 
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-</div>
-</div>
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
