@@ -5,6 +5,7 @@ import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 import Translatable from '../components/Translatable';
 
+
 export const SqPanel = () => {
   const pageTitle = 'SQ Panel';
   const { state } = useContext(LanguageSwitchContext);
@@ -1099,6 +1100,385 @@ export const SqPanel = () => {
               )}
             </p>
           </div>
+
+          <div className='panel'>
+          {state === 'en' && <> </>}
+          {state === 'de' && <></>}
+            <h4>{state === 'en' && <>Technical Details </>}
+            {state === 'de' && <>Technische Details</>}Technical Details</h4>
+            <table 
+            style={{
+                          width:"100%",
+                          border:"1px solid #dddddd",
+                          padding:"20px"
+            }}
+            >
+              <tr style={{background:"#198754",
+                          color:"#ffffff",
+                         
+              }}>
+                <th style={{
+                          width:"30%",
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                            {state === 'en' && <>Feature </>}
+                            {state === 'de' && <>Besonderheit</>}
+                  </th>
+                <th style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                            {state === 'en' && <>Details </>}
+                            {state === 'de' && <>Details</>}
+                            </th>
+                
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Product Type </>}
+              {state === 'de' && <>Produkttyp</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Sensor Panel </>}
+              {state === 'de' && <>Sensorpanel</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Power Consumption </>}
+              {state === 'de' && <>Stromverbrauch</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> 15W (direct connection with 220-240V AC Transformer)</>}
+              {state === 'de' && <>15W (direkter Anschluss mit 220-240V AC Transformator)</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Light Output</>}
+              {state === 'de' && <>Lichtleistung</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> 900 lumens</>}
+              {state === 'de' && <>900 Lumen</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Color Temperature </>}
+              {state === 'de' && <>Farbtemperatur</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>4200K (Neutral White) </>}
+              {state === 'de' && <>4200K (Neutralweiß)</>}</td>
+              </tr>
+              <tr >
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Panel Size</>}
+              {state === 'de' && <>Panelgröße</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Slim / SQ-15 </>}
+              {state === 'de' && <>Schlank / SQ-15</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> LED Type</>}
+              {state === 'de' && <>LED-Typ</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>SMD (Surface-Mounted Diode) </>}
+              {state === 'de' && <>SMD (Oberflächenmontierte Diode)</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Display Size </>}
+              {state === 'de' && <>Anzeigegröße</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>2.6-inch touchscreen </>}
+              {state === 'de' && <>2,6-Zoll-Touchscreen</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>60 GHz Radar Sensor </>}
+              {state === 'de' && <>60-GHz-Radarsensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> 60 GHz Radar Sensor</>}
+              {state === 'de' && <>60-GHz-Radarsensor</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Radar Field of View (FoV) </>}
+              {state === 'de' && <>Radarsichtfeld</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>90° Horizontal Plane Beamwidth (HPBW) </>}
+              {state === 'de' && <>90° horizontale ebene Strahlbreite (HPBW)</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Radar Applications </>}
+              {state === 'de' && <>Radaranwendungen</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Micro-motion detection, industrial 
+              and consumer IoT </>}
+              {state === 'de' && <>Mikrobewegungserkennung, industriell 
+                und Verbraucher-IoT</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Antenna</>}
+              {state === 'de' && <>Antenne</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Antennas-in-Package (AIP) design 
+              for compact integration</>}
+              {state === 'de' && <>Antennas-in-Package (AIP)-Design 
+                für kompakte Integration</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Power Consumption </>}
+              {state === 'de' && <>Stromverbrauch</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>200 mA </>}
+              {state === 'de' && <>200 mA</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Environmental Usage</>}
+              {state === 'de' && <>Umweltnutzung</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Suitable for indoor applications, 
+              optimized for IoT</>}
+              {state === 'de' && <>Geeignet für Innenanwendungen, 
+                optimiert für IoT</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Temperature Sensor</>}
+              {state === 'de' && <>Temperatursensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Monitors the ambient temperature, 
+                enabling climate control systems and user comfort adjustments</>}
+              {state === 'de' && <>Überwacht die Umgebungstemperatur, 
+                Ermöglicht Klimatisierungssysteme und Anpassungen des Benutzerkomforts</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Humidity Sensor</>}
+              {state === 'de' && <>Feuchtigkeitssensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Tracks humidity levels to support air 
+              quality monitoring and HVAC optimization </>}
+              {state === 'de' && <>Verfolgt die Luftfeuchtigkeit, um die Luft zu unterstützen 
+                Qualitätsüberwachung und HVAC-Optimierung</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> VOC Sensor</>}
+              {state === 'de' && <>VOC-Sensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Measures total volatile organic 
+              compounds to monitor air quality</>}
+              {state === 'de' && <>Misst die Gesamtmenge an flüchtigen organischen Stoffen 
+                Verbindungen zur Überwachung der Luftqualität</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>CO2 Sensor </>}
+              {state === 'de' && <>CO2-Sensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Monitors carbon dioxide levels to ensure
+               a healthy indoor environment</>}
+              {state === 'de' && <>Überwacht den Kohlendioxidgehalt, um sicherzustellen
+                ein gesundes Raumklima</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Indoor Air Quality Sensor </>}
+              {state === 'de' && <>Sensor für die Luftqualität in Innenräumen</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Monitors overall air quality,
+               combining data from multiple sensors </>}
+              {state === 'de' && <>Überwacht die allgemeine Luftqualität,
+                Kombinieren von Daten mehrerer Sensoren</>}</td>
+              </tr>
+              <tr>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <>Pressure Sensor </>}
+              {state === 'de' && <>Drucksensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Measures air pressure to 
+              provide comprehensive environmental monitoring</>}
+              {state === 'de' && <>Misst den Luftdruck 
+                sorgen für eine umfassende Umweltüberwachung</>}</td>
+              </tr>
+              <tr style={{background:"#eeeeee"}}>
+                <td style={{
+                         
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Proximity Sensor</>}
+              {state === 'de' && <>Näherungssensor</>}</td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"
+            }}>
+              {state === 'en' && <> Senses nearby objects to enable automatic
+               activation of features like lighting when someone is present</>}
+              {state === 'de' && <>Erkennt Objekte in der Nähe, um die automatische Aktivierung zu ermöglichen
+                Aktivierung von Funktionen wie Beleuchtung, wenn jemand anwesend ist</>}</td>
+              </tr>
+             
+            </table>
+
+          </div>
+
+
           <div className="mb-4">
             <h4>
               {state === 'en' && (
