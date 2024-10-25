@@ -447,7 +447,7 @@ const Page = () => {
               </div>
             </div>
 
-            <div className="dropdown">
+            {/* <div className="dropdown">
                 <button className="btn btn-primary dropdown-toggle" 
                 type="button"
                 data-toggle="dropdown">
@@ -460,11 +460,11 @@ const Page = () => {
                   You include your individual affiliate link in the next email to
                      your customers or on the website and receive your commission for each sale.
                   
-                </div>
+                </div> */}
               </div>
 
 
-              <div className="dropdown" >
+              {/* <div className="dropdown" >
                 <button className="btn  dropdown-toggle" 
                         type="button" 
                         data-toggle="dropdown"
@@ -483,7 +483,7 @@ const Page = () => {
                   
                 </div>
               
-          </div>
+          </div> */}
         </div>
       </section>
     </>
