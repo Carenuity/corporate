@@ -89,7 +89,7 @@ export default function Home({
                 )}
                 {state === 'de' && (
                   <>
-                    Das SQ-Panel zeigt die Luftqualitätsstufe an, die Sie
+                    Das SQ-Panel zeigt die Luftqualität an, die Sie
                     einatmen
                   </>
                 )}
@@ -323,8 +323,8 @@ export default function Home({
                   {state === 'de' && (
                     <>
                       Wir bieten rund um die Uhr lebenswichtige, umweltbezogene
-                      Erkennung und Betreuung, damit Sie sehen können, was
-                      niemand sonst sehen wird.
+                      Gefahrenerkennung und Vorsorge, damit Sie erkennnen können, was
+                      man sonst nicht sehen kann.
                     </>
                   )}
                 </strong>
@@ -457,12 +457,12 @@ export default function Home({
           <h4>
             {state === 'en' && (
               <>
-                Some images showing the flash mount and the table stand SQ-Panel
+                Some images showing the flush wall mounting and the table stand for the SQ-Panel
               </>
             )}
             {state === 'de' && (
               <>
-                Einige Bilder zeigen die Blitzhalterung und den Tischständer
+                Einige Bilder zeigen die wandbündige Anbringung und den Tischständer für das
                 SQ-Panel
               </>
             )}
