@@ -39,7 +39,7 @@ const Page = ({ universityId }: { universityId: string }) => {
         <div className="row">
         {/* <h5 className=" mb-3">Home Challenge Regitration for {universityId} </h5> */}
         <div  className="mb-6" style={{textAlign:'center'}}>
-        <h1 className='mb-3'>
+        <h1 className='mb-3 mt-4'>
                 Are you a {universityId} student?<br/>
                 
               </h1>
