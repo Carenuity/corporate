@@ -1101,12 +1101,12 @@ export const SqPanel = () => {
             </p>
           </div>
 
-          <div className='panel'>
+          <div className='mb-6'>
           {state === 'en' && <> </>}
           {state === 'de' && <></>}
             <h4>{state === 'en' && <>Technical Details </>}
             {state === 'de' && <>Technische Details</>}Technical Details</h4>
-            <table 
+            <table
             style={{
                           width:"100%",
                           border:"1px solid #dddddd",

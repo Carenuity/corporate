@@ -272,26 +272,7 @@ const Page = () => {
               </div>
             </div>
 
-            {/* <div style={{textAlign:'center'}}>
-                <h2>Register</h2>
-                </div>
-                  <div className='mb-12' style={{
-                    paddingLeft:"350PX"
-                  }}>
-                  
-                 
-                  <div style={{
-                    width:'500px',
-                    backgroundColor:'#eeeeee',
-                    padding:'20px',
-                    borderRadius:"10px"
-                    
-                    
-                  }}>
-                    <div style={{
-                      border:'1px solid #ccc',
-                      padding:'20px',
-                      borderRadius:"10px"}}> */}
+           
 
             <div style={{ textAlign: 'center' }}>
               <h2>Register</h2>
@@ -466,7 +447,7 @@ const Page = () => {
               </div>
             </div>
 
-            {/* <div className="dropdown">
+            <div className="dropdown">
                 <button className="btn btn-primary dropdown-toggle" 
                 type="button"
                 data-toggle="dropdown">
@@ -475,15 +456,15 @@ const Page = () => {
                 <ul className="dropdown-menu">
                   <li><a href="#">You include your individual affiliate link in the next email to
                      your customers or on the website and receive your commission for each sale.</a></li>
-                  
+                  </ul>
                   You include your individual affiliate link in the next email to
-                     your customers or on the website and receive your commission for each sale.</a>
+                     your customers or on the website and receive your commission for each sale.
                   
                 </div>
               </div>
 
 
-              {/* <div className="dropdown" >
+              <div className="dropdown" >
                 <button className="btn  dropdown-toggle" 
                         type="button" 
                         data-toggle="dropdown"
@@ -501,7 +482,7 @@ const Page = () => {
                      your customers or on the website and receive your commission for each sale.</a>
                   
                 </div>
-              </div> */}
+              
           </div>
         </div>
       </section>
