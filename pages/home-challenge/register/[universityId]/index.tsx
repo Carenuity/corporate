@@ -36,7 +36,21 @@ const Page = ({ universityId }: { universityId: string }) => {
 
       <section className="pt-4">
         <div className="container">
+        <div className="row">
+        {/* <h5 className=" mb-3">Home Challenge Regitration for {universityId} </h5> */}
+        <div  className="mb-6" style={{textAlign:'center'}}>
+        <h1 className='mb-3'>
+                Are you a {universityId} student?<br/>
+                
+              </h1>
+              <h4>Showcase your talent and grow your skills by subscribing <br/> 
+              to {universityId} home challenge.</h4>
+        </div>
+            
+        <h2 className='mb-6' style={{textAlign:"center"}}>
+          Subscription</h2>
           <SubscriptionWidget categoryId={0} />
+        </div>
         </div>
       </section>
     </>
@@ -59,7 +73,7 @@ export const getStaticPaths: GetStaticPaths = async (
   // eslint-disable-next-line no-unused-vars
   context: GetStaticPathsContext
 ) => {
-  const universityIds = ['uop', 'tuk', 'thws']; // Object.keys(microcontrollers);
+  const universityIds = ['uop', 'tuk', 'thws', 'auth']; // Object.keys(microcontrollers);
 
   const ids = universityIds.map((key: string) => ({
     params: { universityId: key.toString() },
