@@ -10,7 +10,7 @@ import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
 
 const Page = ({ universityId }: { universityId: string }) => {
-  const pageTitle = `Registration Page for ${universityId}`;
+  const pageTitle = `Registration for ${universityId}`;
 
   return (
     <>
@@ -47,8 +47,8 @@ const Page = ({ universityId }: { universityId: string }) => {
               to {universityId} home challenge.</h4>
         </div>
             
-        <h2 className='mb-6' style={{textAlign:"center"}}>
-          Subscription</h2>
+        <h1 className='mb-6' style={{textAlign:"center"}}>
+          Subscribe here!</h1>
           <SubscriptionWidget categoryId={0} />
         </div>
         </div>
