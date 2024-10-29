@@ -43,7 +43,7 @@ const Page = () => {
               }}
             >
               <p style={{ paddingLeft: '10px' }}>
-                Are you an influencer/blogger, home start builder, electrician,
+                Are you an influencer/blogger, smart home builder, electrician,
                 or something similar in the Smart Home sector? Then become an
                 advertising partner or affiliate, because we have something
                 smart for you. By advertising and marketing our Carenuity
@@ -429,7 +429,7 @@ const Page = () => {
                     ></input>
                     <label className="mb-4">
                       {' '}
-                      I have read and agree to the terms and conditions . *
+                       I have read and agree to the terms and conditions . *
                     </label>
 
                     <button
