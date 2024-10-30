@@ -33,12 +33,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <h3 className=" mb-4">
             Level 1: Triple Adapter & WOKWI Simulation
           </h3>
-          <h5>Soldering with Triple Adapter and Familiarize with WOKWI</h5>
-            <p>
-            Attach 6 pinheaders to the Triple Adapter and familiarize yourself 
-            with WOKWI simulations, especially with some sensor solutions.
-                  
-                </p>
+          
+            
           <div
             className="e-card mb-4"
             style={{
@@ -50,6 +46,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="row ">
               <div className="col-lg-9">
                 <h5>Soldering with Triple Adapter and Familiarize with WOKWI</h5>
+                <p>
+            Attach 6 pinheaders to the Triple Adapter and familiarize yourself 
+            with WOKWI simulations, especially with some sensor solutions.
+                  
+                </p>
                 <p>
                 This level focuses on understanding electronic connections, building a 
                 foundation in hardware skills. By the end of this level, students have a practical understanding of soldering and the ability to simulate sensor solutions using WOKWI

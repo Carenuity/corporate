@@ -29,9 +29,25 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className=" mb-4">
-            Level 6: Image Recognition by AI-assisted Edge Device
-          </h4>
+          <h3 className=" mb-4">
+            Level 6: Object Detection by an AI-assisted Edge Device
+          </h3>
+          <h5>
+          Train & implement AI-assisted device for object detection
+          </h5>
+          <ul style={{ listStyleType: 'square' }}>
+                  <li>Use ESP32-CAM for image recognition.</li>
+                  <li>Training AI models with Edge Impulse</li>
+                  <li>
+                    Cup or vegetable detection using ESP32-CAM, deploying
+                    machine learning models on ESP32-CAM
+                  </li>
+                  <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
+                </ul>
+          <p>
+          Grow visibility, open a Shopify shop Start promoting your
+          AI-assisted device.
+          </p>
 
           <div
             className="e-card mb-4"
@@ -43,21 +59,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           >
             <div className="row ">
               <div className="col-lg-9">
-                <h5>Build AI-assisted Device for Image Recognition</h5>
-                <ul style={{ listStyleType: 'square' }}>
-                  <li>Use ESP32-CAM for image recognition.</li>
-                  <li>Training AI models with Edge Impulse</li>
-                  <li>
-                    Cup or vegetable detection using ESP32-CAM, deploying
-                    machine learning models on ESP32-CAM
-                  </li>
-                  <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
-                </ul>
+                <h5>Train & implement AI-assisted device for object detection</h5>
+                
                 <p>
-                  Grow visibility, open a Shopify shop Start promoting your
-                  AI-assisted device.
-                  <br />
-                  <strong>Tools: </strong>Edge-Impulse and Solution-Builder.
+                 
+                This level covers data acquisition, model training, deployment 
+                and AI-assisted edge computing using Edge Impulse for object 
+                detection. Students will learn to describe, promote and 
+                optionally market their AI-assisted device on a sharing platform.
+                  
                 </p>
               </div>
               <div className="col-lg-3">
@@ -76,37 +86,71 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 />
               </div>
             </div>
+
+            
           </div>
-          <h5>Gained Tech Competences</h5>
-          <p>
-            Level 6 is the culmination of the challenge, where students will
-            build an image recognition system using the ESP32-CAM module. They
-            will train and deploy machine learning models on the ESP32-CAM to
-            identify objects such as vegetables. This level covers edge
-            computing concepts, data acquisition, model training, and deployment
-            using Edge Impulse. Students will also learn to promote and sell
-            their AI-assisted devices through platforms like Shopify. Completing
-            this level provides students with free stocking and sales of five
-            devices, including fulfillment and 100% sales profit. On Level 6,
-            you are able to build an image recognition system using the
-            ESP32-CAM modul e to identify vegetables like tomatoes, potatoes,
-            and onions. Using the Edge Impulse platform, you train and deploy a
-            machine learning model to run directly on the ESP32-CAM. The results
-            are displayed on an OLED screen for easy viewing. Learn the basics
-            of edge computing, data acquisition, model training, and deployment.{' '}
-          </p>
-          <p>
-            Check out our detailed{' '}
-            <a
-              href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
-              className="text-success"
-            >
-              <strong>blog post</strong>
-            </a>{' '}
-            to create your own object detection system.
-          </p>
+          
+          <div>
+            <h5>Summary for this Level</h5>
+            <p>
+              	
+            In the final level of the challenge, students will work on computer vision,
+             using the ESP32-CAM module to develop an image recognition system for object
+              detection. They will train AI models using Edge Impulse for tasks such as 
+              detecting  a cup or vegetables. These models will be deployed on the ESP32-CAM,
+               and students will describe and promote their AI-assisted device. This level
+                provides a understanding of image processing, AI model training, and edge 
+                computing. By the end of this level, students will have the skills to create
+                 sophisticated image recognition systems and understand the basics of 
+                 deploying AI models on edge devices.
+            </p>
+          </div>
+          <div className="mb-4" >
+          <strong>Tools: </strong>Edge-Impulse and Solution-Builder.
+          </div>
+           
           <div className="mb-4">
             <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/vCr0-iMy2AA"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="mb-4">
+            <p><strong >Reward:</strong>
+            CAM Dual-Adapter for 0.66-OLED / or Hero-Website with own device (H-A result), free shop stocking of 5 own 
+            devices, incl. fulfillment, getting 100% sales profit.</p>
+          </div>
+          <table className='mb-4'
+            style={{
+                          width:"100%",
+                          border:"1px solid #dddddd",
+                          padding:"20px"
+            }}
+            >
+              <tr>
+                <td style={{
+                          width:"50%",
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                     <strong>Level of Difficulty:</strong> advanced / AI related     
+                  </td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                          <strong> Tutor:</strong> 	Melina
+                            </td>
+                
+              </tr>
+              </table>
+              <div className="mb-4">
+            <h5>Motivational or Reference Video</h5>
             <iframe
               width="1300"
               height="450"
@@ -117,43 +161,90 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
+          <div className="mb-4">
+              <h5>
+            Related Blog</h5>
+            <a
+              href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
+              className="text-success"
+            >
+              <strong><u>Turning Your ESP32-CAM into a Smart Object Detector with Edge Impulse</u></strong>
+            </a></div>
           <div>
-            <h5 className="mb-4">Reward:</h5>
-            <p>
-              The reward for completing this level is a C3-Mini microcontroller,
-              which is prerequisite for the next level.
-            </p>
+          <h5>Gained Tech Competences</h5>
+          <p>
+          Remembering: Level 6 is the culmination of the challenge, where students will build an
+           image recognition system using the ESP32-CAM module to identify vegetables like tomatoes,
+            potatoes, and onions. Understanding: They will train and deploy machine learning models
+             on the ESP32-CAM to validate them and to identify objects such as vegetables. They will
+              also learn the basics of edge computing, data acquisition, model training, and deployment.
+               Applying: This level covers edge computing concepts, data acquisition, model training, 
+               and deployment using Edge Impulse. Students can refer to a blog post of the experts to 
+               create their own object detection system. Analyzing: Students analyze and refine their device&apos;s
+                description on Solution Builder. Evaluating: Completing this level provides students with free 
+                stocking and sales of five devices, including fulfillment and 100% sales profit. The results 
+                of their work are displayed on an OLED screen for easy viewing. Creating: Using the Edge Impulse
+                 platform, they train and deploy a machine learning model to run directly on the ESP32-CAM, 
+                 with AI-assisted object detection displayed on an OLED screen for validation.
+          </p>
           </div>
           <div>
             <h5>Gained Soft Skills</h5>
             <p>
-              In Level 1, students will develop essential communication skills
-              by documenting their soldering process and explaining their sensor
-              integration. They will enhance their problem-solving abilities by
-              troubleshooting any issues that arise during soldering. Time
-              management skills will be honed as they balance learning new
-              techniques with completing tasks. Attention to detail is crucial
-              for precise soldering, and resilience is built as they overcome
-              initial challenges.
+            Remembering: Level 6 focuses on advanced problem-solving and critical thinking as
+             students build image recognition systems. Understanding: They will enhance their
+              communication skills by describing and promoting their AI-assisted devices. 
+              Applying: Leadership and initiative are demonstrated by managing their developments
+               and marketing efforts. Analyzing: Time management is crucial for balancing model 
+               training, deployment, and promotion tasks. Evaluating: Adaptability is required to
+                learn and use edge computing concepts, and attention to detail ensures accurate 
+                image recognition. Creating: Resilience is built as they overcome challenges in 
+                deploying high accuracy to their device.
             </p>
           </div>
 
           <div>
             <h5>Summary for this Level</h5>
             <p>
-              In the first level of the IoT Smart Home Challenge, students will
-              embark on their journey by learning the basics of soldering. They
-              will work on soldering triple adapters, which is a fundamental
-              skill in electronics. Additionally, students will familiarize
-              themselves with the WOKWI simulator, a powerful tool for
-              simulating various sensor solutions. This level aims to build a
-              strong foundation in practical electronics and simulation,
-              ensuring that students are comfortable with basic hardware tasks
-              and virtual environments. By the end of this level, students will
-              have gained essential skills in soldering and using simulation
-              tools, setting the stage for more complex projects.
+              	
+            In the final level of the challenge, students will work on computer vision,
+             using the ESP32-CAM module to develop an image recognition system for object
+              detection. They will train AI models using Edge Impulse for tasks such as 
+              detecting  a cup or vegetables. These models will be deployed on the ESP32-CAM,
+               and students will describe and promote their AI-assisted device. This level
+                provides a understanding of image processing, AI model training, and edge 
+                computing. By the end of this level, students will have the skills to create
+                 sophisticated image recognition systems and understand the basics of 
+                 deploying AI models on edge devices.
             </p>
           </div>
+          <div className='row'>
+          <div className='col-lg-2'>
+          <p>
+            {!isMobile && (
+              <Link
+                href={'./level-5'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Previous level</span>
+              </Link>
+            )}
+
+            {isMobile && (
+              <a
+                href={'./level-5'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Previous level{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
+          
+          </div>
+          <div className='col-lg-3'>
           <p>
             {!isMobile && (
               <Link
@@ -166,7 +257,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             {isMobile && (
               <a
-                href={'/single-sensor-boxes'}
+                href={'/home-challenge'}
                 className={'btn btn-lg btn-success rounded-pill'}
               >
                 <span className="small">
@@ -176,6 +267,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </a>
             )}
           </p>
+          </div>
+         
+          </div>
         </div>
       </section>
     </>

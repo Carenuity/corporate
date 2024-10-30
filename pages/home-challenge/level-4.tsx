@@ -29,8 +29,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className=" mb-4">Level 4: 3D Modelling and Custom Enclosures</h4>
-
+          <h3 className=" mb-4">Level 4 Photorealistic 3D Modelling and Printing of custom Enclosures</h3>
+          <h5>Design custom enclosure with 3D modeling</h5>
+          <p>Familiarize with 3D-Modelling software to build your own customized enclosure.
+              You will get your own hero page on Solution Builder to present it.
+              with your triple and 3D-printable case</p>
           <div
             className="e-card mb-4"
             style={{
@@ -41,14 +44,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           >
             <div className="row ">
               <div className="col-lg-9">
-                <h5>Design Custom Enclosure with 3D Modeling</h5>
+                <h5>Design custom enclosure with 3D modeling</h5>
                 <p>
-                  Familiarize with 3D-Modelling software to build your own
-                  customized enclosure. You will get your own hero page on
-                  Solution Builder to present it with your triple and
-                  3D-printable case.
-                  <br />
-                  <strong>Tools: </strong>SketchUp 3D-Tool, Home-Assistant
+                This level not only enhances students' technical skills in 3D modelling and 
+                rendering, but also encourages creativity and innovation in designing custom 
+                enclosures for their rendered electronics. By mastering this level, students 
+                will be able to create professional-looking PCBs & enclosures that enhance the
+                 acceptance and aesthetics of their IoT devices.
+                  
+                  
                 </p>
               </div>
               <div className="col-lg-3">
@@ -68,22 +72,66 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-          <div className="mb-4">
-            <h5>Gained Tech Competences</h5>
+          <div>
+            <h5>Summary for this Level</h5>
             <p>
-              Level 4 challenges students to design custom enclosures using 3D
-              modeling software such as SketchUp. They will integrate these
-              3D-printed components with their electronic projects, enhancing
-              both the functionality and aesthetics of their devices.
-              Additionally, students will learn to automate home devices using
-              Home Assistant. This level combines hardware design with software
-              automation, providing a comprehensive skill set. Successful
-              completion of this level earns students a 25% voucher for
-              ChipGlobe.shop.
+            Level 4 focuses on 3D modelling and the creation of custom enclosures 
+            for electronic projects. Students will use 3D modelling software like 
+            SketchUp to design and build their own 3D-printable enclosures, which 
+            can get showcased on a students hero page, if wanted. This level not 
+            only awakes students&apos; technical skills in 3D modelling but also 
+            encourages creativity and innovation in designing custom solutions for
+             their projects. By mastering these skills, students will be able to
+              create professional-looking reditions of PCBs and enclosures that 
+              enhance the aesthetics, the acceptance and usability of their IoT 
+              devices.
             </p>
           </div>
           <div className="mb-4">
+          <strong>Tools: </strong>SketchUp 3D-Tool, Home-Assistant
+          </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/u-zJg_VkpVA"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="mb-4">
+            <strong >Reward:</strong>
+            25% voucher for ChipGlobe.shop, e.g. for a 3D-printed enclosure
+            
+          </div>
+          <table className='mb-4'
+            style={{
+                          width:"100%",
+                          border:"1px solid #dddddd",
+                          padding:"20px"
+            }}
+            >
+              <tr>
+                <td style={{
+                          width:"50%",
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                     <strong>Level of Difficulty:</strong> advanced / AI related     
+                  </td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                          <strong> Tutor:</strong> 	Warren
+                            </td>
+                
+              </tr>
+              </table>
+              <div className="mb-4">
+            <h5>Motivational or Reference Video</h5>
             <iframe
               width="1300"
               height="450"
@@ -93,42 +141,82 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
+            </div>
+            <div className="mb-4">
+          <h5>Related blog:</h5>
           </div>
-          <div>
-            <h5 className="mb-4">Reward:</h5>
+          <div className="mb-4">
+            <h5>Gained Tech Competences</h5>
             <p>
-              The reward for completing this level is 25% voucher for
-              ChipGlobe.shop.
+            Remembering: Level 4 challenges students to design custom enclosures using
+             3D modeling software such as TinkerCAD. Understanding: They will 
+             integrate the electronic device of their choice into their 3D-printed
+              enclosure, virtually and in real, enhancing both the functionality and
+               aesthetics of their device. Applying: Optionally, students will learn
+                to automate smart home devices using Home Assistant. Analyzing: This
+                 level combines hardware design with software automation, providing 
+                 a comprehensive skill set. Evaluating: Successful completion of 
+                 this level earns students a 25% voucher for ChipGlobe.shop, for 
+                 evaluating results in real, e.g. by 3D-printing their 3D-model.
             </p>
           </div>
           <div>
             <h5>Gained Soft Skills</h5>
             <p>
-              Level 4 emphasizes creativity and problem-solving as students
-              design custom enclosures using 3D modeling software. They will
-              improve their communication skills by documenting their design
-              process and explaining their choices. Time management is crucial
-              for balancing design and integration tasks. Adaptability is
-              required to learn new software tools, and attention to detail
-              ensures high-quality designs. Resilience is built as they iterate
-              on their designs to achieve the desired outcome.
+            Remembering: Level 4 emphasizes creativity and problem-solving as 
+            students design custom enclosures using 3D modeling software. 
+            Understanding: They will improve their communication skills by sharing
+             their design and explaining their choices. Applying: Time management 
+             is crucial for balancing design and integration tasks. Analyzing: 
+             Adaptability is required to learn new software tools, and attention to
+              detail ensures high-quality snug-fit designs. Evaluating: Resilience 
+              is built as they iterate on their designs to achieve the desired 
+              outcome.
             </p>
           </div>
 
           <div>
             <h5>Summary for this Level</h5>
             <p>
-              Level 4 focuses on 3D modelling and the creation of custom
-              enclosures for electronic projects. Students will use 3D modelling
-              software like SketchUp to design and build their own enclosures,
-              which will be showcased on a hero page. This level not only
-              enhances students&apos; technical skills in 3D modelling but also
-              encourages creativity and innovation in designing custom solutions
-              for their projects. By mastering these skills, students will be
-              able to create professional-looking enclosures that enhance the
-              functionality and aesthetics of their IoT devices.
+            Level 4 focuses on 3D modelling and the creation of custom enclosures 
+            for electronic projects. Students will use 3D modelling software like 
+            SketchUp to design and build their own 3D-printable enclosures, which 
+            can get showcased on a students hero page, if wanted. This level not 
+            only awakes students&apos; technical skills in 3D modelling but also 
+            encourages creativity and innovation in designing custom solutions for
+             their projects. By mastering these skills, students will be able to
+              create professional-looking reditions of PCBs and enclosures that 
+              enhance the aesthetics, the acceptance and usability of their IoT 
+              devices.
             </p>
           </div>
+          <div className='row'>
+          <div className='col-lg-2'>
+          <p>
+            {!isMobile && (
+              <Link
+                href={'./level-3'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Previous level</span>
+              </Link>
+            )}
+
+            {isMobile && (
+              <a
+                href={'./level-3'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Previous level{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
+          
+          </div>
+          <div className='col-lg-3'>
           <p>
             {!isMobile && (
               <Link
@@ -141,7 +229,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             {isMobile && (
               <a
-                href={'/single-sensor-boxes'}
+                href={'/home-challenge'}
                 className={'btn btn-lg btn-success rounded-pill'}
               >
                 <span className="small">
@@ -151,6 +239,33 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </a>
             )}
           </p>
+          </div>
+          <div className='col-lg-3'>
+         
+          <p>
+            {!isMobile && (
+              <Link
+                href={'./level-5'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Next level</span>
+              </Link>
+            )}
+
+            {isMobile && (
+              <a
+                href={'./level-5'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Next level{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
+          </div>
+          </div>
         </div>
       </section>
     </>

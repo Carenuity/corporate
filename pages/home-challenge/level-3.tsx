@@ -29,8 +29,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className=" mb-4">Level 3: API Usage and App Development</h4>
-
+          <h3 className=" mb-4">Level 3: API Usage & App Development (Solution Builder)</h3>
+          <h5>Create own App by Arduino IDE in Solution Builder & utilize AI for coding (ChatGPT)</h5>
+          <p>
+          Create own app by ChatGPT-assisted coding in Arduino IDE with own API-keys and upload code, 
+          your binary, to Solution Builder. Optionally: Share your success on LinkedIn. 
+          </p>
           <div
             className="e-card mb-4"
             style={{
@@ -42,15 +46,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="row ">
               <div className="col-lg-9">
                 <h5>
-                  Create App with API Keys & use AI for coding in Arduino IDE
-                  (ChatGPT)
+                Create own App by Arduino IDE in Solution Builder & utilize AI for coding (ChatGPT)
                 </h5>
                 <p>
-                  Use Solution Builder with own API-keys, create own app
-                  (coding/binary) in Arduino IDE and upload on Solution Builder.
-                  Share your success on LinkedIn. <br />
-                  <strong>Tools: </strong>API-keys, Arduino, ChatGPT and
-                  Solution Builder
+                The third level encourages students to share their success within the solution builder 
+                community. The focus is on developing coding skills in Arduino, optimizing sketches by 
+                AI, and leveraging API integrations to enhance functionality of own Apps.
+                  
                 </p>
               </div>
               <div className="col-lg-3">
@@ -70,21 +72,68 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-          <div className="mb-4">
-            <h5>Gained Tech Competences</h5>
+
+          <div>
+            <h5>Summary for this Level</h5>
             <p>
-              In Level 3, students will advance to creating and coding
-              applications in the Arduino IDE. They will use their own API keys
-              to integrate external services and upload their projects on
-              Solution Builder. This level encourages students to share their
-              success on LinkedIn, promoting their work within the professional
-              community. The focus is on developing coding skills, managing
-              projects, and leveraging API integrations to enhance
-              functionality.
+            In the third level, students will delve into the world of API usage and
+             app development. They will learn to use API keys for accessing 
+             external services, consider to create their own applications in the 
+             Arduino IDE and share their result on Solution Builder. This level 
+             also encourages students to contribute their successes to a community
+              and tell about it, e.g. on LinkedIn, growing a sense of beeing 
+              visibly part of a community and collaboration. By the end of this 
+              level, students will have a understanding of how to use abnd possibly
+               integrate APIs into their projects, develop, upload and share 
+               applications, and effectively communicate their achievements to a 
+               broader audience.
             </p>
           </div>
           <div className="mb-4">
+          <strong>Tools: </strong>API-keys, Arduino, ChatGPT and
+                  Solution Builder
+                  </div>
+          <div className="mb-4">
             <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/Ngnzw_W662s"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="mb-4">
+            <strong >Reward:</strong>DS18B20 Sensor / or Oximeter Sensor
+            
+          </div>
+          <table className='mb-4'
+            style={{
+                          width:"100%",
+                          border:"1px solid #dddddd",
+                          padding:"20px"
+            }}
+            >
+              <tr>
+                <td style={{
+                          width:"50%",
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                     <strong>Level of Difficulty:</strong> Basic       
+                  </td>
+                <td style={{
+                          
+                          border:"1px solid #dddddd",
+                          padding:"8px"}}>
+                          <strong> Tutor:</strong> Paul
+                            </td>
+                
+              </tr>
+              </table>
+          <div className="mb-4">
+            <h5>Motivational or Reference Video</h5>
             <iframe
               width="1300"
               height="450"
@@ -95,40 +144,79 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-          <div>
-            <h5 className="mb-4">Reward:</h5>
+          <h5 className="mb-4">Related blog:</h5>
+          <div className="mb-4">
+            <h5>Gained Tech Competences</h5>
             <p>
-              The reward for completing this level is Sensor DS18B20 or Oximeter
-              Sensor.
+            Remembering: In Level 3, students will advance to creating and coding
+             applications in the Arduino IDE. Understanding: They will optionally
+              use own API keys to integrate external services in their code and 
+              then upload their code as binary on Solution Builder. Applying: This
+               level as well encourages students to share their success on a social
+                platform, sharing their result for friends on Solution Builder. 
+                Analyzing: The focus is on developing coding skills, uploading 
+                projects and leveraging API integrations to enhance functionality.
+                  Evaluating: The rewarded sensor allows to compare locally measured
+                   values with globally available values from the Internet.
             </p>
           </div>
           <div>
             <h5>Gained Soft Skills</h5>
             <p>
-              In Level 3, students will enhance their communication skills by
-              sharing their projects on LinkedIn. They will develop critical
-              thinking and problem-solving skills by integrating API keys and
-              coding applications. Time management is key as they juggle
-              multiple tasks, and adaptability is required to learn and use new
-              APIs. Leadership and initiative are demonstrated by promoting
-              their work within the professional community.
+            Remembering: In Level 3, students will enhance their communication 
+            skills by sharing their results on Solution Builder. Understanding: 
+            They will develop critical thinking and problem-solving skills by 
+            integrating API keys and coding applications. Applying: Time management
+             is key as they juggle multiple tasks, and adaptability is required to
+              learn and use new APIs. Analyzing: Leadership and initiative are 
+              demonstrated by promoting their work within the professional 
+              community.
             </p>
           </div>
 
           <div>
             <h5>Summary for this Level</h5>
             <p>
-              In the third level, students will delve into the world of API
-              usage and app development. They will use API keys to create their
-              own applications in the Arduino IDE and upload them to the
-              Solution Builder. This level also encourages students to share
-              their project successes on LinkedIn, fostering a sense of
-              community and collaboration. By the end of this level, students
-              will have a solid understanding of how to integrate APIs into
-              their projects, develop and upload applications, and effectively
-              communicate their achievements to a broader audience.
+            In the third level, students will delve into the world of API usage and
+             app development. They will learn to use API keys for accessing 
+             external services, consider to create their own applications in the 
+             Arduino IDE and share their result on Solution Builder. This level 
+             also encourages students to contribute their successes to a community
+              and tell about it, e.g. on LinkedIn, growing a sense of beeing 
+              visibly part of a community and collaboration. By the end of this 
+              level, students will have a understanding of how to use abnd possibly
+               integrate APIs into their projects, develop, upload and share 
+               applications, and effectively communicate their achievements to a 
+               broader audience.
             </p>
           </div>
+          <div className='row'>
+          <div className='col-lg-2'>
+          <p>
+            {!isMobile && (
+              <Link
+                href={'./level-2'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Previous level</span>
+              </Link>
+            )}
+
+            {isMobile && (
+              <a
+                href={'./level-2'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Previous level{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
+          
+          </div>
+          <div className='col-lg-3'>
           <p>
             {!isMobile && (
               <Link
@@ -141,7 +229,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             {isMobile && (
               <a
-                href={'/single-sensor-boxes'}
+                href={'/home-challenge'}
                 className={'btn btn-lg btn-success rounded-pill'}
               >
                 <span className="small">
@@ -151,6 +239,33 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </a>
             )}
           </p>
+          </div>
+          <div className='col-lg-3'>
+         
+          <p>
+            {!isMobile && (
+              <Link
+                href={'./level-4'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Next level</span>
+              </Link>
+            )}
+
+            {isMobile && (
+              <a
+                href={'./level-4'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Next level{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
+          </div>
+          </div>
         </div>
       </section>
     </>
