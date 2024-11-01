@@ -33,7 +33,7 @@ const Page = () => {
             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-thws/Pressebild-1.PNG"
+                src="/img/content/press-materials-for-thws/press1.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -49,7 +49,7 @@ const Page = () => {
             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-thws/Pressebild-2.PNG"
+                src="/img/content/press-materials-for-thws/press2.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
