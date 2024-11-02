@@ -413,7 +413,7 @@ const Index = () => {
           Applications for the plain C3-mini &apos;standalone&apos;, no Display
           or Sensor required
         </h2>
-        <p className="mb-2 mt-1 mb-5">
+        <p className="mb-2 mt-1 mb-3">
           Grab your plain C3-Mini and build your own device within 3 minutes, by
           installing the popular{' '}
           <strong>
@@ -437,9 +437,14 @@ const Index = () => {
           or a plain “empty” ESPHome device for Home Assistant with no special
           features built-in. Ready to make it your own.
         </p>
+        {/* GPIO Viewer */}
+        <SolutionWidget solutionId="mKjGP6fwSk1SotR7VjmK" />
+
+        {/* WLED */}
+        <SolutionWidget solutionId="pDNf45XWUJcTJcMBGM4z" />
 
         <h2 className="mb-1 h5">Applications for the C3-mini with Display</h2>
-        <p className="mb-2 mt-1 mb-5">
+        <p className="mb-2 mt-1 mb-3">
           Grab your C3-Mini and build your own device within 3 minutes, by
           attaching a display{' '}
           <strong>
@@ -462,25 +467,69 @@ const Index = () => {
           </a>{' '}
           for Followers and Likes.
         </p>
+        {/* YouTube Meter */}
+        <SolutionWidget solutionId="33ShEVCKo7u5L24bznXc" />
+
+        {/* Wifi Signal Strength */}
+        <SolutionWidget solutionId="9SlDg2KjWjK8UDr51Bpj" />
 
         <h2 className="mb-1 h5">
           Applications for the C3-mini with Sensor & Display
         </h2>
-        <p className="mb-3 mt-1 mb-5">
+        <p className="mb-3 mt-1 mb-3">
           Grab your C3-Mini and build your own device within 3 minutes, by free
           installing various sensor applications like a Barometer, Hygrometer,
           Luxmeter or Motion Detector.
         </p>
 
-        <h2 className="mb-2 h3">EcoSystems</h2>
-        <Image
-          src={ecosystemsImage}
-          width={1029}
-          height={128}
-          alt="ecosystems"
-          className="img-fluid mb-2"
-        />
-        <p className="mb-5"></p>
+        <div className="mt-4">
+          {/* Air Quality */}
+          <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
+
+          {/* BMP180 */}
+          <SolutionWidget solutionId="nzeAXNAV3LOeRA2avVDM" />
+          {/* Bio-Pulse */}
+          <SolutionWidget solutionId="QucQ05EfksGSmSeHVHZY" />
+
+          {/* Envirosence */}
+          <SolutionWidget solutionId="EVfcgU5gUOrAKLN3Ik0Y" />
+
+          {/* Home Challenge */}
+          <SolutionWidget solutionId="hOKYr6kDq4FQmG3oamNe" />
+
+          {/* SHT30 */}
+          <SolutionWidget solutionId="wcs3mCGrCzP5BnAHjjIH" />
+
+          {/* DHT22 */}
+          <SolutionWidget solutionId="HgZnhYqfUiktMbMPin16" />
+
+          {/* Hygrometer-1 */}
+          <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
+
+          {/* IR Radiometer */}
+          <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
+
+          {/* Logo Display */}
+          <SolutionWidget solutionId="FC4a4O0YW3Q7dMKYBJJ7" />
+
+          {/* Luxmeter */}
+          <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
+
+          {/* Motion Beeper */}
+          <SolutionWidget solutionId="ce57xKxHhSJGVzb4P1Jk" />
+
+          {/* Thermometer */}
+          <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
+
+          {/* Motion Detector */}
+          <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
+
+          {/* Presence Detector */}
+          <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
+
+          {/* HP303B */}
+          <SolutionWidget solutionId="gmwQRjIo2V8nyZ2N9D8x" />
+        </div>
 
         <h2 className="mb-2 h3">
           What is the difference between the D1- and the C3-Mini?
@@ -497,7 +546,7 @@ const Index = () => {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/img/content/C3-MINI/D1-versus-C3-Mini.png"
-          className="wow fadeInUp"
+          className="wow fadeInUp mb-3"
           data-wow-delay="100ms"
           alt="..."
           style={{
@@ -507,7 +556,7 @@ const Index = () => {
             animationName: 'fadeIn',
           }}
         />
-        <h2 className="mb-2 h3">
+        <h2 className="mb-2 mt-5 h3">
           Evolution of the popular footprint and pinout
         </h2>
         <p className="mb-2">
@@ -631,64 +680,6 @@ const Index = () => {
 
         <h2 className="h3 mt-5 mb-2">Solution Builder Widgets</h2>
 
-        <div className="mt-4 pb-5">
-          {/* Air Quality */}
-          <SolutionWidget solutionId="eieQlkAmwh1LUePfYXmW" />
-
-          {/* BMP180 */}
-          <SolutionWidget solutionId="nzeAXNAV3LOeRA2avVDM" />
-          {/* Bio-Pulse */}
-          <SolutionWidget solutionId="QucQ05EfksGSmSeHVHZY" />
-
-          {/* Envirosence */}
-          <SolutionWidget solutionId="EVfcgU5gUOrAKLN3Ik0Y" />
-
-          {/* GPIO Viewer */}
-          <SolutionWidget solutionId="mKjGP6fwSk1SotR7VjmK" />
-
-          {/* Home Challenge */}
-          <SolutionWidget solutionId="hOKYr6kDq4FQmG3oamNe" />
-
-          {/* SHT30 */}
-          <SolutionWidget solutionId="wcs3mCGrCzP5BnAHjjIH" />
-
-          {/* DHT22 */}
-          <SolutionWidget solutionId="HgZnhYqfUiktMbMPin16" />
-
-          {/* Hygrometer-1 */}
-          <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
-
-          {/* IR Radiometer */}
-          <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
-
-          {/* Logo Display */}
-          <SolutionWidget solutionId="FC4a4O0YW3Q7dMKYBJJ7" />
-
-          {/* Luxmeter */}
-          <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
-
-          {/* Motion Beeper */}
-          <SolutionWidget solutionId="ce57xKxHhSJGVzb4P1Jk" />
-
-          {/* Thermometer */}
-          <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
-
-          {/* Motion Detector */}
-          <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
-
-          {/* Presence Detector */}
-          <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
-
-          {/* HP303B */}
-          <SolutionWidget solutionId="gmwQRjIo2V8nyZ2N9D8x" />
-
-          {/* WLED */}
-          <SolutionWidget solutionId="pDNf45XWUJcTJcMBGM4z" />
-
-          {/* YouTube Meter */}
-          <SolutionWidget solutionId="33ShEVCKo7u5L24bznXc" />
-        </div>
-
         <div className="row mb-1-9 bg-secondary p-3 text-white mt-5">
           <div
             className="col-lg-5 mb-4 mb-lg-0 wow fadeIn"
@@ -795,6 +786,16 @@ const Index = () => {
             animationName: 'fadeIn',
           }}
         />
+
+        <h2 className="mb-2 mt-5 h3">EcoSystems</h2>
+        <Image
+          src={ecosystemsImage}
+          width={1029}
+          height={128}
+          alt="ecosystems"
+          className="img-fluid mb-2"
+        />
+        <p className="mb-5"></p>
       </div>
     </>
   );

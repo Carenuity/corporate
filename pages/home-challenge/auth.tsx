@@ -35,11 +35,11 @@ const Page = () => {
             width="100%"
             height="600px"
           ></iframe>
-
-
-          <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGUadWrTqo&#x2F;r-UJ8uwZcsxaSUhpPWwFzQ&#x2F;view?utm_content=DAGUadWrTqo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
-          target="_blank" 
-          rel="noopener">
+          <a
+            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGUadWrTqo&#x2F;r-UJ8uwZcsxaSUhpPWwFzQ&#x2F;view?utm_content=DAGUadWrTqo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>AUTH Home Challenge</u>
           </a>{' '}
           by carenuity

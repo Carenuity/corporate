@@ -272,8 +272,6 @@ const Page = () => {
               </div>
             </div>
 
-           
-
             <div style={{ textAlign: 'center' }}>
               <h2>Register</h2>
             </div>
@@ -429,7 +427,7 @@ const Page = () => {
                     ></input>
                     <label className="mb-4">
                       {' '}
-                       I have read and agree to the terms and conditions . *
+                      I have read and agree to the terms and conditions . *
                     </label>
 
                     <button
@@ -461,10 +459,9 @@ const Page = () => {
                      your customers or on the website and receive your commission for each sale.
                   
                 </div> */}
-              </div>
+          </div>
 
-
-              {/* <div className="dropdown" >
+          {/* <div className="dropdown" >
                 <button className="btn  dropdown-toggle" 
                         type="button" 
                         data-toggle="dropdown"

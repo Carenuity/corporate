@@ -9,8 +9,48 @@ import PageTitle from '../../../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
 
-const Page = ({ universityId }: { universityId: string }) => {
-  const pageTitle = `Registration for ${universityId}`;
+type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth';
+
+const UniversitySubscriptionWidget: React.FC<{
+  universityId: UniversityId;
+}> = ({ universityId }) => {
+  switch (universityId) {
+    case 'auth':
+      return <SubscriptionWidget categoryId={4} />;
+
+    case 'thws':
+      return <SubscriptionWidget categoryId={5} />;
+
+    case 'tuk':
+      return <SubscriptionWidget categoryId={7} />;
+
+    case 'uop':
+      return <SubscriptionWidget categoryId={6} />;
+  }
+};
+
+const getUniversityName = ({
+  universityId,
+}: {
+  universityId: UniversityId;
+}) => {
+  switch (universityId) {
+    case 'auth':
+      return 'Aristotle University of Thessaloniki';
+
+    case 'thws':
+      return 'Technische Hochschule';
+
+    case 'tuk':
+      return 'Technical University of Kenya';
+
+    case 'uop':
+      return 'University of the Peloponnese';
+  }
+};
+
+const Page = ({ universityId }: { universityId: UniversityId }) => {
+  const pageTitle = `Registration for ${getUniversityName({ universityId })}`;
 
   return (
     <>
@@ -36,21 +76,24 @@ const Page = ({ universityId }: { universityId: string }) => {
 
       <section className="pt-4">
         <div className="container">
-        <div className="row">
-        {/* <h5 className=" mb-3">Home Challenge Regitration for {universityId} </h5> */}
-        <div  className="mb-6" style={{textAlign:'center'}}>
-        <h1 className='mb-3 mt-4'>
-                Are you a {universityId} student?<br/>
-                
+          <div className="row">
+            {/* <h5 className=" mb-3">Home Challenge Regitration for {universityId} </h5> */}
+            <div className="mb-6" style={{ textAlign: 'center' }}>
+              <h1 className="mb-3 mt-4">
+                Are you a {getUniversityName({ universityId })} student?
+                <br />
               </h1>
-              <h4>Showcase your talent and grow your skills by subscribing <br/> 
-              to {universityId} home challenge.</h4>
-        </div>
-            
-        <h1 className='mb-6' style={{textAlign:"center"}}>
-          Subscribe here!</h1>
-          <SubscriptionWidget categoryId={0} />
-        </div>
+              <h4>
+                Showcase your talent and grow your skills by subscribing <br />
+                to {getUniversityName({ universityId })} home challenge.
+              </h4>
+            </div>
+
+            <h1 className="mb-6" style={{ textAlign: 'center' }}>
+              Subscribe here!
+            </h1>
+            <UniversitySubscriptionWidget universityId={universityId} />
+          </div>
         </div>
       </section>
     </>
