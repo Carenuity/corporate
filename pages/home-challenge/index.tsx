@@ -43,7 +43,7 @@ const Page = () => {
                 <p>
                   Showcase your skills and accept the Home Challenge to start
                   your journey. For those in Munich, Mombasa, Thessaloniki,
-                  Hamburg, Trieste, Nairobi, Belgrade, Patras or Kisii get ready
+                  Hamburg, Trieste, Nairobi, Wuerzburg, Belgrade, Patras or Kisii get ready
                   to experience this at no cost. Claim your free triple adapter
                   now and join the community!
                 </p>
