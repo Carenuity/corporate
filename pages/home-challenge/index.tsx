@@ -297,7 +297,7 @@ const Page = () => {
                     students will implement a data logger to use the data for
                     smart AI-assisted solutions.
                   </p>
-                  <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.69
+                  <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.66
                   OLED plus 2 years free access to SQ-Cloud (Google Firebase)
                   for data analysis / AI
                 </div>
