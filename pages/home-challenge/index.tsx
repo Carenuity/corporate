@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import PageTitle from '../../components/PageTitle';
+const Page = ({ isMobile }: { isMobile: boolean }) => {
 
-const Page = () => {
   const pageTitle = 'Home Challenge';
   return (
     <>
@@ -342,7 +342,56 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-lg-3">
+              <p>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/why-should-I-be-a-professor'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">Why should I be a professor</span>
+                  </Link>
+                )}
 
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/why-should-I-be-a-professor'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Why should I be a professor{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
+            </div>
+            <div className="col-lg-6">
+              <p>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/why-should-I-become-a-sponsor'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small"> Why should I become a sponsor</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/why-should-I-become-a-sponsor'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Why should I become a sponsor{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
+            </div>
+          </div>
           <div></div>
         </div>
       </section>
