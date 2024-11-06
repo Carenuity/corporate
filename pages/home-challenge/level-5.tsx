@@ -162,7 +162,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-          <h5 className="mb-4">Related blog:</h5>
+          {/* <h5 className="mb-4">Related blog:</h5> */}
           <div className="mb-4">
             <h5>Gained Tech Competences</h5>
             <p>
