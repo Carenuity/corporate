@@ -247,7 +247,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <Link href="/home-challenge/level-4">
                     <h6 className="text-success">Level 4</h6>
                   </Link>
-                  <p>
+                  <p className='mb-9'>
                     This level not only enhances students&apos; technical skills
                     in 3D modelling and rendering, but also encourages
                     creativity and innovation in designing custom enclosures for
@@ -329,7 +329,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <Link href="/home-challenge/level-6" className="text-success">
                     <h6 className="text-success">Level 6</h6>
                   </Link>
-                  <p>
+                  <p className='mb-15'>
                     This level covers data acquisition, model training,
                     deployment and AI-assisted edge computing using Edge Impulse
                     for object detection. Students will learn to describe,
