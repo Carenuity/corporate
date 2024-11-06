@@ -31,11 +31,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <h3 className=" mb-4">Level 1: Triple Adapter & WOKWI Simulation</h3>
-          <h5>Soldering with Triple Adapter and Familiarize with WOKWI</h5>
-          <p>
-            Attach 6 pinheaders to the Triple Adapter and familiarize yourself
-            with WOKWI simulations, especially with some sensor solutions.
-          </p>
+          
+          
           <div
             className="e-card mb-4"
             style={{
@@ -49,6 +46,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h5>
                   Soldering with Triple Adapter and Familiarize with WOKWI
                 </h5>
+                <p>
+            Attach 6 pinheaders to the Triple Adapter and familiarize yourself
+            with WOKWI simulations, especially with some sensor solutions.
+          </p>
                 <p>
                   This level focuses on understanding electronic connections,
                   building a foundation in hardware skills. By the end of this
@@ -91,21 +92,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
           <div className="mb-4">
-            <strong>Tools: </strong>Solder iron and WOKWI
+            <strong>Tools: </strong> Solder iron and WOKWI
           </div>
 
-          <div className="mb-4">
-            <h5>Tutorial for this level</h5>
-            <iframe
-              width="1300"
-              height="450"
-              src="https://www.youtube.com/embed/RHMUW-Oyl9c"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
           <div className="mb-4">
             <strong>Reward:</strong> D1- / or C3-Mini
           </div>
@@ -139,11 +128,25 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </table>
 
           <div className="mb-4">
-            <h5>Motivational or Reference Video</h5>
+            <h5>Tutorial for this level</h5>
             <iframe
               width="1300"
               height="450"
               src="https://www.youtube.com/embed/RHMUW-Oyl9c"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+         
+
+          <div className="mb-4">
+            <h5>Motivational or Reference Video</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/6l9DWqb77KI"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"

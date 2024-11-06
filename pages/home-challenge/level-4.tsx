@@ -33,12 +33,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             Level 4 Photorealistic 3D Modelling and Printing of custom
             Enclosures
           </h3>
-          <h5>Design custom enclosure with 3D modeling</h5>
-          <p>
-            Familiarize with 3D-Modelling software to build your own customized
-            enclosure. You will get your own hero page on Solution Builder to
-            present it. with your triple and 3D-printable case
-          </p>
+          
+          
           <div
             className="e-card mb-4"
             style={{
@@ -50,6 +46,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="row ">
               <div className="col-lg-9">
                 <h5>Design custom enclosure with 3D modeling</h5>
+                <p>
+            Familiarize with 3D-Modelling software to build your own customized
+            enclosure. You will get your own hero page on Solution Builder to
+            present it. with your triple and 3D-printable case
+          </p>
                 <p>
                   This level not only enhances students&apos; technical skills
                   in 3D modelling and rendering, but also encourages creativity
@@ -95,18 +96,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <strong>Tools: </strong>SketchUp 3D-Tool, Home-Assistant
           </div>
           <div className="mb-4">
-            <h5>Tutorial for this level</h5>
-            <iframe
-              width="1300"
-              height="450"
-              src="https://www.youtube.com/embed/u-zJg_VkpVA"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <div className="mb-4">
             <strong>Reward:</strong>
             25% voucher for ChipGlobe.shop, e.g. for a 3D-printed enclosure
           </div>
@@ -139,6 +128,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </tr>
           </table>
           <div className="mb-4">
+            <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/u-zJg_VkpVA"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+         
+          <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe
               width="1300"
@@ -152,6 +154,16 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div className="mb-4">
             <h5>Related blog:</h5>
+            <a
+              href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/beginner-s-guide-automating-lights-with-hlk-ld2410-and-home-assistant"
+              className="text-success"
+            >
+              <strong>
+                <u>
+                Beginner's Guide: Automating Lights with HLK-LD2410 and Home Assistant
+                </u>
+              </strong>
+            </a>
           </div>
           <div className="mb-4">
             <h5>Gained Tech Competences</h5>

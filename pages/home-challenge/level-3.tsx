@@ -32,15 +32,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <h3 className=" mb-4">
             Level 3: API Usage & App Development (Solution Builder)
           </h3>
-          <h5>
-            Create own App by Arduino IDE in Solution Builder & utilize AI for
-            coding (ChatGPT)
-          </h5>
-          <p>
-            Create own app by ChatGPT-assisted coding in Arduino IDE with own
-            API-keys and upload code, your binary, to Solution Builder.
-            Optionally: Share your success on LinkedIn.
-          </p>
+          
+         
           <div
             className="e-card mb-4"
             style={{
@@ -55,6 +48,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Create own App by Arduino IDE in Solution Builder & utilize AI
                   for coding (ChatGPT)
                 </h5>
+                <p>
+            Create own app by ChatGPT-assisted coding in Arduino IDE with own
+            API-keys and upload code, your binary, to Solution Builder.
+            Optionally: Share your success on LinkedIn.
+          </p>
                 <p>
                   The third level encourages students to share their success
                   within the solution builder community. The focus is on
@@ -102,19 +100,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             Builder
           </div>
           <div className="mb-4">
-            <h5>Tutorial for this level</h5>
-            <iframe
-              width="1300"
-              height="450"
-              src="https://www.youtube.com/embed/Ngnzw_W662s"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <div className="mb-4">
-            <strong>Reward:</strong>DS18B20 Sensor / or Oximeter Sensor
+            <strong>Reward: </strong>DS18B20 Sensor / or Oximeter Sensor
           </div>
           <table
             className="mb-4"
@@ -145,6 +131,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </tr>
           </table>
           <div className="mb-4">
+            <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/Ngnzw_W662s"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+         
+          <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe
               width="1300"
@@ -156,7 +155,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-          <h5 className="mb-4">Related blog:</h5>
+          {/* <h5 className="mb-4">Related blog:</h5> */}
           <div className="mb-4">
             <h5>Gained Tech Competences</h5>
             <p>

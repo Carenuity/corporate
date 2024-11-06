@@ -32,20 +32,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <h3 className=" mb-4">
             Level 6: Object Detection by an AI-assisted Edge Device
           </h3>
-          <h5>Train & implement AI-assisted device for object detection</h5>
-          <ul style={{ listStyleType: 'square' }}>
-            <li>Use ESP32-CAM for image recognition.</li>
-            <li>Training AI models with Edge Impulse</li>
-            <li>
-              Cup or vegetable detection using ESP32-CAM, deploying machine
-              learning models on ESP32-CAM
-            </li>
-            <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
-          </ul>
-          <p>
-            Grow visibility, open a Shopify shop Start promoting your
-            AI-assisted device.
-          </p>
+          
+          
 
           <div
             className="e-card mb-4"
@@ -60,7 +48,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h5>
                   Train & implement AI-assisted device for object detection
                 </h5>
-
+                <ul style={{ listStyleType: 'square' }}>
+            <li>Use ESP32-CAM for image recognition.</li>
+            <li>Training AI models with Edge Impulse</li>
+            <li>
+              Cup or vegetable detection using ESP32-CAM, deploying machine
+              learning models on ESP32-CAM
+            </li>
+            <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
+          </ul>
+          <p>
+            Grow visibility, open a Shopify shop Start promoting your
+            AI-assisted device.
+          </p>
                 <p>
                   This level covers data acquisition, model training, deployment
                   and AI-assisted edge computing using Edge Impulse for object
@@ -106,22 +106,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="mb-4">
             <strong>Tools: </strong>Edge-Impulse and Solution-Builder.
           </div>
-
-          <div className="mb-4">
-            <h5>Tutorial for this level</h5>
-            <iframe
-              width="1300"
-              height="450"
-              src="https://www.youtube.com/embed/vCr0-iMy2AA"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
           <div className="mb-4">
             <p>
-              <strong>Reward:</strong>
+              <strong>Reward: </strong>
               CAM Dual-Adapter for 0.66-OLED / or Hero-Website with own device
               (H-A result), free shop stocking of 5 own devices, incl.
               fulfillment, getting 100% sales profit.
@@ -155,6 +142,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </td>
             </tr>
           </table>
+          <div className="mb-4">
+            <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/vCr0-iMy2AA"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+         
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe

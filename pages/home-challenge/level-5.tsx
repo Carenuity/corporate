@@ -33,12 +33,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             Level 5: Choosing and feeding databases by sensor data logging for
             AI Machine Learning
           </h3>
-          <h5>Select the right database for your / industrial AI usecase</h5>
-          <p>
-            Identify a suitable database, consider industrial use cases,
-            describe the USP of your targeted algos and consider how it could
-            solve problems or benefit solutions.
-          </p>
+          
+          
           <div
             className="e-card mb-4"
             style={{
@@ -52,6 +48,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h5>
                   Select the right database for your / industrial AI usecase
                 </h5>
+                <p>
+            Identify a suitable database, consider industrial use cases,
+            describe the USP of your targeted algos and consider how it could
+            solve problems or benefit solutions.
+          </p>
                 <p>
                   Level 5 focuses on recording and analyzing sensor data.
                   Students commission a sensor device, visualize and analyze its
@@ -103,21 +104,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="mb-4">
             <strong>Tools: </strong>Databases and Edge-Impulse.
           </div>
-
           <div className="mb-4">
-            <h5>Tutorial for this level</h5>
-            <iframe
-              width="1300"
-              height="450"
-              src="https://www.youtube.com/embed/G6ccogmR_no"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <div className="mb-4">
-            <strong>Reward:</strong>ESP32-CAM (opt. with Dual-Adapter for
+            <strong>Reward: </strong>ESP32-CAM (opt. with Dual-Adapter for
             0.66-OLED) plus opt. 1 year free access to SQ-Cloud (Google
             Firebase) for data upload & AI analysis
           </div>
@@ -149,6 +137,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </td>
             </tr>
           </table>
+          <div className="mb-4">
+            <h5>Tutorial for this level</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/G6ccogmR_no"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe

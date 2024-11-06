@@ -30,10 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <h4 className=" mb-4">Level 2: PCB-Design & GPIO-Viewer</h4>
-          <h5>Show Pins by GPIO-Viewer and modify a PCB-Design with KiCAD</h5>
-          <p>
-            GPIO Viewer & PCB-Desing (add your own logo) design modification
-          </p>
+          
           <div
             className="e-card mb-4"
             style={{
@@ -48,12 +45,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Show Pins by GPIO-Viewer and modify a PCB-Design with KiCAD
                 </h5>
                 <p>
+            GPIO Viewer & PCB-Desing (add your own logo) design modification
+          </p>
+                <p>
                   In this level, PCB design modification skills are practiced
                   using the KiCAD tool. Upon completion of this course, students
                   will be able to update and store a PCB design and furthermore
                   monitor the pins of a microcontroller live on their
                   smartphone.
-                  <br />
+                  
                 </p>
               </div>
               <div className="col-lg-3">
@@ -91,21 +91,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="mb-4">
             <strong>Tools: </strong>GPIO-Viewer and KiCAD
           </div>
-
           <div className="mb-4">
-            <h5>Tutorial for this level</h5>
-            <iframe
-              width="1300"
-              height="450"
-              src="https://www.youtube.com/embed/j9v6RvyUrvc"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <div className="mb-4">
-            <strong>Reward:</strong>0.66 / or 0.96 OLED Display
+            <strong>Reward:</strong> 0.66 / or 0.96 OLED Display
           </div>
           <table
             className="mb-4"
@@ -136,7 +123,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </tr>
           </table>
           <div className="mb-4">
-            <h5>Motivational or Reference Video</h5>
+            <h5>Tutorial for this level</h5>
             <iframe
               width="1300"
               height="450"
@@ -147,7 +134,20 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-          <h5 className="mb-4">Related blog:</h5>
+         
+          <div className="mb-4">
+            <h5>Motivational or Reference Video</h5>
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/UxkOosaNohU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          {/* <h5 className="mb-4">Related blog:</h5> */}
           <div>
             <h5>Gained Tech Competences</h5>
             <p>
