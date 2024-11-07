@@ -29,20 +29,10 @@ const Page = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-       {/* <h4>Why Professors Should Contribute to the Home Challenge</h4> */}
-       {/* <div className="container">
-            <h1>Home Challenge</h1>
-            <nav>
-                <ul>
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="#get-involved">Get Involved</a></li>
-                </ul>
-            </nav>
-        </div> */}
+       
         
         <div >
-            <h4>Why Professors Should Contribute to the Home Challenge</h4>
+            <h4>Why should I Involve My Students as a Professor</h4>
             <p>The Home Challenge offers a unique opportunity for professors to engage with cutting-edge 
                 IoT technology and contribute to the development of future industry leaders. Here are some
                  compelling reasons to get involved:</p>

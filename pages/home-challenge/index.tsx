@@ -485,10 +485,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <p>
                 {!isMobile && (
                   <Link
-                    href={'/home-challenge/why-should-I-be-a-professor'}
+                    href={'/home-challenge/why-should-I-involve-myself-as-a-professor'}
                     
                   >
-                    <u className="small">Why should I be a professor</u>
+                    <u className="small">Why should I Involve My Students as a Professor</u>
                   </Link>
                 )}
 
