@@ -389,9 +389,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     students will implement a data logger to use the data for
                     smart AI-assisted solutions.
                   </p>
-                  <p className='mb-4'><strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.66
-                  OLED plus 2 years free access to SQ-Cloud (Google Firebase)
-                  for data analysis / AI</p>
+                  <p className='mb-4'><strong>Reward:</strong> ESP32-CAM. opt. with Dual-Adapter for 0.66
+                  OLED plus opt. 1 year free access to SQ-Cloud (Google Firebase)
+                  for data upload & AI analysis / AI</p>
                   
                   <p>
                 {!isMobile && (
