@@ -93,7 +93,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
           <div className="mb-4">
-            <strong>Tools: </strong>SketchUp 3D-Tool, Home-Assistant
+            <strong>Tools: </strong>TinkerCAD 3D-Tool, Home-Assistant
           </div>
           <div className="mb-4">
             <strong>Reward:</strong>

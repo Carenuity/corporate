@@ -3,7 +3,7 @@ import Head from 'next/head';
 import PageTitle from '../../components/PageTitle';
 
 const Page = () => {
-  const pageTitle = 'Why should I be a professor';
+  const pageTitle = 'Why should I Involve My Students as a Professor';
   return (
     <>
       <Head>
