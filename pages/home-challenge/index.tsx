@@ -138,7 +138,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     level, students have a practical understanding of soldering
                     and the ability to simulate sensor solutions using WOKWI
                   </p>
-                  <p className='mb-4'><strong>Reward:</strong> C3-mini</p>
+                  <p className='mb-4'><strong>Reward:</strong> C3-Mini</p>
                   
                   <p className='mb-4'>
                 {!isMobile && (
