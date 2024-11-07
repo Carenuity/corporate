@@ -65,7 +65,7 @@ const Page = () => {
             <div className="col-lg-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-thws/Pressebild-3.PNG"
+                src="/img/content/press-materials-for-thws/code.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."

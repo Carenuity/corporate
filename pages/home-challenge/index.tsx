@@ -111,7 +111,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '500px',
+                  height: '530px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -138,7 +138,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     level, students have a practical understanding of soldering
                     and the ability to simulate sensor solutions using WOKWI
                   </p>
-                  <strong>Reward:</strong> C3-mini
+                  <p className='mb-4'><strong>Reward:</strong> C3-mini</p>
+                  
+                  <p className='mb-4'>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/level-1'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small"> Learn more</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/level-1'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Learn more{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
                 </div>
               </div>
             </div>
@@ -148,7 +171,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '500px',
+                  height: '530px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -180,7 +203,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     furthermore monitor the pins of a microcontroller live on
                     their smartphone.
                   </p>
-                  <strong>Reward:</strong> 0.66 / 0.96 OLED Display
+                  <p className='mb-4'><strong>Reward:</strong> 0.66 / 0.96 OLED Display</p>
+                  
+                  <p className='mb-4'>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/level-2'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small"> Learn more</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/level-2'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Learn more{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
                 </div>
               </div>
             </div>
@@ -189,7 +235,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '500px',
+                  height: '530px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -217,7 +263,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     AI, and leveraging API integrations to enhance functionality
                     of own Apps.
                   </p>
-                  <strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor
+                  <p className='mb-4'><strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor</p>
+                  
+                  <p className='mb-4'>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/level-3'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small"> Learn more</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/level-3'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Learn more{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
                 </div>
               </div>
             </div>
@@ -226,7 +295,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '670px',
+                  height: '700px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -256,7 +325,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     enclosures that enhance the acceptance and aesthetics of
                     their IoT devices.
                   </p>
-                  <strong>Reward:</strong> 25% voucher for ChipGlobe.shop
+                  <p className='mb-8'><strong>Reward:</strong> 25% voucher for ChipGlobe.shop</p>
+                  
+                  <p className='mb-4'>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/level-4'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small"> Learn more</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/level-4'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Learn more{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
                 </div>
               </div>
             </div>
@@ -266,7 +358,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card "
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '670px',
+                  height: '700px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -297,9 +389,32 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     students will implement a data logger to use the data for
                     smart AI-assisted solutions.
                   </p>
-                  <strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.66
+                  <p className='mb-4'><strong>Reward:</strong> ESP32-CAM with Dual-Adapter for 0.66
                   OLED plus 2 years free access to SQ-Cloud (Google Firebase)
-                  for data analysis / AI
+                  for data analysis / AI</p>
+                  
+                  <p>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/level-5'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small"> Learn more</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/level-5'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Learn more{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
                 </div>
               </div>
             </div>
@@ -308,7 +423,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card "
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '670px',
+                  height: '700px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -336,61 +451,64 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     promote and optionally market their AI-assisted device on a
                     sharing platform.
                   </p>
-                  <strong>Reward:</strong> Own website, free stocking & sales of
-                  5 devices, incl. fulfillment, getting 100% sales profit.
+                  <p className='mb-4'><strong>Reward:</strong> Own website, free stocking & sales of
+                  5 devices, incl. fulfillment, getting 100% sales profit.</p>
+                  
+                  <p>
+                {!isMobile && (
+                  <Link
+                    href={'/home-challenge/level-6'}
+                    className={'btn btn-sm btn-success rounded-pill'}
+                  >
+                    <span className="small"> Learn more</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/home-challenge/level-6'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                    Learn more{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3">
+            
               <p>
                 {!isMobile && (
                   <Link
                     href={'/home-challenge/why-should-I-be-a-professor'}
-                    className={'btn btn-lg btn-success rounded-pill'}
+                    
                   >
-                    <span className="small">Why should I be a professor</span>
+                    <u className="small">Why should I be a professor</u>
                   </Link>
                 )}
 
-                {isMobile && (
-                  <a
-                    href={'/home-challenge/why-should-I-be-a-professor'}
-                    className={'btn btn-lg btn-success rounded-pill'}
-                  >
-                    <span className="small">
-                    Why should I be a professor{' '}
-                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                    </span>
-                  </a>
-                )}
+                
+                
               </p>
-            </div>
-            <div className="col-lg-6">
+          
+           
               <p>
                 {!isMobile && (
                   <Link
                     href={'/home-challenge/why-should-I-become-a-sponsor'}
-                    className={'btn btn-lg btn-success rounded-pill'}
                   >
-                    <span className="small"> Why should I become a sponsor</span>
+                    <u className="small"> Why should I become a sponsor</u>
                   </Link>
                 )}
 
-                {isMobile && (
-                  <a
-                    href={'/home-challenge/why-should-I-become-a-sponsor'}
-                    className={'btn btn-lg btn-success rounded-pill'}
-                  >
-                    <span className="small">
-                    Why should I become a sponsor{' '}
-                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                    </span>
-                  </a>
-                )}
+                
               </p>
-            </div>
+         
           </div>
           <div></div>
         </div>
