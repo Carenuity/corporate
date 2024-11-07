@@ -154,6 +154,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             ></iframe>
           </div>
 
+          <div className="mb-4">
+           
+            <iframe
+              width="1300"
+              height="450"
+              src="https://www.youtube.com/embed/q31782Wtj6M"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+
           {/* <h5 className="mb-4">Related blog:</h5> */}
 
           <div className="mb-4">

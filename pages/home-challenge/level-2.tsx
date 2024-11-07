@@ -137,7 +137,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
          
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
-            <iframe
+             {/* eslint-disable-next-line @next/next/no-img-element */}
+             <img
+                  src="/img/content/home-challenge/level2.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '500px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                /><br/>
+                <a
+                      href="https://www.youtube.com/watch?v=UxkOosaNohU" target="_blank"
+                      className="text-success mb-4"
+                    >
+                      <u>Revolutionize Your ESP32 Projects with Live GPIO Pin Monitoring!</u>
+                    </a>
+                
+            {/* <iframe
               width="1300"
               height="450"
               src="https://www.youtube.com/embed/UxkOosaNohU"
@@ -145,8 +165,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
           </div>
+          
           {/* <h5 className="mb-4">Related blog:</h5> */}
           <div>
             <h5>Gained Tech Competences</h5>
