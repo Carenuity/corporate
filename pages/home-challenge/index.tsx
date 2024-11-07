@@ -347,20 +347,20 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <p>
                 {!isMobile && (
                   <Link
-                    href={'/home-challenge/why-should-I-be-a-professor'}
+                    href={'/home-challenge/why-should-i-involve-myself-as-a-professor'}
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
-                    <span className="small">Why should I be a professor</span>
+                    <span className="small">Why should I involve myself as a professor</span>
                   </Link>
                 )}
 
                 {isMobile && (
                   <a
-                    href={'/home-challenge/why-should-I-be-a-professor'}
+                    href={'/home-challenge/why-should-i-involve-myself-as-a-professor'}
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">
-                    Why should I be a professor{' '}
+                    Why should I involve myself as a professor{' '}
                       {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                     </span>
                   </a>
