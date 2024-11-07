@@ -325,7 +325,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     enclosures that enhance the acceptance and aesthetics of
                     their IoT devices.
                   </p>
-                  <p className='mb-8'><strong>Reward:</strong> 25% voucher for ChipGlobe.shop</p>
+                  <p className='mb-8'><strong>Reward:</strong> A 25% voucher for the ChipGlobe.shop</p>
                   
                   <p className='mb-4'>
                 {!isMobile && (
