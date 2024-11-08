@@ -78,8 +78,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div className="col-lg-3 "style={{
-              paddingTop:'300px'            }}>
+            <div
+              className="col-lg-3 "
+              style={{
+                paddingTop: '300px',
+              }}
+            >
               <p>
                 {!isMobile && (
                   <Link
@@ -96,7 +100,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">
-                    Back to startpage{' '}
+                      Back to startpage{' '}
                       {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                     </span>
                   </a>

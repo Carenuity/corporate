@@ -33,8 +33,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             Level 5: Choosing and feeding databases by sensor data logging for
             AI Machine Learning
           </h3>
-          
-          
+
           <div
             className="e-card mb-4"
             style={{
@@ -49,10 +48,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Select the right database for your / industrial AI usecase
                 </h5>
                 <p>
-            Identify a suitable database, consider industrial use cases,
-            describe the USP of your targeted algos and consider how it could
-            solve problems or benefit solutions.
-          </p>
+                  Identify a suitable database, consider industrial use cases,
+                  describe the USP of your targeted algos and consider how it
+                  could solve problems or benefit solutions.
+                </p>
                 <p>
                   Level 5 focuses on recording and analyzing sensor data.
                   Students commission a sensor device, visualize and analyze its
@@ -117,25 +116,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               padding: '20px',
             }}
           >
-            <tr>
-              <td
-                style={{
-                  width: '50%',
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong>Level of Difficulty:</strong> advanced / AI related
-              </td>
-              <td
-                style={{
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong> Tutor:</strong> Cynthia
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    width: '50%',
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong>Level of Difficulty:</strong> advanced / AI related
+                </td>
+                <td
+                  style={{
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong> Tutor:</strong> Cynthia
+                </td>
+              </tr>
+            </tbody>
           </table>
           <div className="mb-4">
             <h5>Tutorial for this level</h5>
@@ -149,7 +150,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-          
+
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe

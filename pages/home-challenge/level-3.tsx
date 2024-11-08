@@ -32,8 +32,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <h3 className=" mb-4">
             Level 3: API Usage & App Development (Solution Builder)
           </h3>
-          
-         
+
           <div
             className="e-card mb-4"
             style={{
@@ -49,10 +48,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   for coding (ChatGPT)
                 </h5>
                 <p>
-            Create own app by ChatGPT-assisted coding in Arduino IDE with own
-            API-keys and upload code, your binary, to Solution Builder.
-            Optionally: Share your success on LinkedIn.
-          </p>
+                  Create own app by ChatGPT-assisted coding in Arduino IDE with
+                  own API-keys and upload code, your binary, to Solution
+                  Builder. Optionally: Share your success on LinkedIn.
+                </p>
                 <p>
                   The third level encourages students to share their success
                   within the solution builder community. The focus is on
@@ -110,25 +109,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               padding: '20px',
             }}
           >
-            <tr>
-              <td
-                style={{
-                  width: '50%',
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong>Level of Difficulty:</strong> Basic
-              </td>
-              <td
-                style={{
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong> Tutor:</strong> Paul
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    width: '50%',
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong>Level of Difficulty:</strong> Basic
+                </td>
+                <td
+                  style={{
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong> Tutor:</strong> Paul
+                </td>
+              </tr>
+            </tbody>
           </table>
           <div className="mb-4">
             <h5>Tutorial for this level</h5>
@@ -144,40 +145,41 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div>
             <h5>Deliverables for achieving Level 3</h5>
-            <p> 
-            To accomplish Level 3, a custom app must be uploaded to the Solution Builder at
-            {''}
-                 <a
-                 href='https://solutions.carenuity.com' target='blank'>
-                  <u>https://solutions.carenuity.com</u>
-                 </a>
-                 {''}
-             . 
-             First, an Arduino code should be created or an existing code example should be 
-             used and modified to make it an own. Optionally, an API from a third-party service
-              can be implemented, and ChatGPT should be used for coding, check for the latest
-              &apos;canvas on ChatGPT&apos;feature, see {''}
-                 <a
-                 href='https://www.heise.de/news/ChatGPT-bekommt-Canvas-OpenAI-bietet-neue-APIs-an-9961813.html' target='blank'>
-                  <u>https://www.heise.de/news/ChatGPT-bekommt-Canvas-OpenAI-bietet-neue-APIs-an-9961813.html</u>
-                 </a>
-                 {''}
-                .
-                In the Arduino IDE, the so-called &apos;merged binary&apos; is automatically generated, which needs 
-                to get uploaded to {''}
-                 <a
-                 href='https://solutions.carenuity.com' target='blank'>
-                  <u>https://solutions.carenuity.com.</u>
-                 </a>
-                 {''}
-               
-              </p>
-                  <p> Once that is done, simply send the link (URL) of your own new
-                     app on Solution Builder to <strong>team@carenuity.com</strong> for sharing your success.
-                  </p>
+            <p>
+              To accomplish Level 3, a custom app must be uploaded to the
+              Solution Builder at
+              {''}
+              <a href="https://solutions.carenuity.com" target="blank">
+                <u>https://solutions.carenuity.com</u>
+              </a>
+              {''}. First, an Arduino code should be created or an existing code
+              example should be used and modified to make it an own. Optionally,
+              an API from a third-party service can be implemented, and ChatGPT
+              should be used for coding, check for the latest &apos;canvas on
+              ChatGPT&apos;feature, see {''}
+              <a
+                href="https://www.heise.de/news/ChatGPT-bekommt-Canvas-OpenAI-bietet-neue-APIs-an-9961813.html"
+                target="blank"
+              >
+                <u>
+                  https://www.heise.de/news/ChatGPT-bekommt-Canvas-OpenAI-bietet-neue-APIs-an-9961813.html
+                </u>
+              </a>
+              {''}. In the Arduino IDE, the so-called &apos;merged binary&apos;
+              is automatically generated, which needs to get uploaded to {''}
+              <a href="https://solutions.carenuity.com" target="blank">
+                <u>https://solutions.carenuity.com.</u>
+              </a>
+              {''}
+            </p>
+            <p>
+              {' '}
+              Once that is done, simply send the link (URL) of your own new app
+              on Solution Builder to <strong>team@carenuity.com</strong> for
+              sharing your success.
+            </p>
           </div>
-         
-         
+
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe

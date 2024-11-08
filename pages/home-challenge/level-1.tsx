@@ -31,8 +31,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <h3 className=" mb-4">Level 1: Triple Adapter & WOKWI Simulation</h3>
-          
-          
+
           <div
             className="e-card mb-4"
             style={{
@@ -47,9 +46,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Soldering with Triple Adapter and Familiarize with WOKWI
                 </h5>
                 <p>
-            Attach 6 pinheaders to the Triple Adapter and familiarize yourself
-            with WOKWI simulations, especially with some sensor solutions.
-          </p>
+                  Attach 6 pinheaders to the Triple Adapter and familiarize
+                  yourself with WOKWI simulations, especially with some sensor
+                  solutions.
+                </p>
                 <p>
                   This level focuses on understanding electronic connections,
                   building a foundation in hardware skills. By the end of this
@@ -74,7 +74,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-         
 
           <div className="mb-4">
             <h5>Summary for this Level</h5>
@@ -107,25 +106,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               padding: '20px',
             }}
           >
-            <tr>
-              <td
-                style={{
-                  width: '50%',
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong>Level of Difficulty:</strong> Basic
-              </td>
-              <td
-                style={{
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong>Tutor:</strong> Nilu
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    width: '50%',
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong>Level of Difficulty:</strong> Basic
+                </td>
+                <td
+                  style={{
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong>Tutor:</strong> Nilu
+                </td>
+              </tr>
+            </tbody>
           </table>
 
           <div className="mb-4">
@@ -142,18 +143,20 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div>
             <h5>Deliverables for achieving Level 1</h5>
-            <p>To accomplish Level 1, two parts have to be mastered: Firstly, soldering the triple adapter
-               as described in the video and secondly, adding another line to our WOKWI repository with the
-                link (URL) to your own WOKWI project, which should be as remarkable as possible. You add it
-                 by means of a Github commit on {''}
-                 <a
-                 href='https://github.com/Carenuity/WOKWI' target='blank'>
-                  <u>https://github.com/Carenuity/WOKWI</u>
-                 </a>
-                 {''}
-                 . Both the photo and the
-                  copy of the added line (URL) from your own WOKWI repository should then be sent by email
-                   to <strong>team@carenuity.com.</strong></p>
+            <p>
+              To accomplish Level 1, two parts have to be mastered: Firstly,
+              soldering the triple adapter as described in the video and
+              secondly, adding another line to our WOKWI repository with the
+              link (URL) to your own WOKWI project, which should be as
+              remarkable as possible. You add it by means of a Github commit on{' '}
+              {''}
+              <a href="https://github.com/Carenuity/WOKWI" target="blank">
+                <u>https://github.com/Carenuity/WOKWI</u>
+              </a>
+              {''}. Both the photo and the copy of the added line (URL) from
+              your own WOKWI repository should then be sent by email to{' '}
+              <strong>team@carenuity.com.</strong>
+            </p>
           </div>
 
           <div className="mb-4">
@@ -170,7 +173,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </div>
 
           <div className="mb-4">
-           
             <iframe
               width="1300"
               height="450"

@@ -30,7 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <h4 className=" mb-4">Level 2: PCB-Design & GPIO-Viewer</h4>
-          
+
           <div
             className="e-card mb-4"
             style={{
@@ -45,15 +45,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Show Pins by GPIO-Viewer and modify a PCB-Design with KiCAD
                 </h5>
                 <p>
-            GPIO Viewer & PCB-Desing (add your own logo) design modification
-          </p>
+                  GPIO Viewer & PCB-Desing (add your own logo) design
+                  modification
+                </p>
                 <p>
                   In this level, PCB design modification skills are practiced
                   using the KiCAD tool. Upon completion of this course, students
                   will be able to update and store a PCB design and furthermore
                   monitor the pins of a microcontroller live on their
                   smartphone.
-                  
                 </p>
               </div>
               <div className="col-lg-3">
@@ -102,25 +102,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               padding: '20px',
             }}
           >
-            <tr>
-              <td
-                style={{
-                  width: '50%',
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong>Level of Difficulty:</strong> Basic
-              </td>
-              <td
-                style={{
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong> Tutor:</strong> Timothy
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    width: '50%',
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong>Level of Difficulty:</strong> Basic
+                </td>
+                <td
+                  style={{
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong> Tutor:</strong> Timothy
+                </td>
+              </tr>
+            </tbody>
           </table>
           <div className="mb-4">
             <h5>Tutorial for this level</h5>
@@ -136,61 +138,67 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div>
             <h5>Deliverables for achieving Level 2</h5>
-            <p> To achieve Level 2, two tasks must also be mastered: Firstly, the silkscreen of a PCB 
-              design must be modified as described in the video. PCB design data is available for this
-               in the repository {''}
-                 <a
-                 href='https://github.com/Carenuity/KiCAD-PCB' target='blank'>
-                  <u>https://github.com/Carenuity/KiCAD-PCB</u>
-                 </a>
-                 {''}
-                . Another PCB can also be modified.
-                Your own logo should be placed so that it is suitable as a gift or recognizable as your own
-                 product. The result to share are so-called Gerber data (zip file). 
-              
-                 </p>
-                  <p>
-                  In the second part, an app is to be installed on the C3-Mini, namely the 'GPIO Viewer App', 
-                  which can be found on the website {''}
-                 <a
-                 href='https://carenuity.com/c3-mini' target='blank'>
-                  <u>https://carenuity.com/c3-mini</u>
-                 </a>
-                 {''}
-                  
-                   . There you can also find 
-                  detailed instructions for removing the metal frame and programming the C3-Mini for the first
-                   time. Note: For running the app, it is not necessary to enter your own SSID and password, 
-                   as the viewer can also be used on the specified address 192.168.4.1, i.e. it does not have
-                    to be integrated into your home network. The password is <strong>password</strong>.<br/>
-                  For Level 2, the Gerber data (ZIP) and a screenshot of your smartphone must be sent by 
-                  e-mail to  <strong>team@carenuity.com.</strong></p>
-                     
-                 
+            <p>
+              {' '}
+              To achieve Level 2, two tasks must also be mastered: Firstly, the
+              silkscreen of a PCB design must be modified as described in the
+              video. PCB design data is available for this in the repository{' '}
+              {''}
+              <a href="https://github.com/Carenuity/KiCAD-PCB" target="blank">
+                <u>https://github.com/Carenuity/KiCAD-PCB</u>
+              </a>
+              {''}. Another PCB can also be modified. Your own logo should be
+              placed so that it is suitable as a gift or recognizable as your
+              own product. The result to share are so-called Gerber data (zip
+              file).
+            </p>
+            <p>
+              In the second part, an app is to be installed on the C3-Mini,
+              namely the &apos;GPIO Viewer App&apos;, which can be found on the
+              website {''}
+              <a href="https://carenuity.com/c3-mini" target="blank">
+                <u>https://carenuity.com/c3-mini</u>
+              </a>
+              {''}. There you can also find detailed instructions for removing
+              the metal frame and programming the C3-Mini for the first time.
+              Note: For running the app, it is not necessary to enter your own
+              SSID and password, as the viewer can also be used on the specified
+              address 192.168.4.1, i.e. it does not have to be integrated into
+              your home network. The password is <strong>password</strong>.
+              <br />
+              For Level 2, the Gerber data (ZIP) and a screenshot of your
+              smartphone must be sent by e-mail to{' '}
+              <strong>team@carenuity.com.</strong>
+            </p>
           </div>
-         
+
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
-             {/* eslint-disable-next-line @next/next/no-img-element */}
-             <img
-                  src="/img/content/home-challenge/level2.png"
-                  className="wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '500px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                /><br/>
-                <a
-                      href="https://www.youtube.com/watch?v=UxkOosaNohU" target="_blank"
-                      className="text-success mb-4"
-                    >
-                      <u>Revolutionize Your ESP32 Projects with Live GPIO Pin Monitoring!</u>
-                    </a>
-                
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/home-challenge/level2.png"
+              className="wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                width: '500px',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+            <br />
+            <a
+              href="https://www.youtube.com/watch?v=UxkOosaNohU"
+              target="_blank"
+              className="text-success mb-4"
+              rel="noreferrer"
+            >
+              <u>
+                Revolutionize Your ESP32 Projects with Live GPIO Pin Monitoring!
+              </u>
+            </a>
+
             {/* <iframe
               width="1300"
               height="450"
@@ -201,7 +209,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe> */}
           </div>
-          
+
           {/* <h5 className="mb-4">Related blog:</h5> */}
           <div>
             <h5>Gained Tech Competences</h5>

@@ -32,8 +32,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <h3 className=" mb-4">
             Level 6: Object Detection by an AI-assisted Edge Device
           </h3>
-          
-          
 
           <div
             className="e-card mb-4"
@@ -49,18 +47,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Train & implement AI-assisted device for object detection
                 </h5>
                 <ul style={{ listStyleType: 'square' }}>
-            <li>Use ESP32-CAM for image recognition.</li>
-            <li>Training AI models with Edge Impulse</li>
-            <li>
-              Cup or vegetable detection using ESP32-CAM, deploying machine
-              learning models on ESP32-CAM
-            </li>
-            <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
-          </ul>
-          <p>
-            Grow visibility, open a Shopify shop Start promoting your
-            AI-assisted device.
-          </p>
+                  <li>Use ESP32-CAM for image recognition.</li>
+                  <li>Training AI models with Edge Impulse</li>
+                  <li>
+                    Cup or vegetable detection using ESP32-CAM, deploying
+                    machine learning models on ESP32-CAM
+                  </li>
+                  <li>Edge computing with ESP32-CAM and Edge Impulse.</li>
+                </ul>
+                <p>
+                  Grow visibility, open a Shopify shop Start promoting your
+                  AI-assisted device.
+                </p>
                 <p>
                   This level covers data acquisition, model training, deployment
                   and AI-assisted edge computing using Edge Impulse for object
@@ -122,25 +120,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               padding: '20px',
             }}
           >
-            <tr>
-              <td
-                style={{
-                  width: '50%',
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong>Level of Difficulty:</strong> advanced / AI related
-              </td>
-              <td
-                style={{
-                  border: '1px solid #dddddd',
-                  padding: '8px',
-                }}
-              >
-                <strong> Tutor:</strong> Melina
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    width: '50%',
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong>Level of Difficulty:</strong> advanced / AI related
+                </td>
+                <td
+                  style={{
+                    border: '1px solid #dddddd',
+                    padding: '8px',
+                  }}
+                >
+                  <strong> Tutor:</strong> Melina
+                </td>
+              </tr>
+            </tbody>
           </table>
           <div className="mb-4">
             <h5>Tutorial for this level</h5>
@@ -154,7 +154,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-         
+
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
             <iframe
