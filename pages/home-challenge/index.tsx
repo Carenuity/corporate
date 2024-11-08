@@ -110,7 +110,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '530px',
+                  height: '540px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -137,7 +137,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     level, students have a practical understanding of soldering
                     and the ability to simulate sensor solutions using WOKWI
                   </p>
-                  <p className="mb-4">
+                  <p className="mb-5">
                     <strong>Reward:</strong> C3-Mini
                   </p>
 
@@ -172,7 +172,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '530px',
+                  height: '540px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -204,7 +204,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     furthermore monitor the pins of a microcontroller live on
                     their smartphone.
                   </p>
-                  <p className="mb-4">
+                  <p className="mb-5">
                     <strong>Reward:</strong> 0.66 / 0.96 OLED Display
                   </p>
 
@@ -238,7 +238,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '530px',
+                  height: '540px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -266,7 +266,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     AI, and leveraging API integrations to enhance functionality
                     of own Apps.
                   </p>
-                  <p className="mb-4">
+                  <p className="">
                     <strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor
                   </p>
 
@@ -300,7 +300,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '700px',
+                  height: '730px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -330,12 +330,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     enclosures that enhance the acceptance and aesthetics of
                     their IoT devices.
                   </p>
-                  <p className="mb-8">
+                  <p className="">
                     <strong>Reward:</strong> A 25% voucher for the
                     ChipGlobe.shop
                   </p>
 
-                  <p className="mb-4">
+                  <p style={{paddingTop:'53px'}}>
                     {!isMobile && (
                       <Link
                         href={'/home-challenge/level-4'}
@@ -366,7 +366,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card "
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '700px',
+                  height: '730px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -433,7 +433,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card "
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '700px',
+                  height: '730px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -454,19 +454,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <Link href="/home-challenge/level-6" className="text-success">
                     <h6 className="text-success">Level 6</h6>
                   </Link>
-                  <p className="mb-15">
+                  <p className="mb-18">
                     This level covers data acquisition, model training,
                     deployment and AI-assisted edge computing using Edge Impulse
                     for object detection. Students will learn to describe,
                     promote and optionally market their AI-assisted device on a
                     sharing platform.
                   </p>
-                  <p className="mb-4">
+                  <p className="">
                     <strong>Reward:</strong> Own website, free stocking & sales
                     of 5 devices, incl. fulfillment, getting 100% sales profit.
                   </p>
 
-                  <p>
+                  <p style={{ paddingTop: '35px' }}>
                     {!isMobile && (
                       <Link
                         href={'/home-challenge/level-6'}
