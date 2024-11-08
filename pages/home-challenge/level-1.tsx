@@ -74,6 +74,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
+         
 
           <div className="mb-4">
             <h5>Summary for this Level</h5>
@@ -139,7 +140,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
-         
+          <div>
+            <h5>Deliverables for achieving Level 1</h5>
+            <p>To accomplish Level 1, two parts have to be mastered: Firstly, soldering the triple adapter
+               as described in the video and secondly, adding another line to our WOKWI repository with the
+                link (URL) to your own WOKWI project, which should be as remarkable as possible. You add it
+                 by means of a Github commit on {''}
+                 <a
+                 href='https://github.com/Carenuity/WOKWI' target='blank'>
+                  <u>https://github.com/Carenuity/WOKWI</u>
+                 </a>
+                 {''}
+                 . Both the photo and the
+                  copy of the added line (URL) from your own WOKWI repository should then be sent by email
+                   to <strong>team@carenuity.com.</strong></p>
+          </div>
 
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>

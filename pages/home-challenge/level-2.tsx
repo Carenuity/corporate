@@ -134,6 +134,40 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               allowFullScreen
             ></iframe>
           </div>
+          <div>
+            <h5>Deliverables for achieving Level 2</h5>
+            <p> To achieve Level 2, two tasks must also be mastered: Firstly, the silkscreen of a PCB 
+              design must be modified as described in the video. PCB design data is available for this
+               in the repository {''}
+                 <a
+                 href='https://github.com/Carenuity/KiCAD-PCB' target='blank'>
+                  <u>https://github.com/Carenuity/KiCAD-PCB</u>
+                 </a>
+                 {''}
+                . Another PCB can also be modified.
+                Your own logo should be placed so that it is suitable as a gift or recognizable as your own
+                 product. The result to share are so-called Gerber data (zip file). 
+              
+                 </p>
+                  <p>
+                  In the second part, an app is to be installed on the C3-Mini, namely the 'GPIO Viewer App', 
+                  which can be found on the website {''}
+                 <a
+                 href='https://carenuity.com/c3-mini' target='blank'>
+                  <u>https://carenuity.com/c3-mini</u>
+                 </a>
+                 {''}
+                  
+                   . There you can also find 
+                  detailed instructions for removing the metal frame and programming the C3-Mini for the first
+                   time. Note: For running the app, it is not necessary to enter your own SSID and password, 
+                   as the viewer can also be used on the specified address 192.168.4.1, i.e. it does not have
+                    to be integrated into your home network. The password is <strong>password</strong>.<br/>
+                  For Level 2, the Gerber data (ZIP) and a screenshot of your smartphone must be sent by 
+                  e-mail to  <strong>team@carenuity.com.</strong></p>
+                     
+                 
+          </div>
          
           <div className="mb-4">
             <h5>Motivational or Reference Video</h5>
