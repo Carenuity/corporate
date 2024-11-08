@@ -110,7 +110,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '540px',
+                  height: '530px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -137,7 +137,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     level, students have a practical understanding of soldering
                     and the ability to simulate sensor solutions using WOKWI
                   </p>
-                  <p className="mb-5">
+                  <p className="">
                     <strong>Reward:</strong> C3-Mini
                   </p>
 
@@ -172,7 +172,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '540px',
+                  height: '530px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -204,7 +204,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     furthermore monitor the pins of a microcontroller live on
                     their smartphone.
                   </p>
-                  <p className="mb-5">
+                  <p className="">
                     <strong>Reward:</strong> 0.66 / 0.96 OLED Display
                   </p>
 
@@ -238,7 +238,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '540px',
+                  height: '530px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -454,19 +454,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <Link href="/home-challenge/level-6" className="text-success">
                     <h6 className="text-success">Level 6</h6>
                   </Link>
-                  <p className="mb-18">
+                  <p className="">
                     This level covers data acquisition, model training,
                     deployment and AI-assisted edge computing using Edge Impulse
                     for object detection. Students will learn to describe,
                     promote and optionally market their AI-assisted device on a
                     sharing platform.
                   </p>
-                  <p className="">
+                  <p style={{ paddingTop: '110px' }}>
                     <strong>Reward:</strong> Own website, free stocking & sales
                     of 5 devices, incl. fulfillment, getting 100% sales profit.
                   </p>
 
-                  <p style={{ paddingTop: '35px' }}>
+                  <p style={{ paddingTop: '25px' }}>
                     {!isMobile && (
                       <Link
                         href={'/home-challenge/level-6'}
