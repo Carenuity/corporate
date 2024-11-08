@@ -34,7 +34,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-thws/press1.PNG"
+                src="/img/content/press-materials-for-thws/press1.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -50,7 +50,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-thws/press2.PNG"
+                src="/img/content/press-materials-for-thws/press2.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -66,7 +66,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-lg-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/press-materials-for-thws/code.PNG"
+                src="/img/content/press-materials-for-thws/code.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
