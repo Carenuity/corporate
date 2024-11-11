@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Translatable from '../components/Translatable';
 
 export const SqPanel = () => {
-  const pageTitle = 'SQ Panel';
+  const pageTitle = 'SQ-Panel';
   const { state } = useContext(LanguageSwitchContext);
   const bannerImage = '/img/content/SQ-Panel-sideview.webp';
 
@@ -83,7 +83,7 @@ export const SqPanel = () => {
           <p>
             {state === 'en' && (
               <>
-                SQ panel for the indoor air quality display, attached to the SQ
+                SQ-Panel for the indoor air quality display, attached to the SQ
                 table stand. Alternatively, we recommend cable-free wall
                 mounting.
               </>
@@ -118,7 +118,7 @@ export const SqPanel = () => {
           <p>
             {state === 'en' && (
               <>
-                The SQ panel is a display with built-in environmental sensors to
+                The SQ-Panel is a display with built-in environmental sensors to
                 show air quality and human presence to keep you feeling
                 comfortable and protected. If necessary, it warns you if
                 something is wrong.
@@ -140,11 +140,11 @@ export const SqPanel = () => {
           <p>
             {state === 'en' && (
               <>
-                The starter set of the SQ panel consists of the display with
+                The starter set of the SQ-Panel consists of the display with
                 built-in sensors for measuring air quality and presence, a
                 connector for a higher range that is mesh-capable and is
-                connected to the Internet (e.g. Fritz Box) and an app (Apple or
-                Android ) to put the SQ panel into operation so that you can
+                connected to the Internet (e.g. Fritz-Box) and an app (Apple or
+                Android ) to put the SQ-Panel into operation so that you can
                 monitor the sensor values and define their threshold values.
               </>
             )}
@@ -218,7 +218,7 @@ export const SqPanel = () => {
                 the current room temperature, air pressure, CO2 content, air
                 quality index, relative humidity and organic compounds (tVOC) in
                 the indoor air and displaying them on the display. You can
-                operate as many SQ panels as you like on one connector and
+                operate as many SQ-Panels as you like on one connector and
                 manage them with the app. One connector is required per
                 apartment.
               </>
@@ -254,7 +254,7 @@ export const SqPanel = () => {
               <>
                 These tiles can change color to red or blue and start flashing
                 when preset thresholds are exceeded or not reached. You can see
-                the SQ panel in operation in the video.
+                the SQ-Panel in operation in the video.
                 <br />
                 With your help, the harmful particles PM1, PM2.5 and PM10 could
                 soon also monitor your ambient air for the benefit of your
@@ -518,7 +518,7 @@ export const SqPanel = () => {
               {state === 'en' && (
                 <>
                   A current 60GHz radar sensor (mmWave) is already integrated in
-                  the SQ panel, which will allow further features to be
+                  the SQ-Panel, which will allow further features to be
                   activated on the SQ panel. This allows us to enable various
                   functions for your smart home that improve energy efficiency
                   as well as security and comfort. Here are some features that
@@ -657,7 +657,7 @@ export const SqPanel = () => {
                 <>
                   Our <strong>AI competence team</strong> is constantly
                   developing concepts to recognize recurring patterns from the
-                  wealth of different measurement data from the SQ panel. These
+                  wealth of different measurement data from the SQ-Panel. These
                   patterns represent relevant life situations that can further
                   improve the comfort of the smart home at home or in the
                   office.
@@ -678,7 +678,7 @@ export const SqPanel = () => {
             {state === 'en' && (
               <>
                 What can the app do and why do I need the app if the Smart Home
-                Standard Matter is supported by the SQ panel?
+                Standard Matter is supported by the SQ-Panel?
               </>
             )}
             {state === 'de' && (
@@ -693,7 +693,7 @@ export const SqPanel = () => {
               {state === 'en' && (
                 <>
                   You use the Carenuity app, which is available for Apple and
-                  Android, to put the SQ panel and connector into operation.
+                  Android, to put the SQ-Panel and connector into operation.
                   This is done very easily using a QR code that is shown
                   directly on the display. The app also allows you to monitor
                   the sensor values over time in a particularly suitable way.
@@ -733,7 +733,7 @@ export const SqPanel = () => {
               {state === 'en' && (
                 <>
                   Using the app after the initial setup is then optional. With
-                  the integration into Matter, you can use the SQ Panel
+                  the integration into Matter, you can use the SQ-Panel
                   exclusively in your preferred ecosystem (multi-admin mode) and
                   rely on these well-known standard apps:
                   <strong>
@@ -3415,13 +3415,13 @@ export const SqPanel = () => {
               </div>
             </div>
             <div>
-              <h4>SQ-Panel-Plus</h4>
+              <h4>SQ-Panel Kickstarter - November 2024</h4>
               <p>
-                We are preparing a major upgrade for the SQ-Panel following the
+                We have a major upgrade for the SQ-Panel following the
                 proposals from our community. To get early news, insights and
                 potentially get a free Eval-Kit for early bird testing of new
                 features, pls subscribe{' '}
-                <Link href="/sq-panel-plus" className="text-success">
+                <Link href="/sq-panel-kickstarter" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.
