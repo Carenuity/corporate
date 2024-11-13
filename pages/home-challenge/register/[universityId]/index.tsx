@@ -92,7 +92,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             <h2 className="mb-1" style={{ textAlign: 'center' }}>
               Subscribe here!
             </h2>
-            <p  style={{ textAlign: 'center' }}><strong>Note:</strong> Please check your spam folder</p>
+            <p  style={{ textAlign: 'center' }}><strong>Note:</strong> Please check your spam folder for the subscription email</p>
             <UniversitySubscriptionWidget universityId={universityId} />
             
           </div>
