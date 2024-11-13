@@ -77,22 +77,24 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            {/* <h5 className=" mb-3">Home Challenge Regitration for {universityId} </h5> */}
+            
             <div className="mb-6" style={{ textAlign: 'center' }}>
-              <h1 className="mb-3 mt-4">
+              <h2 className="mb-3 mt-4">
                 Are you a {getUniversityName({ universityId })} student?
                 <br />
-              </h1>
-              <h4>
+              </h2>
+              <h5>
                 Showcase your talent and grow your skills by subscribing <br />
                 to {getUniversityName({ universityId })} home challenge.
-              </h4>
+              </h5>
             </div>
 
-            <h1 className="mb-6" style={{ textAlign: 'center' }}>
+            <h2 className="mb-1" style={{ textAlign: 'center' }}>
               Subscribe here!
-            </h1>
+            </h2>
+            <p  style={{ textAlign: 'center' }}><strong>Note:</strong> Please check your spam folder</p>
             <UniversitySubscriptionWidget universityId={universityId} />
+            
           </div>
         </div>
       </section>

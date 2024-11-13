@@ -332,13 +332,7 @@ export default function Home({
                   <Link
                     href={'/sq-panel'}
                     className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                   
                   >
                     <span className="small">
                       {state === 'en' && <>Learn More</>}{' '}
@@ -601,7 +595,7 @@ export default function Home({
             </>
           )}
         </div>
-        <div className="col-lg-12 mt-n1-9 mb-2">
+        <div className="col-lg-12 mt-n1-9 mb-4">
           <video
             src="/videos/content/sq-panel2.mp4"
             loop={true}
@@ -617,6 +611,34 @@ export default function Home({
             }}
           />
         </div>
+        <p style={{textAlign:'center'}}>
+                {!isMobile && (
+                  <Link
+                    href={'/sq-panel'}
+                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                   
+                  >
+                    <span className="small">
+                      {state === 'en' && <>Learn More</>}{' '}
+                      {state === 'de' && <> Mehr erfahren</>}{' '}
+                    </span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/sq-panel'}
+                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    
+                  >
+                    <span className="small">
+                      {state === 'en' && <>Learn More</>}{' '}
+                      {state === 'de' && <> Mehr erfahren</>}{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
       </section>
 
       {/* <section
