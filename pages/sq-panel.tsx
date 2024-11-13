@@ -83,8 +83,8 @@ export const SqPanel = () => {
           <p>
             {state === 'en' && (
               <>
-                SQ-Panel for the indoor air quality display, attached to the SQ
-                table stand. Alternatively, we recommend cable-free wall
+                SQ-Panel for the indoor air quality display, attached to the 
+                SQ-TableStand. Alternatively, we recommend cable-free wall
                 mounting.
               </>
             )}
@@ -112,7 +112,7 @@ export const SqPanel = () => {
           </div>
 
           <h4>
-            {state === 'en' && <>What is the SQ panel exactly?</>}
+            {state === 'en' && <>What is the SQ-Panel exactly?</>}
             {state === 'de' && <>Was ist das SQ-Panel genau?</>}
           </h4>
           <p>
@@ -517,9 +517,9 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  A current 60GHz radar sensor (mmWave) is already integrated in
+                  A current 60 GHz radar sensor (mmWave) is already integrated in
                   the SQ-Panel, which will allow further features to be
-                  activated on the SQ panel. This allows us to enable various
+                  activated on the SQ-Panel. This allows us to enable various
                   functions for your smart home that improve energy efficiency
                   as well as security and comfort. Here are some features that
                   will be implemented once the funding goal is reached:
@@ -638,7 +638,7 @@ export const SqPanel = () => {
                   <strong>Your participation is desired:</strong> Join our
                   community via our website to be directly involved in defining
                   and prioritizing these features. Your voice and suggestions
-                  will help us to make the SQ panel the central building block
+                  will help us to make the SQ-Panel the central building block
                   for every room monitoring.
                 </>
               )}
@@ -775,7 +775,7 @@ export const SqPanel = () => {
                 <>
                   The tiles change color as soon as values become critical.
                   Using the colors of a traffic light, for example, this tile
-                  changes to red when the CO2 concentration is high.
+                  changes to red when the CO2 level is high.
                 </>
               )}
               {state === 'de' && (
@@ -896,7 +896,7 @@ export const SqPanel = () => {
           </div>
           <div className="mb-4">
             <h4>
-              {state === 'en' && <>Can I place the SQ panel anywhere?</>}
+              {state === 'en' && <>Can I place the SQ-Panel anywhere?</>}
               {state === 'de' && <>Kann ich das SQ-Panel überall platzieren?</>}
             </h4>
             <p>
@@ -904,8 +904,8 @@ export const SqPanel = () => {
                 <>
                   On our website we offer you detailed information on what
                   considerations you should make in order to identify the
-                  optimal location for the SQ panel. <br />
-                  Using the SQ panel as a tabletop device or wall-mounted offers
+                  optimal location for the SQ-Panel. <br />
+                  Using the SQ-Panel as a tabletop device or wall-mounted offers
                   its own advantages:
                 </>
               )}
@@ -983,7 +983,7 @@ export const SqPanel = () => {
               {state === 'en' && (
                 <>
                   Wall mounting with SQ-Power in the flush-mounted installation,
-                  which supplies the SQ panel with 220V:
+                  which supplies the SQ-Panel with 220V:
                 </>
               )}
               {state === 'de' && (
@@ -1007,7 +1007,7 @@ export const SqPanel = () => {
               <li>
                 {state === 'en' && (
                   <>
-                    <strong>Space-saving: </strong> The SQ panel does not take
+                    <strong>Space-saving: </strong> The SQ-Panel does not take
                     up valuable space on work surfaces or shelves such as
                     tables, dressers or shelves.
                   </>
@@ -1042,7 +1042,7 @@ export const SqPanel = () => {
                   <>
                     <strong>Safety:</strong> Reduced risk of the device being
                     knocked over or moved. Accuracy and comparability of
-                    measurement results. Ensuring that the SQ panel is not
+                    measurement results. Ensuring that the SQ-Panel is not
                     accidentally or intentionally switched off, thereby
                     deactivating safety functions.
                   </>
@@ -1084,7 +1084,7 @@ export const SqPanel = () => {
                   depends on your specific requirements and preferences. We
                   recommend wall mounting for permanent installation and table
                   stand (docking station) for the initial phase of familiarizing
-                  yourself with the SQ panel.
+                  yourself with the SQ-Panel.
                 </>
               )}
               {state === 'de' && (
@@ -1286,7 +1286,7 @@ export const SqPanel = () => {
                     padding: '8px',
                   }}
                 >
-                  {state === 'en' && <>60 GHz Radar Sensor </>}
+                  {state === 'en' && <>60-GHz Radar Sensor </>}
                   {state === 'de' && <>60-GHz-Radarsensor</>}
                 </td>
                 <td
@@ -1295,7 +1295,7 @@ export const SqPanel = () => {
                     padding: '8px',
                   }}
                 >
-                  {state === 'en' && <> 60 GHz Radar Sensor</>}
+                  {state === 'en' && <> 60-GHz Radar Sensor</>}
                   {state === 'de' && <>60-GHz-Radarsensor</>}
                 </td>
               </tr>
@@ -1776,7 +1776,7 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  The SQ panel meets the highest security requirements and has
+                  The SQ-Panel meets the highest security requirements and has
                   end-to-end encryption. A special security chip (HW-Security)
                   contains our certificate, which ensures a continuous secure
                   connection of the sensor data to our servers. We are a
@@ -1954,7 +1954,7 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  The SQ panel integrates perfectly into the JUNG design switch
+                  The SQ-Panel integrates perfectly into the JUNG design switch
                   system, allowing you to control your household appliances in a
                   proven location near the door next to classic JUNG switches,
                   possibly in a multiple frame (two, three, four frames), and
@@ -2045,7 +2045,7 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  So that you can also control other devices with the SQ panel
+                  So that you can also control other devices with the SQ-Panel
                   in the future, the device is equipped with a touch screen and
                   gesture recognition, so that you can see and control the
                   devices you like to use as an alternative to the room
@@ -2069,25 +2069,25 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  With the SQ panel, which integrates perfectly with every app
+                  With the SQ-Panel, which integrates perfectly with every app
                   of the Matter standard, your smart home experience is
                   significantly optimized. Control over your household
                   appliances is expanded to include automatic situation
                   recognition thanks to radar. In addition to direct control on
-                  the SQ panel or in the house, you can also provide aspects of
+                  the SQ-Panel or in the house, you can also provide aspects of
                   security and care for family members in your smart home
                   remotely via the app and be alerted in critical situations.
                   <br />
-                  With the SQ panel, your devices can remain in energy-saving
+                  With the SQ-Panel, your devices can remain in energy-saving
                   mode when you are away and automatically switch to standby
-                  when you are there. This helps save money. The SQ Panel will
+                  when you are there. This helps save money. The SQ-Panel will
                   also help you monitor your regular household appliances via
                   the display, automate them with gesture or simple voice
                   control via Alexa, Google, Home Assistant or Siri, making your
                   home smarter and more comfortable.
                   <br />
                   With powerful built-in sensors and the Thread connection to
-                  Matter, the SQ Panel not only enables comprehensive automation
+                  Matter, the SQ-Panel not only enables comprehensive automation
                   control, but also more information about your environment,
                   including weather, outside temperature, inside temperature,
                   device status, alarm indicator, time and date.
@@ -2285,17 +2285,17 @@ export const SqPanel = () => {
                 <>
                   ChipGlobe GmbH, the parent company of Carenuity, is very well
                   equipped to ensure high-quality and consistent production of
-                  the SQ panel. We have a mature infrastructure for the
-                  operation and updates of the SQ panels (OTA updates), have
+                  the SQ-Panel. We have a mature infrastructure for the
+                  operation and updates of the SQ-Panels (OTA updates), have
                   production-ready prototypes and have thus already carried out
                   a field test of this small series (prototypes). We now need
-                  your support to start production of the SQ panel series
+                  your support to start production of the SQ-Panel series
                   production. We are ready to fulfill all order quantities.
                   Should there be any delays in delivery, we will do our best to
                   find a solution for you. You can also rest assured that we
                   will keep you regularly informed about the status of things.
                   We are prepared for the requirements of order processing and
-                  plan to deliver by November 2024.
+                  plan to deliver by July 2025.
                 </>
               )}
               {state === 'de' && (
@@ -2313,8 +2313,8 @@ export const SqPanel = () => {
                   Bestes tun, um eine Lösung für Sie zu finden. Sie können sich
                   auch darauf verlassen, dass wir Sie regelmäßig über den Stand
                   der Dinge informieren werden. Wir sind auf die Anforderungen
-                  der Auftragsabwicklung vorbereitet und planen bis November
-                  2024 zu liefern.
+                  der Auftragsabwicklung vorbereitet und planen bis Juli
+                  2025 zu liefern.
                 </>
               )}
             </p>
