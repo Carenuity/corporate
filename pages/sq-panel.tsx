@@ -37,7 +37,7 @@ export const SqPanel = () => {
       <Head>
         <meta
           name="keywords"
-          content="Carenuity ChipGlobe Electronics Embedded Systems"
+          content="Carenuity ChipGlobe Electronics Embedded Systems SQ-Panel C3-Mini Solution Builder"
         />
         <meta
           name="description"
@@ -1105,7 +1105,7 @@ export const SqPanel = () => {
             {state === 'de' && <></>}
             <h4>
               {state === 'en' && <>Technical Details </>}
-              {state === 'de' && <>Technische Details</>}Technical Details
+              {state === 'de' && <>Technische Details</>}
             </h4>
             <table
               style={{
