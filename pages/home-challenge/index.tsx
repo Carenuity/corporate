@@ -335,7 +335,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     ChipGlobe.shop
                   </p>
 
-                  <p style={{paddingTop:'53px'}}>
+                  <p style={{ paddingTop: '53px' }}>
                     {!isMobile && (
                       <Link
                         href={'/home-challenge/level-4'}
