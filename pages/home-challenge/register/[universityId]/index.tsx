@@ -77,7 +77,6 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            
             <div className="mb-6" style={{ textAlign: 'center' }}>
               <h2 className="mb-3 mt-4">
                 Are you a {getUniversityName({ universityId })} student?
@@ -92,9 +91,11 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             <h2 className="mb-1" style={{ textAlign: 'center' }}>
               Subscribe here!
             </h2>
-            <p  style={{ textAlign: 'center' }}><strong>Note:</strong> Please check your spam folder for the subscription email</p>
+            <p style={{ textAlign: 'center' }}>
+              <strong>Note:</strong> Please check your spam folder for the
+              subscription email
+            </p>
             <UniversitySubscriptionWidget universityId={universityId} />
-            
           </div>
         </div>
       </section>

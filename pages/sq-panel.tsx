@@ -83,7 +83,7 @@ export const SqPanel = () => {
           <p>
             {state === 'en' && (
               <>
-                SQ-Panel for the indoor air quality display, attached to the 
+                SQ-Panel for the indoor air quality display, attached to the
                 SQ-TableStand. Alternatively, we recommend cable-free wall
                 mounting.
               </>
@@ -517,8 +517,8 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  A current 60 GHz radar sensor (mmWave) is already integrated in
-                  the SQ-Panel, which will allow further features to be
+                  A current 60 GHz radar sensor (mmWave) is already integrated
+                  in the SQ-Panel, which will allow further features to be
                   activated on the SQ-Panel. This allows us to enable various
                   functions for your smart home that improve energy efficiency
                   as well as security and comfort. Here are some features that
@@ -2313,8 +2313,8 @@ export const SqPanel = () => {
                   Bestes tun, um eine Lösung für Sie zu finden. Sie können sich
                   auch darauf verlassen, dass wir Sie regelmäßig über den Stand
                   der Dinge informieren werden. Wir sind auf die Anforderungen
-                  der Auftragsabwicklung vorbereitet und planen bis Juli
-                  2025 zu liefern.
+                  der Auftragsabwicklung vorbereitet und planen bis Juli 2025 zu
+                  liefern.
                 </>
               )}
             </p>
@@ -3417,10 +3417,10 @@ export const SqPanel = () => {
             <div>
               <h4>SQ-Panel Kickstarter - November 2024</h4>
               <p>
-                We have a major upgrade for the SQ-Panel following the
-                proposals from our community. To get early news, insights and
-                potentially get a free Eval-Kit for early bird testing of new
-                features, pls subscribe{' '}
+                We have a major upgrade for the SQ-Panel following the proposals
+                from our community. To get early news, insights and potentially
+                get a free Eval-Kit for early bird testing of new features, pls
+                subscribe{' '}
                 <Link href="/sq-panel-kickstarter" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
