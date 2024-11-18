@@ -25,7 +25,7 @@ export default function Home({
       jarallaxVideo();
       jarallax(document.querySelectorAll('.primaryCallToAction'), {
         speed: 0.2,
-        videoSrc: 'https://youtu.be/H8q8TKi6OZQ', // 'https://www.youtube.com/watch?v=i3pwQ2BWTO8',
+        videoSrc: 'https://youtu.be/AKU9gWlLrDY', //  'https://youtu.be/H8q8TKi6OZQ', 'https://www.youtube.com/watch?v=i3pwQ2BWTO8',
       });
 
       jarallax(document.querySelectorAll('.secondaryCallToAction'), {
