@@ -105,7 +105,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             </h2>
             <p style={{ textAlign: 'center' }}>
               <strong>Note:</strong> Please check your spam folder for the
-              subscription email
+              subscription email should it be flagged as spam.
             </p>
             <UniversitySubscriptionWidget universityId={universityId} />
           </div>
