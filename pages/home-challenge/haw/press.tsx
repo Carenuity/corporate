@@ -1,9 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 import PageTitle from '../../../components/PageTitle';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Page = () => {
   const pageTitle = 'Press Materials';
   return (
     <>
@@ -62,14 +61,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            
+
             {/* <div
               className="col-lg-3 "
               style={{
                 paddingTop: '300px',
               }} */}
             {/* > */}
-              {/* <p>
+            {/* <p>
                 {!isMobile && (
                   <Link
                     href={'/home-challenge/thws'}
@@ -79,7 +78,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </Link>
                 )} */}
 
-                {/* {isMobile && (
+            {/* {isMobile && (
                   <a
                     href={'/home-challenge/thws'}
                     className={'btn btn-lg btn-success rounded-pill'}
@@ -87,7 +86,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <span className="small">
                       Back to startpage{' '}
                       <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                    {/* </span>
+            {/* </span>
                   </a>
                 )}
               </p> */}

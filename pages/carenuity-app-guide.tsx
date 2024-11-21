@@ -30,8 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            
-            <div >
+            <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/user-guide/intro.png"
@@ -46,7 +45,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div >
+            <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/user-guide/goal.png"
@@ -61,7 +60,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div className='mb-4'>
+            <div className="mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/user-guide/guide.png"
@@ -76,7 +75,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div className='mb-4' >
+            <div className="mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/user-guide/ux.png"
@@ -91,7 +90,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div className='mb-4'>
+            <div className="mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/user-guide/ux2.png"
@@ -106,29 +105,31 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <p style={{textAlign:"center"}}>
-                {!isMobile && (
-                  <Link
-                    href='https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de' target="_blank"
-                    className={'btn btn-lg btn-success rounded-pill'}
-                  >
-                    <span className="small">Download the app</span>
-                  </Link>
-                )}
+            <p style={{ textAlign: 'center' }}>
+              {!isMobile && (
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de"
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                >
+                  <span className="small">Download the app</span>
+                </Link>
+              )}
 
-                {isMobile && (
-                  <a
-                    href='https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de' target="_blank"
-                    className={'btn btn-lg btn-success rounded-pill'}
-                  >
-                    <span className="small">
-                      Download the app{' '}
-                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                    </span>
-                  </a>
-                )}
-              </p>
-           
+              {isMobile && (
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de"
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  rel="noreferrer"
+                >
+                  <span className="small">
+                    Download the app{' '}
+                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                  </span>
+                </a>
+              )}
+            </p>
           </div>
         </div>
       </section>

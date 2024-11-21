@@ -26,8 +26,6 @@ const Page = () => {
         pageUrl=""
       />
 
-  
-
       <section className="pt-4">
         <div className="container">
           <iframe
