@@ -787,7 +787,7 @@ const Index = () => {
           }}
         />
 
-        <h2 className="mb-2 mt-5 h3">EcoSystems</h2>
+        <h2 className="mb-2 mt-5 h3">Supported EcoSystems</h2>
         <Image
           src={ecosystemsImage}
           width={1029}
