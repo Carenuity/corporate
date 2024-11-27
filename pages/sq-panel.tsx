@@ -1172,10 +1172,10 @@ export const SqPanel = () => {
                   }}
                 >
                   {state === 'en' && (
-                    <> 15W (direct connection with 220-240V AC Transformer)</>
+                    <>  (direct connection with 220-240V AC Transformer) max 5W 120-240AC 50/60Hz</>
                   )}
                   {state === 'de' && (
-                    <>15W (direkter Anschluss mit 220-240V AC Transformator)</>
+                    <> (direkter Anschluss mit 220-240V AC Transformator) max 5W 120-240AC 50/60Hz</>
                   )}
                 </td>
               </tr>
@@ -1195,11 +1195,11 @@ export const SqPanel = () => {
                     padding: '8px',
                   }}
                 >
-                  {state === 'en' && <> 900 lumens</>}
-                  {state === 'de' && <>900 Lumen</>}
+                  {state === 'en' && <> 200 lumen/meter<sup>2</sup>/steradian</>}
+                  {state === 'de' && <>200 lumen/meter<sup>2</sup>/steradian</>}
                 </td>
               </tr>
-              <tr style={{ background: '#eeeeee' }}>
+              {/* <tr style={{ background: '#eeeeee' }}>
                 <td
                   style={{
                     border: '1px solid #dddddd',
@@ -1258,7 +1258,7 @@ export const SqPanel = () => {
                   {state === 'en' && <>SMD (Surface-Mounted Diode) </>}
                   {state === 'de' && <>SMD (Oberflächenmontierte Diode)</>}
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td
                   style={{
@@ -1316,10 +1316,10 @@ export const SqPanel = () => {
                   }}
                 >
                   {state === 'en' && (
-                    <>90° Horizontal Plane Beamwidth (HPBW) </>
+                    <>90° Horizontal Plane Beamwidth (HPBW) -+45<sup>o</sup> Azimuth & +40<sup>o</sup> Elevation FoV </>
                   )}
                   {state === 'de' && (
-                    <>90° horizontale ebene Strahlbreite (HPBW)</>
+                    <>90° horizontale ebene Strahlbreite (HPBW) -+45<sup>o</sup> Azimuth & +40<sup>o</sup> Elevation FoV</>
                   )}
                 </td>
               </tr>
@@ -1378,7 +1378,7 @@ export const SqPanel = () => {
                   )}
                 </td>
               </tr>
-              <tr style={{ background: '#eeeeee' }}>
+              {/* <tr style={{ background: '#eeeeee' }}>
                 <td
                   style={{
                     border: '1px solid #dddddd',
@@ -1397,7 +1397,7 @@ export const SqPanel = () => {
                   {state === 'en' && <>200 mA </>}
                   {state === 'de' && <>200 mA</>}
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td
                   style={{
@@ -1609,7 +1609,7 @@ export const SqPanel = () => {
                   )}
                 </td>
               </tr>
-              <tr style={{ background: '#eeeeee' }}>
+              {/* <tr style={{ background: '#eeeeee' }}>
                 <td
                   style={{
                     border: '1px solid #dddddd',
@@ -1640,7 +1640,7 @@ export const SqPanel = () => {
                     </>
                   )}
                 </td>
-              </tr>
+              </tr> */}
             </table>
           </div>
 
