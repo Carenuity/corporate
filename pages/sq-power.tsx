@@ -210,11 +210,11 @@ const Page = () => {
           <div className=" mb-2">
             <h5>How does Sq-Power work? </h5>
             <p>
-              You flash mount your Sq-power on the wall instead of nailing the
-              Sq-panel table stand to the wall.
+              You flash mount your SQ-Power on the wall instead of nailing the
+              SQ-Panel table stand to the wall.
             </p>
             <p>
-              On the left side of the video is the sq-panel. The black clip on
+              On the left side of the video is the SQ-Panel. The black clip on
               the sq-panel helps to clip the sq-power inside the wall.
             </p>
           </div>
@@ -272,7 +272,7 @@ const Page = () => {
           </div>
 
           <div className="row">
-            <h5>Sq-Power (Tecnical Drawings)</h5>
+            <h5>SQ-Power (Tecnical Drawings)</h5>
             <br />
             <div className="col-lg-6 ">
               {/* eslint-disable-next-line @next/next/no-img-element */}
