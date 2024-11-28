@@ -67,11 +67,11 @@ const Page = () => {
 
             <h4>Competencies Demonstrated:</h4>
             <ul style={{ listStyleType: 'square',textAlign:"left" }}>
-                  <li>Comprehensive understanding of IoT communication protocols</li>
-                  <li>Proficiency in designing and implementing IoT solutions</li>
-                  <li>Ability to collect and analyze data from IoT devices</li>
-                  <li>Knowledge of best practices in IoT security</li>
-                  <li>Application of AI techniques in IoT systems</li>
+                  <li>Comprehensive understanding of IoT product development and deployment</li>
+                  <li>Proficiency in designing and implementing large scale IoT solutions</li>
+                  <li>Ability to collect and analyze data from IoT devices for ML/AI</li>
+                  <li>Knowledge of best practices in IoT security from server to edge devices</li>
+                  <li>Application of AI techniques in IoT systems & cloud</li>
                   <li>Integration of AI algorithms for data processing and decision-making</li>
                   
                 </ul>
@@ -79,8 +79,9 @@ const Page = () => {
             the Carenuity Home Challenge.</p>
             <hr style={{border: '1px solid #198754',}}/>
             <i>
-            ChipGlobe, with over 15 years of experience as a trusted provider of talent, proudly 
+            ChipGlobe, with over 15 years of experience as trusted provider of talent, proudly 
             acknowledges the dedication and expertise demonstrated by the participants in this challenge.
+            Note: This certificate becomes a non-fungeable token on Blockchain (NFT).  
             </i>
          </div>
          </div>
