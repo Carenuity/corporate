@@ -75,8 +75,8 @@ const Page = () => {
                   <li>Integration of AI algorithms for data processing and decision-making</li>
                   
                 </ul>
-            <p>This certificate is an informal recognition of the competencies gained through
-            the Carenuity Home Challenge.</p>
+            <p>This certificate is an informal recognition of the competencies gained through</p>
+            <p>the Carenuity Home Challenge.</p>
             <hr style={{border: '1px solid #198754',}}/>
             <i>
             ChipGlobe, with over 15 years of experience as trusted provider of talent, proudly 
