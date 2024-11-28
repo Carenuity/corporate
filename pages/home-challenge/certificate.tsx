@@ -81,7 +81,7 @@ const Page = () => {
             <i>
             ChipGlobe, with over 15 years of experience as trusted provider of talent, proudly 
             acknowledges the dedication and expertise demonstrated by the participants in this challenge.
-            Note: This certificate becomes a non-fungeable token on Blockchain (NFT).  
+            <p>Note: This certificate becomes a non-fungeable token on Blockchain (NFT).</p>  
             </i>
          </div>
          </div>
