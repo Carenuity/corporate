@@ -3,7 +3,7 @@ import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 
 const Page = () => {
-  const pageTitle = 'SQ Power';
+  const pageTitle = 'SQ-Power';
   return (
     <>
       <Head>
