@@ -4,7 +4,7 @@ import Link from 'next/link';
 import PageTitle from '../components/PageTitle';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'Carenuity app user guide';
+  const pageTitle = 'Carenuity Smartphone App';
   return (
     <>
       <Head>
