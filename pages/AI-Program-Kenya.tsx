@@ -49,7 +49,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="section-title mb-1-9">
                   <span className="sm-title">Kenya</span>
                   <h2 className="mb-0 h3">
-                    We are hiring AI experts and interns from selected
+                    We are hiring AI-Experts and Interns from selected
                     universities at our Kenya subsidiary.
                   </h2>
                 </div>
