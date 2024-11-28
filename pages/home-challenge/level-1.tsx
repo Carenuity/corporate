@@ -54,7 +54,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   This level focuses on understanding electronic connections,
                   building a foundation in hardware skills. By the end of this
                   level, students have a practical understanding of soldering
-                  and the ability to simulate sensor solutions using WOKWI
+                  and the ability to simulate sensor solutions using WOKWI.
                 </p>
               </div>
               <div className="col-lg-3">
