@@ -517,7 +517,7 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  A current 60 GHz radar sensor (mmWave) is already integrated
+                  A latest 60 GHz radar sensor (mmWave) is integrated
                   in the SQ-Panel, which will allow further features to be
                   activated on the SQ-Panel. This allows us to enable various
                   functions for your smart home that improve energy efficiency
@@ -528,7 +528,7 @@ export const SqPanel = () => {
               {state === 'de' && (
                 <>
                   Im SQ-Panel ist ein aktueller 60GHz Radarsensor (mmWave)
-                  bereits integriert, der es erlauben wird, weitere Features auf
+                  integriert, der es erlauben wird, weitere Features auf
                   dem SQ-Panel freizuschalten. So können wir für Ihr Smart Home
                   verschiedene Funktionen ermöglichen, die sowohl die
                   Energieeffizienz als auch die Sicherheit und den Komfort
@@ -829,7 +829,7 @@ export const SqPanel = () => {
               {state === 'en' && (
                 <>
                   Detailed instructions and explanatory videos are available for
-                  commissioning. You can view and download these on our website.
+                  commissioning. You can view or download these on our channels.
                   <br />
                   <strong>Note:</strong> The parts in red, Fritzbox and cable,
                   are not included in the starter kit.
@@ -837,9 +837,9 @@ export const SqPanel = () => {
               )}
               {state === 'de' && (
                 <>
-                  Zur Inbetriebnahme stehen ihnen ausführliche Anleitungen und
-                  Erklärvideos zur Verfügung. Diese können Sie auf unserer
-                  Website anschauen und herunterladen. <br />
+                  Zur Inbetriebnahme erhalten Sie ausführliche Anleitungen und
+                  Erklärvideos. Diese können Sie auf unserern
+                  Kanälen anschauen oder herunterladen. <br />
                   <strong>Hinweis:</strong> Die in rot gehaltenen Teile,
                   Fritzbox und Kabel, sind nicht im Starter-Kit enthalten.
                 </>
@@ -1070,7 +1070,11 @@ export const SqPanel = () => {
                 allowFullScreen
               ></iframe>
           <> 
+                      </div>
+          <div>
             <> Diebstahlschutz durch Unterputzmontage </>
+                      </div>
+          <div>
             Um das Risiko eines Diebstahls des SQ-Panels von Carenuity im öffentlichen Raum zu minimieren, empfiehlt sich eine Unterputzmontage anstelle einer Platzierung als 5V-USB-Gerät auf einem Tisch. Durch die Unterputzmontage wird das Display fest in die Wand integriert, was die Wahrscheinlichkeit eines Diebstahls im Vergleich zu einem frei stehenden Gerät mit USB-Kabel erheblich reduziert. Diese Maßnahme kann als eine Form der baulichen Sicherung gemäß den geltenden Sicherheitsstandards betrachtet werden.
 
 Obwohl das Display weiterhin abgezogen werden kann, ist der Diebstahl durch die feste Verankerung weniger wahrscheinlich. Zusätzlich kann das Cloud gebundene Gerät so konfiguriert werden, dass ein Entfernen aus der Wand registriert wird. Dies ermöglicht eine Warnung, falls das Gerät unbefugt entfernt wird, und erhöht somit die Sicherheit des Systems. In rechtlicher Hinsicht gilt dies als eine präventive Maßnahme zur Sicherung von Eigentum gemäß den einschlägigen Vorschriften und Normen.
@@ -1080,6 +1084,8 @@ Obwohl das Display weiterhin abgezogen werden kann, ist der Diebstahl durch die 
           </div>
 
           <div className="mb-4">
+                      </div>
+          <div>
             <h4>
               {state === 'en' && <>Conclusion on the mounting options. </>}
               {state === 'de' && <>Fazit zu den Montageoptionen.</>}
