@@ -1069,6 +1069,13 @@ export const SqPanel = () => {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
+          <> 
+            <> Diebstahlschutz durch Unterputzmontage </>
+            Um das Risiko eines Diebstahls des SQ-Panels von Carenuity im öffentlichen Raum zu minimieren, empfiehlt sich eine Unterputzmontage anstelle einer Platzierung als 5V-USB-Gerät auf einem Tisch. Durch die Unterputzmontage wird das Display fest in die Wand integriert, was die Wahrscheinlichkeit eines Diebstahls im Vergleich zu einem frei stehenden Gerät mit USB-Kabel erheblich reduziert. Diese Maßnahme kann als eine Form der baulichen Sicherung gemäß den geltenden Sicherheitsstandards betrachtet werden.
+
+Obwohl das Display weiterhin abgezogen werden kann, ist der Diebstahl durch die feste Verankerung weniger wahrscheinlich. Zusätzlich kann das Cloud gebundene Gerät so konfiguriert werden, dass ein Entfernen aus der Wand registriert wird. Dies ermöglicht eine Warnung, falls das Gerät unbefugt entfernt wird, und erhöht somit die Sicherheit des Systems. In rechtlicher Hinsicht gilt dies als eine präventive Maßnahme zur Sicherung von Eigentum gemäß den einschlägigen Vorschriften und Normen.
+          </> 
+              
             </div>
           </div>
 
@@ -2502,7 +2509,7 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  The design of the SQ panel was developed in collaboration with
+                  The design of the SQ-Panel was developed in collaboration with
                   the German switch system manufacturer JUNG, which is known for
                   its timeless design.
                 </>
