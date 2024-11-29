@@ -1086,6 +1086,9 @@ Obwohl das Display weiterhin abgezogen werden kann, ist der Diebstahl durch die 
           <div className="mb-4">
                       </div>
           <div>
+                      </div>
+          <div>
+            
             <h4>
               {state === 'en' && <>Conclusion on the mounting options. </>}
               {state === 'de' && <>Fazit zu den Montageoptionen.</>}
