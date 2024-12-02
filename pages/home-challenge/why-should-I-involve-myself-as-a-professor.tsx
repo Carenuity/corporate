@@ -47,7 +47,10 @@ const Page = () => {
                 </li>
                 <li>
                   <strong>Industry Connections: </strong>Collaborating with
-                  major industry players like Grecotel Hotels & Resorts,
+                  the semiconductor industry (Bosch, Renesas, Infineon, NXP or TI)
+                  by utilizing hands-on their sensors & microcontroller, or with 
+                  other industries like the hospitality sector in Greece with
+                  their major industry players like Grecotel Hotels & Resorts,
                   Sani/Ikos Group, and Mitsis Hotels opens up opportunities for
                   research partnerships, internships, and job placements for
                   your students.
