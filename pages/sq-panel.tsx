@@ -517,19 +517,19 @@ export const SqPanel = () => {
             <p>
               {state === 'en' && (
                 <>
-                  A latest 60 GHz radar sensor (mmWave) is integrated
-                  in the SQ-Panel, which will allow further features to be
-                  activated on the SQ-Panel. This allows us to enable various
-                  functions for your smart home that improve energy efficiency
-                  as well as security and comfort. Here are some features that
-                  will be implemented once the funding goal is reached:
+                  A latest 60 GHz radar sensor (mmWave) is integrated in the
+                  SQ-Panel, which will allow further features to be activated on
+                  the SQ-Panel. This allows us to enable various functions for
+                  your smart home that improve energy efficiency as well as
+                  security and comfort. Here are some features that will be
+                  implemented once the funding goal is reached:
                 </>
               )}
               {state === 'de' && (
                 <>
                   Im SQ-Panel ist ein aktueller 60GHz Radarsensor (mmWave)
-                  integriert, der es erlauben wird, weitere Features auf
-                  dem SQ-Panel freizuschalten. So können wir für Ihr Smart Home
+                  integriert, der es erlauben wird, weitere Features auf dem
+                  SQ-Panel freizuschalten. So können wir für Ihr Smart Home
                   verschiedene Funktionen ermöglichen, die sowohl die
                   Energieeffizienz als auch die Sicherheit und den Komfort
                   verbessern. Hier sind einige Features, die nach erreichen des
@@ -838,8 +838,8 @@ export const SqPanel = () => {
               {state === 'de' && (
                 <>
                   Zur Inbetriebnahme erhalten Sie ausführliche Anleitungen und
-                  Erklärvideos. Diese können Sie auf unserern
-                  Kanälen anschauen oder herunterladen. <br />
+                  Erklärvideos. Diese können Sie auf unserern Kanälen anschauen
+                  oder herunterladen. <br />
                   <strong>Hinweis:</strong> Die in rot gehaltenen Teile,
                   Fritzbox und Kabel, sind nicht im Starter-Kit enthalten.
                 </>
@@ -1069,52 +1069,79 @@ export const SqPanel = () => {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
-          
-                      </div>
-          <div>
-          <h4>
-              {state === 'en' && <>Theft protection through flush-mounted installation. </>}
-              {state === 'de' && <>Diebstahlschutz durch Unterputzmontage.</>}
-            </h4>
-           
-                      </div>
-          <div>
-          <p>
-              {state === 'en' && <>To minimize the risk of the Carenuity SQ panel being stolen in public spaces, 
-            Flush mounting is recommended instead of placing it on a table as a 5V USB device.
-             By flush-mounting, the display is firmly integrated into the wall, which increases the likelihood
-              The risk of theft is significantly reduced compared to a free-standing device with a USB cable. This
-               Measure can be viewed as a form of structural security in accordance with applicable safety standards. </>}
-              {state === 'de' && <>Um das Risiko eines Diebstahls des SQ-Panels von Carenuity im öffentlichen Raum zu minimieren, 
-            empfiehlt sich eine Unterputzmontage anstelle einer Platzierung als 5V-USB-Gerät auf einem Tisch.
-             Durch die Unterputzmontage wird das Display fest in die Wand integriert, was die Wahrscheinlichkeit
-              eines Diebstahls im Vergleich zu einem frei stehenden Gerät mit USB-Kabel erheblich reduziert. Diese
-               Maßnahme kann als eine Form der baulichen Sicherung gemäß den geltenden Sicherheitsstandards betrachtet werden.</>}
-            </p>
-            <p>
-              {state === 'en' && <>Although the display can still be removed, it is less likely to be stolen because it is firmly anchored 
-            probably. Additionally, the cloud-bound device can be configured to allow removal from the
-             wall is registered. This enables a warning if the device is removed without authorization and therefore increases
-              the security of the system. In legal terms, this is considered a preventive measure to secure
-               Property in accordance with relevant regulations and standards. </>}
-              {state === 'de' && <>Obwohl das Display weiterhin abgezogen werden kann, ist der Diebstahl durch die feste Verankerung weniger 
-            wahrscheinlich. Zusätzlich kann das Cloud gebundene Gerät so konfiguriert werden, dass ein Entfernen aus der
-             Wand registriert wird. Dies ermöglicht eine Warnung, falls das Gerät unbefugt entfernt wird, und erhöht somit
-              die Sicherheit des Systems. In rechtlicher Hinsicht gilt dies als eine präventive Maßnahme zur Sicherung von
-               Eigentum gemäß den einschlägigen Vorschriften und Normen.</>}
-            </p>
-           
-          <div/> 
-              
+            </div>
+            <div>
+              <h4>
+                {state === 'en' && (
+                  <>Theft protection through flush-mounted installation. </>
+                )}
+                {state === 'de' && <>Diebstahlschutz durch Unterputzmontage.</>}
+              </h4>
+            </div>
+            <div>
+              <p>
+                {state === 'en' && (
+                  <>
+                    To minimize the risk of the Carenuity SQ panel being stolen
+                    in public spaces, Flush mounting is recommended instead of
+                    placing it on a table as a 5V USB device. By flush-mounting,
+                    the display is firmly integrated into the wall, which
+                    increases the likelihood The risk of theft is significantly
+                    reduced compared to a free-standing device with a USB cable.
+                    This Measure can be viewed as a form of structural security
+                    in accordance with applicable safety standards.{' '}
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Um das Risiko eines Diebstahls des SQ-Panels von Carenuity
+                    im öffentlichen Raum zu minimieren, empfiehlt sich eine
+                    Unterputzmontage anstelle einer Platzierung als 5V-USB-Gerät
+                    auf einem Tisch. Durch die Unterputzmontage wird das Display
+                    fest in die Wand integriert, was die Wahrscheinlichkeit
+                    eines Diebstahls im Vergleich zu einem frei stehenden Gerät
+                    mit USB-Kabel erheblich reduziert. Diese Maßnahme kann als
+                    eine Form der baulichen Sicherung gemäß den geltenden
+                    Sicherheitsstandards betrachtet werden.
+                  </>
+                )}
+              </p>
+              <p>
+                {state === 'en' && (
+                  <>
+                    Although the display can still be removed, it is less likely
+                    to be stolen because it is firmly anchored probably.
+                    Additionally, the cloud-bound device can be configured to
+                    allow removal from the wall is registered. This enables a
+                    warning if the device is removed without authorization and
+                    therefore increases the security of the system. In legal
+                    terms, this is considered a preventive measure to secure
+                    Property in accordance with relevant regulations and
+                    standards.{' '}
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Obwohl das Display weiterhin abgezogen werden kann, ist der
+                    Diebstahl durch die feste Verankerung weniger
+                    wahrscheinlich. Zusätzlich kann das Cloud gebundene Gerät so
+                    konfiguriert werden, dass ein Entfernen aus der Wand
+                    registriert wird. Dies ermöglicht eine Warnung, falls das
+                    Gerät unbefugt entfernt wird, und erhöht somit die
+                    Sicherheit des Systems. In rechtlicher Hinsicht gilt dies
+                    als eine präventive Maßnahme zur Sicherung von Eigentum
+                    gemäß den einschlägigen Vorschriften und Normen.
+                  </>
+                )}
+              </p>
+
+              <div />
             </div>
           </div>
 
-          <div className="mb-4">
-                      </div>
+          <div className="mb-4"></div>
+          <div></div>
           <div>
-                      </div>
-          <div>
-            
             <h4>
               {state === 'en' && <>Conclusion on the mounting options. </>}
               {state === 'de' && <>Fazit zu den Montageoptionen.</>}
@@ -1214,10 +1241,18 @@ export const SqPanel = () => {
                   }}
                 >
                   {state === 'en' && (
-                    <>  (direct connection with 220-240V AC Transformer) max 5W 120-240AC 50/60Hz</>
+                    <>
+                      {' '}
+                      (direct connection with 220-240V AC Transformer) max 5W
+                      120-240AC 50/60Hz
+                    </>
                   )}
                   {state === 'de' && (
-                    <> (direkter Anschluss mit 220-240V AC Transformator) max 5W 120-240AC 50/60Hz</>
+                    <>
+                      {' '}
+                      (direkter Anschluss mit 220-240V AC Transformator) max 5W
+                      120-240AC 50/60Hz
+                    </>
                   )}
                 </td>
               </tr>
@@ -1237,8 +1272,17 @@ export const SqPanel = () => {
                     padding: '8px',
                   }}
                 >
-                  {state === 'en' && <> 200 lumen/meter<sup>2</sup>/steradian</>}
-                  {state === 'de' && <>200 lumen/meter<sup>2</sup>/steradian</>}
+                  {state === 'en' && (
+                    <>
+                      {' '}
+                      200 lumen/meter<sup>2</sup>/steradian
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      200 lumen/meter<sup>2</sup>/steradian
+                    </>
+                  )}
                 </td>
               </tr>
               {/* <tr style={{ background: '#eeeeee' }}>
@@ -1358,10 +1402,16 @@ export const SqPanel = () => {
                   }}
                 >
                   {state === 'en' && (
-                    <>90° Horizontal Plane Beamwidth (HPBW) -+45<sup>o</sup> Azimuth & +40<sup>o</sup> Elevation FoV </>
+                    <>
+                      90° Horizontal Plane Beamwidth (HPBW) -+45<sup>o</sup>{' '}
+                      Azimuth & +40<sup>o</sup> Elevation FoV{' '}
+                    </>
                   )}
                   {state === 'de' && (
-                    <>90° horizontale ebene Strahlbreite (HPBW) -+45<sup>o</sup> Azimuth & +40<sup>o</sup> Elevation FoV</>
+                    <>
+                      90° horizontale ebene Strahlbreite (HPBW) -+45<sup>o</sup>{' '}
+                      Azimuth & +40<sup>o</sup> Elevation FoV
+                    </>
                   )}
                 </td>
               </tr>

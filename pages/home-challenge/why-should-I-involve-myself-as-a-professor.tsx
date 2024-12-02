@@ -33,9 +33,9 @@ const Page = () => {
               <h4>Why should I Involve My Students as a Professor</h4>
               <p>
                 The Home Challenge offers a unique opportunity for professors to
-                engage with cutting-edge IoT and ML/AI technology and contribute to the
-                development of future industry leaders. Here are some compelling
-                reasons to get involved:
+                engage with cutting-edge IoT and ML/AI technology and contribute
+                to the development of future industry leaders. Here are some
+                compelling reasons to get involved:
               </p>
               <ul style={{ listStyleType: 'square' }}>
                 <li>
@@ -46,14 +46,14 @@ const Page = () => {
                   challenges.
                 </li>
                 <li>
-                  <strong>Industry Connections: </strong>Collaborating with
-                  the semiconductor industry like Bosch, Renesas, Infineon, NXP or TI
-                  by utilizing hands-on their sensors & microcontroller, or with 
-                  other industries like the hospitality sector in Greece with
-                  their major industry players like Grecotel Hotels & Resorts,
-                  Sani/Ikos Group, and Mitsis Hotels opens up opportunities for
-                  research partnerships, internships, and job placements for
-                  your students.
+                  <strong>Industry Connections: </strong>Collaborating with the
+                  semiconductor industry like Bosch, Renesas, Infineon, NXP or
+                  TI by utilizing hands-on their sensors & microcontroller, or
+                  with other industries like the hospitality sector in Greece
+                  with their major industry players like Grecotel Hotels &
+                  Resorts, Sani/Ikos Group, and Mitsis Hotels opens up
+                  opportunities for research partnerships, internships, and job
+                  placements for your students.
                 </li>
                 <li>
                   <strong>Professional Development: </strong>Stay updated with
@@ -86,15 +86,17 @@ const Page = () => {
               </p>
               <ol>
                 <li>
-                  <strong>Planning and Promotion:</strong> Collaborate with
-                  with us to design the Home Challenge, jointly identify a suited
-                  sponsor (e.g. semiconductore, hospitality, or any other related industry),
-                  set and add specific sponsors objectives, and promote the event.
+                  <strong>Planning and Promotion:</strong> Collaborate with with
+                  us to design the Home Challenge, jointly identify a suited
+                  sponsor (e.g. semiconductore, hospitality, or any other
+                  related industry), set and add specific sponsors objectives,
+                  and promote the event.
                 </li>
                 <li>
                   <strong>Execution:</strong> Students participate in the
-                  challenge, building AI-assisted IoT devices over six levels and solving
-                  real-world problems provided by the hospitality companies.
+                  challenge, building AI-assisted IoT devices over six levels
+                  and solving real-world problems provided by the hospitality
+                  companies.
                 </li>
                 <li>
                   <strong>Evaluation and Awards:</strong> Joint evaluation by
@@ -113,9 +115,9 @@ const Page = () => {
               <h4>Get Involved</h4>
               <p>
                 Ready to contribute to the Home Challenge and make a difference
-                in the future of IoT, ML/AI and the related industries? Contact us
-                today to learn more about how you can get involved and support
-                this exciting initiative.
+                in the future of IoT, ML/AI and the related industries? Contact
+                us today to learn more about how you can get involved and
+                support this exciting initiative.
               </p>
               <div className="cta">
                 <a href="mailto:info@homechallenge.com">

@@ -162,9 +162,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {''}. There you can also find detailed instructions for removing
               the metal frame and programming the C3-Mini for the first time.
               Note: For running the app, it is not necessary to enter your own
-              SSID and password, as the GPIO-Vviewer can also be used on the specified
-              address 192.168.4.1, i.e. it does not have to be integrated into
-              your home network. The password is <strong>password</strong>.
+              SSID and password, as the GPIO-Vviewer can also be used on the
+              specified address 192.168.4.1, i.e. it does not have to be
+              integrated into your home network. The password is{' '}
+              <strong>password</strong>.
               <br />
               For Level 2, the Gerber data (ZIP) and a screenshot of your
               smartphone showing the GPIO-Viewer App must be sent by e-mail to{' '}
