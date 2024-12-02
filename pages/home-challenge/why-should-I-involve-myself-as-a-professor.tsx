@@ -48,7 +48,7 @@ const Page = () => {
                 <li>
                   <strong>Industry Connections: </strong>Collaborating with the
                   semiconductor industry like Bosch, Renesas, Infineon, NXP or
-                  TI by utilizing hands-on their sensors & microcontroller, or
+                  TI by utilizing hands-on their sensors & microcontrollers, or
                   with other industries like the hospitality sector in Greece
                   with their major industry players like Grecotel Hotels &
                   Resorts, Sani/Ikos Group, and Mitsis Hotels opens up
@@ -120,7 +120,7 @@ const Page = () => {
                 support this exciting initiative.
               </p>
               <div className="cta">
-                <a href="mailto:info@homechallenge.com">
+                <a href="mailto:team@carenuity.com">
                   <strong>
                     <u>Contact Us</u>
                   </strong>
