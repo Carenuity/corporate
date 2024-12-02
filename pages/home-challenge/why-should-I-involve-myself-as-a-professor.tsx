@@ -33,7 +33,7 @@ const Page = () => {
               <h4>Why should I Involve My Students as a Professor</h4>
               <p>
                 The Home Challenge offers a unique opportunity for professors to
-                engage with cutting-edge IoT technology and contribute to the
+                engage with cutting-edge IoT and ML/AI technology and contribute to the
                 development of future industry leaders. Here are some compelling
                 reasons to get involved:
               </p>
