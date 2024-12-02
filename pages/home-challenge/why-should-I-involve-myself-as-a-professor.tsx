@@ -47,7 +47,7 @@ const Page = () => {
                 </li>
                 <li>
                   <strong>Industry Connections: </strong>Collaborating with
-                  the semiconductor industry (Bosch, Renesas, Infineon, NXP or TI)
+                  the semiconductor industry like Bosch, Renesas, Infineon, NXP or TI
                   by utilizing hands-on their sensors & microcontroller, or with 
                   other industries like the hospitality sector in Greece with
                   their major industry players like Grecotel Hotels & Resorts,
