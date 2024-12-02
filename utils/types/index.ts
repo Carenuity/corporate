@@ -64,6 +64,7 @@ export interface Service {
   standard: ServiceUrl[];
   premium: ServiceUrl[];
   business: ServiceUrl[];
+  benefits: ServiceUrl[];
 }
 
 export interface Microcontroller {

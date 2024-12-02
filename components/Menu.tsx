@@ -232,12 +232,12 @@ const Menu = ({
         </li>
         <li>
           <Link
-            href="#!"
-            target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-              window.$('#applications-btn').click();
-            }}
+            href="/benefits"
+            // target="_blank"
+            // onClick={(e) => {
+            //   e.preventDefault();
+            //   window.$('#applications-btn').click();
+            // }}
           >
             {language.includes('en') && 'Benefits'}
             {language.includes('de') && 'VORTEILE'}
