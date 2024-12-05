@@ -25,26 +25,27 @@ const Page = () => {
         pageTitle={pageTitle}
         pageUrl=""
       /> */}
-
+<div
+              
+              style={{
+                
+              }}
+            ></div>
       <section className="pt-4">
         <div className="container">
-        <div  className=' row mb-4' >
-        <h4 style={{
-          backgroundColor:"#198754",
-          textDecorationColor:"#ffffff",
-          height:'50px',
-          paddingTop:'10px',
-          textAlign:'center'
-                }}>
-                  Carenuity Student Survey & Questionnaire</h4>
+       
         
-            <div
+        
+            <div 
               style={{
                 paddingLeft: '250px',
+                
               }}
             >
-              <div
+              <div className="e-card"
                 style={{
+                  boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                maxHeight: '5000px',
                   width: '800px',
                   backgroundColor: '#eeeeee',
                   padding: '20px',
@@ -58,7 +59,8 @@ const Page = () => {
                     borderRadius: '10px',
                   }}
                 >
-            
+            <h4>
+            Carenuity Student Survey & Questionnaire</h4>
               <p>
                Thank you for your interest in Carenuity 
               and the IoT industry! This survey will help us understand your interests and provide
@@ -506,10 +508,6 @@ const Page = () => {
               </div>
             </div>
 
-
-
-            
-            </div>
         </div>
       </section>
     </>
