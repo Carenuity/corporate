@@ -107,6 +107,35 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               <strong>Note:</strong> Please check your spam folder for the
               subscription email should it be flagged as spam.
             </p>
+            <div  className=' row mb-4' style={{ textAlign: 'center' }}>
+            <div className='col-md-2 '></div>
+            <div className='col-md-2 '>
+            <input type="checkbox" id="challenge" name="challenge" />
+            <label > Home challenge </label> 
+            </div>
+
+            <div className='col-md-2 '>
+            <input type="checkbox" id="v" name="products" /> 
+            <label > ChipGlobe products </label>
+            </div>
+            <div className='col-md-2 '>
+            <input type="checkbox" id="positions" name="positions" />
+            <label > Open positions </label> 
+            </div>
+            <div className='col-md-2 '>
+              <input type="checkbox" id="internship" name="internship" />
+            <label > Internship </label> </div>
+            <div className='col-md-2 '>
+            <input type="checkbox" id="positions" name="positions" />
+            <label > Open office day </label>
+            </div>
+            
+            
+            
+            
+            
+            
+            </div>
             <UniversitySubscriptionWidget universityId={universityId} />
           </div>
         </div>
