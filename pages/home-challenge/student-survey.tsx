@@ -226,43 +226,45 @@ const Page = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label> Yes </label>
+                          <label style={{paddingLeft:'10px'}}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label> No </label>
+                          <label style={{paddingLeft:'10px'}}> No </label>
                         </div>
                       </div>
                       <p>
                         If yes, why are you interested in visiting us? (Select
                         all that apply)
                       </p>
+                      
+      
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label>
-                          To learn more about career opportunities in IoT and
-                          technology.{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                        To learn more about career opportunities in IoT and
+                          technology.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
                           To network with professionals and meet the Carenuity
-                          team.{' '}
+                          team.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
                           To see real-world applications of IoT solutions in
-                          action.{' '}
-                        </label>{' '}
+                          action.
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Other </label>
+                        <label style={{paddingLeft:'10px'}}> Other </label>
                       </div>
 
                       <div className="mb-4">
@@ -290,50 +292,53 @@ const Page = () => {
                         <strong>
                           3. IoT Industry Interests What areas of the IoT
                           industry are you most interested in? (Select all that
-                          apply){' '}
+                          apply)
                         </strong>
                       </p>
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label>Smart Homes & Buildings </label>
+                        <label style={{paddingLeft:'10px'}}>Smart Homes & Buildings </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
                           IoT Devices & Sensors (e.g., Raspberry Pi, Arduino){' '}
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
-                          Embedded Systems & Microcontrollers{' '}
-                        </label>{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                         
+                          Embedded Systems & Microcontrollers
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> IoT Security & Privacy </label>{' '}
+                        <label style={{paddingLeft:'10px'}}> 
+                          IoT Security & Privacy </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Data Analytics for IoT </label>{' '}
+                        <label style={{paddingLeft:'10px'}}> 
+                          Data Analytics for IoT </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
-                          Cloud Computing & Edge Computing for IoT{' '}
-                        </label>{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
+                          Cloud Computing & Edge Computing for IoT
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> AI & Machine Learning for IoT </label>{' '}
+                        <label style={{paddingLeft:'10px'}}> 
+                          AI & Machine Learning for IoT </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Other </label>
+                        <label style={{paddingLeft:'10px'}}> Other </label>
                       </div>
                       <p>
                         What would you like to learn more about in the IoT
@@ -369,38 +374,42 @@ const Page = () => {
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label>IoT Product Development </label>
+                        <label style={{paddingLeft:'10px'}}>
+                          IoT Product Development </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Software Development for IoT Systems </label>
+                        <label style={{paddingLeft:'10px'}}> Software Development for IoT Systems </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
-                          Hardware Design (e.g., Microcontrollers, Sensors){' '}
-                        </label>{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
+                          Hardware Design (e.g., Microcontrollers, Sensors)
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> IoT Project Management </label>{' '}
+                        <label style={{paddingLeft:'10px'}}> 
+                          IoT Project Management </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Research & Development in IoT </label>{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                           Research & Development in IoT </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
-                          Marketing and Sales in IoT Technologies{' '}
-                        </label>{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
+                          Marketing and Sales in IoT Technologies
+                        </label>
                       </div>
 
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Marketing and Sales in IoT Technologies </label>
+                        <label style={{paddingLeft:'10px'}}> 
+                          Marketing and Sales in IoT Technologies </label>
                       </div>
                     </div>
 
@@ -415,11 +424,11 @@ const Page = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label> Yes </label>
+                          <label style={{paddingLeft:'10px'}}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label> No </label>
+                          <label style={{paddingLeft:'10px'}}> No </label>
                         </div>
                       </div>
                       <p>
@@ -429,37 +438,37 @@ const Page = () => {
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label>
+                        <label style={{paddingLeft:'10px'}}>
                           Developing innovative IoT solutions for the
-                          hospitality industry.{' '}
+                          hospitality industry.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
                           Working with hardware platforms like Raspberry Pi and
-                          Arduino.{' '}
+                          Arduino.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
                           Collaborating with other students and professionals on
-                          real-world projects.{' '}
-                        </label>{' '}
+                          real-world projects.
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
-                          Competing for prizes and recognition.{' '}
-                        </label>{' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
+                          Competing for prizes and recognition.
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Other </label>
+                        <label style={{paddingLeft:'10px'}}> Other </label>
                       </div>
 
                       <div className="mb-4">
@@ -494,34 +503,35 @@ const Page = () => {
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label>Raspberry Pi</label>
+                        <label style={{paddingLeft:'10px'}}>Raspberry Pi</label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Arduino </label>
+                        <label style={{paddingLeft:'10px'}}> Arduino </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Python</label>{' '}
+                        <label style={{paddingLeft:'10px'}}> Python</label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> C/C++ </label>{' '}
+                        <label style={{paddingLeft:'10px'}}> C/C++ </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> JavaScript</label>{' '}
+                        <label style={{paddingLeft:'10px'}}> JavaScript</label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label> Cloud Platforms (AWS, Azure, etc.)</label>{' '}
+                        <label style={{paddingLeft:'10px'}}> 
+                          Cloud Platforms (AWS, Azure, etc.)</label>
                       </div>
 
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label>
-                          {' '}
-                          IoT-specific Software (Node-RED, MQTT, etc.){' '}
+                        <label style={{paddingLeft:'10px'}}>
+                          
+                          IoT-specific Software (Node-RED, MQTT, etc.)
                         </label>
                       </div>
                     </div>
@@ -537,11 +547,11 @@ const Page = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label> Yes </label>
+                          <label style={{paddingLeft:'10px'}}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label> No </label>
+                          <label style={{paddingLeft:'10px'}}> No </label>
                         </div>
                       </div>
                     </div>
@@ -555,18 +565,18 @@ const Page = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label> Yes </label>
+                          <label style={{paddingLeft:'10px'}}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label> No </label>
+                          <label style={{paddingLeft:'10px'}}> No </label>
                         </div>
                       </div>
                     </div>
                     <div className="mb-3">
                       <p>
                         <strong>
-                          9. 8. Additional Comments or Suggestions Please
+                          9. Additional Comments or Suggestions Please
                           provide any additional comments or suggestions you may
                           have regarding Carenuity, our initiatives, or the IoT
                           industry.{' '}

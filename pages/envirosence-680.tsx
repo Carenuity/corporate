@@ -2,6 +2,7 @@ import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../components/SubscriptionWidget';
+import SolutionWidget from '../components/SolutionWidget';
 
 const Page = () => {
   const pageTitle = 'Envirosence 680';
@@ -114,6 +115,8 @@ const Page = () => {
               animationName: 'fadeIn',
             }}
           />
+          {/* YouTube Meter */}
+        <SolutionWidget solutionId="a374f882-30e1-703d-6ce8-8fcf1549962e" />
           <div id="subscribe" className="my-5" style={{ textAlign: 'center' }}>
             <h2>Product Wishlist</h2>
             <p>

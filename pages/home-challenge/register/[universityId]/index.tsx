@@ -107,31 +107,47 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               <strong>Note:</strong> Please check your spam folder for the
               subscription email should it be flagged as spam.
             </p>
-            <div className=" row mb-4" style={{ textAlign: 'center' }}>
+            <a
+                      href="/home-challenge/student-survey"
+                      className="text-success mb-4"
+                      style={{ textAlign: 'center' }}
+                    >
+                      <u>Fill in Carenuity student survey & questionnaire</u>
+                    </a>
+
+            {/* <div className=" row mb-4" style={{ textAlign: 'center' }}>
               <div className="col-md-2 "></div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="challenge" name="challenge" />
-                <label> Home challenge </label>
+                <label style={{paddingLeft:'10px'}}> 
+                  Home challenge </label>
               </div>
 
-              <div className="col-md-2 ">
+              <div className="col-md-3 ">
                 <input type="checkbox" id="v" name="products" />
-                <label> ChipGlobe products </label>
+                <label style={{paddingLeft:'10px'}}> 
+                  ChipGlobe products </label>
               </div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="positions" name="positions" />
-                <label> Open positions </label>
+                <label style={{paddingLeft:'10px'}}> 
+                  Open positions </label>
               </div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="internship" name="internship" />
-                <label> Internship </label>{' '}
+                <label style={{paddingLeft:'10px'}}> 
+                  Internship </label>{' '}
               </div>
+              <div className="col-md-2 "></div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="positions" name="positions" />
-                <label> Open office day </label>
+                <label style={{paddingLeft:'10px'}}> 
+                  Open office day </label>
               </div>
-            </div>
+            </div> */}
             <UniversitySubscriptionWidget universityId={universityId} />
+
+            
           </div>
         </div>
       </section>
