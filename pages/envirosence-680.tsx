@@ -115,8 +115,7 @@ const Page = () => {
               animationName: 'fadeIn',
             }}
           />
-          {/* YouTube Meter */}
-        <SolutionWidget solutionId="a374f882-30e1-703d-6ce8-8fcf1549962e" />
+         
           <div id="subscribe" className="my-5" style={{ textAlign: 'center' }}>
             <h2>Product Wishlist</h2>
             <p>
