@@ -107,16 +107,10 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               <strong>Note:</strong> Please check your spam folder for the
               subscription email should it be flagged as spam.
             </p>
-            <a
-                      href="/home-challenge/student-survey"
-                      className="text-success mb-4"
-                      style={{ textAlign: 'center' }}
-                    >
-                      <u>Fill in Carenuity student survey & questionnaire</u>
-                    </a>
+           
 
-            {/* <div className=" row mb-4" style={{ textAlign: 'center' }}>
-              <div className="col-md-2 "></div>
+            <div className=" row mb-4" style={{ textAlign: 'center' }}>
+              <div className="col-md-1 "></div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="challenge" name="challenge" />
                 <label style={{paddingLeft:'10px'}}> 
@@ -125,7 +119,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
 
               <div className="col-md-3 ">
                 <input type="checkbox" id="v" name="products" />
-                <label style={{paddingLeft:'10px'}}> 
+                <label style={{paddingLeft:'5px'}}> 
                   ChipGlobe products </label>
               </div>
               <div className="col-md-2 ">
@@ -138,13 +132,21 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
                 <label style={{paddingLeft:'10px'}}> 
                   Internship </label>{' '}
               </div>
-              <div className="col-md-2 "></div>
+              {/* <div className="col-md-2 "></div> */}
               <div className="col-md-2 ">
                 <input type="checkbox" id="positions" name="positions" />
                 <label style={{paddingLeft:'10px'}}> 
                   Open office day </label>
               </div>
-            </div> */}
+            </div>
+
+            <a
+                      href="/home-challenge/student-survey"
+                      className="text-success mb-4"
+                      style={{ textAlign: 'center' }}
+                    >
+                      <u>Fill in Carenuity student survey & questionnaire</u>
+                    </a>
             <UniversitySubscriptionWidget universityId={universityId} />
 
             

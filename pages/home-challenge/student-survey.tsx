@@ -50,9 +50,10 @@ const Page = () => {
                   borderRadius: '10px',
                 }}
               >
-                <h4>Carenuity Student Survey & Questionnaire</h4>
+                <h4 className='mb-4'>Aristotle University of Thessaloniki</h4>
+                <h5>Carenuity Student Survey & Questionnaire</h5>
                 <p>
-                  Thank you for your interest in Carenuity and the IoT industry!
+                  Thank you for your interest in ChipGlobe and the IoT industry!
                   This survey will help us understand your interests and provide
                   you with relevant opportunities.
                 </p>
@@ -65,7 +66,7 @@ const Page = () => {
                     <div className="col-md-6">
                       <div>
                         <label>
-                          <strong>First Name *</strong>
+                          <strong>First name *</strong>
                         </label>
                       </div>
                       <div className="mb-4">
@@ -90,7 +91,7 @@ const Page = () => {
                     <div className="col-md-6">
                       <div>
                         <label>
-                          <strong>Last Name *</strong>
+                          <strong>Last name *</strong>
                         </label>
                       </div>
                       <div className="mb-4">
@@ -138,7 +139,7 @@ const Page = () => {
                         ></input>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <div>
                         <label>
                           <strong>University *</strong>
@@ -162,7 +163,7 @@ const Page = () => {
                           required
                         ></input>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="col-md-6">
                       <div>
@@ -219,11 +220,11 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          2. Open House Participation Would you like to
-                          participate in an Open House event at our office?{' '}
+                          2. Open office day. Would you like to
+                          participate in an open office event ?
                         </strong>
                       </p>
-                      <div className="row">
+                      <div className="row mb-2" >
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
                           <label style={{paddingLeft:'10px'}}> Yes </label>
@@ -233,16 +234,16 @@ const Page = () => {
                           <label style={{paddingLeft:'10px'}}> No </label>
                         </div>
                       </div>
-                      <p>
+                      <p><strong>
                         If yes, why are you interested in visiting us? (Select
-                        all that apply)
+                        all that apply)</strong>
                       </p>
                       
       
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
                         <label style={{paddingLeft:'10px'}}>
-                        To learn more about career opportunities in IoT and
+                        To learn more about career opportunities in IoT and AI
                           technology.
                         </label>
                       </div>
@@ -250,7 +251,7 @@ const Page = () => {
                         <input type="checkbox" id="text" name="text" />
                         <label style={{paddingLeft:'10px'}}>
                           
-                          To network with professionals and meet the Carenuity
+                          To network with professionals and meet the ChipGlobe
                           team.
                         </label>
                       </div>
@@ -290,7 +291,7 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          3. IoT Industry Interests What areas of the IoT
+                          3. IoT industry interests. What areas of the IoT
                           industry are you most interested in? (Select all that
                           apply)
                         </strong>
@@ -336,13 +337,13 @@ const Page = () => {
                         <label style={{paddingLeft:'10px'}}> 
                           AI & Machine Learning for IoT </label>
                       </div>
-                      <div>
+                      <div className='mb-3'>
                         <input type="checkbox" id="text" name="text" />
                         <label style={{paddingLeft:'10px'}}> Other </label>
                       </div>
-                      <p>
+                      <p><strong>
                         What would you like to learn more about in the IoT
-                        industry?
+                        industry?</strong>
                       </p>
                       <div className="mb-4">
                         <input
@@ -367,7 +368,7 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          4. Career Interests Which of the following areas would
+                          4. Career interests. Which of the following areas would
                           you like to work in? (Select all that apply){' '}
                         </strong>
                       </p>
@@ -379,7 +380,8 @@ const Page = () => {
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> Software Development for IoT Systems </label>
+                        <label style={{paddingLeft:'10px'}}> 
+                          Software Development for IoT Systems </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
@@ -406,22 +408,18 @@ const Page = () => {
                         </label>
                       </div>
 
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          Marketing and Sales in IoT Technologies </label>
-                      </div>
+                      
                     </div>
 
-                    <div className="mb-3">
+                    {/* <div className="mb-3">
                       <p>
                         <strong>
-                          5. Carenuity&apos;s Home Challenge Initiative Are you
+                          5. Carenuity&apos;s Home Challenge Initiative. Are you
                           familiar with Carenuity&apos;s Home Challenge event
                           focused on IoT devices for the hospitality sector?{' '}
                         </strong>
                       </p>
-                      <div className="row">
+                      <div className="row mb-3">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
                           <label style={{paddingLeft:'10px'}}> Yes </label>
@@ -431,9 +429,9 @@ const Page = () => {
                           <label style={{paddingLeft:'10px'}}> No </label>
                         </div>
                       </div>
-                      <p>
+                      <p><strong>
                         If yes, what aspect of the Home Challenge interests you
-                        the most? (Select all that apply)
+                        the most? (Select all that apply) </strong>
                       </p>
 
                       <div>
@@ -490,14 +488,14 @@ const Page = () => {
                           required
                         ></input>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="mb-3">
                       <p>
                         <strong>
-                          6. Skills & Tools What IoT-related tools, programming
+                          5. Skills & tools. What IoT-related tools, programming
                           languages, or hardware platforms are you familiar
-                          with? (Select all that apply){' '}
+                          with? (Select all that apply)
                         </strong>
                       </p>
 
@@ -517,10 +515,7 @@ const Page = () => {
                         <input type="checkbox" id="text" name="text" />
                         <label style={{paddingLeft:'10px'}}> C/C++ </label>
                       </div>
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> JavaScript</label>
-                      </div>
+                      
                       <div>
                         <input type="checkbox" id="text" name="text" />
                         <label style={{paddingLeft:'10px'}}> 
@@ -539,9 +534,9 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          7. Future Involvement Would you like to receive
-                          updates and newsletters from Carenuity about future
-                          events, internships, and innovations?{' '}
+                          6. Future involvement. Would you like to receive
+                          updates and newsletters from ChipGlobe about future
+                          events, internships, and innovations?
                         </strong>
                       </p>
                       <div className="row">
@@ -558,8 +553,8 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          8. Would you be interested in participating in other
-                          IoT Challenges or Hackathons organized by Carenuity?{' '}
+                          7. Would you be interested in participating in other
+                          IoT Challenges or Hackathons organized by ChipGlobe?{' '}
                         </strong>
                       </p>
                       <div className="row">
@@ -576,9 +571,9 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          9. Additional Comments or Suggestions Please
+                          8. Additional comments or suggestions please
                           provide any additional comments or suggestions you may
-                          have regarding Carenuity, our initiatives, or the IoT
+                          have regarding ChipGlobe, our initiatives, or the IoT
                           industry.{' '}
                         </strong>
                       </p>
