@@ -57,7 +57,7 @@ const getUniversityName = ({
       return 'Technical University of Kenya';
     
       case 'oauth':
-      return ' Aristotle University of Thessaloniki';
+      return 'Open-Aristotle University of Thessaloniki';
 
     case 'uop':
       return 'University of the Peloponnese';
