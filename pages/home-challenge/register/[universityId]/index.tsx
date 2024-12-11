@@ -9,7 +9,7 @@ import PageTitle from '../../../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
 
-type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw';
+type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw' | 'oauth';
 
 const UniversitySubscriptionWidget: React.FC<{
   universityId: UniversityId;
@@ -21,6 +21,7 @@ const UniversitySubscriptionWidget: React.FC<{
     case 'thws':
       return <SubscriptionWidget categoryId={5} />;
 
+      
     case 'tuk':
       return <SubscriptionWidget categoryId={7} />;
 
@@ -32,6 +33,10 @@ const UniversitySubscriptionWidget: React.FC<{
 
     case 'haw':
       return <SubscriptionWidget categoryId={9} />;
+    
+      case 'oauth':
+        return <SubscriptionWidget categoryId={10} />;
+
   }
 };
 
@@ -49,6 +54,9 @@ const getUniversityName = ({
 
     case 'tuk':
       return 'Technical University of Kenya';
+    
+      case 'oauth':
+      return 'Open Aristotle University of Thessaloniki';
 
     case 'uop':
       return 'University of the Peloponnese';
@@ -173,7 +181,7 @@ export const getStaticPaths: GetStaticPaths = async (
   // eslint-disable-next-line no-unused-vars
   context: GetStaticPathsContext
 ) => {
-  const universityIds = ['uop', 'tuk', 'thws', 'auth', 'cuk', 'haw']; // Object.keys(microcontrollers);
+  const universityIds = ['uop', 'tuk', 'thws', 'auth', 'cuk', 'haw', 'oauth']; // Object.keys(microcontrollers);
 
   const ids = universityIds.map((key: string) => ({
     params: { universityId: key.toString() },
