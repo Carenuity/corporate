@@ -27,6 +27,7 @@ const Page = () => {
         pageTitle={pageTitle}
         pageUrl=""
       />
+      
 
       <section className="pt-4">
         <div className="container">
@@ -307,7 +308,7 @@ const Page = () => {
                         id="fname"
                         name="firstname"
                         placeholder="Enter your Name"
-                        className={' inputt'}
+                        className={' input'}
                         style={{
                           backgroundColor: 'white',
                           textAlign: 'left',
