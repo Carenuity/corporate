@@ -147,7 +147,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <h5>Deliverables for achieving Level 3</h5>
             <p>
               To accomplish Level 3, a custom app must be uploaded to the
-              Solution Builder at 
+              Solution Builder at
               {''}
               <a href="https://solutions.carenuity.com" target="blank">
                 <u>https://solutions.carenuity.com</u>
