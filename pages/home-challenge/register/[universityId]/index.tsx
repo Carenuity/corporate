@@ -9,7 +9,7 @@ import PageTitle from '../../../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
 
-type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw';
+type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw' | 'oauth';
 
 const UniversitySubscriptionWidget: React.FC<{
   universityId: UniversityId;
@@ -32,6 +32,9 @@ const UniversitySubscriptionWidget: React.FC<{
 
     case 'haw':
       return <SubscriptionWidget categoryId={9} />;
+
+    case 'oauth':
+      return <SubscriptionWidget categoryId={10} />;
   }
 };
 
@@ -58,6 +61,9 @@ const getUniversityName = ({
 
     case 'haw':
       return 'Hochschule für angewandte Wissenschaften Landshut';
+
+    case 'oauth':
+      return 'Open AUTH Home Challenge';
   }
 };
 
@@ -173,7 +179,15 @@ export const getStaticPaths: GetStaticPaths = async (
   // eslint-disable-next-line no-unused-vars
   context: GetStaticPathsContext
 ) => {
-  const universityIds = ['uop', 'tuk', 'thws', 'auth', 'cuk', 'haw']; // Object.keys(microcontrollers);
+  const universityIds: UniversityId[] = [
+    'uop',
+    'tuk',
+    'thws',
+    'auth',
+    'cuk',
+    'haw',
+    'oauth',
+  ];
 
   const ids = universityIds.map((key: string) => ({
     params: { universityId: key.toString() },
