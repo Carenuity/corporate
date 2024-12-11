@@ -50,7 +50,7 @@ const Page = () => {
                   borderRadius: '10px',
                 }}
               >
-                <h4 className='mb-4'>Aristotle University of Thessaloniki</h4>
+                <h4 className="mb-4">Aristotle University of Thessaloniki</h4>
                 <h5>Carenuity Student Survey & Questionnaire</h5>
                 <p>
                   Thank you for your interest in ChipGlobe and the IoT industry!
@@ -220,52 +220,51 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          2. Open office day. Would you like to
-                          participate in an open office event ?
+                          2. Open office day. Would you like to participate in
+                          an open office event ?
                         </strong>
                       </p>
-                      <div className="row mb-2" >
+                      <div className="row mb-2">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label style={{paddingLeft:'10px'}}> Yes </label>
+                          <label style={{ paddingLeft: '10px' }}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label style={{paddingLeft:'10px'}}> No </label>
+                          <label style={{ paddingLeft: '10px' }}> No </label>
                         </div>
                       </div>
-                      <p><strong>
-                        If yes, why are you interested in visiting us? (Select
-                        all that apply)</strong>
+                      <p>
+                        <strong>
+                          If yes, why are you interested in visiting us? (Select
+                          all that apply)
+                        </strong>
                       </p>
-                      
-      
+
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label style={{paddingLeft:'10px'}}>
-                        To learn more about career opportunities in IoT and AI
+                        <label style={{ paddingLeft: '10px' }}>
+                          To learn more about career opportunities in IoT and AI
                           technology.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
                           To network with professionals and meet the ChipGlobe
                           team.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
                           To see real-world applications of IoT solutions in
                           action.
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> Other </label>
+                        <label style={{ paddingLeft: '10px' }}> Other </label>
                       </div>
 
                       <div className="mb-4">
@@ -299,51 +298,55 @@ const Page = () => {
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label style={{paddingLeft:'10px'}}>Smart Homes & Buildings </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          Smart Homes & Buildings{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
                           IoT Devices & Sensors (e.g., Raspberry Pi, Arduino){' '}
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                         
+                        <label style={{ paddingLeft: '10px' }}>
                           Embedded Systems & Microcontrollers
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          IoT Security & Privacy </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          IoT Security & Privacy{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          Data Analytics for IoT </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          Data Analytics for IoT{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
                           Cloud Computing & Edge Computing for IoT
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          AI & Machine Learning for IoT </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          AI & Machine Learning for IoT{' '}
+                        </label>
                       </div>
-                      <div className='mb-3'>
+                      <div className="mb-3">
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> Other </label>
+                        <label style={{ paddingLeft: '10px' }}> Other </label>
                       </div>
-                      <p><strong>
-                        What would you like to learn more about in the IoT
-                        industry?</strong>
+                      <p>
+                        <strong>
+                          What would you like to learn more about in the IoT
+                          industry?
+                        </strong>
                       </p>
                       <div className="mb-4">
                         <input
@@ -368,47 +371,47 @@ const Page = () => {
                     <div className="mb-3">
                       <p>
                         <strong>
-                          4. Career interests. Which of the following areas would
-                          you like to work in? (Select all that apply){' '}
+                          4. Career interests. Which of the following areas
+                          would you like to work in? (Select all that apply){' '}
                         </strong>
                       </p>
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label style={{paddingLeft:'10px'}}>
-                          IoT Product Development </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          IoT Product Development{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          Software Development for IoT Systems </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          Software Development for IoT Systems{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
                           Hardware Design (e.g., Microcontrollers, Sensors)
                         </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          IoT Project Management </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          IoT Project Management{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                           Research & Development in IoT </label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          Research & Development in IoT{' '}
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
                           Marketing and Sales in IoT Technologies
                         </label>
                       </div>
-
-                      
                     </div>
 
                     {/* <div className="mb-3">
@@ -501,31 +504,33 @@ const Page = () => {
 
                       <div>
                         <input type="checkbox" id="text" name="text"></input>
-                        <label style={{paddingLeft:'10px'}}>Raspberry Pi</label>
+                        <label style={{ paddingLeft: '10px' }}>
+                          Raspberry Pi
+                        </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> Arduino </label>
+                        <label style={{ paddingLeft: '10px' }}> Arduino </label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> Python</label>
+                        <label style={{ paddingLeft: '10px' }}> Python</label>
                       </div>
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> C/C++ </label>
-                      </div>
-                      
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> 
-                          Cloud Platforms (AWS, Azure, etc.)</label>
+                        <label style={{ paddingLeft: '10px' }}> C/C++ </label>
                       </div>
 
                       <div>
                         <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
+                        <label style={{ paddingLeft: '10px' }}>
+                          Cloud Platforms (AWS, Azure, etc.)
+                        </label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" id="text" name="text" />
+                        <label style={{ paddingLeft: '10px' }}>
                           IoT-specific Software (Node-RED, MQTT, etc.)
                         </label>
                       </div>
@@ -542,11 +547,11 @@ const Page = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label style={{paddingLeft:'10px'}}> Yes </label>
+                          <label style={{ paddingLeft: '10px' }}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label style={{paddingLeft:'10px'}}> No </label>
+                          <label style={{ paddingLeft: '10px' }}> No </label>
                         </div>
                       </div>
                     </div>
@@ -560,20 +565,20 @@ const Page = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <input type="radio" id="yes" name="yes" />
-                          <label style={{paddingLeft:'10px'}}> Yes </label>
+                          <label style={{ paddingLeft: '10px' }}> Yes </label>
                         </div>
                         <div className="col-md-4">
                           <input type="radio" id="no" name="no" />
-                          <label style={{paddingLeft:'10px'}}> No </label>
+                          <label style={{ paddingLeft: '10px' }}> No </label>
                         </div>
                       </div>
                     </div>
                     <div className="mb-3">
                       <p>
                         <strong>
-                          8. Additional comments or suggestions please
-                          provide any additional comments or suggestions you may
-                          have regarding ChipGlobe, our initiatives, or the IoT
+                          8. Additional comments or suggestions please provide
+                          any additional comments or suggestions you may have
+                          regarding ChipGlobe, our initiatives, or the IoT
                           industry.{' '}
                         </strong>
                       </p>

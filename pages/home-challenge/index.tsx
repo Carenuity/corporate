@@ -138,7 +138,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     and the ability to simulate sensor solutions using WOKWI
                   </p>
                   <p className="">
-                    <strong>Reward:</strong> C3-Mini
+                    <strong>Reward:</strong> D1- or C3-Mini
                   </p>
 
                   <p className="mb-4">

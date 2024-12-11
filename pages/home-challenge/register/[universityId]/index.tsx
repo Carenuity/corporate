@@ -8,6 +8,7 @@ import React from 'react';
 import PageTitle from '../../../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
+import Link from 'next/link';
 
 type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw' | 'oauth';
 
@@ -66,6 +67,9 @@ const getUniversityName = ({
 
     case 'haw':
       return 'Hochschule für angewandte Wissenschaften Landshut';
+
+    case 'oauth':
+      return 'Open AUTH Home Challenge';
   }
 };
 
@@ -115,49 +119,43 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               <strong>Note:</strong> Please check your spam folder for the
               subscription email should it be flagged as spam.
             </p>
-           
 
             <div className=" row mb-4" style={{ textAlign: 'center' }}>
               <div className="col-md-1 "></div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="challenge" name="challenge" />
-                <label style={{paddingLeft:'10px'}}> 
-                  Home challenge </label>
+                <label style={{ paddingLeft: '10px' }}>Home challenge </label>
               </div>
 
               <div className="col-md-3 ">
                 <input type="checkbox" id="v" name="products" />
-                <label style={{paddingLeft:'5px'}}> 
-                  ChipGlobe products </label>
+                <label style={{ paddingLeft: '5px' }}>
+                  ChipGlobe products{' '}
+                </label>
               </div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="positions" name="positions" />
-                <label style={{paddingLeft:'10px'}}> 
-                  Open positions </label>
+                <label style={{ paddingLeft: '10px' }}>Open positions </label>
               </div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="internship" name="internship" />
-                <label style={{paddingLeft:'10px'}}> 
-                  Internship </label>{' '}
+                <label style={{ paddingLeft: '10px' }}>Internship </label>{' '}
               </div>
               {/* <div className="col-md-2 "></div> */}
               <div className="col-md-2 ">
                 <input type="checkbox" id="positions" name="positions" />
-                <label style={{paddingLeft:'10px'}}> 
-                  Open office day </label>
+                <label style={{ paddingLeft: '10px' }}>Open office day </label>
               </div>
             </div>
 
-            <a
-                      href="/home-challenge/student-survey"
-                      className="text-success mb-4"
-                      style={{ textAlign: 'center' }}
-                    >
-                      <u>Fill in Carenuity student survey & questionnaire</u>
-                    </a>
+            <Link
+              href="/home-challenge/student-survey"
+              className="text-success mb-4"
+              style={{ textAlign: 'center' }}
+            >
+              <u>Fill in Carenuity student survey & questionnaire</u>
+            </Link>
             <UniversitySubscriptionWidget universityId={universityId} />
-
-            
           </div>
         </div>
       </section>
