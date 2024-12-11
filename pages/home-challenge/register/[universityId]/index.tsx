@@ -57,7 +57,7 @@ const getUniversityName = ({
       return 'Technical University of Kenya';
     
       case 'oauth':
-      return 'Open Aristotle University of Thessaloniki';
+      return ' Aristotle University of Thessaloniki';
 
     case 'uop':
       return 'University of the Peloponnese';
@@ -68,8 +68,7 @@ const getUniversityName = ({
     case 'haw':
       return 'Hochschule für angewandte Wissenschaften Landshut';
 
-    case 'oauth':
-      return 'Open AUTH Home Challenge';
+    
   }
 };
 
