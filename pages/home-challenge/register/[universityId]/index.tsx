@@ -107,7 +107,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               </h2>
               <h5>
                 Showcase your talent and grow your skills by subscribing <br />
-                to {getUniversityName({ universityId })} home challenge.
+                to {getUniversityName({ universityId })} Home Challenge.
               </h5>
             </div>
 
@@ -123,7 +123,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               <div className="col-md-1 "></div>
               <div className="col-md-2 ">
                 <input type="checkbox" id="challenge" name="challenge" />
-                <label style={{ paddingLeft: '10px' }}>Home challenge </label>
+                <label style={{ paddingLeft: '10px' }}>Home Challenge </label>
               </div>
 
               <div className="col-md-3 ">
@@ -143,7 +143,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               {/* <div className="col-md-2 "></div> */}
               <div className="col-md-2 ">
                 <input type="checkbox" id="positions" name="positions" />
-                <label style={{ paddingLeft: '10px' }}>Open office day </label>
+                <label style={{ paddingLeft: '10px' }}>Open Office Day </label>
               </div>
             </div>
 
