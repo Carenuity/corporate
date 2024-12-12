@@ -519,6 +519,14 @@ export const SqPanel = () => {
               </p>
             </div>
           </div>
+
+          <></>
+          
+           <h4>
+            {state === 'en' && <>Volatile Organic Compounds (VOC)</>}
+            {state === 'de' && <>Volatile Organische Komponenten (VOC)</>}
+          </h4> 
+          
           <div className="mb-2">
          
               <iframe
@@ -530,12 +538,11 @@ export const SqPanel = () => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
-            
-            
-
-
-            
+                            
           </div>
+
+          <></>
+            
           <h4>
             {state === 'en' && <>Operating the display (demonstration)</>}
             {state === 'de' && <>Bedienung des Displays (Demonstration)</>}
@@ -579,7 +586,12 @@ export const SqPanel = () => {
             )}
             
           </div>
+
+          
           <div>
+            
+          <></>
+            
             <h4>
               {state === 'en' && (
                 <>What other radar features are on the roadmap?</>
