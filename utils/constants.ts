@@ -40,7 +40,7 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™ | Solution Builder',
+      name: 'C3-Mini™ | Solution Builder | Home challenge',
       url: '/c3-mini',
       icon: 'fas fa-code',
     },
@@ -55,7 +55,7 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-keyboard',
     },
     {
-      name: 'AI Assisted Solutions (launch 3rd Q.2024)',
+      name: 'AI Assisted Solutions ',
       url: '/ai-assisted-devices',
       icon: 'fa-solid fa-brain',
     },
@@ -75,6 +75,16 @@ export const servicesUrls: Service = {
       name: 'SQ-Power Supply',
       url: '/sq-power',
       icon: 'fa-solid fa-plug',
+    },
+    {
+      name: 'SQ-Matter Getway',
+      url: '/matter-getway',
+      icon: 'fa-solid fa-plug',
+    },
+    {
+      name: 'Evaluate at Home',
+      url: '/evaluate-at-home',
+      icon: 'fa-solid fa-house',
     },
   ],
   business: [
