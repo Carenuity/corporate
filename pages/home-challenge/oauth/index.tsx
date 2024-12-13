@@ -27,8 +27,6 @@ const Page = () => {
         pageUrl=""
       />
 
-
-
       <section className="pt-4">
         <div className="container mb-4">
           <iframe
@@ -38,11 +36,15 @@ const Page = () => {
             width="100%"
             height="600px"
           ></iframe>
-          
-            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGXGlpF8OE&#x2F;FI_Vr5qggwhIXTRezelzsg&#x2F;
-            view?utm_content=DAGXGlpF8OE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
-            target="_blank" rel="noopener"><u>Open AUTH Home Challenge</u></a> {' '}by carenuity
-          
+          <a
+            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGXGlpF8OE&#x2F;FI_Vr5qggwhIXTRezelzsg&#x2F;
+            view?utm_content=DAGXGlpF8OE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <u>Open AUTH Home Challenge</u>
+          </a>{' '}
+          by carenuity
         </div>
         <p style={{ textAlign: 'center' }}>
         <Link

@@ -58,44 +58,35 @@ export const SqPanel = () => {
         {/* kickstarter */}
         <div className="row">
           <div className="mb-2">
-          {state === 'en' && (
-              <> 
-              <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/gFsb_utAGrg"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+            {state === 'en' && (
+              <>
+                <iframe
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/gFsb_utAGrg"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
             {state === 'de' && (
               <>
                 <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/5rwa3OWmB0Q"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/5rwa3OWmB0Q"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
 
-
-            {state === 'en' && (
-              <> 
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                
-              </>
-            )}
-            
+            {state === 'en' && <></>}
+            {state === 'de' && <></>}
           </div>
 
           <h4 className="">
@@ -521,15 +512,14 @@ export const SqPanel = () => {
           </div>
 
           <></>
-          
-           <h4>
+
+          <h4>
             {state === 'en' && <>Volatile Organic Compounds (VOC)</>}
             {state === 'de' && <>Volatile Organische Komponenten (VOC)</>}
-          </h4> 
-          
+          </h4>
+
           <div className="mb-2">
-         
-              <iframe
+            <iframe
               width="1150"
               height="450"
               src="https://www.youtube.com/embed/dW8N7CkfXO8"
@@ -538,60 +528,49 @@ export const SqPanel = () => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
-                            
           </div>
 
           <></>
-            
+
           <h4>
             {state === 'en' && <>Operating the display (demonstration)</>}
             {state === 'de' && <>Bedienung des Displays (Demonstration)</>}
           </h4>
           <div className="mb-2">
-          {state === 'en' && (
-              <> 
-              <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/3f__UixQJa0"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+            {state === 'en' && (
+              <>
+                <iframe
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/3f__UixQJa0"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
             {state === 'de' && (
               <>
                 <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/azuZXhZeEnw"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/azuZXhZeEnw"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
 
-{state === 'en' && (
-              <> 
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                
-              </>
-            )}
-            
+            {state === 'en' && <></>}
+            {state === 'de' && <></>}
           </div>
 
-          
           <div>
-            
-          <></>
-            
+            <></>
+
             <h4>
               {state === 'en' && (
                 <>What other radar features are on the roadmap?</>

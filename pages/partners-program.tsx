@@ -27,7 +27,6 @@ const Page = () => {
         pageTitle={pageTitle}
         pageUrl=""
       />
-      
 
       <section className="pt-4">
         <div className="container">

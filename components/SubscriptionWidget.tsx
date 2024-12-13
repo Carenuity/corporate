@@ -1,9 +1,26 @@
 import React, { useState } from 'react';
 import { NewsletterHostname } from '../utils/constants';
 
-type ISubscriptionWidget = { categoryId: number };
+type ISubscriptionWidget = {
+  categoryId: number;
+  openPositionsRef?: React.RefObject<HTMLInputElement>;
+  internshipRef?: React.RefObject<HTMLInputElement>;
+  openOfficeDayRef?: React.RefObject<HTMLInputElement>;
+  chipGlobeProductsRef?: React.RefObject<HTMLInputElement>;
+};
 
-const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({ categoryId }) => {
+type NewsletterPayload = {
+  categoryId: number;
+  email: string;
+};
+
+const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
+  categoryId,
+  chipGlobeProductsRef,
+  internshipRef,
+  openOfficeDayRef,
+  openPositionsRef,
+}) => {
   const [inProgress, setInProgress] = useState(false);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -16,35 +33,109 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({ categoryId }) => {
       return;
     }
 
-    // Send the email to the server
+    const newsletters: NewsletterPayload[] = [];
+
+    // Add to Home Challenge newsletter
+    newsletters.push({
+      categoryId,
+      email,
+    });
+
+    // Add to ChipGlobe Products newsletter
+    if (chipGlobeProductsRef?.current?.checked) {
+      newsletters.push({
+        categoryId: 11,
+        email,
+      });
+    }
+
+    // Add to Internship newsletter
+    if (internshipRef?.current?.checked) {
+      newsletters.push({
+        categoryId: 13,
+        email,
+      });
+    }
+
+    // Add to Open Office Day newsletter
+    if (openOfficeDayRef?.current?.checked) {
+      newsletters.push({
+        categoryId: 14,
+        email,
+      });
+    }
+
+    // Add to Open Positions newsletter
+    if (openPositionsRef?.current?.checked) {
+      newsletters.push({
+        categoryId: 12,
+        email,
+      });
+    }
+
+    // Send the emails to the server
     setTimeout(async () => {
       const url = `${NewsletterHostname}/v1/subscriptions`;
       try {
-        const response = await fetch(url, {
-          method: 'POST',
-          body: JSON.stringify({
-            categoryId,
-            email,
-          }),
-          headers: {
-            'Content-Type': 'application/json',
-          },
+        const newsletterRequests = newsletters.map((payload) => {
+          return fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(payload),
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          });
         });
 
-        const bodyText = await response.text();
+        const newsletterResponses = await Promise.all(newsletterRequests);
 
-        if (response.ok) {
-          const msg = JSON.parse(bodyText);
-          alert(msg.data);
-          setInProgress(false);
-          return;
-        }
-        console.error(bodyText);
-        alert(`Something went wrong! Kindly try again.`);
+        let hasError = false;
+        newsletterResponses.forEach(async (response, index) => {
+          if (!response.ok) {
+            const bodyText = await response.text();
+            console.error(bodyText);
+            hasError = true;
+          }
+
+          if (newsletterResponses.length - 1 === index) {
+            setInProgress(false);
+
+            if (hasError) {
+              alert(`Something went wrong! Kindly try again.`);
+            } else {
+              alert(
+                'Subscription(s) initiated successfully. Check your email for verification(s)'
+              );
+            }
+          }
+        });
+
+        // const response = await fetch(url, {
+        //   method: 'POST',
+        //   body: JSON.stringify({
+        //     categoryId,
+        //     email,
+        //   }),
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        // });
+
+        // const bodyText = await response.text();
+
+        // if (response.ok) {
+        //   const msg = JSON.parse(bodyText);
+        //   alert(msg.data);
+        //   setInProgress(false);
+        //   return;
+        // }
+        // console.error(bodyText);
+        // alert(`Something went wrong! Kindly try again.`);
       } catch (error) {
         alert(`Something went wrong! Kindly try again.`);
+        setInProgress(false);
       }
-      setInProgress(false);
+      // setInProgress(false);
     }, 0);
   };
 
@@ -83,8 +174,8 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({ categoryId }) => {
               width: '150px',
             }}
           >
-            {' '}
-            Subscribe
+            {inProgress && 'Subscribing...'}
+            {!inProgress && 'Subscribe'}
           </button>
         </label>
       </form>

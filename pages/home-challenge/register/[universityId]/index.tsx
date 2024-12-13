@@ -4,43 +4,45 @@ import {
   GetStaticProps,
   GetStaticPropsContext,
 } from 'next';
-import React from 'react';
+import React, { useRef } from 'react';
 import PageTitle from '../../../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
 import Link from 'next/link';
 
-type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw' | 'oauth' |'tum';
-
-const UniversitySubscriptionWidget: React.FC<{
+type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw' | 'oauth';
+type UniversitySubscriptionWidgetProps = {
   universityId: UniversityId;
-}> = ({ universityId }) => {
+  openPositionsRef: React.RefObject<HTMLInputElement>;
+  internshipRef: React.RefObject<HTMLInputElement>;
+  openOfficeDayRef: React.RefObject<HTMLInputElement>;
+  chipGlobeProductsRef: React.RefObject<HTMLInputElement>;
+};
+
+const UniversitySubscriptionWidget: React.FC<
+  UniversitySubscriptionWidgetProps
+> = ({ universityId, ...props }) => {
   switch (universityId) {
     case 'auth':
-      return <SubscriptionWidget categoryId={4} />;
+      return <SubscriptionWidget categoryId={4} {...props} />;
 
     case 'thws':
-      return <SubscriptionWidget categoryId={5} />;
+      return <SubscriptionWidget categoryId={5} {...props} />;
 
-      
     case 'tuk':
-      return <SubscriptionWidget categoryId={7} />;
+      return <SubscriptionWidget categoryId={7} {...props} />;
 
     case 'uop':
-      return <SubscriptionWidget categoryId={6} />;
+      return <SubscriptionWidget categoryId={6} {...props} />;
 
     case 'cuk':
-      return <SubscriptionWidget categoryId={8} />;
+      return <SubscriptionWidget categoryId={8} {...props} />;
 
     case 'haw':
-      return <SubscriptionWidget categoryId={9} />;
-    
-      case 'oauth':
-        return <SubscriptionWidget categoryId={10} />;
-    
-        case 'tum':
-          return <SubscriptionWidget categoryId={11} />;
+      return <SubscriptionWidget categoryId={9} {...props} />;
 
+    case 'oauth':
+      return <SubscriptionWidget categoryId={10} {...props} />;
   }
 };
 
@@ -59,10 +61,7 @@ const getUniversityName = ({
     case 'tuk':
       return 'Technical University of Kenya';
 
-      case 'tum':
-        return 'Technical University of Mombasa';
-    
-      case 'oauth':
+    case 'oauth':
       return 'Aristotle University of Thessaloniki';
 
     case 'uop':
@@ -73,12 +72,15 @@ const getUniversityName = ({
 
     case 'haw':
       return 'Hochschule für angewandte Wissenschaften Landshut';
-
-    
   }
 };
 
 const Page = ({ universityId }: { universityId: UniversityId }) => {
+  const chipGlobeProductsRef = useRef<HTMLInputElement>(null);
+  const internshipsRef = useRef<HTMLInputElement>(null);
+  const openPositionsRef = useRef<HTMLInputElement>(null);
+  const openOfficeDayRef = useRef<HTMLInputElement>(null);
+
   const pageTitle = `Registration for ${getUniversityName({ universityId })}`;
 
   return (
@@ -128,28 +130,61 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             <div className=" row mb-4" style={{ textAlign: 'center' }}>
               <div className="col-md-1 "></div>
               <div className="col-md-2 ">
-                <input type="checkbox" id="challenge" name="challenge" />
-                <label style={{ paddingLeft: '10px' }}>Home Challenge </label>
+                <input
+                  type="checkbox"
+                  id="challenge"
+                  name="challenge"
+                  readOnly
+                  checked
+                />
+                <label htmlFor={'challenge'} style={{ paddingLeft: '10px' }}>
+                  Home Challenge{' '}
+                </label>
               </div>
 
               <div className="col-md-3 ">
-                <input type="checkbox" id="v" name="products" />
-                <label style={{ paddingLeft: '5px' }}>
+                <input
+                  ref={chipGlobeProductsRef}
+                  type="checkbox"
+                  id="products"
+                  name="products"
+                />
+                <label htmlFor={'products'} style={{ paddingLeft: '5px' }}>
                   ChipGlobe products{' '}
                 </label>
               </div>
               <div className="col-md-2 ">
-                <input type="checkbox" id="positions" name="positions" />
-                <label style={{ paddingLeft: '10px' }}>Open positions </label>
+                <input
+                  ref={openPositionsRef}
+                  type="checkbox"
+                  id="positions"
+                  name="positions"
+                />
+                <label htmlFor={'positions'} style={{ paddingLeft: '10px' }}>
+                  Open positions{' '}
+                </label>
               </div>
               <div className="col-md-2 ">
-                <input type="checkbox" id="internship" name="internship" />
-                <label style={{ paddingLeft: '10px' }}>Internship </label>{' '}
+                <input
+                  ref={internshipsRef}
+                  type="checkbox"
+                  id="internship"
+                  name="internship"
+                />
+                <label htmlFor={'internship'} style={{ paddingLeft: '10px' }}>
+                  Internship{' '}
+                </label>{' '}
               </div>
-              {/* <div className="col-md-2 "></div> */}
               <div className="col-md-2 ">
-                <input type="checkbox" id="positions" name="positions" />
-                <label style={{ paddingLeft: '10px' }}>Open Office Day </label>
+                <input
+                  ref={openOfficeDayRef}
+                  type="checkbox"
+                  id="office"
+                  name="office"
+                />
+                <label htmlFor={'office'} style={{ paddingLeft: '10px' }}>
+                  Open Office Day{' '}
+                </label>
               </div>
             </div>
 
@@ -160,7 +195,13 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             >
               <u>Fill in Carenuity student survey & questionnaire</u>
             </Link>
-            <UniversitySubscriptionWidget universityId={universityId} />
+            <UniversitySubscriptionWidget
+              universityId={universityId}
+              chipGlobeProductsRef={chipGlobeProductsRef}
+              internshipRef={internshipsRef}
+              openOfficeDayRef={openOfficeDayRef}
+              openPositionsRef={openPositionsRef}
+            />
           </div>
         </div>
       </section>
