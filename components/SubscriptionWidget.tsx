@@ -7,6 +7,7 @@ type ISubscriptionWidget = {
   internshipRef?: React.RefObject<HTMLInputElement>;
   openOfficeDayRef?: React.RefObject<HTMLInputElement>;
   chipGlobeProductsRef?: React.RefObject<HTMLInputElement>;
+  homeChallengeRef?: React.RefObject<HTMLInputElement>;
 };
 
 type NewsletterPayload = {
@@ -20,6 +21,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
   internshipRef,
   openOfficeDayRef,
   openPositionsRef,
+  homeChallengeRef,
 }) => {
   const [inProgress, setInProgress] = useState(false);
 
@@ -35,11 +37,21 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
 
     const newsletters: NewsletterPayload[] = [];
 
-    // Add to Home Challenge newsletter
-    newsletters.push({
-      categoryId,
-      email,
-    });
+    /* add to Home Challenge newsletter if home challenge checkbox ref exists and is checked
+     * or
+     * if the ref does not exist
+     */
+    if (homeChallengeRef?.current?.checked) {
+      newsletters.push({
+        categoryId,
+        email,
+      });
+    } else if (!homeChallengeRef) {
+      newsletters.push({
+        categoryId,
+        email,
+      });
+    }
 
     // Add to ChipGlobe Products newsletter
     if (chipGlobeProductsRef?.current?.checked) {
@@ -71,6 +83,11 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
         categoryId: 12,
         email,
       });
+    }
+
+    if (newsletters.length === 0) {
+      alert('Nothing selected! Make a selection to proceed.');
+      return;
     }
 
     // Send the emails to the server
@@ -143,7 +160,6 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
     <>
       <form
         method="post"
-        className=" mb-20"
         style={{ textAlign: 'center' }}
         onSubmit={handleSubmit}
       >
@@ -178,6 +194,11 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
             {!inProgress && 'Subscribe'}
           </button>
         </label>
+
+        <p style={{ textAlign: 'center' }} className="mt-2">
+          <strong>Note:</strong> Please check your spam folder for the
+          subscription email should it be flagged as spam.
+        </p>
       </form>
     </>
   );

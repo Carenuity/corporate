@@ -25,6 +25,7 @@ type UniversitySubscriptionWidgetProps = {
   internshipRef: React.RefObject<HTMLInputElement>;
   openOfficeDayRef: React.RefObject<HTMLInputElement>;
   chipGlobeProductsRef: React.RefObject<HTMLInputElement>;
+  homeChallengeRef: React.RefObject<HTMLInputElement>;
 };
 
 const UniversitySubscriptionWidget: React.FC<
@@ -94,6 +95,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
   const internshipsRef = useRef<HTMLInputElement>(null);
   const openPositionsRef = useRef<HTMLInputElement>(null);
   const openOfficeDayRef = useRef<HTMLInputElement>(null);
+  const homeChallengeRef = useRef<HTMLInputElement>(null);
 
   const pageTitle = `Registration for ${getUniversityName({ universityId })}`;
 
@@ -137,19 +139,26 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               Subscribe here!
             </h2>
             <p style={{ textAlign: 'center' }}>
-              <strong>Note:</strong> Please check your spam folder for the
-              subscription email should it be flagged as spam.
+              <strong>
+                Please select the newsletter(s) you would like to subscribe to
+                below.
+                <br />
+                <em>
+                  (You will be required to verify your subscription for each of
+                  your selection)
+                </em>
+              </strong>
             </p>
 
             <div className=" row mb-4" style={{ textAlign: 'center' }}>
               <div className="col-md-1 "></div>
               <div className="col-md-2 ">
                 <input
+                  ref={homeChallengeRef}
                   type="checkbox"
                   id="challenge"
                   name="challenge"
-                  readOnly
-                  checked
+                  defaultChecked
                 />
                 <label htmlFor={'challenge'} style={{ paddingLeft: '10px' }}>
                   Home Challenge{' '}
@@ -202,6 +211,15 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               </div>
             </div>
 
+            <UniversitySubscriptionWidget
+              universityId={universityId}
+              chipGlobeProductsRef={chipGlobeProductsRef}
+              internshipRef={internshipsRef}
+              openOfficeDayRef={openOfficeDayRef}
+              openPositionsRef={openPositionsRef}
+              homeChallengeRef={homeChallengeRef}
+            />
+
             <Link
               href="/home-challenge/student-survey"
               className="text-success mb-4"
@@ -209,13 +227,6 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             >
               <u>Fill in Carenuity student survey & questionnaire</u>
             </Link>
-            <UniversitySubscriptionWidget
-              universityId={universityId}
-              chipGlobeProductsRef={chipGlobeProductsRef}
-              internshipRef={internshipsRef}
-              openOfficeDayRef={openOfficeDayRef}
-              openPositionsRef={openPositionsRef}
-            />
           </div>
         </div>
       </section>
