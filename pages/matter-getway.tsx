@@ -30,7 +30,8 @@ const Page = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <h4>Connecting the green USB cable to the connector.</h4>
+            <h4>The SQ-Connector acts as Matter Gateway, a core part of the Matter protocol, a unifying, IP-based connectivity standard developed by the Connectivity Standards Alliance (CSA). Matter aims to ensure secure, reliable, and seamless communication between smart home devices, mobile apps, and cloud services. The Matter Gateway specifically facilitates the integration of devices using different communication protocols, such as Zigbee, Bluetooth, and Wi-Fi, into a unified Matter ecosystem. 
+This standard helps reduce fragmentation in the smart home market by enabling interoperability between devices from various manufacturers, ensuring they work together smoothly. The Matter Gateway plays a crucial role in bridging different technologies and ensuring a cohesive smart home experience.</h4>
             <div className="col-lg-6 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
