@@ -3,7 +3,7 @@ import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 
 const Page = () => {
-  const pageTitle = 'Matter getway';
+  const pageTitle = 'Matter Gateway';
 
   return (
     <>
