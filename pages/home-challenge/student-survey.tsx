@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 const Page = () => {
-  const pageTitle = 'CUK Home Challenge';
+  const pageTitle = 'Survey - Home Challenge';
   return (
     <>
       <Head>
