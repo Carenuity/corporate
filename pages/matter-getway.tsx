@@ -1,10 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 import PageTitle from '../components/PageTitle';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Page = () => {
   const pageTitle = 'Matter getway';
+
   return (
     <>
       <Head>
@@ -30,50 +30,40 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-          <h4>
-        Connecting the green USB cable to the connector.
-        </h4>
-        <div className="col-lg-6 mb-4">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-        src="/img/content/kickstarter/connection.PNG"
-        className=" wow fadeInUp"
-        data-wow-delay="100ms"
-        alt="..."
-        style={{
-            visibility: 'visible',
-            animationDelay: '100ms',
-            animationName: 'fadeIn',
-        }}
-        />
+            <h4>Connecting the green USB cable to the connector.</h4>
+            <div className="col-lg-6 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/kickstarter/connection.PNG"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className="col-lg-6 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/kickstarter/connection02.PNG"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+          </div>
         </div>
-        <div className="col-lg-6 mb-4">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-        src="/img/content/kickstarter/connection02.PNG"
-        className=" wow fadeInUp"
-        data-wow-delay="100ms"
-        alt="..."
-        style={{
-            visibility: 'visible',
-            animationDelay: '100ms',
-            animationName: 'fadeIn',
-        }}
-        />
-        </div>
-                </div>
-                </div>
-            </section>
-            </>
-        );
-        };
+      </section>
+    </>
+  );
+};
 
-        export default Page;
-
-
-
-
-
-
-
-
+export default Page;

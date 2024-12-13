@@ -47,13 +47,13 @@ const Page = () => {
           by carenuity
         </div>
         <p style={{ textAlign: 'center' }}>
-        <Link
-              href={'./oauth/press'}
-              className={'btn btn-lg btn-success rounded-pill'}
-            >
-              <span className="small">Press Materials</span>
-            </Link>
-            </p>
+          <Link
+            href={'./oauth/press'}
+            className={'btn btn-lg btn-success rounded-pill'}
+          >
+            <span className="small">Press Materials</span>
+          </Link>
+        </p>
       </section>
     </>
   );

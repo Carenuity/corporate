@@ -35,16 +35,14 @@ const Page = () => {
             width="100%"
             height="600px"
           ></iframe>
-
-
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGXd3dexws&#x2F;_IBBPymffbCYYqtPYfTVpA&#x2F;view?utm_content=DAGXd3dexws&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
-target="_blank" 
-rel="noopener">
-    TUM Home Challenge</a> 
-    {' '} by carenuity
-
-
-          
+          <a
+            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGXd3dexws&#x2F;_IBBPymffbCYYqtPYfTVpA&#x2F;view?utm_content=DAGXd3dexws&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TUM Home Challenge
+          </a>{' '}
+          by carenuity
         </div>
       </section>
     </>

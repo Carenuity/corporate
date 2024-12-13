@@ -10,7 +10,15 @@ import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
 import Link from 'next/link';
 
-type UniversityId = 'uop' | 'tuk' | 'thws' | 'auth' | 'cuk' | 'haw' | 'oauth';
+type UniversityId =
+  | 'uop'
+  | 'tuk'
+  | 'thws'
+  | 'auth'
+  | 'cuk'
+  | 'haw'
+  | 'oauth'
+  | 'tum';
 type UniversitySubscriptionWidgetProps = {
   universityId: UniversityId;
   openPositionsRef: React.RefObject<HTMLInputElement>;
@@ -43,6 +51,9 @@ const UniversitySubscriptionWidget: React.FC<
 
     case 'oauth':
       return <SubscriptionWidget categoryId={10} {...props} />;
+
+    case 'tum':
+      return <SubscriptionWidget categoryId={15} {...props} />;
   }
 };
 
@@ -62,7 +73,7 @@ const getUniversityName = ({
       return 'Technical University of Kenya';
 
     case 'oauth':
-      return 'Aristotle University of Thessaloniki';
+      return 'Open AUTH Home Challenge';
 
     case 'uop':
       return 'University of the Peloponnese';
@@ -72,6 +83,9 @@ const getUniversityName = ({
 
     case 'haw':
       return 'Hochschule für angewandte Wissenschaften Landshut';
+
+    case 'tum':
+      return 'Technical University of Mombasa';
   }
 };
 
@@ -225,7 +239,16 @@ export const getStaticPaths: GetStaticPaths = async (
   // eslint-disable-next-line no-unused-vars
   context: GetStaticPathsContext
 ) => {
-  const universityIds = ['uop', 'tuk', 'thws', 'auth', 'cuk', 'haw', 'oauth', 'tum']; // Object.keys(microcontrollers);
+  const universityIds = [
+    'uop',
+    'tuk',
+    'thws',
+    'auth',
+    'cuk',
+    'haw',
+    'oauth',
+    'tum',
+  ]; // Object.keys(microcontrollers);
 
   const ids = universityIds.map((key: string) => ({
     params: { universityId: key.toString() },

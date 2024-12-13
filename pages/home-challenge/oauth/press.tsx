@@ -62,7 +62,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            
+
             <div
               className="col-lg-3 "
               style={{
