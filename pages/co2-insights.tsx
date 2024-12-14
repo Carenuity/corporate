@@ -97,7 +97,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </h3>
                 This method separates the different components of a gas mixture
                 using a column and a carrier gas. The separated components are
-                then detected by a detector, such as a flame ionization detector
+                then detected by a detector, such as a flame ionization detector 
                 <strong>(FID)</strong> or a thermal conductivity detector{' '}
                 <strong>(TCD)</strong>. The CO2 concentration is calculated
                 based on the peak area and the calibration curve. This method is
