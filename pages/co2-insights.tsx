@@ -70,16 +70,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
 
               <div className="pe-lg-1-9 mb-3">
                 <h3 className="mb-2 h5">
-                  Non-Dispersive Infrared <strong>(NDIR)</strong> e.g.{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://amzn.eu/d/28nFdEt"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {' '}
-                    TechnolineWL1030
-                  </a>
+                  Non-Dispersive Infrared <strong>(NDIR)</strong> e.g. TechnolineWL1030{' '}
                 </h3>
                 This method uses an infrared light source that passes through a
                 sample of air. The CO<sub>2</sub> molecules in the air absorb
