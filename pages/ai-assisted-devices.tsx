@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'AI-Assisted Devices';
+  const pageTitle = 'AI-Assisted Devices at your fingertip';
   return (
     <>
       <Head>
@@ -31,7 +31,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <div className="row">
             <h4>
-              AI-assisted sensors
+              AI-assisted devices
               {/* Intelligent Radar Device for Preventing Sudden Infant Death
               Syndrome (SIDS) */}
             </h4>
@@ -49,7 +49,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p> */}
 
             <p>
-              AI-assisted sensors are devices that combine sensor technology
+              AI-assisted Carenuity devices combine cutting edge sensor technology
               with artificial intelligence to gather, process, and analyze data
               from their environment. These sensors can detect various physical
               parameters such as temperature, motion, light, and more, and use
@@ -57,7 +57,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p>
 
             <div>
-              <h4>Our Sensors / Featured Sensors</h4>
+              <h4>Our featured Sensors</h4>
               <ul>
                 <li>
                   <h5>Radar Sensor</h5>{' '}
