@@ -80,6 +80,7 @@ export const servicesUrls: Service = {
       name: 'SQ-Matter Getway',
       url: '/matter-getway',
       icon: 'fa-solid fa-plug',
+      
     },
     {
       name: 'Evaluate at Home',

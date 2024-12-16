@@ -35,9 +35,9 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
             </span>
           </div>
           <div className="row">
-            <div className="col-lg-8 mt-n1-9">
-              <div className="pe-lg-1-9 mb-3">
-                <h3 className="mb-2 h4">Introduction</h3>
+            <div className='mb-4'>
+             
+                <h4 className="mb-2 h4">Introduction</h4>
                 Carbon dioxide (CO<sub>2</sub>) is a greenhouse gas that affects
                 the climate and the quality of life on Earth. Measuring the CO
                 <sub>2</sub> level in the air is important for various
@@ -48,10 +48,34 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 concentration. Some of the common methods are:
               </div>
 
-              <div className="pe-lg-1-9 mb-3">
-                <h3 className="mb-2 h5">
+              <div className='mb-4 col-lg-6'>
+              <div
+                className="e-card "
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  height: '600px',
+                  
+                }}
+              >
+                
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/co2/Cavity Ring-Down Spectroscopy (CRDS).png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  width:'560px',
+                  animationName: 'fadeIn',
+                }}
+              />
+            
+                <div style={{padding:'20px'}}>
+                <h4 className="mb-2 h5">
                   Cavity Ring-Down Spectroscopy <strong>(CRDS)</strong>
-                </h3>
+                </h4>
                 This method uses a laser beam that is reflected inside a cavity
                 with mirrors. The laser light is absorbed by the CO2 molecules
                 in the cavity, and the time it takes for the light to decay is
@@ -67,11 +91,37 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </a>
                 .
               </div>
-
-              <div className="pe-lg-1-9 mb-3">
-                <h3 className="mb-2 h5">
+              
+              </div>
+              </div>
+                <div className='mb-4 col-lg-6'>
+              <div
+                className="e-card  "
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  height: '600px',
+                }}
+              >
+                <div >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/co2/Non-Dispersive Infrared (NDIR).png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  width:'560px',
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+                <div style={{padding:'20px'}}>
+                <h4 className="mb-2 h5">
                   Non-Dispersive Infrared <strong>(NDIR)</strong> e.g. TechnolineWL1030{' '}
-                </h3>
+                </h4>
                 This method uses an infrared light source that passes through a
                 sample of air. The CO<sub>2</sub> molecules in the air absorb
                 some of the infrared light, and the remaining light is detected
@@ -90,11 +140,38 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </a>
                 .
               </div>
-
-              <div className="pe-lg-1-9 mb-3">
-                <h3 className="mb-2 h5">
+              </div>
+               </div>
+               <div className='mb-4 col-lg-6'>
+              <div
+                className="e-card "
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  height: '650px',
+                  
+                }}
+              >
+                <div >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/co2/Gas Chromatography (GC).png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  animationName: 'fadeIn',
+                  width:'560px',
+                }}
+              />
+            </div>
+                
+                <div style={{padding:'20px'}}>
+                <h4 className="mb-2 h5">
                   Gas Chromatography <strong>(GC)</strong>
-                </h3>
+                </h4>
                 This method separates the different components of a gas mixture
                 using a column and a carrier gas. The separated components are
                 then detected by a detector, such as a flame ionization detector{' '} 
@@ -113,13 +190,41 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </a>
                 .
               </div>
-
-              <div className="pe-lg-1-9 mb-3">
-                <h3 className="mb-2 h5">
+                
+                
+              </div>
+              </div>
+              <div className='mb-4 col-lg-6'>
+              <div
+                className="e-card "
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  height: '650px',
+                  
+                }}
+              >
+                <div >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/co2/Photoacoustic Spectroscopy (PAS) e.g. Infineon PAS CO2.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  animationName: 'fadeIn',
+                  width:'560px',
+                }}
+              />
+            </div>
+                <div style={{padding:'20px'}}>
+                <h4 className="mb-2 h5">
                   Photoacoustic Spectroscopy <strong>(PAS)</strong> e.g.
                   Infineon PAS CO
                   <sub>2</sub>
-                </h3>
+                </h4>
                 This method uses a modulated laser beam to excite the CO2
                 molecules and measure the resulting sound waves.{' '}
                 <a
@@ -154,11 +259,24 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </a>
                 .
               </div>
-
-              <div className="pe-lg-1-9 mb-3">
-                <h3 className="mb-2 h5">
+                
+                
+              </div>
+              </div>
+              <div className='mb-4 col-lg-12'>
+              <div
+                className="e-card "
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  maxHeight: '1000px',
+                 padding:'20px'
+                }}
+              >
+                <div className='row'>
+                <div className='col-lg-8' style={{}}>
+                <h4 className="mb-2 h5">
                   Metal Oxide <strong>(MOX)</strong> e.g. Carenuity SQ-Panel
-                </h3>
+                </h4>
                 This method uses a metal oxide layer that changes its electrical
                 resistance when it interacts with gas molecules. This method is
                 based on the detection of volatile organic compounds (VOCs) that
@@ -198,6 +316,34 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </a>
                 .
               </div>
+              <div className='col-lg-4'>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/co2/Metal Oxide (MOX) e.g. Carenuity SQ-Panel.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  animationName: 'fadeIn',
+                 
+                }}
+              />
+            </div>
+                </div>
+              </div>
+              </div>
+              
+
+              
+
+              
+
+              
+
+             
 
               <div className="pe-lg-1-9 mb-3">
                 <h3 className="mb-2 h5">Conclusion</h3>
@@ -206,8 +352,8 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 disadvantages, and the choice of the best method depends on the
                 application and the requirements.
               </div>
-            </div>
-            <div className="col-lg-4">
+            
+            <div className="col-lg-">
               <div>
                 <p
                   className="wow fadeIn"

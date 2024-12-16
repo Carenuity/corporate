@@ -107,7 +107,7 @@ const Page = () => {
             loop={true}
             autoPlay={true}
             muted
-            className="mt-1-9 wow fadeInUp w-100"
+            className="mt-1-9 mb-4 wow fadeInUp w-100"
             data-wow-delay="100ms"
             style={{
               visibility: 'visible',
