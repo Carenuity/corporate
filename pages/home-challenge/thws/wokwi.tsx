@@ -1,3 +1,23 @@
+import React from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
+import PageTitle from '../../../components/PageTitle';
+
+const Page = ({ isMobile }: { isMobile: boolean }) => {
+  const pageTitle = 'WOKWI Results from THWS Students';
+  return (
+    <>
+      <Head>
+        <meta
+          name="keywords"
+          content="Carenuity ChipGlobe Electronics Embedded Systems"
+        />
+        <meta
+          name="description"
+          content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
+        />
+        <title>{pageTitle}</title>
+      </Head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
