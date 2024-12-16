@@ -1,6 +1,3 @@
-Here is the content formatted as HTML:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
