@@ -60,7 +60,7 @@ const Page = () => {
                   it ideal for applications in smart homes, industrial
                   monitoring, and precision agriculture.
                 </p>
-                <SolutionWidget solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
+                
               </div>
               <div className="col-lg-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -116,6 +116,7 @@ const Page = () => {
               animationName: 'fadeIn',
             }}
           />
+          <SolutionWidget solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
 
           <div id="subscribe" className="my-5" style={{ textAlign: 'center' }}>
             <h2>Product Wishlist</h2>
