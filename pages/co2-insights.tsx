@@ -48,7 +48,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 concentration. Some of the common methods are:
               </div>
 
-              <div className='mb-4 col-lg-6'>
+              <div className='mb-4 col-lg-5'>
               <div
                 className="e-card "
                 style={{
@@ -94,7 +94,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
               
               </div>
               </div>
-                <div className='mb-4 col-lg-6'>
+                <div className='mb-4 col-lg-5'>
               <div
                 className="e-card  "
                 style={{
@@ -142,7 +142,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               </div>
                </div>
-               <div className='mb-4 col-lg-6'>
+               <div className='mb-6 col-lg-5'>
               <div
                 className="e-card "
                 style={{
@@ -163,7 +163,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   animationDelay: '100ms',
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
                   animationName: 'fadeIn',
-                  width:'560px',
+                  
                 }}
               />
             </div>
@@ -194,7 +194,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 
               </div>
               </div>
-              <div className='mb-4 col-lg-6'>
+              <div className='mb-6 col-lg-5'>
               <div
                 className="e-card "
                 style={{
@@ -263,7 +263,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 
               </div>
               </div>
-              <div className='mb-4 col-lg-12'>
+              <div className='mb-4 '>
               <div
                 className="e-card "
                 style={{
@@ -273,6 +273,22 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               >
                 <div className='row'>
+                <div className='col-lg-4'>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/co2/Metal Oxide (MOX) e.g. Carenuity SQ-Panel.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
+                  animationName: 'fadeIn',
+                 
+                }}
+              />
+            </div>
                 <div className='col-lg-8' style={{}}>
                 <h4 className="mb-2 h5">
                   Metal Oxide <strong>(MOX)</strong> e.g. Carenuity SQ-Panel
@@ -316,22 +332,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 </a>
                 .
               </div>
-              <div className='col-lg-4'>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/co2/Metal Oxide (MOX) e.g. Carenuity SQ-Panel.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 90%)',
-                  animationName: 'fadeIn',
-                 
-                }}
-              />
-            </div>
+              
                 </div>
               </div>
               </div>
