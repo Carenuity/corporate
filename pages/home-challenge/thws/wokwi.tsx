@@ -102,3 +102,4 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
     <p>Jonas's project displays temperature and humidity readings from a DHT22 sensor on a 0.96-inch OLED screen using a C3-Mini microcontroller. This project is ideal for creating compact and efficient environmental monitoring systems.</p>
 </body>
 </html>
+export default Page;
