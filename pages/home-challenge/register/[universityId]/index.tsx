@@ -4,7 +4,7 @@ import {
   GetStaticProps,
   GetStaticPropsContext,
 } from 'next';
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PageTitle from '../../../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../../../components/SubscriptionWidget';
@@ -96,8 +96,21 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
   const openPositionsRef = useRef<HTMLInputElement>(null);
   const openOfficeDayRef = useRef<HTMLInputElement>(null);
   const homeChallengeRef = useRef<HTMLInputElement>(null);
+  const [surveyQuery, setSurveyQuery] = useState('');
 
-  const pageTitle = `Registration for ${getUniversityName({ universityId })}`;
+  const school = getUniversityName({ universityId });
+  const pageTitle = `Registration for ${school}`;
+
+  useEffect(() => {
+    if (!window.document) {
+      return;
+    }
+    // Set the query parameters.
+    const query = new URLSearchParams();
+    query.set('school', school);
+    setSurveyQuery(query.toString());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
@@ -221,7 +234,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             />
 
             <Link
-              href="/home-challenge/student-survey"
+              href={`/home-challenge/student-survey?${surveyQuery}`}
               className="text-success mb-4"
               style={{ textAlign: 'center' }}
             >
