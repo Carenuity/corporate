@@ -60,7 +60,6 @@ const Page = () => {
                   it ideal for applications in smart homes, industrial
                   monitoring, and precision agriculture.
                 </p>
-                
               </div>
               <div className="col-lg-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}

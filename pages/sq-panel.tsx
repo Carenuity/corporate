@@ -512,13 +512,11 @@ export const SqPanel = () => {
           </div>
 
           <h4>
-          {state === 'en' && <>CO2 Measurements & Insights</>}
-          {state === 'de' && <>CO2 Messmethoden und mehr</>}
-          https://carenuity.com/co2-insights/
+            {state === 'en' && <>CO2 Measurements & Insights</>}
+            {state === 'de' && <>CO2 Messmethoden und mehr</>}
+            https://carenuity.com/co2-insights/
           </h4>
           <></>
-
-          
 
           <h4>
             {state === 'en' && <>Volatile Organic Compounds (VOC)</>}
