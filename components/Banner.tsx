@@ -25,16 +25,6 @@ const Banner = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state]);
 
-  useEffect(() => {
-    if (hasKickStarter) {
-      if (kickstarterRef.current) {
-        kickstarterRef.current.click();
-        alert('Got here');
-      }
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
     <>
       <section
