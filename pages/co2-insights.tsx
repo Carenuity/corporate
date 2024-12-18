@@ -345,6 +345,8 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
 
             <div className="col-lg-">
               <div>
+              <p>
+              </p>
                 <p
                   className="wow fadeIn"
                   data-wow-delay="300ms"
