@@ -196,12 +196,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
             <iframe
-            loading="lazy"
-            className="mb-4"
-            src="https://www.canva.com/design/DAGZXDtiuow/MkQupxfpCixuz8NGVmZ37Q/view?embed"
-            width="100%"
-            height="600px"
-          ></iframe>
+              loading="lazy"
+              className="mb-4"
+              src="https://www.canva.com/design/DAGZXDtiuow/MkQupxfpCixuz8NGVmZ37Q/view?embed"
+              width="100%"
+              height="600px"
+            ></iframe>
             <div>
               <ul>
                 <li>
@@ -266,8 +266,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-          
-          
         </div>
       </section>
     </>

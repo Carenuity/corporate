@@ -58,36 +58,32 @@ export const SqPanel = () => {
         {/* kickstarter */}
         <div className="row">
           <div className="mb-2">
-          {state === 'en' && (
-              <> 
-              <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/gFsb_utAGrg"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+            {state === 'en' && (
+              <>
+                <iframe
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/gFsb_utAGrg"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
             {state === 'de' && (
               <>
                 <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/5rwa3OWmB0Q"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/5rwa3OWmB0Q"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
-
-
-           
-            
           </div>
 
           <h4 className="">
@@ -512,8 +508,7 @@ export const SqPanel = () => {
             </div>
           </div>
           <div className="mb-2">
-         
-              <iframe
+            <iframe
               width="1150"
               height="450"
               src="https://www.youtube.com/embed/dW8N7CkfXO8"
@@ -522,46 +517,38 @@ export const SqPanel = () => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
-            
-            
-
-
-            
           </div>
           <h4>
             {state === 'en' && <>Operating the display (demonstration)</>}
             {state === 'de' && <>Bedienung des Displays (Demonstration)</>}
           </h4>
           <div className="mb-2">
-          {state === 'en' && (
-              <> 
-              <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/3f__UixQJa0"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+            {state === 'en' && (
+              <>
+                <iframe
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/3f__UixQJa0"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
             {state === 'de' && (
               <>
                 <iframe
-              width="1150"
-              height="450"
-              src="https://www.youtube.com/embed/azuZXhZeEnw"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+                  width="1150"
+                  height="450"
+                  src="https://www.youtube.com/embed/azuZXhZeEnw"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </>
             )}
-
-           
-            
           </div>
           <div>
             <h4>
@@ -903,42 +890,42 @@ export const SqPanel = () => {
                 </>
               )}
             </p>
-            
+
             <h4>
-            {state === 'en' && (
-              <>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/img/content/kickstarter/long-range2.jpeg"
-              className=" wow fadeInUp"
-              data-wow-delay="100ms"
-              alt="..."
-              style={{
-                visibility: 'visible',
-                animationDelay: '100ms',
-                height:"700px",
-                animationName: 'fadeIn',
-              }}
-            />
-            </>
-            )}
-            {state === 'de' && (
-              <>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/img/content/kickstarter/long-range.PNG"
-              className=" wow fadeInUp"
-              data-wow-delay="100ms"
-              alt="..."
-              style={{
-                visibility: 'visible',
-                animationDelay: '100ms',
-                animationName: 'fadeIn',
-              }}
-            />
-              </>
-            )}
-          </h4>
+              {state === 'en' && (
+                <>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/kickstarter/long-range2.jpeg"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      height: '700px',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/kickstarter/long-range.PNG"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                </>
+              )}
+            </h4>
           </div>
           <h4>
             {state === 'en' && (
@@ -1142,33 +1129,32 @@ export const SqPanel = () => {
               </li>
             </ul>
             <div className="mb-2">
-            {state === 'en' && (
-              <> 
-              <iframe
-                width="1150"
-                height="450"
-                src="https://www.youtube.com/embed/paRa-FVySM8s"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                <iframe
-                width="1150"
-                height="450"
-                src="https://www.youtube.com/embed/kLtLz_UDwzY"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-              </>
-            )}
-              
+              {state === 'en' && (
+                <>
+                  <iframe
+                    width="1150"
+                    height="450"
+                    src="https://www.youtube.com/embed/paRa-FVySM8s"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  <iframe
+                    width="1150"
+                    height="450"
+                    src="https://www.youtube.com/embed/kLtLz_UDwzY"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
+                </>
+              )}
             </div>
             <div>
               <h4>

@@ -335,13 +335,13 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <p style={{ textAlign: 'center' }}>
-          <Link
-            href={'/sq-panel'}
-            className={'btn btn-lg btn-success rounded-pill'}
-          >
-            <span className="small">Learn more</span>
-          </Link>
-        </p>
+              <Link
+                href={'/sq-panel'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Learn more</span>
+              </Link>
+            </p>
 
             <div className="col-lg-">
               <div>
