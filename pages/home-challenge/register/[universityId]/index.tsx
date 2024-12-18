@@ -153,8 +153,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
             </h2>
             <p style={{ textAlign: 'center' }}>
               <strong>
-                Please select the newsletter(s) you would like to subscribe to
-                below.
+                Please select your interests you would like to follow up.
                 <br />
                 <em>
                   (You will be required to verify your subscription for each of

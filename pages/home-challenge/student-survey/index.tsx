@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { NewsletterHostname } from '../../../utils/constants';
+import { useRouter } from 'next/router';
 
 type SurveyPayload = {
   firstName?: string;
@@ -25,6 +26,8 @@ const Page = () => {
   const [showCustomWoo, setShowCustomWoo] = useState(false);
   const [showWhyOpenOffice, setShowWhyOpenOffice] = useState(false);
   const [showCustomIotInterest, setShowCustomIotInterest] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     if (!window.document) {
@@ -44,7 +47,7 @@ const Page = () => {
   }, []);
 
   const handleSubmit = async () => {
-    const url = `${NewsletterHostname}/student-survey`;
+    const url = `${NewsletterHostname}/v1/student-survey`;
     try {
       const response = await fetch(url, {
         method: 'POST',
@@ -57,9 +60,13 @@ const Page = () => {
       if (response.ok) {
         alert('Thank you for your submission!');
         setData({});
+        return router.back();
       }
+
+      alert('Something went wrong! Kindly try again.');
     } catch (error) {
       alert('Something went wrong! Kindly try again.');
+      console.log(error);
     }
   };
 
@@ -161,7 +168,33 @@ const Page = () => {
                   className="form"
                   onSubmit={async (e) => {
                     e.preventDefault();
+                    setLoading(true);
+
+                    if (!data.IoTInterests || data.IoTInterests?.length === 0) {
+                      alert(
+                        'Please select at least one IoT industry interest!'
+                      );
+                      setLoading(false);
+                      return;
+                    }
+                    if (!data.IoTTools || data.IoTTools?.length === 0) {
+                      alert(
+                        'Please select at least one IoT-related tools you use!'
+                      );
+                      setLoading(false);
+                      return;
+                    }
+                    if (
+                      !data.careerInterests ||
+                      data.careerInterests?.length === 0
+                    ) {
+                      alert('Please select at least one career interest!');
+                      setLoading(false);
+                      return;
+                    }
+
                     await handleSubmit();
+                    setLoading(false);
                   }}
                 >
                   <div className="row">
@@ -262,31 +295,6 @@ const Page = () => {
                         />
                       </div>
                     </div>
-                    {/* <div className="col-md-6">
-                      <div>
-                        <label>
-                          <strong>University *</strong>
-                        </label>
-                      </div>
-                      <div className="mb-4">
-                        <input
-                          type="text"
-                          id="university"
-                          name="university"
-                          placeholder="Enter your university"
-                          className={' inputt'}
-                          style={{
-                            backgroundColor: 'white',
-                            textAlign: 'left',
-                            width: '300px',
-                            border: '1px solid #ccc',
-                            borderRadius: '10px',
-                            paddingLeft: '20px',
-                          }}
-                          required
-                        ></input>
-                      </div>
-                    </div> */}
 
                     <div className="col-md-6">
                       <div>
@@ -423,12 +431,13 @@ const Page = () => {
                             <div key={index}>
                               <input
                                 type="checkbox"
-                                id="text"
+                                id={`interestedInOpenOffice-${index}`}
                                 name="text"
                                 onChange={(e) => {
                                   if (e.target.checked) {
                                     if (interest.toLowerCase() === 'other') {
                                       setShowCustomWoo(true);
+                                      return;
                                     }
 
                                     setData((prevData) => ({
@@ -443,6 +452,7 @@ const Page = () => {
                                   } else {
                                     if (interest.toLowerCase() === 'other') {
                                       setShowCustomWoo(false);
+                                      return;
                                     }
 
                                     setData((prevData) => ({
@@ -455,7 +465,10 @@ const Page = () => {
                                   }
                                 }}
                               />
-                              <label style={{ paddingLeft: '10px' }}>
+                              <label
+                                htmlFor={`interestedInOpenOffice-${index}`}
+                                style={{ paddingLeft: '10px' }}
+                              >
                                 {interest}
                               </label>
                             </div>
@@ -512,7 +525,7 @@ const Page = () => {
                         <div key={index}>
                           <input
                             type="checkbox"
-                            id="text"
+                            id={`ioTInterests-${index}`}
                             name="text"
                             onChange={(e) => {
                               if (e.target.checked) {
@@ -532,6 +545,11 @@ const Page = () => {
                               } else {
                                 if (interest.toLowerCase() === 'other') {
                                   setShowCustomIotInterest(false);
+
+                                  setData((prevData) => ({
+                                    ...prevData,
+                                    whatToLearnMoreInIoT: undefined,
+                                  }));
                                 }
 
                                 setData((prevData) => ({
@@ -543,7 +561,10 @@ const Page = () => {
                               }
                             }}
                           />
-                          <label style={{ paddingLeft: '10px' }}>
+                          <label
+                            htmlFor={`ioTInterests-${index}`}
+                            style={{ paddingLeft: '10px' }}
+                          >
                             {interest}
                           </label>
                         </div>
@@ -573,6 +594,7 @@ const Page = () => {
                                 borderRadius: '10px',
                                 paddingLeft: '20px',
                               }}
+                              required
                               onChange={(e) => {
                                 setData((prevData) => ({
                                   ...prevData,
@@ -596,7 +618,7 @@ const Page = () => {
                         <div key={index}>
                           <input
                             type="checkbox"
-                            id="text"
+                            id={`careerInterests-${index}`}
                             name="text"
                             onChange={(e) => {
                               if (e.target.checked) {
@@ -620,91 +642,15 @@ const Page = () => {
                               }
                             }}
                           />
-                          <label style={{ paddingLeft: '10px' }}>
+                          <label
+                            htmlFor={`careerInterests-${index}`}
+                            style={{ paddingLeft: '10px' }}
+                          >
                             {interest}
                           </label>
                         </div>
                       ))}
                     </div>
-
-                    {/* <div className="mb-3">
-                      <p>
-                        <strong>
-                          5. Carenuity&apos;s Home Challenge Initiative. Are you
-                          familiar with Carenuity&apos;s Home Challenge event
-                          focused on IoT devices for the hospitality sector?{' '}
-                        </strong>
-                      </p>
-                      <div className="row mb-3">
-                        <div className="col-md-4">
-                          <input type="radio" id="yes" name="yes" />
-                          <label style={{paddingLeft:'10px'}}> Yes </label>
-                        </div>
-                        <div className="col-md-4">
-                          <input type="radio" id="no" name="no" />
-                          <label style={{paddingLeft:'10px'}}> No </label>
-                        </div>
-                      </div>
-                      <p><strong>
-                        If yes, what aspect of the Home Challenge interests you
-                        the most? (Select all that apply) </strong>
-                      </p>
-
-                      <div>
-                        <input type="checkbox" id="text" name="text"></input>
-                        <label style={{paddingLeft:'10px'}}>
-                          Developing innovative IoT solutions for the
-                          hospitality industry.
-                        </label>
-                      </div>
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
-                          Working with hardware platforms like Raspberry Pi and
-                          Arduino.
-                        </label>
-                      </div>
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
-                          Collaborating with other students and professionals on
-                          real-world projects.
-                        </label>
-                      </div>
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}>
-                          
-                          Competing for prizes and recognition.
-                        </label>
-                      </div>
-                      <div>
-                        <input type="checkbox" id="text" name="text" />
-                        <label style={{paddingLeft:'10px'}}> Other </label>
-                      </div>
-
-                      <div className="mb-4">
-                        <input
-                          type="text"
-                          id="field"
-                          name="field"
-                          placeholder=""
-                          className={' inputt'}
-                          style={{
-                            backgroundColor: 'white',
-                            textAlign: 'left',
-                            width: '700px',
-                            height: '80px',
-                            border: '1px solid #ccc',
-                            borderRadius: '10px',
-                            paddingLeft: '20px',
-                          }}
-                          required
-                        ></input>
-                      </div>
-                    </div> */}
 
                     <div className="mb-3">
                       <p>
@@ -719,7 +665,7 @@ const Page = () => {
                         <div key={index}>
                           <input
                             type="checkbox"
-                            id="text"
+                            id={`ioTTools-${index}`}
                             name="text"
                             onChange={(e) => {
                               if (e.target.checked) {
@@ -742,30 +688,16 @@ const Page = () => {
                               }
                             }}
                           />
-                          <label style={{ paddingLeft: '10px' }}>{tool}</label>
+                          <label
+                            htmlFor={`ioTTools-${index}`}
+                            style={{ paddingLeft: '10px' }}
+                          >
+                            {tool}
+                          </label>
                         </div>
                       ))}
                     </div>
 
-                    {/* <div className="mb-3">
-                      <p>
-                        <strong>
-                          6. Future involvement. Would you like to receive
-                          updates and newsletters from ChipGlobe about future
-                          events, internships, and innovations?
-                        </strong>
-                      </p>
-                      <div className="row">
-                        <div className="col-md-4">
-                          <input type="radio" id="yes" name="yes" />
-                          <label style={{ paddingLeft: '10px' }}> Yes </label>
-                        </div>
-                        <div className="col-md-4">
-                          <input type="radio" id="no" name="no" />
-                          <label style={{ paddingLeft: '10px' }}> No </label>
-                        </div>
-                      </div>
-                    </div> */}
                     <div className="mb-3">
                       <p>
                         <strong>
@@ -777,7 +709,7 @@ const Page = () => {
                         <div className="col-md-4">
                           <input
                             type="radio"
-                            id="yes"
+                            id="yes-challenge"
                             name="yes"
                             onChange={(e) => {
                               if (e.target.checked) {
@@ -788,12 +720,18 @@ const Page = () => {
                               }
                             }}
                           />
-                          <label style={{ paddingLeft: '10px' }}> Yes </label>
+                          <label
+                            htmlFor={'yes-challenge'}
+                            style={{ paddingLeft: '10px' }}
+                          >
+                            {' '}
+                            Yes{' '}
+                          </label>
                         </div>
                         <div className="col-md-4">
                           <input
                             type="radio"
-                            id="no"
+                            id="no-challenge"
                             name="no"
                             onChange={(e) => {
                               if (e.target.checked) {
@@ -804,7 +742,13 @@ const Page = () => {
                               }
                             }}
                           />
-                          <label style={{ paddingLeft: '10px' }}> No </label>
+                          <label
+                            htmlFor={'no-challenge'}
+                            style={{ paddingLeft: '10px' }}
+                          >
+                            {' '}
+                            No{' '}
+                          </label>
                         </div>
                       </div>
                     </div>
@@ -846,13 +790,14 @@ const Page = () => {
 
                     <button
                       type="submit"
+                      disabled={loading}
                       className={'btn btn-lg btn-success '}
                       style={{
                         width: '300px',
                       }}
                     >
-                      {' '}
-                      Submit
+                      {!loading && 'Submit'}
+                      {loading && 'Submitting...'}
                     </button>
                   </div>
                 </form>
