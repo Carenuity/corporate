@@ -58,35 +58,36 @@ export const SqPanel = () => {
         {/* kickstarter */}
         <div className="row">
           <div className="mb-2">
-            {state === 'en' && (
-              <>
-                <iframe
-                  width="1150"
-                  height="450"
-                  src="https://www.youtube.com/embed/gFsb_utAGrg"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+          {state === 'en' && (
+              <> 
+              <iframe
+              width="1150"
+              height="450"
+              src="https://www.youtube.com/embed/gFsb_utAGrg"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
               </>
             )}
             {state === 'de' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
-                  src="https://www.youtube.com/embed/5rwa3OWmB0Q"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+              width="1150"
+              height="450"
+              src="https://www.youtube.com/embed/5rwa3OWmB0Q"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
               </>
             )}
 
-            {state === 'en' && <></>}
-            {state === 'de' && <></>}
+
+           
+            
           </div>
 
           <h4 className="">
@@ -510,23 +511,9 @@ export const SqPanel = () => {
               </p>
             </div>
           </div>
-
-          <h4>
-          {state === 'en' && <>CO2 Measurements & Insights</>}
-          {state === 'de' && <>CO2 Messmethoden und mehr</>}
-          https://carenuity.com/co2-insights/
-          </h4>
-          <></>
-
-          
-
-          <h4>
-            {state === 'en' && <>Volatile Organic Compounds (VOC)</>}
-            {state === 'de' && <>Volatile Organische Komponenten (VOC)</>}
-          </h4>
-
           <div className="mb-2">
-            <iframe
+         
+              <iframe
               width="1150"
               height="450"
               src="https://www.youtube.com/embed/dW8N7CkfXO8"
@@ -535,49 +522,48 @@ export const SqPanel = () => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
+            
+            
+
+
+            
           </div>
-
-          <></>
-
           <h4>
             {state === 'en' && <>Operating the display (demonstration)</>}
             {state === 'de' && <>Bedienung des Displays (Demonstration)</>}
           </h4>
           <div className="mb-2">
-            {state === 'en' && (
-              <>
-                <iframe
-                  width="1150"
-                  height="450"
-                  src="https://www.youtube.com/embed/3f__UixQJa0"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+          {state === 'en' && (
+              <> 
+              <iframe
+              width="1150"
+              height="450"
+              src="https://www.youtube.com/embed/3f__UixQJa0"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
               </>
             )}
             {state === 'de' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
-                  src="https://www.youtube.com/embed/azuZXhZeEnw"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+              width="1150"
+              height="450"
+              src="https://www.youtube.com/embed/azuZXhZeEnw"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
               </>
             )}
 
-            {state === 'en' && <></>}
-            {state === 'de' && <></>}
+           
+            
           </div>
-
           <div>
-            <></>
-
             <h4>
               {state === 'en' && (
                 <>What other radar features are on the roadmap?</>
@@ -917,7 +903,28 @@ export const SqPanel = () => {
                 </>
               )}
             </p>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+            
+            <h4>
+            {state === 'en' && (
+              <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/kickstarter/long-range2.jpeg"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                height:"700px",
+                animationName: 'fadeIn',
+              }}
+            />
+            </>
+            )}
+            {state === 'de' && (
+              <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/img/content/kickstarter/long-range.PNG"
               className=" wow fadeInUp"
@@ -929,6 +936,9 @@ export const SqPanel = () => {
                 animationName: 'fadeIn',
               }}
             />
+              </>
+            )}
+          </h4>
           </div>
           <h4>
             {state === 'en' && (
@@ -1132,7 +1142,22 @@ export const SqPanel = () => {
               </li>
             </ul>
             <div className="mb-2">
+            {state === 'en' && (
+              <> 
               <iframe
+                width="1150"
+                height="450"
+                src="https://www.youtube.com/embed/paRa-FVySM8s"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                <iframe
                 width="1150"
                 height="450"
                 src="https://www.youtube.com/embed/kLtLz_UDwzY"
@@ -1141,6 +1166,9 @@ export const SqPanel = () => {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
+              </>
+            )}
+              
             </div>
             <div>
               <h4>
@@ -3579,7 +3607,7 @@ export const SqPanel = () => {
               </div>
             </div>
             <div>
-              <h4>SQ-Panel Kickstarter - December 2024</h4>
+              <h4>SQ-Panel Kickstarter - November 2024</h4>
               <p>
                 We have a major upgrade for the SQ-Panel following the proposals
                 from our community. To get early news, insights and potentially

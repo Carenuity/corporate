@@ -194,6 +194,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </p>
               </div>
             </div>
+            <iframe
+            loading="lazy"
+            className="mb-4"
+            src="https://www.canva.com/design/DAGZXDtiuow/MkQupxfpCixuz8NGVmZ37Q/view?embed"
+            width="100%"
+            height="600px"
+          ></iframe>
             <div>
               <ul>
                 <li>
@@ -258,11 +265,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-          {/* <iframe
-            src="https://carenuityblog.wixsite.com/embedded-ai-journal/post/using-the-bgt60ltr11-radar-shield2go-with-esp32-for-ai-applications"
-            width={800}
-            height={485}
-          /> */}
+          
+          
         </div>
       </section>
     </>
