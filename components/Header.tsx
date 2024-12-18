@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useContext, useEffect, useRef } from 'react';
+import { useContext, useRef } from 'react';
 import Menu from './Menu';
 import { StoreContext } from './context/Store';
 import { Overpass } from '@next/font/google';
@@ -22,14 +22,14 @@ const Header = ({
     logoUrl = state.urls.logos[1];
   }
 
-  useEffect(() => {
-    if (installBtnRef && installBtnRef.current) {
-      const isKickStarterPage = document.querySelector('#kickstarter');
-      if (isKickStarterPage) {
-        installBtnRef.current.classList.remove('d-none');
-      }
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (installBtnRef && installBtnRef.current) {
+  //     const isKickStarterPage = document.querySelector('#kickstarter');
+  //     if (isKickStarterPage) {
+  //       installBtnRef.current.classList.remove('d-none');
+  //     }
+  //   }
+  // }, []);
 
   return (
     <>
@@ -82,7 +82,8 @@ const Header = ({
                             <span>Shop</span>
                           </Link> */}
 
-                          <div ref={installBtnRef} className="d-none">
+                          <div ref={installBtnRef}>
+                            {/* className="d-none" */}
                             <Link
                               href={'/evaluate-at-home'}
                               className={
