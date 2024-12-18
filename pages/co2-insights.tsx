@@ -354,9 +354,9 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 >
-                  Carenuity is a sensor device specialist with a portfolio of 24
-                  devices, which you get with an enclosure as well as customized
-                  for your needs.
+                  Carenuity specializes in sensor devices, offering a portfolio
+                  of 24 sensor products that come with enclosures and can be customized
+                  on various levels to meet your specific needs. Find popular examples here:
                 </p>
 
                 <div className="row mb-1-9">
