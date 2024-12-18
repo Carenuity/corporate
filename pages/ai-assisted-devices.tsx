@@ -49,11 +49,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p> */}
 
             <p>
-              AI-assisted Carenuity devices combine cutting edge sensor technology
-              with artificial intelligence to gather, process, and analyze data
-              from their environment. These sensors can detect various physical
-              parameters such as temperature, motion, light, and more, and use
-              AI to make intelligent decisions based on the data collected.
+              AI-assisted Carenuity devices combine cutting edge sensor
+              technology with artificial intelligence to gather, process, and
+              analyze data from their environment. These sensors can detect
+              various physical parameters such as temperature, motion, light,
+              and more, and use AI to make intelligent decisions based on the
+              data collected.
             </p>
 
             <div>
