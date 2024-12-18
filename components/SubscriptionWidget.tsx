@@ -165,34 +165,42 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       >
         <label
           className={' rounded-pill'}
-          style={{ backgroundColor: '#D3D3D3' }}
+         //style={{ backgroundColor: '#D3D3D3' }}
           htmlFor="subscriber-email"
         >
+          <div className='row'>
+          <div className='col-lg-6' >
           <input
             type="email"
             id="subscriber-email"
             name="subscriber-email"
             placeholder="Enter your email"
-            className={'btn rounded-pill'}
+            className={'btn rounded-pill  '}
             style={{
               backgroundColor: '#D3D3D3',
               textAlign: 'left',
-              width: '450px',
+              height: '48px',
+              width:"400px",
               border: 'none',
             }}
             required
           ></input>
+          </div>
+              
+              <div className='col-lg-3'>
           <button
             disabled={inProgress}
             type="submit"
             className={'btn btn-lg btn-success rounded-pill'}
             style={{
               width: '150px',
+             
             }}
           >
             {inProgress && 'Subscribing...'}
             {!inProgress && 'Subscribe'}
           </button>
+          </div></div>
         </label>
 
         <p style={{ textAlign: 'center' }} className="mt-2">
