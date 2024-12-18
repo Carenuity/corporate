@@ -1,7 +1,31 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { LanguageSwitchContext } from './context/LanguageSwitch';
 
-const Kickstarter = () => {
+const KickStarter = () => {
+  const defaultUrl =
+    'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a';
+  const { state } = useContext(LanguageSwitchContext);
+  const [url, setUrl] = useState(defaultUrl);
+
+  useEffect(() => {
+    if (!window.document) {
+      return;
+    }
+
+    switch (state) {
+      case 'de':
+        setUrl(
+          'https://www.kickstarter.com/projects/sq-panel/endlich-ein-einfach-bedienbares-sensor-display-in-matter'
+        );
+        break;
+
+      case 'en':
+        setUrl(defaultUrl);
+        break;
+    }
+  }, [state]);
+
   return (
     <>
       <div
@@ -64,21 +88,29 @@ const Kickstarter = () => {
               </div>
               <div className="position-absolute top-0 start-0 end-0 d-flex justify-content-center">
                 <Link
-                  href={
-                    'https://www.kickstarter.com/projects/sq-panel/endlich-ein-einfach-bedienbares-sensor-display-in-matter'
-                  }
+                  href={url}
                   target="_blank"
                   className="btn btn-lg btn-success rounded-pill shadow"
                 >
-                  Mehr Infos
+                  {state === 'en' && 'More info'}
+                  {state === 'de' && 'Mehr Infos'}
                 </Link>
               </div>
               <div className="ps-3 fw-bold fs-3 hstack gap-2">
                 <span className="border-success border-bottom text-uppercase text-nowrap">
                   SQ-PANEL
                 </span>{' '}
-                <span className="text-success">
-                  Ein Invest in ✨ Gesundheit!
+                <span className="text-success small text-center">
+                  {state === 'en' && (
+                    <>
+                      An investment <br /> in health! ✨
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Ein Invest in <br /> Gesundheit! ✨
+                    </>
+                  )}
                 </span>
               </div>
 
@@ -132,4 +164,4 @@ const Kickstarter = () => {
   );
 };
 
-export default Kickstarter;
+export default KickStarter;
