@@ -339,7 +339,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 href={'/sq-panel'}
                 className={'btn btn-lg btn-success rounded-pill'}
               >
-                <span className="small">Learn more</span>
+                <span className="small">Learn more about the SQ-Panel</span>
               </Link>
             </p>
 
