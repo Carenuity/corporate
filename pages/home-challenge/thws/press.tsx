@@ -105,7 +105,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       </h6>
       <p>
         Felix&apos;s project is a recreation of the classic &quot;Simon
-        Says&quot; game using a C3-Mini microcontroller. The game tests memory
+        Says&quot; game using a C3-Mini micro-controller. The game tests memory
         by requiring players to repeat increasingly complex sequences of lights
         and sounds. This project demonstrates the use of LEDs and sound modules
         to create an engaging interactive game.
@@ -289,7 +289,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         project is useful for synchronizing clocks and devices over a network.
       </p>
      </div>
-          {/*  */}
+          
      <div className='col-lg-4 mb-4'>
      <h6>
         <a className="text-decoration-underline"
@@ -439,10 +439,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       </p>
       </div>
 
- 
-      </div>
-
-            <div
+      <div
               className="col-lg-3 "
               style={{
                 paddingTop: '300px',
@@ -471,6 +468,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 )}
               </p>
             </div>
+      </div>
+
+            
           </div>
         </div>
       </section>
