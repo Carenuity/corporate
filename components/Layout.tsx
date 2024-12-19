@@ -13,6 +13,7 @@ import { StoreContext } from './context/Store';
 import { handleMediaQueryChanges } from '../utils/common';
 import Head from 'next/head';
 import { Overpass } from '@next/font/google';
+import KickStarter from './KickStarter';
 
 // const inter = Inter({ subsets: ['latin'] });
 const overpass = Overpass({ subsets: ['latin'], weight: ['100', '200'] });
@@ -98,6 +99,7 @@ const Layout = ({ children }: { children: any }) => {
         url={state.urls.benefitsVideo}
         show={false}
       />
+      <KickStarter />
 
       {/* <!-- SCROLL TO TOP
     ================================================== --> */}

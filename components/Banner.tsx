@@ -18,7 +18,7 @@ const Banner = ({
 
   useEffect(() => {
     if (hasKickStarter) {
-      if (kickstarterRef.current && state === 'de') {
+      if (kickstarterRef.current /* && state === 'de'*/) {
         kickstarterRef.current.click();
       }
     }

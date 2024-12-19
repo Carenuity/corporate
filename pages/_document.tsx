@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import Kickstarter from '../components/Kickstarter';
 
 export default function Document() {
   return (
@@ -16,7 +15,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Kickstarter />
+        {/* <KickStarter /> */}
       </body>
     </Html>
   );

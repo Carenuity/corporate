@@ -77,8 +77,8 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-plug',
     },
     {
-      name: 'SQ-Matter Getway',
-      url: '/matter-getway',
+      name: 'SQ-Matter Gateway',
+      url: '/matter-gateway',
       icon: 'fa-solid fa-plug',
     },
     {
@@ -97,6 +97,11 @@ export const servicesUrls: Service = {
       name: 'SQ-Multi-Home & Office value adder (launch 2025)',
       url: '',
       icon: 'fas fa-building',
+    },
+    {
+      name: 'Kickstarter Campaign',
+      url: 'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a',
+      icon: 'fa-solid fa-bell',
     },
   ],
 };

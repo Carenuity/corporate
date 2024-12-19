@@ -274,7 +274,14 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
               These are the main methods to measure the CO<sub>2</sub> level in
               the air. Each method has its own advantages and disadvantages, and
               the choice of the best method depends on the application and the
-              requirements.
+              requirements. To discover more about the innovative features and
+              benefits of the SQ-Panel, click the button below and dive into the
+              details! Measuring carbon dioxide with the stationary SQ-Panel is
+              a convenient and practical way to ensure accurate readings. What
+              makes it stand out from the above techniques from a usability
+              perspective is its compact, digital, and multi-gas capabilities,
+              which provide outputs such as equivalent CO2 (eCO2), total VOCs
+              (TVOC), and air quality index (AQI)
             </div>
 
             <p style={{ textAlign: 'center' }}>
@@ -282,12 +289,13 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                 href={'/sq-panel'}
                 className={'btn btn-lg btn-success rounded-pill'}
               >
-                <span className="small">Learn more</span>
+                <span className="small">Learn more about the SQ-Panel</span>
               </Link>
             </p>
 
             <div className="col-lg-">
               <div>
+                <p></p>
                 <p
                   className="wow fadeIn"
                   data-wow-delay="300ms"
@@ -297,9 +305,10 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 >
-                  Carenuity is a sensor device specialist with a portfolio of 24
-                  devices, which you get with an enclosure as well as customized
-                  for your needs.
+                  Carenuity specializes in sensor devices, offering a portfolio
+                  of 24 sensor products that come with enclosures and can be
+                  customized on various levels to meet your specific needs. Find
+                  popular examples here:
                 </p>
 
                 <div className="row mb-1-9">
