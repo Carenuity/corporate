@@ -1,30 +1,30 @@
 import Link from 'next/link';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const KickStarter = () => {
   const defaultUrl =
     'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a';
   const { state } = useContext(LanguageSwitchContext);
-  const [url, setUrl] = useState(defaultUrl);
+  // const [url, setUrl] = useState(defaultUrl);
 
-  useEffect(() => {
-    if (!window.document) {
-      return;
-    }
+  // useEffect(() => {
+  //   if (!window.document) {
+  //     return;
+  //   }
 
-    switch (state) {
-      case 'de':
-        setUrl(
-          'https://www.kickstarter.com/projects/sq-panel/endlich-ein-einfach-bedienbares-sensor-display-in-matter'
-        );
-        break;
+  //   switch (state) {
+  //     case 'de':
+  //       setUrl(
+  //         'https://www.kickstarter.com/projects/sq-panel/endlich-ein-einfach-bedienbares-sensor-display-in-matter'
+  //       );
+  //       break;
 
-      case 'en':
-        setUrl(defaultUrl);
-        break;
-    }
-  }, [state]);
+  //     case 'en':
+  //       setUrl(defaultUrl);
+  //       break;
+  //   }
+  // }, [state]);
 
   return (
     <>
@@ -88,7 +88,7 @@ const KickStarter = () => {
               </div>
               <div className="position-absolute top-0 start-0 end-0 d-flex justify-content-center">
                 <Link
-                  href={url}
+                  href={defaultUrl}
                   target="_blank"
                   className="btn btn-lg btn-success rounded-pill shadow"
                 >
