@@ -76,16 +76,11 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   This method uses a laser beam that is reflected inside a
                   cavity with mirrors. The laser light is absorbed by the CO2
                   molecules in the cavity, and the time it takes for the light
-                  to decay is measured.{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://gml.noaa.gov/ccgg/about/co2_measurements.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  to decay is measured.
+                 
                     This method is very precise and accurate, and can measure
                     CO2 levels from ambient to high concentrations
-                  </a>
+               
                   .
                 </div>
               </div>
@@ -125,16 +120,10 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   detected by a sensor. The amount of light absorbed is
                   proportional to the CO<sub>2</sub>
                   concentration in the air. This method is simple and
-                  inexpensive, but less accurate than CRDS.{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://gml.noaa.gov/ccgg/about/co2_measurements.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  inexpensive, but less accurate than CRDS.
                     It is widely used for indoor air quality monitoring and
                     industrial applications
-                  </a>
+                
                   .
                 </div>
               </div>
@@ -174,15 +163,9 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   conductivity detector <strong>(TCD)</strong>. The CO2
                   concentration is calculated based on the peak area and the
                   calibration curve. This method is accurate and sensitive, but
-                  requires more complex equipment and calibration.{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://gml.noaa.gov/ccgg/about/co2_measurements.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  requires more complex equipment and calibration.
                     It is used for laboratory analysis and research purposes
-                  </a>
+                 
                   .
                 </div>
               </div>
@@ -219,36 +202,18 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   </h4>
                   This method uses a modulated laser beam to excite the CO2
                   molecules and measure the resulting sound waves.{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://www.digikey.de/de/product-highlight/s/sciosense/ens160-air-quality-sensor"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  
                     This method is very small, accurate, and low-power, and can
                     be used for smart home and building applications45
-                  </a>
-                  .{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                 
+                  
                     Infineon&apos;s XENSIV™ PAS CO2 sensor is the first real
                     CO2 sensor in an SMD package, and it can measure CO2
                     concentrations from 0 to 10,000 ppm5
-                  </a>
-                  .{' '}
-                  <a
-                    className="text-decoration-underline"
-                    href="https://www.mouser.de/new/sciosense/sciosense-ens160-sensors/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  
                     It also meets the criteria of the WELL Building Standard,
                     which is a global rating system for healthy buildings
-                  </a>
+                  
                   .
                 </div>
               </div>
@@ -286,40 +251,18 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                     electrical resistance when it interacts with gas molecules.
                     This method is based on the detection of volatile organic
                     compounds (VOCs) that are correlated with CO<sub>2</sub>{' '}
-                    levels.{' '}
-                    <a
-                      className="text-decoration-underline"
-                      href="https://www.infineon.com/cms/en/product/sensor/co2-sensors/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    levels.
                       This method is compact, digital, and multi-gas, and can
                       provide outputs such as equivalent CO<sub>2</sub>
                       (eCO<sub>2</sub>), total VOCs (TVOC), and air quality
                       index (AQI)78
-                    </a>
-                    .{' '}
-                    <a
-                      className="text-decoration-underline"
-                      href="https://www.infineon.com/cms/en/product/sensor/co2-sensors/pasco2v01/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
                       ScioSense&apos;sENS160 is a digital metal oxide multi-gas
                       sensor that uses four sensor elements and an independent
                       hotplate control to detect a wide range of VOCs and
                       oxidizing gases with superior sensitivity
-                    </a>
-                    .{' '}
-                    <a
-                      className="text-decoration-underline"
-                      href="https://www.infineon.com/cms/en/product/sensor/co2-sensors/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
                       It is ideal for home appliances, IoT devices, building
                       automation, and HVAC applications
-                    </a>
+                   
                     .
                   </div>
                 </div>
