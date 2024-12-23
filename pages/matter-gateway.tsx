@@ -30,7 +30,8 @@ const Page = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <h4>
+            <h4>SQ-Matter</h4>
+            <p>
               The SQ-Connector acts as Matter Gateway, a core part of the Matter
               protocol, a unifying, IP-based connectivity standard developed by
               the Connectivity Standards Alliance (CSA). Matter aims to ensure
@@ -44,7 +45,7 @@ const Page = () => {
               ensuring they work together smoothly. The Matter Gateway plays a
               crucial role in bridging different technologies and ensuring a
               cohesive smart home experience.
-            </h4>
+            </p>
             <div className="col-lg-6 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
