@@ -1,10 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
+import { useContext, useEffect } from 'react';
+import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Link from 'next/link';
 import PageTitle from '../../../components/PageTitle';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Press Materials';
+  const { state } = useContext(LanguageSwitchContext);
   return (
     <>
       <Head>
@@ -439,11 +442,104 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       </p>
       </div>
 
+      <h4 >
+                {state === 'en' && (
+                  <>
+                   The interaction between makers and users 
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                   Die Wechselwirkung zwischen Makern und Nutzern 
+                  </>
+                )}
+              </h4>
+
+      <p >
+                {state === 'en' && (
+                  <>
+                  The interaction between makers and users is of great importance. Users provide valuable feedback and 
+                  new ideas and use cases that enable makers to improve their products and adapt them to new needs. As 
+                  Carenuity, we support this interaction by providing platforms and resources to facilitate exchange 
+                  between makers and users. The goal is to work together to create innovative and user-friendly devices.  
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Die Wechselwirkung zwischen Makern und Nutzern ist von großer Bedeutung. Nutzer liefern wertvolles 
+                    Feedback und neue Ideen und Anwendungsfälle, die es Makern ermöglichen, ihre Produkte zu verbessern 
+                    und an neue Bedürfnisse anzupassen. Als Carenuity unterstützen wir diese Interaktion, indem wir 
+                    Plattformen und Ressourcen bereitstellen, um den Austausch zwischen Makern und Nutzern zu erleichtern. Das Ziel ist es, gemeinsam innovative und benutzerfreundliche Geräte zu schaffen.
+                  </>
+                )}
+              </p>
+
+              <h4 >
+                {state === 'en' && (
+                  <>
+                  The role of the <strong>Solution Builders</strong> in the development of innovative devices
+                   
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Die Rolle des <strong>Solution Builders</strong> bei der Entwicklung innovativer Geräte 
+                  </>
+                )}
+              </h4>
+
+      <p >
+                {state === 'en' && (
+                  <>
+                  The developers on the Solution Builder Platform share their solutions and are an essential component 
+                  in this process. They bring specialized expertise and experience to develop tailored solutions that 
+                  meet users' specific needs. Through their expertise, they help to further optimize the interaction 
+                  between makers and users and advance the development of innovative products.  
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                   Die Entwickler auf der Solution Builder Platform teilen ihre Lösungen und sind eine wesentliche 
+                   Komponente in diesem Prozess. Sie bringen spezialisierte Fachkenntnisse und Erfahrung ein, um 
+                   maßgeschneiderte Lösungen zu entwickeln, die den spezifischen Anforderungen der Nutzer gerecht werden. Durch ihre Expertise tragen sie dazu bei, die Interaktion zwischen Makern und Nutzern weiter zu optimieren und die Entwicklung innovativer Produkte voranzutreiben. 
+                  </>
+                )}
+              </p>
+
+              <h4 >
+                {state === 'en' && (
+                  <>
+                  This WhatsApp-Group "THWS Solution Builder" is open for THWS staff & students to 
+                  discuss and refine their solutions:
+                   
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Diese WhatsApp-Gruppe „THWS Solution Builder“ steht THWS-Mitarbeitern und -Studenten offen, 
+                    um ihre Lösungen zu diskutieren und zu verfeinern: 
+                  </>
+                )}
+              </h4>
+              <div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/press-materials-for-thws/whatsapp.jpeg"
+              className="mt-1-9 wow fadeInUp img-fluid"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+              </div>
+
+                 
       <div
               className="col-lg-3 "
-              style={{
-                paddingTop: '300px',
-              }}
+              
             >
               <p>
                 {!isMobile && (
