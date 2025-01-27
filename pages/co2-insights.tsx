@@ -76,12 +76,9 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   This method uses a laser beam that is reflected inside a
                   cavity with mirrors. The laser light is absorbed by the CO2
                   molecules in the cavity, and the time it takes for the light
-                  to decay is measured.
-                 
-                    This method is very precise and accurate, and can measure
-                    CO2 levels from ambient to high concentrations
-               
-                  .
+                  to decay is measured. This method is very precise and
+                  accurate, and can measure CO2 levels from ambient to high
+                  concentrations .
                 </div>
               </div>
             </div>
@@ -120,10 +117,8 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   detected by a sensor. The amount of light absorbed is
                   proportional to the CO<sub>2</sub>
                   concentration in the air. This method is simple and
-                  inexpensive, but less accurate than CRDS.
-                    It is widely used for indoor air quality monitoring and
-                    industrial applications
-                
+                  inexpensive, but less accurate than CRDS. It is widely used
+                  for indoor air quality monitoring and industrial applications
                   .
                 </div>
               </div>
@@ -163,10 +158,8 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   conductivity detector <strong>(TCD)</strong>. The CO2
                   concentration is calculated based on the peak area and the
                   calibration curve. This method is accurate and sensitive, but
-                  requires more complex equipment and calibration.
-                    It is used for laboratory analysis and research purposes
-                 
-                  .
+                  requires more complex equipment and calibration. It is used
+                  for laboratory analysis and research purposes .
                 </div>
               </div>
             </div>
@@ -201,20 +194,14 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                     <sub>2</sub>
                   </h4>
                   This method uses a modulated laser beam to excite the CO2
-                  molecules and measure the resulting sound waves.{' '}
-                  
-                    This method is very small, accurate, and low-power, and can
-                    be used for smart home and building applications45
-                 
-                  
-                    Infineon&apos;s XENSIV™ PAS CO2 sensor is the first real
-                    CO2 sensor in an SMD package, and it can measure CO2
-                    concentrations from 0 to 10,000 ppm5
-                  
-                    It also meets the criteria of the WELL Building Standard,
-                    which is a global rating system for healthy buildings
-                  
-                  .
+                  molecules and measure the resulting sound waves. This method
+                  is very small, accurate, and low-power, and can be used for
+                  smart home and building applications45 Infineon&apos;s
+                  XENSIV™ PAS CO2 sensor is the first real CO2 sensor in an SMD
+                  package, and it can measure CO2 concentrations from 0 to
+                  10,000 ppm5 It also meets the criteria of the WELL Building
+                  Standard, which is a global rating system for healthy
+                  buildings .
                 </div>
               </div>
             </div>
@@ -251,19 +238,15 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                     electrical resistance when it interacts with gas molecules.
                     This method is based on the detection of volatile organic
                     compounds (VOCs) that are correlated with CO<sub>2</sub>{' '}
-                    levels.
-                      This method is compact, digital, and multi-gas, and can
-                      provide outputs such as equivalent CO<sub>2</sub>
-                      (eCO<sub>2</sub>), total VOCs (TVOC), and air quality
-                      index (AQI)78
-                      ScioSense&apos;sENS160 is a digital metal oxide multi-gas
-                      sensor that uses four sensor elements and an independent
-                      hotplate control to detect a wide range of VOCs and
-                      oxidizing gases with superior sensitivity
-                      It is ideal for home appliances, IoT devices, building
-                      automation, and HVAC applications
-                   
-                    .
+                    levels. This method is compact, digital, and multi-gas, and
+                    can provide outputs such as equivalent CO<sub>2</sub>
+                    (eCO<sub>2</sub>), total VOCs (TVOC), and air quality index
+                    (AQI)78 ScioSense&apos;sENS160 is a digital metal oxide
+                    multi-gas sensor that uses four sensor elements and an
+                    independent hotplate control to detect a wide range of VOCs
+                    and oxidizing gases with superior sensitivity It is ideal
+                    for home appliances, IoT devices, building automation, and
+                    HVAC applications .
                   </div>
                 </div>
               </div>
