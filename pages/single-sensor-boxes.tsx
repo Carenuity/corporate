@@ -134,6 +134,22 @@ const Index = () => {
               to learn more on EnviroSence 680
             </p>
           </div>
+          <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <video
+              src="/videos/content/Weather.mp4"
+              loop={true}
+              autoPlay={true}
+              className="mt-1-9 wow fadeInUp w-100"
+              data-wow-delay="100ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+            
+          </div>
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
         <div className="row mb-1-9">
