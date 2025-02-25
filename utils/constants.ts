@@ -110,7 +110,7 @@ export const servicesUrls: Service = {
     },
     {
       name: 'Home Challenge',
-      url: 'https://carenuity.com/home-challenge',
+      url: '/home-challenge',
       icon: 'fa-solid fa-bell',
     },
     // {
