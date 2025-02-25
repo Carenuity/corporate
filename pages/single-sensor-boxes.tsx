@@ -148,7 +148,6 @@ const Index = () => {
                 animationName: 'fadeIn',
               }}
             />
-            
           </div>
         </div>
         {/* <h3 className="h5">Build your own device within seconds:</h3>
