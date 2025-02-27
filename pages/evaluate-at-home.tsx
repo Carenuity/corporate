@@ -416,19 +416,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   customize your device, we offer 3D-printables on Thingiverse.
                 </p>
               </div>
-              <div className='mb-4'>
-              <video
-              src="/videos/content/sq-panel-3d.mp4"
-              loop={true}
-              autoPlay={true}
-              className="mt-1-9 wow fadeInUp w-100"
-              data-wow-delay="100ms"
-              style={{
-                visibility: 'visible',
-                animationDelay: '100ms',
-                animationName: 'fadeIn',
-              }}
-            />
+              <div className="mb-4">
+                <video
+                  src="/videos/content/sq-panel-3d.mp4"
+                  loop={true}
+                  autoPlay={true}
+                  className="mt-1-9 wow fadeInUp w-100"
+                  data-wow-delay="100ms"
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
               </div>
 
               <div className="col-md-4 mb-2">
@@ -657,8 +657,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </p>
                 </div>
               </div>
-              
-              <div >
+
+              <div>
                 <h6>You can download the STL from here:</h6>
                 <ul style={{ listStyleType: 'square' }}>
                   <li>Prototype S: Triple-Adapter</li>
@@ -666,9 +666,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <li>Protoype XL: Large</li>
                 </ul>
               </div>
-              
-             
-              
             </div>
           </div>
         </div>

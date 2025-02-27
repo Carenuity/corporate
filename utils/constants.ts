@@ -40,12 +40,12 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™ | Solution Builder | Home challenge',
+      name: 'C3-Mini™ Applications',
       url: '/c3-mini',
       icon: 'fas fa-code',
     },
     {
-      name: 'Single Sensor Boxes',
+      name: 'All-for-One Sensor Boxes',
       url: '/single-sensor-boxes',
       icon: 'fas fa-box',
     },
@@ -67,7 +67,7 @@ export const servicesUrls: Service = {
   ],
   premium: [
     {
-      name: 'SQ-Panel (AirQuality Sensor Display)',
+      name: 'SQ-Panel (AirQuality Display)',
       url: '/sq-panel',
       icon: 'fa-solid fa-gauge',
     },
@@ -89,20 +89,35 @@ export const servicesUrls: Service = {
   ],
   business: [
     {
-      name: 'SQ-APP',
+      name: 'Smartphone SQ-App',
       url: '/carenuity-app-guide',
       icon: 'fas fa-microchip',
     },
     {
-      name: 'SQ-Multi-Home & Office value adder (launch 2025)',
+      name: 'Solution Builder for new businesses',
       url: '',
       icon: 'fas fa-building',
     },
+    // {
+    //   name: 'SQ-Multi-Home & Office value adder (launch 2025)',
+    //   url: '',
+    //   icon: 'fas fa-building',
+    // },
     {
-      name: 'Kickstarter Campaign',
-      url: 'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a',
+      name: 'WebShop',
+      url: 'http://carenuity.shop',
       icon: 'fa-solid fa-bell',
     },
+    {
+      name: 'Home Challenge',
+      url: '/home-challenge',
+      icon: 'fa-solid fa-bell',
+    },
+    // {
+    //   name: 'Kickstarter Campaign',
+    //   url: 'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a',
+    //   icon: 'fa-solid fa-bell',
+    // },
   ],
 };
 
