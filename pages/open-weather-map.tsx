@@ -35,121 +35,95 @@ const OpenWeatherMap = () => {
         pageUrl="/AI-Program-Kenya"
       />
 
-<section className="pt-4">
-        <div className="container">
-          <div className="row">
-            <h4>  How to get the OpenWeatherMap API Key</h4>
-            <p>GWeather is a command-line interface (CLI) written in Golang that provides 
-              weather forecasts using the WeatherAPI from RapidAPI.</p>
-              <div>
-              <h4> Get Weather KEY Tutorial</h4>
-
-            <p><strong>Register for a Weather account</strong></p>
-              <p>Register at <a href='https://id.gweather.com/#/register'>https://id.gweather.com/#/register</a>
-              Before registering, you need to switch back to your own WIFI or traffic data, 
-              because you are now connected to the HXFB-Weather Clock hotspot is not available 
-              to the Internet, it is recommended that the registration operation on the computer!</p>
-              </div>
-            <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/open-weather/register.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-
-            <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/open-weather/develop.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-
-            <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/open-weather/management.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/open-weather/project.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/open-weather/weather-key.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/open-weather/private-key.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-
+      <section className="overflow-hidden py-3">
+        <div className="container position-relative z-index-3">
+          <div className="row align-items-center about-style-03">
             <div
-              className="col-lg-3 "
+              className="col-lg-12 wow fadeIn"
+              data-wow-delay="200ms"
               style={{
-                paddingTop: '300px',
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
               }}
             >
-              
+              <h2 className="text-muted border-bottom pb-2 mb-3">
+                How to get the OpenWeatherMap API Key
+              </h2>
+              <Image src={img1} alt="open-weather-api" />
+              {/* <img src="/img/content/open-weather/Register.png" alt="" /> */}
+            </div>
+            <div
+              className="col-lg-12 wow fadeIn"
+              data-wow-delay="200ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
+              }}
+            >
+              <Image src={img2} alt="open-weather-api" />
+              {/* <img src="/img/content/open-weather/Develop.png" alt="" /> */}
+            </div>
+            <div
+              className="col-lg-12 wow fadeIn"
+              data-wow-delay="200ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
+              }}
+            >
+              <Image src={img3} alt="open-weather-api" />
+              {/* <img src="/img/content/open-weather/Management.png" alt="" /> */}
+            </div>
+            <div
+              className="col-lg-12 wow fadeIn"
+              data-wow-delay="200ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
+              }}
+            >
+              <Image src={img4} alt="open-weather-api" />
+              {/* <img src="/img/content/open-weather/project.png" alt="" /> */}
+            </div>
+            <div
+              className="col-lg-12 wow fadeIn"
+              data-wow-delay="200ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
+              }}
+            >
+              <Image src={img4} alt="open-weather-api" />
+              {/* <img src="/img/content/open-weather/Weather-key.png" alt="" /> */}
+            </div>
+            <div
+              className="col-lg-12 wow fadeIn"
+              data-wow-delay="200ms"
+              style={{
+                visibility: 'visible',
+                animationDelay: '200ms',
+                animationName: 'fadeIn',
+              }}
+            >
+              <Image src={img5} alt="open-weather-api" />
+              {/* <img src="/img/content/open-weather/Weather-key.png" alt="" /> */}
+              <p className="my-3 border-5 border-start border-warning ps-3">
+                Thanks to{' '}
+                <a
+                  href="https://docs.thingpulse.com/guides/wifi-color-display-kit"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Thing Pulse
+                  <i className="fa-solid fa-up-right-from-square ms-2 small me-1 text-success"></i>
+                </a>
+                & visit their pages for more projects with their wonderful Kits.
+              </p>
             </div>
           </div>
         </div>

@@ -336,6 +336,15 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
+                    href={'/gweather'}
+                    className="text-nowrap"
+                    style={{ textAlign: 'left' }}
+                  >
+                    🔑 Get GWeather API Key
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href={'/spotify-api'}
                     className="text-nowrap"
                     style={{ textAlign: 'left' }}
