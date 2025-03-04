@@ -88,7 +88,7 @@ export const SqPanel = () => {
 
           <h4 className="">
             {state === 'en' && (
-              <>The SQ-Panel easy-to-use sensor display, Matter-compatible</>
+              <>The SQ-Panel easy-to-use Sensor Display, Matter-compatible</>
             )}
             {state === 'de' && (
               <>
