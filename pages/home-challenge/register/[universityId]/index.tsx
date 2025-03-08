@@ -93,7 +93,7 @@ const getUniversityName = ({
       return 'Technical University of Mombasa';
 
     case 'night-sessions':
-      return 'Thursdays Online Session';
+      return 'Tech Thursdays: AI, IoT and Databases';
   }
 };
 
