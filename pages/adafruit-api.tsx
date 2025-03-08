@@ -108,311 +108,304 @@ const Page = () => {
               </p>
             </div>
           </div>
-              <div>
-                <h2>
-                What is Adafruit IO?
-                </h2>
-                <p>A cloud platform designed specifically for IoT Applications.<br/>
+          <div>
+            <h2>What is Adafruit IO?</h2>
+            <p>
+              A cloud platform designed specifically for IoT Applications.
+              <br />
+              Allows users to connect and manage their IoT devices, collect data
+              and create visual dashboards to monitor and analyze this data in
+              real time.
+            </p>
+          </div>
 
-                Allows users  to connect and manage their IoT devices, collect data and create 
-                visual dashboards to monitor and analyze this data in real time.
-                </p>
-              </div>
-
-              <div>
-                <h4>
-                Creating an Account on Adafruit IO
-                </h4>
-                <p>Go to the Adafruit IO Website: <a href='https://io.adafruit.com/'><u>https://io.adafruit.com/</u></a> 
-                    Click on “Sign Up”
-
-                </p>
-              </div>
+          <div>
+            <h4>Creating an Account on Adafruit IO</h4>
+            <p>
+              Go to the Adafruit IO Website:{' '}
+              <a href="https://io.adafruit.com/">
+                <u>https://io.adafruit.com/</u>
+              </a>
+              Click on “Sign Up”
+            </p>
+          </div>
 
           <div className="col-lg-12 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide3.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide3.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
 
-            <div className="col-lg-12 mb-4">
-              <h4>Setting up a new feed
-              </h4>
-              <p>What is a Feed? A feed is a data stream that stores sensor data
+          <div className="col-lg-12 mb-4">
+            <h4>Setting up a new feed</h4>
+            <p>
+              What is a Feed? A feed is a data stream that stores sensor data
+            </p>
+            <h6>Steps: </h6>
+            <ul>
+              <li>Log in to Adafruit IO</li>
+              <li>Navigate to the &quot;Feeds&quot; section</li>
+              <li>Click &quot;Create New Feed&quot;</li>
+              <li>Name your feed (e.g., &quot;Temperature&quot;)</li>
+            </ul>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide5.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-              </p>
-              <h6>Steps:              </h6>
-              <ul>
-                <li>Log in to Adafruit IO</li>
-                <li>Navigate to the "Feeds" section</li>
-                <li>Click "Create New Feed“</li>
-                <li>Name your feed (e.g., "Temperature")</li>
-              </ul>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide5.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <h4>Setting Up the Dashboard</h4>
+            <p>
+              What is a Dashboard? A dashboard is a customizable interface for
+              visualizing data
+            </p>
+            <h6>Steps: </h6>
+            <ul>
+              <li>Go to the &quot;Dashboards&quot; section</li>
+              <li>Click &quot;Create a New Dashboard&quot;</li>
+              <li>
+                Name your dashboard (e.g., &quot;Temperature monitoring&quot;)
+              </li>
+            </ul>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide6.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              <h4>Setting Up the Dashboard
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide7.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-              </h4>
-              <p>What is a Dashboard?
-A dashboard is a customizable interface for visualizing data
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <p>
+              Select the feed you had created earlier i.e. temperature and click
+              next. Input the Block Title and Gauge Level then click create
+              block
+            </p>
+            <p>
+              Repeat the same procedure to add the Line chart block for
+              Temperature
+            </p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide8.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <p>
+              Repeat the same procedure to create a gauge block and Line chart
+              block for Humidity
+            </p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide9.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-              </p>
-              <h6>Steps:              </h6>
-              <ul>
-                <li>Go to the "Dashboards" section</li>
-                <li>Click "Create a New Dashboard“</li>
-                <li>Name your dashboard (e.g., “Temperature monitoring")</li>
-                
-              </ul>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide6.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <h4>Installing the required libraries in Arduino IDE</h4>
+            <h6>Steps: </h6>
+            <ul>
+              <li> Open Arduino IDE </li>
+              <li>
+                Go to &quot;Sketch&quot; - &quot;Include Library&quot; -
+                &quot;Manage Libraries&quot;
+              </li>
+              <li>Search for and install the required libraries</li>
+            </ul>
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide7.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide10.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              <p>Select the feed you had created earlier i.e. temperature and click next.
-                  Input the Block Title and Gauge Level then click create block
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <h4>A snippet of the code:</h4>
 
-              </p>
-              <p>Repeat the same procedure to add the Line chart block for Temperature
-              </p>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide8.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide11.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              <p>Repeat the same procedure to create a gauge block and Line chart block for Humidity
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <h4>Uploading Code to the D1 Mini</h4>
+            <h6>Steps:</h6>
+            <ul>
+              <li> Connect the D1 Mini to your computer via USB</li>
+              <li>Select the appropriate board and port in Arduino IDE</li>
+              <li>
+                Click the upload button to flash the code onto the D1 Mini
+              </li>
+            </ul>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide12.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-              </p>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide9.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide13.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-                <h4>Installing the required libraries in Arduino IDE
-                </h4>
-                <h6>Steps:              </h6>
-              <ul>
-                <li>  Open Arduino IDE                </li>
-                <li>Go to "Sketch" - "Include Library" - "Manage Libraries"</li>
-                <li>Search for and install the required libraries</li>
-                
-              </ul>
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide10.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            <h4>Monitoring Data on Adafruit IO</h4>
+            <p>
+              Return to your Adafruit IO dashboard Watch the real-time data
+              being populated in your widgets
+            </p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide14.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              <h4>A snippet of the code:
-              </h4>
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide11.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide15.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-                <h4>Uploading Code to the D1 Mini
-                </h4>
-                <h6>Steps:</h6>
-              <ul>
-                <li>  Connect the D1 Mini to your computer via USB
-                </li>
-                <li>Select the appropriate board and port in Arduino IDE
-                </li>
-                <li>Click the upload button to flash the code onto the D1 Mini
-                </li>
-                
-              </ul>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide12.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide16.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide13.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div className="col-lg-12 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/Adafruit_IO/slide17.png"
+              className=" wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              <h4>Monitoring Data on Adafruit IO
-              </h4>
-              <p>Return to your Adafruit IO dashboard
-              Watch the real-time data being populated in your widgets
-              </p>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide14.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide15.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide16.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
-              <div className="col-lg-12 mb-4">
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/Adafruit_IO/slide17.png"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-
-                  animationName: 'fadeIn',
-                }}
-              />
-              </div>  
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
         </div>
-
       </section>
     </>
   );

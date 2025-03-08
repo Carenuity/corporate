@@ -343,7 +343,7 @@ const Menu = ({
                     🔑 Get GWeather API Key
                   </Link>
                 </li>
-                
+
                 <li>
                   <Link
                     href={'/spotify-api'}
