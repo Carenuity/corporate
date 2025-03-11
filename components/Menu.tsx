@@ -268,7 +268,7 @@ const Menu = ({
                 href="https://chipglobe.wixsite.com/embedded-ai-journal"
                 style={{ textAlign: 'left' }}
               >
-                Blogs
+                Blog
               </Link>
             </li>
             <li className="has-sub">
@@ -373,12 +373,21 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
+                    href={'/thinkspreak-api'}
+                    className="text-nowrap"
+                    style={{ textAlign: 'left' }}
+                  >
+                    🔑 Get ThinkSpreak API Key
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href={'/c3-mini-spotify-remote-control'}
                     className="text-wrap"
                     style={{ textAlign: 'left' }}
                   >
                     🎼 C3-Mini™ Spotify Remote Control (launch 4th Quarter of
-                    2024)
+                    2025)
                   </Link>
                 </li>
               </ul>
