@@ -47,61 +47,27 @@ const Page = () => {
               <h2 >
                 How to get the ThinkSpeak API Key
               </h2>
-              <p>
-                Navigate to{' '}
-                <a
-                  href="https://thingspeak.mathworks.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link-success"
-                >
-                  ThinkSpeak Portal
-                </a>{' '}
-                to begin the journey. You will have to either signIn or SignUp
-                to proceed.
-              </p>
-            </div>
-            <div
-              className="col-lg-12 wow fadeIn"
-              data-wow-delay="200ms"
-              style={{
-                visibility: 'visible',
-                animationDelay: '200ms',
-                animationName: 'fadeIn',
-              }}
-            >
-              <h3>Step 1</h3>
-              <div className="col-lg-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/home-challenge/level1.jpeg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <h3>Step 2</h3>
-              <div className="col-lg-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/home-challenge/lvel1.png"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
+             <p>ThingSpeak provides API keys that let you read from or write to your channels. Here&apos;s how you get one:</p>
+              <h4>Step by step</h4>
+             <ol>
+              <li>Sign up / Log in at ThingSpeak.</li>
+              <li>Once logged in, go to Channels (top menu).</li>
+              <li>Click New Channel (if you don&apos;t have one).</li>
+                  <ul>
+                    <li>Give your channel a name and description.</li>
+                    <li>Create fields (up to 8 per channel)—these are your data fields.</li>
+                  </ul>
+              <li>After creating a channel:</li>
+                  <ul>
+                  <li>Go to your Channel Settings page.</li>
+                  <li>Look under API Keys.</li>
+                    <ul>
+                    <li>You&apos;ll see Write API Key (for sending data).</li>
+                    <li>You&apos;ll see Read API Key (for reading data).</li>
+                    
+                  </ul>
+                  </ul>
+             </ol>
               <h3>Complete guide</h3>
               <p className="fw-bold">
                 For further reading{' '}
