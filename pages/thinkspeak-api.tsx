@@ -68,6 +68,22 @@ const Page = () => {
                   </ul>
                   </ul>
              </ol>
+
+             <div className="">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/thinkspeak/thinkspeak.jpeg"
+                  className=" wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+
+                    animationName: 'fadeIn',
+                  }}
+                />
+              </div>
               <h3>Complete guide</h3>
               <p className="fw-bold">
                 For further reading{' '}
