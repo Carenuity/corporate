@@ -6,7 +6,7 @@ import img2 from '../public/img/adafruit_api/step2.png';
 import Image from 'next/image';
 
 const Page = () => {
-  const pageTitle = 'Get ThinkSpeak API Key';
+  const pageTitle = 'Get ThingSpeak API Key';
   return (
     <>
       <Head>
@@ -45,7 +45,7 @@ const Page = () => {
               }}
             >
               <h2 >
-                How to get the ThinkSpeak API Key
+                How to get the ThingSpeak API Key
               </h2>
              <p>ThingSpeak provides API keys that let you read from or write to your channels. Here&apos;s how you get one:</p>
               <h4>Step by step</h4>

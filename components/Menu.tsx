@@ -373,11 +373,11 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
-                    href={'/thinkspeak-api'}
+                    href={'/thingspeak-api'}
                     className="text-nowrap"
                     style={{ textAlign: 'left' }}
                   >
-                    🔑 Get ThinkSpeak API Key
+                    🔑 Get ThingSpeak API Key
                   </Link>
                 </li>
                 <li>
