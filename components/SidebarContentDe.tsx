@@ -42,12 +42,18 @@ const SidebarContentDe = () => {
       </address>
       <div>
         <p>
+        Handelsregister: Amtsgericht München<br/>
+        Handelsregisternummer: HRB 209414<br/>
+        Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE293062415<br/>
+        Registriert unter WEEE-Reg.-Nr.: DE 53301452
+        </p>
+        {/* <p>
           Handelsregister München: <strong>HRB 209414</strong>
         </p>
         <p>
           Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:{' '}
           <strong>DE293062415</strong>
-        </p>
+        </p> */}
       </div>
       <p>
         <span>

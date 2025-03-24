@@ -42,12 +42,18 @@ const SidebarContentEn = () => {
       </address>
       <div>
         <p>
+        Commercial register: District Court of Munich<br/>
+        Commercial register number: HRB 209414<br/>
+        VAT Identification Number pursuant to Section 27a of the German Value Added Tax Act: DE293062415<br/>
+        Registered under WEEE reg. no.: DE 53301452
+        </p>
+        {/* <p>
           Munich Commercial Register: <strong>HRB 209414</strong>
         </p>
         <p>
           VAT ID number pursuant to Section 27a of the German VAT Act (UStG):{' '}
           <strong>DE293062415</strong>
-        </p>
+        </p> */}
       </div>
       <p>
         <span>
