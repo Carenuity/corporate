@@ -265,10 +265,10 @@ const Menu = ({
             </li>
             <li>
               <Link
-                href="https://chipglobe.wixsite.com/embedded-ai-journal"
+                href={'/blog'}
                 style={{ textAlign: 'left' }}
               >
-                Blog
+                Blogs
               </Link>
             </li>
             <li className="has-sub">
