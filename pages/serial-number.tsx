@@ -28,20 +28,20 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-            <h4>Description of our Serial Number</h4>
-           {/* eslint-disable-next-line @next/next/no-img-element */}
-           <img
-                src="/img/content/serial-number/serial-number.jpeg"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
+          <h4>Description of our Serial Number</h4>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/img/content/serial-number/serial-number.jpeg"
+            className=" wow fadeInUp"
+            data-wow-delay="100ms"
+            alt="..."
+            style={{
+              visibility: 'visible',
+              animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              />
+              animationName: 'fadeIn',
+            }}
+          />
         </div>
       </section>
     </>
