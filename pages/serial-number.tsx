@@ -28,7 +28,7 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-            <h4>Serial Number</h4>
+            <h4>Description of our Serial Number</h4>
            {/* eslint-disable-next-line @next/next/no-img-element */}
            <img
                 src="/img/content/serial-number/serial-number.jpeg"
