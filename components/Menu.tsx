@@ -264,10 +264,7 @@ const Menu = ({
               </Link>
             </li>
             <li>
-              <Link
-                href={'/blog'}
-                style={{ textAlign: 'left' }}
-              >
+              <Link href={'/blog'} style={{ textAlign: 'left' }}>
                 Blogs
               </Link>
             </li>

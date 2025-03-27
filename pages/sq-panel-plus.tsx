@@ -5,7 +5,7 @@ import SubscriptionWidget from '../components/SubscriptionWidget';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'SQ-Panel Plus';
+  const pageTitle = 'SQ-Panel Launch';
   return (
     <>
       <Head>
@@ -32,7 +32,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mb-20">
-              <h5 className=" mb-1">Carenuity SQ-Panel Plus</h5>
+              <h5 className=" mb-1">Carenuity SQ-Panel Launch</h5>
               <h1>
                 The world&apos;s first smart sensor display with built-in
                 sensors and Matter support.
@@ -151,9 +151,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 />{' '}
               </div>
-              <h4>Built-in Home Assistant</h4>
+              <h4>Option for Home Assistant (HA)</h4>
               <p>
-                No Hub needed. The SQ-Panel Plus can automate your home based on
+                No extra Hub needed. The SQ-Connector with HA can automate your home based on
                 sunrise/sunset, temperature, event triggering, and more.
               </p>
             </div>
@@ -175,7 +175,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 />{' '}
               </div>
               <h4>Supports Matter</h4>
-              <p>Can be used with Apple Home for even more smart home magic.</p>
+              <p>Can be used with Google, Samsung, Home Assistant or Apple Home for even more smart home magic.</p>
             </div>
             <div className=" col-lg-1 mb-6"></div>
             <div className="col-lg-5 mb-6" style={{ textAlign: 'center' }}>
@@ -196,8 +196,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <h4>Part of the Carenuity Platform</h4>
               <p>
-                Can be paired with more devices like a particle-matter sensor
-                etc. to provide you with more smart home solutions.
+                Can be paired with more devices like the planned Particle-Matter Sensor
+                or the C3-Mini Sensors to provide you with more smart home solutions.
               </p>
             </div>
           </div>
