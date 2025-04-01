@@ -387,6 +387,15 @@ const Menu = ({
                     2025)
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href={'/faq'}
+                    className="text-wrap"
+                    style={{ textAlign: 'left' }}
+                  >
+                    ❓FAQ
+                  </Link>
+                </li>
               </ul>
             </li>
             <li>

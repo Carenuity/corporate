@@ -171,14 +171,17 @@ export default function Home({
               >
                 {state === 'en' && (
                   <>
-                    The Carenuity SQ-Panel has made monitoring air quality simple and effective. 
-                    The app&apos;s real-time alerts give me peace of mind about my family&apos;s health.
+                    The Carenuity SQ-Panel has made monitoring air quality
+                    simple and effective. The app&apos;s real-time alerts give
+                    me peace of mind about my family&apos;s health.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das Carenuity SQ-Panel ermöglicht eine einfache und effektive Überwachung der Luftqualität.
-                     Die Echtzeit-Benachrichtigungen über die App geben mir Sicherheit für die Gesundheit meiner Familie.
+                    Das Carenuity SQ-Panel ermöglicht eine einfache und
+                    effektive Überwachung der Luftqualität. Die
+                    Echtzeit-Benachrichtigungen über die App geben mir
+                    Sicherheit für die Gesundheit meiner Familie.
                   </>
                 )}
               </p>
@@ -213,14 +216,17 @@ export default function Home({
               >
                 {state === 'en' && (
                   <>
-                    I rely on the Carenuity SQ-Panel to track air quality and stay informed. 
-                    The historical data is valuable for creating a safer living space.
+                    I rely on the Carenuity SQ-Panel to track air quality and
+                    stay informed. The historical data is valuable for creating
+                    a safer living space.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Ich nutze das Carenuity SQ-Panel, um die Luftqualität zu überwachen und Automationsmöglichkeiten zu erweitern. 
-                    Die App und die Sensorfunktionen bieten eine hilfreiche Grundlage für smarte Steuerungen.
+                    Ich nutze das Carenuity SQ-Panel, um die Luftqualität zu
+                    überwachen und Automationsmöglichkeiten zu erweitern. Die
+                    App und die Sensorfunktionen bieten eine hilfreiche
+                    Grundlage für smarte Steuerungen.
                   </>
                 )}
               </p>
