@@ -128,7 +128,7 @@ const Index = () => {
             <p>EnviroSence 680 - Advanced Environmental Monitoring Solution</p>
             <p>
               Click{' '}
-              <Link href="/envirosence-680" className="text-success">
+              <Link href="product/envirosence-680" className="text-success">
                 <strong>here </strong>
               </Link>{' '}
               to learn more on EnviroSence 680

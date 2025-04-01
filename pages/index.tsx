@@ -171,25 +171,14 @@ export default function Home({
               >
                 {state === 'en' && (
                   <>
-                    I support the Carenuity SQ-Panel for its impressive
-                    features. The air quality monitoring, real-time alerts, and
-                    remote access via the app are essential for keeping my
-                    family healthy. The historical data and insights help me
-                    ensure our living environment is safe and comfortable.
-                    It&apos;s a smart choice for anyone who values home
-                    wellness.
+                    The Carenuity SQ-Panel has made monitoring air quality simple and effective. 
+                    The app&apos;s real-time alerts give me peace of mind about my family&apos;s health.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Ich unterstütze das Carenuity SQ-Panel aufgrund seiner
-                    beeindruckenden Funktionen. Die Überwachung der
-                    Luftqualität, Echtzeitwarnungen und der Fernzugriff über die
-                    App sind für die Gesunderhaltung meiner Familie
-                    unerlässlich. Die historischen Daten und Einblicke helfen
-                    mir, unser Wohnumfeld Umgebung sicher und komfortabel ist.
-                    Es ist eine kluge Wahl für jeden, der Wert auf Wellness zu
-                    Hause legt.
+                    Das Carenuity SQ-Panel ermöglicht eine einfache und effektive Überwachung der Luftqualität.
+                     Die Echtzeit-Benachrichtigungen über die App geben mir Sicherheit für die Gesundheit meiner Familie.
                   </>
                 )}
               </p>
@@ -224,23 +213,14 @@ export default function Home({
               >
                 {state === 'en' && (
                   <>
-                    I back the Carenuity SQ-Panel for its top-notch features.
-                    The comprehensive air quality monitoring, real-time alerts,
-                    and remote access via the app help me maintain a healthy
-                    home for my family. The historical data and insights are a
-                    bonus, making it a smart investment for anyone serious about
-                    home comfort and safety.
+                    I rely on the Carenuity SQ-Panel to track air quality and stay informed. 
+                    The historical data is valuable for creating a safer living space.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Ich unterstütze das Carenuity SQ-Panel wegen seiner
-                    erstklassigen Eigenschaften. Das umfassende Überwachung der
-                    Luftqualität, Echtzeit-Warnungen und Fernzugriff über die
-                    App helfen mir, ein gesundes Zuhause für meine Familie. Die
-                    historischen Daten und Einblicke sind ein Bonus und machen
-                    es eine kluge Investition für jeden, der Wert auf Komfort
-                    und Sicherheit in seinem Sicherheit.
+                    Ich nutze das Carenuity SQ-Panel, um die Luftqualität zu überwachen und Automationsmöglichkeiten zu erweitern. 
+                    Die App und die Sensorfunktionen bieten eine hilfreiche Grundlage für smarte Steuerungen.
                   </>
                 )}
               </p>
