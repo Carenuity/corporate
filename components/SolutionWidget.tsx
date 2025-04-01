@@ -2,8 +2,8 @@ import React from 'react';
 
 const SolutionWidget = ({ solutionId }: { solutionId: string }) => {
   const solutionsWidgetUrl =
-    'https://solutions.carenuity.com/widgets/solutions/';
-  // 'https://client-test-dot-solution-builder-421307.ew.r.appspot.com/widgets/solutions/';
+    // 'https://solutions.carenuity.com/widgets/solutions/';
+    'https://client-test-dot-solution-builder-421307.ew.r.appspot.com/widgets/solutions/';
   // 'http://localhost:3000/widgets/solutions/';
 
   return (
