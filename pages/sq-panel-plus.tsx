@@ -153,8 +153,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <h4>Option for Home Assistant (HA)</h4>
               <p>
-                No extra Hub needed. The SQ-Connector with HA can automate your home based on
-                sunrise/sunset, temperature, event triggering, and more.
+                No extra Hub needed. The SQ-Connector with HA can automate your
+                home based on sunrise/sunset, temperature, event triggering, and
+                more.
               </p>
             </div>
 
@@ -175,7 +176,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 />{' '}
               </div>
               <h4>Supports Matter</h4>
-              <p>Can be used with Google, Samsung, Home Assistant or Apple Home for even more smart home magic.</p>
+              <p>
+                Can be used with Google, Samsung, Home Assistant or Apple Home
+                for even more smart home magic.
+              </p>
             </div>
             <div className=" col-lg-1 mb-6"></div>
             <div className="col-lg-5 mb-6" style={{ textAlign: 'center' }}>
@@ -196,8 +200,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <h4>Part of the Carenuity Platform</h4>
               <p>
-                Can be paired with more devices like the planned Particle-Matter Sensor
-                or the C3-Mini Sensors to provide you with more smart home solutions.
+                Can be paired with more devices like the planned Particle-Matter
+                Sensor or the C3-Mini Sensors to provide you with more smart
+                home solutions.
               </p>
             </div>
           </div>
