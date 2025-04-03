@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
+import ApplicationItem from '../components/ApplicationItem';
 
 const Sensors = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'CO2 Measurement Methods';
@@ -280,51 +281,62 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                     animationName: 'fadeIn',
                   }}
                 >
-                  Carenuity is a sensor device specialist with a portfolio of 24
-                  devices, which you get with an enclosure as well as customized
-                  for your needs.
+                  Carenuity specializes in sensor devices, offering a portfolio
+                  of 24 sensor products that come with enclosures and can be
+                  customized on various levels to meet your specific needs.
+                </p>
+
+                <p>
+                  These Applications are available by One-Click on the
+                  Install-for-Free Buttons
                 </p>
 
                 <div className="row mb-1-9">
                   <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
-                    <div className="d-flex align-items-center">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">Barometer</span>
-                    </div>
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">Hygrometer</span>
-                    </div>
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">
-                        Thermometer
-                      </span>
-                    </div>
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">
-                        Motion Detector
-                      </span>
-                    </div>
+                    <ApplicationItem
+                      name={'Barometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/nJMltlS83P6vqQjANMdU'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Hygrometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/Pz79ekXXeqNppvIgHK5r'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Thermometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/wzxLAKXdeVgruPEZP7lN'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Motion Detector'}
+                      url={
+                        'https://solutions.carenuity.com/applications/MGMRQwSXjjvSZzOu3Xj8'
+                      }
+                    />
                   </div>
                   <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
-                    <div className="d-flex align-items-center mt-4 mt-md-0">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">Luxmeter</span>
-                    </div>
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">
-                        IR Radiometer
-                      </span>
-                    </div>
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="ti-check display-26 text-primary"></i>
-                      <span className="ms-3 text-dark fw-bold">
-                        Presence Button
-                      </span>
-                    </div>
+                    <ApplicationItem
+                      name={'Luxmeter'}
+                      url={
+                        'https://solutions.carenuity.com/applications/YyvgrAa1UcVrRYcysN74'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'IR Radiometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/X4Uz3c2SknHIQjiektgV'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Presence Button'}
+                      url={
+                        'https://solutions.carenuity.com/applications/VCe4FCtct0ovFUE9bnzM'
+                      }
+                    />
                   </div>
                 </div>
 
