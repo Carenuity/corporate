@@ -3,7 +3,8 @@ import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 import ApplicationItem from '../components/ApplicationItem';
 
-const Sensors = ({ isMobile }: { isMobile: boolean }) => {
+const Sensors = () => {
+  // { isMobile }: { isMobile: boolean }
   const pageTitle = 'CO2 Measurement Methods';
 
   return (
@@ -340,7 +341,39 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   </div>
                 </div>
 
-                {!isMobile && (
+                <p>
+                  Get new Applications by combining the Sensor, Microcontroller
+                  and Actuator (S-M-A)
+                </p>
+
+                <div className="row">
+                  <div className="col-sm-4">
+                    <Link
+                      href={'/sensors'}
+                      className={'btn btn-success rounded-pill'}
+                    >
+                      <span className="small">Select Sensor</span>
+                    </Link>
+                  </div>
+                  <div className="col-sm-4">
+                    <Link
+                      href={'/microcontrollers'}
+                      className={'btn btn-success rounded-pill'}
+                    >
+                      <span className="small">Select Microcontroller</span>
+                    </Link>
+                  </div>
+                  <div className="col-sm-4">
+                    <Link
+                      href={'/actuators'}
+                      className={'btn btn-success rounded-pill'}
+                    >
+                      <span className="small">Select Actuator</span>
+                    </Link>
+                  </div>
+                </div>
+
+                {/* {!isMobile && (
                   <Link
                     href={'/sensors'}
                     className="btn-style2 primary wow fadeInUp p-3"
@@ -370,7 +403,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   >
                     <span className="small">Select Microcontroller </span>
                   </a>
-                )}
+                )} */}
               </div>
             </div>
           </div>
