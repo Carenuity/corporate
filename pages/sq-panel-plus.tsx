@@ -71,7 +71,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               className=" mb-4"
               style={{ textAlign: 'center' }}
             >
-              <h2>Subscription</h2>
+              <h2>Coming soon - subscribe waitinglist for early bird discount!</h2>
               <p>Sign up for exclusive product launch discounts!</p>
             </div>
             <SubscriptionWidget categoryId={1} />
