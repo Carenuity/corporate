@@ -1,8 +1,9 @@
 import React from 'react';
-import PageTitle from '../../../components/PageTitle';
+
+import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
-import SubscriptionWidget from '../../../components/SubscriptionWidget';
-import SolutionWidget from '../../../components/SolutionWidget';
+import SubscriptionWidget from '../../components/SubscriptionWidget';
+import SolutionWidget from '../../components/SolutionWidget';
 
 const Page = () => {
   const pageTitle = 'Envirosence 680';
