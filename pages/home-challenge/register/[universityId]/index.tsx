@@ -19,6 +19,7 @@ type UniversityId =
   | 'haw'
   | 'oauth'
   | 'tum'
+  | 'duth'
   | 'night-sessions';
 type UniversitySubscriptionWidgetProps = {
   universityId: UniversityId;
@@ -56,6 +57,8 @@ const UniversitySubscriptionWidget: React.FC<
 
     case 'tum':
       return <SubscriptionWidget categoryId={15} {...props} />;
+      case 'duth':
+      return <SubscriptionWidget categoryId={15} {...props} />;
 
     case 'night-sessions':
       return <SubscriptionWidget categoryId={16} {...props} />;
@@ -91,6 +94,8 @@ const getUniversityName = ({
 
     case 'tum':
       return 'Technical University of Mombasa';
+      case 'duth':
+      return 'Democritus University of Thrace ';
 
     case 'night-sessions':
       return 'Tech Thursdays: AI, IoT and Databases';
@@ -278,6 +283,7 @@ export const getStaticPaths: GetStaticPaths = async (
     'haw',
     'oauth',
     'tum',
+    'duth',
     'night-sessions',
   ]; // Object.keys(microcontrollers);
 
