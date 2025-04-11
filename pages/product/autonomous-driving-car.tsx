@@ -220,6 +220,21 @@ const Page = () => {
           the legacy of the Schaeffler FAG Model MF3 lives on, inspiring new generations of engineers to push the boundaries of what's possible.
           </p>
           </div>
+          <div>
+            <h4>Build your own Autonomous Driving Car:
+            </h4>
+            <p>The following <a href='https://www.hackster.io/'><u>hackster.io </u></a>Articles explain how to build it:</p>
+            <ul>
+              <li><a href='https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03'
+              target='blank'><u>Autonomous Driving Car</u></a></li>
+
+<li><a href='https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545'
+              target='blank'><u>Autonomous Driving Car V2</u></a></li>
+
+<li><a href='https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea'
+              target='blank'><u>Autonomous Driving Car V3</u></a></li>
+            </ul>
+          </div>
         </div>
       </section>
     </>
