@@ -1,0 +1,79 @@
+
+
+/* .carouselContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.carouselContainer::-webkit-scrollbar {
+  display: none; 
+}
+
+.carouselContainer:hover {
+  cursor: grab;
+}
+
+.carouselImage {
+  flex-shrink: 0;
+  height: 350px;
+  width: auto;
+  border-radius: 12px;
+  object-fit: cover;
+} */
+
+
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* optional: control the width */
+  margin: auto;
+}
+
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 240px;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.carouselContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.carouselImage {
+  flex-shrink: 0;
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.carouselButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.carouselButton {
+  padding: 6px 12px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.carouselButton:hover {
+  background-color: #005bb5;
+}

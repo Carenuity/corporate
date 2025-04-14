@@ -1,12 +1,15 @@
 import React from 'react';
 import Head from 'next/head';
-import PageTitle from '../../components/PageTitle';
+import PageTitle from '../../../components/PageTitle';
+import Carousel from './carousel';
+import Link from 'next/link';
 
 
+const Page = ({ isMobile }: { isMobile: boolean }) => {
 
-const Page = () => {
     
   const pageTitle = 'Autonomous Driving Car';
+ 
   return (
     <>
       <Head>
@@ -31,133 +34,21 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-          <h4>Now Autonomously Driving: The Reincarnation of a Winner</h4>
-          <div className='row  mb-4'>
-          <div className="col-lg-3  mb-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car1.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car2.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car3.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car4.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car5.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    width: '330px',
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car6.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car7.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-              <div className="col-lg-3  mb-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Autonomous/car8.jpg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height:"230px",
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
-         
-
+          
+        <h4>Now Autonomously Driving: The Reincarnation of a Winner</h4>
+        <div
+            className="e-card mb-6"
+            style={{
+              boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+              maxHeight: '1O00px',
+              padding: '20px',
+            }}
+          >
+        <div className='row'>
+          <div className='col-md-4 mb-4' >
+          <Carousel />
           </div>
-          <div>
+          <div className='col-md-8 mb-4' >
           <p className='mb-2'>
           In the world of automotive innovation, history often serves as a foundation for future advancements. 
           The Autonomous Driving Infineon Car, built by ChipGlobe&apos;s Carenuity team, is a testament to this principle. 
@@ -175,6 +66,12 @@ const Page = () => {
           parked on the first floor of the THWS University in Schweinfurt, where it continues to inspire students 
           and engineers alike.
           </p>
+          </div>
+        </div>
+        </div>
+
+          <div>
+          
           <p className='mb-2'>
           Fast forward to today, the Autonomous Driving Infineon Car represents a leap forward in automotive technology. 
           Built by Carenuity in 2025, this model leverages advanced AI competencies to navigate home and office environments 
@@ -222,19 +119,166 @@ const Page = () => {
           </div>
           <div>
             <h4>Build your own Autonomous Driving Car:
+            
             </h4>
             <p>The following <a href='https://www.hackster.io/'><u>hackster.io </u></a>Articles explain how to build it:</p>
-            <ul>
-              <li><a href='https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03'
-              target='blank'><u>Autonomous Driving Car</u></a></li>
+          <div className='row'>
+          <div className="col-md-4 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '450px',
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/Autonomous/autonomus1.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
 
-<li><a href='https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545'
-              target='blank'><u>Autonomous Driving Car V2</u></a></li>
+                <div style={{ padding: '10px' }}>
+                 
+                    <h6 className="text-success">Autonomous Driving Car</h6>
+                 
+                  <p>
+                  This RC car is equipped with a camera, a Raspberry Pi, an XMC1100 Boot 
+                  Kit and the DC Motor Control Shield with BTN8982TA. 
+                  </p>
+                  <a href='https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03'
+              target='blank'><u>Learn more</u></a>
 
-<li><a href='https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea'
-              target='blank'><u>Autonomous Driving Car V3</u></a></li>
-            </ul>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '450px',
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/Autonomous/autonomus2.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+
+                <div style={{ padding: '10px' }}>
+                  
+                    <h6 className="text-success">Autonomous Driving Car V2</h6>
+                  
+                 
+                  <a href='https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545'
+              target='blank'><u>Learn more</u></a>
+
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '450px',
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/Autonomous/autonomus3.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+
+                <div style={{ padding: '10px' }}>
+                 
+                    <h6 className="text-success">Autonomous Driving Car V3</h6>
+                 
+                 
+                  <a href='https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea'
+              target='blank'><u>Learn more</u></a>
+
+                 
+                </div>
+              </div>
+            </div>
           </div>
+
+           
+          </div>
+
+          <div>
+            <h4>Shop with us</h4>
+            <div className='row'>
+            <div className="col-md-4 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '600px',
+                  maxWidth:'1000px'
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/Autonomous/shopcar.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+
+                <div style={{ padding: '10px' }}>
+                 
+                    <h6 className="text-success">Autonomous Driving Car</h6>
+                 <p>
+                 The Autonomous Driving Car by Infineon provides an innovative solution for 
+                 self-driving cars. Equipped with a camera, a Raspberry Pi, and the XMC1100 Boot 
+                 Kit, it allows control via smartphone, tablet, or laptop. Integration into the 
+                 Donkeycar project offers hands-on experience with artificial intelligence and neural networks.
+                 </p>
+                 
+                  <a href='https://www.chipglobe.shop/en/p/autonomous-driving-car'
+              target='blank'><h6><u>Click to Buy</u></h6></a>
+
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </>

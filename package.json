@@ -24,6 +24,7 @@
     "jquery.mousewheel": "^3.1.9",
     "jquery.stellar": "^0.6.2",
     "lightgallery": "^1.9.0",
+    "lucide-react": "^0.488.0",
     "magnific-popup": "^1.1.0",
     "next": "13.1.6",
     "node.js": "^0.0.1-security",
