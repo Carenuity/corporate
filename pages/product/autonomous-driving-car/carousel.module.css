@@ -1,11 +1,18 @@
 
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px; 
+  margin: auto;
+}
 
-/* .carouselContainer {
+.carouselContainer {
   display: flex;
-  overflow-x: auto;
-  gap: 8px;
+  flex-direction: column;
+  overflow-y: auto;
+  height:230px;
+  
   scroll-behavior: smooth;
-  padding: 10px 0;
   scrollbar-width: none; 
   -ms-overflow-style: none; 
 }
@@ -14,44 +21,11 @@
   display: none; 
 }
 
-.carouselContainer:hover {
-  cursor: grab;
-}
-
 .carouselImage {
   flex-shrink: 0;
-  height: 350px;
-  width: auto;
-  border-radius: 12px;
-  object-fit: cover;
-} */
-
-
-.carouselWrapper {
-  position: relative;
-  width: 100%;
-  max-width: 400px; /* optional: control the width */
-  margin: auto;
-}
-
-.carouselContainer {
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-  height: 240px;
-  scroll-behavior: smooth;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
-}
-
-.carouselContainer::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-}
-
-.carouselImage {
-  flex-shrink: 0;
+  
   height: 230px;
-  width: 100%;
+ 
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -69,6 +43,7 @@
   background-color: #198754;
   color: white;
   border: none;
+  width: 90px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
@@ -77,3 +52,69 @@
 .carouselButton:hover {
   background-color: #074e2d;
 }
+
+
+
+/* 
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 230px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carouselContent {
+  display: flex;
+  flex-direction: column;
+  animation: scrollUp 20s linear infinite;
+}
+
+.carouselWrapper:hover .carouselContent {
+  animation-play-state: paused;
+}
+
+.carouselImage {
+  flex-shrink: 0;
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.carouselButtonIcon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+}
+
+.carouselButtonIcon:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.buttonUp {
+  top: 8px;
+}
+
+.buttonDown {
+  bottom: 8px;
+} */
