@@ -51,7 +51,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
          </ul>
         <div>
             <h4>Shop with us</h4>
-            <div>
+            <div className='row'>
             <div className="col-md-4 mb-4">
               <div
                 className="e-card"
@@ -62,7 +62,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Sensor-array/sensor.png"
+                  src="/img/content/Sensor-array/sensor1.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
