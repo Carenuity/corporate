@@ -3593,7 +3593,7 @@ export const SqPanel = () => {
               </div>
             </div>
             <div>
-              <h4>SQ-Panel Kickstarter - November 2024</h4>
+              <h4>SQ-Panel Kickstarter - May 2025</h4>
               <p>
                 We have a major upgrade for the SQ-Panel following the proposals
                 from our community. To get early news, insights and potentially
