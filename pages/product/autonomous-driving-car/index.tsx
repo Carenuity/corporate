@@ -59,7 +59,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </p>
           <p className='mb-2'>
           The unveiling of the Schaeffler FAG Model MF3 took place at an evening event at the foyer of Schaeffler. 
-          This event was graced by notable figures such as Dr. Grunau, the former representative of the management 
+          This event was graced by notable figures such as Dr. Grunau, a former representative of the management 
           board of FAG Schaeffler Group Industry, and Dipl.-Ing. Seubert, the former chairman of the Unterfranken 
           district association of the Verein Deutscher Ingenieure (VDI). Their presence underscored the importance 
           of innovation and collaboration in the engineering community. After several wins, the MF3 was finally 
@@ -241,8 +241,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '600px',
-                  maxWidth:'1000px'
+                  height: '620px',
+                 
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -268,9 +268,33 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                  Kit, it allows control via smartphone, tablet, or laptop. Integration into the 
                  Donkeycar project offers hands-on experience with artificial intelligence and neural networks.
                  </p>
+
+                 <p className="mb-4">
+                                     {!isMobile && (
+                                       <Link
+                                         href={'https://www.chipglobe.shop/en/p/autonomous-driving-car'}
+                                          target="_blank"
+                                         className={'btn btn-sm btn-success rounded-pill'}
+                                       >
+                                         <span className="small"> Buy Now</span>
+                                       </Link>
+                                     )}
                  
-                  <a href='https://www.chipglobe.shop/en/p/autonomous-driving-car'
-              target='blank'><h6><u>Click to Buy</u></h6></a>
+                                     {isMobile && (
+                                       <a
+                                         href={'https://www.chipglobe.shop/en/p/autonomous-driving-car'}
+                                          target="_blank"
+                                         className={'btn btn-sm btn-success rounded-pill'}
+                                       >
+                                         <span className="small">
+                                         Buy Now{' '}
+                                           {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                         </span>
+                                       </a>
+                                     )}
+                                   </p>
+                 
+                 
 
                  
                 </div>

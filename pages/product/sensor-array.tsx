@@ -2,10 +2,12 @@ import React from 'react';
 
 import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
-import SubscriptionWidget from '../../components/SubscriptionWidget';
-import SolutionWidget from '../../components/SolutionWidget';
 
-const Page = () => {
+import Link from 'next/link';
+
+
+const Page = ({ isMobile }: { isMobile: boolean }) => {
+
   const pageTitle = 'Sensor Array';
   return (
     <>
@@ -55,7 +57,7 @@ const Page = () => {
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '430px',
+                  height: '470px',
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -76,9 +78,33 @@ const Page = () => {
                  
                     <h6 className="text-success">Sensor Array Kit - Complete Bundle with 10x Single Adapter and DPS310</h6>
                  <p>This kit enables fast development and evaluation of IoT systems with a focus on precise pressure measurements. </p>
+
+                 <p className="mb-4">
+                                     {!isMobile && (
+                                       <Link
+                                         href={'https://www.chipglobe.shop/en/p/sensor-array-kit-complete-bundle-with-10x-single-adapter-and-dps310' }
+                                          target="_blank"
+                                         className={'btn btn-sm btn-success rounded-pill'}
+                                       >
+                                         <span className="small"> Buy Now</span>
+                                       </Link>
+                                     )}
                  
-                  <a href='https://www.chipglobe.shop/en/p/sensor-array-kit-complete-bundle-with-10x-single-adapter-and-dps310'
-              target='blank'><h6><u>Click to Buy</u></h6></a>
+                                     {isMobile && (
+                                       <a
+                                         href={'https://www.chipglobe.shop/en/p/sensor-array-kit-complete-bundle-with-10x-single-adapter-and-dps310'}
+                                          target="_blank"
+                                         className={'btn btn-sm btn-success rounded-pill'}
+                                       >
+                                         <span className="small">
+                                         Buy Now{' '}
+                                           {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                         </span>
+                                       </a>
+                                     )}
+                                   </p>
+                 
+                
 
                  
                 </div>
