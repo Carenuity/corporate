@@ -45,10 +45,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             }}
           >
         <div className='row'>
-          <div className='col-md-6 mb-4' >
+          <div className='col-md-4 mb-4' >
           <Carousel />
           </div>
-          <div className='col-md-6 mb-4' >
+          <div className='col-md-8 mb-4' >
           <p className='mb-2'>
           In the world of automotive innovation, history often serves as a foundation for future advancements. 
           The Autonomous Driving Infineon Car, built by ChipGlobe&apos;s Carenuity team, is a testament to this principle. 
@@ -57,12 +57,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           a symbol of speed and precision, has been reincarnated in 2025 in a 1:10 ratio model, showcasing the seamless 
           blend of past and present engineering marvels.
           </p>
-          
-          </div>
-        </div>
-        </div>
-
-          <div>
           <p className='mb-2'>
           The unveiling of the Schaeffler FAG Model MF3 took place at an evening event at the foyer of Schaeffler. 
           This event was graced by notable figures such as Dr. Grunau, a former representative of the management 
@@ -72,6 +66,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           parked on the first floor of the THWS University in Schweinfurt, where it continues to inspire students 
           and engineers alike.
           </p>
+          </div>
+        </div>
+        </div>
+
+          <div>
+          
           <p className='mb-2'>
           Fast forward to today, the Autonomous Driving Infineon Car represents a leap forward in automotive technology. 
           Built by Carenuity in 2025, this model leverages advanced AI competencies to navigate home and office environments 
