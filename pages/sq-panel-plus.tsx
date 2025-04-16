@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import PageTitle from '../components/PageTitle';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
-import SubscriptionWidget from '../components/SubscriptionWidget';
 import Translatable from '../components/Translatable';
 import Link from 'next/link';
 
@@ -211,7 +210,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 )}
               </p>
             </div>
-            <SubscriptionWidget categoryId={1} />
+            {/* <SubscriptionWidget categoryId={1} /> */}
             {/* <form
               method="post"
               className=" mb-20"
