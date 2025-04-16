@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { NewsletterHostname } from '../utils/constants';
+import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
+import { useContext, useEffect } from 'react';
+
 
 type ISubscriptionWidget = {
   categoryId: number;
@@ -24,6 +27,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
   homeChallengeRef,
 }) => {
   const [inProgress, setInProgress] = useState(false);
+  const { state } = useContext(LanguageSwitchContext);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -204,8 +208,17 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
         </label>
 
         <p style={{ textAlign: 'center' }} className="mt-2">
-          <strong>Note:</strong> Please check your spam folder for the
-          subscription email should it be flagged as spam.
+        {state === 'en' && (
+              <><strong>Note:</strong> Please check your spam folder for the
+          subscription email should it be flagged as spam.</>
+            )}
+            {state === 'de' && (
+              <>
+               <strong>Hinweis:</strong> Bitte überprüfen Sie Ihren Spam-Ordner auf
+               Abonnement-E-Mail, falls diese als Spam gekennzeichnet ist. 
+              </>
+            )}
+          
         </p>
       </form>
     </>
