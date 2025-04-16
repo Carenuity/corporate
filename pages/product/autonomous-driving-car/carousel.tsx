@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './carousel.module.css';
 
@@ -33,7 +31,8 @@ const Carousel = () => {
 
         const container = containerRef.current;
         if (
-          container.scrollTop + container.clientHeight >= container.scrollHeight
+          container.scrollTop + container.clientHeight >=
+          container.scrollHeight
         ) {
           container.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -62,10 +61,7 @@ const Carousel = () => {
       </div>
 
       <div className={styles.carouselButtons}>
-        <button
-          className={styles.carouselButton}
-          onClick={() => scroll('up')}
-        >
+        <button className={styles.carouselButton} onClick={() => scroll('up')}>
           ↑ Previous
         </button>
         <button

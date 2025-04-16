@@ -435,98 +435,112 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
 
           <div className=" mb-4">
             <h4>
-            Discover our sustainability promise: Combining Sensor, Microcontroller, and Actuator
+              Discover our sustainability promise: Combining Sensor,
+              Microcontroller, and Actuator
             </h4>
             <p>
-            At the heart of our innovation lies <strong>Green Modularity</strong>, a groundbreaking concept that 
-            combines Sensors, Microcontrollers, and Actuators (S- M- & A- boards) as distinct, 
-            replaceable parts and following the systematic of any IoT product. This approach not 
-            only drives smarter business solutions but also promotes environmental sustainability 
-            by reducing electronic waste. By enabling individual component replacement rather than 
-            full device disposal, we extend the lifecycle of our products and support a circular economy.
-
+              At the heart of our innovation lies{' '}
+              <strong>Green Modularity</strong>, a groundbreaking concept that
+              combines Sensors, Microcontrollers, and Actuators (S- M- & A-
+              boards) as distinct, replaceable parts and following the
+              systematic of any IoT product. This approach not only drives
+              smarter business solutions but also promotes environmental
+              sustainability by reducing electronic waste. By enabling
+              individual component replacement rather than full device disposal,
+              we extend the lifecycle of our products and support a circular
+              economy.
             </p>
           </div>
           <div className=" mb-4 row">
-          <div className="col-md-8">
-            <p>
-            As part of our commitment to sustainability, we fully comply with the <strong> Waste Electrical 
-            and Electronic Equipment (WEEE) Directive </strong>. This directive ensures the proper collection, 
-            recycling, and disposal of electronic products to minimize their environmental impact. 
-            Each of our products bears the<strong> crossed-out wheeled bin symbol</strong>, signaling that it must not 
-            be discarded with household waste but instead recycled responsibly.
-
-            </p>
+            <div className="col-md-8">
+              <p>
+                As part of our commitment to sustainability, we fully comply
+                with the{' '}
+                <strong>
+                  {' '}
+                  Waste Electrical and Electronic Equipment (WEEE) Directive{' '}
+                </strong>
+                . This directive ensures the proper collection, recycling, and
+                disposal of electronic products to minimize their environmental
+                impact. Each of our products bears the
+                <strong> crossed-out wheeled bin symbol</strong>, signaling that
+                it must not be discarded with household waste but instead
+                recycled responsibly.
+              </p>
             </div>
             <div className="col-md-4">
-                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/install/qr-code.jpeg"
-                  className="wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '100px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/install/qr-code.jpeg"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  width: '100px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
             </div>
             <div className="col-md-1">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/install/waste.jpeg"
-                  className="wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    width: '120px',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/install/waste.jpeg"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  width: '120px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
             </div>
             <div className="col-md-8">
-                  <p>
-                  As space is limited on Printed Circuit Boards (PCBs), we facilitate direct access to this Info- 
-                  and Sustainability website with our WEEE details by the QR-code printed on all our PCBs.
-  
-                  </p>
+              <p>
+                As space is limited on Printed Circuit Boards (PCBs), we
+                facilitate direct access to this Info- and Sustainability
+                website with our WEEE details by the QR-code printed on all our
+                PCBs.
+              </p>
             </div>
-
           </div>
 
           <div>
             <p>
-            Via this QR-code the <strong>WEEE Compliance Information</strong> (Waste Electrical and Electronic 
-            Equipment) become accessible:
-            <ul>
-              <li><strong>WEEE Registration Number: </strong> DE 53301452.
-              </li>
-              <li><strong>Company Information: </strong> Carenuity acting as Chipglobe GmbH, Cincinnatistrasse 
-              60, 81549 Munich, Germany. </li>
-              <li><strong>Contact Information: </strong> Reach us at info@chipglobe.com or call us at 
-              (+49) 89-1222469-40 for further inquiries.
-              </li>
-            </ul>
-
+              Via this QR-code the <strong>WEEE Compliance Information</strong>{' '}
+              (Waste Electrical and Electronic Equipment) become accessible:
+              <ul>
+                <li>
+                  <strong>WEEE Registration Number: </strong> DE 53301452.
+                </li>
+                <li>
+                  <strong>Company Information: </strong> Carenuity acting as
+                  Chipglobe GmbH, Cincinnatistrasse 60, 81549 Munich, Germany.{' '}
+                </li>
+                <li>
+                  <strong>Contact Information: </strong> Reach us at
+                  info@chipglobe.com or call us at (+49) 89-1222469-40 for
+                  further inquiries.
+                </li>
+              </ul>
             </p>
 
             <p>
-            Additionally, we encourage users to utilize the resources provided by the European Commission, including 
-            the platform for online dispute resolution.
-
+              Additionally, we encourage users to utilize the resources provided
+              by the European Commission, including the platform for online
+              dispute resolution.
             </p>
             <p>
-            By integrating Green Modularity into our product designs and adhering to strict compliance protocols, 
-            we ensure that sustainability is not just a promise, but a practice. Explore the future of modular 
-            technology with us and join the movement toward a smarter, greener planet.
- 
+              By integrating Green Modularity into our product designs and
+              adhering to strict compliance protocols, we ensure that
+              sustainability is not just a promise, but a practice. Explore the
+              future of modular technology with us and join the movement toward
+              a smarter, greener planet.
             </p>
           </div>
-
 
           <div className=" mb-4">
             <h4>

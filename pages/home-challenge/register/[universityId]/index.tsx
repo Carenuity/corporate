@@ -57,7 +57,7 @@ const UniversitySubscriptionWidget: React.FC<
 
     case 'tum':
       return <SubscriptionWidget categoryId={15} {...props} />;
-      case 'duth':
+    case 'duth':
       return <SubscriptionWidget categoryId={15} {...props} />;
 
     case 'night-sessions':
@@ -94,7 +94,7 @@ const getUniversityName = ({
 
     case 'tum':
       return 'Technical University of Mombasa';
-      case 'duth':
+    case 'duth':
       return 'Democritus University of Thrace ';
 
     case 'night-sessions':

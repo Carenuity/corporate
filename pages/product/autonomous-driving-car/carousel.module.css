@@ -1,8 +1,7 @@
-
 .carouselWrapper {
   position: relative;
   width: 100%;
-  max-width: 500px; 
+  max-width: 500px;
   margin: auto;
 }
 
@@ -10,22 +9,22 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  height:230px;
-  
+  height: 230px;
+
   scroll-behavior: smooth;
-  scrollbar-width: none; 
-  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .carouselContainer::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 .carouselImage {
   flex-shrink: 0;
-  
+
   height: 230px;
- 
+
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -52,8 +51,6 @@
 .carouselButton:hover {
   background-color: #074e2d;
 }
-
-
 
 /* 
 .carouselWrapper {
