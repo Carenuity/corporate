@@ -3,8 +3,8 @@ import { useContext } from 'react';
 import PageTitle from '../components/PageTitle';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
-import Translatable from '../components/Translatable';
 import Link from 'next/link';
+import SubscriptionWidget from '../components/SubscriptionWidget';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
@@ -13,7 +13,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
   return (
     <>
       <Head>
-        <Translatable />
+        {/* <Translatable /> */}
         <meta
           name="keywords"
           content="Carenuity ChipGlobe Electronics Embedded Systems"
@@ -210,7 +210,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 )}
               </p>
             </div>
-            {/* <SubscriptionWidget categoryId={1} /> */}
+            <SubscriptionWidget categoryId={1} />
             {/* <form
               method="post"
               className=" mb-20"
