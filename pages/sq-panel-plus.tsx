@@ -36,7 +36,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="container">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 mb-20">
+            <div className="col-lg-6 mb-4">
               <h5 className=" mb-1">
               {state === 'en' && (
               <>Carenuity SQ-Panel Launch</>
@@ -72,8 +72,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <div className="col-lg-1 mb-20"></div>
-            <div className="col-lg-4 mb-20">
+            <div className="col-lg-1 mb-4"></div>
+            <div className="col-lg-4 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/sq-panel-plus/sq-panel.png"
