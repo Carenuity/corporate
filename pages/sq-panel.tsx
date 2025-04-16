@@ -3599,7 +3599,7 @@ export const SqPanel = () => {
                 from our community. To get early news, insights and potentially
                 get a free Eval-Kit for early bird testing of new features, pls
                 subscribe{' '}
-                <Link href="/sq-panel-kickstarter" className="text-success">
+                <Link href="/sq-panel-plus" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.
