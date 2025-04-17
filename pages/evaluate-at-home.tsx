@@ -555,7 +555,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                    
                    
                     <div className="row">
-                      <div className="col-md-7 mb-4">
+                      <div className="col-md-8 mb-4">
                       <h6 className="text-success">Evaluation Kit L for Standard Displays</h6>
                     <p>
                     Suited for Raspberry Pi Pico-W boards with Infineon Wifi module<br/>
@@ -618,7 +618,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       </p>
                       </div>
                       </div>
-                      <div className="col-md-5 mb-4">
+                      <div className="col-md-4 mb-4">
                          {/* eslint-disable-next-line @next/next/no-img-element */}
                   {/* <img
                     src="/img/content/evaluate/triple-adapter.png"
