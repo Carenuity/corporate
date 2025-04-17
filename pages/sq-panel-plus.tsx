@@ -177,7 +177,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </li>
             </ul>
 
-            
             <div
               id="subscribe"
               className=" mb-4"

@@ -327,12 +327,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
             <div className="row">
-            {/* 
+              {/* 
               <div className="col-lg-12">
                 {' '}
                 <Link href="/install-for-free" className="text-success"> */}
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  {/* <img
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              {/* <img
                     src="/img/content/evaluate/Evaluation-Kits-Overview_2.png"
                     className="mt-1-6 wow fadeInUp"
                     data-wow-delay="100ms"
@@ -347,280 +347,315 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </Link>
               </div> */}
 
-              <h4 className=" mb-4">The Evaluation Kits come in three sizes to perfectly fit in your home:</h4>
+              <h4 className=" mb-4">
+                The Evaluation Kits come in three sizes to perfectly fit in your
+                home:
+              </h4>
               <div className="row">
-              <div className="col-md-6 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '240px',
-                  }}
-                >
-                 
-
-                  <div style={{ padding: '10px' }}>
-                   
-                   
-                    <div className="row">
-                      <div className="col-md-8 mb-4">
-                      <h6 className="text-success">Evaluation Kit S "Triple-Adapter"</h6>
-                    <p>
-                    Suited for D1- and C3-Mini Boards and  all Sensors<br/>
-                    Compatible with 0.66 inch and 0.96inch Displays
-                    </p>
-                    <div className="row">
-                      <p className="col-md-4 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              ''
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Buy Now</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={
-                              ''
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Buy Now{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      <p className="col-md-6 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={' https://carenuity.netlify.app/c3-mini/'}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Install for free</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={' https://carenuity.netlify.app/c3-mini/'}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Install for free{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      </div>
-                      </div>
-                      <div className="col-md-4 mb-4">
-                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/evaluate/triple-adapter.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
+                <div className="col-md-6 mb-4">
+                  <div
+                    className="e-card"
                     style={{
-                      visibility: 'visible',
-                     height: '190px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      height: '240px',
                     }}
-                  />
+                  >
+                    <div style={{ padding: '10px' }}>
+                      <div className="row">
+                        <div className="col-md-8 mb-4">
+                          <h6 className="text-success">
+                            Evaluation Kit S &quot;Triple-Adapter&quot;
+                          </h6>
+                          <p>
+                            Suited for D1- and C3-Mini Boards and all Sensors
+                            <br />
+                            Compatible with 0.66 inch and 0.96inch Displays
+                          </p>
+                          <div className="row">
+                            <p className="col-md-4 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small"> Buy Now</span>
+                                </Link>
+                              )}
+
+                              {isMobile && (
+                                <a
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Buy Now{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                            <p className="col-md-6 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={
+                                    ' https://carenuity.netlify.app/c3-mini/'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small">
+                                    {' '}
+                                    Install for free
+                                  </span>
+                                </Link>
+                              )}
+
+                              {isMobile && (
+                                <a
+                                  href={
+                                    ' https://carenuity.netlify.app/c3-mini/'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Install for free{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src="/img/content/evaluate/triple-adapter.png"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              height: '190px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                            }}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-6 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '240px',
-                  }}
-                >
-                 
-
-                  <div style={{ padding: '10px' }}>
-                   
-                   
-                    <div className="row">
-                      <div className="col-md-8 mb-4">
-                      <h6 className="text-success">Evaluation Kit S with Sensor Selection Box</h6>
-                    <p>
-                    Suited for D1- and C3-Mini Boards, including seven sensors, a display and a buzzer.
-                    <br/> Compatible with 0.66 inch & 0.96inch Displays
-                    </p>
-                    <div className="row">
-                      <p className="col-md-4 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              'https://www.chipglobe.shop/en/p/modular-c3-mini-sensor-selection-box'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Buy Now</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={
-                              'https://www.chipglobe.shop/en/p/modular-c3-mini-sensor-selection-box'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Buy Now{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      <p className="col-md-6 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Install for free</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={'https://carenuity.com/c3-mini-box-devices/'}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Install for free{'https://carenuity.com/c3-mini-box-devices/ '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      </div>
-                      </div>
-                      <div className="col-md-4 mb-4">
-                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/evaluate/sensor-selection-box.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
+                <div className="col-md-6 mb-4">
+                  <div
+                    className="e-card"
                     style={{
-                      visibility: 'visible',
-                     height: '190px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      height: '240px',
                     }}
-                  />
+                  >
+                    <div style={{ padding: '10px' }}>
+                      <div className="row">
+                        <div className="col-md-8 mb-4">
+                          <h6 className="text-success">
+                            Evaluation Kit S with Sensor Selection Box
+                          </h6>
+                          <p>
+                            Suited for D1- and C3-Mini Boards, including seven
+                            sensors, a display and a buzzer.
+                            <br /> Compatible with 0.66 inch & 0.96inch Displays
+                          </p>
+                          <div className="row">
+                            <p className="col-md-4 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={
+                                    'https://www.chipglobe.shop/en/p/modular-c3-mini-sensor-selection-box'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small"> Buy Now</span>
+                                </Link>
+                              )}
+
+                              {isMobile && (
+                                <a
+                                  href={
+                                    'https://www.chipglobe.shop/en/p/modular-c3-mini-sensor-selection-box'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Buy Now{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                            <p className="col-md-6 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small">
+                                    {' '}
+                                    Install for free
+                                  </span>
+                                </Link>
+                              )}
+
+                              {isMobile && (
+                                <a
+                                  href={
+                                    'https://carenuity.com/c3-mini-box-devices/'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Install for free
+                                    {
+                                      'https://carenuity.com/c3-mini-box-devices/ '
+                                    }
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src="/img/content/evaluate/sensor-selection-box.png"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              height: '190px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                            }}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-6 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '240px',
-                  }}
-                >
-                 
+                <div className="col-md-6 mb-4">
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      height: '240px',
+                    }}
+                  >
+                    <div style={{ padding: '10px' }}>
+                      <div className="row">
+                        <div className="col-md-8 mb-4">
+                          <h6 className="text-success">
+                            Evaluation Kit L for Standard Displays
+                          </h6>
+                          <p>
+                            Suited for Raspberry Pi Pico-W boards with Infineon
+                            Wifi module
+                            <br />
+                            Compatible with 0.66 inch & 0.96 inch Displays
+                          </p>
+                          <div className="row">
+                            <p className="col-md-4 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small"> Buy Now</span>
+                                </Link>
+                              )}
 
-                  <div style={{ padding: '10px' }}>
-                   
-                   
-                    <div className="row">
-                      <div className="col-md-8 mb-4">
-                      <h6 className="text-success">Evaluation Kit L for Standard Displays</h6>
-                    <p>
-                    Suited for Raspberry Pi Pico-W boards with Infineon Wifi module<br/>
-                    Compatible with 0.66 inch & 0.96 inch Displays
-                    </p>
-                    <div className="row">
-                      <p className="col-md-4 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              ''
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Buy Now</span>
-                          </Link>
-                        )}
+                              {isMobile && (
+                                <a
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Buy Now{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                            <p className="col-md-6 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small">
+                                    {' '}
+                                    Install for free
+                                  </span>
+                                </Link>
+                              )}
 
-                        {isMobile && (
-                          <a
-                            href={
-                              ''
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Buy Now{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      <p className="col-md-6 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Install for free</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Install for free{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      </div>
-                      </div>
-                      <div className="col-md-4 mb-4">
-                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                  {/* <img
+                              {isMobile && (
+                                <a
+                                  href={''}
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Install for free{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          {/* <img
                     src="/img/content/evaluate/triple-adapter.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
@@ -632,108 +667,122 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       animationName: 'fadeIn',
                     }}
                   /> */}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-6 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '240px',
-                  }}
-                >
-                 
-
-                  <div style={{ padding: '10px' }}>
-                   
-                   
-                    <div className="row">
-                      <div className="col-md-8 mb-4">
-                      <h6 className="text-success">Evaluation Kit XL for Large Displays</h6>
-                    <p>
-                    Suited for D1- and C3-Mini Boards and all Sensors<br/>
-                    Compatible with large 2.6 inch and 2.8 inch Displays
-                    </p>
-                    <div className="row">
-                      <p className="col-md-4 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              'https://solutions.carenuity.com/solutions/3EUP0e9QDFbzixeSbbUE'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Buy Now</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={
-                              'https://solutions.carenuity.com/solutions/3EUP0e9QDFbzixeSbbUE'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Buy Now{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      <p className="col-md-6 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={'https://solutions.carenuity.com/microcontrollers/4OQQy4edGswvbN6boCKw'}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Install for free</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={'https://solutions.carenuity.com/microcontrollers/4OQQy4edGswvbN6boCKw'}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Install for free{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      </div>
-                      </div>
-                      <div className="col-md-4 mb-4">
-                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/evaluate/xl-triple-adaptor.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
+                <div className="col-md-6 mb-4">
+                  <div
+                    className="e-card"
                     style={{
-                      visibility: 'visible',
-                     height: '190px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      height: '240px',
                     }}
-                  />
+                  >
+                    <div style={{ padding: '10px' }}>
+                      <div className="row">
+                        <div className="col-md-8 mb-4">
+                          <h6 className="text-success">
+                            Evaluation Kit XL for Large Displays
+                          </h6>
+                          <p>
+                            Suited for D1- and C3-Mini Boards and all Sensors
+                            <br />
+                            Compatible with large 2.6 inch and 2.8 inch Displays
+                          </p>
+                          <div className="row">
+                            <p className="col-md-4 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={
+                                    'https://solutions.carenuity.com/solutions/3EUP0e9QDFbzixeSbbUE'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small"> Buy Now</span>
+                                </Link>
+                              )}
+
+                              {isMobile && (
+                                <a
+                                  href={
+                                    'https://solutions.carenuity.com/solutions/3EUP0e9QDFbzixeSbbUE'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Buy Now{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                            <p className="col-md-6 mb-4">
+                              {!isMobile && (
+                                <Link
+                                  href={
+                                    'https://solutions.carenuity.com/microcontrollers/4OQQy4edGswvbN6boCKw'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                >
+                                  <span className="small">
+                                    {' '}
+                                    Install for free
+                                  </span>
+                                </Link>
+                              )}
+
+                              {isMobile && (
+                                <a
+                                  href={
+                                    'https://solutions.carenuity.com/microcontrollers/4OQQy4edGswvbN6boCKw'
+                                  }
+                                  target="_blank"
+                                  className={
+                                    'btn btn-sm btn-success rounded-pill'
+                                  }
+                                  rel="noreferrer"
+                                >
+                                  <span className="small">
+                                    Install for free{' '}
+                                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                  </span>
+                                </a>
+                              )}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src="/img/content/evaluate/xl-triple-adaptor.png"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              height: '190px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                            }}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
               <div>
                 <h4>Select the right Sensor</h4>
