@@ -5,6 +5,7 @@ import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
 import Link from 'next/link';
 import SubscriptionWidget from '../components/SubscriptionWidget';
+import Translatable from '../components/Translatable';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
@@ -12,6 +13,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
+      <Translatable />
       <Head>
         {/* <Translatable /> */}
         <meta
