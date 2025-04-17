@@ -470,7 +470,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         {!isMobile && (
                           <Link
                             href={
-                              'https://www.chipglobe.shop/en/p/autonomous-driving-car'
+                              'https://www.chipglobe.shop/en/p/modular-c3-mini-sensor-selection-box'
                             }
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
@@ -482,7 +482,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         {isMobile && (
                           <a
                             href={
-                              'https://www.chipglobe.shop/en/p/autonomous-driving-car'
+                              'https://www.chipglobe.shop/en/p/modular-c3-mini-sensor-selection-box'
                             }
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
@@ -508,13 +508,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                         {isMobile && (
                           <a
-                            href={''}
+                            href={'https://carenuity.com/c3-mini-box-devices/'}
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
                             rel="noreferrer"
                           >
                             <span className="small">
-                              Install for free{' '}
+                              Install for free{'https://carenuity.com/c3-mini-box-devices/ '}
                               {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                             </span>
                           </a>
