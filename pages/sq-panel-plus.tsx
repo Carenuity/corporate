@@ -92,7 +92,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               )}
             </h4>
 
-            <ul>
+            <ul className="col-lg-6 mb-20">
               <li>
                 {state === 'en' && (
                   <>
@@ -175,11 +175,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </li>
             </ul>
 
-            <h4 className="">
-              {state === 'en' && <></>}
-              {state === 'de' && <></>}
-            </h4>
-
+            
             <div
               id="subscribe"
               className=" mb-4"
