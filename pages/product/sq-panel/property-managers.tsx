@@ -33,6 +33,98 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
+        <div
+                      className="e-card mb-6"
+                      style={{
+                        boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                        maxHeight: '1O00px',
+                        padding: '20px',
+                      }}
+                    >
+                      <div className="row">
+                        <div className="col-md-4 mb-4">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/product/property.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      height: '400px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                        </div>
+                        <div className="col-md-8 mb-4">
+                         <p>
+                                    {state === 'en' && (
+                          <>
+                            <strong>Property Managers</strong> are responsible for 
+                            maintaining and overseeing residential, commercial, or mixed-use buildings 
+                            to ensure they operate smoothly, safely, and efficiently. Their role includes 
+                            managing tenant satisfaction, maintaining building systems, and complying with
+                             health and safety regulations. As awareness of indoor environmental quality 
+                             grows, property managers are increasingly expected to provide healthier, 
+                             more comfortable living and working spaces that can attract and retain 
+                             tenants while minimizing complaints and maintenance issues.
+
+                      
+
+                            
+                          </>
+                        )}
+                        {state === 'de' && (
+                          <>
+                          <strong>Immobilienverwalter</strong> sind für die Instandhaltung und Überwachung von Wohn-, 
+                          Gewerbe- oder gemischt genutzten Gebäuden verantwortlich, um sicherzustellen, dass sie 
+                          reibungslos, sicher und effizient funktionieren. Zu ihren Aufgaben gehören die Verwaltung 
+                          der Mieterzufriedenheit, die Wartung von Gebäudesystemen und die Einhaltung von Gesundheits- 
+                          und Sicherheitsvorschriften. Da das Bewusstsein für die Qualität des Innenraumklimas wächst, 
+                          wird von Immobilienverwaltern zunehmend erwartet, dass sie gesündere, komfortablere Wohn- und 
+                          Arbeitsräume bereitstellen, die Mieter anziehen und binden und gleichzeitig Beschwerden und 
+                          Wartungsprobleme minimieren können.
+
+
+
+                          
+                         
+                          </>
+                        )}
+                         </p>
+                         <p>
+                                    {state === 'en' && (
+                          <>
+                            
+
+                            The <strong>SQ panel</strong>  supports property managers by delivering clear, real-time data 
+                            on indoor air quality, temperature, humidity, pressure, carbon dioxide (CO₂), total volatile 
+                            organic compounds (TVOC), and presence. This insight enables proactive maintenance of HVAC systems, 
+                            ensures compliance with ventilation standards, and helps identify potential environmental concerns
+                             before they become tenant complaints. The panel also demonstrates a commitment to wellness and 
+                             transparency, enhancing the building's value and appeal. For modern property managers, the SQ 
+                             panel is a smart, practical investment in healthier, more livable spaces.
+                          </>
+                        )}
+                        {state === 'de' && (
+                          <>
+                          
+
+                          Das <strong>SQ-Panel</strong> unterstützt Immobilienverwalter, indem es klare Echtzeitdaten zu Raumluftqualität, 
+                          Temperatur, Luftfeuchtigkeit, Druck, Kohlendioxid (CO₂), Gesamtgehalt flüchtiger organischer 
+                          Verbindungen (TVOC) und Anwesenheit liefert. Diese Erkenntnisse ermöglichen eine proaktive Wartung 
+                          von HVAC-Systemen, stellen die Einhaltung von Lüftungsstandards sicher und helfen dabei, potenzielle
+                          Umweltprobleme zu erkennen, bevor sie zu Mieterbeschwerden werden. Das Gremium demonstriert auch sein 
+                          Engagement für Wohlbefinden und Transparenz und steigert den Wert und die Attraktivität des Gebäudes. 
+                          Für moderne Immobilienverwalter ist das SQ-Panel eine intelligente und praktische Investition in 
+                          gesündere und lebenswertere Räume.
+                                                    </>
+                        )}
+                         </p>
+                        </div>
+                      </div>
+                    </div>
           <h4 className="mb-4">
             {state === 'en' && (
               <>
