@@ -11,7 +11,7 @@ const Page = () => {
   return (
     <>
       <Head>
-      <Translatable />
+      {/* <Translatable /> */}
 
         <meta
           name="keywords"
