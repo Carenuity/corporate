@@ -10,8 +10,8 @@ const Page = () => {
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
+      <Translatable />
       <Head>
-        <Translatable />
         <meta
           name="keywords"
           content="Carenuity ChipGlobe Electronics Embedded Systems"
@@ -33,103 +33,106 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-        <div
-                      className="e-card mb-6"
-                      style={{
-                        boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                        maxHeight: '1O00px',
-                        padding: '20px',
-                      }}
-                    >
-        <div className="row">
-                        <div className="col-md-4 mb-4">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/product/family.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      height: '400px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                        </div>
-                        <div className="col-md-8 mb-4">
-                         <p>
-                                    {state === 'en' && (
-                          <>
-                            <strong>Smart Home Enthusiasts</strong> are individuals who embrace technology to 
-                            automate and enhance their living environments, integrating various devices and 
-                            systems to increase comfort, convenience, and efficiency. These enthusiasts are 
-                            constantly seeking innovative ways to optimize their homes, whether through smart 
-                            lighting, climate control, security, or environmental monitoring. Their focus is on 
-                            creating a connected, intelligent home that improves their quality of life while 
-                            promoting sustainability and energy efficiency.
-
-                              
-
-                          
-                      
-
-                            
-                          </>
-                        )}
-                        {state === 'de' && (
-                          <>
-                          <strong>Smart Care Providers</strong> Smart Home-Enthusiasten 
-                          sind Personen, die Technologie nutzen, um ihre Wohnumgebung zu 
-                          automatisieren und zu verbessern, indem sie verschiedene Geräte 
-                          und Systeme integrieren, um Komfort, Bequemlichkeit und Effizienz 
-                          zu steigern. Diese Enthusiasten sind ständig auf der Suche nach innovativen 
-                          Möglichkeiten, ihr Zuhause zu optimieren, sei es durch intelligente Beleuchtung, 
-                          Klimatisierung, Sicherheit oder Umweltüberwachung. Ihr Fokus liegt auf der Schaffung 
-                          eines vernetzten, intelligenten Zuhauses, das ihre Lebensqualität verbessert und 
-                          gleichzeitig Nachhaltigkeit und Energieeffizienz fördert.
-
-                         
-
-           
-                         
-                          </>
-                        )}
-                         </p>
-                         <p>
-                                    {state === 'en' && (
-                          <>
-                            
-
-                            The <strong>SQ panel</strong> is a valuable addition to a smart home, providing real-time data on key environmental 
-                              factors such as air quality, temperature, humidity, pressure, carbon dioxide (CO₂), total 
-                              volatile organic compounds (TVOC), and presence detection. By displaying this information, 
-                              the panel allows Smart Home Enthusiasts to monitor and adjust their indoor environment, 
-                              ensuring optimal air quality and comfort. With the ability to integrate with other smart 
-                              home systems, the SQ panel can trigger actions like adjusting the HVAC system or activating 
-                              air purifiers when specific thresholds are met. This level of control not only enhances daily 
-                              living but also ensures a healthier and more sustainable home environment.
-                          </>
-                        )}
-                        {state === 'de' && (
-                          <>
-                          
-
-                          Das <strong>SQ-Panel</strong>  ist eine wertvolle Ergänzung für ein Smart Home und liefert Echtzeitdaten zu wichtigen 
-                          Umweltfaktoren wie Luftqualität, Temperatur, Luftfeuchtigkeit, Druck, Kohlendioxid (CO₂), Gesamtgehalt 
-                          flüchtiger organischer Verbindungen (TVOC) und Anwesenheitserkennung. Durch die Anzeige dieser 
-                          Informationen ermöglicht das Panel Smart-Home-Enthusiasten, ihr Raumklima zu überwachen und 
-                          anzupassen und so optimale Luftqualität und Komfort zu gewährleisten. Durch die Möglichkeit 
-                          der Integration mit anderen Smart-Home-Systemen kann das SQ-Panel Aktionen wie die Anpassung 
-                          des HVAC-Systems oder die Aktivierung von Luftreinigern auslösen, wenn bestimmte Schwellenwerte 
-                          erreicht werden. Dieses Maß an Kontrolle verbessert nicht nur das tägliche Leben, sondern sorgt 
-                          auch für eine gesündere und nachhaltigere Wohnumgebung.
-                                                    </>
-                        )}
-                         </p>
-                        </div>
-                      </div>
-                      </div>
+          <div
+            className="e-card mb-6"
+            style={{
+              boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+              maxHeight: '1O00px',
+              padding: '20px',
+            }}
+          >
+            <div className="row">
+              <div className="col-md-4 mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/product/family.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    height: '400px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+              </div>
+              <div className="col-md-8 mb-4">
+                <p>
+                  {state === 'en' && (
+                    <>
+                      <strong>Smart Home Enthusiasts</strong> are individuals
+                      who embrace technology to automate and enhance their
+                      living environments, integrating various devices and
+                      systems to increase comfort, convenience, and efficiency.
+                      These enthusiasts are constantly seeking innovative ways
+                      to optimize their homes, whether through smart lighting,
+                      climate control, security, or environmental monitoring.
+                      Their focus is on creating a connected, intelligent home
+                      that improves their quality of life while promoting
+                      sustainability and energy efficiency.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      <strong>Smart Care Providers</strong> Smart
+                      Home-Enthusiasten sind Personen, die Technologie nutzen,
+                      um ihre Wohnumgebung zu automatisieren und zu verbessern,
+                      indem sie verschiedene Geräte und Systeme integrieren, um
+                      Komfort, Bequemlichkeit und Effizienz zu steigern. Diese
+                      Enthusiasten sind ständig auf der Suche nach innovativen
+                      Möglichkeiten, ihr Zuhause zu optimieren, sei es durch
+                      intelligente Beleuchtung, Klimatisierung, Sicherheit oder
+                      Umweltüberwachung. Ihr Fokus liegt auf der Schaffung eines
+                      vernetzten, intelligenten Zuhauses, das ihre
+                      Lebensqualität verbessert und gleichzeitig Nachhaltigkeit
+                      und Energieeffizienz fördert.
+                    </>
+                  )}
+                </p>
+                <p>
+                  {state === 'en' && (
+                    <>
+                      The <strong>SQ panel</strong> is a valuable addition to a
+                      smart home, providing real-time data on key environmental
+                      factors such as air quality, temperature, humidity,
+                      pressure, carbon dioxide (CO₂), total volatile organic
+                      compounds (TVOC), and presence detection. By displaying
+                      this information, the panel allows Smart Home Enthusiasts
+                      to monitor and adjust their indoor environment, ensuring
+                      optimal air quality and comfort. With the ability to
+                      integrate with other smart home systems, the SQ panel can
+                      trigger actions like adjusting the HVAC system or
+                      activating air purifiers when specific thresholds are met.
+                      This level of control not only enhances daily living but
+                      also ensures a healthier and more sustainable home
+                      environment.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Das <strong>SQ-Panel</strong> ist eine wertvolle Ergänzung
+                      für ein Smart Home und liefert Echtzeitdaten zu wichtigen
+                      Umweltfaktoren wie Luftqualität, Temperatur,
+                      Luftfeuchtigkeit, Druck, Kohlendioxid (CO₂), Gesamtgehalt
+                      flüchtiger organischer Verbindungen (TVOC) und
+                      Anwesenheitserkennung. Durch die Anzeige dieser
+                      Informationen ermöglicht das Panel
+                      Smart-Home-Enthusiasten, ihr Raumklima zu überwachen und
+                      anzupassen und so optimale Luftqualität und Komfort zu
+                      gewährleisten. Durch die Möglichkeit der Integration mit
+                      anderen Smart-Home-Systemen kann das SQ-Panel Aktionen wie
+                      die Anpassung des HVAC-Systems oder die Aktivierung von
+                      Luftreinigern auslösen, wenn bestimmte Schwellenwerte
+                      erreicht werden. Dieses Maß an Kontrolle verbessert nicht
+                      nur das tägliche Leben, sondern sorgt auch für eine
+                      gesündere und nachhaltigere Wohnumgebung.
+                    </>
+                  )}
+                </p>
+              </div>
+            </div>
+          </div>
           <h4 className="mb-4">
             {state === 'en' && (
               <>

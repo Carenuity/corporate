@@ -10,8 +10,8 @@ const Page = () => {
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
+      <Translatable />
       <Head>
-        <Translatable />
         <meta
           name="keywords"
           content="Carenuity ChipGlobe Electronics Embedded Systems"
@@ -33,103 +33,105 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-        <div
-                      className="e-card mb-6"
-                      style={{
-                        boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                        maxHeight: '1O00px',
-                        padding: '20px',
-                      }}
-                    >
-                      <div className="row">
-                        <div className="col-md-4 mb-4">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/product/Commercial.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      height: '400px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                        </div>
-                        <div className="col-md-8 mb-4">
-                         <p>
-                                    {state === 'en' && (
-                          <>
-                            <strong>Commercial Operators</strong>—such as facility managers, office 
-                            administrators, and building owners—are responsible for maintaining safe, 
-                            comfortable, and efficient environments for employees, customers, and 
-                            visitors. They focus on optimizing indoor spaces to meet health standards, 
-                            improve occupant satisfaction, and support productivity, all while managing 
-                            energy use and operational efficiency. Ensuring high air quality and 
-                            environmental comfort is increasingly becoming a priority, especially 
-                            in workplaces, hospitality venues, and retail environments.
-
-                      
-
-                            
-                          </>
-                        )}
-                        {state === 'de' && (
-                          <>
-                          <strong>Gewerbliche Betreiber</strong>- wie Facility Manager, 
-                          Büroadministratoren und Gebäudeeigentümer - sind für die 
-                          Aufrechterhaltung einer sicheren, komfortablen und effizienten 
-                          Umgebung für Mitarbeiter, Kunden und Besucher verantwortlich. 
-                          Sie konzentrieren sich auf die Optimierung von Innenräumen, um 
-                          Gesundheitsstandards zu erfüllen, die Zufriedenheit der Bewohner 
-                          zu verbessern und die Produktivität zu unterstützen, während gleichzeitig 
-                          der Energieverbrauch und die Betriebseffizienz gesteuert werden. 
-                          Die Gewährleistung einer hohen Luftqualität und eines hohen Umweltkomforts 
-                          wird zunehmend zu einer Priorität, insbesondere an Arbeitsplätzen, im 
-                          Gastgewerbe und im Einzelhandel.
-
-                          
-                         
-                          </>
-                        )}
-                         </p>
-                         <p>
-                                    {state === 'en' && (
-                          <>
-                            
-
-                            The <strong>SQ panel</strong>  serves as a vital tool for Commercial Operators by providing 
-                      real-time, visible data on key indoor environmental conditions. It displays 
-                      crucial metrics such as air quality, temperature, humidity, atmospheric pressure, 
-                      carbon dioxide (CO₂), total volatile organic compounds (TVOC), and presence 
-                      detection. With this data, operators can proactively address ventilation issues, 
-                      adjust HVAC systems, and create healthier, more responsive indoor environments. 
-                      The panel not only supports regulatory compliance and sustainability goals but 
-                      also builds trust with occupants by promoting transparency around indoor air 
-                      quality and comfort.
-                          </>
-                        )}
-                        {state === 'de' && (
-                          <>
-                          
-
-                          Das <strong>SQ-Panel</strong> dient als wichtiges Werkzeug für gewerbliche Betreiber, 
-                          indem es in Echtzeit sichtbare Daten über wichtige Raumklimabedingungen 
-                          liefert. Es zeigt wichtige Messwerte wie Luftqualität, Temperatur, 
-                          Luftfeuchtigkeit, Luftdruck, Kohlendioxid (CO₂), Gesamtgehalt flüchtiger 
-                          organischer Verbindungen (TVOC) und Anwesenheitserkennung an. Mit diesen 
-                          Daten können Betreiber Lüftungsprobleme proaktiv angehen, HVAC-Systeme 
-                          anpassen und gesündere, reaktionsfähigere Innenumgebungen schaffen. Das 
-                          Gremium unterstützt nicht nur die Einhaltung gesetzlicher Vorschriften 
-                          und Nachhaltigkeitsziele, sondern schafft auch Vertrauen bei den Bewohnern, 
-                          indem es Transparenz in Bezug auf Raumluftqualität und -komfort fördert.
-                          </>
-                        )}
-                         </p>
-                        </div>
-                      </div>
-                    </div>
+          <div
+            className="e-card mb-6"
+            style={{
+              boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+              maxHeight: '1O00px',
+              padding: '20px',
+            }}
+          >
+            <div className="row">
+              <div className="col-md-4 mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/product/Commercial.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    height: '400px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+              </div>
+              <div className="col-md-8 mb-4">
+                <p>
+                  {state === 'en' && (
+                    <>
+                      <strong>Commercial Operators</strong>—such as facility
+                      managers, office administrators, and building owners—are
+                      responsible for maintaining safe, comfortable, and
+                      efficient environments for employees, customers, and
+                      visitors. They focus on optimizing indoor spaces to meet
+                      health standards, improve occupant satisfaction, and
+                      support productivity, all while managing energy use and
+                      operational efficiency. Ensuring high air quality and
+                      environmental comfort is increasingly becoming a priority,
+                      especially in workplaces, hospitality venues, and retail
+                      environments.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      <strong>Gewerbliche Betreiber</strong>- wie Facility
+                      Manager, Büroadministratoren und Gebäudeeigentümer - sind
+                      für die Aufrechterhaltung einer sicheren, komfortablen und
+                      effizienten Umgebung für Mitarbeiter, Kunden und Besucher
+                      verantwortlich. Sie konzentrieren sich auf die Optimierung
+                      von Innenräumen, um Gesundheitsstandards zu erfüllen, die
+                      Zufriedenheit der Bewohner zu verbessern und die
+                      Produktivität zu unterstützen, während gleichzeitig der
+                      Energieverbrauch und die Betriebseffizienz gesteuert
+                      werden. Die Gewährleistung einer hohen Luftqualität und
+                      eines hohen Umweltkomforts wird zunehmend zu einer
+                      Priorität, insbesondere an Arbeitsplätzen, im Gastgewerbe
+                      und im Einzelhandel.
+                    </>
+                  )}
+                </p>
+                <p>
+                  {state === 'en' && (
+                    <>
+                      The <strong>SQ panel</strong> serves as a vital tool for
+                      Commercial Operators by providing real-time, visible data
+                      on key indoor environmental conditions. It displays
+                      crucial metrics such as air quality, temperature,
+                      humidity, atmospheric pressure, carbon dioxide (CO₂),
+                      total volatile organic compounds (TVOC), and presence
+                      detection. With this data, operators can proactively
+                      address ventilation issues, adjust HVAC systems, and
+                      create healthier, more responsive indoor environments. The
+                      panel not only supports regulatory compliance and
+                      sustainability goals but also builds trust with occupants
+                      by promoting transparency around indoor air quality and
+                      comfort.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Das <strong>SQ-Panel</strong> dient als wichtiges Werkzeug
+                      für gewerbliche Betreiber, indem es in Echtzeit sichtbare
+                      Daten über wichtige Raumklimabedingungen liefert. Es zeigt
+                      wichtige Messwerte wie Luftqualität, Temperatur,
+                      Luftfeuchtigkeit, Luftdruck, Kohlendioxid (CO₂),
+                      Gesamtgehalt flüchtiger organischer Verbindungen (TVOC)
+                      und Anwesenheitserkennung an. Mit diesen Daten können
+                      Betreiber Lüftungsprobleme proaktiv angehen, HVAC-Systeme
+                      anpassen und gesündere, reaktionsfähigere Innenumgebungen
+                      schaffen. Das Gremium unterstützt nicht nur die Einhaltung
+                      gesetzlicher Vorschriften und Nachhaltigkeitsziele,
+                      sondern schafft auch Vertrauen bei den Bewohnern, indem es
+                      Transparenz in Bezug auf Raumluftqualität und -komfort
+                      fördert.
+                    </>
+                  )}
+                </p>
+              </div>
+            </div>
+          </div>
           <h4 className="mn-4">
             {state === 'en' && (
               <>

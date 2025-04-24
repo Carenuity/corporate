@@ -10,8 +10,8 @@ const Page = () => {
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
+      <Translatable />
       <Head>
-        <Translatable />
         <meta
           name="keywords"
           content="Carenuity ChipGlobe Electronics Embedded Systems"
@@ -34,90 +34,100 @@ const Page = () => {
       <section className="pt-4">
         <div className="container">
           <div
-                      className="e-card mb-6"
-                      style={{
-                        boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                        maxHeight: '1O00px',
-                        padding: '20px',
-                      }}
-                    >
-                      <div className="row">
-                        <div className="col-md-4 mb-4">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/product/health.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      height: '350px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                        </div>
-                        <div className="col-md-8 mb-4">
-                         <p>
-                                    {state === 'en' && (
-                          <>
-                            <strong>Health Conscious Longevity Enthusiasts</strong> are individuals dedicated to extending 
-                            their healthspan by actively managing all aspects of their physical and mental 
-                            well-being. They focus not only on diet, exercise, and sleep but also on optimizing 
-                            their daily environment to reduce long-term health risks. These individuals are highly 
-                            informed, often integrating technology and data into their wellness routines to make 
-                            smarter, more proactive choices that support a longer, healthier life.
-
-                            
-                          </>
-                        )}
-                        {state === 'de' && (
-                          <>
-                          <strong>Gesundheitsbewusste Langlebigkeitsbegeisterte</strong> sind Personen, die sich 
-                          dafür einsetzen, ihre Gesundheit zu verlängern, indem sie alle Aspekte ihres körperlichen 
-                          und geistigen Wohlbefindens aktiv verwalten. Sie konzentrieren sich nicht nur auf Ernährung,
-                           Bewegung und Schlaf, sondern auch auf die Optimierung ihrer täglichen Umgebung, um langfristige 
-                           Gesundheitsrisiken zu reduzieren. Diese Personen sind hochinformiert und integrieren häufig 
-                           Technologie und Daten in ihre Wellness-Routinen, um intelligentere, proaktivere Entscheidungen 
-                           zu treffen, die ein längeres und gesünderes Leben unterstützen.
-
-                         
-                          </>
-                        )}
-                         </p>
-                         <p>
-                                    {state === 'en' && (
-                          <>
-                            
-
-                            The <strong>SQ panel</strong> is a powerful tool for this lifestyle, providing real-time insights into 
-                            key indoor environmental 
-                            factors that directly affect health. By displaying data on air quality, temperature, 
-                            humidity, air pressure, carbon dioxide (CO₂), total volatile organic compounds (TVOC), 
-                            and presence detection, the panel helps users identify and respond to invisible threats 
-                            in their surroundings. This allows longevity enthusiasts to fine-tune their environment 
-                            for better sleep, focus, and overall wellness—turning their living space into an active 
-                            part of their health strategy.
-                          </>
-                        )}
-                        {state === 'de' && (
-                          <>
-                          
-
-                          Das <strong>SQ-Panel</strong> ist ein leistungsstarkes Tool für diesen Lebensstil und bietet 
-                          Echtzeit-Einblicke in wichtige Raumklimafaktoren, die sich direkt auf die Gesundheit auswirken. 
-                          Durch die Anzeige von Daten zu Luftqualität, Temperatur, Luftfeuchtigkeit, Luftdruck, Kohlendioxid 
-                          (CO₂), Gesamtgehalt flüchtiger organischer Verbindungen (TVOC) und Anwesenheitserkennung hilft das 
-                          Panel Benutzern, unsichtbare Bedrohungen in ihrer Umgebung zu erkennen und darauf zu reagieren. 
-                          Dadurch können Langlebigkeitsbegeisterte ihre Umgebung für besseren Schlaf, Konzentration und 
-                          allgemeines Wohlbefinden optimieren und so ihren Wohnraum zu einem aktiven Teil ihrer 
-                          Gesundheitsstrategie machen.
-                          </>
-                        )}
-                         </p>
-                        </div>
-                      </div>
-                    </div>
+            className="e-card mb-6"
+            style={{
+              boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+              maxHeight: '1O00px',
+              padding: '20px',
+            }}
+          >
+            <div className="row">
+              <div className="col-md-4 mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/product/health.png"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    height: '350px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+              </div>
+              <div className="col-md-8 mb-4">
+                <p>
+                  {state === 'en' && (
+                    <>
+                      <strong>Health Conscious Longevity Enthusiasts</strong>{' '}
+                      are individuals dedicated to extending their healthspan by
+                      actively managing all aspects of their physical and mental
+                      well-being. They focus not only on diet, exercise, and
+                      sleep but also on optimizing their daily environment to
+                      reduce long-term health risks. These individuals are
+                      highly informed, often integrating technology and data
+                      into their wellness routines to make smarter, more
+                      proactive choices that support a longer, healthier life.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      <strong>
+                        Gesundheitsbewusste Langlebigkeitsbegeisterte
+                      </strong>{' '}
+                      sind Personen, die sich dafür einsetzen, ihre Gesundheit
+                      zu verlängern, indem sie alle Aspekte ihres körperlichen
+                      und geistigen Wohlbefindens aktiv verwalten. Sie
+                      konzentrieren sich nicht nur auf Ernährung, Bewegung und
+                      Schlaf, sondern auch auf die Optimierung ihrer täglichen
+                      Umgebung, um langfristige Gesundheitsrisiken zu
+                      reduzieren. Diese Personen sind hochinformiert und
+                      integrieren häufig Technologie und Daten in ihre
+                      Wellness-Routinen, um intelligentere, proaktivere
+                      Entscheidungen zu treffen, die ein längeres und gesünderes
+                      Leben unterstützen.
+                    </>
+                  )}
+                </p>
+                <p>
+                  {state === 'en' && (
+                    <>
+                      The <strong>SQ panel</strong> is a powerful tool for this
+                      lifestyle, providing real-time insights into key indoor
+                      environmental factors that directly affect health. By
+                      displaying data on air quality, temperature, humidity, air
+                      pressure, carbon dioxide (CO₂), total volatile organic
+                      compounds (TVOC), and presence detection, the panel helps
+                      users identify and respond to invisible threats in their
+                      surroundings. This allows longevity enthusiasts to
+                      fine-tune their environment for better sleep, focus, and
+                      overall wellness—turning their living space into an active
+                      part of their health strategy.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Das <strong>SQ-Panel</strong> ist ein leistungsstarkes
+                      Tool für diesen Lebensstil und bietet Echtzeit-Einblicke
+                      in wichtige Raumklimafaktoren, die sich direkt auf die
+                      Gesundheit auswirken. Durch die Anzeige von Daten zu
+                      Luftqualität, Temperatur, Luftfeuchtigkeit, Luftdruck,
+                      Kohlendioxid (CO₂), Gesamtgehalt flüchtiger organischer
+                      Verbindungen (TVOC) und Anwesenheitserkennung hilft das
+                      Panel Benutzern, unsichtbare Bedrohungen in ihrer Umgebung
+                      zu erkennen und darauf zu reagieren. Dadurch können
+                      Langlebigkeitsbegeisterte ihre Umgebung für besseren
+                      Schlaf, Konzentration und allgemeines Wohlbefinden
+                      optimieren und so ihren Wohnraum zu einem aktiven Teil
+                      ihrer Gesundheitsstrategie machen.
+                    </>
+                  )}
+                </p>
+              </div>
+            </div>
+          </div>
           <h4 className="mb-4">
             {state === 'en' && (
               <>
