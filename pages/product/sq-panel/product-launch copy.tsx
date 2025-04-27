@@ -91,8 +91,8 @@ const Page = () => {
                     > */}
 
           <h4 className="mb-4">
-            {state === 'en' && <>1.Table-Stand version with SQ-TableStand</>}
-            {state === 'de' && <>1.Table-Stand-Version mit SQ-TableStand</>}
+            {state === 'en' && <>1.Table Tent Version</>}
+            {state === 'de' && <>1.Tischzelt-Version</>}
           </h4>
           <div className="row">
             <div className="col-md-4 mb-4">
@@ -104,7 +104,7 @@ const Page = () => {
                 alt="..."
                 style={{
                   visibility: 'visible',
-                  width: '430px',
+                  // width: '220px',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
                 }}
@@ -115,31 +115,34 @@ const Page = () => {
               <p>
                 {state === 'en' && (
                   <>
-                    The Table-Stand version with SQ-TableStand offers a complete, ready-to-use 
-                    setup designed for easy placement on desks, counters, and other flat surfaces. 
-                    It combines the advanced environmental monitoring capabilities of the SQ panel 
-                    with a specially designed SQ-TableStand that ensures a stable, ergonomic display. 
-                    The stand provides a professional and clean appearance, with integrated cable
-                    management and support for SQ Power, allowing for seamless plug-and-play operation. 
-                    This version is ideal for spaces like offices, reception areas, conference rooms, 
-                    and wellness centers where flexibility, mobility, and clear visibility are 
-                    important
+                    The Table Tent version is a sleek, compact display unit
+                    designed to sit upright on flat surfaces such as desks,
+                    counters, or reception areas—making it ideal for offices,
+                    retail environments, hospitality, and wellness spaces. Its
+                    angled form factor ensures high visibility and easy
+                    interaction, while maintaining a minimal footprint. This
+                    version is perfect for displaying real-time environmental
+                    data in a clear, accessible way without requiring wall
+                    installation or additional mounting hardware.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Die Table-Stand-Version mit SQ-TableStand bietet eine komplette, sofort einsatzbereite Lösung 
-                    Aufbau zur einfachen Platzierung auf Schreibtischen, Theken und anderen ebenen Flächen. 
-                    Es kombiniert die erweiterten Umgebungsüberwachungsfunktionen des SQ-Panels 
-                    mit einem speziell entwickelten SQ-TableStand, der eine stabile, ergonomische Präsentation gewährleistet. 
-                    Der Ständer sorgt mit integriertem Kabel für ein professionelles und sauberes Erscheinungsbild
-                    Verwaltung und Support für SQ Power, was einen nahtlosen Plug-and-Play-Betrieb ermöglicht. 
-                    Diese Version ist ideal für Räume wie Büros, Empfangsbereiche, Konferenzräume, 
-                    und Wellnesszentren, in denen Flexibilität, Mobilität und klare Sicht herrschen 
-                    wichtig
+                    Die Table Tent-Version ist eine schlanke, kompakte
+                    Präsentationseinheit, die so konzipiert ist, dass sie
+                    aufrecht und flach aufgestellt werden kann Oberflächen wie
+                    Schreibtische, Theken oder Empfangsbereiche - ideal für
+                    Büros und Einzelhandel Umgebungen, Gastfreundschaft und
+                    Wellnessbereiche. Sein abgewinkelter Formfaktor sorgt für
+                    eine hohe Sichtbarkeit und einfache Interaktion bei
+                    minimalem Platzbedarf. Diese Version eignet sich perfekt für
+                    die übersichtliche und leicht zugängliche Darstellung von
+                    Echtzeit-Umweltdaten ohne dass eine Wandinstallation oder
+                    zusätzliche Montageteile erforderlich sind.
                   </>
                 )}
               </p>
+
               <h6>
                 {state === 'en' && <>Packaging</>}
                 {state === 'de' && <>Verpackung</>}
@@ -147,43 +150,54 @@ const Page = () => {
               <p>
                 {state === 'en' && (
                   <>
-                    The Table-Stand version with SQ-TableStand will be packed in a standard paperboard
-                     box, designed to ensure both protection and ease of handling.  
-
-                  The <strong>paperboard standard box</strong> is a lightweight, sturdy, and 
-                  eco-friendly packaging solution that safely houses the SQ panel and its 
-                  matching SQ-TableStand. Each component is carefully positioned inside to 
-                  minimize movement during transport and reduce the risk of damage. The packaging 
-                  offers a clean, organized unboxing experience, making setup fast and straightforward 
-                  for the user. Thanks to the use of recyclable paperboard material, the packaging 
-                  also supports sustainability goals, reducing environmental impact. 
-                  This thoughtful packaging approach ensures that the Table-Stand version arrives 
-                  safely and ready for quick deployment.
+                    The Table Tent version will be packed in a standard box,
+                    with labels bundled separately for flexible application. The{' '}
+                    <strong>Standard box</strong> is a clean, protective
+                    packaging format designed for safe transport and easy
+                    storage. It is not custom-branded, making it ideal for bulk
+                    handling, internal use, or further customization downstream.
+                    Inside the box, all components of the Table Tent version are
+                    neatly organized to ensure minimal movement and maximum
+                    protection during shipping.
+                    <br />
+                    The <strong>Labels</strong> are bundled separately—included
+                    inside the package but not pre-applied to the product. This
+                    approach allows distributors or end-users to apply the
+                    labels as needed, whether for branding, compliance, or
+                    organizational purposes. It offers greater flexibility,
+                    especially for partners who manage multiple product
+                    variations or need to localize labeling after delivery.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Die Table-Stand-Version mit SQ-TableStand wird in einem Standardkarton verpackt
-                     Box, die sowohl Schutz als auch einfache Handhabung gewährleistet.  
-
-                     Die <strong>Standardbox aus Pappe</strong> ist leicht, robust und 
-                  umweltfreundliche Verpackungslösung, die das SQ-Panel und seine Komponenten sicher beherbergt 
-                  passender SQ-Tischständer. Jede Komponente ist sorgfältig im Inneren positioniert 
-                  Minimieren Sie Bewegungen während des Transports und verringern Sie das Risiko von Schäden. Die Verpackung 
-                  bietet ein sauberes, organisiertes Auspackerlebnis und ermöglicht eine schnelle und unkomplizierte Einrichtung 
-                  für den Benutzer. Dank der Verwendung von recycelbarem Kartonmaterial ist die Verpackung 
-                  Unterstützt auch Nachhaltigkeitsziele und reduziert die Umweltbelastung. 
-                  Dieser durchdachte Verpackungsansatz stellt sicher, dass die Table-Stand-Version ankommt 
-                  sicher und schnell einsatzbereit.
+                    Die Table Tent-Version wird in einem Standardkarton
+                    verpackt, wobei die Etiketten separat gebündelt sind für
+                    flexiblen Einsatz. Der <strong>Standardkarton</strong> ist
+                    ein sauberes, schützendes Verpackungsformat, das für den
+                    sicheren Transport konzipiert ist und einfache Lagerung. Es
+                    ist nicht mit einer individuellen Marke versehen und daher
+                    ideal für den internen Massenumschlag geeignet Verwendung
+                    oder weitere nachgelagerte Anpassungen. In der Box befinden
+                    sich alle Komponenten des Tisches Die Zeltversion ist
+                    übersichtlich organisiert, um minimale Bewegung und
+                    maximalen Schutz zu gewährleisten während des Versands.
+                    <br />
+                    Die <strong>Etiketten</strong> sind separat gebündelt - sie
+                    sind im Paket enthalten, aber nicht bereits angebracht das
+                    Produkt. Dieser Ansatz ermöglicht es Händlern oder
+                    Endverbrauchern, die Etiketten so anzubringen erforderlich,
+                    sei es für Branding, Compliance oder organisatorische
+                    Zwecke. Es bietet mehr Flexibilität, insbesondere für
+                    Partner, die mehrere Produktvarianten verwalten oder
+                    verwalten müssen Etikettierung nach Lieferung lokalisieren.
                   </>
                 )}
               </p>
-             
             </div>
-           
           </div>
           {/* </div> */}
-         
+
           {/* <div
                       className="e-card mb-6"
                       style={{
@@ -194,20 +208,20 @@ const Page = () => {
                     > */}
 
           <h4 className="mb-4">
-            {state === 'en' && <>2. Wall-mountable SQ-Panel with SQ-Power</>}
-            {state === 'de' && <>2. Wandmontierbares SQ-Panel mit SQ-Power</>}
+            {state === 'en' && <>2. Wall-mountable SQ panel</>}
+            {state === 'de' && <>2. An der Wand montierbares SQ-Panel</>}
           </h4>
           <div className="row">
             <div className="col-md-4 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/product-launch/Slide2.png"
+                src="/img/content/product-launch/wall-sq-panel.jpeg"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',
-                  height: '500px',
+                  // width: '220px',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
                 }}
@@ -218,30 +232,34 @@ const Page = () => {
               <p>
                 {state === 'en' && (
                   <>
-                    The Wall-mountable SQ-Panel with SQ-Power is a fixed installation solution 
-                    designed for seamless integration into a wide range of environments such as 
-                    offices, healthcare facilities, schools, and smart buildings. It combines the 
-                    advanced sensing capabilities of the SQ-Panel—which displays real-time air 
-                    quality, temperature, humidity, pressure, carbon dioxide, TVOC levels, and 
-                    presence detection—with the convenience of integrated SQ-Power for continuous 
-                    operation. The wall-mounted design offers a clean, professional appearance while 
-                    ensuring that critical environmental data is always visible and accessible. 
-                    This version is ideal for permanent installations where space-saving, reliability, 
-                    and a streamlined look are priorities.
+                    The Wall-mountable SQ panel is a streamlined,
+                    fixed-installation solution designed for environments where
+                    space optimization, visibility, and durability are key.
+                    Ideal for offices, healthcare settings, schools, and smart
+                    buildings, this version is meant to be securely mounted on
+                    walls, offering a clean, integrated look that blends
+                    seamlessly with modern interiors. It continuously displays
+                    critical indoor environmental data—including air quality,
+                    temperature, humidity, pressure, CO₂, TVOC levels, and
+                    presence—helping users maintain healthy, comfortable, and
+                    compliant spaces.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das wandmontierbare SQ-Panel mit SQ-Power ist eine Festinstallationslösung 
-                    Entwickelt für die nahtlose Integration in eine Vielzahl von Umgebungen wie z 
-                    Büros, Gesundheitseinrichtungen, Schulen und intelligente Gebäude. Es vereint die 
-                    Erweiterte Sensorfunktionen des SQ-Panels - das Luft in Echtzeit anzeigt 
-                    Qualität, Temperatur, Luftfeuchtigkeit, Druck, Kohlendioxid, TVOC-Werte und 
-                    Anwesenheitserkennung - mit dem Komfort des integrierten SQ-Power für kontinuierliche 
-                    Betrieb. Das wandmontierte Design sorgt für ein klares, professionelles Erscheinungsbild 
-                    Sicherstellen, dass kritische Umweltdaten immer sichtbar und zugänglich sind. 
-                    Diese Version ist ideal für dauerhafte Installationen, bei denen Platzersparnis, Zuverlässigkeit, 
-                    und eine schlanke Optik stehen im Vordergrund.
+                    Das an der Wand montierbare SQ-Panel ist eine optimierte
+                    Lösung für die feste Installation Umgebungen, in denen
+                    Platzoptimierung, Sichtbarkeit und Haltbarkeit von
+                    entscheidender Bedeutung sind. Ideal für Diese Version ist
+                    für Büros, Gesundheitseinrichtungen, Schulen und
+                    intelligente Gebäude gedacht können sicher an Wänden
+                    montiert werden und bieten ein klares, integriertes
+                    Erscheinungsbild, das sich nahtlos einfügt mit modernem
+                    Interieur. Es zeigt kontinuierlich kritische
+                    Raumklimabedingungen an Daten - einschließlich Luftqualität,
+                    Temperatur, Luftfeuchtigkeit, Druck, CO₂, TVOC-Werte, und
+                    Präsenz - und hilft Benutzern, gesunde, komfortable und
+                    konforme Räume zu bewahren.
                   </>
                 )}
               </p>
@@ -253,7 +271,7 @@ const Page = () => {
               <p>
                 {state === 'en' && (
                   <>
-                    The Wall-mountable SQ-Panel with SQ-Power will be packed in a HEXPAND box,
+                    The Wall-mountable SQ panel will be packed in a HEXPAND box,
                     featuring the customer&apos;s own label for personalized
                     branding. The <strong>HEXPAND </strong>box is a premium,
                     purpose-designed packaging solution that offers both
@@ -275,7 +293,7 @@ const Page = () => {
                 )}
                 {state === 'de' && (
                   <>
-                    Das an der Wandmontierbares SQ-Panel mit SQ-Power wird in einer
+                    Das an der Wand montierbare SQ-Panel wird in einer
                     HEXPAND-Box verpackt und mit dem eigenen Etikett des Kunden
                     zur individuellen Kennzeichnung versehen. Die{' '}
                     <strong>HEXPAND-Box</strong> ist eine hochwertige, speziell
@@ -299,25 +317,23 @@ const Page = () => {
                   </>
                 )}
               </p>
-             
             </div>
-            
           </div>
           {/* </div> */}
-         
+
           <div>
-            <h4 className="mb-2">
+            <h4 className="mn-4">
               {state === 'en' && (
-                <>3. Complete kit with SQ-Panel, SQ-Power and SQ-TableStand</>
+                <>3. Complete package with SQ power and table stand</>
               )}
               {state === 'de' && (
-                <>3. Komplettes Set mit SQ-Panel, SQ-Power und SQ-TableStand</>
+                <>3. Komplettpaket mit SQ Power und Tischständer</>
               )}
             </h4>
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/product-launch/Slide1.png"
+                src="/img/content/product-launch/sq-stand.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -329,34 +345,36 @@ const Page = () => {
               />
             </div>
 
-            <div className='mb-6'>
+            <div>
               <p>
                 {state === 'en' && (
                   <>
-                    The Complete Kit with SQ-Panel, SQ-Power, and SQ-TableStand offers a flexible, 
-                    future-proof solution for customers who value adaptability. With this kit, users 
-                    can first set up the SQ-Panel easily on the included SQ-TableStand, allowing them 
-                    to test and monitor environmental conditions—such as air quality, temperature, 
-                    humidity, pressure, carbon dioxide, TVOC levels, and presence detection—directly 
-                    at their location of interest. If needed later, the same SQ-Panel can be detached 
-                    from the stand and wall-mounted for a more permanent installation, offering complete 
-                    flexibility without having to purchase a new setup. Additionally, customers have the 
-                    option to buy an additional SQ-Panel separately and reuse the original SQ-TableStand,
-                     making it a cost-effective and scalable solution as needs grow or spaces evolve.
+                    The Complete Package with SQ Power and Table Stand is a
+                    fully equipped, ready-to-deploy solution designed for users
+                    who want everything included in one convenient bundle. This
+                    version combines the advanced environmental monitoring
+                    capabilities of the SQ panel with integrated SQ power
+                    functionality and a stable, ergonomic table stand, making it
+                    ideal for high-traffic environments like reception desks,
+                    meeting rooms, retail counters, or healthcare check-in
+                    stations. It offers plug-and-play simplicity with no need
+                    for additional accessories or installation tools.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das Komplettset mit SQ-Panel, SQ-Power und SQ-TableStand bietet eine flexible, 
-                    zukunftssichere Lösung für Kunden, die Wert auf Anpassungsfähigkeit legen. Mit diesem Kit, Benutzer 
-                    Sie können das SQ-Panel zunächst ganz einfach auf dem mitgelieferten SQ-TableStand aufstellen und so die 
-                    zum Testen und Überwachen von Umgebungsbedingungen wie Luftqualität, Temperatur, 
-                    Luftfeuchtigkeit, Druck, Kohlendioxid, TVOC-Werte und Anwesenheitserkennung - direkt 
-                    an ihrem interessierenden Ort. Bei späterem Bedarf kann das gleiche SQ-Panel abgenommen werden 
-                    vom Ständer und an der Wand montiert für eine dauerhaftere Installation, die ein Komplettangebot bietet 
-                    Flexibilität, ohne ein neues Setup kaufen zu müssen. Darüber hinaus haben Kunden die 
-                    Option, ein zusätzliches SQ-Panel separat zu kaufen und den ursprünglichen SQ-TableStand wiederzuverwenden,
-                     Dies macht es zu einer kostengünstigen und skalierbaren Lösung, wenn der Bedarf wächst oder sich die Räume verändern.
+                    Das Komplettpaket mit SQ Power und Tischständer ist komplett
+                    ausgestattet und sofort einsatzbereit Lösung für Benutzer,
+                    die alles in einem praktischen Paket enthalten möchten.
+                    Diese Version kombiniert die erweiterten
+                    Umgebungsüberwachungsfunktionen des SQ Panel mit
+                    integrierter SQ-Power-Funktionalität und einem stabilen,
+                    ergonomischen Tischständer, Damit eignet es sich ideal für
+                    stark frequentierte Umgebungen wie Empfangstheken,
+                    Besprechungsräume, Einzelhandelsschalter oder
+                    Check-in-Stationen im Gesundheitswesen. Es bietet
+                    Plug-and-Play-Einfachheit ohne dass zusätzliches Zubehör
+                    oder Installationswerkzeuge erforderlich sind.
                   </>
                 )}
               </p>
@@ -367,75 +385,65 @@ const Page = () => {
               <p>
                 {state === 'en' && (
                   <>
-                    The Complete Kit with SQ-Panel, SQ-Power, and SQ-TableStand will be packed in a 
-                    standard paperboard box, designed to provide secure, efficient, and environmentally 
-                    friendly packaging. The paperboard standard box ensures that each component—the 
-                    SQ-Panel, SQ-Power, and SQ-TableStand—is safely positioned in dedicated compartments, 
-                    reducing movement and protecting the products from damage during shipping. 
-                    Lightweight yet sturdy, the box makes handling and unpacking easy while offering 
-                    a clean and professional presentation to the customer. The packaging is also 
-                    recyclable, supporting sustainable practices. This thoughtful packaging 
-                    approach ensures the Complete Kit arrives in perfect condition, ready for quick 
-                    testing on the table stand and later optional wall installation.
+                    The Complete Package with SQ Power and Table Stand will be
+                    packed in a dedicated stand box, with labels bundled
+                    separately for flexible application. The{' '}
+                    <strong>Stand box</strong> is specifically designed to
+                    accommodate the SQ panel, power components, and table stand
+                    in a secure, organized layout. It provides robust protection
+                    during shipping while also offering a clean and professional
+                    presentation for end users. Each component has its own
+                    compartment within the box, minimizing movement and reducing
+                    the risk of damage in transit. This packaging format is
+                    ideal for customers who want a ready-to-use, all-in-one
+                    solution without the need for additional setup or
+                    accessories.
+                    <br />
+                    Included inside the box are{' '}
+                    <strong>Separately Bundled Labels</strong>, which are not
+                    pre-applied to the device or packaging. This allows for
+                    greater flexibility in branding, compliance marking, or
+                    localization based on region or customer requirements. By
+                    separating the labels, users or distributors can apply them
+                    at the most appropriate time—whether during installation,
+                    inventory management, or final deployment—ensuring a smooth
+                    and customizable rollout process.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Das komplette Kit mit SQ-Panel, SQ-Power und SQ-TableStand wird in einem verpackt 
-                    Standardkarton, der sicher, effizient und umweltfreundlich ist 
-                    freundliche Verpackung. Die Standardbox aus Pappe stellt sicher, dass jede Komponente - die 
-                    SQ-Panel, SQ-Power und SQ-TableStand - werden sicher in speziellen Fächern positioniert, 
-                    Reduziert die Bewegung und schützt die Produkte vor Beschädigungen während des Transports. 
-                    Die leichte und dennoch robuste Box erleichtert die Handhabung und das Auspacken beim Anbieten 
-                    eine saubere und professionelle Präsentation beim Kunden. Die Verpackung ist auch 
-                    recycelbar und unterstützt nachhaltige Praktiken. Diese durchdachte Verpackung 
-                    Dieser Ansatz stellt sicher, dass das komplette Kit in einwandfreiem Zustand ankommt und schnell einsatzbereit ist 
-                    Testen am Tischständer und später optionale Wandmontage.
+                    Das Complete Package mit SQ Power und Tischständer wird in
+                    einer speziell entwickelten Standbox verpackt, wobei die
+                    Etiketten separat gebündelt beigelegt werden, um eine
+                    flexible Anwendung zu ermöglichen. Die{' '}
+                    <strong>Standbox</strong> ist speziell dafür konzipiert, das
+                    SQ-Panel, die Stromversorgungskomponenten und den
+                    Tischständer in einer sicheren und organisierten Anordnung
+                    aufzunehmen. Sie bietet einen robusten Schutz während des
+                    Transports und zugleich eine saubere und professionelle
+                    Präsentation für den Endnutzer. Jedes Element hat sein
+                    eigenes Fach innerhalb der Verpackung, was Bewegungen
+                    minimiert und das Risiko von Transportschäden reduziert.
+                    Dieses Verpackungskonzept ist ideal für Kunden, die eine
+                    sofort einsatzbereite All-in-One-Lösung ohne zusätzlichen
+                    Installationsaufwand wünschen. In der Box befinden sich
+                    **separat gebündelte Etiketten**, die nicht vorab am Gerät
+                    oder an der Verpackung angebracht sind. Dies ermöglicht eine
+                    höhere Flexibilität bei der Markenkennzeichnung, bei
+                    regulatorischen Anforderungen oder bei der Lokalisierung je
+                    nach Region oder Kundenwunsch. Durch die separate Beigabe
+                    können Nutzer oder Distributoren die Etiketten genau dann
+                    anbringen, wenn es am sinnvollsten ist - sei es während der
+                    Installation, Lagerverwaltung oder beim finalen Rollout -
+                    und so einen reibungslosen und anpassbaren Einsatz
+                    sicherstellen.
                   </>
                 )}
               </p>
-              
             </div>
-            <hr/>
           </div>
-          <h4 className="mn-4">
-            {state === 'en' && <>JUNG designer 
-              frame</>}
-            {state === 'de' && <>JUNG-Designer 
-              rahmen</>}
-          </h4>
-          <div className="row">
-            <div className="col-md-2 mb-4">
-           
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/product-launch/jung.jpeg"
-                className="wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  width: '150px',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
 
-          
-          <p className="col-md-10 mb-4">
-            {state === 'en' && <>Each product will include one piece of the optional JUNG designer 
-            frame, a decorative element that offers an elegant way to integrate the SQ-Panel into the 
-            interior design of your space. This frame is designed to match the style of popular switches
-             and power sockets used in modern homes and offices, allowing the panel to blend seamlessly 
-             into existing surroundings. While optional, the JUNG frame enhances the overall aesthetic, 
-             making the installation look more intentional and cohesive with the room&apos;s design. It 
-             provides customers with the flexibility to maintain a consistent visual theme without 
-             compromising on functionality or performance.</>}
-            {state === 'de' && <>Unsere Verpackungsvarianten</>}
-          </p>
-              </div>
-          <h4 className="mb-2">
+          <h4 className="mn-4">
             {state === 'en' && <>Our Packaging Variants</>}
             {state === 'de' && <>Unsere Verpackungsvarianten</>}
           </h4>
@@ -458,10 +466,10 @@ const Page = () => {
 
           <div className="row">
             <div className="col-md-4 mb-4">
-              <h6 className="mn-4">
-                {state === 'en' && <>1. Papercard standard box</>}
-                {state === 'de' && <>1. Standardkarton aus Papier</>}
-              </h6>
+              <h4 className="mn-4">
+                {state === 'en' && <>1. Standard box</>}
+                {state === 'de' && <>1. Standardbox</>}
+              </h4>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/product-launch/standard.jpeg"
@@ -470,18 +478,17 @@ const Page = () => {
                 alt="..."
                 style={{
                   visibility: 'visible',
-                  // width: '320px',
+                  width: '320px',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
                 }}
               />
             </div>
-            <div className="col-md-1 mb-4"></div>
-            <div className="col-md-7 mb-4">
-              <h6 className="mn-4">
+            <div className="col-md-8 mb-4">
+              <h4 className="mn-4">
                 {state === 'en' && <>2. Hexpand</>}
                 {state === 'de' && <>2.Hexpand</>}
-              </h6>
+              </h4>
               <div className="row">
                 <div className="col-md-4 mb-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -492,7 +499,7 @@ const Page = () => {
                     alt="..."
                     style={{
                       visibility: 'visible',
-                      height: '360px',
+                      width: '320px',
                       animationDelay: '100ms',
                       animationName: 'fadeIn',
                     }}
