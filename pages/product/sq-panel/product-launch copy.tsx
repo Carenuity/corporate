@@ -91,8 +91,8 @@ const Page = () => {
                     > */}
 
           <h4 className="mb-4">
-            {state === 'en' && <>1.Table Tent Version</>}
-            {state === 'de' && <>1.Tischzelt-Version</>}
+            {state === 'en' && <>1.Table-Stand version with SQ-TableStand</>}
+            {state === 'de' && <>1.Table-Stand-Version mit SQ-TableStand</>}
           </h4>
           <div className="row">
             <div className="col-md-4 mb-4">

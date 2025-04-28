@@ -1,3 +1,8 @@
+
+
+
+
+
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './carousel.module.css';
 
@@ -8,9 +13,11 @@ const images = [
   '/img/content/Autonomous/car4.jpg',
   '/img/content/Autonomous/car5.jpg',
   '/img/content/Autonomous/car6.jpg',
+  '/img/content/Autonomous/car7.jpg',
+  '/img/content/Autonomous/car8.jpg',
 ];
 
-const scrollAmount = 240; // height of one image + margin
+const scrollAmount = 340; // height of one image + margin
 
 const Carousel = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -77,52 +84,6 @@ const Carousel = () => {
 
 export default Carousel;
 
-// import React from 'react';
-// import styles from './carousel.module.css';
-// import { ChevronUp, ChevronDown } from 'lucide-react';
 
-// const images = [
-//   '/img/content/Autonomous/car1.jpg',
-//   '/img/content/Autonomous/car2.jpg',
-//   '/img/content/Autonomous/car3.jpg',
-//   '/img/content/Autonomous/car4.jpg',
-//   '/img/content/Autonomous/car5.jpg',
-//   '/img/content/Autonomous/car6.jpg',
-// ];
 
-// Duplicate images for infinite scroll
-// const doubledImages = [...images, ...images];
 
-// const Carousel = () => {
-//   return (
-//     <div className={styles.carouselWrapper}>
-//       <button
-//         className={`${styles.carouselButtonIcon} ${styles.buttonUp}`}
-//         aria-label="Scroll up"
-//       >
-//         <ChevronUp />
-//       </button>
-
-//       <div className={styles.carouselContent}>
-//         {doubledImages.map((src, index) => (
-//           // eslint-disable-next-line @next/next/no-img-element
-//           <img
-//             key={index}
-//             src={src}
-//             alt={`Car ${index + 1}`}
-//             className={styles.carouselImage}
-//           />
-//         ))}
-//       </div>
-
-//       <button
-//         className={`${styles.carouselButtonIcon} ${styles.buttonDown}`}
-//         aria-label="Scroll down"
-//       >
-//         <ChevronDown />
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default Carousel;

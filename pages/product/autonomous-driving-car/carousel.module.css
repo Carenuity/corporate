@@ -1,3 +1,65 @@
+/* .carouselWrapper {
+  width: 300px;
+  height: 480px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  background: #f9f9f9;
+}
+
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; 
+}
+
+.carouselContainer::-webkit-scrollbar {
+  display: none; 
+}
+
+.carouselImage {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.carouselImage:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.carouselButtons {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.carouselButton {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carouselButton:hover {
+  background-color: #005bb5;
+} */
+
+
+
+
 .carouselWrapper {
   position: relative;
   width: 100%;
@@ -9,7 +71,7 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  height: 230px;
+  height: 330px;
 
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -23,7 +85,7 @@
 .carouselImage {
   flex-shrink: 0;
 
-  height: 230px;
+  height: 330px;
 
   object-fit: cover;
   border-radius: 8px;
@@ -52,66 +114,3 @@
   background-color: #074e2d;
 }
 
-/* 
-.carouselWrapper {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  height: 230px;
-  overflow: hidden;
-  margin: auto;
-}
-
-.carouselContent {
-  display: flex;
-  flex-direction: column;
-  animation: scrollUp 20s linear infinite;
-}
-
-.carouselWrapper:hover .carouselContent {
-  animation-play-state: paused;
-}
-
-.carouselImage {
-  flex-shrink: 0;
-  height: 230px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-@keyframes scrollUp {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(-50%);
-  }
-}
-
-.carouselButtonIcon {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  border: none;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  padding: 8px 10px;
-  border-radius: 50%;
-  z-index: 10;
-  transition: background-color 0.2s ease;
-}
-
-.carouselButtonIcon:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.buttonUp {
-  top: 8px;
-}
-
-.buttonDown {
-  bottom: 8px;
-} */
