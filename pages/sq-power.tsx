@@ -205,10 +205,10 @@ const Page = () => {
             </div>
           </div>
 
-          {/* How sq-power works*/}
+        {/* How SQ-Power works*/}
 
           <div className=" mb-2">
-            <h5>How does Sq-Power work? </h5>
+            <h5>How does SQ-Power work? </h5>
             <p>
               You flash mount your SQ-Power on the wall instead of nailing the
               SQ-Panel table stand to the wall.
