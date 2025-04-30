@@ -1,6 +1,7 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Head from 'next/head';
+import Link from 'next/link';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
@@ -221,14 +222,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </p>
             </div>
 
-            <div className="col-lg-6 mb-4">
+            <div className=" mb-10">
               <div
                 className="e-card"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  height: '600px',
+                  // height: '680px',
+                  maxHeight: '1O00px',
+                  padding: '20px',
                 }}
               >
+                <div className='row'>
+                 <div className="col-md-2 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/Ai-assisted/esp32-cam2.jpeg"
@@ -238,11 +243,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   style={{
                     visibility: 'visible',
                     animationDelay: '100ms',
-                    width: '100%',
+                    width: '200px',
                     animationName: 'fadeIn',
                   }}
                 />
-
+                  </div>
+                  <div className="col-md-10 mb-4">
                 <a
                   href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
                   className="text-success"
@@ -263,6 +269,99 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   of creating your own object detection model on the ESP32-CAM
                   using Edge.....
                 </p>
+              </div>
+              </div>
+            </div>
+            </div>
+
+            <h4 className='mb-4'>Autonomous Driving Car</h4>
+            <div className="row">
+              <div className="col-md- mb-4">
+                <div
+                  className="e-card"
+                  style={{
+                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                    maxHeight: '1O00px',
+                    padding: '20px',
+                  }}
+                >
+            <div className="row">
+              <div className="col-md-4 mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                    src="/img/content/Autonomous/shopcar.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                    //  width: '420px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+              </div>
+              <div className="col-md-8 mb-4">
+                <p className="mb-2">
+                  In the world of automotive innovation, history often serves as
+                  a foundation for future advancements. The Autonomous Driving
+                  Infineon Car, built by ChipGlobe&apos;s Carenuity team, is a
+                  testament to this principle. This cutting-edge vehicle not
+                  only embodies the latest in autonomous driving technology but
+                  also pays homage to the legendary Schaeffler FAG Model MF3,
+                  presented in June 2009. The shark-like design of the MF3, a
+                  symbol of speed and precision, has been reincarnated in 2025
+                  in a 1:10 ratio model, showcasing the seamless blend of past
+                  and present engineering marvels.
+                </p>
+                <p className="mb-2">
+                  The unveiling of the Schaeffler FAG Model MF3 took place at an
+                  evening event at the foyer of Schaeffler. This event was
+                  graced by notable figures such as Dr. Grunau, a former
+                  representative of the management board of FAG Schaeffler Group
+                  Industry, and Dipl.-Ing. Seubert, the former chairman of the
+                  Unterfranken district association of the Verein Deutscher
+                  Ingenieure (VDI). 
+                  </p>
+                  <p className="col-md-4 ">
+                        {!isMobile && (
+                          <Link
+                            href={
+                              '/product/autonomous-driving-car'
+                            }
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                          >
+                            <span className="small"> Learn more</span>
+                          </Link>
+                        )}
+
+                        {isMobile && (
+                          <a
+                            href={
+                              '/product/autonomous-driving-car'
+                            }
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                            rel="noreferrer"
+                          >
+                            <span className="small">
+                            Learn more{' '}
+                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                            </span>
+                          </a>
+                        )}
+                      </p>
+                  
+                
+              </div>
+            </div>
+          </div>
+            
+                 
+
+                  
+                
               </div>
             </div>
           </div>
