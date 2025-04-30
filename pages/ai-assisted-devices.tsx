@@ -243,7 +243,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   style={{
                     visibility: 'visible',
                     animationDelay: '100ms',
-                    width: '200px',
+                    // width: '200px',
                     animationName: 'fadeIn',
                   }}
                 />
