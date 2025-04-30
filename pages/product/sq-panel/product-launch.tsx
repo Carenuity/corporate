@@ -64,20 +64,20 @@ const Page = () => {
                 verschiedenen Produktkonfigurationen bekannt zu geben.
                 Wir haben das SQ-Panel entwickelt, um eine Vielzahl von Anwendungsfällen und
                 Kundenbedürfnissen zu erfüllen. Dazu gehören:
-                <strong>Tischzeltversion</strong> bietet ein kompaktes,
-                displayfreundliches Format, ideal für Arbeitsplatten und Kioske;{' '}
+                <strong>Aufstellerversion</strong> bietet das kompakte
+                Sensordisplay für Arbeitsflächen und Kioske;{' '}
                 <strong>Wandmontierbares SQ-Panel</strong> für eine nahtlose
                 Wandgestaltung und Integration in vertikale Flächen in Gewerbe- oder
                 Wohnumgebungen; Und
                 <strong>
                   Komplettpaket mit SQ-Power und SQ-TableStand,
                 </strong>{' '}
-                eine voll ausgestattete Lösung die sowohl  
-                Stromversorgungsfunktionen als auch einen Ständer für den
-                gebrauchsfertigen Einsatz umfasst. Jede Version ist sorgfältig verpackt
-                und auf unterschiedliche Installationen zugeschnitten
-                Präferenzen und sorgt so für Flexibilität und
-                Benutzerfreundlichkeit in verschiedenen Anwendungen.
+                eine komplette Lösung die sowohl  
+                Stromversorgungsfunktion über die Wand als auch den Tischaufsteller für den
+                sofortigen Einsatz an verschiedenen Orten erlaubt. Jede Version ist sorgfältig verpackt
+                und auf unterschiedliche Örtlichkeiten zugeschnitten.
+                Das  sorgt so für Flexibilität und
+                Benutzerfreundlichkeit in verschiedenen Anwendungssituationen.
               </>
             )}
           </p>
