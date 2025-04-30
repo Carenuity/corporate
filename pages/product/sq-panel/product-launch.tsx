@@ -41,15 +41,15 @@ const Page = () => {
             {state === 'en' && (
               <>
                 We are excited to announce the upcoming launch of three distinct
-                product configurations designed to meet a variety of use cases
+                product configurations developed to meet a variety of use cases
                 and customer needs. These include:
-                <strong>Table Tent version,</strong> offering a compact,
+                <strong>Table Stand version,</strong> offering a compact,
                 display-friendly format ideal for countertops and kiosks;{' '}
-                <strong>Wall-mountable SQ panel,</strong> designed for seamless
+                <strong>Wall-mountable SQ-Panel,</strong> designed for seamless
                 integration into vertical surfaces in commercial or residential
                 environments; and
                 <strong>
-                  Complete Package with SQ power and table stand,
+                  Complete Package with SQ-Power and SQ-TableStand,
                 </strong>{' '}
                 a fully equipped solution that includes both power functionality
                 and a stand for ready-to-use deployment. Each version is
@@ -61,20 +61,20 @@ const Page = () => {
             {state === 'de' && (
               <>
                 Wir freuen uns, die bevorstehende Einführung von drei
-                verschiedenen Produktkonfigurationen bekannt zu geben
-                Entwickelt, um eine Vielzahl von Anwendungsfällen und
+                verschiedenen Produktkonfigurationen bekannt zu geben.
+                Wir haben das SQ-Panel entwickelt, um eine Vielzahl von Anwendungsfällen und
                 Kundenbedürfnissen zu erfüllen. Dazu gehören:
                 <strong>Tischzeltversion</strong> bietet ein kompaktes,
                 displayfreundliches Format, ideal für Arbeitsplatten und Kioske;{' '}
                 <strong>Wandmontierbares SQ-Panel</strong> für eine nahtlose
-                Gestaltung Integration in vertikale Flächen in Gewerbe- oder
+                Wandgestaltung und Integration in vertikale Flächen in Gewerbe- oder
                 Wohnumgebungen; Und
                 <strong>
-                  Komplettpaket mit SQ-Stromversorgung und Tischständer,
+                  Komplettpaket mit SQ-Power und SQ-TableStand,
                 </strong>{' '}
-                eine voll ausgestattete Lösung Das umfasst sowohl
+                eine voll ausgestattete Lösung die sowohl  
                 Stromversorgungsfunktionen als auch einen Ständer für den
-                gebrauchsfertigen Einsatz. Jede Version ist sorgfältig verpackt
+                gebrauchsfertigen Einsatz umfasst. Jede Version ist sorgfältig verpackt
                 und auf unterschiedliche Installationen zugeschnitten
                 Präferenzen und sorgt so für Flexibilität und
                 Benutzerfreundlichkeit in verschiedenen Anwendungen.
