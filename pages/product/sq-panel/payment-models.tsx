@@ -6,7 +6,7 @@ import { LanguageSwitchContext } from '../../../components/context/LanguageSwitc
 import Translatable from '../../../components/Translatable';
 
 const Page = () => {
-  const pageTitle = 'Property Managers';
+  const pageTitle = 'Payment Models';
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
