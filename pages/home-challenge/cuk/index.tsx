@@ -1,8 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
-import PageTitle from '../../components/PageTitle';
+import PageTitle from '../../../components/PageTitle';
+import Link from 'next/link';
 
-const Page = () => {
+
+const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'CUK Home Challenge';
   return (
     <>
@@ -45,6 +47,36 @@ const Page = () => {
           </a>{' '}
           by carenuity
         </div>
+
+        <p className="col-md-4 ">
+                        {!isMobile && (
+                          <Link
+                            href={
+                              '/product/autonomous-driving-car'
+                            }
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                          >
+                            <span className="small"> Learn more</span>
+                          </Link>
+                        )}
+
+                        {isMobile && (
+                          <a
+                            href={
+                              '/product/autonomous-driving-car'
+                            }
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                            rel="noreferrer"
+                          >
+                            <span className="small">
+                            Learn more{' '}
+                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                            </span>
+                          </a>
+                        )}
+                      </p>
       </section>
     </>
   );
