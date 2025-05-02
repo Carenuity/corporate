@@ -44,6 +44,21 @@ const Page = () => {
                   for attaching the SQ-Panel
                 </h5>
               </div>
+              <div className="col-lg-4 mt-n1-9 ">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/sq-power/sq-power-front.png"
+                  className="mt-1-9 wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    height: '350px',
+                    animationName: 'fadeIn',
+                  }}
+                />
+              </div>
 
               <div className="col-lg-4 mt-n1-9 mb-5">
                 <div className=" mb-4">
@@ -109,21 +124,7 @@ const Page = () => {
                   <br />
                 </div>
               </div>
-              <div className="col-lg-4 mt-n1-9 ">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/sq-power/sq-power-front.png"
-                  className="mt-1-9 wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    height: '350px',
-                    animationName: 'fadeIn',
-                  }}
-                />
-              </div>
+              
             </div>
           </div>
 
