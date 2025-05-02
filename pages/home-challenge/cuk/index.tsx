@@ -30,6 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
+          <div className='mb-4'>
           <iframe
             loading="lazy"
             className="mb-4"
@@ -46,37 +47,19 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <u>CUK Home Challenge</u>
           </a>{' '}
           by carenuity
+
+          </div>
+          <p style={{ textAlign: 'center' }}>
+          <Link
+            href={'./cuk/press'}
+            className={'btn btn-lg btn-success rounded-pill'}
+          >
+            <span className="small">Press Materials</span>
+          </Link>
+        </p>
         </div>
 
-        <p className="col-md-4 ">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              '/product/autonomous-driving-car'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Learn more</span>
-                          </Link>
-                        )}
-
-                        {isMobile && (
-                          <a
-                            href={
-                              '/product/autonomous-driving-car'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                            Learn more{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
+        
       </section>
     </>
   );

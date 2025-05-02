@@ -47,7 +47,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            <div className="col-lg-12 mb-4">
+            <div className="col-lg-12 mb-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/tum-press/tum2.png"
@@ -63,12 +63,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            <div
-              className="col-lg-3 "
-              style={{
-                paddingTop: '300px',
-              }}
-            >
+            
               <p>
                 {!isMobile && (
                   <Link
@@ -91,7 +86,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </a>
                 )}
               </p>
-            </div>
+         
           </div>
         </div>
       </section>

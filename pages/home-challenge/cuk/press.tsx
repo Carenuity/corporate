@@ -220,7 +220,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div
               className="col-lg-3 "
               style={{
-                paddingTop: '300px',
+               
               }}
             >
               <p>
