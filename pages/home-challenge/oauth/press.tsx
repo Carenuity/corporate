@@ -63,7 +63,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            
+            <div
+              className="col-lg-3 "
+              style={{
+                paddingTop: '300px',
+              }}
+            >
               <p>
                 {!isMobile && (
                   <Link
@@ -86,7 +91,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </a>
                 )}
               </p>
-         
+            </div>
           </div>
         </div>
       </section>
