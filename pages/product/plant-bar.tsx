@@ -4,8 +4,10 @@ import { useContext } from 'react';
 import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
+import Link from 'next/link';
 
-const Page = () => {
+const Page = ({ isMobile }: { isMobile: boolean }) => {
+
   const pageTitle = 'Plant Bar';
   const { state } = useContext(LanguageSwitchContext);
   return (
@@ -271,6 +273,100 @@ const Page = () => {
                 }}
               />
             </div>
+            <div>
+            <h4>Shop with us</h4>
+            <div className="row">
+              <div className="col-md-4 mb-4">
+                <div
+                  className="e-card"
+                  style={{
+                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                    maxHeight: '1070px',
+                  }}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/plant-bar/capacitive-soil-moisture.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      width: '420px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+
+                  <div style={{ padding: '10px' }}>
+                    <h6 className="text-success">
+                      Capacitive Soil Moisture Sensor, V2.0
+                    </h6>
+                    <p>
+                      The capacitive soil moisture sensor is a reliable and durable tool for measuring soil 
+                      moisture. It operates at a voltage of 3.3 to 5.5V  ...{' '}
+                    </p>
+                    <div className="row">
+                      <p className="col-md-3 mb-4">
+                        {!isMobile && (
+                          <Link
+                            href={
+                              'https://www.chipglobe.shop/en/p/capacitive-soil-moisture-sensor-v2-0'
+                            }
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                          >
+                            <span className="small"> Buy Now</span>
+                          </Link>
+                        )}
+
+                        {isMobile && (
+                          <a
+                            href={
+                              'https://www.chipglobe.shop/en/p/capacitive-soil-moisture-sensor-v2-0'
+                            }
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                            rel="noreferrer"
+                          >
+                            <span className="small">
+                              Buy Now{' '}
+                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                            </span>
+                          </a>
+                        )}
+                      </p>
+                      <p className="col-md-4 mb-4">
+                        {!isMobile && (
+                          <Link
+                            href={''}
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                          >
+                            <span className="small"> Install for free</span>
+                          </Link>
+                        )}
+
+                        {isMobile && (
+                          <a
+                            href={''}
+                            target="_blank"
+                            className={'btn btn-sm btn-success rounded-pill'}
+                            rel="noreferrer"
+                          >
+                            <span className="small">
+                              Install for free{' '}
+                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                            </span>
+                          </a>
+                        )}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </section>
