@@ -3670,26 +3670,26 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                                     </a>
                                   )}
                                 </p>
-                                <p className="col-md-4 mb-4">
+                                <p className="col-md-8 mb-4">
                                   {!isMobile && (
                                     <Link
-                                      href={''}
+                                      href={'/evaluate-at-home'}
                                       target="_blank"
                                       className={'btn btn-sm btn-success rounded-pill'}
                                     >
-                                      <span className="small"> Install for free</span>
+                                      <span className="small"> Evaluate at home</span>
                                     </Link>
                                   )}
           
                                   {isMobile && (
                                     <a
-                                      href={''}
+                                      href={'/evaluate-at-home'}
                                       target="_blank"
                                       className={'btn btn-sm btn-success rounded-pill'}
                                       rel="noreferrer"
                                     >
                                       <span className="small">
-                                        Install for free{' '}
+                                        Evaluate at home{' '}
                                         {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                       </span>
                                     </a>
@@ -3768,26 +3768,26 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                                     </a>
                                   )}
                                 </p>
-                                <p className="col-md-6 mb-4">
+                                <p className="col-md-8 mb-4">
                                   {!isMobile && (
                                     <Link
-                                      href={''}
+                                      href={'/evaluate-at-home'}
                                       target="_blank"
                                       className={'btn btn-sm btn-success rounded-pill'}
                                     >
-                                      <span className="small"> Kostenlos installieren</span>
+                                      <span className="small"> Bewerten Sie zu Hause</span>
                                     </Link>
                                   )}
           
                                   {isMobile && (
                                     <a
-                                      href={''}
+                                      href={'/evaluate-at-home'}
                                       target="_blank"
                                       className={'btn btn-sm btn-success rounded-pill'}
                                       rel="noreferrer"
                                     >
                                       <span className="small">
-                                        Kostenlos installieren{' '}
+                                        Bewerten Sie zu Hause{' '}
                                         {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                       </span>
                                     </a>

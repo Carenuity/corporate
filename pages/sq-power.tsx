@@ -374,31 +374,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                     </a>
                                   )}
                                 </p>
-                                <p className="col-md-4 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={''}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Install for free</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={''}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Install for free{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
+                                
                               </div>
                             </div>
                           </div>
@@ -472,31 +448,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                     </a>
                                   )}
                                 </p>
-                                <p className="col-md-6 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={''}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Kostenlos installieren</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={''}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Kostenlos installieren{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
+                               
                               </div>
                             </div>
                           </div>
