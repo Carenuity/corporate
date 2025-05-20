@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
 
-  const pageTitle = 'Sq-Table Stand';
+  const pageTitle = 'SQ-TableStand';
  const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -35,7 +35,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className='mb-4'>Sq-Table Stand</h4>
+          <h4 className='mb-4'>SQ-TableStand</h4>
 
          {/* <div
                             className="e-card mb-6"
@@ -66,9 +66,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 <p>
             {state === 'en' && <>
             
-            The SQ-Panel Stand refers to a supportive accessory designed for the Carenuity SQ-Panel, a compact, touchscreen device
-            that monitors indoor environmental conditions such as temperature, humidity, air pressure, air quality, CO₂ levels, TVOCs 
-            (Total Volatile Organic Compounds), and human presence. The stand, often called the SQ-TableStand, allows the panel to 
+            The SQ-TableStand is an accessory for the Carenuity SQ-Panel, a compact touchscreen device for air quality and presence detection. It monitors
+            indoor environmental conditions such as temperature, humidity, air pressure, air quality, CO₂ levels and TVOCs 
+            (Total Volatile Organic Compounds) and detects human presence, meaning it can distinguish between pets and people.
+            The SQ-TableStand allows the SQ-Panel to 
             be placed securely on flat surfaces like desks, shelves, or countertops, offering a convenient alternative to wall mounting. 
             This makes it ideal for flexible and temporary setups, such as in home offices, bedrooms, children&apos;s rooms, or rental 
             properties where drilling into walls may not be feasible. In addition to its functional support, the stand maintains the modern, 
@@ -78,9 +79,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             
             {state === 'de' && <>
                     
-                    Der SQ-Panel-Ständer bezieht sich auf ein unterstützendes Zubehör, das für das Carenuity SQ-Panel, ein kompaktes Touchscreen-Gerät, entwickelt wurde
-            das die Umgebungsbedingungen in Innenräumen wie Temperatur, Luftfeuchtigkeit, Luftdruck, Luftqualität, CO₂-Werte und TVOCs überwacht 
-            (Total Volatile Organic Compounds) und menschliche Anwesenheit. Der Ständer, oft auch SQ-TableStand genannt, ermöglicht die Montage des Panels 
+                    Der SQ-TableStand ist Zubehör für das Carenuity SQ-Panel, ein kompaktes Touchscreen-Gerät für die Luftqualitäts und Anwesendheitserkennung. Es überwacht
+            im Einzelnen die Umgebungsbedingungen in Innenräumen wie Temperatur, Luftfeuchtigkeit, Luftdruck, Luftqualität, CO₂-Werte und TVOCs 
+            (Total Volatile Organic Compounds) und erkennt menschliche Anwesenheit, kann also Haustiere und Menschen unterscheiden. Der Tischsockel SQ-TableStand, ermöglicht die Montage des Panels 
             kann sicher auf ebenen Flächen wie Schreibtischen, Regalen oder Arbeitsplatten platziert werden und bietet eine praktische Alternative zur Wandmontage. 
             Dadurch eignet es sich ideal für flexible und temporäre Aufstellungen, beispielsweise im Homeoffice, im Schlafzimmer, im Kinderzimmer oder zur Vermietung 
             Objekte, bei denen das Bohren in Wände möglicherweise nicht möglich ist. Neben seiner funktionalen Unterstützung behält der Ständer das moderne, 
