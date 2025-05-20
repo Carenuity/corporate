@@ -77,8 +77,8 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-plug',
     },
     {
-      name: 'SQ-Matter Gateway',
-      url: '/matter-gateway',
+      name: 'SQ-Connector',
+      url: '/sq-connector',
       icon: 'fa-solid fa-plug',
     },
     {
