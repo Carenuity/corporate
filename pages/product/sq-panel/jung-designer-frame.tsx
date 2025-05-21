@@ -204,7 +204,241 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </p>
+          <h4 className="mb-4">
+            {state === 'en' && (
+              <>
+             
+                Information for frame 1-gang, alpine white LSD 981 WW
+
+              </>
+            )}
+            {state === 'de' && (
+              <>
+              Informationen für Rahmen 1fach, alpinweiß LSD 981 WW
+
+              </>
+            )}
+          </h4>
+
+ {state === 'en' && (
+              <>
+            
+                 {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src="/img/content/jung/slide2.png"
+                              className="wow fadeInUp mb-4"
+                              data-wow-delay="100ms"
+                              alt="..."
+                              style={{
+                                visibility: 'visible',
+                                // width: '`1020px',
+                                animationDelay: '100ms',
+                                animationName: 'fadeIn',
+                              }}
+                            />
+              </>
+            )}
+            {state === 'de' && (
+              <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src="/img/content/jung/slide1.png"
+                              className="wow fadeInUp mb-4"
+                              data-wow-delay="100ms"
+                              alt="..."
+                              style={{
+                                visibility: 'visible',
+                            //    width: '1020px',
+                                animationDelay: '100ms',
+                                animationName: 'fadeIn',
+                              }}
+                            />
+              </>
+            )}
+
+           <h4 className="mn-4">
+            {state === 'en' && (
+              <>
+             Information for frame 2-gang, alpine white LSD 982 WW
+
+              </>
+            )}
+            {state === 'de' && (
+              <>
+              Informationen für Rahmen 2fach, alpinweiß LSD 982 WW
+              </>
+            )}
+          </h4>
+
+             {state === 'en' && (
+              <>
+            
+                 {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src="/img/content/jung/slide4.png"
+                              className="wow fadeInUp mb-4"
+                              data-wow-delay="100ms"
+                              alt="..."
+                              style={{
+                                visibility: 'visible',
+                               // width: '420px',
+                                animationDelay: '100ms',
+                                animationName: 'fadeIn',
+                              }}
+                            />
+              </>
+            )}
+            {state === 'de' && (
+              <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src="/img/content/jung/slide3.png"
+                              className="wow fadeInUp mb-4"
+                              data-wow-delay="100ms"
+                              alt="..."
+                              style={{
+                                visibility: 'visible',
+                               // width: '420px',
+                                animationDelay: '100ms',
+                                animationName: 'fadeIn',
+                              }}
+                            />
+              </>
+            )}
+            
+            <div>
+                 <h4 className="mn-4">
+            {state === 'en' && (
+              <>
+                Documentation
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                Documentation
+              </>
+            )}
+          </h4>
+          <p className="mn-4">
+            {state === 'en' && (
+              <>
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/de_LSD981WW_adP.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+               Product data sheet with price 1-gang [PDF]
+
+              </a>
+            </div>
          
+          
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/de_LSD981WW_ad.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+               Article data sheet 1-gang [PDF]
+              </a>
+            </div>
+        
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/de_LSD982WW_adP"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+               Product data sheet with price 2-gang [PDF]
+
+              </a>
+            </div>
+         
+          
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/de_LSD982WW_ad.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+               Article data sheet 2-gang [PDF]
+              </a>
+            </div>
+          
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                     
+          
+        
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/de_LSD981WW_adP.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+              Artikeldatenblatt mit Preis 1fach [PDF]
+
+              </a>
+            </div>
+         
+        
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                 href="/docs/de_LSD981WW_ad.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+             Artikeldatenblatt 1fach [PDF]
+              </a>
+            </div>
+
+             <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+                href="/docs/de_LSD982WW_adP"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+              Artikeldatenblatt mit Preis 2fach [PDF]
+
+              </a>
+            </div>
+         
+        
+            <div className="d-flex align-items-center">
+              <i className="ti-check display-31 text-black"></i>
+              <a
+               href="/docs/de_LSD982WW_ad.pdf"
+                target="_blank"
+                className="ms-2 link-success"
+                rel="noreferrer"
+              >
+             Artikeldatenblatt 2fach [PDF]
+              </a>
+            </div>
+         
+       
+         
+              </>
+            )}
+          </p>
+            </div>
 
           {state === 'en' && <>
           
