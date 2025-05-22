@@ -1,8 +1,3 @@
-
-
-
-
-
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './carousel.module.css';
 
@@ -83,7 +78,3 @@ const Carousel = () => {
 };
 
 export default Carousel;
-
-
-
-

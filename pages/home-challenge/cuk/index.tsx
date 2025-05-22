@@ -3,8 +3,7 @@ import Head from 'next/head';
 import PageTitle from '../../../components/PageTitle';
 import Link from 'next/link';
 
-
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Page = () => {
   const pageTitle = 'CUK Home Challenge';
   return (
     <>
@@ -30,36 +29,33 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <div className='mb-4'>
-          <iframe
-            loading="lazy"
-            className="mb-4"
-            src="https://www.canva.com/design/DAGWjZYi93M/EwUbuwY8Q8IwyOKQvDP23w/view?embed"
-            width="100%"
-            height="600px"
-          ></iframe>
-          <a
-            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGWjZYi93M&#x2F;EwUbuwY8Q8IwyOKQvDP23w&#x2F;view?
+          <div className="mb-4">
+            <iframe
+              loading="lazy"
+              className="mb-4"
+              src="https://www.canva.com/design/DAGWjZYi93M/EwUbuwY8Q8IwyOKQvDP23w/view?embed"
+              width="100%"
+              height="600px"
+            ></iframe>
+            <a
+              href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGWjZYi93M&#x2F;EwUbuwY8Q8IwyOKQvDP23w&#x2F;view?
                 utm_content=DAGWjZYi93M&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>CUK Home Challenge</u>
-          </a>{' '}
-          by carenuity
-
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <u>CUK Home Challenge</u>
+            </a>{' '}
+            by carenuity
           </div>
           <p style={{ textAlign: 'center' }}>
-          <Link
-            href={'./cuk/press'}
-            className={'btn btn-lg btn-success rounded-pill'}
-          >
-            <span className="small">Press Materials</span>
-          </Link>
-        </p>
+            <Link
+              href={'./cuk/press'}
+              className={'btn btn-lg btn-success rounded-pill'}
+            >
+              <span className="small">Press Materials</span>
+            </Link>
+          </p>
         </div>
-
-        
       </section>
     </>
   );

@@ -232,49 +232,49 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   padding: '20px',
                 }}
               >
-                <div className='row'>
-                 <div className="col-md-2 mb-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/Ai-assisted/esp32-cam2.jpeg"
-                  className=" wow fadeInUp"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    // width: '200px',
-                    animationName: 'fadeIn',
-                  }}
-                />
+                <div className="row">
+                  <div className="col-md-2 mb-4">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/Ai-assisted/esp32-cam2.jpeg"
+                      className=" wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        animationDelay: '100ms',
+                        // width: '200px',
+                        animationName: 'fadeIn',
+                      }}
+                    />
                   </div>
                   <div className="col-md-10 mb-4">
-                <a
-                  href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
-                  className="text-success"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h5 style={{ padding: '10px' }}>
-                    <u>
-                      Turning Your ESP32-CAM into a Smart Object Detector with
-                      Edge Impulse
-                    </u>
-                  </h5>
-                </a>
+                    <a
+                      href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
+                      className="text-success"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h5 style={{ padding: '10px' }}>
+                        <u>
+                          Turning Your ESP32-CAM into a Smart Object Detector
+                          with Edge Impulse
+                        </u>
+                      </h5>
+                    </a>
 
-                <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
-                  Hello, tech enthusiasts, welcome to the AI Journal tutorial!
-                  In this blog post, we&apos;re diving into the exciting world
-                  of creating your own object detection model on the ESP32-CAM
-                  using Edge.....
-                </p>
-              </div>
+                    <p style={{ paddingLeft: '10px', paddingRight: '10px' }}>
+                      Hello, tech enthusiasts, welcome to the AI Journal
+                      tutorial! In this blog post, we&apos;re diving into the
+                      exciting world of creating your own object detection model
+                      on the ESP32-CAM using Edge.....
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
 
-            <h4 className='mb-4'>Autonomous Driving Car</h4>
+            <h4 className="mb-4">Autonomous Driving Car</h4>
             <div className="row">
               <div className="col-md- mb-4">
                 <div
@@ -285,50 +285,50 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     padding: '20px',
                   }}
                 >
-            <div className="row">
-              <div className="col-md-4 mb-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                    src="/img/content/Autonomous/shopcar.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                    //  width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-              </div>
-              <div className="col-md-8 mb-4">
-                <p className="mb-2">
-                  In the world of automotive innovation, history often serves as
-                  a foundation for future advancements. The Autonomous Driving
-                  Infineon Car, built by ChipGlobe&apos;s Carenuity team, is a
-                  testament to this principle. This cutting-edge vehicle not
-                  only embodies the latest in autonomous driving technology but
-                  also pays homage to the legendary Schaeffler FAG Model MF3,
-                  presented in June 2009. The shark-like design of the MF3, a
-                  symbol of speed and precision, has been reincarnated in 2025
-                  in a 1:10 ratio model, showcasing the seamless blend of past
-                  and present engineering marvels.
-                </p>
-                <p className="mb-2">
-                  The unveiling of the Schaeffler FAG Model MF3 took place at an
-                  evening event at the foyer of Schaeffler. This event was
-                  graced by notable figures such as Dr. Grunau, a former
-                  representative of the management board of FAG Schaeffler Group
-                  Industry, and Dipl.-Ing. Seubert, the former chairman of the
-                  Unterfranken district association of the Verein Deutscher
-                  Ingenieure (VDI). 
-                  </p>
-                  <p className="col-md-4 ">
+                  <div className="row">
+                    <div className="col-md-4 mb-4">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/Autonomous/shopcar.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          //  width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+                    </div>
+                    <div className="col-md-8 mb-4">
+                      <p className="mb-2">
+                        In the world of automotive innovation, history often
+                        serves as a foundation for future advancements. The
+                        Autonomous Driving Infineon Car, built by
+                        ChipGlobe&apos;s Carenuity team, is a testament to this
+                        principle. This cutting-edge vehicle not only embodies
+                        the latest in autonomous driving technology but also
+                        pays homage to the legendary Schaeffler FAG Model MF3,
+                        presented in June 2009. The shark-like design of the
+                        MF3, a symbol of speed and precision, has been
+                        reincarnated in 2025 in a 1:10 ratio model, showcasing
+                        the seamless blend of past and present engineering
+                        marvels.
+                      </p>
+                      <p className="mb-2">
+                        The unveiling of the Schaeffler FAG Model MF3 took place
+                        at an evening event at the foyer of Schaeffler. This
+                        event was graced by notable figures such as Dr. Grunau,
+                        a former representative of the management board of FAG
+                        Schaeffler Group Industry, and Dipl.-Ing. Seubert, the
+                        former chairman of the Unterfranken district association
+                        of the Verein Deutscher Ingenieure (VDI).
+                      </p>
+                      <p className="col-md-4 ">
                         {!isMobile && (
                           <Link
-                            href={
-                              '/product/autonomous-driving-car'
-                            }
+                            href={'/product/autonomous-driving-car'}
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
                           >
@@ -338,30 +338,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                         {isMobile && (
                           <a
-                            href={
-                              '/product/autonomous-driving-car'
-                            }
+                            href={'/product/autonomous-driving-car'}
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
                             rel="noreferrer"
                           >
                             <span className="small">
-                            Learn more{' '}
+                              Learn more{' '}
                               {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                             </span>
                           </a>
                         )}
                       </p>
-                  
-                
-              </div>
-            </div>
-          </div>
-            
-                 
-
-                  
-                
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

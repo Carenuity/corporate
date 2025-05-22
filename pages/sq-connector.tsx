@@ -7,13 +7,12 @@ import Translatable from '../components/Translatable';
 import Link from 'next/link';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-
   const pageTitle = 'SQ-Connector';
 
- const { state } = useContext(LanguageSwitchContext);
+  const { state } = useContext(LanguageSwitchContext);
   return (
     <>
-     <Translatable />
+      <Translatable />
       <Head>
         <meta
           name="keywords"
@@ -82,152 +81,160 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
           </div>
-           {state === 'en' && <>
-          
-                      <h4>Shop with us</h4>
+          {state === 'en' && (
+            <>
+              <h4>Shop with us</h4>
+              <div className="row">
+                <div className="col-md-4 mb-4">
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      maxHeight: '1070px',
+                    }}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/kickstarter/connection03.jpeg"
+                      className="wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        width: '420px',
+                        animationDelay: '100ms',
+                        animationName: 'fadeIn',
+                      }}
+                    />
+
+                    <div style={{ padding: '10px' }}>
+                      <h6 className="text-success">
+                        Carenuity SQ-Connector - LAN Gateway with 868 MHz for
+                        SQ-Panel
+                      </h6>
+                      <p>
+                        The Carenuity SQ-Connector is the central gateway for
+                        integrating the SQ-Panel into the Carenuity cloud
+                        infrastructure. It receives sensor data from the panel
+                        via...
+                      </p>
                       <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div
-                            className="e-card"
-                            style={{
-                              boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                              maxHeight: '1070px',
-                            }}
-                          >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src="/img/content/kickstarter/connection03.jpeg"
-                              className="wow fadeInUp"
-                              data-wow-delay="100ms"
-                              alt="..."
-                              style={{
-                                visibility: 'visible',
-                                width: '420px',
-                                animationDelay: '100ms',
-                                animationName: 'fadeIn',
-                              }}
-                            />
-          
-                            <div style={{ padding: '10px' }}>
-                              <h6 className="text-success">
-                              Carenuity SQ-Connector - LAN Gateway with 868 MHz for SQ-Panel
-                              </h6>
-                              <p>
-                               The Carenuity SQ-Connector is the central gateway for integrating the SQ-Panel into the Carenuity cloud infrastructure.
-                                It receives sensor data from the panel via...
-                              </p>
-                              <div className="row">
-                                <p className="col-md-3 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={
-                                        'https://www.chipglobe.shop/en/p/carenuity-sq-connector-lan-gateway-with-868-mhz-for-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Buy Now</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={
-                                        'https://www.chipglobe.shop/en/p/carenuity-sq-connector-lan-gateway-with-868-mhz-for-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Buy Now{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                               
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <p className="col-md-3 mb-4">
+                          {!isMobile && (
+                            <Link
+                              href={
+                                'https://www.chipglobe.shop/en/p/carenuity-sq-connector-lan-gateway-with-868-mhz-for-sq-panel'
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                            >
+                              <span className="small"> Buy Now</span>
+                            </Link>
+                          )}
+
+                          {isMobile && (
+                            <a
+                              href={
+                                'https://www.chipglobe.shop/en/p/carenuity-sq-connector-lan-gateway-with-868-mhz-for-sq-panel'
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                              rel="noreferrer"
+                            >
+                              <span className="small">
+                                Buy Now{' '}
+                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                              </span>
+                            </a>
+                          )}
+                        </p>
                       </div>
-                    
-          </>}
-          
-          
-          {state === 'de' && <>
-           <div>
-                      <h4>Kaufen Sie bei uns ein</h4>
-                      <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div
-                            className="e-card"
-                            style={{
-                              boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                              maxHeight: '1070px',
-                            }}
-                          >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src="/img/content/kickstarter/connection03.jpeg"
-                              className="wow fadeInUp"
-                              data-wow-delay="100ms"
-                              alt="..."
-                              style={{
-                                visibility: 'visible',
-                                width: '420px',
-                                animationDelay: '100ms',
-                                animationName: 'fadeIn',
-                              }}
-                            />
-          
-                            <div style={{ padding: '10px' }}>
-                              <h6 className="text-success">
-                           Carenuity SQ-Connector - LAN-Gateway mit 868 MHz Funk für SQ-Panel
-                              </h6>
-                              <p>
-                              Der Carenuity SQ-Connector ist das zentrale Gateway zur Anbindung des SQ-Panels an die Carenuity-Cloud.
-                              Er empfängt Sensordaten des Panels über...{' '}
-                              </p>
-                              <div className="row">
-                                <p className="col-md-4 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={
-                                        'https://www.chipglobe.shop/p/carenuity-sq-connector-lan-gateway-mit-868-mhz-funk-fuer-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Jetzt kaufen</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={
-                                        'https://www.chipglobe.shop/p/carenuity-sq-connector-lan-gateway-mit-868-mhz-funk-fuer-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Jetzt kaufen{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                                
-                              </div>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+
+          {state === 'de' && (
+            <>
+              <div>
+                <h4>Kaufen Sie bei uns ein</h4>
+                <div className="row">
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        maxHeight: '1070px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/kickstarter/connection03.jpeg"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Carenuity SQ-Connector - LAN-Gateway mit 868 MHz Funk
+                          für SQ-Panel
+                        </h6>
+                        <p>
+                          Der Carenuity SQ-Connector ist das zentrale Gateway
+                          zur Anbindung des SQ-Panels an die Carenuity-Cloud. Er
+                          empfängt Sensordaten des Panels über...{' '}
+                        </p>
+                        <div className="row">
+                          <p className="col-md-4 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={
+                                  'https://www.chipglobe.shop/p/carenuity-sq-connector-lan-gateway-mit-868-mhz-funk-fuer-sq-panel'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small"> Jetzt kaufen</span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={
+                                  'https://www.chipglobe.shop/p/carenuity-sq-connector-lan-gateway-mit-868-mhz-funk-fuer-sq-panel'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Jetzt kaufen{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
                         </div>
                       </div>
                     </div>
-          </>}
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </section>
     </>

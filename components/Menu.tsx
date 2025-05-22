@@ -109,7 +109,24 @@ const Menu = ({
                           : { textAlign: 'left' }
                       }
                     >
-                      <i className={`${service.icon} me-2`}></i>
+                      {service.type === 'icon' && (
+                        <i className={`${service.icon} me-2`}></i>
+                      )}
+
+                      {service.type === 'image' && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={service.icon}
+                          className={'me-1'}
+                          style={{
+                            width: '1.25rem',
+                            height: 'auto',
+                            margin: '.2rem 0',
+                          }}
+                          alt={service.name}
+                        />
+                      )}
+
                       {service.name}
                     </a>
                     {/* )} */}

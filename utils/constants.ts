@@ -43,21 +43,25 @@ export const servicesUrls: Service = {
       name: 'C3-Mini™ Applications',
       url: '/c3-mini',
       icon: 'fas fa-code',
+      type: 'icon',
     },
     {
       name: 'All-for-One Sensor Boxes',
       url: '/single-sensor-boxes',
       icon: 'fas fa-box',
+      type: 'icon',
     },
     {
       name: 'C3-Mini™ Sensor Box',
       url: '/c3-mini-box',
       icon: 'fa-solid fa-keyboard',
+      type: 'icon',
     },
     {
       name: 'AI Assisted Solutions ',
       url: '/ai-assisted-devices',
       icon: 'fa-solid fa-brain',
+      type: 'icon',
     },
     // {
     //   name: 'C3-Mini™ Weather-Panel (launch 2nd H.2024)',
@@ -67,24 +71,34 @@ export const servicesUrls: Service = {
   ],
   premium: [
     {
-      name: 'SQ-Panel (AirQuality Display)',
+      name: 'SQ-Panel Sensor Display',
       url: '/sq-panel',
-      icon: 'fa-solid fa-gauge',
+      icon: '/img/content/menu/sensor-display.png', // 'fa-solid fa-gauge',
+      type: 'image',
+    },
+    {
+      name: 'SQ-Connector Matter',
+      url: '/sq-connector',
+      icon: '/img/content/menu/connector-matter.png', // 'fa-solid fa-plug',
+      type: 'image',
     },
     {
       name: 'SQ-Power Supply',
       url: '/sq-power',
       icon: 'fa-solid fa-plug',
+      type: 'icon',
     },
     {
-      name: 'SQ-Connector',
-      url: '/sq-connector',
-      icon: 'fa-solid fa-plug',
+      name: 'SQ-TableStand',
+      url: '/sq-tablestand',
+      icon: '/img/content/menu/table-stand.png',
+      type: 'image',
     },
     {
-      name: 'Evaluate at Home',
+      name: 'SQ-Labs Feature Evaluation', // 'Evaluate at Home',
       url: '/evaluate-at-home',
       icon: 'fa-solid fa-house',
+      type: 'icon',
     },
   ],
   business: [
@@ -92,11 +106,13 @@ export const servicesUrls: Service = {
       name: 'Smartphone SQ-App',
       url: '/carenuity-app-guide',
       icon: 'fas fa-microchip',
+      type: 'icon',
     },
     {
-      name: 'Solution Builder for new businesses',
-      url: '',
-      icon: 'fas fa-building',
+      name: 'Solution Builder', //  for new businesses
+      url: 'https://solutions.carenuity.com',
+      icon: 'fas fa-store',
+      type: 'icon',
     },
     // {
     //   name: 'SQ-Multi-Home & Office value adder (launch 2025)',
@@ -106,12 +122,14 @@ export const servicesUrls: Service = {
     {
       name: 'WebShop',
       url: 'http://carenuity.shop',
-      icon: 'fa-solid fa-bell',
+      icon: 'fa-solid fa-shopping-cart',
+      type: 'icon',
     },
     {
       name: 'Home Challenge',
       url: '/home-challenge',
-      icon: 'fa-solid fa-bell',
+      icon: 'fa-solid fa-star',
+      type: 'icon',
     },
     // {
     //   name: 'Kickstarter Campaign',

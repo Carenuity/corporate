@@ -101,18 +101,19 @@ const Page = () => {
                 range of environments and applications.
               </li>
             </ul>
-            
           </div>
           <div>
-          <h6>Documentation</h6>
-            <p><a
+            <h6>Documentation</h6>
+            <p>
+              <a
                 href="/docs/Schematic V2.0.1.pdf"
                 target="_blank"
                 className="ms-2 link-success"
                 rel="noreferrer"
               >
                 Schematic V2.0.1 [PDF]
-              </a></p>
+              </a>
+            </p>
           </div>
           <video
             src="/videos/content/envirosence.mp4"
@@ -128,10 +129,14 @@ const Page = () => {
               animationName: 'fadeIn',
             }}
           />
-         
-          <SolutionWidget solutionId={'EVfcgU5gUOrAKLN3Ik0Y'}  />
 
-          <div id="subscribe" className="my-10 " style={{ textAlign: 'center' }}>
+          <SolutionWidget solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
+
+          <div
+            id="subscribe"
+            className="my-10 "
+            style={{ textAlign: 'center' }}
+          >
             <h2>Product Wishlist</h2>
             <p>
               Join <strong>Envirosence 680</strong> wishlist for updates when

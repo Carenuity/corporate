@@ -58,6 +58,7 @@ export interface ServiceUrl {
   name: string;
   url: string;
   icon: string;
+  type: 'icon' | 'image';
 }
 
 export interface Service {
