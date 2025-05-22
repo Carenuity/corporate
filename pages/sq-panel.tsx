@@ -9,6 +9,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-Panel';
   const { state } = useContext(LanguageSwitchContext);
   const bannerImage = '/img/content/SQ-Panel-sideview.webp';
+  const iframeHeight = '40.5rem';
 
   useEffect(() => {
     if (document !== undefined) {
@@ -61,8 +62,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
                   src="https://www.youtube.com/embed/gFsb_utAGrg"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -74,8 +75,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'de' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
                   src="https://www.youtube.com/embed/5rwa3OWmB0Q"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -509,8 +510,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div className="mb-2">
             <iframe
-              width="1150"
-              height="450"
+              className="w-100 height-300"
+              style={{ height: isMobile ? '' : iframeHeight }}
               src="https://www.youtube.com/embed/dW8N7CkfXO8"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -526,8 +527,10 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
+                  // width="1150"
+                  // height="450"
                   src="https://www.youtube.com/embed/3f__UixQJa0"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -539,8 +542,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'de' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
                   src="https://www.youtube.com/embed/azuZXhZeEnw"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1037,8 +1040,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             </ul>
             <div className="mb-2">
               <iframe
-                width="1150"
-                height="450"
+                className="w-100 height-300"
+                style={{ height: isMobile ? '' : iframeHeight }}
                 src="https://www.youtube.com/embed/nCnTdzlanPo"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1132,8 +1135,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && (
                 <>
                   <iframe
-                    width="1150"
-                    height="450"
+                    className="w-100 height-300"
+                    style={{ height: isMobile ? '' : iframeHeight }}
                     src="https://www.youtube.com/embed/paRa-FVySM8s"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1145,8 +1148,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'de' && (
                 <>
                   <iframe
-                    width="1150"
-                    height="450"
+                    className="w-100 height-300"
+                    style={{ height: isMobile ? '' : iframeHeight }}
                     src="https://www.youtube.com/embed/kLtLz_UDwzY"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1833,8 +1836,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             </h4>
             <div className="mb-2">
               <iframe
-                width="1150"
-                height="450"
+                className="w-100 height-300"
+                style={{ height: isMobile ? '' : iframeHeight }}
                 src="https://www.youtube.com/embed/b_ILJvUFYYY"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
