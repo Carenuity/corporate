@@ -30,6 +30,87 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
+            <h4>Scan to Download Carenuity mobile app</h4>
+            <div className='col-lg-4 mb-4'>
+               {/* <p>Android</p> */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+             
+              <img
+                src="/img/content/user-guide/android.jpeg"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className='col-lg-4 mb-4'>
+             
+                 {/* <p>iOS</p> */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+             
+              <img
+                src="/img/content/user-guide/apple.jpeg"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+                      <div className='cl-lg-4'></div>
+                     
+           
+ 
+            <div className='col-lg-4 mb-4'>
+           
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+               <a href="https://play.google.com/store/apps/details?id=com.carenuity.home" target="_blank" rel="">
+              <img
+                src="/img/content/user-guide/google.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+
+                  animationName: 'fadeIn',
+                }}
+              /></a>
+            </div>
+
+             {/* <div className='col-lg-1'></div> */}
+            <div className='col-lg-4 mb-4'>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+              <a href="https://apps.apple.com/ie/app/carenuity/id6472718918" target="_blank" rel="">
+              <img
+                src="/img/content/user-guide/app-store.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+
+                  animationName: 'fadeIn',
+                }}
+              /> </a>
+            </div>
+          
+          
+          
+          
+          
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -44,6 +125,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   animationName: 'fadeIn',
                 }}
               />
+            
+            
             </div>
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
