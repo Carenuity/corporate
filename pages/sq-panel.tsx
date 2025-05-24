@@ -9,6 +9,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-Panel';
   const { state } = useContext(LanguageSwitchContext);
   const bannerImage = '/img/content/SQ-Panel-sideview.webp';
+  const iframeHeight = '40.5rem';
 
   useEffect(() => {
     if (document !== undefined) {
@@ -61,8 +62,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
                   src="https://www.youtube.com/embed/gFsb_utAGrg"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -74,8 +75,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'de' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
                   src="https://www.youtube.com/embed/5rwa3OWmB0Q"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -509,8 +510,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           </div>
           <div className="mb-2">
             <iframe
-              width="1150"
-              height="450"
+              className="w-100 height-300"
+              style={{ height: isMobile ? '' : iframeHeight }}
               src="https://www.youtube.com/embed/dW8N7CkfXO8"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -526,8 +527,10 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
+                  // width="1150"
+                  // height="450"
                   src="https://www.youtube.com/embed/3f__UixQJa0"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -539,8 +542,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'de' && (
               <>
                 <iframe
-                  width="1150"
-                  height="450"
+                  className="w-100 height-300"
+                  style={{ height: isMobile ? '' : iframeHeight }}
                   src="https://www.youtube.com/embed/azuZXhZeEnw"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1037,8 +1040,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             </ul>
             <div className="mb-2">
               <iframe
-                width="1150"
-                height="450"
+                className="w-100 height-300"
+                style={{ height: isMobile ? '' : iframeHeight }}
                 src="https://www.youtube.com/embed/nCnTdzlanPo"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1132,8 +1135,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && (
                 <>
                   <iframe
-                    width="1150"
-                    height="450"
+                    className="w-100 height-300"
+                    style={{ height: isMobile ? '' : iframeHeight }}
                     src="https://www.youtube.com/embed/paRa-FVySM8s"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1145,8 +1148,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'de' && (
                 <>
                   <iframe
-                    width="1150"
-                    height="450"
+                    className="w-100 height-300"
+                    style={{ height: isMobile ? '' : iframeHeight }}
                     src="https://www.youtube.com/embed/kLtLz_UDwzY"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1833,8 +1836,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             </h4>
             <div className="mb-2">
               <iframe
-                width="1150"
-                height="450"
+                className="w-100 height-300"
+                style={{ height: isMobile ? '' : iframeHeight }}
                 src="https://www.youtube.com/embed/b_ILJvUFYYY"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -3593,7 +3596,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
             <div>
-              <h4>SQ-Panel Vorverkauf - startet am 15. May 2025</h4>
+              <h4>SQ-Panel Vorverkauf - startet am 16. June 2025</h4>
               <p>
                 We have a major upgrade for the SQ-Panel following the proposals
                 from our community. To get early news, insights and potentially
@@ -3606,201 +3609,215 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </p>
             </div>
           </div>
-          {state === 'en' && <>
-          
-                      <h4>Shop with us</h4>
+          {state === 'en' && (
+            <>
+              <h4>Shop with us</h4>
+              <div className="row">
+                <div className="col-md-4 mb-4">
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      maxHeight: '1070px',
+                    }}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/case/children01.png"
+                      className="wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        width: '420px',
+                        animationDelay: '100ms',
+                        animationName: 'fadeIn',
+                      }}
+                    />
+
+                    <div style={{ padding: '10px' }}>
+                      <h6 className="text-success">
+                        Carenuity SQ Panel - Intelligent Air Quality Display
+                      </h6>
+                      <p>
+                        The Carenuity SQ panel is an intelligent, networkable
+                        air quality display for precise and continuous real-time
+                        monitoring of indoor climate...{' '}
+                      </p>
                       <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div
-                            className="e-card"
-                            style={{
-                              boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                              maxHeight: '1070px',
-                            }}
-                          >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src="/img/content/case/children01.png"
-                              className="wow fadeInUp"
-                              data-wow-delay="100ms"
-                              alt="..."
-                              style={{
-                                visibility: 'visible',
-                                width: '420px',
-                                animationDelay: '100ms',
-                                animationName: 'fadeIn',
-                              }}
-                            />
-          
-                            <div style={{ padding: '10px' }}>
-                              <h6 className="text-success">
-                               Carenuity SQ Panel - Intelligent Air Quality Display
-                              </h6>
-                              <p>
-                               The Carenuity SQ panel is an intelligent, networkable air quality display for 
-                               precise and continuous real-time monitoring of indoor climate...{' '}
-                              </p>
-                              <div className="row">
-                                <p className="col-md-3 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={
-                                        'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Buy Now</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={
-                                        'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Buy Now{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                                <p className="col-md-8 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={'/evaluate-at-home'}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Evaluate at home</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={'/evaluate-at-home'}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Evaluate at home{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <p className="col-md-3 mb-4">
+                          {!isMobile && (
+                            <Link
+                              href={
+                                'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                            >
+                              <span className="small"> Buy Now</span>
+                            </Link>
+                          )}
+
+                          {isMobile && (
+                            <a
+                              href={
+                                'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                              rel="noreferrer"
+                            >
+                              <span className="small">
+                                Buy Now{' '}
+                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                              </span>
+                            </a>
+                          )}
+                        </p>
+                        <p className="col-md-8 mb-4">
+                          {!isMobile && (
+                            <Link
+                              href={'/evaluate-at-home'}
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                            >
+                              <span className="small"> Evaluate at home</span>
+                            </Link>
+                          )}
+
+                          {isMobile && (
+                            <a
+                              href={'/evaluate-at-home'}
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                              rel="noreferrer"
+                            >
+                              <span className="small">
+                                Evaluate at home{' '}
+                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                              </span>
+                            </a>
+                          )}
+                        </p>
                       </div>
-                    
-          </>}
-          
-          
-          {state === 'de' && <>
-           <div>
-                      <h4>Kaufen Sie bei uns ein</h4>
-                      <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div
-                            className="e-card"
-                            style={{
-                              boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                              maxHeight: '1070px',
-                            }}
-                          >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src="/img/content/case/children01.png"
-                              className="wow fadeInUp"
-                              data-wow-delay="100ms"
-                              alt="..."
-                              style={{
-                                visibility: 'visible',
-                                width: '420px',
-                                animationDelay: '100ms',
-                                animationName: 'fadeIn',
-                              }}
-                            />
-          
-                            <div style={{ padding: '10px' }}>
-                              <h6 className="text-success">
-                              Carenuity SQ-Panel - Intelligentes Luftqualitäts-Display
-                              </h6>
-                              <p>
-                               Das Carenuity SQ-Panel ist ein intelligentes, vernetzbares Luftqualitäts-Display
-                                zur präzisen und kontinuierlichen Überwachung des...{' '}
-                              </p>
-                              <div className="row">
-                                <p className="col-md-4 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={
-                                        'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Jetzt kaufen</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={
-                                        'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Jetzt kaufen{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                                <p className="col-md-8 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={'/evaluate-at-home'}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Bewerten Sie zu Hause</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={'/evaluate-at-home'}
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Bewerten Sie zu Hause{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+
+          {state === 'de' && (
+            <>
+              <div>
+                <h4>Kaufen Sie bei uns ein</h4>
+                <div className="row">
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        maxHeight: '1070px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/case/children01.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Carenuity SQ-Panel - Intelligentes
+                          Luftqualitäts-Display
+                        </h6>
+                        <p>
+                          Das Carenuity SQ-Panel ist ein intelligentes,
+                          vernetzbares Luftqualitäts-Display zur präzisen und
+                          kontinuierlichen Überwachung des...{' '}
+                        </p>
+                        <div className="row">
+                          <p className="col-md-4 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={
+                                  'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small"> Jetzt kaufen</span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={
+                                  'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Jetzt kaufen{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                          <p className="col-md-8 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={'/evaluate-at-home'}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small">
+                                  {' '}
+                                  Bewerten Sie zu Hause
+                                </span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={'/evaluate-at-home'}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Bewerten Sie zu Hause{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
                         </div>
                       </div>
                     </div>
-          </>}
-           
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </section>
 

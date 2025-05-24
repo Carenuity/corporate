@@ -11,7 +11,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
-     <Translatable />
+      <Translatable />
       <Head>
         <meta
           name="keywords"
@@ -130,7 +130,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <br />
                 </div>
               </div>
-              
             </div>
           </div>
 
@@ -212,7 +211,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
           </div>
 
-        {/* How SQ-Power works*/}
+          {/* How SQ-Power works*/}
 
           <div className=" mb-2">
             <h5>How does SQ-Power work? </h5>
@@ -310,152 +309,159 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
           </div>
-           {state === 'en' && <>
-          
-                      <h4>Shop with us</h4>
+          {state === 'en' && (
+            <>
+              <h4>Shop with us</h4>
+              <div className="row">
+                <div className="col-md-4 mb-4">
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      maxHeight: '1070px',
+                    }}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/sq-power/sq-power-front.png"
+                      className="wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        width: '420px',
+                        animationDelay: '100ms',
+                        animationName: 'fadeIn',
+                      }}
+                    />
+
+                    <div style={{ padding: '10px' }}>
+                      <h6 className="text-success">
+                        Carenuity SQ-Power - In-Wall Power Module for SQ-Panel
+                      </h6>
+                      <p>
+                        The Carenuity SQ-Power module is designed for the safe
+                        and permanently installed power supply of the Carenuity
+                        SQ-Panel when...
+                      </p>
                       <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div
-                            className="e-card"
-                            style={{
-                              boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                              maxHeight: '1070px',
-                            }}
-                          >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src="/img/content/sq-power/sq-power-front.png"
-                              className="wow fadeInUp"
-                              data-wow-delay="100ms"
-                              alt="..."
-                              style={{
-                                visibility: 'visible',
-                                width: '420px',
-                                animationDelay: '100ms',
-                                animationName: 'fadeIn',
-                              }}
-                            />
-          
-                            <div style={{ padding: '10px' }}>
-                              <h6 className="text-success">
-                               Carenuity SQ-Power - In-Wall Power Module for SQ-Panel
-                              </h6>
-                              <p>
-                               The Carenuity SQ-Power module is designed for the safe and permanently 
-                               installed power supply of the Carenuity SQ-Panel when...
-                              </p>
-                              <div className="row">
-                                <p className="col-md-3 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={
-                                        'https://www.chipglobe.shop/en/p/carenuity-sq-power-in-wall-power-module-for-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Buy Now</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={
-                                        'https://www.chipglobe.shop/en/p/carenuity-sq-power-in-wall-power-module-for-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Buy Now{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                                
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <p className="col-md-3 mb-4">
+                          {!isMobile && (
+                            <Link
+                              href={
+                                'https://www.chipglobe.shop/en/p/carenuity-sq-power-in-wall-power-module-for-sq-panel'
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                            >
+                              <span className="small"> Buy Now</span>
+                            </Link>
+                          )}
+
+                          {isMobile && (
+                            <a
+                              href={
+                                'https://www.chipglobe.shop/en/p/carenuity-sq-power-in-wall-power-module-for-sq-panel'
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill'}
+                              rel="noreferrer"
+                            >
+                              <span className="small">
+                                Buy Now{' '}
+                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                              </span>
+                            </a>
+                          )}
+                        </p>
                       </div>
-                    
-          </>}
-          
-          
-          {state === 'de' && <>
-           <div>
-                      <h4>Kaufen Sie bei uns ein</h4>
-                      <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div
-                            className="e-card"
-                            style={{
-                              boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                              maxHeight: '1070px',
-                            }}
-                          >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src="/img/content/sq-power/sq-power-front.png"
-                              className="wow fadeInUp"
-                              data-wow-delay="100ms"
-                              alt="..."
-                              style={{
-                                visibility: 'visible',
-                                width: '420px',
-                                animationDelay: '100ms',
-                                animationName: 'fadeIn',
-                              }}
-                            />
-          
-                            <div style={{ padding: '10px' }}>
-                              <h6 className="text-success">
-                             Carenuity SQ-Power – Unterputz-Strommodul für das SQ-Panel
-                              </h6>
-                              <p>
-                              Das Carenuity SQ-Power Modul dient der sicheren und fest installierten Stromversorgung des 
-                              Carenuity SQ-Panels bei Wandmontage.Es wird direkt an die 230 V...{' '}
-                              </p>
-                              <div className="row">
-                                <p className="col-md-4 mb-4">
-                                  {!isMobile && (
-                                    <Link
-                                      href={
-                                        'https://www.chipglobe.shop/p/carenuity-sq-power-unterputz-strommodul-fuer-das-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                    >
-                                      <span className="small"> Jetzt kaufen</span>
-                                    </Link>
-                                  )}
-          
-                                  {isMobile && (
-                                    <a
-                                      href={
-                                        'https://www.chipglobe.shop/p/carenuity-sq-power-unterputz-strommodul-fuer-das-sq-panel'
-                                      }
-                                      target="_blank"
-                                      className={'btn btn-sm btn-success rounded-pill'}
-                                      rel="noreferrer"
-                                    >
-                                      <span className="small">
-                                        Jetzt kaufen{' '}
-                                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                      </span>
-                                    </a>
-                                  )}
-                                </p>
-                               
-                              </div>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+
+          {state === 'de' && (
+            <>
+              <div>
+                <h4>Kaufen Sie bei uns ein</h4>
+                <div className="row">
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        maxHeight: '1070px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/sq-power/sq-power-front.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Carenuity SQ-Power – Unterputz-Strommodul für das
+                          SQ-Panel
+                        </h6>
+                        <p>
+                          Das Carenuity SQ-Power Modul dient der sicheren und
+                          fest installierten Stromversorgung des Carenuity
+                          SQ-Panels bei Wandmontage.Es wird direkt an die 230
+                          V...{' '}
+                        </p>
+                        <div className="row">
+                          <p className="col-md-4 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={
+                                  'https://www.chipglobe.shop/p/carenuity-sq-power-unterputz-strommodul-fuer-das-sq-panel'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small"> Jetzt kaufen</span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={
+                                  'https://www.chipglobe.shop/p/carenuity-sq-power-unterputz-strommodul-fuer-das-sq-panel'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Jetzt kaufen{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
                         </div>
                       </div>
                     </div>
-          </>}
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </section>
     </>

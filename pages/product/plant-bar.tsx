@@ -7,7 +7,6 @@ import Translatable from '../../components/Translatable';
 import Link from 'next/link';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-
   const pageTitle = 'Plant Bar';
   const { state } = useContext(LanguageSwitchContext);
   return (
@@ -35,52 +34,52 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-        <h4 className="mb-2">
-            {state === 'en' && (
-              <>
-                Capacitive Soil Moisture Meter
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                Kapazitives Bodenfeuchtemessgerät
-              </>
-            )}
+          <h4 className="mb-2">
+            {state === 'en' && <>Capacitive Soil Moisture Meter</>}
+            {state === 'de' && <>Kapazitives Bodenfeuchtemessgerät</>}
           </h4>
-        <p className="mb-4">
+          <p className="mb-4">
             {state === 'en' && (
               <>
-               The <strong>Capacitive Soil Moisture Meter</strong> is a reliable and durable sensor 
-               designed to measure soil moisture levels using capacitive sensing technology. Unlike 
-               traditional resistive sensors that rely on exposed metal probes, this meter detects 
-               changes in the soil's dielectric constant, making it more resistant to corrosion and 
-               ideal for long-term use in both indoor and outdoor environments. It provides accurate,
-                consistent readings and is easily integrated with microcontrollers like Arduino or 
-                ESP32, making it a popular choice for smart gardening, irrigation systems, and 
-                agricultural monitoring. Its low power consumption and stable performance make it an 
-                efficient tool for maintaining optimal soil conditions in various applications.
+                The <strong>Capacitive Soil Moisture Meter</strong> is a
+                reliable and durable sensor designed to measure soil moisture
+                levels using capacitive sensing technology. Unlike traditional
+                resistive sensors that rely on exposed metal probes, this meter
+                detects changes in the soil&apos;s dielectric constant, making
+                it more resistant to corrosion and ideal for long-term use in
+                both indoor and outdoor environments. It provides accurate,
+                consistent readings and is easily integrated with
+                microcontrollers like Arduino or ESP32, making it a popular
+                choice for smart gardening, irrigation systems, and agricultural
+                monitoring. Its low power consumption and stable performance
+                make it an efficient tool for maintaining optimal soil
+                conditions in various applications.
               </>
             )}
             {state === 'de' && (
               <>
-                Das <strong>kapazitive Bodenfeuchtemessgerät</strong> ist ein zuverlässiger und 
-                langlebiger Sensor zur Messung der Bodenfeuchtigkeit mithilfe kapazitiver 
-                Sensortechnologie. Im Gegensatz zu herkömmlichen Widerstandssensoren, die auf 
-                freiliegenden Metallsonden basieren, erkennt dieses Messgerät Änderungen in der 
-                Dielektrizitätskonstante des Bodens, wodurch er korrosionsbeständiger wird und 
-                sich ideal für den langfristigen Einsatz sowohl im Innen- als auch im Außenbereich 
-                eignet. Es liefert genaue, konsistente Messwerte und lässt sich problemlos in 
-                Mikrocontroller wie Arduino oder ESP32 integrieren, was es zu einer beliebten 
-                Wahl für intelligente Gartenarbeit, Bewässerungssysteme und landwirtschaftliche 
-                Überwachung macht. Sein geringer Stromverbrauch und seine stabile Leistung machen 
-                ihn zu einem effizienten Werkzeug zur Aufrechterhaltung optimaler Bodenbedingungen 
-                bei verschiedenen Anwendungen.
+                Das <strong>kapazitive Bodenfeuchtemessgerät</strong> ist ein
+                zuverlässiger und langlebiger Sensor zur Messung der
+                Bodenfeuchtigkeit mithilfe kapazitiver Sensortechnologie. Im
+                Gegensatz zu herkömmlichen Widerstandssensoren, die auf
+                freiliegenden Metallsonden basieren, erkennt dieses Messgerät
+                Änderungen in der Dielektrizitätskonstante des Bodens, wodurch
+                er korrosionsbeständiger wird und sich ideal für den
+                langfristigen Einsatz sowohl im Innen- als auch im Außenbereich
+                eignet. Es liefert genaue, konsistente Messwerte und lässt sich
+                problemlos in Mikrocontroller wie Arduino oder ESP32
+                integrieren, was es zu einer beliebten Wahl für intelligente
+                Gartenarbeit, Bewässerungssysteme und landwirtschaftliche
+                Überwachung macht. Sein geringer Stromverbrauch und seine
+                stabile Leistung machen ihn zu einem effizienten Werkzeug zur
+                Aufrechterhaltung optimaler Bodenbedingungen bei verschiedenen
+                Anwendungen.
               </>
             )}
           </p>
-         
-            <div className='row'>
-          <div className="col-md-3 mb-6">
+
+          <div className="row">
+            <div className="col-md-3 mb-6">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/plant-bar/slide1.png"
@@ -142,8 +141,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            </div>
-            <h4 className="mb-4">
+          </div>
+          <h4 className="mb-4">
             {state === 'en' && (
               <>
                 Never Thirsty Plants Again: Carenuity Plant Bar Revolutionizes
@@ -247,33 +246,25 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </p>
 
           <h4 className="mn-4">
-            {state === 'en' && (
-              <>
-                Structure
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                Struktur
-              </>
-            )}
+            {state === 'en' && <>Structure</>}
+            {state === 'de' && <>Struktur</>}
           </h4>
           <div className="col-md-4 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/plant-bar/plant-bar2.png"
-                className="wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  // width: '220px',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            <div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/plant-bar/plant-bar2.png"
+              className="wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                // width: '220px',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div>
+          <div>
             <h4>Shop with us</h4>
             <div className="row">
               <div className="col-md-4 mb-4">
@@ -303,8 +294,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       Capacitive Soil Moisture Sensor, V2.0
                     </h6>
                     <p>
-                      The capacitive soil moisture sensor is a reliable and durable tool for measuring soil 
-                      moisture. It operates at a voltage of 3.3 to 5.5V  ...{' '}
+                      The capacitive soil moisture sensor is a reliable and
+                      durable tool for measuring soil moisture. It operates at a
+                      voltage of 3.3 to 5.5V ...{' '}
                     </p>
                     <div className="row">
                       <p className="col-md-3 mb-4">
@@ -367,7 +359,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
     </>
