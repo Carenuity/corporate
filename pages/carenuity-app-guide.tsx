@@ -188,31 +188,46 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <p style={{ textAlign: 'center' }}>
-              {!isMobile && (
-                <Link
-                  href="https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de"
-                  target="_blank"
-                  className={'btn btn-lg btn-success rounded-pill'}
-                >
-                  <span className="small">Download the app</span>
-                </Link>
-              )}
 
-              {isMobile && (
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.carenuity.home&hl=de"
-                  target="_blank"
-                  className={'btn btn-lg btn-success rounded-pill'}
-                  rel="noreferrer"
-                >
-                  <span className="small">
-                    Download the app{' '}
-                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                  </span>
-                </a>
-              )}
-            </p>
+
+             <div className='col-lg-4 mb-4'>
+           
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+               <a href="https://play.google.com/store/apps/details?id=com.carenuity.home" target="_blank" rel="">
+              <img
+                src="/img/content/user-guide/google.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+
+                  animationName: 'fadeIn',
+                }}
+              /></a>
+            </div>
+
+             {/* <div className='col-lg-1'></div> */}
+            <div className='col-lg-4 mb-4'>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+              <a href="https://apps.apple.com/ie/app/carenuity/id6472718918" target="_blank" rel="">
+              <img
+                src="/img/content/user-guide/app-store.png"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+
+                  animationName: 'fadeIn',
+                }}
+              /> </a>
+            </div>
+          
+           
           </div>
         </div>
       </section>
