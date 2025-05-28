@@ -80,7 +80,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
 
-            <h3>Our motto: integrate - evaluate -advocate!</h3>
+            <h3>Our motto: integrate - evaluate - advocate!</h3>
             <div className="row">
               <div className="col-md-4 mb-2">
                 <div
