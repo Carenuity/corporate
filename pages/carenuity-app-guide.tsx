@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import PageTitle from '../components/PageTitle';
+import { Target } from 'lucide-react';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Carenuity Smartphone App';
@@ -192,7 +193,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-
+                 <div className='col-lg-2'></div>
              <div className='col-lg-4 mb-4'>
            
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -211,8 +212,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               /></a>
             </div>
 
-             {/* <div className='col-lg-1'></div> */}
-            <div className='col-lg-4 mb-4'>
+        
+            <div className='col-lg-4 mb-8'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://apps.apple.com/ie/app/carenuity/id6472718918" target="_blank" rel="">
               <img
@@ -229,6 +230,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               /> </a>
             </div>
+
+            <p style={{ textAlign: 'center' }}>
+          <a
+            href='https://www.chipglobe.shop/en/p/carenuity-sq-system-customizable-bundle-with-air-quality-display-and-accessories' target="blank"
+            className={'btn btn-lg btn-success rounded-pill'}
+          >
+            <span className="small">Buy your first SQ-panel now</span>
+          </a>
+        </p>
           
            
           </div>

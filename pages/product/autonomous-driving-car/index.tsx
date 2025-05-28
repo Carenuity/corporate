@@ -169,7 +169,7 @@ const { state } = useContext(LanguageSwitchContext);
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Autonomous/autonomus1.png"
+                    src="/img/content/autonomous/autonomus1.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -208,7 +208,7 @@ const { state } = useContext(LanguageSwitchContext);
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Autonomous/autonomus2.png"
+                    src="/img/content/autonomous/autonomus2.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -242,7 +242,7 @@ const { state } = useContext(LanguageSwitchContext);
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/Autonomous/autonomus3.png"
+                    src="/img/content/autonomous/autonomus3.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."

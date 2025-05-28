@@ -85,7 +85,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/radar-sensor1.jpeg"
+                  src="/img/content/ai-assisted/radar-sensor1.jpeg"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -125,7 +125,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/radar-sensor2.jpeg"
+                  src="/img/content/ai-assisted/radar-sensor2.jpeg"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -164,7 +164,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/Ai-assisted/esp32-cam1.jpeg"
+                  src="/img/content/ai-assisted/esp32-cam1.jpeg"
                   className=" wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -236,7 +236,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="col-md-2 mb-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/Ai-assisted/esp32-cam2.jpeg"
+                      src="/img/content/ai-assisted/esp32-cam2.jpeg"
                       className=" wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
@@ -289,7 +289,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="col-md-4 mb-4">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/Autonomous/shopcar.png"
+                        src="/img/content/autonomous/shopcar.png"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."

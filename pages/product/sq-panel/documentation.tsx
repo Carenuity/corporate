@@ -43,7 +43,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/datasheet.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -55,7 +55,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/declaration-of-conformity.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -67,7 +67,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/leaflet.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -79,7 +79,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/commisioning.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -91,7 +91,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="../../serial-number"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -106,7 +106,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/datasheet-de.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -118,7 +118,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/declaration-de.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -130,7 +130,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/leaflet.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -142,7 +142,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="/docs/commisioning-de.PDF"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
@@ -154,7 +154,7 @@ const Page = () => {
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
                   <a
-                    href=""
+                    href="../../serial-number"
                     target="_blank"
                     className="ms-2 link-success"
                     rel="noreferrer"
