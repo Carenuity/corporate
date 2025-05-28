@@ -1,10 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 import PageTitle from '../components/PageTitle';
 import { Target } from 'lucide-react';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Page = () => {
   const pageTitle = 'Carenuity Smartphone App';
   return (
     <>
@@ -226,9 +225,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
 
-                  animationName: 'fadeIn',
-                }}
-              /> </a>
+                    animationName: 'fadeIn',
+                  }}
+                />{' '}
+              </a>
             </div>
 
             <p style={{ textAlign: 'center' }}>
