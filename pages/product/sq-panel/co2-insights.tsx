@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import PageTitle from '../components/PageTitle';
+import PageTitle from '../../../components/PageTitle';
 import Link from 'next/link';
-import ApplicationItem from '../components/ApplicationItem';
+import ApplicationItem from '../../../components/ApplicationItem';
 
 const Sensors = () => {
   // { isMobile }: { isMobile: boolean }
