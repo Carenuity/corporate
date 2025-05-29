@@ -39,7 +39,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             className="e-card mb-6"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-              height: '500px',
+              maxHeight: '1500px',
               padding: '20px',
             }}
           >
@@ -137,7 +137,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             className="e-card mb-6"
             style={{
               boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-              height: '380px',
+              maxHeight: '1500px',
               padding: '20px',
             }}
           >
