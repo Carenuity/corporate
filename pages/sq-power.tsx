@@ -50,11 +50,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   for attaching the SQ-Panel
                 </h5>
               </div>
-              <div className="col-lg-4 mt-n1-9 ">
+              <div className="col-lg-4 mt-n1-9 mb-4 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/sq-power/sq-power-front.png"
-                  className="mt-1-9 wow fadeInUp"
+                  className="mt-1-9 mb-4 wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
                   style={{
@@ -65,7 +65,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 />
               </div>
-
+                  <div className="col-lg-8  mb-5">
+                    <div className='row'>
               <div className="col-lg-4 mt-n1-9 mb-5">
                 <div className=" mb-4">
                   <h6>Basic Information</h6>
@@ -85,21 +86,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <br />
                   <strong>Certification:</strong>
                 </div>
-
-                <div className="col-lg-6 mb-5">
-                  <h6>Working Environment</h6>
-                  <strong>Applicable place:</strong>
-                  <br />
-                  <strong>Working temperature:</strong>
-                  <br />
-                  <strong>Working humidity:</strong>
-                  <br />
-                  <strong>Certification:</strong>
-                  <br />
-                </div>
               </div>
 
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-5 mt-n1-9 mb-5">
                 <div className=" mb-4">
                   <br />
                   Wall mounting power module
@@ -117,7 +106,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   CE/ROHS/WEEE
                   <br />
                 </div>
-
+              </div>
+              <div className="col-lg-4 mt-n1-9 mb-5">
+                <div >
+                  <h6>Working Environment</h6>
+                  <strong>Applicable place:</strong>
+                  <br />
+                  <strong>Working temperature:</strong>
+                  <br />
+                  <strong>Working humidity:</strong>
+                  <br />
+                  <strong>Certification:</strong>
+                  <br />
+                </div>
+              </div>
+              <div className="col-lg-4 mt-n1-9 mb-5">
                 <div className=" mb-4">
                   <br />
                   Indoor
@@ -131,7 +134,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div></div></div>
 
           <div
             className="e-card mb-6"
@@ -148,8 +151,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   connect 22V cables for domestic installations.
                 </h5>
               </div>
-
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-8  mb-5">
+                    <div className='row'>
+              <div className="col-lg-5 mt-n1-9 mb-5">
                 <div className=" mb-5">
                   <h6>Appearance</h6>
 
@@ -160,6 +164,22 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
 
                 <div>
+                  
+                </div>
+              </div>
+
+              <div className="col-lg-4 mt-n1-9 mb-5">
+                <div className=" mb-5">
+                  <br />
+                  49g
+                  <br />
+                  PCLEXAN121R
+                  <br />
+                </div></div>
+
+              <div className="col-lg-5 mt-n1-9 mb-5">
+                <div className=" mb-5">
+                 
                   <h6>Installation</h6>
 
                   <strong>Installation method:</strong>
@@ -173,14 +193,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
+              
+                
+              
               <div className="col-lg-4 mt-n1-9 mb-5">
-                <div className=" mb-5">
-                  <br />
-                  49g
-                  <br />
-                  PCLEXAN121R
-                  <br />
-                </div>
+                
                 <div>
                   <br />
                   Flush mounting box
@@ -192,6 +209,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <br />
                 </div>
               </div>
+              </div></div>
 
               <div className="col-lg-4 mt-n1-9 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
