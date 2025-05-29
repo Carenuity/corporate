@@ -150,7 +150,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
           <div>
-            <h4>Build your own Autonomous Driving Car:</h4>
+            <h4>Build your own Autonomous Driving Car now:</h4>
             <p>
               The following{' '}
               <a href="https://www.hackster.io/">
