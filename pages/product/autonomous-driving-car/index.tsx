@@ -372,15 +372,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && (
                 <>
                   Development and documentation of an autonomous driving car V3
-                  by Eren Arslan Ramazan.( Degree program, semester: Computer
-                  science, 6th semester)
+                  by Eren Arslan Ramazan. (Degree program, semester: Computer
+                  Science, 6th. Semester)
                 </>
               )}
               {state === 'de' && (
                 <>
                   Projektthema: Entwicklung und Dokumentation eines Autonomous
-                  Driving Cars V3 by Eren Arslan Ramazan( Studiengang, Semester:
-                  Informatik, 6. Semester)
+                  Driving Cars V3 by Eren Arslan Ramazan. (Studiengang, Semester:
+                  Informatik, 6tes Semester)
                 </>
               )}
             </h3>
@@ -448,7 +448,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   A kind of predecessor of my vehicle, the &apos;Schaeffler FAG
                   Model MF3&apos;, has been standing in the first corridor of
-                  our building since 2009 and served as inspiration and
+                  our building since 2009 and served as 
                   inspiration for a contemporary autonomous driving successor.
                 </>
               )}
