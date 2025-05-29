@@ -67,7 +67,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
                   <div className="col-lg-8  mb-5">
                     <div className='row'>
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-4 mt-n1-9 mb-4">
                 <div className=" mb-4">
                   <h6>Basic Information</h6>
                   <strong>Product series:</strong>
@@ -88,7 +88,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
-              <div className="col-lg-5 mt-n1-9 mb-5">
+              <div className="col-lg-5 mt-n1-9 mb-4">
                 <div className=" mb-4">
                   <br />
                   Wall mounting power module
@@ -107,7 +107,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <br />
                 </div>
               </div>
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-4 mt-n1-9 mb-1">
                 <div >
                   <h6>Working Environment</h6>
                   <strong>Applicable place:</strong>
@@ -120,7 +120,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <br />
                 </div>
               </div>
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-4 mt-n1-9 mb-1">
                 <div className=" mb-4">
                   <br />
                   Indoor
@@ -153,7 +153,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <div className="col-lg-8  mb-5">
                     <div className='row'>
-              <div className="col-lg-5 mt-n1-9 mb-5">
+              <div className="col-lg-5 mt-n1-9 mb-4">
                 <div className=" mb-5">
                   <h6>Appearance</h6>
 
@@ -168,7 +168,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-5 mt-n1-9 mb-4">
                 <div className=" mb-5">
                   <br />
                   49g
@@ -177,7 +177,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <br />
                 </div></div>
 
-              <div className="col-lg-5 mt-n1-9 mb-5">
+              <div className="col-lg-5 mt-n1-9 mb-1">
                 <div className=" mb-5">
                  
                   <h6>Installation</h6>
@@ -196,7 +196,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               
                 
               
-              <div className="col-lg-4 mt-n1-9 mb-5">
+              <div className="col-lg-5 mt-n1-9 mb-1">
                 
                 <div>
                   <br />
