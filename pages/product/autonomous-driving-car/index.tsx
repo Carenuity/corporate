@@ -188,7 +188,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   {state === 'en' && <>
                  The unveiling of the Schaeffler FAG Model MF3 took place at an
                   evening event at the foyer of Schaeffler. This event was
-                  graced by notable figures such as Dr. Grunau, a former
+                  graced by notable figures such as Dr. Grunau, the former
                   representative of the management board of FAG Schaeffler Group
                   Industry, and Dipl.-Ing. Seubert, the former chairman of the
                   Unterfranken district association of the Verein Deutscher
@@ -383,17 +383,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                  
                   </>}
           <div>
-
-            <h4>
-              {state === 'en' && <>
-                 Build your own Autonomous Driving Car:
-                  </>}
-                  {state === 'de' && <>
-                 Bauen Sie Ihr eigenes, autonom fahrendes Auto:
-                  </>}</h4>
-            
-            {state === 'en' && <>
-                 <p>
+            <h4>Build your own Autonomous Driving Car now:</h4>
+            <p>
               The following{' '}
               <a href="https://www.hackster.io/">
                 <u>hackster.io </u>
@@ -664,15 +655,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && (
                 <>
                   Development and documentation of an autonomous driving car V3
-                  by Eren Arslan Ramazan.( Degree program, semester: Computer
-                  science, 6th semester)
+                  by Eren Arslan Ramazan. (Degree program, semester: Computer
+                  Science, 6th. Semester)
                 </>
               )}
               {state === 'de' && (
                 <>
                   Projektthema: Entwicklung und Dokumentation eines Autonomous
-                  Driving Cars V3 by Eren Arslan Ramazan( Studiengang, Semester:
-                  Informatik, 6. Semester)
+                  Driving Cars V3 by Eren Arslan Ramazan. (Studiengang, Semester:
+                  Informatik, 6tes Semester)
                 </>
               )}
             </h5>
@@ -740,7 +731,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   A kind of predecessor of my vehicle, the &apos;Schaeffler FAG
                   Model MF3&apos;, has been standing in the first corridor of
-                  our building since 2009 and served as inspiration and
+                  our building since 2009 and served as 
                   inspiration for a contemporary autonomous driving successor.
                 </>
               )}

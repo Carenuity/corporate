@@ -236,7 +236,7 @@ const Page = () => {
             href='https://www.chipglobe.shop/en/p/carenuity-sq-system-customizable-bundle-with-air-quality-display-and-accessories' target="blank"
             className={'btn btn-lg btn-success rounded-pill'}
           >
-            <span className="small">Buy your first SQ-panel now</span>
+            <span className="small">Buy your first SQ-Panel now</span>
           </a>
         </p>
           
