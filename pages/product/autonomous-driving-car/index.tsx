@@ -376,14 +376,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
            
           </div>
 
-           {state === 'en' && <>
+          
                  
+                 
+                  
+          <div>
+            <h4>{state === 'en' && <>
+                 Build your own Autonomous Driving Car now:
                   </>}
                   {state === 'de' && <>
-                 
-                  </>}
-          <div>
-            <h4>Build your own Autonomous Driving Car now:</h4>
+                 Bauen Sie jetzt Ihr eigenes autonom fahrendes Auto:
+                  </>}</h4>
+                   {state === 'de' && <>
             <p>
               The following{' '}
               <a href="https://www.hackster.io/">
