@@ -43,7 +43,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               )}
               {state === 'de' && (
                 <>
-                Haben Sie sich jemals gefragt, wie Sie Ihr eigenes selbstfahrendes Auto bauen können?     
+                Haben Sie sich schonmal gefragt, wie Sie Ihr eigenes selbstfahrendes Auto bauen können?     
                 </>
               )}
             </h4>
@@ -90,7 +90,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               )}
               {state === 'de' && (
                 <>
-                Warum eintauchen?  
+                Warum damit starten und eintauchen?  
                 </>
               )}
             </h4>
@@ -106,7 +106,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                  <li>Entdecken Sie, wie KI autonomes Fahren ermöglicht. </li>
                  <li>Machen Sie praktische Erfahrungen mit 3D-gedruckten Designs, die Sie selbst anpassen können.  </li>
-                 <li>Schließen Sie sich einer Gemeinschaft von Innovatoren an, die die Zukunft gestalten.</li>
+                 <li>Schließen Sie sich einer Community von Innovatoren an, die die Zukunft gestalten.</li>
                 </>
               )}
             </ul>
@@ -141,7 +141,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             Now Autonomously Driving: The Reincarnation of a Winner
             </>}
             {state === 'de' && <>
-            Jetzt Autonomes Fahren: Die Reinkarnation eines Gewinners
+            Jetzt autonom fahrend: Die Reinkarnation eines Gewinners
             </>}
           </h5>
           
@@ -229,13 +229,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               reliability, enhancing safety and efficiency on its patrols.
                   </>}
                   {state === 'de' && <>
-                 Heute ist das autonom fahrende Infineon Car
-              stellt einen großen Fortschritt in der Automobiltechnologie dar. Gebaut von
-              Carenuity im Jahr 2025 gebaut, nutzt dieses Modell fortschrittliche KI-Kompetenzen
-              um selbstständig durch Haus und Büro zu navigieren.
-              Das Know-how von Carenuity in den Bereichen KI und Sensortechnik sorgt dafür
-              Echtzeit-Entscheidungen mit Präzision und Zuverlässigkeit treffen kann.
-              Echtzeit-Entscheidungen treffen kann, was die Sicherheit und Effizienz seiner Patrouillen erhöht.
+                 Schnell zurück ins hier und jetzt: Das autonom fahrende Infineon Car
+              stellt einen großen Fortschritt in der Automotive Technologie dar. Gebaut von
+              Carenuity im Jahr 2025 gebaut, nutzt dieses Modell fortschrittliche KI-Algorithmen,
+              um selbstständig durch Haus und Hof oder durchs Büro zu navigieren.
+              Das Know-how von Carenuity in den Bereichen KI und Sensortechnik sorgt dafür, dass es
+              Echtzeit-Entscheidungen mit Präzision und Zuverlässigkeit treffen kann,
+              was die Sicherheit und Effizienz während seiner Patrouillen erhöht.
                   </>}
                 </p>
                 <p className="mb-4">
@@ -255,9 +255,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               Plattform für fortschrittliche Sensoren. Diese Sensoren können genutzt werden, um
               die Sicherheit von intelligenten Häusern und Büros zu erhöhen und möglicherweise
               als Patrouilleneinheiten, die große Umgebungen überwachen und sichern. Durch
-              fortschrittliche Sensortechnologie kann das Autonomous
+              fortschrittliche Sensortechnologie kann das autonom
               fahrende Infineon Car dazu beitragen, dass Wohn- und Arbeitsräume sicherer
-              Arbeitsräumen beitragen.
+              werden.
                   </>}
                 </p>
                 <p className="mb-4">
@@ -271,13 +271,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               continued innovation and excellence in autonomous driving and AI.
                   </>}
                   {state === 'de' && <>
-               Darüber hinaus engagieren sich Carenuity und Infineon für den Transfer von
-              ihr Wissen im Bauwesen an ausgewählte internationale Universitäten weiterzugeben.
+               Darüber hinaus engagieren sich Carenuity und Infineon für den Wissens-Transfer von
+              im Bauen des Autos an ausgewählte internationale Universitäten weiterzugeben.
               Diese Initiative zielt darauf ab, die nächste Generation von Ingenieuren
-              Generation von Ingenieuren und Forschern zu fördern, indem sie ihnen Zugang zu modernster
+              und Forschern zu fördern, indem sie ihnen Zugang zu modernster
               Technologie und Fachwissen ermöglicht. Durch die Förderung der Zusammenarbeit mit akademischen
-              Zusammenarbeit mit akademischen Einrichtungen ebnen Carenuity und Infineon den Weg für
-              den Weg für weitere Innovationen und Spitzenleistungen in den Bereichen autonomes Fahren und KI.  
+              Einrichtungen ebnen Carenuity und Infineon den Weg für
+              für weitere Innovationen und Spitzenleistungen in den Bereichen autonomes Fahren und KI.  
                   </>}
                 </p>
                 <p className="mb-4">
