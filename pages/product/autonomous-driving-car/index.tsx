@@ -390,7 +390,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                    {state === 'de' && <>
             <p>
               The following{' '}
-              <a href="https://www.hackster.io/">
+              <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
                 <u>hackster.io </u>
               </a>
               Articles explain how to build it:
@@ -399,7 +399,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   {state === 'de' && <>
                  <p>
               Die folgenden{' '}
-              <a href="https://www.hackster.io/">
+              <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
                 <u>hackster.io </u>
               </a>
               In den Artikeln wird erklärt, wie man sie baut:
@@ -551,13 +551,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   />
 
                   <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomes Fahren Auto V2</h6>
+                    <h6 className="text-success">Autonomes fahrendes Auto V2</h6>
 
                     <a
                       href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545"
                       target="blank"
                     >
-                      <u>Mehr erfahren</u>
+                      <u>Mehr dazu</u>
                     </a>
                   </div>
                 </div>
@@ -624,7 +624,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   />
 
                   <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonom Fahrendes Fahrzeug V3</h6>
+                    <h6 className="text-success">Autonom fahrendes Auto V3</h6>
 
                     <a
                       href="https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea"
@@ -790,9 +790,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   growing importance of autonomous systems in the automotive
                   industry. The vehicle on display in the THWS building inspired
                   us. The history of the Schaeffler FAG Model MF3 vehicle, which
-                  is exhibited in the first corridor of the THWS building, gave
+                  is exhibited in the first floor corridor of the THWS building, gave
                   us the idea of bringing tradition and innovation into a
-                  context. I was also inspired by my participation in the
+                  context. I also was inspired by my participation in the
                   Carenuity Home Challenge, in which I had already successfully
                   developed innovative sensors for smart homes.
                 </>
@@ -1307,13 +1307,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
                     <u>
-                      Projektdokumentation Autonomous Driving Car V3 Autonomous{' '}
+                      Projektdokumentation Autonomous Driving Car V3{' '}
                     </u>{' '}
                   </a>
                 </>
               )}
             </p>
           </div>
+          <br/><br/>
           <div>
              <h4>
               {state === 'en' && <>
@@ -1395,7 +1396,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
                           >
-                            <span className="small"> Install for free</span>
+                            <span className="small"> Install-for-Free</span>
                           </Link>
                         )}
 
@@ -1446,8 +1447,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <p>
                       Das Autonomous Driving Car von Infineon bietet eine
                       innovative Lösung für selbstfahrende Autos. Ausgestattet mit einer
-                      Kamera, einem Raspberry Pi und dem XMC1100 Boot Kit ausgestattet, ermöglicht es
-                      ermöglicht die Steuerung über Smartphone, Tablet oder Laptop.
+                      Kamera, einem Raspberry Pi und dem XMC1100 Boot Kit ausgestattet, ermöglicht
+                      die Steuerung über Smartphone, Tablet oder Laptop.
                       Die Integration in das Donkeycar-Projekt bietet praktische
                       Erfahrung mit künstlicher Intelligenz und neuronalen
                       Netzwerken.
@@ -1489,7 +1490,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             target="_blank"
                             className={'btn btn-sm btn-success rounded-pill'}
                           >
-                            <span className="small"> Kostenlos installieren</span>
+                            <span className="small">Install-for-Free</span>
                           </Link>
                         )}
 
@@ -1501,7 +1502,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             rel="noreferrer"
                           >
                             <span className="small">
-                              Kostenlos installieren{' '}
+                              Install-for-Free{' '}
                               {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                             </span>
                           </a>
