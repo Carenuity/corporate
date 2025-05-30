@@ -123,7 +123,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </>
               )}
             </p>
-
+          
           <h4 className="mn-4">
               {state === 'en' && (
                 <>
@@ -551,7 +551,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   />
 
                   <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomes fahrendes Auto V2</h6>
+                    <h6 className="text-success">Autonom fahrendes Auto V2</h6>
 
                     <a
                       href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545"
@@ -640,7 +640,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
           </div>
 
-          
+          <br/><br/>
 
           <div>
             <h4 className="mn-4">
