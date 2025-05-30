@@ -624,7 +624,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   />
 
                   <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomes Fahren Auto V3</h6>
+                    <h6 className="text-success">Autonom Fahrendes Fahrzeug V3</h6>
 
                     <a
                       href="https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea"
@@ -646,12 +646,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <h4 className="mn-4">
               {state === 'en' && (
                 <>
-                  Behind the scene - How a student ensured that you not fail
+                  Behind the scene - How a student ensured that you do not fail with your project
                 </>
               )}
               {state === 'de' && (
                 <>
-                  Hinter den Kulissen - Wie ein Student dafür sorgte, dass Sie nicht durchfallen
+                  Hinter den Kulissen - Wie ein Student dafür sorgte, dass Sie mit Ihrem Projekt nicht scheitern
                 </>
               )}
             </h4>
