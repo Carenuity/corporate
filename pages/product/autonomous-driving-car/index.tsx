@@ -1040,7 +1040,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               )}
               {state === 'de' && (
                 <>
-                  Kampagnen- oder Projektannahme durch die Zielgruppe und Erhalt
+                  Kampagnen- oder Projektwahrnehmung durch die Zielgruppe und Erhalt
                   wertvollen Feedbacks
                 </>
               )}
@@ -1136,7 +1136,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             <h5 className="mn-4">
               {state === 'en' && <>Project influence</>}
-              {state === 'de' && <>Projekteinfluss</>}
+              {state === 'de' && <>Auswirkungen des Projekts</>}
             </h5>
             <p className="mn-4">
               {state === 'en' && (
@@ -1218,7 +1218,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             <h5 className="mn-4">
               {state === 'en' && <>Conclusion</>}
-              {state === 'de' && <>Abschluss</>}
+              {state === 'de' && <>Schlussfolgerungen</>}
             </h5>
             <p className="mn-4">
               {state === 'en' && (
