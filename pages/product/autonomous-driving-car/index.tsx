@@ -110,19 +110,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </>
               )}
             </ul>
-            <p className="mn-4">
-              {state === 'en' && (
-                <>
-                 Ready to take your skills for a spin? Click below to explore the full project and start creating your own autonomous vehicle today!
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                 Sind Sie bereit, Ihre Fähigkeiten auf die Probe zu stellen? Klicken Sie unten, um das gesamte Projekt zu 
-                 erkunden und Ihr eigenes autonomes Fahrzeug noch heute zu entwerfen!
-                </>
-              )}
-            </p>
+            
           
           <h4 className="mn-4">
               {state === 'en' && (
@@ -655,7 +643,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </>
               )}
             </h4>
-            <h5 className="mn-4">
+            <p className="mn-4">
               {state === 'en' && (
                 <>
                   Development and documentation of an autonomous driving car V3
@@ -670,7 +658,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   Informatik, 6tes Semester)
                 </>
               )}
-            </h5>
+            </p>
 
             <h5 className="mn-4">
               {state === 'en' && <>The project and the main goal</>}

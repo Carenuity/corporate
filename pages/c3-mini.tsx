@@ -506,29 +506,7 @@ const Index = () => {
           {/* Hygrometer-1 */}
           <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
 
-          {/* IR Radiometer */}
-          <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
-
-          {/* Logo Display */}
-          <SolutionWidget solutionId="FC4a4O0YW3Q7dMKYBJJ7" />
-
-          {/* Luxmeter */}
-          <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
-
-          {/* Motion Beeper */}
-          <SolutionWidget solutionId="ce57xKxHhSJGVzb4P1Jk" />
-
-          {/* Thermometer */}
-          <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
-
-          {/* Motion Detector */}
-          <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
-
-          {/* Presence Detector */}
-          <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
-
-          {/* HP303B */}
-          <SolutionWidget solutionId="gmwQRjIo2V8nyZ2N9D8x" />
+          
         </div>
 
         <h2 className="mb-2 h3">
