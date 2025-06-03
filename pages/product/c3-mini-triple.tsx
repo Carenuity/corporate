@@ -35,9 +35,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           
-        <h4>Applications for the C3-mini with Sensor & Display (Triples, continued)</h4>
+        <h4 className='mb-4'>Applications for the C3-mini with Sensor & Display (Triples, continued)</h4>
           
-         <div>
+         <div className='mb-4'>
           {/* IR Radiometer */}
           <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
 
