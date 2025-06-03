@@ -33,7 +33,7 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className="mn-4">
+          <h4 className="mb-4">
             {state === 'en' && <>VOC Measurement Methods</>}
             {state === 'de' && <>VOC-Messmethoden</>}
           </h4>
@@ -56,10 +56,10 @@ const Page = () => {
             </>}
           </p>
 
-          <h6 className="mn-4">
+          <h5 className="mn-4">
             {state === 'en' && <>1. Photoionization Detector (PID)</>}
             {state === 'de' && <>1. Photoionisationsdetektor (PID)</>}
-          </h6>
+          </h5>
            <ul className="mn-4">
             {state === 'en' && <>
             <li><strong>How it works:</strong> Uses ultraviolet light to ionize VOC molecules in the air. </li> 
@@ -73,10 +73,10 @@ const Page = () => {
             </>}
           </ul>
 
-            <h6 className="mn-4">
+            <h5 className="mn-4">
             {state === 'en' && <>2. Flame Ionization Detector (FID)</>}
             {state === 'de' && <>2. Flammen-Ionisations-Detektor (FID)</>}
-          </h6>
+          </h5>
            <ul className="mn-4">
             {state === 'en' && <>
             <li><strong>How it works:</strong> Burns the VOCs in a hydrogen flame and measures the ions produced.</li> 
@@ -91,10 +91,10 @@ const Page = () => {
           </ul>
 
 
-                <h6 className="mn-4">
+                <h5 className="mn-4">
             {state === 'en' && <>3. Metal Oxide Sensors (MOS)</>}
             {state === 'de' && <>3. Metall-Oxid-Sensoren (MOS)</>}
-          </h6>
+          </h5>
            <ul className="mn-4">
             {state === 'en' && <>
             <li><strong>How it works:</strong> Uses a metal oxide layer that changes its electrical resistance when exposed to VOCs.</li> 
@@ -108,10 +108,10 @@ const Page = () => {
             </>}
           </ul>
 
-            <h6 className="mn-4">
+            <h5 className="mn-4">
             {state === 'en' && <>4. Photoacoustic Spectroscopy (PAS)</>}
             {state === 'de' && <>4. Photoakustische Spektroskopie (PAS)</>}
-          </h6>
+          </h5>
            <ul className="mn-4">
             {state === 'en' && <>
             <li><strong>How it works:</strong> Uses a modulated laser beam to excite VOC molecules and measures the resulting sound waves.</li> 
@@ -125,10 +125,10 @@ const Page = () => {
             </>}
           </ul>
 
-                <h6 className="mn-4">
+                <h5 className="mn-4">
             {state === 'en' && <>5. Gas Chromatography-Mass Spectrometry (GC-MS)</>}
             {state === 'de' && <>5. Gaschromatographie-Massenspektrometrie (GC-MS)</>}
-          </h6>
+          </h5>
            <ul className="mn-4">
             {state === 'en' && <>
             <li><strong>How it works:</strong> Separates VOCs using gas chromatography and identifies them 
