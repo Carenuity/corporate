@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import PageTitle from '../../../components/PageTitle';
 import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Translatable from '../../../components/Translatable';
+import ApplicationItem from '../../../components/ApplicationItem';
 
 const Page = () => {
   const pageTitle = 'Volatile Organic Compounds';
@@ -177,7 +178,7 @@ const Page = () => {
             Anwendungen sind mit einem Klick auf die Install-for-Free-Schaltflächen verfügbar.
             </>}
           </p>
-           <ul className="mn-4">
+           {/* <ul className="mn-4">
             {state === 'en' && <>
             <li>Barometer</li>
             <li>Hygrometer</li>
@@ -196,7 +197,111 @@ const Page = () => {
             <li>IR Radiometer</li>
             <li>Präsenztaste</li>
             </>}
-          </ul>
+          </ul> */}
+
+
+              
+
+                {state === 'en' && <>
+            <div className="row mb-1-9">
+                  <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+                    <ApplicationItem
+                      name={'Barometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/nJMltlS83P6vqQjANMdU'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Hygrometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/Pz79ekXXeqNppvIgHK5r'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Thermometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/wzxLAKXdeVgruPEZP7lN'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Motion Detector'}
+                      url={
+                        'https://solutions.carenuity.com/applications/MGMRQwSXjjvSZzOu3Xj8'
+                      }
+                    />
+                  </div>
+                  <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
+                    <ApplicationItem
+                      name={'Luxmeter'}
+                      url={
+                        'https://solutions.carenuity.com/applications/YyvgrAa1UcVrRYcysN74'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'IR Radiometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/X4Uz3c2SknHIQjiektgV'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Presence Button'}
+                      url={
+                        'https://solutions.carenuity.com/applications/VCe4FCtct0ovFUE9bnzM'
+                      }
+                    />
+                  </div>
+                </div>
+            </>}
+            {state === 'de' && <>
+           <div className="row mb-1-9">
+                  <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+                    <ApplicationItem
+                      name={'Barometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/nJMltlS83P6vqQjANMdU'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Hygrometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/Pz79ekXXeqNppvIgHK5r'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Thermometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/wzxLAKXdeVgruPEZP7lN'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Bewegungsdetektor'}
+                      url={
+                        'https://solutions.carenuity.com/applications/MGMRQwSXjjvSZzOu3Xj8'
+                      }
+                    />
+                  </div>
+                  <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
+                    <ApplicationItem
+                      name={'Luxmeter'}
+                      url={
+                        'https://solutions.carenuity.com/applications/YyvgrAa1UcVrRYcysN74'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'IR Radiometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/X4Uz3c2SknHIQjiektgV'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Präsenztaste'}
+                      url={
+                        'https://solutions.carenuity.com/applications/VCe4FCtct0ovFUE9bnzM'
+                      }
+                    />
+                  </div>
+                </div>
+            </>}
 
                  <p className="mn-4">
             {state === 'en' && <>

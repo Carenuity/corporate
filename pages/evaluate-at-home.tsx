@@ -322,7 +322,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
-                  height: '400px',
+                  // height: '400px',
                 }}
               />
             </div>
@@ -357,11 +357,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     className="e-card"
                     style={{
                       boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                      height: '240px',
+                      maxHeight: '1040px',
                     }}
                   >
                     <div style={{ padding: '10px' }}>
                       <div className="row">
+                        <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src="/img/content/evaluate/triple-adapter.png"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              height: '190px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                            }}
+                          />
+                        </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
                             Evaluation Kit S &quot;Triple-Adapter&quot;
@@ -439,10 +454,25 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                        <div className="col-md-4 mb-4">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 mb-4">
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      maxHeight: '1040px',
+                    }}
+                  >
+                    <div style={{ padding: '10px' }}>
+                      <div className="row">
+                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/triple-adapter.png"
+                            src="/img/content/evaluate/sensor-selection-box.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
@@ -454,20 +484,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             }}
                           />
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 mb-4">
-                  <div
-                    className="e-card"
-                    style={{
-                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                      height: '240px',
-                    }}
-                  >
-                    <div style={{ padding: '10px' }}>
-                      <div className="row">
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
                             Evaluation Kit S with Sensor Selection Box
@@ -475,7 +491,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           <p>
                             Suited for D1- and C3-Mini Boards, including seven
                             sensors, a display and a buzzer.
-                            <br /> Compatible with 0.66 inch & 0.96inch Displays
+                            Compatible with 0.66 inch & 0.96inch Displays
                           </p>
                           <div className="row">
                             <p className="col-md-4 mb-4">
@@ -550,21 +566,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                        <div className="col-md-4 mb-4">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
-                            src="/img/content/evaluate/sensor-selection-box.png"
-                            className="wow fadeInUp"
-                            data-wow-delay="100ms"
-                            alt="..."
-                            style={{
-                              visibility: 'visible',
-                              height: '190px',
-                              animationDelay: '100ms',
-                              animationName: 'fadeIn',
-                            }}
-                          />
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
@@ -574,11 +576,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     className="e-card"
                     style={{
                       boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                      height: '240px',
+                       maxHeight: '1040px',
                     }}
                   >
                     <div style={{ padding: '10px' }}>
                       <div className="row">
+                         <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          {/* <img
+                    src="/img/content/evaluate/triple-adapter.png"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                     height: '190px',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  /> */}
+                        </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
                             Evaluation Kit L for Standard Displays
@@ -653,21 +670,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                        <div className="col-md-4 mb-4">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          {/* <img
-                    src="/img/content/evaluate/triple-adapter.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                     height: '190px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  /> */}
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
@@ -677,11 +680,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     className="e-card"
                     style={{
                       boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                      height: '240px',
+                       maxHeight: '1040px',
                     }}
                   >
                     <div style={{ padding: '10px' }}>
                       <div className="row">
+                         <div className="col-md-4 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src="/img/content/evaluate/xl-triple-adaptor.png"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              height: '190px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                            }}
+                          />
+                        </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
                             Evaluation Kit XL for Large Displays
@@ -763,21 +781,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                        <div className="col-md-4 mb-4">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
-                            src="/img/content/evaluate/xl-triple-adaptor.png"
-                            className="wow fadeInUp"
-                            data-wow-delay="100ms"
-                            alt="..."
-                            style={{
-                              visibility: 'visible',
-                              height: '190px',
-                              animationDelay: '100ms',
-                              animationName: 'fadeIn',
-                            }}
-                          />
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
