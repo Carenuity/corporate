@@ -530,7 +530,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             <p className="col-md-6 mb-4">
                               {!isMobile && (
                                 <Link
-                                  href={''}
+                                  href={'https://carenuity.com/c3-mini-box-devices/'}
                                   target="_blank"
                                   className={
                                     'btn btn-sm btn-success rounded-pill'
