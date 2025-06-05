@@ -557,7 +557,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                   <span className="small">
                                     Install for free
                                     {
-                                      'https://carenuity.com/c3-mini-box-devices/ '
+                                      
                                     }
                                     {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                   </span>
