@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'AI-assisted devices at your fingertip';
+  const pageTitle = 'AI-Assisted Devices at your Fingertip';
   return (
     <>
       <Head>
