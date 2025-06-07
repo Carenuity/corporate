@@ -322,7 +322,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         The unveiling of the Schaeffler FAG Model MF3 took place
                         at an evening event at the foyer of Schaeffler. This
                         event was graced by notable figures such as Dr. Grunau,
-                        a former representative of the management board of FAG
+                        the former representative of the management board of FAG
                         Schaeffler Group Industry, and Dipl.-Ing. Seubert, the
                         former chairman of the Unterfranken district association
                         of the Verein Deutscher Ingenieure (VDI).
