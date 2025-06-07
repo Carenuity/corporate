@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'AI-Assisted Devices at your fingertip';
+  const pageTitle = 'AI-assisted devices at your fingertip';
   return (
     <>
       <Head>
@@ -15,7 +15,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         />
         <meta
           name="description"
-          content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
+          content={`We're delivering peace-in-mind by vital and environmental sensing and care that you see what no else will see.`}
         />
         <title>{pageTitle}</title>
       </Head>
@@ -62,7 +62,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <h4>Our featured Sensors</h4>
               <ul>
                 <li>
-                  <h5>Radar Sensor</h5>{' '}
+                  <h5>C3-Mini Radar Sensor</h5>{' '}
                 </li>
               </ul>
               <p>
