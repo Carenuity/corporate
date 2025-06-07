@@ -59,7 +59,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p>
 
             <div>
-              <h4>Our featured Sensors</h4>
+              <h4>Our featured AI-assisted devices that you can build</h4>
+              <br>
               <ul>
                 <li>
                   <h5>C3-Mini Radar Sensor</h5>{' '}
