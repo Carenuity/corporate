@@ -204,10 +204,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               width="100%"
               height="600px"
             ></iframe>
+            <br> 
             <div>
               <ul>
                 <li>
-                  <h5> ESP32-Cam</h5>
+                  <h5> C3-Mini Adapter with ESP32-Cam</h5>
                 </li>
               </ul>
               <p>
