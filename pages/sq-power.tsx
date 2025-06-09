@@ -330,7 +330,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           {state === 'en' && (
             <>
               <h4>Shop with us</h4>
-              <div className="row">
+              <div className="row mb-10">
                 <div className="col-md-4 mb-4">
                   <div
                     className="e-card"
@@ -363,7 +363,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         SQ-Panel when...
                       </p>
                       <div className="row">
-                        <p className="col-md-3 mb-4">
+                        <p className="col-md-6 mb-4">
                           {!isMobile && (
                             <Link
                               href={
@@ -402,7 +402,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
           {state === 'de' && (
             <>
-              <div>
+              <div className='mb-10'>
                 <h4>Kaufen Sie bei uns ein</h4>
                 <div className="row">
                   <div className="col-md-4 mb-4">
@@ -439,7 +439,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           V...{' '}
                         </p>
                         <div className="row">
-                          <p className="col-md-4 mb-4">
+                          <p className="col-md-6 mb-4">
                             {!isMobile && (
                               <Link
                                 href={
@@ -480,6 +480,97 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </>
           )}
+
+          <div className="row">
+                 <div className="col-md-12 mb-4">
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      height: '300px',
+                    }}
+                  >
+                    <div className="row">
+                    <div className="col-md-3 mb-4">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/sq-power/sq-power-front.png"
+                      className="wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                         height: '300px',
+                        animationDelay: '100ms',
+                        animationName: 'fadeIn',
+                      }}
+                    /></div>
+                    <div className="col-md-9 mb-4">
+                    <div style={{ padding: '10px' }}>
+                      <h5 className="text-success">
+                        Carenuity SQ-Power - In-Wall Power Module for SQ-Panel
+                      </h5>
+                      <p>
+                        The Carenuity SQ-Power module is designed for the safe and permanently installed power 
+                        supply of the Carenuity SQ-Panel when wall-mounted. It connects directly to the 230 V AC 
+                        mains (L and N) and is installed into a standard flush-mounted or cavity wall box 
+                        (e.g. Ø 68 mm according to DIN 49073) – just like a light switch or power outlet.
+
+                          It is ideal for all permanent installations, where a clean, integrated power solution and a professional appearance 
+                          are required – for example in care facilities, hospitals, modern offices or smart home environments.
+                      </p>
+                      <div className='row'>
+                        <div className="col-md-4 mb-4">
+                          <p style={{color:"#808080"}}>Product no.: 2503134-1<strong style={{color:"#198754"}}>(In stock)</strong><br/>
+                          incl. VAT, <a href='https://www.chipglobe.shop/en/l/shipping'><u>plus delivery</u></a></p>
+                        </div>
+                        <div className="col-md-4 mb-4" style={{ textAlign:"center" }}>
+                           <h3>53.49 €</h3>
+                        </div>
+                        <div className="col-md-4 mb-4" >
+                           <p className="col-md-4 mb-4" >
+                          {!isMobile && (
+                            <Link
+                              href={""
+                               
+                              }
+                              target="_blank"
+                              className={'btn  btn-success rounded-pill '}
+                            >
+                              <span className="small"> Buy Now</span>
+                            </Link>
+                          )}
+
+                          {isMobile && (
+                            <a
+                              href={
+                                ''
+                              }
+                              target="_blank"
+                              className={'btn btn-sm btn-success rounded-pill  width:"190px"'}
+                              rel="noreferrer"
+                            >
+                              <span className="small">
+                                Buy Now{' '}
+                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                              </span>
+                            </a>
+                          )}
+                        </p> 
+                      
+                        </div>
+                      </div>
+
+                      
+                     
+                      
+                      
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </section>
     </>
