@@ -189,9 +189,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   {state === 'de' && <>
                   Die Enthüllung des Schaeffler FAG Modells MF3 fand im Rahmen einer
                   Abendveranstaltung im Foyer von Schaeffler statt. Diese Veranstaltung wurde
-                  Dr. Grunau, ein ehemaliger Vertreter der Geschäftsführung der
-                  Vertreter der Geschäftsführung der FAG Schaeffler Gruppe
-                  Industrie, und Dipl.-Ing. Seubert, der ehemalige Vorsitzende des
+                  Dr. Grunau, der ehemaliger Repräsentant der Geschäftsführung der FAG Schaeffler Gruppe;
+                  und Dipl.-Ing. Seubert, der ehemalige Vorsitzende des
                   Bezirksvereins Unterfranken des Vereins Deutscher
                   Ingenieure (VDI). Mit ihrer Anwesenheit unterstrichen sie die Bedeutung von
                   Innovation und Zusammenarbeit in der Ingenieurgemeinschaft.

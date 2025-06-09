@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'AI-Assisted Devices at your fingertip';
+  const pageTitle = 'AI-Assisted Devices at your Fingertip';
   return (
     <>
       <Head>
@@ -15,7 +15,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         />
         <meta
           name="description"
-          content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
+          content={`We're delivering peace-in-mind by vital and environmental sensing and care that you see what no else will see.`}
         />
         <title>{pageTitle}</title>
       </Head>
@@ -59,10 +59,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </p>
 
             <div>
-              <h4>Our featured Sensors</h4>
+              <h4>Our featured AI-assisted devices that you can build</h4>
+              <br>
               <ul>
                 <li>
-                  <h5>Radar Sensor</h5>{' '}
+                  <h5>C3-Mini Radar Sensor</h5>{' '}
                 </li>
               </ul>
               <p>
@@ -203,10 +204,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               width="100%"
               height="600px"
             ></iframe>
+            <br> 
             <div>
               <ul>
                 <li>
-                  <h5> ESP32-Cam</h5>
+                  <h5> C3-Mini Adapter with ESP32-Cam</h5>
                 </li>
               </ul>
               <p>
@@ -320,7 +322,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         The unveiling of the Schaeffler FAG Model MF3 took place
                         at an evening event at the foyer of Schaeffler. This
                         event was graced by notable figures such as Dr. Grunau,
-                        a former representative of the management board of FAG
+                        the former representative of the management board of FAG
                         Schaeffler Group Industry, and Dipl.-Ing. Seubert, the
                         former chairman of the Unterfranken district association
                         of the Verein Deutscher Ingenieure (VDI).
