@@ -225,14 +225,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                 {!isMobile && (
                   <Link
                     href={'/environments'}
-                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                    className={'btn btn-lg btn-outline-success rounded-pill'}
                   >
                     <span className="small">Select Environment </span>
                   </Link>
@@ -241,14 +234,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                 {isMobile && (
                   <a
                     href={'/environments'}
-                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                    className={'btn btn-lg btn-outline-success rounded-pill'}
                   >
                     <span className="small">Select Microcontroller </span>
                   </a>

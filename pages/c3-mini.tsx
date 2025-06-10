@@ -505,8 +505,6 @@ const Index = () => {
 
           {/* Hygrometer-1 */}
           <SolutionWidget solutionId="KiKMCrAtAioE0f3vcQ3Q" />
-
-          
         </div>
 
         <h2 className="mb-2 h3">

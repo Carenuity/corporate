@@ -65,76 +65,78 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 />
               </div>
-                  <div className="col-lg-8  mb-5">
-                    <div className='row'>
-              <div className="col-lg-4 mt-n1-9 mb-4">
-                <div className=" mb-4">
-                  <h6>Basic Information</h6>
-                  <strong>Product series:</strong>
-                  <br />
-                  <strong>Type:</strong>
+              <div className="col-lg-8  mb-5">
+                <div className="row">
+                  <div className="col-lg-4 mt-n1-9 mb-4">
+                    <div className=" mb-4">
+                      <h6>Basic Information</h6>
+                      <strong>Product series:</strong>
+                      <br />
+                      <strong>Type:</strong>
 
-                  <br />
+                      <br />
 
-                  <strong>Voltage:</strong>
-                  <br />
-                  <strong>Max power:</strong>
-                  <br />
-                  <strong>Safety standard:</strong>
-                  <br />
-                  <strong>Installation category:</strong>
-                  <br />
-                  <strong>Certification:</strong>
-                </div>
-              </div>
+                      <strong>Voltage:</strong>
+                      <br />
+                      <strong>Max power:</strong>
+                      <br />
+                      <strong>Safety standard:</strong>
+                      <br />
+                      <strong>Installation category:</strong>
+                      <br />
+                      <strong>Certification:</strong>
+                    </div>
+                  </div>
 
-              <div className="col-lg-5 mt-n1-9 mb-4">
-                <div className=" mb-4">
-                  <br />
-                  Wall mounting power module
-                  <br />
-                  Flyback
-                  <br />
-                  85-265 VAC 50/60Hz
-                  <br />
-                  5W 1A
-                  <br />
-                  EN 60669-2-5
-                  <br />
-                  III
-                  <br />
-                  CE/ROHS/WEEE
-                  <br />
-                </div>
-              </div>
-              <div className="col-lg-4 mt-n1-9 mb-1">
-                <div >
-                  <h6>Working Environment</h6>
-                  <strong>Applicable place:</strong>
-                  <br />
-                  <strong>Working temperature:</strong>
-                  <br />
-                  <strong>Working humidity:</strong>
-                  <br />
-                  <strong>Certification:</strong>
-                  <br />
-                </div>
-              </div>
-              <div className="col-lg-4 mt-n1-9 mb-1">
-                <div className=" mb-4">
-                  <br />
-                  Indoor
-                  <br />
-                  -40 ~ 80 °C
-                  <br />
-                  Up to 90 % RH
-                  <br />
-                  CE/ROHS/WEEE
-                  <br />
+                  <div className="col-lg-5 mt-n1-9 mb-4">
+                    <div className=" mb-4">
+                      <br />
+                      Wall mounting power module
+                      <br />
+                      Flyback
+                      <br />
+                      85-265 VAC 50/60Hz
+                      <br />
+                      5W 1A
+                      <br />
+                      EN 60669-2-5
+                      <br />
+                      III
+                      <br />
+                      CE/ROHS/WEEE
+                      <br />
+                    </div>
+                  </div>
+                  <div className="col-lg-4 mt-n1-9 mb-1">
+                    <div>
+                      <h6>Working Environment</h6>
+                      <strong>Applicable place:</strong>
+                      <br />
+                      <strong>Working temperature:</strong>
+                      <br />
+                      <strong>Working humidity:</strong>
+                      <br />
+                      <strong>Certification:</strong>
+                      <br />
+                    </div>
+                  </div>
+                  <div className="col-lg-4 mt-n1-9 mb-1">
+                    <div className=" mb-4">
+                      <br />
+                      Indoor
+                      <br />
+                      -40 ~ 80 °C
+                      <br />
+                      Up to 90 % RH
+                      <br />
+                      CE/ROHS/WEEE
+                      <br />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div></div></div>
+          </div>
 
           <div
             className="e-card mb-6"
@@ -152,64 +154,59 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </h5>
               </div>
               <div className="col-lg-8  mb-5">
-                    <div className='row'>
-              <div className="col-lg-5 mt-n1-9 mb-4">
-                <div className=" mb-5">
-                  <h6>Appearance</h6>
+                <div className="row">
+                  <div className="col-lg-5 mt-n1-9 mb-4">
+                    <div className=" mb-5">
+                      <h6>Appearance</h6>
 
-                  <strong>Weight:</strong>
-                  <br />
-                  <strong>Casing materials:</strong>
-                  <br />
-                </div>
+                      <strong>Weight:</strong>
+                      <br />
+                      <strong>Casing materials:</strong>
+                      <br />
+                    </div>
 
-                <div>
-                  
-                </div>
-              </div>
+                    <div></div>
+                  </div>
 
-              <div className="col-lg-5 mt-n1-9 mb-4">
-                <div className=" mb-5">
-                  <br />
-                  49g
-                  <br />
-                  PCLEXAN121R
-                  <br />
-                </div></div>
+                  <div className="col-lg-5 mt-n1-9 mb-4">
+                    <div className=" mb-5">
+                      <br />
+                      49g
+                      <br />
+                      PCLEXAN121R
+                      <br />
+                    </div>
+                  </div>
 
-              <div className="col-lg-5 mt-n1-9 mb-1">
-                <div className=" mb-5">
-                 
-                  <h6>Installation</h6>
+                  <div className="col-lg-5 mt-n1-9 mb-1">
+                    <div className=" mb-5">
+                      <h6>Installation</h6>
 
-                  <strong>Installation method:</strong>
-                  <br />
-                  <strong>Installation type:</strong>
-                  <br />
-                  <strong>Wiring way:</strong>
-                  <br />
-                  <strong>Wire diameter:</strong>
-                  <br />
-                </div>
-              </div>
+                      <strong>Installation method:</strong>
+                      <br />
+                      <strong>Installation type:</strong>
+                      <br />
+                      <strong>Wiring way:</strong>
+                      <br />
+                      <strong>Wire diameter:</strong>
+                      <br />
+                    </div>
+                  </div>
 
-              
-                
-              
-              <div className="col-lg-5 mt-n1-9 mb-1">
-                
-                <div>
-                  <br />
-                  Flush mounting box
-                  <br />
-                  Screws installation
-                  <br />
-                  N and L<br />
-                  0.75 - 2.5 mm2
-                  <br />
+                  <div className="col-lg-5 mt-n1-9 mb-1">
+                    <div>
+                      <br />
+                      Flush mounting box
+                      <br />
+                      Screws installation
+                      <br />
+                      N and L<br />
+                      0.75 - 2.5 mm2
+                      <br />
+                    </div>
+                  </div>
                 </div>
               </div>
-              </div></div>
 
               <div className="col-lg-4 mt-n1-9 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -402,7 +399,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
           {state === 'de' && (
             <>
-              <div className='mb-10'>
+              <div className="mb-10">
                 <h4>Kaufen Sie bei uns ein</h4>
                 <div className="row">
                   <div className="col-md-4 mb-4">
@@ -482,16 +479,16 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           )}
 
           <div className="row">
-                 <div className="col-md-12 mb-4">
-                  <div
-                    className="e-card"
-                    style={{
-                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                      height: '300px',
-                    }}
-                  >
-                    <div className="row">
-                    <div className="col-md-3 mb-4">
+            <div className="col-md-12 mb-4">
+              <div
+                className="e-card"
+                style={{
+                  boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                  height: '300px',
+                }}
+              >
+                <div className="row">
+                  <div className="col-md-3 mb-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src="/img/content/sq-power/sq-power-front.png"
@@ -500,77 +497,86 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       alt="..."
                       style={{
                         visibility: 'visible',
-                         height: '300px',
+                        height: '300px',
                         animationDelay: '100ms',
                         animationName: 'fadeIn',
                       }}
-                    /></div>
-                    <div className="col-md-9 mb-4">
+                    />
+                  </div>
+                  <div className="col-md-9 mb-4">
                     <div style={{ padding: '10px' }}>
                       <h5 className="text-success">
                         Carenuity SQ-Power - In-Wall Power Module for SQ-Panel
                       </h5>
                       <p>
-                        The Carenuity SQ-Power module is designed for the safe and permanently installed power 
-                        supply of the Carenuity SQ-Panel when wall-mounted. It connects directly to the 230 V AC 
-                        mains (L and N) and is installed into a standard flush-mounted or cavity wall box 
-                        (e.g. Ø 68 mm according to DIN 49073) – just like a light switch or power outlet.
-
-                          It is ideal for all permanent installations, where a clean, integrated power solution and a professional appearance 
-                          are required – for example in care facilities, hospitals, modern offices or smart home environments.
+                        The Carenuity SQ-Power module is designed for the safe
+                        and permanently installed power supply of the Carenuity
+                        SQ-Panel when wall-mounted. It connects directly to the
+                        230 V AC mains (L and N) and is installed into a
+                        standard flush-mounted or cavity wall box (e.g. Ø 68 mm
+                        according to DIN 49073) – just like a light switch or
+                        power outlet. It is ideal for all permanent
+                        installations, where a clean, integrated power solution
+                        and a professional appearance are required – for example
+                        in care facilities, hospitals, modern offices or smart
+                        home environments.
                       </p>
-                      <div className='row'>
+                      <div className="row">
                         <div className="col-md-4 mb-4">
-                          <p style={{color:"#808080"}}>Product no.: 2503134-1<strong style={{color:"#198754"}}>(In stock)</strong><br/>
-                          incl. VAT, <a href='https://www.chipglobe.shop/en/l/shipping'><u>plus delivery</u></a></p>
-                        </div>
-                        <div className="col-md-4 mb-4" style={{ textAlign:"center" }}>
-                           <h3>53.49 €</h3>
-                        </div>
-                        <div className="col-md-4 mb-4" >
-                           <p className="col-md-4 mb-4" >
-                          {!isMobile && (
-                            <Link
-                              href={""
-                               
-                              }
-                              target="_blank"
-                              className={'btn  btn-success rounded-pill '}
-                            >
-                              <span className="small"> Buy Now</span>
-                            </Link>
-                          )}
-
-                          {isMobile && (
-                            <a
-                              href={
-                                ''
-                              }
-                              target="_blank"
-                              className={'btn btn-sm btn-success rounded-pill  width:"190px"'}
-                              rel="noreferrer"
-                            >
-                              <span className="small">
-                                Buy Now{' '}
-                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                              </span>
+                          <p style={{ color: '#808080' }}>
+                            Product no.: 2503134-1
+                            <strong style={{ color: '#198754' }}>
+                              (In stock)
+                            </strong>
+                            <br />
+                            incl. VAT,{' '}
+                            <a href="https://www.chipglobe.shop/en/l/shipping">
+                              <u>plus delivery</u>
                             </a>
-                          )}
-                        </p> 
-                      
+                          </p>
                         </div>
-                      </div>
+                        <div
+                          className="col-md-4 mb-4"
+                          style={{ textAlign: 'center' }}
+                        >
+                          <h3>53.49 €</h3>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <p className="col-md-4 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={''}
+                                target="_blank"
+                                className={'btn  btn-success rounded-pill '}
+                              >
+                                <span className="small"> Buy Now</span>
+                              </Link>
+                            )}
 
-                      
-                     
-                      
-                      
-                      </div>
+                            {isMobile && (
+                              <a
+                                href={''}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill  width:"190px"'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Buy Now{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

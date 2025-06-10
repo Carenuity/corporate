@@ -1,7 +1,4 @@
 import React from 'react';
-// import { InstallButton } from 'esp-web-tools';
-// import { InstallButton } from 'esp-web-tools';
-// import 'esp-web-tools/dist/web/install-button';
 
 declare global {
   // eslint-disable-next-line no-unused-vars

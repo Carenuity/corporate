@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import PageTitle from '../../components/PageTitle';
-// import styles from './level1.module.css';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Free offer';

@@ -1,14 +1,10 @@
 import React from 'react';
-
 import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
-import SubscriptionWidget from '../../components/SubscriptionWidget';
 import SolutionWidget from '../../components/SolutionWidget';
 import Link from 'next/link';
-import { AlignCenter } from 'lucide-react';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-
   const pageTitle = 'C3-Mini-Triple';
   return (
     <>
@@ -34,70 +30,69 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          
-        <h4 className='mb-4'>Applications for the C3-mini with Sensor & Display (Triples, continued)</h4>
-          
-         <div className='mb-4'>
-          {/* IR Radiometer */}
-          <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
+          <h4 className="mb-4">
+            Applications for the C3-mini with Sensor & Display (Triples,
+            continued)
+          </h4>
 
-          {/* Logo Display */}
-          <SolutionWidget solutionId="FC4a4O0YW3Q7dMKYBJJ7" />
+          <div className="mb-4">
+            {/* IR Radiometer */}
+            <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
 
-          {/* Luxmeter */}
-          <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
+            {/* Logo Display */}
+            <SolutionWidget solutionId="FC4a4O0YW3Q7dMKYBJJ7" />
 
-          {/* Motion Beeper */}
-          <SolutionWidget solutionId="ce57xKxHhSJGVzb4P1Jk" />
+            {/* Luxmeter */}
+            <SolutionWidget solutionId="74eP4Syrjw85D0UWmqqi" />
 
-          {/* Thermometer */}
-          <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
+            {/* Motion Beeper */}
+            <SolutionWidget solutionId="ce57xKxHhSJGVzb4P1Jk" />
 
-          {/* Motion Detector */}
-          <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
+            {/* Thermometer */}
+            <SolutionWidget solutionId="T8iq4WKgvGuCrREcLNzC" />
 
-          {/* Presence Detector */}
-          <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
+            {/* Motion Detector */}
+            <SolutionWidget solutionId="UvGo54vaf9rNgSVCuuDp" />
 
-          {/* HP303B */}
-          <SolutionWidget solutionId="gmwQRjIo2V8nyZ2N9D8x" />
-          </div> 
-          
-        
-        <p className='mb-4'>Find more cool applications, which you all can install just by One-Click on the Install-for-Free button.</p>
-        <div style={{textAlign: 'center'} }>
-          <p >
-                        {!isMobile && (
-                          <Link
-                            href={
-                              '../../install-for-free'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Install for free</span>
-                          </Link>
-                        )}
+            {/* Presence Detector */}
+            <SolutionWidget solutionId="yvn3zXHy5FO0549khDk9" />
 
-                        {isMobile && (
-                          <a
-                            href={
-                              '../../install-for-free'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                             Install for free{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
+            {/* HP303B */}
+            <SolutionWidget solutionId="gmwQRjIo2V8nyZ2N9D8x" />
+          </div>
+
+          <p className="mb-4">
+            Find more cool applications, which you all can install just by
+            One-Click on the Install-for-Free button.
+          </p>
+          <div style={{ textAlign: 'center' }}>
+            <p>
+              {!isMobile && (
+                <Link
+                  href={'../../install-for-free'}
+                  target="_blank"
+                  className={'btn btn-sm btn-success rounded-pill'}
+                >
+                  <span className="small"> Install for free</span>
+                </Link>
+              )}
+
+              {isMobile && (
+                <a
+                  href={'../../install-for-free'}
+                  target="_blank"
+                  className={'btn btn-sm btn-success rounded-pill'}
+                  rel="noreferrer"
+                >
+                  <span className="small">
+                    Install for free{' '}
+                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                  </span>
+                </a>
+              )}
+            </p>
+          </div>
         </div>
-         
-                      </div>
       </section>
     </>
   );

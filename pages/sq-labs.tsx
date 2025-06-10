@@ -4,9 +4,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
-  // const pageTitle = 'SQ-Labs';
-  // const Index = () => {
-  // const { state } = useContext(StoreContext);
   return (
     <>
       <Head>
