@@ -35,104 +35,112 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-        <h4 className="mn-4">
-              {state === 'en' && (
-                <>
-                Ever wondered how to build your own self-driving car?   
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                Haben Sie sich schonmal gefragt, wie Sie Ihr eigenes selbstfahrendes Auto bauen können?     
-                </>
-              )}
-            </h4>
-
-              <p className="mn-4">
-              {state === 'en' && (
-                <>
-                Picture this: a vehicle that drives itself, navigating the world with the power of <strong>AI and neural 
-                networks</strong> —and you can build it from scratch! Introducing <strong>Autonomous Driving Car V3</strong>, an intermediate-level
-                 project by Carenuity that brings the future of autonomous tech to your fingertips.  
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                 Stellen Sie sich vor: ein Fahrzeug, das sich selbst fährt und mit Hilfe von <strong>KI und neuronalen</strong> Netzen durch 
-                 die Welt navigiert - und Sie können es von Grund auf selbst bauen! Wir stellen Ihnen das <strong>Autonomous Driving 
-                 Car V3 vor,</strong> ein Projekt für Fortgeschrittene von Carenuity, das Ihnen die Zukunft der autonomen Technologie näher bringt.  
-                </>
-              )}
-            </p>
-
-              <p className="mn-4">
-              {state === 'en' && (
-                <>
-                Using a <strong>Raspberry Pi 4, custom 3D-printed parts,</strong> and <strong>vision-based navigation</strong>, this project is perfect for AI enthusiasts, 
-                hardware hackers, or anyone curious about the tech shaping tomorrow&apos;s roads. Plus, the C/C++ code is open-source and 
-                ready for you to download, tweak, and experiment with!   
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                 Mit einem <strong>Raspberry Pi 4, 3D-gedruckten Teilen</strong> und<strong>visionsbasierte Navigation</strong>  ist dieses Projekt perfekt für 
-                 KI-Enthusiasten, Hardware-Hacker und alle, die neugierig auf die Technologie sind, die die Straßen von morgen prägt. 
-                 Außerdem steht der C/C++-Code als Open-Source-Code zum Herunterladen, Verbessern und Experimentieren bereit!   
-                </>
-              )}
-            </p>
-
-              <h4 className="mn-4">
-              {state === 'en' && (
-                <>
-                Why dive in?  
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                Warum damit starten und eintauchen?  
-                </>
-              )}
-            </h4>
-            <ul className="mn-4">
-              {state === 'en' && (
-                <>
-                 <li>Discover how AI powers autonomy.  </li>
-                 <li>Get hands-on with 3D-printed designs you can customize. </li>
-                 <li>Join a community of innovators building the future.</li>
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                 <li>Entdecken Sie, wie KI autonomes Fahren ermöglicht. </li>
-                 <li>Machen Sie praktische Erfahrungen mit 3D-gedruckten Designs, die Sie selbst anpassen können.  </li>
-                 <li>Schließen Sie sich einer Community von Innovatoren an, die die Zukunft gestalten.</li>
-                </>
-              )}
-            </ul>
-            
-          
           <h4 className="mn-4">
-              {state === 'en' && (
-                <>
-                 The story behind the blueprint for your first own car
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                  Die Geschichte hinter dem Bauplan für Ihr erstes eigenes Auto
-                </>
-              )}
-            </h4>
+            {state === 'en' && (
+              <>Ever wondered how to build your own self-driving car?</>
+            )}
+            {state === 'de' && (
+              <>
+                Haben Sie sich schonmal gefragt, wie Sie Ihr eigenes
+                selbstfahrendes Auto bauen können?
+              </>
+            )}
+          </h4>
+
+          <p className="mn-4">
+            {state === 'en' && (
+              <>
+                Picture this: a vehicle that drives itself, navigating the world
+                with the power of <strong>AI and neural networks</strong> —and
+                you can build it from scratch! Introducing{' '}
+                <strong>Autonomous Driving Car V3</strong>, an
+                intermediate-level project by Carenuity that brings the future
+                of autonomous tech to your fingertips.
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                Stellen Sie sich vor: ein Fahrzeug, das sich selbst fährt und
+                mit Hilfe von <strong>KI und neuronalen</strong> Netzen durch
+                die Welt navigiert - und Sie können es von Grund auf selbst
+                bauen! Wir stellen Ihnen das{' '}
+                <strong>Autonomous Driving Car V3 vor,</strong> ein Projekt für
+                Fortgeschrittene von Carenuity, das Ihnen die Zukunft der
+                autonomen Technologie näher bringt.
+              </>
+            )}
+          </p>
+
+          <p className="mn-4">
+            {state === 'en' && (
+              <>
+                Using a{' '}
+                <strong>Raspberry Pi 4, custom 3D-printed parts,</strong> and{' '}
+                <strong>vision-based navigation</strong>, this project is
+                perfect for AI enthusiasts, hardware hackers, or anyone curious
+                about the tech shaping tomorrow&apos;s roads. Plus, the C/C++
+                code is open-source and ready for you to download, tweak, and
+                experiment with!
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                Mit einem <strong>Raspberry Pi 4, 3D-gedruckten Teilen</strong>{' '}
+                und<strong>visionsbasierte Navigation</strong> ist dieses
+                Projekt perfekt für KI-Enthusiasten, Hardware-Hacker und alle,
+                die neugierig auf die Technologie sind, die die Straßen von
+                morgen prägt. Außerdem steht der C/C++-Code als Open-Source-Code
+                zum Herunterladen, Verbessern und Experimentieren bereit!
+              </>
+            )}
+          </p>
+
+          <h4 className="mn-4">
+            {state === 'en' && <>Why dive in?</>}
+            {state === 'de' && <>Warum damit starten und eintauchen?</>}
+          </h4>
+          <ul className="mn-4">
+            {state === 'en' && (
+              <>
+                <li>Discover how AI powers autonomy. </li>
+                <li>
+                  Get hands-on with 3D-printed designs you can customize.{' '}
+                </li>
+                <li>Join a community of innovators building the future.</li>
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                <li>Entdecken Sie, wie KI autonomes Fahren ermöglicht. </li>
+                <li>
+                  Machen Sie praktische Erfahrungen mit 3D-gedruckten Designs,
+                  die Sie selbst anpassen können.{' '}
+                </li>
+                <li>
+                  Schließen Sie sich einer Community von Innovatoren an, die die
+                  Zukunft gestalten.
+                </li>
+              </>
+            )}
+          </ul>
+
+          <h4 className="mn-4">
+            {state === 'en' && (
+              <>The story behind the blueprint for your first own car</>
+            )}
+            {state === 'de' && (
+              <>Die Geschichte hinter dem Bauplan für Ihr erstes eigenes Auto</>
+            )}
+          </h4>
           <h5 className="mn-4">
-            {state === 'en' && <>
-            Now Autonomously Driving: The Reincarnation of a Winner
-            </>}
-            {state === 'de' && <>
-            Jetzt autonom fahrend: Die Reinkarnation eines Gewinners
-            </>}
+            {state === 'en' && (
+              <>Now Autonomously Driving: The Reincarnation of a Winner</>
+            )}
+            {state === 'de' && (
+              <>Jetzt autonom fahrend: Die Reinkarnation eines Gewinners</>
+            )}
           </h5>
-          
+
           <div
             className="e-card mb-6"
             style={{
@@ -147,498 +155,576 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <div className="col-md-8 mb-4">
                 <p className="mn-4">
-                  {state === 'en' && <>
-                 In the world of automotive innovation, history often serves as
-                  a foundation for future advancements. The Autonomous Driving
-                  Infineon Car, built by ChipGlobe&apos;s Carenuity team, is a
-                  testament to this principle. This cutting-edge vehicle not
-                  only embodies the latest in autonomous driving technology but
-                  also pays homage to the legendary Schaeffler FAG Model MF3,
-                  presented in June 2009. The shark-like design of the MF3, a
-                  symbol of speed and precision, has been reincarnated in 2025
-                  in a 1:10 ratio model, showcasing the seamless blend of past
-                  and present engineering marvels.
-                  </>}
-                  {state === 'de' && <>
-                 In der Welt der Automobilinnovation dient die Geschichte oft als
-                  Grundlage für zukünftige Fortschritte. Das autonome Fahren
-                  Infineon Auto, gebaut von ChipGlobe&apos;s Carenuity Team, ist ein
-                  Beweis für dieses Prinzip. Dieses hochmoderne Fahrzeug
-                  Technologie des autonomen Fahrens, sondern auch eine
-                  sondern ist auch eine Hommage an das legendäre Schaeffler FAG-Modell MF3,
-                  das im Juni 2009 vorgestellt wurde. Das haifischartige Design des MF3, ein
-                  Symbol für Geschwindigkeit und Präzision, wurde 2025 in einem
-                  im Verhältnis 1:10 wiederbelebt und zeigt die nahtlose Verschmelzung von vergangenen
-                  Vergangenheit und Gegenwart.
-                  </>}
+                  {state === 'en' && (
+                    <>
+                      In the world of automotive innovation, history often
+                      serves as a foundation for future advancements. The
+                      Autonomous Driving Infineon Car, built by ChipGlobe&apos;s
+                      Carenuity team, is a testament to this principle. This
+                      cutting-edge vehicle not only embodies the latest in
+                      autonomous driving technology but also pays homage to the
+                      legendary Schaeffler FAG Model MF3, presented in June
+                      2009. The shark-like design of the MF3, a symbol of speed
+                      and precision, has been reincarnated in 2025 in a 1:10
+                      ratio model, showcasing the seamless blend of past and
+                      present engineering marvels.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      In der Welt der Automobilinnovation dient die Geschichte
+                      oft als Grundlage für zukünftige Fortschritte. Das
+                      autonome Fahren Infineon Auto, gebaut von ChipGlobe&apos;s
+                      Carenuity Team, ist ein Beweis für dieses Prinzip. Dieses
+                      hochmoderne Fahrzeug Technologie des autonomen Fahrens,
+                      sondern auch eine sondern ist auch eine Hommage an das
+                      legendäre Schaeffler FAG-Modell MF3, das im Juni 2009
+                      vorgestellt wurde. Das haifischartige Design des MF3, ein
+                      Symbol für Geschwindigkeit und Präzision, wurde 2025 in
+                      einem im Verhältnis 1:10 wiederbelebt und zeigt die
+                      nahtlose Verschmelzung von vergangenen Vergangenheit und
+                      Gegenwart.
+                    </>
+                  )}
                 </p>
-                 <p className="mn-4">
-                  {state === 'en' && <>
-                 The unveiling of the Schaeffler FAG Model MF3 took place at an
-                  evening event at the foyer of Schaeffler. This event was
-                  graced by notable figures such as Dr. Grunau, the former
-                  representative of the management board of FAG Schaeffler Group
-                  Industry, and Dipl.-Ing. Seubert, the former chairman of the
-                  Unterfranken district association of the Verein Deutscher
-                  Ingenieure (VDI). Their presence underscored the importance of
-                  innovation and collaboration in the engineering community.
-                  After several wins, the MF3 was finally parked on the first
-                  floor of the THWS University in Schweinfurt, where it
-                  continues to inspire students and engineers alike.
-                  </>}
-                  {state === 'de' && <>
-                  Die Enthüllung des Schaeffler FAG Modells MF3 fand im Rahmen einer
-                  Abendveranstaltung im Foyer von Schaeffler statt. Diese Veranstaltung wurde
-                  Dr. Grunau, der ehemaliger Repräsentant der Geschäftsführung der FAG Schaeffler Gruppe;
-                  und Dipl.-Ing. Seubert, der ehemalige Vorsitzende des
-                  Bezirksvereins Unterfranken des Vereins Deutscher
-                  Ingenieure (VDI). Mit ihrer Anwesenheit unterstrichen sie die Bedeutung von
-                  Innovation und Zusammenarbeit in der Ingenieurgemeinschaft.
-                  Nach mehreren Siegen wurde der MF3 schließlich in der ersten
-                  Stock der THWS Hochschule in Schweinfurt geparkt, wo er
-                  wo er weiterhin Studenten und Ingenieure gleichermaßen inspiriert.
-                  </>}
+                <p className="mn-4">
+                  {state === 'en' && (
+                    <>
+                      The unveiling of the Schaeffler FAG Model MF3 took place
+                      at an evening event at the foyer of Schaeffler. This event
+                      was graced by notable figures such as Dr. Grunau, the
+                      former representative of the management board of FAG
+                      Schaeffler Group Industry, and Dipl.-Ing. Seubert, the
+                      former chairman of the Unterfranken district association
+                      of the Verein Deutscher Ingenieure (VDI). Their presence
+                      underscored the importance of innovation and collaboration
+                      in the engineering community. After several wins, the MF3
+                      was finally parked on the first floor of the THWS
+                      University in Schweinfurt, where it continues to inspire
+                      students and engineers alike.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Die Enthüllung des Schaeffler FAG Modells MF3 fand im
+                      Rahmen einer Abendveranstaltung im Foyer von Schaeffler
+                      statt. Diese Veranstaltung wurde Dr. Grunau, der
+                      ehemaliger Repräsentant der Geschäftsführung der FAG
+                      Schaeffler Gruppe; und Dipl.-Ing. Seubert, der ehemalige
+                      Vorsitzende des Bezirksvereins Unterfranken des Vereins
+                      Deutscher Ingenieure (VDI). Mit ihrer Anwesenheit
+                      unterstrichen sie die Bedeutung von Innovation und
+                      Zusammenarbeit in der Ingenieurgemeinschaft. Nach mehreren
+                      Siegen wurde der MF3 schließlich in der ersten Stock der
+                      THWS Hochschule in Schweinfurt geparkt, wo er wo er
+                      weiterhin Studenten und Ingenieure gleichermaßen
+                      inspiriert.
+                    </>
+                  )}
                 </p>
-                
               </div>
             </div>
           </div>
 
           <div>
-             <p className="mb-4">
-                  {state === 'en' && <>
-                 Fast forward to today, the Autonomous Driving Infineon Car
-              represents a leap forward in automotive technology. Built by
-              Carenuity in 2025, this model leverages advanced AI competencies
-              to navigate home and office environments autonomously.
-              Carenuity&apos;s expertise in AI and sensor technology ensures
-              that the vehicle can make real-time decisions with precision and
-              reliability, enhancing safety and efficiency on its patrols.
-                  </>}
-                  {state === 'de' && <>
-                 Schnell zurück ins hier und jetzt: Das autonom fahrende Infineon Car
-              stellt einen großen Fortschritt in der Automotive Technologie dar. Gebaut von
-              Carenuity im Jahr 2025 gebaut, nutzt dieses Modell fortschrittliche KI-Algorithmen,
-              um selbstständig durch Haus und Hof oder durchs Büro zu navigieren.
-              Das Know-how von Carenuity in den Bereichen KI und Sensortechnik sorgt dafür, dass es
-              Echtzeit-Entscheidungen mit Präzision und Zuverlässigkeit treffen kann,
-              was die Sicherheit und Effizienz während seiner Patrouillen erhöht.
-                  </>}
-                </p>
-                <p className="mb-4">
-                  {state === 'en' && <>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  Fast forward to today, the Autonomous Driving Infineon Car
+                  represents a leap forward in automotive technology. Built by
+                  Carenuity in 2025, this model leverages advanced AI
+                  competencies to navigate home and office environments
+                  autonomously. Carenuity&apos;s expertise in AI and sensor
+                  technology ensures that the vehicle can make real-time
+                  decisions with precision and reliability, enhancing safety and
+                  efficiency on its patrols.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Schnell zurück ins hier und jetzt: Das autonom fahrende
+                  Infineon Car stellt einen großen Fortschritt in der Automotive
+                  Technologie dar. Gebaut von Carenuity im Jahr 2025 gebaut,
+                  nutzt dieses Modell fortschrittliche KI-Algorithmen, um
+                  selbstständig durch Haus und Hof oder durchs Büro zu
+                  navigieren. Das Know-how von Carenuity in den Bereichen KI und
+                  Sensortechnik sorgt dafür, dass es Echtzeit-Entscheidungen mit
+                  Präzision und Zuverlässigkeit treffen kann, was die Sicherheit
+                  und Effizienz während seiner Patrouillen erhöht.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
                   The concept of autonomous driving extends beyond mere
-              transportation; it transforms the vehicle into a versatile
-              platform for advanced sensors. These sensors can be utilized to
-              enhance the safety of smart homes and offices, potentially serving
-              as patrol units that monitor and secure large environments. By
-              integrating such advanced sensor technology, the Autonomous
-              Driving Infineon Car can contribute to creating safer living and
-              working spaces.
-                  </>}
-                  {state === 'de' && <>
+                  transportation; it transforms the vehicle into a versatile
+                  platform for advanced sensors. These sensors can be utilized
+                  to enhance the safety of smart homes and offices, potentially
+                  serving as patrol units that monitor and secure large
+                  environments. By integrating such advanced sensor technology,
+                  the Autonomous Driving Infineon Car can contribute to creating
+                  safer living and working spaces.
+                </>
+              )}
+              {state === 'de' && (
+                <>
                   Das Konzept des autonomen Fahrens geht über die reine
-              Transport; es verwandelt das Fahrzeug in eine vielseitige
-              Plattform für fortschrittliche Sensoren. Diese Sensoren können genutzt werden, um
-              die Sicherheit von intelligenten Häusern und Büros zu erhöhen und möglicherweise
-              als Patrouilleneinheiten, die große Umgebungen überwachen und sichern. Durch
-              fortschrittliche Sensortechnologie kann das autonom
-              fahrende Infineon Car dazu beitragen, dass Wohn- und Arbeitsräume sicherer
-              werden.
-                  </>}
-                </p>
-                <p className="mb-4">
-                  {state === 'en' && <>
-                 Moreover, Carenuity and Infineon are committed to transferring
-              their building knowledge to selected international universities.
-              This initiative aims to empower the next generation of engineers
-              and researchers by providing them with access to cutting-edge
-              technology and expertise. By fostering collaboration with academic
-              institutions, Carenuity and Infineon are paving the way for
-              continued innovation and excellence in autonomous driving and AI.
-                  </>}
-                  {state === 'de' && <>
-               Darüber hinaus engagieren sich Carenuity und Infineon für den Wissens-Transfer von
-              im Bauen des Autos an ausgewählte internationale Universitäten weiterzugeben.
-              Diese Initiative zielt darauf ab, die nächste Generation von Ingenieuren
-              und Forschern zu fördern, indem sie ihnen Zugang zu modernster
-              Technologie und Fachwissen ermöglicht. Durch die Förderung der Zusammenarbeit mit akademischen
-              Einrichtungen ebnen Carenuity und Infineon den Weg für
-              für weitere Innovationen und Spitzenleistungen in den Bereichen autonomes Fahren und KI.  
-                  </>}
-                </p>
-                <p className="mb-4">
-                  {state === 'en' && <>
-                 Notably, this latest autonomous driving car (V3) was built by Eren
-              Arslan Ramazan, a talented student from THWS University, who
-              previously won a competition for building smart real estate
-              sensors in the course of the Carenuity Home Challenge. The
-              Carenuity Home Challenge is an annual competition at the THWS,
-              hosted by Prof. Heinz Endres, that encourages students to develop
-              innovative smart home solutions. Participants are tasked with
-              designing and building sensors that can improve the safety,
-              efficiency, or convenience of home, office, and industrial
-              environments. Eren&apos;s winning project involved creating a
-              sophisticated barometer with a Bosch BMP180 / BME680 sensor, that
-              could be integrated into various smart home applications,
-              showcasing his ingenuity and technical skills.
-                  </>}
-                  {state === 'de' && <>
-                 Dieses neueste autonom fahrende Auto (V3) wurde von Eren
-              Arslan Ramazan, einem talentierten Studenten der THWS-Universität, der
-              einen Wettbewerb für den Bau intelligenter Immobiliensensoren
-              Sensoren im Rahmen der Carenuity Home Challenge gewonnen hat. Die
-              Carenuity Home Challenge ist ein jährlicher Wettbewerb an der THWS,
-              unter der Leitung von Prof. Heinz Endres, der Studenten dazu anregt, innovative
-              innovative Smart-Home-Lösungen zu entwickeln. Die Teilnehmer haben die Aufgabe
-              Sensoren zu entwerfen und zu bauen, die die Sicherheit,
-              die Sicherheit, die Effizienz oder den Komfort von Haus, Büro und Industrie
-              Umgebungen verbessern. Eren&apos;s Siegerprojekt umfasste die Entwicklung eines
-              hochentwickeltes Barometer mit einem Bosch BMP180 / BME680 Sensor, das
-              in verschiedene Smart-Home-Anwendungen integriert werden kann,
-              Dabei stellte er seinen Einfallsreichtum und seine technischen Fähigkeiten unter Beweis.
-                  </>}
-                </p>
-                <p className="mb-4">
-                  {state === 'en' && <>
-                The very first presentation of the Autonomous Driving Infineon Car
-              (V1) was given by Harald Lehmann at a Pizza & Beer event in the
-              canteen of Infineon headquarters in Neubiberg, Germany. The event
-              was a showcase of technological prowess, where the car&apos;s
-              capabilities were demonstrated in a controlled environment.
-              Attendees were able to witness firsthand the vehicle&apos;s
-              autonomous navigation and real-time decision-making processes.
-              This presentation highlighted the collaborative efforts of
-              Infineon in pushing the boundaries of what&apos;s possible in
-              autonomous driving technology. 
-                  </>}
-                  {state === 'de' && <>
-                 Die allererste Präsentation des Autonomous Driving Infineon Car
-              (V1) wurde von Harald Lehmann bei einer Pizza & Bier Veranstaltung in der
-              Kantine des Infineon-Hauptsitzes in Neubiberg, Deutschland. Die Veranstaltung
-              Veranstaltung war ein Schaufenster des technologischen Könnens, bei dem die Fähigkeiten des
-              Fähigkeiten in einer kontrollierten Umgebung demonstriert wurden.
-              Die Teilnehmer konnten sich aus erster Hand von der autonomen
-              autonomen Navigation und den Entscheidungsfindungsprozessen in Echtzeit überzeugen.
-              Diese Präsentation unterstrich die gemeinsamen Bemühungen von
-              Infineon, die die Grenzen des Möglichen in der Technologie des
-              Technologie des autonomen Fahrens.
-                  </>}
-                </p>
-                <p className="mb-4">
-                  {state === 'en' && <>
-                  Later, an improved version (V2) of the Autonomous Driving Infineon
-              Car was upgraded by Daniel Gernert, further demonstrating the
-              advancements and refinements made in the vehicle&apos;s autonomous
-              capabilities.
-                  </>}
-                  {state === 'de' && <>
-               Später wurde eine verbesserte Version (V2) des Autonomous Driving Infineon
-              Auto von Daniel Gernert aufgerüstet, was die
-              Fortschritte und Verfeinerungen des Fahrzeugs und seiner autonomen
-              Fähigkeiten.   
-                  </>}
-                </p>
-                <p className="mb-4">
-                  {state === 'en' && <>
-                 In conclusion, the Autonomous Driving Infineon Car is more than
-              just a vehicle; it&apos;s a symbol of innovation and a tribute to
-              the engineering excellence of the past with the AI powers of the
-              future. As we drive forward into the future, the legacy of the
-              Schaeffler FAG Model MF3 lives on, inspiring new generations of
-              engineers to push the boundaries of what&apos;s possible
-                  </>}
-                  {state === 'de' && <>
-                 Zusammenfassend lässt sich sagen, dass das autonom fahrende Infineon Car mehr ist als
-              mehr als nur ein Fahrzeug; es ist ein Symbol für Innovation und ein Tribut an die
-              der technischen Exzellenz der Vergangenheit mit den KI-Fähigkeiten der
-              Zukunft. Auf unserem Weg in die Zukunft werden wir das Erbe des
-              Schaeffler FAG Modell MF3 weiter und inspiriert neue Generationen von
-              Generationen von Ingenieuren dazu inspirieren, die Grenzen des Möglichen zu erweitern.
-                  </>}
-                </p>
-           
-            
-            
-           
+                  Transport; es verwandelt das Fahrzeug in eine vielseitige
+                  Plattform für fortschrittliche Sensoren. Diese Sensoren können
+                  genutzt werden, um die Sicherheit von intelligenten Häusern
+                  und Büros zu erhöhen und möglicherweise als
+                  Patrouilleneinheiten, die große Umgebungen überwachen und
+                  sichern. Durch fortschrittliche Sensortechnologie kann das
+                  autonom fahrende Infineon Car dazu beitragen, dass Wohn- und
+                  Arbeitsräume sicherer werden.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  Moreover, Carenuity and Infineon are committed to transferring
+                  their building knowledge to selected international
+                  universities. This initiative aims to empower the next
+                  generation of engineers and researchers by providing them with
+                  access to cutting-edge technology and expertise. By fostering
+                  collaboration with academic institutions, Carenuity and
+                  Infineon are paving the way for continued innovation and
+                  excellence in autonomous driving and AI.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Darüber hinaus engagieren sich Carenuity und Infineon für den
+                  Wissens-Transfer von im Bauen des Autos an ausgewählte
+                  internationale Universitäten weiterzugeben. Diese Initiative
+                  zielt darauf ab, die nächste Generation von Ingenieuren und
+                  Forschern zu fördern, indem sie ihnen Zugang zu modernster
+                  Technologie und Fachwissen ermöglicht. Durch die Förderung der
+                  Zusammenarbeit mit akademischen Einrichtungen ebnen Carenuity
+                  und Infineon den Weg für für weitere Innovationen und
+                  Spitzenleistungen in den Bereichen autonomes Fahren und KI.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  Notably, this latest autonomous driving car (V3) was built by
+                  Eren Arslan Ramazan, a talented student from THWS University,
+                  who previously won a competition for building smart real
+                  estate sensors in the course of the Carenuity Home Challenge.
+                  The Carenuity Home Challenge is an annual competition at the
+                  THWS, hosted by Prof. Heinz Endres, that encourages students
+                  to develop innovative smart home solutions. Participants are
+                  tasked with designing and building sensors that can improve
+                  the safety, efficiency, or convenience of home, office, and
+                  industrial environments. Eren&apos;s winning project involved
+                  creating a sophisticated barometer with a Bosch BMP180 /
+                  BME680 sensor, that could be integrated into various smart
+                  home applications, showcasing his ingenuity and technical
+                  skills.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Dieses neueste autonom fahrende Auto (V3) wurde von Eren
+                  Arslan Ramazan, einem talentierten Studenten der
+                  THWS-Universität, der einen Wettbewerb für den Bau
+                  intelligenter Immobiliensensoren Sensoren im Rahmen der
+                  Carenuity Home Challenge gewonnen hat. Die Carenuity Home
+                  Challenge ist ein jährlicher Wettbewerb an der THWS, unter der
+                  Leitung von Prof. Heinz Endres, der Studenten dazu anregt,
+                  innovative innovative Smart-Home-Lösungen zu entwickeln. Die
+                  Teilnehmer haben die Aufgabe Sensoren zu entwerfen und zu
+                  bauen, die die Sicherheit, die Sicherheit, die Effizienz oder
+                  den Komfort von Haus, Büro und Industrie Umgebungen
+                  verbessern. Eren&apos;s Siegerprojekt umfasste die Entwicklung
+                  eines hochentwickeltes Barometer mit einem Bosch BMP180 /
+                  BME680 Sensor, das in verschiedene Smart-Home-Anwendungen
+                  integriert werden kann, Dabei stellte er seinen
+                  Einfallsreichtum und seine technischen Fähigkeiten unter
+                  Beweis.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  The very first presentation of the Autonomous Driving Infineon
+                  Car (V1) was given by Harald Lehmann at a Pizza & Beer event
+                  in the canteen of Infineon headquarters in Neubiberg, Germany.
+                  The event was a showcase of technological prowess, where the
+                  car&apos;s capabilities were demonstrated in a controlled
+                  environment. Attendees were able to witness firsthand the
+                  vehicle&apos;s autonomous navigation and real-time
+                  decision-making processes. This presentation highlighted the
+                  collaborative efforts of Infineon in pushing the boundaries of
+                  what&apos;s possible in autonomous driving technology.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Die allererste Präsentation des Autonomous Driving Infineon
+                  Car (V1) wurde von Harald Lehmann bei einer Pizza & Bier
+                  Veranstaltung in der Kantine des Infineon-Hauptsitzes in
+                  Neubiberg, Deutschland. Die Veranstaltung Veranstaltung war
+                  ein Schaufenster des technologischen Könnens, bei dem die
+                  Fähigkeiten des Fähigkeiten in einer kontrollierten Umgebung
+                  demonstriert wurden. Die Teilnehmer konnten sich aus erster
+                  Hand von der autonomen autonomen Navigation und den
+                  Entscheidungsfindungsprozessen in Echtzeit überzeugen. Diese
+                  Präsentation unterstrich die gemeinsamen Bemühungen von
+                  Infineon, die die Grenzen des Möglichen in der Technologie des
+                  Technologie des autonomen Fahrens.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  Later, an improved version (V2) of the Autonomous Driving
+                  Infineon Car was upgraded by Daniel Gernert, further
+                  demonstrating the advancements and refinements made in the
+                  vehicle&apos;s autonomous capabilities.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Später wurde eine verbesserte Version (V2) des Autonomous
+                  Driving Infineon Auto von Daniel Gernert aufgerüstet, was die
+                  Fortschritte und Verfeinerungen des Fahrzeugs und seiner
+                  autonomen Fähigkeiten.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  In conclusion, the Autonomous Driving Infineon Car is more
+                  than just a vehicle; it&apos;s a symbol of innovation and a
+                  tribute to the engineering excellence of the past with the AI
+                  powers of the future. As we drive forward into the future, the
+                  legacy of the Schaeffler FAG Model MF3 lives on, inspiring new
+                  generations of engineers to push the boundaries of what&apos;s
+                  possible
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Zusammenfassend lässt sich sagen, dass das autonom fahrende
+                  Infineon Car mehr ist als mehr als nur ein Fahrzeug; es ist
+                  ein Symbol für Innovation und ein Tribut an die der
+                  technischen Exzellenz der Vergangenheit mit den KI-Fähigkeiten
+                  der Zukunft. Auf unserem Weg in die Zukunft werden wir das
+                  Erbe des Schaeffler FAG Modell MF3 weiter und inspiriert neue
+                  Generationen von Generationen von Ingenieuren dazu
+                  inspirieren, die Grenzen des Möglichen zu erweitern.
+                </>
+              )}
+            </p>
           </div>
 
-          
-                 
-                 
-                  
           <div>
-            <h4>{state === 'en' && <>
-                 Build your own Autonomous Driving Car now:
-                  </>}
-                  {state === 'de' && <>
-                 Bauen Sie jetzt Ihr eigenes autonom fahrendes Auto:
-                  </>}</h4>
-                   {state === 'de' && <>
-            <p>
-              The following{' '}
-              <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
-                <u>hackster.io </u>
-              </a>
-              Articles explain how to build it:
-            </p>
-                  </>}
-                  {state === 'de' && <>
-                 <p>
-              Die folgenden{' '}
-              <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
-                <u>hackster.io </u>
-              </a>
-              In den Artikeln wird erklärt, wie man sie baut:
-            </p>
-                  </>}
-            
+            <h4>
+              {state === 'en' && (
+                <>Build your own Autonomous Driving Car now:</>
+              )}
+              {state === 'de' && (
+                <>Bauen Sie jetzt Ihr eigenes autonom fahrendes Auto:</>
+              )}
+            </h4>
+            {state === 'de' && (
+              <>
+                <p>
+                  The following{' '}
+                  <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
+                    <u>hackster.io </u>
+                  </a>
+                  Articles explain how to build it:
+                </p>
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                <p>
+                  Die folgenden{' '}
+                  <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
+                    <u>hackster.io </u>
+                  </a>
+                  In den Artikeln wird erklärt, wie man sie baut:
+                </p>
+              </>
+            )}
+
             <div className="row">
-
-              {state === 'en' && <>
-                 <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '450px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/autonomous/autonomus1.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomous Driving Car</h6>
-
-                    <p>
-                      This RC car is equipped with a camera, a Raspberry Pi, an
-                      XMC1100 Boot Kit and the DC Motor Control Shield with
-                      BTN8982TA.
-                    </p>
-                    <a
-                      href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03"
-                      target="blank"
-                    >
-                      <u>Learn more</u>
-                    </a>
-                  </div>
-                </div>
-              </div>
-                  </>}
-                  {state === 'de' && <>
-                 <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '450px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/autonomous/autonomus1.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonom fahrendes Auto</h6>
-
-                    <p>
-                      Dieses RC-Auto ist mit einer Kamera, einem Raspberry Pi, einem
-                      XMC1100 Boot Kit und dem DC Motor Control Shield mit
-                      BTN8982TA.
-                    </p>
-                    <a
-                      href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03"
-                      target="blank"
-                    >
-                      <u>Mehr erfahren</u>
-                    </a>
-                  </div>
-                </div>
-              </div>
-                  </>}
-              
-              {state === 'en' && <>
+              {state === 'en' && (
+                <>
                   <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '450px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/autonomous/autonomus2.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomous Driving Car V2</h6>
-
-                    <a
-                      href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545"
-                      target="blank"
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '450px',
+                      }}
                     >
-                      <u>Learn more</u>
-                    </a>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus1.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">Autonomous Driving Car</h6>
+
+                        <p>
+                          This RC car is equipped with a camera, a Raspberry Pi,
+                          an XMC1100 Boot Kit and the DC Motor Control Shield
+                          with BTN8982TA.
+                        </p>
+                        <a
+                          href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03"
+                          target="blank"
+                        >
+                          <u>Learn more</u>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-                  </>}
-                  {state === 'de' && <>
+                </>
+              )}
+              {state === 'de' && (
+                <>
                   <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '450px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/autonomous/autonomus2.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonom fahrendes Auto V2</h6>
-
-                    <a
-                      href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545"
-                      target="blank"
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '450px',
+                      }}
                     >
-                      <u>Mehr dazu</u>
-                    </a>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus1.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">Autonom fahrendes Auto</h6>
+
+                        <p>
+                          Dieses RC-Auto ist mit einer Kamera, einem Raspberry
+                          Pi, einem XMC1100 Boot Kit und dem DC Motor Control
+                          Shield mit BTN8982TA.
+                        </p>
+                        <a
+                          href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-5b3d03"
+                          target="blank"
+                        >
+                          <u>Mehr erfahren</u>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-                  </>}
-             
-              {state === 'en' && <>
-                 <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '450px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/autonomous/autonomus3.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
+                </>
+              )}
 
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomous Driving Car V3</h6>
-
-                    <a
-                      href="https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea"
-                      target="blank"
+              {state === 'en' && (
+                <>
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '450px',
+                      }}
                     >
-                      <u>Learn more</u>
-                    </a>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus2.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Autonomous Driving Car V2
+                        </h6>
+
+                        <a
+                          href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545"
+                          target="blank"
+                        >
+                          <u>Learn more</u>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-                  </>}
-                  {state === 'de' && <>
-                 <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '450px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/autonomous/autonomus3.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
-
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonom fahrendes Auto V3</h6>
-
-                    <a
-                      href="https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea"
-                      target="blank"
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '450px',
+                      }}
                     >
-                      <u>Mehr erfahren</u>
-                    </a>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus2.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Autonom fahrendes Auto V2
+                        </h6>
+
+                        <a
+                          href="https://www.hackster.io/Infineon_Team/autonomous-driving-car-v2-8b5545"
+                          target="blank"
+                        >
+                          <u>Mehr dazu</u>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-                  </>}
-              
+                </>
+              )}
+
+              {state === 'en' && (
+                <>
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '450px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus3.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Autonomous Driving Car V3
+                        </h6>
+
+                        <a
+                          href="https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea"
+                          target="blank"
+                        >
+                          <u>Learn more</u>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '450px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus3.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">
+                          Autonom fahrendes Auto V3
+                        </h6>
+
+                        <a
+                          href="https://www.hackster.io/ramazan-eren-arslan/autonomous-driving-car-v3-93deea"
+                          target="blank"
+                        >
+                          <u>Mehr erfahren</u>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
 
-          <br/><br/>
+          <br />
+          <br />
 
           <div>
             <h4 className="mn-4">
               {state === 'en' && (
                 <>
-                  Behind the scene - How a student ensured that you do not fail with your project
+                  Behind the scene - How a student ensured that you do not fail
+                  with your project
                 </>
               )}
               {state === 'de' && (
                 <>
-                  Hinter den Kulissen - Wie ein Student dafür sorgte, dass Sie mit Ihrem Projekt nicht scheitern
+                  Hinter den Kulissen - Wie ein Student dafür sorgte, dass Sie
+                  mit Ihrem Projekt nicht scheitern
                 </>
               )}
             </h4>
@@ -653,8 +739,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'de' && (
                 <>
                   Projektthema: Entwicklung und Dokumentation eines Autonomous
-                  Driving Cars V3 by Eren Arslan Ramazan. (Studiengang, Semester:
-                  Informatik, 6tes Semester)
+                  Driving Cars V3 by Eren Arslan Ramazan. (Studiengang,
+                  Semester: Informatik, 6tes Semester)
                 </>
               )}
             </p>
@@ -722,8 +808,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   A kind of predecessor of my vehicle, the &apos;Schaeffler FAG
                   Model MF3&apos;, has been standing in the first corridor of
-                  our building since 2009 and served as 
-                  inspiration for a contemporary autonomous driving successor.
+                  our building since 2009 and served as inspiration for a
+                  contemporary autonomous driving successor.
                 </>
               )}
               {state === 'de' && (
@@ -777,8 +863,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   growing importance of autonomous systems in the automotive
                   industry. The vehicle on display in the THWS building inspired
                   us. The history of the Schaeffler FAG Model MF3 vehicle, which
-                  is exhibited in the first floor corridor of the THWS building, gave
-                  us the idea of bringing tradition and innovation into a
+                  is exhibited in the first floor corridor of the THWS building,
+                  gave us the idea of bringing tradition and innovation into a
                   context. I also was inspired by my participation in the
                   Carenuity Home Challenge, in which I had already successfully
                   developed innovative sensors for smart homes.
@@ -1027,8 +1113,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               )}
               {state === 'de' && (
                 <>
-                  Kampagnen- oder Projektwahrnehmung durch die Zielgruppe und Erhalt
-                  wertvollen Feedbacks
+                  Kampagnen- oder Projektwahrnehmung durch die Zielgruppe und
+                  Erhalt wertvollen Feedbacks
                 </>
               )}
             </h5>
@@ -1293,214 +1379,236 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'de' && (
                 <>
                   <a href="https://www.hackster.io/Carenuity/autonomous-driving-car-v3-897d80">
-                    <u>
-                      Projektdokumentation Autonomous Driving Car V3{' '}
-                    </u>{' '}
+                    <u>Projektdokumentation Autonomous Driving Car V3 </u>{' '}
                   </a>
                 </>
               )}
             </p>
           </div>
-          <br/><br/>
+          <br />
+          <br />
           <div>
-             <h4>
-              {state === 'en' && <>
-                Build with us - your own car
-                  </>}
-                  {state === 'de' && <>
-                 Bauen Sie mit uns - Ihr eigenes Auto
-                  </>}</h4>
+            <h4>
+              {state === 'en' && <>Build with us - your own car</>}
+              {state === 'de' && <>Bauen Sie mit uns - Ihr eigenes Auto</>}
+            </h4>
             <h4></h4>
             <div className="row">
-              {state === 'en' && <>
-                <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '620px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/Autonomous/shopcar.PNG"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
+              {state === 'en' && (
+                <>
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        height: '620px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/Autonomous/shopcar.PNG"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
 
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonomous Driving Car</h6>
-                    <p>
-                      The Autonomous Driving Car by Infineon provides an
-                      innovative solution for self-driving cars. Equipped with a
-                      camera, a Raspberry Pi, and the XMC1100 Boot Kit, it
-                      allows control via smartphone, tablet, or laptop.
-                      Integration into the Donkeycar project offers hands-on
-                      experience with artificial intelligence and neural
-                      networks.
-                    </p>
-                    <div className="row">
-                      <p className="col-md-5 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              'https://www.chipglobe.shop/en/p/autonomous-driving-car'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Get your hardware</span>
-                          </Link>
-                        )}
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">Autonomous Driving Car</h6>
+                        <p>
+                          The Autonomous Driving Car by Infineon provides an
+                          innovative solution for self-driving cars. Equipped
+                          with a camera, a Raspberry Pi, and the XMC1100 Boot
+                          Kit, it allows control via smartphone, tablet, or
+                          laptop. Integration into the Donkeycar project offers
+                          hands-on experience with artificial intelligence and
+                          neural networks.
+                        </p>
+                        <div className="row">
+                          <p className="col-md-5 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={
+                                  'https://www.chipglobe.shop/en/p/autonomous-driving-car'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small">
+                                  {' '}
+                                  Get your hardware
+                                </span>
+                              </Link>
+                            )}
 
-                        {isMobile && (
-                          <a
-                            href={
-                              'https://www.chipglobe.shop/en/p/autonomous-driving-car'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Get your hardware{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      <p className="col-md-5 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small"> Install-for-Free</span>
-                          </Link>
-                        )}
+                            {isMobile && (
+                              <a
+                                href={
+                                  'https://www.chipglobe.shop/en/p/autonomous-driving-car'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Get your hardware{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                          <p className="col-md-5 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={''}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small"> Install-for-Free</span>
+                              </Link>
+                            )}
 
-                        {isMobile && (
-                          <a
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Install for free{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
+                            {isMobile && (
+                              <a
+                                href={''}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Install for free{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-                  </>}
-                  {state === 'de' && <>
-                 <div className="col-md-4 mb-4">
-                <div
-                  className="e-card"
-                  style={{
-                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    maxHeight: '1020px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/Autonomous/shopcar.PNG"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      width: '420px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  <div className="col-md-4 mb-4">
+                    <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        maxHeight: '1020px',
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/Autonomous/shopcar.PNG"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
 
-                  <div style={{ padding: '10px' }}>
-                    <h6 className="text-success">Autonom fahrendes Auto</h6>
-                    <p>
-                      Das Autonomous Driving Car von Infineon bietet eine
-                      innovative Lösung für selbstfahrende Autos. Ausgestattet mit einer
-                      Kamera, einem Raspberry Pi und dem XMC1100 Boot Kit ausgestattet, ermöglicht
-                      die Steuerung über Smartphone, Tablet oder Laptop.
-                      Die Integration in das Donkeycar-Projekt bietet praktische
-                      Erfahrung mit künstlicher Intelligenz und neuronalen
-                      Netzwerken.
-                    </p>
-                    <div className="row">
-                      <p className="col-md-6 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={
-                              'https://www.chipglobe.shop/en/p/autonomous-driving-car'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small">  Holen Sie sich Ihre Hardware</span>
-                          </Link>
-                        )}
+                      <div style={{ padding: '10px' }}>
+                        <h6 className="text-success">Autonom fahrendes Auto</h6>
+                        <p>
+                          Das Autonomous Driving Car von Infineon bietet eine
+                          innovative Lösung für selbstfahrende Autos.
+                          Ausgestattet mit einer Kamera, einem Raspberry Pi und
+                          dem XMC1100 Boot Kit ausgestattet, ermöglicht die
+                          Steuerung über Smartphone, Tablet oder Laptop. Die
+                          Integration in das Donkeycar-Projekt bietet praktische
+                          Erfahrung mit künstlicher Intelligenz und neuronalen
+                          Netzwerken.
+                        </p>
+                        <div className="row">
+                          <p className="col-md-6 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={
+                                  'https://www.chipglobe.shop/en/p/autonomous-driving-car'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small">
+                                  {' '}
+                                  Holen Sie sich Ihre Hardware
+                                </span>
+                              </Link>
+                            )}
 
-                        {isMobile && (
-                          <a
-                            href={
-                              'https://www.chipglobe.shop/en/p/autonomous-driving-car'
-                            }
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Holen Sie sich Ihre Hardware{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
-                      <p className="col-md-5 mb-4">
-                        {!isMobile && (
-                          <Link
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                          >
-                            <span className="small">Install-for-Free</span>
-                          </Link>
-                        )}
+                            {isMobile && (
+                              <a
+                                href={
+                                  'https://www.chipglobe.shop/en/p/autonomous-driving-car'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Holen Sie sich Ihre Hardware{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                          <p className="col-md-5 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={''}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small">Install-for-Free</span>
+                              </Link>
+                            )}
 
-                        {isMobile && (
-                          <a
-                            href={''}
-                            target="_blank"
-                            className={'btn btn-sm btn-success rounded-pill'}
-                            rel="noreferrer"
-                          >
-                            <span className="small">
-                              Install-for-Free{' '}
-                              {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                            </span>
-                          </a>
-                        )}
-                      </p>
+                            {isMobile && (
+                              <a
+                                href={''}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Install-for-Free{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-                  </>}
-              
+                </>
+              )}
             </div>
           </div>
         </div>

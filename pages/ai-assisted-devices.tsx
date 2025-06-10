@@ -60,7 +60,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             <div>
               <h4>Our featured AI-assisted devices that you can build</h4>
-              <br>
+              <br />
               <ul>
                 <li>
                   <h5>C3-Mini Radar Sensor</h5>{' '}
@@ -204,7 +204,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               width="100%"
               height="600px"
             ></iframe>
-            <br> 
+            <br />
             <div>
               <ul>
                 <li>

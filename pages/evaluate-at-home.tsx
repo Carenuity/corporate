@@ -454,7 +454,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
@@ -469,7 +468,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   >
                     <div style={{ padding: '10px' }}>
                       <div className="row">
-                         <div className="col-md-4 mb-4">
+                        <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             src="/img/content/evaluate/sensor-selection-box.png"
@@ -490,8 +489,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           </h6>
                           <p>
                             Suited for D1- and C3-Mini Boards, including seven
-                            sensors, a display and a buzzer.
-                            Compatible with 0.66 inch & 0.96inch Displays
+                            sensors, a display and a buzzer. Compatible with
+                            0.66 inch & 0.96inch Displays
                           </p>
                           <div className="row">
                             <p className="col-md-4 mb-4">
@@ -530,7 +529,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             <p className="col-md-6 mb-4">
                               {!isMobile && (
                                 <Link
-                                  href={'https://carenuity.com/c3-mini-box-devices/'}
+                                  href={
+                                    'https://carenuity.com/c3-mini-box-devices/'
+                                  }
                                   target="_blank"
                                   className={
                                     'btn btn-sm btn-success rounded-pill'
@@ -556,9 +557,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 >
                                   <span className="small">
                                     Install for free
-                                    {
-                                      
-                                    }
+                                    {}
                                     {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                   </span>
                                 </a>
@@ -566,7 +565,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                       
                       </div>
                     </div>
                   </div>
@@ -576,12 +574,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     className="e-card"
                     style={{
                       boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                       maxHeight: '1040px',
+                      maxHeight: '1040px',
                     }}
                   >
                     <div style={{ padding: '10px' }}>
                       <div className="row">
-                         <div className="col-md-4 mb-4">
+                        <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           {/* <img
                     src="/img/content/evaluate/triple-adapter.png"
@@ -670,7 +668,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                       
                       </div>
                     </div>
                   </div>
@@ -680,12 +677,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     className="e-card"
                     style={{
                       boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                       maxHeight: '1040px',
+                      maxHeight: '1040px',
                     }}
                   >
                     <div style={{ padding: '10px' }}>
                       <div className="row">
-                         <div className="col-md-4 mb-4">
+                        <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             src="/img/content/evaluate/xl-triple-adaptor.png"
@@ -781,7 +778,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             </p>
                           </div>
                         </div>
-                       
                       </div>
                     </div>
                   </div>
