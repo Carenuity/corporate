@@ -191,7 +191,7 @@ const Menu = ({
               onMouseEnter={() => setBanner(navigationBannerUrls[0])}
             >
               <span className="submenu-button"></span>
-              <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-400 display-30">
+              <span className="mb-0 mb-lg-2 d-block py-2 p-lg-0 px-4 px-lg-0 text-uppercase sub-title font-weight-700 display-30">
                 {state === 'en' && <>BUDGET FRIENDLY NOT ONLY FOR STUDENTS</>}
                 {state === 'de' && (
                   <>Budgetfreundlich, nicht nur für Studierende</>
@@ -202,7 +202,7 @@ const Menu = ({
                   <li key={`${service.url}-${service.name}`}>
                     {!isMobile && (
                       <Link
-                        className="ms-3 fw-light"
+                        className="ms-3"
                         href={service.url}
                         style={
                           !service.url
@@ -212,9 +212,6 @@ const Menu = ({
                                 textAlign: 'left',
                               }
                             : { textAlign: 'left' }
-                          // {
-                          //   textAlign: 'left',
-                          // }
                         }
                       >
                         <i className={`${service.icon} me-2`}></i>
@@ -225,17 +222,9 @@ const Menu = ({
                       <a
                         className="ms-3"
                         href={service.url}
-                        style={
-                          // !!!service.url
-                          //   ? {
-                          //       pointerEvents: 'none',
-                          //       color: 'grey',
-                          //     }
-                          //   : {}
-                          {
-                            textAlign: 'left',
-                          }
-                        }
+                        style={{
+                          textAlign: 'left',
+                        }}
                       >
                         <i className={`${service.icon} me-2`}></i>
                         {service.name}
@@ -287,11 +276,7 @@ const Menu = ({
             </li>
             <li className="has-sub">
               <span className="submenu-button"></span>
-              <Link
-                href="#!"
-                style={{ textAlign: 'left' }}
-                // style={{ pointerEvents: 'none', color: 'grey' }}
-              >
+              <Link href="#!" style={{ textAlign: 'left' }}>
                 Help Center
               </Link>
               <ul className="sub-menu">

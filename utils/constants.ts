@@ -40,7 +40,7 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™ Applications',
+      name: 'C3-Mini™ & Applications',
       url: '/c3-mini',
       icon: 'fas fa-code',
       type: 'icon',
@@ -63,11 +63,6 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-brain',
       type: 'icon',
     },
-    // {
-    //   name: 'C3-Mini™ Weather-Panel (launch 2nd H.2024)',
-    //   url: '/c3-mini-weather-panel',
-    //   icon: 'fa-solid fa-cloud',
-    // },
   ],
   premium: [
     {
@@ -95,7 +90,7 @@ export const servicesUrls: Service = {
       type: 'image',
     },
     {
-      name: 'SQ-Labs Feature Evaluation', // 'Evaluate at Home',
+      name: 'SQ Feature Evaluation', // 'Evaluate at Home',
       url: '/evaluate-at-home',
       icon: 'fa-solid fa-house',
       type: 'icon',
@@ -114,11 +109,6 @@ export const servicesUrls: Service = {
       icon: 'fas fa-store',
       type: 'icon',
     },
-    // {
-    //   name: 'SQ-Multi-Home & Office value adder (launch 2025)',
-    //   url: '',
-    //   icon: 'fas fa-building',
-    // },
     {
       name: 'WebShop',
       url: 'http://carenuity.shop',
@@ -131,11 +121,6 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-star',
       type: 'icon',
     },
-    // {
-    //   name: 'Kickstarter Campaign',
-    //   url: 'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a',
-    //   icon: 'fa-solid fa-bell',
-    // },
   ],
 };
 

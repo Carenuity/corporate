@@ -322,7 +322,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   visibility: 'visible',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
-                  // height: '400px',
                 }}
               />
             </div>

@@ -243,14 +243,7 @@ export default function Home({
                 {!isMobile && (
                   <Link
                     href={'/sq-panel'}
-                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                    className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">Learn More </span>
                   </Link>
@@ -259,14 +252,7 @@ export default function Home({
                 {isMobile && (
                   <a
                     href={'/sq-panel'}
-                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                    className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">
                       Learn More{' '}

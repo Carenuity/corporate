@@ -154,14 +154,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                 {!isMobile && (
                   <Link
                     href={webFlash}
-                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                    className={'btn btn-lg btn-outline-success rounded-pill'}
                   >
                     <span className="small">Install For Free</span>
                   </Link>
@@ -170,14 +163,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                 {isMobile && (
                   <a
                     href={webFlash}
-                    className={'btn btn-lg btn-outline-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                    // data-wow-delay="400ms"
-                    // style={{
-                    //   visibility: 'visible',
-                    //   animationDelay: '400ms',
-                    //   animationName: 'fadeInUp',
-                    //   height: '3.5rem',
-                    // }}
+                    className={'btn btn-lg btn-outline-success rounded-pill'}
                   >
                     <span className="small">Install For Free</span>
                   </a>
