@@ -113,7 +113,7 @@ const Page = () => {
         {/* <h6 style={{ color:"#ffffff",}}>CHIPGLOBE GmbH</h6> */}
         <h6 style={{ color:"#ffffff",}}>Cincinnatistrasse 60<br/>
        81549 Munich, Germany</h6>
-        <p style={{ fontSize:"12px",}}> You are welcome to stop by</p>
+        <p style={{ fontSize:"12px",}} > You are welcome to stop by</p>
       </div>
                          
                         </div>
@@ -200,7 +200,7 @@ const Page = () => {
 
       
 </div>
-<div className='row'>
+<div className='row mb-4'>
 <div className="w-full flex justify-center col-md-12 " style={{textAlign:"center"}}  >
       <iframe
         title="Cincinnatistrasse Location"
@@ -216,7 +216,8 @@ const Page = () => {
     </div>
 </div>
 
- {/* <ul className="social-icon-style1" style={{backgroundColor:'#198754'}}>
+<div style={{textAlign:"center"}}>
+<ul className="social-icon-style1" style={{backgroundColor:'#198754',}}>
                 <li>
                   <a
                     href="https://www.facebook.com/profile.php?id=100086691917641"
@@ -254,7 +255,9 @@ const Page = () => {
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
-              </ul> */}
+              </ul>
+</div>
+ 
         </div>
       </section>
       <script src="/contactus-form.js" defer></script>

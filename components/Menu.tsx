@@ -416,7 +416,7 @@ const Menu = ({
               </ul>
             </li>
             <li>
-              <Link href="#contact-us" style={{ textAlign: 'left' }}>
+              <Link href="/contact-us" style={{ textAlign: 'left' }}>
                 Contact Us
               </Link>
             </li>
