@@ -416,6 +416,12 @@ const Menu = ({
               </ul>
             </li>
             <li>
+              {isMobile && (
+                /* eslint-disable-next-line @next/next/no-html-link-for-pages */
+                <a href="/contact-us/" style={{ textAlign: 'left' }}>
+                  About Us
+                </a>
+              )}
               <Link href="/contact-us" style={{ textAlign: 'left' }}>
                 Contact Us
               </Link>
