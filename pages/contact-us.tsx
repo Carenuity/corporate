@@ -112,8 +112,9 @@ const Page = () => {
                        <div className="flex items-center space-x-2">
         <MapPin className="text-red-500 mb-4" size={40} /><br/>
         {/* <h6 style={{ color:"#ffffff",}}>CHIPGLOBE GmbH</h6> */}
-        <h6 style={{ color:"#ffffff",}}>Cincinnatistrasse 60<br/>
-       81549 Munich, Germany</h6>
+        <h6 style={{ color:"#ffffff",}}>Professor-Messerschmitt-Strasse 1a<br/>
+        3rd floor 85579 Neubiberg
+       </h6>
         <p style={{ fontSize:"12px",}} > You are welcome to stop by</p>
       </div>
                          
@@ -205,7 +206,7 @@ const Page = () => {
 <div className="w-full flex justify-center col-md-12 " style={{textAlign:"center"}}  >
       <iframe
         title="Cincinnatistrasse Location"
-        src="https://www.google.com/maps?q=Cincinnatistrasse+60,+81549+Munich,+Germany&output=embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.788251441738!2d11.656880099999999!3d48.07573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479de0ed66cf3d2d%3A0x920c6aa7b7ac0a1c!2sProf.-Messerschmitt-Stra%C3%9Fe%201%20a%2F3rd%20floor%2C%2085579%20Neubiberg%2C%20Germany!5e0!3m2!1sen!2ske!4v1749557400344!5m2!1sen!2ske"
         width="1150"
         height="250"
         style={{ border: 0 }}
@@ -259,6 +260,7 @@ const Page = () => {
               </ul>
 </div>
  
+
         </div>
       </section>
       <script src="/contactus-form.js" defer></script>
