@@ -128,58 +128,72 @@ const Page = () => {
 
         <div  className='mb-10' style={{textAlign:"center"}}>
           <h4 className=''>Get In Touch</h4>
-          <p style={{paddingLeft:'120px', paddingRight:"120px"}} >We'd love to hear from you. Whether you have a question, need support, 
+          <p style={{paddingLeft:'', paddingRight:""}} >We'd love to hear from you. Whether you have a question, need support, 
             or want to explore how we can work together — reach out and we&apos;ll respond as soon as possible.</p>
 
+
+            
+<div className='row mb-4' style={{textAlign:"center"}}>
+  {/* <div className='col-lg-1 col-mg-1 mb-4'></div> */}
+  <div className='col-lg-6 col-mg-6 mb-4'>
+    <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      maxHeight: '1080px',
+                      padding:"30px",
+                      
+                    }}
+                  >
           <div className="min-h-screen flex flex-col items-center justify-center bg-white ">
           <form className="w-full max-w-sm space-y-4" id="sharepointForm">
         <input
           type="name"
           placeholder="Name"
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="email"
           placeholder="Email"
-          style={{maxWidth:"1200px",width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
           type="company"
           placeholder="Company"
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
           type="tel"
           placeholder="Phone"
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="street"
           placeholder="Street, house number"
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="zip"
           placeholder="Zip code, City"
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="subject"
           placeholder="Subject"
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         
         <textarea
           placeholder="Message"
           rows={4}
-          style={{width:"900px"}}
+          style={{width:"450px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         ></textarea><br/>
         <button
@@ -190,6 +204,8 @@ const Page = () => {
           Submit
         </button>
       </form>
+     
+
        {/* Feedback & Loading */}
       <div className="loading text-gray-600 mt-3" style={{ display: 'none' }}>Submitting...</div>
       <div className="error-message text-red-600 mt-2"></div>
@@ -198,17 +214,17 @@ const Page = () => {
     
 
     </div>
-     
-
-      
-</div>
-<div className='row mb-4'>
-<div className="w-full flex justify-center col-md-12 " style={{textAlign:"center"}}  >
+    </div>
+     </div>
+{/* <div className='col-lg-1 col-mg-1 mb-4'></div> */}
+<div className='col-lg-6 col-mg-6 mb-4'>
+ <div className="w-full flex justify-center mb-4 " style={{textAlign:"center"}}  >
       <iframe
         title="Cincinnatistrasse Location"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.788251441738!2d11.656880099999999!3d48.07573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479de0ed66cf3d2d%3A0x920c6aa7b7ac0a1c!2sProf.-Messerschmitt-Stra%C3%9Fe%201%20a%2F3rd%20floor%2C%2085579%20Neubiberg%2C%20Germany!5e0!3m2!1sen!2ske!4v1749557400344!5m2!1sen!2ske"
-        width="1150"
-        height="250"
+        width="480"
+        
+        height="700"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -216,6 +232,9 @@ const Page = () => {
         className="rounded-xl shadow-lg w-full max-w-3xl"
       ></iframe>
     </div>
+    
+</div>
+
 </div>
 
 <div style={{textAlign:"center"}}>
@@ -262,6 +281,7 @@ const Page = () => {
  
 
         </div>
+         </div>
       </section>
       <script src="/contactus-form.js" defer></script>
     </>
