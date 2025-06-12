@@ -150,50 +150,50 @@ const Page = () => {
         <input
           type="name"
           placeholder="Name"
-          style={{width:"450px", minWidth:"300px"}}
+          style={{width:"450px", minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="email"
           placeholder="Email"
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
           type="company"
           placeholder="Company"
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
           type="tel"
           placeholder="Phone"
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="street"
           placeholder="Street, house number"
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="zip"
           placeholder="Zip code, City"
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
           type="subject"
           placeholder="Subject"
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         
         <textarea
           placeholder="Message"
           rows={4}
-          style={{width:"450px"}}
+          style={{width:"450px",minWidth:"100px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         ></textarea><br/>
         <button
@@ -223,7 +223,7 @@ const Page = () => {
         title="Cincinnatistrasse Location"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.788251441738!2d11.656880099999999!3d48.07573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479de0ed66cf3d2d%3A0x920c6aa7b7ac0a1c!2sProf.-Messerschmitt-Stra%C3%9Fe%201%20a%2F3rd%20floor%2C%2085579%20Neubiberg%2C%20Germany!5e0!3m2!1sen!2ske!4v1749557400344!5m2!1sen!2ske"
         width="480"
-        min-Width="300"
+        min-Width="100"
         height="700"
         style={{ border: 0 }}
         allowFullScreen
