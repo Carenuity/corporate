@@ -142,7 +142,7 @@ const Page = () => {
         <input
           type="email"
           placeholder="Email"
-          style={{width:"900px"}}
+          style={{maxWidth:"1200px",width:"900px"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
