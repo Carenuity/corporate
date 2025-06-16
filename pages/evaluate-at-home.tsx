@@ -381,9 +381,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             Evaluation Kit S for Standard Displays
                           </h6>
                           <p>
-                            Suited for D1- and C3-Mini Boards and all Sensors
+                            Suited for Raspberry Pi Pico W that comes
+                            with Infineon Wifi module.
                             <br />
-                            Compatible with 0.66 inch and 0.96inch Displays
+                            Compatible with 0.66 inch & 0.96 inch Displays
                           </p>
                           <div className="row">
                             <p className="col-md-4 mb-4">
@@ -598,10 +599,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             Evaluation Kit L &quot;The Triple-Adapter&quot;
                           </h6>
                           <p>
-                            Suited for Raspberry Pi Pico-W boards with Infineon
-                            Wifi module
+                            Suited for D1- and C3-Mini Boards and all sensors
                             <br />
-                            Compatible with 0.66 inch & 0.96 inch Displays
+                            Compatible with 0.66 inch and 0.96inch displays
                           </p>
                           <div className="row">
                             <p className="col-md-4 mb-4">
@@ -1097,9 +1097,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <div>
                 <h6>You can download the STL from here:</h6>
                 <ul style={{ listStyleType: 'square' }}>
-                  <li>Prototype S: Triple-Adapter</li>
-                  <li>Prototype L: Standard</li>
-                  <li>Protoype XL: Large</li>
+                  <li>Prototype S: Small 66.4 x 66.4 mm Baseboard with Raspberry Pi Pico W and sensors</li>
+                  <li>Prototype L: Large 79.1 x 79.1 mm for direct stacking of the Classic Triple-Adapter</li>
+                  <li>Protoype XL: eXtra-Large 97.0 x 97.0 mm for C3-Mini with 2.8 inch display</li>
                 </ul>
               </div>
             </div>
