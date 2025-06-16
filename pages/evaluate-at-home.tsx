@@ -364,13 +364,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/triple-adapter.png"
+                            src="/img/content/evaluate/kit-s.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
                             style={{
                               visibility: 'visible',
-                              height: '190px',
+                              width: '100%',
                               animationDelay: '100ms',
                               animationName: 'fadeIn',
                             }}
@@ -471,7 +471,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/sensor-selection-box.png"
+                            src="/img/content/evaluate/kit.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
@@ -581,8 +581,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       <div className="row">
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
-                          {/* <img
-                    src="/img/content/evaluate/triple-adapter.png"
+                          <img
+                    src="/img/content/evaluate/kit-l.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -592,15 +592,15 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       animationDelay: '100ms',
                       animationName: 'fadeIn',
                     }}
-                  /> */}
+                  />
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
                             Evaluation Kit L &quot;The Triple-Adapter&quot;
                           </h6>
                           <p>
-                            Suited for D1- and C3-Mini Boards and all sensors
-                            <br />
+                            Suited for D1- and C3-Mini Boards and all sensors.
+                            
                             Compatible with 0.66 inch and 0.96inch displays
                           </p>
                           <div className="row">
@@ -684,13 +684,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/xl-triple-adaptor.png"
+                            src="/img/content/evaluate/kit-xl.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
                             style={{
                               visibility: 'visible',
-                              height: '190px',
+                              // height: '190px',
                               animationDelay: '100ms',
                               animationName: 'fadeIn',
                             }}
@@ -701,8 +701,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             Evaluation Kit XL for Large Displays
                           </h6>
                           <p>
-                            Suited for D1- and C3-Mini Boards and all Sensors
-                            <br />
+                            Suited for D1- and C3-Mini Boards and all Sensors.
+                            
                             Compatible with large 2.6 inch and 2.8 inch Displays
                           </p>
                           <div className="row">
