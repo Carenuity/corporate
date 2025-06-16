@@ -145,57 +145,65 @@ const Page = () => {
                       
                     }}
                   >
-          <div className="min-h-screen flex flex-col items-center justify-center bg-white ">
-          <form className="w-full max-w-sm space-y-4" id="sharepointForm">
+          <div className="min-h-screen flex flex-col  justify-center bg-white ">
+          <form className="w-full max-w-sm space-y-4" id="contactUs">
         <input
-          type="name"
+          type='text'
+          name="name"
           placeholder="Name"
          style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
-          type="email"
+          type='text'
+          name="email"
           placeholder="Email"
           style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
-          type="company"
+           type='text'
+          name="company"
           placeholder="Company"
           style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /> <br/>
         <input
-          type="tel"
+         type='text'
+          name="mobile"
           placeholder="Phone"
           style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
-          type="street"
+         type='text'
+          name="street"
           placeholder="Street, house number"
          style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
-          type="zip"
+         type='text'
+          name="zip"
           placeholder="Zip code, City"
           style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         <input
-          type="subject"
+         type='text'
+          name="subject"
           placeholder="Subject"
           style={{width:"100%"}}
           className="w-full border border-gray-400 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
         /><br/>
         
         <textarea
+         name="message"
           placeholder="Message"
-          rows={4}
-          style={{width:"100%"}}
+          
+          style={{width:"100%", height:"140px",textAlign:"initial"}}
           className="w-full border border-gray-400 px-4 py-2 rounded resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
-        ></textarea><br/>
+        /><br/>
         <button
           type="submit"
           style={{width:"300px"}}
