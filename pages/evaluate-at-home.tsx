@@ -378,7 +378,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
-                            Evaluation Kit S &quot;Triple-Adapter&quot;
+                            Evaluation Kit S for Standard Displays
                           </h6>
                           <p>
                             Suited for D1- and C3-Mini Boards and all Sensors
@@ -484,7 +484,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
-                            Evaluation Kit S with Sensor Selection Box
+                            Evaluation Kit as Sensor Selection Box
                           </h6>
                           <p>
                             Suited for D1- and C3-Mini Boards, including seven
@@ -595,7 +595,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
-                            Evaluation Kit L for Standard Displays
+                            Evaluation Kit L &quot;The Triple-Adapter&quot;
                           </h6>
                           <p>
                             Suited for Raspberry Pi Pico-W boards with Infineon
