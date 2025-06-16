@@ -407,9 +407,11 @@ const Menu = ({
                    Contact Us
                 </a>
               )}
+               {!isMobile && (
               <Link href="/contact-us" style={{ textAlign: 'left' }}>
                 Contact Us
               </Link>
+              )}
             </li>
             <li>
               {isMobile && (
