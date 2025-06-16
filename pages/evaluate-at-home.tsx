@@ -1014,7 +1014,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     }}
                   />
                   <h6 style={{ padding: '20px' }}>
-                    Alternative Enclosure for Evaluation Kit – Size “S”
+                    Alternative Enclosure for Evaluation Kit – Size “L”
                   </h6>
                   <p style={{ padding: '20px' }}>
                     This enclosure is optimized to save space on your desk and
@@ -1048,7 +1048,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     }}
                   />
                   <h6 style={{ padding: '20px' }}>
-                    Alternative Enclosure for Evaluation Kit - Size “L”
+                    Alternative Enclosure for Evaluation Kit - Size “M”
                   </h6>
                   <p style={{ padding: '20px' }}>
                     This medium-sized housing has a square shape and is
