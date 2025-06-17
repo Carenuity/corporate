@@ -5,6 +5,7 @@ import PageTitle from '../../../components/PageTitle';
 import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Translatable from '../../../components/Translatable';
 import ApplicationItem from '../../../components/ApplicationItem';
+import Link from 'next/link';
 
 const Page = () => {
   const pageTitle = 'Volatile Organic Compounds';
@@ -39,7 +40,8 @@ const Page = () => {
             {state === 'de' && <>VOC-Messmethoden</>}
           </h4> */}
 
-          <h4 className="mn-4">
+          <div>
+            <h4 className="mn-4">
             {state === 'en' && <> Invisible Threats in the Air: Why VOC Monitoring Matters</>}
             {state === 'de' && <> Unsichtbare Bedrohungen in der Luft: Warum VOC-Überwachung wichtig ist</>}
           </h4>
@@ -75,6 +77,7 @@ const Page = () => {
             und Ihr langfristiges Wohlbefinden schützen.
             </>}
           </p>
+          </div>
 
           <h4 className="mb-2 h4">
                  {state === 'en' && <>Measurement Methods</>}
@@ -332,10 +335,27 @@ const Page = () => {
             )}
           </p>
 
-          <h4 className="mn-4">
-            {state === 'en' && <> Learn More</>}
-            {state === 'de' && <>Mehr erfahren</>}
-          </h4>
+          
+                               {state === 'en' && <>
+                                <p style={{ textAlign: 'center' }}>
+                        <Link
+                          href={'/sq-panel'}
+                          className={'btn btn-lg btn-success rounded-pill'}
+                        >
+                          <span className="small">Learn more</span>
+                        </Link>
+                      </p>
+                            </>}
+                            {state === 'de' && <>
+                             <p style={{ textAlign: 'center' }}>
+                        <Link
+                          href={'/sq-panel'}
+                          className={'btn btn-lg btn-success rounded-pill'}
+                        >
+                          <span className="small">Mehr erfahren</span>
+                        </Link>
+                      </p>
+                            </>}
           <p className="mn-4">
             {state === 'en' && (
               <>

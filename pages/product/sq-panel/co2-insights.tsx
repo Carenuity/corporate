@@ -411,9 +411,9 @@ const Sensors = () => {
                     This method is based on the detection of volatile organic
                     compounds (VOCs) that are correlated with CO<sub>2</sub>{' '}
                     levels. This method is compact, digital, and multi-gas, and
-                    can provide outputs such as equivalent CO<sub>2</sub>
+                    can provide outputs such as equivalent CO<sub>2</sub> 
                     (eCO<sub>2</sub>), total VOCs (TVOC), and air quality index
-                    (AQI)78 ScioSense&apos;sENS160 is a digital metal oxide
+                    (AQI)78 ScioSense&apos;s ENS160 is a digital metal oxide
                     multi-gas sensor that uses four sensor elements and an
                     independent hotplate control to detect a wide range of VOCs
                     and oxidizing gases with superior sensitivity It is ideal
@@ -486,12 +486,6 @@ const Sensors = () => {
             </p>
                   </>}
                   
-
-
-
-           
-
-            <div className="col-lg-">
               <div>
                 <p
                   className="wow fadeIn"
@@ -666,7 +660,7 @@ const Sensors = () => {
                   </a>
                 )} */}
               </div>
-            </div>
+           
           </div>
         </div>
       </section>

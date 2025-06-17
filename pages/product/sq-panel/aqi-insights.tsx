@@ -74,6 +74,113 @@ const Sensors = () => {
             </>}
           </p>
           </div>
+          <div>
+              {state === 'en' && <>
+                      <p style={{ textAlign: 'center' }}>
+              <Link
+                href={'/sq-panel'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Learn more</span>
+              </Link>
+            </p>
+                  </>}
+                  {state === 'de' && <>
+                   <p style={{ textAlign: 'center' }}>
+              <Link
+                href={'/sq-panel'}
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Mehr erfahren</span>
+              </Link>
+            </p>
+                  </>}
+                  
+          
+                <p
+                  className="wow fadeIn"
+                  data-wow-delay="300ms"
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '300ms',
+                    animationName: 'fadeIn',
+                  }}
+                >
+                   {state === 'en' && <>
+                   Carenuity specializes in sensor devices, offering a portfolio
+                  of 24 sensor products that come with enclosures and can be
+                  customized on various levels to meet your specific needs.
+                  </>}
+                  {state === 'de' && <>
+                  Carenuity hat sich auf Sensorgeräte spezialisiert und bietet unter
+                  ein Portfolio von 24 Sensorprodukten an, die mit Gehäusen geliefert werden und unter
+                  auf verschiedenen Ebenen an Ihre spezifischen Anforderungen angepasst werden können.
+                  </>}
+                  
+                </p>
+
+                <p>
+                   {state === 'en' && <>
+                   These Applications are available by One-Click on the
+                  Install-for-Free Buttons
+                  </>}
+                  {state === 'de' && <>
+                  Diese Anwendungen sind mit einem Klick auf die
+                  Install-for-Free-Buttons verfügbar
+                  </>}
+                  
+                </p>
+
+                <div className="row mb-1-9">
+                  <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
+                    <ApplicationItem
+                      name={'Barometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/nJMltlS83P6vqQjANMdU'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Hygrometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/Pz79ekXXeqNppvIgHK5r'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Thermometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/wzxLAKXdeVgruPEZP7lN'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Motion Detector'}
+                      url={
+                        'https://solutions.carenuity.com/applications/MGMRQwSXjjvSZzOu3Xj8'
+                      }
+                    />
+                  </div>
+                  <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
+                    <ApplicationItem
+                      name={'Luxmeter'}
+                      url={
+                        'https://solutions.carenuity.com/applications/YyvgrAa1UcVrRYcysN74'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'IR Radiometer'}
+                      url={
+                        'https://solutions.carenuity.com/applications/X4Uz3c2SknHIQjiektgV'
+                      }
+                    />
+                    <ApplicationItem
+                      name={'Presence Button'}
+                      url={
+                        'https://solutions.carenuity.com/applications/VCe4FCtct0ovFUE9bnzM'
+                      }
+                    />
+                  </div>
+                </div>
+
+          </div>
         </div>
       </section>
     </>
