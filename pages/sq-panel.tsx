@@ -326,19 +326,19 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 {state === 'de' && <>Luftdruck (bald in mbar)</>}
               </li>
 
-             <a href='https://carenuity.netlify.app/product/sq-panel/aqi-insights' target='blank'><u> 
+             <a href='/product/sq-panel/aqi-insights' target='blank'><u> 
               <li>
                 {state === 'en' && <>Air quality index</>}
                 {state === 'de' && <>Luftqualitäts-Index</>}
               </li></u> </a>
 
-              <a href='https://carenuity.netlify.app/product/sq-panel/co2-insights' target='blank'><u>  
+              <a href='/product/sq-panel/co2-insights' target='blank'><u>  
                 <li>
                 {state === 'en' && <>Carbon dioxide content of the air / CO2</>}
                 {state === 'de' && <>Kohlendioxid-Gehalt der Luft / CO2</>}
               </li></u> </a>
 
-              <a href='https://carenuity.netlify.app/product/sq-panel/voc-insights' target='blank'> <u>
+              <a href='/product/sq-panel/voc-insights' target='blank'> <u>
                 <li>
                 {state === 'en' && <>Number of organic comp. VOC</>}
                 {state === 'de' && <>Anzahl organischer Komp. VOC</>}
