@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       successMsg.innerText = "";
 
       try {
-        const response = await fetch('https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Carenuity-Inbox', {
+        const response = await fetch('https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Carenuity Inbox', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data),
