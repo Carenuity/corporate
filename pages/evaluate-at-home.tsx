@@ -846,7 +846,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </p>
               </div>
               <div>
-                <h4>Housing for your device</h4>
+                <h4>Housings for your Evaluation</h4>
                 <p>
                   Single Sensor Boxes come with enclosure. If you want to
                   customize your device, we offer 3D-printables on Thingiverse.
@@ -893,18 +893,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    SQ-Panel-like Enclosure for Evaluation Kit - Size “M”
+                    SQ-Panel-like Enclosure for Evaluation Kit - Size “S/M”
                   </h6>
                   <p
                     style={{
                       padding: '10px',
                     }}
                   >
-                    A SQ-Panel-like M-sized housing with the SQ-TableStand to
-                    accommodate the 66.4 mm x 66.4 mm Evaluation-Kit, that is
-                    optimized to house the Triple-Adapter with Sensor, C3-Mini
-                    and an 0.66 inch or the 0.96 inch OLED display. An S-sized
-                    variant 64.0mm x 64.0 mm is in preparation.
+                    A small SQ-Panel-like S/M-sized housing on top of the SQ-TableStand
+                    to accommodate the 79.1 mm x 79.1 mm Evaluation-Kit, that is
+                    optimized to house a variety of sensors with the
+                    Raspberry-Pi Pico W (Infineon Wifi) and the 0.66 or 
+                    0.96 inch OLED display.
                   </p>
                 </div>
               </div>
@@ -941,11 +941,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    A large SQ-Panel-like L-sized housing with the SQ-TableStand
-                    to accommodate the 79.1 mm x 79.1 mm Evaluation-Kit, that is
-                    optimized to house a variety of Sensors with the
-                    Raspberry-Pi Pico W (Infineon Wifi) and the 0.66 inch or the
-                    0.96 inch OLED display.
+                    A SQ-Panel-like L-sized housing with the SQ-TableStand to
+                    accommodate the 66.4 mm x 66.4 mm Evaluation-Kit, that is
+                    optimized to house the Triple-Adapter with Sensor, C3-Mini
+                    and an 0.66 inch or the 0.96 inch OLED display. An S-sized
+                    variant 64.0mm x 64.0 mm is in preparation.  
                   </p>
                 </div>
               </div>
