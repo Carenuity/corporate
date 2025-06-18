@@ -871,6 +871,142 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </div>
+          
+            <div className="mb-4">
+              <h4 >
+            {state === 'en' && <>Documentation</>}
+            {state === 'de' && <>Documentation</>}
+          </h4>
+          <p className="mn-4">
+            {state === 'en' && (
+              <>
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/datasheet.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Datasheet V.1.3.0 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/declaration-of-conformity.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Declaration-of-Conformity V.1.3.0 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/leaflet.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Leaflet V1.0.0 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/commisioning.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Manual-for-Commissioning 1.0.3 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="../../serial-number"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Serial-Number V2.0.1 [PDF]
+                  </a>
+                </div>
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/datasheet-de.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Datenblatt V.1.3 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/declaration-de.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Konformitätserklärung V.1.3.0 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/leaflet.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Beipackzettel V1.0.0 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/commisioning-de.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Handbuch zur Inbetriebnahme 1.0.3 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="../../serial-number"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Serien-Nummer V2.0.1 [PDF]
+                  </a>
+                </div>
+              </>
+            )}
+          </p>
+            </div>
+
           <div className=" mb-6 wow fadeIn  ">
             <h4>
               {state === 'en' && <>Commissioning.</>}
