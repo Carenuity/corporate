@@ -1045,7 +1045,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     style={{
                       visibility: 'visible',
                       animationDelay: '100ms',
-                      height: '700px',
+                      // height: '700px',
                       animationName: 'fadeIn',
                     }}
                   />
