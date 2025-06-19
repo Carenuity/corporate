@@ -28,7 +28,7 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className='mb-4'>Girls Day</h4>
+          <h4 className=''>Girls Day</h4>
          <div
                 className="e-card mb-6"
                 style={{
@@ -70,8 +70,11 @@ const Page = () => {
             </div>
             </div>
          </div>
+
          <div className=" mb-4">
-                 
+                   <h4>
+                  What is Girls' Day?
+                  </h4>
                   <div
                 className="e-card mb-6"
                 style={{
@@ -93,14 +96,12 @@ const Page = () => {
                     width: '420px',
                     animationDelay: '100ms',
                     animationName: 'fadeIn',
-                     paddingTop:"40px"
+                     paddingTop:"10px"
                   }}
                 />
                     </div>
                     <div className='col-lg-8'>
-                    <h4>
-                  What is Girls' Day?
-                  </h4>
+                  
                     <p >
                     Girls' Day is an annual initiative designed to give girls the opportunity to explore technical,
                     scientific, IT, and engineering professions. It allows them to participate in hands-on workshops 
