@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = '';
+  const pageTitle = ' Girls Day';
   return (
     <>
       <Head>

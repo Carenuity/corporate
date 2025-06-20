@@ -10,12 +10,17 @@ const PageTitle = ({
   pageTitle,
   pageUrl,
   links,
+  customSetting,
 }: {
   pageTitle: string;
   pageUrl: string;
   links: BreadcrumbLink[];
+  customSetting?: {
+    bgImg: string;
+    height?: number;
+  };
 }) => {
-  const bgImage = '/img/banner.webp';
+  const bgImage = customSetting?.bgImg || '/img/banner.webp';
   useEffect(() => {
     if (document !== undefined) {
       require('../utils/js/jarallax.min.js');
@@ -34,7 +39,14 @@ const PageTitle = ({
       >
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div
+              className="col-md-12"
+              style={{
+                height: customSetting?.height
+                  ? `${customSetting?.height}rem`
+                  : undefined,
+              }}
+            >
               <div className="position-relative">
                 <h1>{pageTitle}</h1>
               </div>

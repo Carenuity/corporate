@@ -42,47 +42,88 @@ const Page = () => {
 
           <div>
             <h4 className="mn-4">
-            {state === 'en' && <> Invisible Threats in the Air: Why VOC Monitoring Matters</>}
-            {state === 'de' && <> Unsichtbare Bedrohungen in der Luft: Warum VOC-Überwachung wichtig ist</>}
-          </h4>
-           <p className="mb-4">
-            {state === 'en' && <>
-            Volatile Organic Compounds (VOCs) are all around us—emitted from everyday items like paints, cleaning agents, furniture, 
-            and even personal care products. While often undetectable by smell or sight, these invisible chemicals can have serious 
-            consequences on your health when left unchecked. Prolonged exposure to high VOC levels can irritate the eyes, nose, and
-             throat, trigger headaches, dizziness, and fatigue, and in more severe cases, damage the liver, kidneys, and central nervous 
-             system. For vulnerable groups such as children, the elderly, and those with asthma or allergies, the risks are even greater.
-            </>}
-            {state === 'de' && <>
-            Flüchtige organische Verbindungen (VOC) sind überall um uns herum - sie werden von alltäglichen Gegenständen wie Farben, Reinigungsmitteln, Möbeln, 
-            und sogar Körperpflegeprodukten freigesetzt. Diese unsichtbaren Chemikalien, die oft weder geruchlich noch optisch wahrnehmbar sind, können schwerwiegende 
-            Folgen für die Gesundheit haben, wenn sie nicht kontrolliert werden. Eine längere Exposition gegenüber hohen VOC-Werten kann Augen, Nase und
-            Rachen reizen, Kopfschmerzen, Schwindel und Müdigkeit auslösen und in schwereren Fällen die Leber, die Nieren und das zentrale Nervensystem 
-            schädigen. Für gefährdete Gruppen wie Kinder, ältere Menschen und Asthmatiker oder Allergiker sind die Risiken sogar noch größer.
-            </>}
-          </p>
-           <p className="mb-4">
-            {state === 'en' && <>
-            Indoor environments—especially those that are sealed or poorly ventilated—can quickly accumulate harmful VOCs, turning 
-            seemingly safe spaces into health hazards. Because their presence is subtle yet impactful, relying on your senses isn&apos;t 
-            enough. Continuous VOC monitoring is essential to identifying exposure before symptoms arise, allowing you to take targeted 
-            action to improve air quality. By staying aware and in control, you&apos;re not just managing air—you&apos;re protecting your health, 
-            performance, and long-term wellbeing.
-            </>}
-            {state === 'de' && <>
-            In Innenräumen - insbesondere in versiegelten oder schlecht belüfteten - können sich schnell schädliche flüchtige organische Verbindungen (VOC) ansammeln und 
-            scheinbar sichere Räume in ein Gesundheitsrisiko verwandeln. Da ihr Vorhandensein subtil, aber dennoch wirkungsvoll ist, reicht es nicht aus, sich auf Ihre Sinne zu verlassen 
-            . Eine kontinuierliche VOC-Überwachung ist unerlässlich, um die Belastung zu erkennen, bevor Symptome auftreten, so dass Sie gezielte 
-            Maßnahmen zur Verbesserung der Luftqualität ergreifen können. Indem Sie sich bewusst sind und die Kontrolle behalten, können Sie nicht nur die Luft kontrollieren, sondern auch Ihre Gesundheit, Ihre Leistung 
-            und Ihr langfristiges Wohlbefinden schützen.
-            </>}
-          </p>
+              {state === 'en' && (
+                <> Invisible Threats in the Air: Why VOC Monitoring Matters</>
+              )}
+              {state === 'de' && (
+                <>
+                  {' '}
+                  Unsichtbare Bedrohungen in der Luft: Warum VOC-Überwachung
+                  wichtig ist
+                </>
+              )}
+            </h4>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  Volatile Organic Compounds (VOCs) are all around us—emitted
+                  from everyday items like paints, cleaning agents, furniture,
+                  and even personal care products. While often undetectable by
+                  smell or sight, these invisible chemicals can have serious
+                  consequences on your health when left unchecked. Prolonged
+                  exposure to high VOC levels can irritate the eyes, nose, and
+                  throat, trigger headaches, dizziness, and fatigue, and in more
+                  severe cases, damage the liver, kidneys, and central nervous
+                  system. For vulnerable groups such as children, the elderly,
+                  and those with asthma or allergies, the risks are even
+                  greater.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Flüchtige organische Verbindungen (VOC) sind überall um uns
+                  herum - sie werden von alltäglichen Gegenständen wie Farben,
+                  Reinigungsmitteln, Möbeln, und sogar Körperpflegeprodukten
+                  freigesetzt. Diese unsichtbaren Chemikalien, die oft weder
+                  geruchlich noch optisch wahrnehmbar sind, können
+                  schwerwiegende Folgen für die Gesundheit haben, wenn sie nicht
+                  kontrolliert werden. Eine längere Exposition gegenüber hohen
+                  VOC-Werten kann Augen, Nase und Rachen reizen, Kopfschmerzen,
+                  Schwindel und Müdigkeit auslösen und in schwereren Fällen die
+                  Leber, die Nieren und das zentrale Nervensystem schädigen. Für
+                  gefährdete Gruppen wie Kinder, ältere Menschen und Asthmatiker
+                  oder Allergiker sind die Risiken sogar noch größer.
+                </>
+              )}
+            </p>
+            <p className="mb-4">
+              {state === 'en' && (
+                <>
+                  Indoor environments—especially those that are sealed or poorly
+                  ventilated—can quickly accumulate harmful VOCs, turning
+                  seemingly safe spaces into health hazards. Because their
+                  presence is subtle yet impactful, relying on your senses
+                  isn&apos;t enough. Continuous VOC monitoring is essential to
+                  identifying exposure before symptoms arise, allowing you to
+                  take targeted action to improve air quality. By staying aware
+                  and in control, you&apos;re not just managing air—you&apos;re
+                  protecting your health, performance, and long-term wellbeing.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  In Innenräumen - insbesondere in versiegelten oder schlecht
+                  belüfteten - können sich schnell schädliche flüchtige
+                  organische Verbindungen (VOC) ansammeln und scheinbar sichere
+                  Räume in ein Gesundheitsrisiko verwandeln. Da ihr
+                  Vorhandensein subtil, aber dennoch wirkungsvoll ist, reicht es
+                  nicht aus, sich auf Ihre Sinne zu verlassen . Eine
+                  kontinuierliche VOC-Überwachung ist unerlässlich, um die
+                  Belastung zu erkennen, bevor Symptome auftreten, so dass Sie
+                  gezielte Maßnahmen zur Verbesserung der Luftqualität ergreifen
+                  können. Indem Sie sich bewusst sind und die Kontrolle
+                  behalten, können Sie nicht nur die Luft kontrollieren, sondern
+                  auch Ihre Gesundheit, Ihre Leistung und Ihr langfristiges
+                  Wohlbefinden schützen.
+                </>
+              )}
+            </p>
           </div>
 
           <h4 className="mb-2 h4">
-                 {state === 'en' && <>Measurement Methods</>}
+            {state === 'en' && <>Measurement Methods</>}
             {state === 'de' && <>Messmethoden</>}
-                </h4>
+          </h4>
           <p className="mn-4">
             {state === 'en' && (
               <>
@@ -335,27 +376,30 @@ const Page = () => {
             )}
           </p>
 
-          
-                               {state === 'en' && <>
-                                <p style={{ textAlign: 'center' }}>
-                        <Link
-                          href={'/sq-panel'}
-                          className={'btn btn-lg btn-success rounded-pill'}
-                        >
-                          <span className="small">Learn more</span>
-                        </Link>
-                      </p>
-                            </>}
-                            {state === 'de' && <>
-                             <p style={{ textAlign: 'center' }}>
-                        <Link
-                          href={'/sq-panel'}
-                          className={'btn btn-lg btn-success rounded-pill'}
-                        >
-                          <span className="small">Mehr erfahren</span>
-                        </Link>
-                      </p>
-                            </>}
+          {state === 'en' && (
+            <>
+              <p style={{ textAlign: 'center' }}>
+                <Link
+                  href={'/sq-panel'}
+                  className={'btn btn-lg btn-success rounded-pill'}
+                >
+                  <span className="small">Learn more</span>
+                </Link>
+              </p>
+            </>
+          )}
+          {state === 'de' && (
+            <>
+              <p style={{ textAlign: 'center' }}>
+                <Link
+                  href={'/sq-panel'}
+                  className={'btn btn-lg btn-success rounded-pill'}
+                >
+                  <span className="small">Mehr erfahren</span>
+                </Link>
+              </p>
+            </>
+          )}
           <p className="mn-4">
             {state === 'en' && (
               <>

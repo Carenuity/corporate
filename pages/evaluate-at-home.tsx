@@ -381,8 +381,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             Evaluation Kit S for Standard Displays
                           </h6>
                           <p>
-                            Suited for Raspberry Pi Pico W that comes
-                            with Infineon Wifi module.
+                            Suited for Raspberry Pi Pico W that comes with
+                            Infineon Wifi module.
                             <br />
                             Compatible with 0.66 inch & 0.96 inch Displays
                           </p>
@@ -582,17 +582,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                    src="/img/content/evaluate/kit-l.png"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                     height: '190px',
-                      animationDelay: '100ms',
-                      animationName: 'fadeIn',
-                    }}
-                  />
+                            src="/img/content/evaluate/kit-l.png"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              height: '190px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                            }}
+                          />
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
@@ -600,7 +600,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           </h6>
                           <p>
                             Suited for D1- and C3-Mini Boards and all sensors.
-                            
                             Compatible with 0.66 inch and 0.96inch displays
                           </p>
                           <div className="row">
@@ -702,7 +701,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           </h6>
                           <p>
                             Suited for D1- and C3-Mini Boards and all Sensors.
-                            
                             Compatible with large 2.6 inch and 2.8 inch Displays
                           </p>
                           <div className="row">
@@ -900,11 +898,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       padding: '10px',
                     }}
                   >
-                    A small SQ-Panel-like S/M-sized housing on top of the SQ-TableStand
-                    to accommodate the 79.1 mm x 79.1 mm Evaluation-Kit, that is
-                    optimized to house a variety of sensors with the
-                    Raspberry-Pi Pico W (Infineon Wifi) and the 0.66 or 
-                    0.96 inch OLED display.
+                    A small SQ-Panel-like S/M-sized housing on top of the
+                    SQ-TableStand to accommodate the 79.1 mm x 79.1 mm
+                    Evaluation-Kit, that is optimized to house a variety of
+                    sensors with the Raspberry-Pi Pico W (Infineon Wifi) and the
+                    0.66 or 0.96 inch OLED display.
                   </p>
                 </div>
               </div>
@@ -945,7 +943,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     accommodate the 66.4 mm x 66.4 mm Evaluation-Kit, that is
                     optimized to house the Triple-Adapter with Sensor, C3-Mini
                     and an 0.66 inch or the 0.96 inch OLED display. An S-sized
-                    variant 64.0mm x 64.0 mm is in preparation.  
+                    variant 64.0mm x 64.0 mm is in preparation.
                   </p>
                 </div>
               </div>
@@ -1097,9 +1095,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <div>
                 <h6>You can download the STL from here:</h6>
                 <ul style={{ listStyleType: 'square' }}>
-                  <li>Prototype S: Small 66.4 x 66.4 mm Baseboard with Raspberry Pi Pico W and sensors</li>
-                  <li>Prototype L: Large 79.1 x 79.1 mm for direct stacking of the Classic Triple-Adapter</li>
-                  <li>Protoype XL: eXtra-Large 97.0 x 97.0 mm for C3-Mini with 2.8 inch display</li>
+                  <li>
+                    Prototype S: Small 66.4 x 66.4 mm Baseboard with Raspberry
+                    Pi Pico W and sensors
+                  </li>
+                  <li>
+                    Prototype L: Large 79.1 x 79.1 mm for direct stacking of the
+                    Classic Triple-Adapter
+                  </li>
+                  <li>
+                    Protoype XL: eXtra-Large 97.0 x 97.0 mm for C3-Mini with 2.8
+                    inch display
+                  </li>
                 </ul>
               </div>
             </div>

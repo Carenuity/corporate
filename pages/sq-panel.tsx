@@ -326,23 +326,35 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 {state === 'de' && <>Luftdruck (bald in mbar)</>}
               </li>
 
-             <a href='/product/sq-panel/aqi-insights' target='blank'><u> 
-              <li>
-                {state === 'en' && <>Air quality index</>}
-                {state === 'de' && <>Luftqualitäts-Index</>}
-              </li></u> </a>
+              <Link href="/product/sq-panel/aqi-insights" target="blank">
+                <u>
+                  <li>
+                    {state === 'en' && <>Air quality index</>}
+                    {state === 'de' && <>Luftqualitäts-Index</>}
+                  </li>
+                </u>{' '}
+              </Link>
 
-              <a href='/product/sq-panel/co2-insights' target='blank'><u>  
-                <li>
-                {state === 'en' && <>Carbon dioxide content of the air / CO2</>}
-                {state === 'de' && <>Kohlendioxid-Gehalt der Luft / CO2</>}
-              </li></u> </a>
+              <Link href="/product/sq-panel/co2-insights" target="blank">
+                <u>
+                  <li>
+                    {state === 'en' && (
+                      <>Carbon dioxide content of the air / CO2</>
+                    )}
+                    {state === 'de' && <>Kohlendioxid-Gehalt der Luft / CO2</>}
+                  </li>
+                </u>{' '}
+              </Link>
 
-              <a href='/product/sq-panel/voc-insights' target='blank'> <u>
-                <li>
-                {state === 'en' && <>Number of organic comp. VOC</>}
-                {state === 'de' && <>Anzahl organischer Komp. VOC</>}
-              </li></u> </a>
+              <Link href="/product/sq-panel/voc-insights" target="blank">
+                {' '}
+                <u>
+                  <li>
+                    {state === 'en' && <>Number of organic comp. VOC</>}
+                    {state === 'de' && <>Anzahl organischer Komp. VOC</>}
+                  </li>
+                </u>{' '}
+              </Link>
             </ul>
           </div>
           <div className="col-lg-6 mb-4">
@@ -871,141 +883,141 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </div>
-          
-            <div className="mb-4">
-              <h4 >
-            {state === 'en' && <>Documentation</>}
-            {state === 'de' && <>Documentation</>}
-          </h4>
-          <p className="mn-4">
-            {state === 'en' && (
-              <>
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/datasheet.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Datasheet V.1.3.0 [PDF]
-                  </a>
-                </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/declaration-of-conformity.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Declaration-of-Conformity V.1.3.0 [PDF]
-                  </a>
-                </div>
+          <div className="mb-4">
+            <h4>
+              {state === 'en' && <>Documentation</>}
+              {state === 'de' && <>Documentation</>}
+            </h4>
+            <p className="mn-4">
+              {state === 'en' && (
+                <>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/datasheet.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Datasheet V.1.3.0 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/leaflet.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Leaflet V1.0.0 [PDF]
-                  </a>
-                </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/declaration-of-conformity.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Declaration-of-Conformity V.1.3.0 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/commisioning.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Manual-for-Commissioning 1.0.3 [PDF]
-                  </a>
-                </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/leaflet.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Leaflet V1.0.0 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="../../serial-number"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Serial-Number V2.0.1 [PDF]
-                  </a>
-                </div>
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/datasheet-de.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Datenblatt V.1.3 [PDF]
-                  </a>
-                </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/commisioning.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Manual-for-Commissioning 1.0.3 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/declaration-de.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Konformitätserklärung V.1.3.0 [PDF]
-                  </a>
-                </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="../../serial-number"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Serial-Number V2.0.1 [PDF]
+                    </a>
+                  </div>
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/datasheet-de.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Datenblatt V.1.3 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/leaflet.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Beipackzettel V1.0.0 [PDF]
-                  </a>
-                </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/declaration-de.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Konformitätserklärung V.1.3.0 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="/docs/commisioning-de.PDF"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Handbuch zur Inbetriebnahme 1.0.3 [PDF]
-                  </a>
-                </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/leaflet.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Beipackzettel V1.0.0 [PDF]
+                    </a>
+                  </div>
 
-                <div className="d-flex align-items-center">
-                  <i className="ti-check display-31 text-black"></i>
-                  <a
-                    href="../../serial-number"
-                    target="_blank"
-                    className="ms-2 link-success"
-                    rel="noreferrer"
-                  >
-                    Serien-Nummer V2.0.1 [PDF]
-                  </a>
-                </div>
-              </>
-            )}
-          </p>
-            </div>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/commisioning-de.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Handbuch zur Inbetriebnahme 1.0.3 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="../../serial-number"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Serien-Nummer V2.0.1 [PDF]
+                    </a>
+                  </div>
+                </>
+              )}
+            </p>
+          </div>
 
           <div className=" mb-6 wow fadeIn  ">
             <h4>
@@ -2509,8 +2521,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               )}
             </p>
           </div>
-          
-          
+
           <div>
             <h4>
               {state === 'en' && <>Environmental commitments</>}
