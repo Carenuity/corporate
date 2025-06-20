@@ -200,7 +200,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 className="e-card mb-6"
                 style={{
                   boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                  maxHeight: '1000px',
+                  maxHeight: '2000px',
                   padding:"20px"
                 }}
               >
