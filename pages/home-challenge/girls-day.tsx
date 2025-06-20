@@ -1,8 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 import PageTitle from '../../components/PageTitle';
+import Link from 'next/link';
 
-const Page = () => {
+
+const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = '';
   return (
     <>
@@ -28,7 +30,20 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-          <h4 className=''>Girls Day</h4>
+           {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/girls-day/girls2.jpeg"
+                  className="wow fadeInUp mb-6"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    // width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+          {/* <h4 className=''>Girls Day</h4> */}
          <div
                 className="e-card mb-6"
                 style={{
@@ -225,6 +240,28 @@ const Page = () => {
             </div>
             </div>
          </div>
+          <p style={{textAlign:"center"}}>
+                         {!isMobile && (
+                           <Link
+                             href={'/home-challenge'}
+                             className={'btn btn-lg btn-success rounded-pill'}
+                           >
+                             <span className="small">Learn more on Home Challenge</span>
+                           </Link>
+                         )}
+         
+                         {isMobile && (
+                           <a
+                             href={'/single-sensor-boxes'}
+                             className={'btn btn-lg btn-success rounded-pill'}
+                           >
+                             <span className="small">
+                               Learn more on Home Challenge{' '}
+                               {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                             </span>
+                           </a>
+                         )}
+                       </p>
         </div>
       </section>
     </>
