@@ -438,7 +438,22 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
           <div className=" mb-4 row">
-            <div className="col-md-8">
+            <div className="col-md-1">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/install/qr-code.jpeg"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  // width: '100px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className="col-md-11">
               <p>
                 As part of our commitment to sustainability, we fully comply
                 with the{' '}
@@ -454,21 +469,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 recycled responsibly.
               </p>
             </div>
-            <div className="col-md-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/install/qr-code.jpeg"
-                className="wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  width: '100px',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
+            
             <div className="col-md-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
