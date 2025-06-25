@@ -1,11 +1,11 @@
 import React from 'react';
 import { useContext } from 'react';
-import PageTitle from '../components/PageTitle';
-import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
+import PageTitle from '../../../components/PageTitle';
+import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Head from 'next/head';
 import Link from 'next/link';
-import SubscriptionWidget from '../components/SubscriptionWidget';
-import Translatable from '../components/Translatable';
+import SubscriptionWidget from '../../../components/SubscriptionWidget';
+import Translatable from '../../../components/Translatable';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {

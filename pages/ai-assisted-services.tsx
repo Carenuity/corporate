@@ -3,7 +3,7 @@ import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 
 const Page = () => {
-  const pageTitle = 'Carenuity's AI-assisted Services';
+  const pageTitle = 'Carenuity AI-assisted Services';
   return (
     <>
       <Head>
