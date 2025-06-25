@@ -3682,7 +3682,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                                 rel="noreferrer"
                               >
                                 <span className="small">
-                                  Evaluieren Sie es zu Hause{' '}
+                                  Evaluieren Sie zuerst zu Hause vor dem Kauf{' '}
                                   {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                 </span>
                               </a>
