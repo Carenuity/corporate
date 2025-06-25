@@ -3474,13 +3474,13 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
             <div>
-              <h4>SQ-Panel Vorverkauf - startet am 16. June 2025</h4>
+              <h4>SQ-Panel Vorverkauf - startet am 16. July 2025</h4>
               <p>
                 We have a major upgrade for the SQ-Panel following the proposals
                 from our community. To get early news, insights and potentially
                 get a free Eval-Kit for early bird testing of new features, pls
                 subscribe{' '}
-                <Link href="/sq-panel-plus" className="text-success">
+                <Link href="/sq-panel-launchpage" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.
