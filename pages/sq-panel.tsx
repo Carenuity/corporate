@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Translatable from '../components/Translatable';
 
 export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'SQ-Panel';
+  const pageTitle = 'SQ-Panel Sensor Display';
   const { state } = useContext(LanguageSwitchContext);
   const bannerImage = '/img/content/SQ-Panel-sideview.webp';
   const iframeHeight = '40.5rem';
