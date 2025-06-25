@@ -3357,18 +3357,18 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     {state === 'en' && (
                       <>
                         The SQ-Panel monitors indoor air parameters such as
-                        temperature, humidity, CO2 and VOC. If the room is too
+                        temperature, humidity, CO2 and VOC. If your room is too
                         warm or too stuffy, you can take timely action to
                         improve the comfort of your guests.
                       </>
                     )}
                     {state === 'de' && (
                       <>
-                        Das SQ-Panel überwacht Raumluftparameter wie z
-                        Temperatur, Luftfeuchtigkeit, CO2 und VOC. Wenn das
-                        Zimmer auch ist Wenn es zu warm oder zu stickig ist,
-                        können Sie rechtzeitig Abhilfe schaffen den Komfort
-                        Ihrer Gäste.
+                        Das SQ-Panel überwacht alle relevanten Raumluftparameter wie
+                        Temperatur, Luftfeuchtigkeit, CO2 und VOC. Wenn die Räume
+                        zu warm oder zu stickig sind,
+                        können Sie rechtzeitig Abhilfe schaffen und den Komfort
+                        Ihrer Gäste verbessern.
                       </>
                     )}
                   </p>
@@ -3515,10 +3515,10 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
                     <div style={{ padding: '10px' }}>
                       <h6 className="text-success">
-                        Carenuity SQ Panel - Intelligent Air Quality Display
+                        Carenuity SQ Panel - Your intelligent Air Quality Display
                       </h6>
                       <p>
-                        The Carenuity SQ panel is an intelligent, networkable
+                        The Carenuity SQ-Panel is an intelligent, networkable
                         air quality display for precise and continuous real-time
                         monitoring of indoor climate...{' '}
                       </p>
@@ -3614,7 +3614,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
                       <div style={{ padding: '10px' }}>
                         <h6 className="text-success">
-                          Carenuity SQ-Panel - Intelligentes
+                          Carenuity SQ-Panel - Ihr intelligentes
                           Luftqualitäts-Display
                         </h6>
                         <p>
@@ -3682,7 +3682,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                                 rel="noreferrer"
                               >
                                 <span className="small">
-                                  Bewerten Sie zu Hause{' '}
+                                  Evaluieren Sie es zu Hause{' '}
                                   {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                 </span>
                               </a>
