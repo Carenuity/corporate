@@ -3,7 +3,7 @@ import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 
 const Page = () => {
-  const pageTitle = 'Curated Application';
+  const pageTitle = 'Carenuity's AI-assisted Services';
   return (
     <>
       <Head>
@@ -28,13 +28,12 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-          <h4>Curated Application</h4>
-          <p>Carenuity is proud to introduce a curated application designed to simplify and streamline the form-filling 
-            process through the power of artificial intelligence. This intelligent platform automatically populates 
-            forms on behalf of the user, significantly reducing the time and effort required for manual data entry.
-             Users simply enter a prompt describing what they need, and the AI generates a tailored response or filled 
-             form based on that input. Importantly, users have full control and can easily tweak the generated content 
-             to better match their personal tone, style, or specific requirements. By leveraging AI, the application 
+          <h4>Carenuity's AI-assisted Web Form-Pre-Filling for any Webpage</h4>
+          <p>Carenuity simplifies and streamlines the form-filling process on websites, so that users will not leave forms empty any more. 
+             The backround service automatically pre-populates fields of web forms in a meaningful way, so that the user can accept or customize, but not will leave empty.  
+             Pre-filling forms on behalf of the user is significantly reducing the time and effort for user required for manual data entry.
+             Users simply find a pre-filled field, filled with what they typically fill, based on previous form inputs. Importantly, users keep full control and can easily 
+             tweak the generated content to better match their personal tone, style, or specific requirements. By leveraging AI, the application 
              ensures both efficiency and flexibility, delivering a seamless and highly personalized user experience.</p>
             <p>
               We welcome other companies and organizations to reach out to us if they are interested in integrating 
