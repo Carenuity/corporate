@@ -93,8 +93,23 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <>Das SQ-Panel ist das perfekte Werkzeug für</>
               )}
             </h4>
-
-            <ul className="col-lg-6 mb-20">
+              <div className='row'>
+                <div className="col-lg-2 mb-4">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-panel-plus/launch.jpeg"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+                </div>
+                <div className="col-lg-8 mb-4">
+ <ul className="col-lg-6 mb-10">
               <li>
                 {state === 'en' && (
                   <>
@@ -175,39 +190,29 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </>
                 )}
               </li>
-            </ul>
+              <li>
+                {state === 'en' && (
+                  <>
+                    
+                     Schools and Kindergarden
 
-            <div
-              id="subscribe"
-              className=" mb-4"
-              style={{ textAlign: 'center' }}
-            >
-              <h2>
-                {state === 'en' && (
-                  <>
-                    Coming soon - subscribe to the waiting list for early bird
-                    discount!
+                    
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Demnächst erhältlich - Tragen Sie sich in die Warteliste ein
-                    und sichern Sie sich den Frühbucherrabatt!
+                   
+                     Schulen und Kindergärten
+                   
                   </>
                 )}
-              </h2>
-              <p>
-                {state === 'en' && (
-                  <>Sign up for exclusive product launch discounts!</>
-                )}
-                {state === 'de' && (
-                  <>
-                    Melden Sie sich für exklusive Produkteinführungsrabatte an!
-                  </>
-                )}
-              </p>
-            </div>
-            <SubscriptionWidget categoryId={1} />
+              </li>
+            </ul>
+                </div>
+              </div>
+           
+
+           
             {/* <form
               method="post"
               className=" mb-20"
@@ -244,6 +249,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </button>
               </label>
             </form> */}
+            {/* <hr className='mb-6'/> */}
             <div className="col-lg-5 mb-6" style={{ textAlign: 'center' }}>
               <div className=" mb-6">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -358,7 +364,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </p>
             </div>
             <div className=" col-lg-1 mb-6"></div>
-            <div className="col-lg-5 mb-6" style={{ textAlign: 'center' }}>
+            <div className="col-lg-5 mb-2" style={{ textAlign: 'center' }}>
               <div className="  mb-6">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -395,7 +401,39 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 )}
               </p>
             </div>
+            <hr/>
           </div>
+           <div
+              id="subscribe"
+              className=" mb-4"
+              style={{ textAlign: 'center' }}
+            >
+              <h2>
+                {state === 'en' && (
+                  <>
+                   Subscribe to the waiting list for early bird
+                    discount!
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                   Tragen Sie sich in die Warteliste ein
+                    und sichern Sie sich den Frühbucherrabatt!
+                  </>
+                )}
+              </h2>
+              <p>
+                {state === 'en' && (
+                  <>Sign up for exclusive product launch discounts!</>
+                )}
+                {state === 'de' && (
+                  <>
+                    Melden Sie sich für exklusive Produkteinführungsrabatte an!
+                  </>
+                )}
+              </p>
+            </div>
+            <SubscriptionWidget categoryId={1} />
         </div>
       </section>
     </>
