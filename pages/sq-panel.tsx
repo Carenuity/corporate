@@ -3480,7 +3480,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 from our community. To get early news, insights and potentially
                 get a free Eval-Kit for early bird testing of new features, pls
                 subscribe{' '}
-                <Link href="/sq-panel-launchpage" className="text-success">
+                <Link href="/product/sq-panel/launch-page" className="text-success">
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.
@@ -3682,7 +3682,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                                 rel="noreferrer"
                               >
                                 <span className="small">
-                                  Evaluieren Sie es zu Hause{' '}
+                                  Evaluieren Sie zuerst zu Hause vor dem Kauf{' '}
                                   {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                 </span>
                               </a>
