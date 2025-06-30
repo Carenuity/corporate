@@ -86,7 +86,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-
+            <br/>
+            <br/>
             <h5 className="">
               {state === 'en' && <>The SQ-Panel is a perfect match for </>}
               {state === 'de' && (
