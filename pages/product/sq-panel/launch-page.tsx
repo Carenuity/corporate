@@ -406,6 +406,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
             <hr/>
           </div>
+            <br/>
+            <br/>
            <div
               id="subscribe"
               className=" mb-4"
