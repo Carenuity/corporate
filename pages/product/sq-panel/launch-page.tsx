@@ -88,6 +88,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
             <br/>
             <br/>
+            <br/>
+            <br/>
             <h5 className="">
               {state === 'en' && <>The SQ-Panel is a perfect match for </>}
               {state === 'de' && (
@@ -409,7 +411,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               className=" mb-4"
               style={{ textAlign: 'center' }}
             >
-              <h2>
+              <h3>
                 {state === 'en' && (
                   <>
                    Subscribe to the waiting list for early bird
@@ -422,7 +424,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     und sichern Sie sich den Frühbucherrabatt!
                   </>
                 )}
-              </h2>
+              </h3>
               <p>
                 {state === 'en' && (
                   <>Sign up for exclusive product launch discounts!</>
