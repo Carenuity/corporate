@@ -87,12 +87,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-            <h4 className="">
+            <h5 className="">
               {state === 'en' && <>The SQ-Panel is a perfect match for </>}
               {state === 'de' && (
                 <>Das SQ-Panel ist das perfekte Werkzeug für</>
               )}
-            </h4>
+            </h5>
               <div className='row'>
                 <div className="col-lg-2 mb-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
