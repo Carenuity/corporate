@@ -86,18 +86,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-
-            <h4 className="">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <h5 className="">
               {state === 'en' && <>The SQ-Panel is a perfect match for </>}
               {state === 'de' && (
                 <>Das SQ-Panel ist das perfekte Werkzeug für</>
               )}
-            </h4>
+            </h5>
               <div className='row'>
                 <div className="col-lg-2 mb-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/sq-panel-plus/launch.jpeg"
+                src="/img/content/sq-panel-plus/launch.jpeg" width="162" height="150" alt="SQ-UseCases"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -403,12 +406,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
             <hr/>
           </div>
+            <br/>
+            <br/>
            <div
               id="subscribe"
               className=" mb-4"
               style={{ textAlign: 'center' }}
             >
-              <h2>
+              <h3>
                 {state === 'en' && (
                   <>
                    Subscribe to the waiting list for early bird
@@ -421,7 +426,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     und sichern Sie sich den Frühbucherrabatt!
                   </>
                 )}
-              </h2>
+              </h3>
               <p>
                 {state === 'en' && (
                   <>Sign up for exclusive product launch discounts!</>

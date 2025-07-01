@@ -29,7 +29,7 @@ const Page = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <h4>Scan to Download Carenuity mobile app</h4>
+            <h4>Scan to Download the Carenuity Mobile App</h4>
             <div className="col-lg-4 mb-4">
               {/* <p>Android</p> */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
