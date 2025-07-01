@@ -100,10 +100,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="col-lg-2 mb-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/sq-panel-plus/launch.jpeg" width="162" height="150" alt="SQ-UseCases"
+                src="/img/content/sq-panel-plus/launch.jpeg" 
+                width="162" 
+                height="150" 
+                alt="SQ-UseCases"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
-                alt="..."
+               
                 style={{
                   visibility: 'visible',
                   animationDelay: '100ms',
