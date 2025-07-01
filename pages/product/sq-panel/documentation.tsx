@@ -36,6 +36,7 @@ const Page = () => {
           <h4 className="mn-4">
             {state === 'en' && <>Documentation</>}
             {state === 'de' && <>Documentation</>}
+            {/* {state === 'it' && <>Documentazione</>} */}
           </h4>
           <p className="mn-4">
             {state === 'en' && (
@@ -164,6 +165,69 @@ const Page = () => {
                 </div>
               </>
             )}
+            {/* {state === 'it' && (
+            <>
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-31 text-black"></i>
+                <a
+                  href="/docs/datasheet-it.PDF"
+                  target="_blank"
+                  className="ms-2 link-success"
+                  rel="noreferrer"
+                >
+                  Scheda tecnica V.1.3.0 [PDF]
+                </a>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-31 text-black"></i>
+                <a
+                  href="/docs/declaration-it.PDF"
+                  target="_blank"
+                  className="ms-2 link-success"
+                  rel="noreferrer"
+                >
+                  Dichiarazione di conformità V.1.3.0 [PDF]
+                </a>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-31 text-black"></i>
+                <a
+                  href="/docs/leaflet-it.PDF"
+                  target="_blank"
+                  className="ms-2 link-success"
+                  rel="noreferrer"
+                >
+                  Foglio illustrativo V1.0.0 [PDF]
+                </a>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-31 text-black"></i>
+                <a
+                  href="/docs/commisioning-it.PDF"
+                  target="_blank"
+                  className="ms-2 link-success"
+                  rel="noreferrer"
+                >
+                  Manuale di messa in servizio 1.0.3 [PDF]
+                </a>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <i className="ti-check display-31 text-black"></i>
+                <a
+                  href="../../serial-number"
+                  target="_blank"
+                  className="ms-2 link-success"
+                  rel="noreferrer"
+                >
+                  Numero di serie V2.0.1 [PDF]
+                </a>
+              </div>
+            </>
+          )} */}
           </p>
         </div>
       </section>
