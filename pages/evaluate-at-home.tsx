@@ -1117,7 +1117,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <p >
                             {!isMobile && (
                               <Link
-                                href={'/instal-for-free'}
+                                href={'/install-for-free'}
                                 target="_blank"
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
@@ -1129,7 +1129,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                             {isMobile && (
                               <a
-                                href={'instal-for-free'}
+                                href={'/install-for-free'}
                                 target="_blank"
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
