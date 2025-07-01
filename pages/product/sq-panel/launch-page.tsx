@@ -119,14 +119,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <li>
                 {state === 'en' && (
                   <>
-                    <Link href="/product/sq-panel/property-managers">
+                    <Link href="/product/sq-panel/property-managers" target='blank'>
                       <u>Facility managers & property managers</u>
                     </Link>
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <Link href="/product/sq-panel/property-managers">
+                    <Link href="/product/sq-panel/property-managers" target='blank'>
                       <u>Facility Manager & Immobilienverwalter</u>
                     </Link>
                   </>
@@ -135,14 +135,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <li>
                 {state === 'en' && (
                   <>
-                    <Link href="/product/sq-panel/smart-home-enthusiasts">
+                    <Link href="/product/sq-panel/smart-home-enthusiasts" target='blank'>
                       <u>Smart home enthusiasts</u>
                     </Link>
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <Link href="/product/sq-panel/smart-home-enthusiasts">
+                    <Link href="/product/sq-panel/smart-home-enthusiasts" target='blank'>
                       <u>Smart-Home-Enthusiasten</u>
                     </Link>
                   </>
@@ -151,14 +151,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <li>
                 {state === 'en' && (
                   <>
-                    <Link href="/product/sq-panel/commercial-operators">
+                    <Link href="/product/sq-panel/commercial-operators" target='blank'>
                       <u>Office/commercial operators</u>
                     </Link>
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <Link href="/product/sq-panel/commercial-operators">
+                    <Link href="/product/sq-panel/commercial-operators" target='blank'>
                       <u>Büro-/Gewerbebetreiber</u>
                     </Link>
                   </>
@@ -167,14 +167,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <li>
                 {state === 'en' && (
                   <>
-                    <Link href="/product/sq-panel/smart-care-providers">
+                    <Link href="/product/sq-panel/smart-care-providers" target='blank'>
                       <u>Care facilities / smart care providers</u>
                     </Link>
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <Link href="/product/sq-panel/smart-care-providers">
+                    <Link href="/product/sq-panel/smart-care-providers" target='blank'>
                       <u>Pflegeeinrichtungen / Smart Care Anbieter</u>
                     </Link>
                   </>
@@ -183,14 +183,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <li>
                 {state === 'en' && (
                   <>
-                    <Link href="/product/sq-panel/health-conscious-longevity-enthusiasts">
+                    <Link href="/product/sq-panel/health-conscious-longevity-enthusiasts" target='blank'>
                       <u>Private households with a focus on health</u>
                     </Link>
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    <Link href="/product/sq-panel/health-conscious-longevity-enthusiasts">
+                    <Link href="/product/sq-panel/health-conscious-longevity-enthusiasts" target='blank'>
                       <u>Privathaushalte mit Fokus auf Gesundheit</u>
                     </Link>
                   </>
@@ -199,17 +199,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <li>
                 {state === 'en' && (
                   <>
-                    
-                     Schools and Kindergarden
-
+                      <Link href="/product/sq-panel/schools-and-kindergarden" target='blank'>
+                    <u>Schools and Kindergarden</u> 
+                    </Link>
                     
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                   
-                     Schulen und Kindergärten
-                   
+                    <Link href="/product/sq-panel/schools-and-kindergarden" target='blank'>
+                    <u>Schulen und Kindergärten</u> 
+                   </Link>
                   </>
                 )}
               </li>

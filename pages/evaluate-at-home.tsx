@@ -1111,6 +1111,39 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
           </div>
+          <div>
+            <h4>Getting started:</h4>
+            <p>We continuously add more applications for your evaluation. Find guidance how to easily get started:</p>
+            <p >
+                            {!isMobile && (
+                              <Link
+                                href={'/instal-for-free'}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small">Install-for-Free</span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={'instal-for-free'}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                  Install-for-Free{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+          </div>
         </div>
       </section>
     </>

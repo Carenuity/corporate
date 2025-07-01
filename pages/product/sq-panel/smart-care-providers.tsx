@@ -4,8 +4,9 @@ import Head from 'next/head';
 import PageTitle from '../../../components/PageTitle';
 import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Translatable from '../../../components/Translatable';
+import Link from 'next/link';
 
-const Page = () => {
+const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Smart Care Providers';
   const { state } = useContext(LanguageSwitchContext);
   return (
@@ -272,7 +273,7 @@ const Page = () => {
               <>6. Stärken Sie Vertrauen und Professionalität</>
             )}
           </h5>
-          <p>
+          <p className='mb-8'>
             {state === 'en' && (
               <>
                 Using advanced technology like the SQ-Panel demonstrates a
@@ -288,6 +289,75 @@ const Page = () => {
               </>
             )}
           </p>
+
+          <div className="row" style={{textAlign:"center"}}>
+            <p className="col-md-2 mb-4"></p>
+                          <p className="col-md-4 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={
+                                  '/product/sq-panel/launch-page'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small">
+                                  {' '}
+                                  Get the SQ-Panel now
+                                </span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={
+                                 '/product/sq-panel/launch-page'
+                                }
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                   Get the SQ-Panel now{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                          <p className="col-md-4 mb-4">
+                            {!isMobile && (
+                              <Link
+                                href={'/sq-panel'}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                              >
+                                <span className="small"> Learn more on SQ-Panel</span>
+                              </Link>
+                            )}
+
+                            {isMobile && (
+                              <a
+                                href={'/sq-panel'}
+                                target="_blank"
+                                className={
+                                  'btn btn-sm btn-success rounded-pill'
+                                }
+                                rel="noreferrer"
+                              >
+                                <span className="small">
+                                 Learn more on SQ-Panel{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                        </div>
         </div>
       </section>
     </>
