@@ -438,21 +438,23 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
           <div className=" mb-4 row">
+             
             <div className="col-md-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/install/qr-code.jpeg"
+                src="/img/content/install/waste.jpeg"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',
-                  // width: '100px',
+                  width: '120px',
                   animationDelay: '100ms',
                   animationName: 'fadeIn',
                 }}
               />
             </div>
+            
             <div className="col-md-11">
               <p>
                 As part of our commitment to sustainability, we fully comply
@@ -469,36 +471,35 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 recycled responsibly.
               </p>
             </div>
-            
-            <div className="col-md-1">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/install/waste.jpeg"
-                className="wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  width: '120px',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-            <div className="col-md-8">
-              <p>
+           <p>
                 As space is limited on Printed Circuit Boards (PCBs), we
                 facilitate direct access to this Info- and Sustainability
                 website with our WEEE details by the QR-code printed on all our
                 PCBs.
               </p>
-            </div>
-          </div>
-
-          <div>
-            <p>
-              Via this QR-code the <strong>WEEE Compliance Information</strong>{' '}
+              <p>
+                Via this QR-code the <strong>WEEE Compliance Information</strong>{' '}
               (Waste Electrical and Electronic Equipment) become accessible:
+              </p>
+            <div className="col-md-1">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/install/qr-code.jpeg"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  // width: '100px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className="col-md-11">
+              
+              <p>
+              
               <ul>
                 <li>
                   <strong>WEEE Registration Number: </strong> DE 53301452.
@@ -515,6 +516,11 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               </ul>
             </p>
 
+            </div>
+          </div>
+
+          <div>
+            
             <p>
               Additionally, we encourage users to utilize the resources provided
               by the European Commission, including the platform for online
