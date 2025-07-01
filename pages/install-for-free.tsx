@@ -106,7 +106,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
               <h6 style={{ padding: '10px' }}>
                 2. Install one of the various prepared applications to your
-                tripple
+                triple
               </h6>
               <p style={{ padding: '10px' }}>
                 Inject an application from Solution Builder website into your
@@ -231,7 +231,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
                 <div className="flex-grow-1 ms-3">
                   <h4 className="h5">
-                    Housing your device, e.g. by an card board enclosure
+                    Housing your device, e.g. by a card board enclosure
                   </h4>
                   <p>
                     Discover the joy of perfect customization and unlock your
@@ -381,7 +381,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 <h6 style={{ padding: '10px' }}>IoT AppStore</h6>
                 <p style={{ padding: '10px' }}>
                   If you have the idea of more devices, which you want to
-                  jointly orchester by updates over the air, possibly at remote
+                  jointly orchestra by updates over the air, possibly at remote
                   locations (e.g. at your parents home) the IoT solution is your
                   first choice.{' '}
                 </p>
