@@ -438,7 +438,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
           <div className=" mb-4 row">
-             
             <div className="col-md-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -454,7 +453,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            
+
             <div className="col-md-11">
               <p>
                 As part of our commitment to sustainability, we fully comply
@@ -471,16 +470,15 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 recycled responsibly.
               </p>
             </div>
-           <p>
-                As space is limited on Printed Circuit Boards (PCBs), we
-                facilitate direct access to this Info- and Sustainability
-                website with our WEEE details by the QR-code printed on all our
-                PCBs.
-              </p>
-              <p>
-                Via this QR-code the <strong>WEEE Compliance Information</strong>{' '}
+            <p>
+              As space is limited on Printed Circuit Boards (PCBs), we
+              facilitate direct access to this Info- and Sustainability website
+              with our WEEE details by the QR-code printed on all our PCBs.
+            </p>
+            <p>
+              Via this QR-code the <strong>WEEE Compliance Information</strong>{' '}
               (Waste Electrical and Electronic Equipment) become accessible:
-              </p>
+            </p>
             <div className="col-md-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -497,30 +495,26 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
             <div className="col-md-11">
-              
               <p>
-              
-              <ul>
-                <li>
-                  <strong>WEEE Registration Number: </strong> DE 53301452.
-                </li>
-                <li>
-                  <strong>Company Information: </strong> Carenuity acting as
-                  Chipglobe GmbH, Cincinnatistrasse 60, 81549 Munich, Germany.{' '}
-                </li>
-                <li>
-                  <strong>Contact Information: </strong> Reach us at
-                  info@chipglobe.com or call us at (+49) 89-1222469-40 for
-                  further inquiries.
-                </li>
-              </ul>
-            </p>
-
+                <ul>
+                  <li>
+                    <strong>WEEE Registration Number: </strong> DE 53301452.
+                  </li>
+                  <li>
+                    <strong>Company Information: </strong> Carenuity acting as
+                    Chipglobe GmbH, Cincinnatistrasse 60, 81549 Munich, Germany.{' '}
+                  </li>
+                  <li>
+                    <strong>Contact Information: </strong> Reach us at
+                    info@chipglobe.com or call us at (+49) 89-1222469-40 for
+                    further inquiries.
+                  </li>
+                </ul>
+              </p>
             </div>
           </div>
 
           <div>
-            
             <p>
               Additionally, we encourage users to utilize the resources provided
               by the European Commission, including the platform for online

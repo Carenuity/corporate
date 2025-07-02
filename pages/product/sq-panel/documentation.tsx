@@ -6,10 +6,7 @@ import { LanguageSwitchContext } from '../../../components/context/LanguageSwitc
 import Translatable from '../../../components/Translatable';
 import Link from 'next/link';
 
-
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-
-
   const pageTitle = 'Documentation';
   const { state } = useContext(LanguageSwitchContext);
   return (
@@ -233,30 +230,30 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </>
           )} */}
           </p>
-          <p style={{textAlign:"center"}}>
-                            {!isMobile && (
-                    <Link
-                      href={'/install-for-free'}
-                      target='blank'
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">Install-for-Free </span>
-                    </Link>
-                  )}
+          <p style={{ textAlign: 'center' }}>
+            {!isMobile && (
+              <Link
+                href={'/install-for-free'}
+                target="blank"
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">Install-for-Free </span>
+              </Link>
+            )}
 
-                  {isMobile && (
-                    <a
-                      href={'/install-for-free'}
-                      target='blank'
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">
-                        Install-for-Free{' '}
-                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                      </span>
-                    </a>
-                  )}
-                          </p>
+            {isMobile && (
+              <a
+                href={'/install-for-free'}
+                target="blank"
+                className={'btn btn-lg btn-success rounded-pill'}
+              >
+                <span className="small">
+                  Install-for-Free{' '}
+                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                </span>
+              </a>
+            )}
+          </p>
         </div>
       </section>
     </>

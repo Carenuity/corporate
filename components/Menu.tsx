@@ -150,6 +150,9 @@ const Menu = ({
                       <Link
                         className="ms-3"
                         href={service.url}
+                        target={
+                          service.url.startsWith('http') ? '_blank' : undefined
+                        }
                         style={
                           !service.url
                             ? {
@@ -168,6 +171,9 @@ const Menu = ({
                       <a
                         className="ms-3"
                         href={service.url}
+                        target={
+                          service.url.startsWith('http') ? '_blank' : undefined
+                        }
                         style={
                           !service.url
                             ? {
@@ -177,6 +183,7 @@ const Menu = ({
                               }
                             : { textAlign: 'left' }
                         }
+                        rel="noreferrer"
                       >
                         <i className={`${service.icon} me-2`}></i>
                         {service.name}

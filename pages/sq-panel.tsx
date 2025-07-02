@@ -3364,11 +3364,11 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     )}
                     {state === 'de' && (
                       <>
-                        Das SQ-Panel überwacht alle relevanten Raumluftparameter wie
-                        Temperatur, Luftfeuchtigkeit, CO2 und VOC. Wenn die Räume
-                        zu warm oder zu stickig sind,
-                        können Sie rechtzeitig Abhilfe schaffen und den Komfort
-                        Ihrer Gäste verbessern.
+                        Das SQ-Panel überwacht alle relevanten Raumluftparameter
+                        wie Temperatur, Luftfeuchtigkeit, CO2 und VOC. Wenn die
+                        Räume zu warm oder zu stickig sind, können Sie
+                        rechtzeitig Abhilfe schaffen und den Komfort Ihrer Gäste
+                        verbessern.
                       </>
                     )}
                   </p>
@@ -3480,7 +3480,10 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 from our community. To get early news, insights and potentially
                 get a free Eval-Kit for early bird testing of new features, pls
                 subscribe{' '}
-                <Link href="/product/sq-panel/launch-page" className="text-success">
+                <Link
+                  href="/product/sq-panel/launch-page"
+                  className="text-success"
+                >
                   <strong className="text-success">here </strong>
                 </Link>
                 and stay tuned.
@@ -3515,7 +3518,8 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
                     <div style={{ padding: '10px' }}>
                       <h6 className="text-success">
-                        Carenuity SQ Panel - Your intelligent Air Quality Display
+                        Carenuity SQ Panel - Your intelligent Air Quality
+                        Display
                       </h6>
                       <p>
                         The Carenuity SQ-Panel is an intelligent, networkable

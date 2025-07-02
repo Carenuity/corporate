@@ -86,139 +86,171 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br />
             <h5 className="">
               {state === 'en' && <>The SQ-Panel is a perfect match for </>}
               {state === 'de' && (
                 <>Das SQ-Panel ist das perfekte Werkzeug für</>
               )}
             </h5>
-              <div className='row'>
-                <div className="col-lg-2 mb-4">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-panel-plus/launch.jpeg" 
-                width="162" 
-                height="150" 
-                alt="SQ-UseCases"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-               
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-                </div>
-                <div className="col-lg-8 mb-4">
- <ul className="col-lg-6 mb-10">
-              <li>
-                {state === 'en' && (
-                  <>
-                    <Link href="/product/sq-panel/property-managers" target='blank'>
-                      <u>Facility managers & property managers</u>
-                    </Link>
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                    <Link href="/product/sq-panel/property-managers" target='blank'>
-                      <u>Facility Manager & Immobilienverwalter</u>
-                    </Link>
-                  </>
-                )}
-              </li>
-              <li>
-                {state === 'en' && (
-                  <>
-                    <Link href="/product/sq-panel/smart-home-enthusiasts" target='blank'>
-                      <u>Smart home enthusiasts</u>
-                    </Link>
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                    <Link href="/product/sq-panel/smart-home-enthusiasts" target='blank'>
-                      <u>Smart-Home-Enthusiasten</u>
-                    </Link>
-                  </>
-                )}
-              </li>
-              <li>
-                {state === 'en' && (
-                  <>
-                    <Link href="/product/sq-panel/commercial-operators" target='blank'>
-                      <u>Office/commercial operators</u>
-                    </Link>
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                    <Link href="/product/sq-panel/commercial-operators" target='blank'>
-                      <u>Büro-/Gewerbebetreiber</u>
-                    </Link>
-                  </>
-                )}
-              </li>
-              <li>
-                {state === 'en' && (
-                  <>
-                    <Link href="/product/sq-panel/smart-care-providers" target='blank'>
-                      <u>Care facilities / smart care providers</u>
-                    </Link>
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                    <Link href="/product/sq-panel/smart-care-providers" target='blank'>
-                      <u>Pflegeeinrichtungen / Smart Care Anbieter</u>
-                    </Link>
-                  </>
-                )}
-              </li>
-              <li>
-                {state === 'en' && (
-                  <>
-                    <Link href="/product/sq-panel/health-conscious-longevity-enthusiasts" target='blank'>
-                      <u>Private households with a focus on health</u>
-                    </Link>
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                    <Link href="/product/sq-panel/health-conscious-longevity-enthusiasts" target='blank'>
-                      <u>Privathaushalte mit Fokus auf Gesundheit</u>
-                    </Link>
-                  </>
-                )}
-              </li>
-              <li>
-                {state === 'en' && (
-                  <>
-                      <Link href="/product/sq-panel/schools-and-kindergarden" target='blank'>
-                    <u>Schools and Kindergarden</u> 
-                    </Link>
-                    
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                    <Link href="/product/sq-panel/schools-and-kindergarden" target='blank'>
-                    <u>Schulen und Kindergärten</u> 
-                   </Link>
-                  </>
-                )}
-              </li>
-            </ul>
-                </div>
+            <div className="row">
+              <div className="col-lg-2 mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/sq-panel-plus/launch.jpeg"
+                  width="162"
+                  height="150"
+                  alt="SQ-UseCases"
+                  className=" wow fadeInUp"
+                  data-wow-delay="100ms"
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
               </div>
-           
+              <div className="col-lg-8 mb-4">
+                <ul className="col-lg-6 mb-10">
+                  <li>
+                    {state === 'en' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/property-managers"
+                          target="blank"
+                        >
+                          <u>Facility managers & property managers</u>
+                        </Link>
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/property-managers"
+                          target="blank"
+                        >
+                          <u>Facility Manager & Immobilienverwalter</u>
+                        </Link>
+                      </>
+                    )}
+                  </li>
+                  <li>
+                    {state === 'en' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/smart-home-enthusiasts"
+                          target="blank"
+                        >
+                          <u>Smart home enthusiasts</u>
+                        </Link>
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/smart-home-enthusiasts"
+                          target="blank"
+                        >
+                          <u>Smart-Home-Enthusiasten</u>
+                        </Link>
+                      </>
+                    )}
+                  </li>
+                  <li>
+                    {state === 'en' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/commercial-operators"
+                          target="blank"
+                        >
+                          <u>Office/commercial operators</u>
+                        </Link>
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/commercial-operators"
+                          target="blank"
+                        >
+                          <u>Büro-/Gewerbebetreiber</u>
+                        </Link>
+                      </>
+                    )}
+                  </li>
+                  <li>
+                    {state === 'en' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/smart-care-providers"
+                          target="blank"
+                        >
+                          <u>Care facilities / smart care providers</u>
+                        </Link>
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/smart-care-providers"
+                          target="blank"
+                        >
+                          <u>Pflegeeinrichtungen / Smart Care Anbieter</u>
+                        </Link>
+                      </>
+                    )}
+                  </li>
+                  <li>
+                    {state === 'en' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/health-conscious-longevity-enthusiasts"
+                          target="blank"
+                        >
+                          <u>Private households with a focus on health</u>
+                        </Link>
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/health-conscious-longevity-enthusiasts"
+                          target="blank"
+                        >
+                          <u>Privathaushalte mit Fokus auf Gesundheit</u>
+                        </Link>
+                      </>
+                    )}
+                  </li>
+                  <li>
+                    {state === 'en' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/schools-and-kindergarden"
+                          target="blank"
+                        >
+                          <u>Schools and Kindergarden</u>
+                        </Link>
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        <Link
+                          href="/product/sq-panel/schools-and-kindergarden"
+                          target="blank"
+                        >
+                          <u>Schulen und Kindergärten</u>
+                        </Link>
+                      </>
+                    )}
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-           
             {/* <form
               method="post"
               className=" mb-20"
@@ -407,41 +439,32 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 )}
               </p>
             </div>
-            <hr/>
+            <hr />
           </div>
-            <br/>
-            <br/>
-           <div
-              id="subscribe"
-              className=" mb-4"
-              style={{ textAlign: 'center' }}
-            >
-              <h3>
-                {state === 'en' && (
-                  <>
-                   Subscribe to the waiting list for early bird
-                    discount!
-                  </>
-                )}
-                {state === 'de' && (
-                  <>
-                   Tragen Sie sich in die Warteliste ein
-                    und sichern Sie sich den Frühbucherrabatt!
-                  </>
-                )}
-              </h3>
-              <p>
-                {state === 'en' && (
-                  <>Sign up for exclusive product launch discounts!</>
-                )}
-                {state === 'de' && (
-                  <>
-                    Melden Sie sich für exklusive Produkteinführungsrabatte an!
-                  </>
-                )}
-              </p>
-            </div>
-            <SubscriptionWidget categoryId={1} />
+          <br />
+          <br />
+          <div id="subscribe" className=" mb-4" style={{ textAlign: 'center' }}>
+            <h3>
+              {state === 'en' && (
+                <>Subscribe to the waiting list for early bird discount!</>
+              )}
+              {state === 'de' && (
+                <>
+                  Tragen Sie sich in die Warteliste ein und sichern Sie sich den
+                  Frühbucherrabatt!
+                </>
+              )}
+            </h3>
+            <p>
+              {state === 'en' && (
+                <>Sign up for exclusive product launch discounts!</>
+              )}
+              {state === 'de' && (
+                <>Melden Sie sich für exklusive Produkteinführungsrabatte an!</>
+              )}
+            </p>
+          </div>
+          <SubscriptionWidget categoryId={1} />
         </div>
       </section>
     </>
