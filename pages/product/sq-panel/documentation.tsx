@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import { useContext } from 'react';
 import PageTitle from '../../../components/PageTitle';
@@ -9,6 +9,8 @@ import Link from 'next/link';
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Documentation';
   const { state } = useContext(LanguageSwitchContext);
+  const [italy, setItaly] = useState(false);
+
   return (
     <>
       <Translatable />
@@ -34,13 +36,28 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
+          <label className={'btn btn-sm btn-success rounded-pill'}>
+            {state === 'en' && !italy && <>Read In Italian</>}
+            {state === 'de' && !italy && <>Auf Italienisch lesen</>}
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            {italy && <>Spegni l'italiano</>}
+
+            <input
+              type="checkbox"
+              className="d-none"
+              onChange={(e) => {
+                const checked = e.target.checked;
+                setItaly(checked);
+              }}
+            />
+          </label>
           <h4 className="mn-4">
-            {state === 'en' && <>Documentation</>}
-            {state === 'de' && <>Documentation</>}
-            {/* {state === 'it' && <>Documentazione</>} */}
+            {state === 'en' && !italy && <>Documentation</>}
+            {state === 'de' && !italy && <>Documentation</>}
+            {italy && <>Documentazione</>}
           </h4>
           <p className="mn-4">
-            {state === 'en' && (
+            {state === 'en' && !italy && (
               <>
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
@@ -103,7 +120,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </>
             )}
-            {state === 'de' && (
+
+            {state === 'de' && !italy && (
               <>
                 <div className="d-flex align-items-center">
                   <i className="ti-check display-31 text-black"></i>
@@ -166,69 +184,70 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </>
             )}
-            {/* {state === 'it' && (
-            <>
-              <div className="d-flex align-items-center">
-                <i className="ti-check display-31 text-black"></i>
-                <a
-                  href="/docs/datasheet-it.PDF"
-                  target="_blank"
-                  className="ms-2 link-success"
-                  rel="noreferrer"
-                >
-                  Scheda tecnica V.1.3.0 [PDF]
-                </a>
-              </div>
 
-              <div className="d-flex align-items-center">
-                <i className="ti-check display-31 text-black"></i>
-                <a
-                  href="/docs/declaration-it.PDF"
-                  target="_blank"
-                  className="ms-2 link-success"
-                  rel="noreferrer"
-                >
-                  Dichiarazione di conformità V.1.3.0 [PDF]
-                </a>
-              </div>
+            {italy && (
+              <>
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/datasheet-it.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Scheda tecnica V.1.3.0 [PDF]
+                  </a>
+                </div>
 
-              <div className="d-flex align-items-center">
-                <i className="ti-check display-31 text-black"></i>
-                <a
-                  href="/docs/leaflet-it.PDF"
-                  target="_blank"
-                  className="ms-2 link-success"
-                  rel="noreferrer"
-                >
-                  Foglio illustrativo V1.0.0 [PDF]
-                </a>
-              </div>
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/declaration-it.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Dichiarazione di conformità V.1.3.0 [PDF]
+                  </a>
+                </div>
 
-              <div className="d-flex align-items-center">
-                <i className="ti-check display-31 text-black"></i>
-                <a
-                  href="/docs/commisioning-it.PDF"
-                  target="_blank"
-                  className="ms-2 link-success"
-                  rel="noreferrer"
-                >
-                  Manuale di messa in servizio 1.0.3 [PDF]
-                </a>
-              </div>
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/leaflet-it.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Foglio illustrativo V1.0.0 [PDF]
+                  </a>
+                </div>
 
-              <div className="d-flex align-items-center">
-                <i className="ti-check display-31 text-black"></i>
-                <a
-                  href="../../serial-number"
-                  target="_blank"
-                  className="ms-2 link-success"
-                  rel="noreferrer"
-                >
-                  Numero di serie V2.0.1 [PDF]
-                </a>
-              </div>
-            </>
-          )} */}
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="/docs/commisioning-it.PDF"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Manuale di messa in servizio 1.0.3 [PDF]
+                  </a>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <i className="ti-check display-31 text-black"></i>
+                  <a
+                    href="../../serial-number"
+                    target="_blank"
+                    className="ms-2 link-success"
+                    rel="noreferrer"
+                  >
+                    Numero di serie V2.0.1 [PDF]
+                  </a>
+                </div>
+              </>
+            )}
           </p>
           <p style={{ textAlign: 'center' }}>
             {!isMobile && (
