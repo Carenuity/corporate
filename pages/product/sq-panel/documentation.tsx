@@ -36,27 +36,14 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
       <section className="pt-4">
         <div className="container">
-          <label className={'btn btn-sm btn-success rounded-pill'}>
-            {state === 'en' && !italy && <>Read In Italian</>}
-            {state === 'de' && !italy && <>Auf Italienisch lesen</>}
-            {/* eslint-disable-next-line react/no-unescaped-entities */}
-            {italy && <>Spegni l'italiano</>}
-
-            <input
-              type="checkbox"
-              className="d-none"
-              onChange={(e) => {
-                const checked = e.target.checked;
-                setItaly(checked);
-              }}
-            />
-          </label>
-          <h4 className="mn-4">
+          <div className='row  mb-8'>
+            <div className='col-lg-9'>
+              <h4 className="">
             {state === 'en' && !italy && <>Documentation</>}
             {state === 'de' && !italy && <>Documentation</>}
             {italy && <>Documentazione</>}
           </h4>
-          <p className="mn-4">
+          <p className="">
             {state === 'en' && !italy && (
               <>
                 <div className="d-flex align-items-center">
@@ -249,7 +236,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </p>
-          <p style={{ textAlign: 'center' }}>
+         
+          </div>
+          <div className='col-lg-3' style={{textAlign:"right"}}>
+            <label className={'btn btn-sm btn-success rounded-pill'}>
+            {state === 'en' && !italy && <>Read In Italian</>}
+            {state === 'de' && !italy && <>Auf Italienisch lesen</>}
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            {italy && <>Spegni l'italiano</>}
+
+            <input
+              type="checkbox"
+              className="d-none"
+              onChange={(e) => {
+                const checked = e.target.checked;
+                setItaly(checked);
+              }}
+            />
+          </label>
+          </div>
+          </div>
+           <p style={{ textAlign: 'center' }}>
             {!isMobile && (
               <Link
                 href={'/install-for-free'}
@@ -273,6 +280,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </a>
             )}
           </p>
+          
         </div>
       </section>
     </>
