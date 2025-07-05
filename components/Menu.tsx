@@ -346,7 +346,7 @@ const Menu = ({
                     className="text-nowrap"
                     style={{ textAlign: 'left' }}
                   >
-                    🔑 Get GWeather API Key
+                    🔑 Get Q-Weather API Key
                   </Link>
                 </li>
 

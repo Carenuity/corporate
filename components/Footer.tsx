@@ -136,7 +136,7 @@ const Footer = ({ isMobile }: { isMobile: boolean }) => {
                 </h3>
                 <ul className="footer-link mb-0 list-unstyled">
                   <li className="text-white mb-3">
-                    <strong>Adress:</strong>{' '}
+                    <strong>Address:</strong>{' '}
                     <span className="opacity8">
                       {state.companyInfo.address[0]} <br />
                       {state.companyInfo.address[1]} <br />
