@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import PageTitle from '../components/PageTitle';
+import SolutionWidget from '../components/SolutionWidget';
 
 const Page = () => {
   const pageTitle = 'Get ThingSpeak API Key';
@@ -96,6 +97,10 @@ const Page = () => {
                 </a>
                 .
               </p>
+            </div>
+
+            <div className="col-lg-8 wow fadeIn mt-3">
+              <SolutionWidget solutionId="Wxzylq6d697T6mkUL74J" />
             </div>
           </div>
         </div>

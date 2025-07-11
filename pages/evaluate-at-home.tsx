@@ -419,9 +419,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                             <p className="col-md-6 mb-4">
                               {!isMobile && (
                                 <Link
-                                  href={
-                                    ' https://carenuity.netlify.app/c3-mini/'
-                                  }
+                                  href={'/c3-mini'}
                                   target="_blank"
                                   className={
                                     'btn btn-sm btn-success rounded-pill'
@@ -436,9 +434,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                               {isMobile && (
                                 <a
-                                  href={
-                                    ' https://carenuity.netlify.app/c3-mini/'
-                                  }
+                                  href={'/c3-mini'}
                                   target="_blank"
                                   className={
                                     'btn btn-sm btn-success rounded-pill'

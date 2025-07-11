@@ -4,6 +4,7 @@ import PageTitle from '../components/PageTitle';
 import img1 from '../public/img/adafruit_api/step1.png';
 import img2 from '../public/img/adafruit_api/step2.png';
 import Image from 'next/image';
+import SolutionWidget from '../components/SolutionWidget';
 
 const Page = () => {
   const pageTitle = 'Get Adafruit IO API Key';
@@ -106,6 +107,9 @@ const Page = () => {
                 </a>
                 .
               </p>
+            </div>
+            <div className="col-lg-8 wow fadeIn mt-3">
+              <SolutionWidget solutionId="Wxzylq6d697T6mkUL74J" />
             </div>
           </div>
         </div>
