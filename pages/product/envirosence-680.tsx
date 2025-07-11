@@ -18,6 +18,33 @@ const Page = () => {
           name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
+
+      {/* JSON-LD structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "EnviroSence 680",
+              "image": "/img/content/envirosence/envirosence.jpeg",
+              "description": "Advanced environmental monitoring device with BME680 sensor and ESP-C3 microcontroller for real-time temperature, humidity, pressure, altitude, gas concentration, and AQI.",
+              "sku": "CSB-ES680",
+              "brand": {
+                "@type": "Brand",
+                "name": "Carenuity"
+              },
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "EUR",
+                "price": "149.00",
+                "availability": "https://schema.org/InStock",
+                "url": "https://carenuity.com/product/envirosence-680"
+              }
+            })
+          }}
+        />
+
         <title>{pageTitle}</title>
       </Head>
 
