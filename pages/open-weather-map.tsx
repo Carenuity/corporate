@@ -7,8 +7,10 @@ import img3 from '../public/img/content/open-weather/ow-3.png';
 import img4 from '../public/img/content/open-weather/ow-4.png';
 import img5 from '../public/img/content/open-weather/ow-5.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
-const OpenWeatherMap = () => {
+
+const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Get OpenWeather API Key';
   return (
     <>
@@ -102,7 +104,7 @@ const OpenWeatherMap = () => {
               {/* <img src="/img/content/open-weather/Weather-key.png" alt="" /> */}
             </div>
             <div
-              className="col-lg-12 wow fadeIn"
+              className="col-lg-12 wow fadeIn mb-8"
               data-wow-delay="200ms"
               style={{
                 visibility: 'visible',
@@ -125,6 +127,37 @@ const OpenWeatherMap = () => {
                 & visit their pages for more projects with their wonderful Kits.
               </p>
             </div>
+
+             <p className=" " style={{textAlign:"center"}}>
+                {!isMobile && (
+                  <Link
+                    href={'https://solutions.carenuity.com/ '}
+                    target='blank'
+                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    style={{ color: 'white' }}
+                  >
+                    <span className="small">
+                      Enjoy more free Apps on Solution Builder
+                      
+                    </span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'https://solutions.carenuity.com/'}
+                    target='blank'
+                    className={'btn btn-lg btn-success rounded-pill'}
+                    style={{ color: 'white' }}
+                  >
+                    <span className="small">
+                     Enjoy more free Apps on Solution Builder
+                     
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
           </div>
         </div>
       </section>

@@ -342,7 +342,7 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
-                    href={'/gweather'}
+                    href={'/q-weather'}
                     className="text-nowrap"
                     style={{ textAlign: 'left' }}
                   >

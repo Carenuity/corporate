@@ -298,6 +298,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   href={'/product/sq-panel/launch-page'}
                   target="_blank"
                   className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
                 >
                   <span className="small"> Get the SQ-Panel now</span>
                 </Link>
@@ -308,6 +309,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   href={'/product/sq-panel/launch-page'}
                   target="_blank"
                   className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
                   rel="noreferrer"
                 >
                   <span className="small">
@@ -323,6 +325,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   href={'/sq-panel'}
                   target="_blank"
                   className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
                 >
                   <span className="small"> Learn more on SQ-Panel</span>
                 </Link>
@@ -333,6 +336,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   href={'/sq-panel'}
                   target="_blank"
                   className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
                   rel="noreferrer"
                 >
                   <span className="small">

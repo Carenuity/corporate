@@ -12,8 +12,10 @@ import img8 from '../public/img/youtube_api/step8.png';
 import img9 from '../public/img/youtube_api/step9.png';
 import img10 from '../public/img/youtube_api/step10.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
-const Page = () => {
+
+const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Get YouTube API Key';
   return (
     <>
@@ -177,7 +179,7 @@ const Page = () => {
               <Image src={img9} alt="step nine" />
             </div>
             <div
-              className="col-lg-12 wow fadeIn"
+              className="col-lg-12 wow fadeIn mb-8"
               data-wow-delay="200ms"
               style={{
                 visibility: 'visible',
@@ -188,6 +190,38 @@ const Page = () => {
               <h3>Step 10</h3>
               <Image src={img10} alt="step ten" />
             </div>
+
+
+             <p className=" " style={{textAlign:"center"}}>
+                {!isMobile && (
+                  <Link
+                    href={'https://solutions.carenuity.com/ '}
+                    target='blank'
+                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                    style={{ color: 'white' }}
+                  >
+                    <span className="small">
+                      Enjoy more free Apps on Solution Builder
+                      
+                    </span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'https://solutions.carenuity.com/'}
+                    target='blank'
+                    className={'btn btn-lg btn-success rounded-pill'}
+                    style={{ color: 'white' }}
+                  >
+                    <span className="small">
+                     Enjoy more free Apps on Solution Builder
+                     
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
           </div>
         </div>
       </section>

@@ -1119,6 +1119,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   href={'/install-for-free'}
                   target="blank"
                   className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
                 >
                   <span className="small">Install-for-Free </span>
                 </Link>
@@ -1129,6 +1130,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   href={'/install-for-free'}
                   target="blank"
                   className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
                 >
                   <span className="small">
                     Install-for-Free{' '}
