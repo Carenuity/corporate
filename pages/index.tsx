@@ -49,8 +49,12 @@ export default function Home({
           content="Carenuity ChipGlobe Electronics Embedded Systems"
         />
         <meta name="description" content="Real Estate Electronics Matter" />
+
+       
         <title>Carenuity</title>
       </Head>
+      
+
 
       {/* <!-- BANNER
         ================================================== --> */}

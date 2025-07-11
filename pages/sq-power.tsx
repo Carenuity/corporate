@@ -21,6 +21,32 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "SQ-Power",
+              "image": "https://carenuity.netlify.app/img/content/sq-power/sq-power-main.jpg",
+              "description": "SQ-Power is a smart panel designed for power consumption monitoring, energy optimization, and safety management in modern buildings and industrial setups.",
+              "sku": "CSB-SQP001",
+              "brand": {
+                "@type": "Brand",
+                "name": "Carenuity"
+              },
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "EUR",
+                "price": "53.49",
+                "availability": "https://schema.org/InStock",
+                "url": "https://carenuity.netlify.app/sq-power"
+              }
+            })
+          }}
+        />
+
         <title>{pageTitle}</title>
       </Head>
 
@@ -445,7 +471,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 target="_blank"
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
+                                  
                                 }
+                                style={{ color: 'white' }}
                               >
                                 <span className="small"> Jetzt kaufen</span>
                               </Link>
@@ -460,6 +488,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
                                 }
+                                style={{ color: 'white' }}
                                 rel="noreferrer"
                               >
                                 <span className="small">
@@ -548,6 +577,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 href={''}
                                 target="_blank"
                                 className={'btn  btn-success rounded-pill '}
+                                
                               >
                                 <span className="small"> Buy Now</span>
                               </Link>
@@ -560,6 +590,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 className={
                                   'btn btn-sm btn-success rounded-pill  width:"190px"'
                                 }
+                                style={{ color: 'white' }}
                                 rel="noreferrer"
                               >
                                 <span className="small">

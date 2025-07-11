@@ -21,6 +21,32 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
+        {/* JSON-LD structured data */}
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": "Plant Bar",
+                "image": "https://carenuity.netlify.app/img/content/plant-bar/plant-bar.jpg",
+                "description": "Plant Bar sensor system for monitoring soil moisture, temperature, and light, enabling precision care in smart gardening and agriculture.",
+                "sku": "CSB-PB001",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Carenuity"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "priceCurrency": "EUR",
+                  "price": "1.11",
+                  "availability": "https://schema.org/InStock",
+                  "url": "https://carenuity.netlify.app/product/plant-bar"
+                }
+              })
+            }}
+          />
+
         <title>{pageTitle}</title>
       </Head>
 
