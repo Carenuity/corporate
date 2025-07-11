@@ -39,7 +39,7 @@ const Page = () => {
                 "priceCurrency": "EUR",
                 "price": "149.00",
                 "availability": "https://schema.org/InStock",
-                "url": "https://carenuity.com/product/envirosence-680"
+                "url": "https://carenuity.netlify.app/product/envirosence-680"
               }
             })
           }}
