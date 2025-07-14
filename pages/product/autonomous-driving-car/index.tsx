@@ -22,31 +22,33 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
-          {/* JSON-LD structured data */}
-            <script
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{
-                __html: JSON.stringify({
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Autonomous Driving Car",
-                  "image": "https://carenuity.netlify.app/img/content/autonomous-car/car-demo.jpg",
-                  "description": "Educational autonomous driving car platform featuring sensors and embedded systems, ideal for learning machine vision, obstacle avoidance, and smart driving algorithms.",
-                  "sku": "CSB-ADC001",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Carenuity"
-                  },
-                  "offers": {
-                    "@type": "Offer",
-                    "priceCurrency": "EUR",
-                    "price": "495.04",
-                    "availability": "https://schema.org/InStock",
-                    "url": "https://carenuity.netlify.app/product/autonomous-driving-car"
-                  }
-                })
-              }}
-            />
+        {/* JSON-LD structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/',
+              '@type': 'Product',
+              name: 'Autonomous Driving Car',
+              image:
+                'https://carenuity.netlify.app/img/content/autonomous-car/car-demo.jpg',
+              description:
+                'Educational autonomous driving car platform featuring sensors and embedded systems, ideal for learning machine vision, obstacle avoidance, and smart driving algorithms.',
+              sku: 'CSB-ADC001',
+              brand: {
+                '@type': 'Brand',
+                name: 'Carenuity',
+              },
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'EUR',
+                price: '495.04',
+                availability: 'https://schema.org/InStock',
+                url: 'https://carenuity.netlify.app/product/autonomous-driving-car',
+              },
+            }),
+          }}
+        />
         <title>{pageTitle}</title>
       </Head>
 

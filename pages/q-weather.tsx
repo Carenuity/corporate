@@ -3,10 +3,7 @@ import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 
-
 const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
-
-
   const pageTitle = 'Get OpenWeather API Key';
   return (
     <>
@@ -158,34 +155,32 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
               }}
             ></div> */}
 
-             <p className=" " style={{textAlign:"center"}}>
-                {!isMobile && (
-                  <Link
-                    href={'https://solutions.carenuity.com/ '}
-                    target='blank'
-                    className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
-                  >
-                    <span className="small">
-                      Enjoy more free Apps on Solution Builder
-                      
-                    </span>
-                  </Link>
-                )}
+            <p className=" " style={{ textAlign: 'center' }}>
+              {!isMobile && (
+                <Link
+                  href={'https://solutions.carenuity.com/ '}
+                  target="blank"
+                  className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
+                >
+                  <span className="small">
+                    Enjoy more free Apps on Solution Builder
+                  </span>
+                </Link>
+              )}
 
-                {isMobile && (
-                  <a
-                    href={'https://solutions.carenuity.com/'}
-                    target='blank'
-                    className={'btn btn-lg btn-success rounded-pill'}
-                  >
-                    <span className="small">
-                     Enjoy more free Apps on Solution Builder
-                     
-                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                    </span>
-                  </a>
-                )}
-              </p>
+              {isMobile && (
+                <a
+                  href={'https://solutions.carenuity.com/'}
+                  target="blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                >
+                  <span className="small">
+                    Enjoy more free Apps on Solution Builder
+                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                  </span>
+                </a>
+              )}
+            </p>
           </div>
         </div>
       </section>

@@ -26,24 +26,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": "SQ-Power",
-              "image": "https://carenuity.netlify.app/img/content/sq-power/sq-power-main.jpg",
-              "description": "SQ-Power is a smart panel designed for power consumption monitoring, energy optimization, and safety management in modern buildings and industrial setups.",
-              "sku": "CSB-SQP001",
-              "brand": {
-                "@type": "Brand",
-                "name": "Carenuity"
+              '@context': 'https://schema.org/',
+              '@type': 'Product',
+              name: 'SQ-Power',
+              image:
+                'https://carenuity.netlify.app/img/content/sq-power/sq-power-main.jpg',
+              description:
+                'SQ-Power is a smart panel designed for power consumption monitoring, energy optimization, and safety management in modern buildings and industrial setups.',
+              sku: 'CSB-SQP001',
+              brand: {
+                '@type': 'Brand',
+                name: 'Carenuity',
               },
-              "offers": {
-                "@type": "Offer",
-                "priceCurrency": "EUR",
-                "price": "53.49",
-                "availability": "https://schema.org/InStock",
-                "url": "https://carenuity.netlify.app/sq-power"
-              }
-            })
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'EUR',
+                price: '53.49',
+                availability: 'https://schema.org/InStock',
+                url: 'https://carenuity.netlify.app/sq-power',
+              },
+            }),
           }}
         />
 
@@ -471,7 +473,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 target="_blank"
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
-                                  
                                 }
                                 style={{ color: 'white' }}
                               >
@@ -577,7 +578,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 href={''}
                                 target="_blank"
                                 className={'btn  btn-success rounded-pill '}
-                                
                               >
                                 <span className="small"> Buy Now</span>
                               </Link>

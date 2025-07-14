@@ -286,7 +286,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </p>
-         <div className="row" style={{ textAlign: 'center' }}>
+          <div className="row" style={{ textAlign: 'center' }}>
             <p className="col-md-2 mb-4"></p>
             <p className="col-md-4 mb-4">
               {!isMobile && (

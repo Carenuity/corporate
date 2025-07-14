@@ -45,31 +45,33 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
 
-         {/* JSON-LD structured data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "Product",
-            "name": "SQ-Panel",
-            "image": "https://carenuity.netlify.app/img/content/sq-panel/sq-panel-main.jpg",
-            "description": "SQ-Panel is a modular smart panel solution for indoor air quality, environmental, and safety monitoring, adaptable for offices, schools, hospitals, and smart buildings.",
-            "sku": "CSB-SQ001",
-            "brand": {
-              "@type": "Brand",
-              "name": "Carenuity"
-            },
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "EUR",
-              "price": "236.81",
-              "availability": "https://schema.org/InStock",
-              "url": "https://carenuity.netlify.app/sq-panel"
-            }
-          })
-        }}
-      />
+        {/* JSON-LD structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/',
+              '@type': 'Product',
+              name: 'SQ-Panel',
+              image:
+                'https://carenuity.netlify.app/img/content/sq-panel/sq-panel-main.jpg',
+              description:
+                'SQ-Panel is a modular smart panel solution for indoor air quality, environmental, and safety monitoring, adaptable for offices, schools, hospitals, and smart buildings.',
+              sku: 'CSB-SQ001',
+              brand: {
+                '@type': 'Brand',
+                name: 'Carenuity',
+              },
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'EUR',
+                price: '236.81',
+                availability: 'https://schema.org/InStock',
+                url: 'https://carenuity.netlify.app/sq-panel',
+              },
+            }),
+          }}
+        />
         <title>{pageTitle}</title>
       </Head>
 

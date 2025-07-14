@@ -26,24 +26,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": "SQ-Tablestand",
-              "image": "https://carenuity.netlify.app/img/content/sq-tablestand/sq-tablestand-main.jpg",
-              "description": "SQ-Tablestand is a portable smart module designed for tabletop monitoring of environmental and power parameters, ideal for offices, labs, and smart workspaces.",
-              "sku": "CSB-SQT001",
-              "brand": {
-                "@type": "Brand",
-                "name": "Carenuity"
+              '@context': 'https://schema.org/',
+              '@type': 'Product',
+              name: 'SQ-Tablestand',
+              image:
+                'https://carenuity.netlify.app/img/content/sq-tablestand/sq-tablestand-main.jpg',
+              description:
+                'SQ-Tablestand is a portable smart module designed for tabletop monitoring of environmental and power parameters, ideal for offices, labs, and smart workspaces.',
+              sku: 'CSB-SQT001',
+              brand: {
+                '@type': 'Brand',
+                name: 'Carenuity',
               },
-              "offers": {
-                "@type": "Offer",
-                "priceCurrency": "EUR",
-                "price": "34.11",
-                "availability": "https://schema.org/InStock",
-                "url": "https://carenuity.netlify.app/sq-tablestand"
-              }
-            })
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'EUR',
+                price: '34.11',
+                availability: 'https://schema.org/InStock',
+                url: 'https://carenuity.netlify.app/sq-tablestand',
+              },
+            }),
           }}
         />
 
@@ -568,7 +570,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
                                 }
-                                 style={{ color: 'white' }}
+                                style={{ color: 'white' }}
                               >
                                 <span className="small"> Jetzt kaufen</span>
                               </Link>
@@ -583,7 +585,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                                 className={
                                   'btn btn-sm btn-success rounded-pill'
                                 }
-                                 style={{ color: 'white' }}
+                                style={{ color: 'white' }}
                                 rel="noreferrer"
                               >
                                 <span className="small">

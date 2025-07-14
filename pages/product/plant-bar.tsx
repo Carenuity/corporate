@@ -23,29 +23,31 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         />
         {/* JSON-LD structured data */}
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org/",
-                "@type": "Product",
-                "name": "Plant Bar",
-                "image": "https://carenuity.netlify.app/img/content/plant-bar/plant-bar.jpg",
-                "description": "Plant Bar sensor system for monitoring soil moisture, temperature, and light, enabling precision care in smart gardening and agriculture.",
-                "sku": "CSB-PB001",
-                "brand": {
-                  "@type": "Brand",
-                  "name": "Carenuity"
-                },
-                "offers": {
-                  "@type": "Offer",
-                  "priceCurrency": "EUR",
-                  "price": "1.11",
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://carenuity.netlify.app/product/plant-bar"
-                }
-              })
-            }}
-          />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/',
+              '@type': 'Product',
+              name: 'Plant Bar',
+              image:
+                'https://carenuity.netlify.app/img/content/plant-bar/plant-bar.jpg',
+              description:
+                'Plant Bar sensor system for monitoring soil moisture, temperature, and light, enabling precision care in smart gardening and agriculture.',
+              sku: 'CSB-PB001',
+              brand: {
+                '@type': 'Brand',
+                name: 'Carenuity',
+              },
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'EUR',
+                price: '1.11',
+                availability: 'https://schema.org/InStock',
+                url: 'https://carenuity.netlify.app/product/plant-bar',
+              },
+            }),
+          }}
+        />
 
         <title>{pageTitle}</title>
       </Head>

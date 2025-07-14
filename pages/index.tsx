@@ -50,11 +50,8 @@ export default function Home({
         />
         <meta name="description" content="Real Estate Electronics Matter" />
 
-       
         <title>Carenuity</title>
       </Head>
-      
-
 
       {/* <!-- BANNER
         ================================================== --> */}

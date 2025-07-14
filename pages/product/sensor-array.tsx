@@ -23,24 +23,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": "Sensor Array",
-              "image": "https://carenuity.netlify.app/img/content/sensor-array/sensor-array.jpg",
-              "description": "Multi-sensor array platform for real-time monitoring of environmental and vital parameters, ideal for IoT, healthcare, and smart building applications.",
-              "sku": "CSB-SA001",
-              "brand": {
-                "@type": "Brand",
-                "name": "Carenuity"
+              '@context': 'https://schema.org/',
+              '@type': 'Product',
+              name: 'Sensor Array',
+              image:
+                'https://carenuity.netlify.app/img/content/sensor-array/sensor-array.jpg',
+              description:
+                'Multi-sensor array platform for real-time monitoring of environmental and vital parameters, ideal for IoT, healthcare, and smart building applications.',
+              sku: 'CSB-SA001',
+              brand: {
+                '@type': 'Brand',
+                name: 'Carenuity',
               },
-              "offers": {
-                "@type": "Offer",
-                "priceCurrency": "EUR",
-                "price": "457.15",
-                "availability": "https://schema.org/InStock",
-                "url": "https://carenuity.netlify.app/product/sensor-array"
-              }
-            })
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'EUR',
+                price: '457.15',
+                availability: 'https://schema.org/InStock',
+                url: 'https://carenuity.netlify.app/product/sensor-array',
+              },
+            }),
           }}
         />
 

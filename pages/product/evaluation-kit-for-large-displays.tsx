@@ -17,7 +17,7 @@ const Page = () => {
         />
 
         {/* JSON-LD structured data */}
-        
+
         <title>{pageTitle}</title>
       </Head>
 
