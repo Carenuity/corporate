@@ -3,6 +3,7 @@ import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
 import SolutionWidget from '../../components/SolutionWidget';
 import Link from 'next/link';
+import { targetDomain } from '../../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'C3-Mini-Triple';
@@ -25,8 +26,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'C3 Mini Triple',
-              image:
-                'https://carenuity.netlify.app/img/content/c3-mini-triple/c3-mini-triple.jpg',
+              image: `${targetDomain}/img/content/c3-mini-triple/c3-mini-triple.jpg`,
               description:
                 'Compact embedded platform integrating ESP-C3 microcontroller with triple sensor capability, ideal for IoT and smart applications.',
               sku: 'CSB-C3T001',
@@ -39,7 +39,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '89.00',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/product/c3-mini-triple',
+                url: `${targetDomain}/product/c3-mini-triple`,
               },
             }),
           }}

@@ -5,6 +5,7 @@ import { useContext } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Translatable from '../components/Translatable';
 import Link from 'next/link';
+import { targetDomain } from '../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-Power';
@@ -29,8 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'SQ-Power',
-              image:
-                'https://carenuity.netlify.app/img/content/sq-power/sq-power-main.jpg',
+              image: `${targetDomain}/img/content/sq-power/sq-power-main.jpg`,
               description:
                 'SQ-Power is a smart panel designed for power consumption monitoring, energy optimization, and safety management in modern buildings and industrial setups.',
               sku: 'CSB-SQP001',
@@ -43,7 +43,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '53.49',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/sq-power',
+                url: `${targetDomain}/sq-power`,
               },
             }),
           }}

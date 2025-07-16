@@ -4,6 +4,7 @@ import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
 import Link from 'next/link';
 import Translatable from '../components/Translatable';
+import { targetDomain } from '../utils/constants';
 
 export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-Panel Sensor Display';
@@ -53,8 +54,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'SQ-Panel',
-              image:
-                'https://carenuity.netlify.app/img/content/sq-panel/sq-panel-main.jpg',
+              image: `${targetDomain}/img/content/sq-panel/sq-panel-main.jpg`,
               description:
                 'SQ-Panel is a modular smart panel solution for indoor air quality, environmental, and safety monitoring, adaptable for offices, schools, hospitals, and smart buildings.',
               sku: 'CSB-SQ001',
@@ -67,7 +67,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '236.81',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/sq-panel',
+                url: `${targetDomain}/sq-panel`,
               },
             }),
           }}

@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { useContext } from 'react';
 import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Translatable from '../../../components/Translatable';
+import { targetDomain } from '../../../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Autonomous Driving Car';
@@ -30,8 +31,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'Autonomous Driving Car',
-              image:
-                'https://carenuity.netlify.app/img/content/autonomous-car/car-demo.jpg',
+              image: `${targetDomain}/img/content/autonomous-car/car-demo.jpg`,
               description:
                 'Educational autonomous driving car platform featuring sensors and embedded systems, ideal for learning machine vision, obstacle avoidance, and smart driving algorithms.',
               sku: 'CSB-ADC001',
@@ -44,7 +44,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '495.04',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/product/autonomous-driving-car',
+                url: `${targetDomain}/product/autonomous-driving-car`,
               },
             }),
           }}

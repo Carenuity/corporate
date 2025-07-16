@@ -4,6 +4,7 @@ import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
 
 import Link from 'next/link';
+import { targetDomain } from '../../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Sensor Array';
@@ -26,8 +27,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'Sensor Array',
-              image:
-                'https://carenuity.netlify.app/img/content/sensor-array/sensor-array.jpg',
+              image: `${targetDomain}/img/content/sensor-array/sensor-array.jpg`,
               description:
                 'Multi-sensor array platform for real-time monitoring of environmental and vital parameters, ideal for IoT, healthcare, and smart building applications.',
               sku: 'CSB-SA001',
@@ -40,7 +40,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '457.15',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/product/sensor-array',
+                url: `${targetDomain}/product/sensor-array`,
               },
             }),
           }}

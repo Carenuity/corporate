@@ -5,6 +5,7 @@ import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
 import Link from 'next/link';
+import { targetDomain } from '../../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Plant Bar';
@@ -29,8 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'Plant Bar',
-              image:
-                'https://carenuity.netlify.app/img/content/plant-bar/plant-bar.jpg',
+              image: `${targetDomain}/img/content/plant-bar/plant-bar.jpg`,
               description:
                 'Plant Bar sensor system for monitoring soil moisture, temperature, and light, enabling precision care in smart gardening and agriculture.',
               sku: 'CSB-PB001',
@@ -43,7 +43,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '1.11',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/product/plant-bar',
+                url: `${targetDomain}/product/plant-bar`,
               },
             }),
           }}

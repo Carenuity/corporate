@@ -4,6 +4,7 @@ import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
 import SubscriptionWidget from '../../components/SubscriptionWidget';
 import SolutionWidget from '../../components/SolutionWidget';
+import { targetDomain } from '../../utils/constants';
 
 const Page = () => {
   const pageTitle = 'Envirosence 680';
@@ -40,7 +41,7 @@ const Page = () => {
                 priceCurrency: 'EUR',
                 price: '149.00',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/product/envirosence-680',
+                url: `${targetDomain}/product/envirosence-680`,
               },
             }),
           }}

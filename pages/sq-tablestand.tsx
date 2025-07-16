@@ -5,6 +5,7 @@ import { useContext } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Translatable from '../components/Translatable';
 import Link from 'next/link';
+import { targetDomain } from '../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-TableStand';
@@ -29,8 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'SQ-Tablestand',
-              image:
-                'https://carenuity.netlify.app/img/content/sq-tablestand/sq-tablestand-main.jpg',
+              image: `${targetDomain}/img/content/sq-tablestand/sq-tablestand-main.jpg`,
               description:
                 'SQ-Tablestand is a portable smart module designed for tabletop monitoring of environmental and power parameters, ideal for offices, labs, and smart workspaces.',
               sku: 'CSB-SQT001',
@@ -43,7 +43,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 priceCurrency: 'EUR',
                 price: '34.11',
                 availability: 'https://schema.org/InStock',
-                url: 'https://carenuity.netlify.app/sq-tablestand',
+                url: `${targetDomain}/sq-tablestand`,
               },
             }),
           }}

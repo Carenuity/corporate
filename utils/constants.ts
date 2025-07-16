@@ -199,3 +199,5 @@ export const microcontrollers: any = {
 
 export const NewsletterHostname =
   'https://newsletter-test-dot-solution-builder-421307.ew.r.appspot.com';
+
+export const targetDomain = 'https://carenuity.netlify.app'; // https://carenuity.com
