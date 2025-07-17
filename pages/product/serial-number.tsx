@@ -20,6 +20,7 @@ const Page = () => {
           name="description"
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
+        {/* JSON-LD structured data */}
         <title>{pageTitle}</title>
       </Head>
 

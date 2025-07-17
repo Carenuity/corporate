@@ -291,7 +291,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="col-md-4 mb-4">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/shopcar.png"
+                        src="/img/content/autonomous/shopcar.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."

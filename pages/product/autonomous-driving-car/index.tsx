@@ -498,7 +498,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus1.png"
+                        src="/img/content/autonomous/autonomus1.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -541,7 +541,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus1.png"
+                        src="/img/content/autonomous/autonomus1.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -585,7 +585,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus2.png"
+                        src="/img/content/autonomous/autonomus2.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -625,7 +625,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus2.png"
+                        src="/img/content/autonomous/autonomus2.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -666,7 +666,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus3.png"
+                        src="/img/content/autonomous/autonomus3.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -706,7 +706,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus3.png"
+                        src="/img/content/autonomous/autonomus3.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -1433,7 +1433,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/Autonomous/shopcar.PNG"
+                        src="/img/content/autonomous/shopcar.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
