@@ -30,7 +30,7 @@ const Sensors = () => {
       <PageTitle
         links={[{ path: '/sq-labs', title: 'Team' }]}
         pageTitle={pageTitle}
-        pageUrl="/aqi-insights"
+        pageUrl="/product/sq-panel/aqi-insights"
       />
 
       <section className="pt-4">

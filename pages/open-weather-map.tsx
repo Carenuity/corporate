@@ -33,7 +33,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
           { path: '/sq-labs', title: 'Team' },
         ]}
         pageTitle={pageTitle}
-        pageUrl="/AI-Program-Kenya"
+        pageUrl="/ai-program-kenya"
       />
 
       <section className="overflow-hidden py-3">
@@ -52,7 +52,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
                 How to get the OpenWeatherMap API Key
               </h2>
               <Image src={img1} alt="open-weather-api" />
-              {/* <img src="/img/content/open-weather/Register.png" alt="" /> */}
+              {/* <img src="/img/content/open-weather/register.png" alt="" /> */}
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -64,7 +64,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
               }}
             >
               <Image src={img2} alt="open-weather-api" />
-              {/* <img src="/img/content/open-weather/Develop.png" alt="" /> */}
+              {/* <img src="/img/content/open-weather/develop.png" alt="" /> */}
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -76,7 +76,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
               }}
             >
               <Image src={img3} alt="open-weather-api" />
-              {/* <img src="/img/content/open-weather/Management.png" alt="" /> */}
+              {/* <img src="/img/content/open-weather/management.png" alt="" /> */}
             </div>
             <div
               className="col-lg-12 wow fadeIn"
@@ -100,7 +100,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
               }}
             >
               <Image src={img4} alt="open-weather-api" />
-              {/* <img src="/img/content/open-weather/Weather-key.png" alt="" /> */}
+              {/* <img src="/img/content/open-weather/weather-key.png" alt="" /> */}
             </div>
             <div
               className="col-lg-12 wow fadeIn mb-8"
@@ -112,7 +112,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
               }}
             >
               <Image src={img5} alt="open-weather-api" />
-              {/* <img src="/img/content/open-weather/Weather-key.png" alt="" /> */}
+              {/* <img src="/img/content/open-weather/weather-key.png" alt="" /> */}
               <p className="my-3 border-5 border-start border-warning ps-3">
                 Thanks to{' '}
                 <a
@@ -130,7 +130,7 @@ const OpenWeatherMap = ({ isMobile }: { isMobile: boolean }) => {
             <p className=" " style={{ textAlign: 'center' }}>
               {!isMobile && (
                 <Link
-                  href={'https://solutions.carenuity.com/ '}
+                  href={'https://solutions.carenuity.com'}
                   target="blank"
                   className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
                   style={{ color: 'white' }}

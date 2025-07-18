@@ -298,7 +298,7 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
-                    href={'/AI-Program-Kenya'}
+                    href={'/ai-program-kenya'}
                     style={{ textAlign: 'left' }}
                   >
                     🇰🇪 Kenya
@@ -306,7 +306,7 @@ const Menu = ({
                 </li>
                 <li>
                   <Link
-                    href={'/AI-Program-Greece'}
+                    href={'/ai-program-greece'}
                     style={{ textAlign: 'left' }}
                   >
                     🇬🇷 Greece

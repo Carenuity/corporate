@@ -915,7 +915,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/Autonomous/project.jpeg"
+              src="/img/content/autonomous/project.jpeg"
               className="wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -1540,7 +1540,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/Autonomous/shopcar.PNG"
+                        src="/img/content/autonomous/shopcar.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."

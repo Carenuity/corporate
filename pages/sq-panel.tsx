@@ -923,7 +923,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/datasheet.PDF"
+                      href="/docs/datasheet.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -935,7 +935,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/declaration-of-conformity.PDF"
+                      href="/docs/declaration-of-conformity.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -947,7 +947,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/leaflet.PDF"
+                      href="/docs/leaflet.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -959,7 +959,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/commisioning.PDF"
+                      href="/docs/commisioning.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -971,7 +971,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="../../serial-number"
+                      href="/product/serial-number"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -1010,7 +1010,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/leaflet.PDF"
+                      href="/docs/leaflet.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -1034,7 +1034,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="../../serial-number"
+                      href="/product/serial-number"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"

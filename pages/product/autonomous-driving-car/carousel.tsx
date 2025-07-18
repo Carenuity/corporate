@@ -2,14 +2,14 @@ import React, { useEffect, useRef, useState } from 'react';
 import styles from './carousel.module.css';
 
 const images = [
-  '/img/content/Autonomous/car1.jpg',
-  '/img/content/Autonomous/car2.jpg',
-  '/img/content/Autonomous/car3.jpg',
-  '/img/content/Autonomous/car4.jpg',
-  '/img/content/Autonomous/car5.jpg',
-  '/img/content/Autonomous/car6.jpg',
-  '/img/content/Autonomous/car7.jpg',
-  '/img/content/Autonomous/car8.jpg',
+  '/img/content/autonomous/car1.jpg',
+  '/img/content/autonomous/car2.jpg',
+  '/img/content/autonomous/car3.jpg',
+  '/img/content/autonomous/car4.jpg',
+  '/img/content/autonomous/car5.jpg',
+  '/img/content/autonomous/car6.jpg',
+  '/img/content/autonomous/car7.jpg',
+  '/img/content/autonomous/car8.jpg',
 ];
 
 const scrollAmount = 340; // height of one image + margin

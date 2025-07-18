@@ -29,7 +29,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       <PageTitle
         links={[{ path: '/', title: 'Home' }]}
         pageTitle={pageTitle}
-        pageUrl="/AI-Program-Kenya"
+        pageUrl="/ai-program-kenya"
       />
 
       <section className="overflow-hidden py-3">

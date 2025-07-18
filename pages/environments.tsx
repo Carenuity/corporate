@@ -8,7 +8,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
   const router = useRouter();
   const query = router.query;
   const pageTitle = 'Environment Selection';
-  const webFlash = 'https://webflashing.vercel.app';
+  const webFlash = 'https://solutions.carenuity.com';
   return (
     <>
       <Head>

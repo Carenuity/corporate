@@ -108,7 +108,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <p className=" " style={{ textAlign: 'center' }}>
               {!isMobile && (
                 <Link
-                  href={'https://solutions.carenuity.com/ '}
+                  href={'https://solutions.carenuity.com'}
                   target="blank"
                   className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
                   style={{ color: 'white' }}

@@ -94,7 +94,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/install.png"
+                src="/img/content/install/install.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -126,7 +126,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/Install/Install-for-Free.png"
+                src="/img/content/install/install-for-free.png"
                 className="mt-1-9 wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."

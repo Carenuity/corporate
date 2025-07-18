@@ -27,7 +27,7 @@ const SpotifyApi = ({ isMobile }: { isMobile: boolean }) => {
           { path: '/sq-labs', title: 'Team' },
         ]}
         pageTitle={pageTitle}
-        pageUrl="/AI-Program-Kenya"
+        pageUrl="/ai-program-kenya"
       />
 
       <section className="overflow-hidden py-3">
@@ -99,7 +99,7 @@ const SpotifyApi = ({ isMobile }: { isMobile: boolean }) => {
             <p className=" " style={{ textAlign: 'center' }}>
               {!isMobile && (
                 <Link
-                  href={'https://solutions.carenuity.com/ '}
+                  href={'https://solutions.carenuity.com'}
                   target="blank"
                   className={'btn btn-lg btn-success rounded-pill'} // "btn-style2 primary wow fadeInUp p-3"
                   style={{ color: 'white' }}

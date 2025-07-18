@@ -74,7 +74,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 <span className="ms-3 text-dark">
                   providing insights in sensor measurements e.g.{' '}
                   <Link
-                    href={'/co2-insights'}
+                    href={'/product/sq-panel/co2-insights'}
                     className="text-decoration-underline"
                   >
                     CO<sub>2</sub>
