@@ -986,39 +986,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
-              <div className="col-md-4 mb-2">
-                <div
-                  className="e-card mb-6"
-                  style={{
-                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
-                    height: '550px',
-                  }}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/img/content/evaluate/sma.PNG"
-                    className="wow fadeInUp"
-                    data-wow-delay="100ms"
-                    alt="..."
-                    style={{
-                      visibility: 'visible',
-                      animationDelay: '100ms',
-
-                      animationName: 'fadeIn',
-                    }}
-                  />
-                  <h6 style={{ padding: '20px' }}>
-                    Alternative Enclosure for Evaluation Kit – Size “L”
-                  </h6>
-                  <p style={{ padding: '20px' }}>
-                    This enclosure is optimized to save space on your desk and
-                    is first choice for beginners. It comes in variants to match
-                    various sensors and accommodate the 0.66 inch or the 0.96
-                    inch OLED display. You can stack it on 3D-printable
-                    TableStands.
-                  </p>
-                </div>
-              </div>
+             
 
               <div className="col-md-4 mb-2">
                 <div
@@ -1050,6 +1018,40 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     also available in variants to match the sensors and
                     accommodates the 0.66 inch or the 0.96 inch OLED display. A
                     TableStand is available on request.
+                  </p>
+                </div>
+              </div>
+
+               <div className="col-md-4 mb-2">
+                <div
+                  className="e-card mb-6"
+                  style={{
+                    boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                    height: '550px',
+                  }}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/evaluate/sma.PNG"
+                    className="wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                  <h6 style={{ padding: '20px' }}>
+                    Alternative Enclosure for Evaluation Kit – Size “L”
+                  </h6>
+                  <p style={{ padding: '20px' }}>
+                    This enclosure is optimized to save space on your desk and
+                    is first choice for beginners. It comes in variants to match
+                    various sensors and accommodate the 0.66 inch or the 0.96
+                    inch OLED display. You can stack it on 3D-printable
+                    TableStands.
                   </p>
                 </div>
               </div>
