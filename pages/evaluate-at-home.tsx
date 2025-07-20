@@ -378,7 +378,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
-                            Evaluation Kit S for Standard Displays
+                            Evaluation Kit M for Standard Displays
                           </h6>
                           <p>
                             Suited for Raspberry Pi Pico W that comes with
@@ -481,7 +481,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         </div>
                         <div className="col-md-8 mb-4">
                           <h6 className="text-success">
-                            Evaluation Kit as Sensor Selection Box
+                            Sensor Selection Box for Multi Sensor Evaluation
                           </h6>
                           <p>
                             Suited for D1- and C3-Mini Boards, including seven
