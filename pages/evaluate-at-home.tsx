@@ -986,8 +986,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
-             
-
               <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"
@@ -1022,7 +1020,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 </div>
               </div>
 
-               <div className="col-md-4 mb-2">
+              <div className="col-md-4 mb-2">
                 <div
                   className="e-card mb-6"
                   style={{
