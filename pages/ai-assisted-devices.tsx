@@ -63,7 +63,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <br />
               <ul>
                 <li>
-                  <h5>C3-Mini Radar Sensor</h5>{' '}
+                  <h5>C3-Mini Radar Sensor - Your Radar Occupancy Sensor for Smart Home</h5>{' '}
                 </li>
               </ul>
               <p>
