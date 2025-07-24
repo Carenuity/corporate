@@ -37,7 +37,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           
         </div>
          <div>
-                    <h4>Shop with us</h4>
+                   <h2 className="mb-2 h6">Shop with us</h2>
                    
                      
                         <div
