@@ -63,16 +63,27 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <br />
               <ul>
                 <li>
-                  <h5>C3-Mini Radar Sensor</h5>{' '}
+                  <h5>C3-Mini Radar Sensor - Your Radar Occupancy Sensor for Smart Home</h5>{' '}
                 </li>
               </ul>
               <p>
                 A radar sensor is a device that uses radio waves to detect
-                [stationary, approaching, departing, missing] objects and
+                stationary, approaching, departing or missing objects and
                 measure their distance, speed, and other characteristics, in
                 instance segmentation of an area.
                 <br />
-                Take a look to the radars that we use in our projects:
+                Looking for a radar-based occupancy sensor for your smart home? 
+                Unlike conventional PIR sensors that rely on heat signatures and 
+                struggle with subtle motion or presence detection, the Carenuity™ SQ‑Panel 
+                features a highly precise 60 GHz radar sensor. This advanced sensing technology 
+                enables real-time detection of micro-movements, even through materials, making 
+                it ideal for modern presence automation. Whether you're building a Home Assistant setup 
+                or designing intelligent HVAC or lighting control, the Carenuity™ SQ‑Panel provides 
+                accurate occupancy data via MQTT and seamlessly integrates into your smart ecosystem. 
+                Radar-based presence detection is no longer limited to industrial systems — it's now 
+                available for caregivers, integrators, and industry professionals alike.
+
+                Discover the future of motion sensing — with the radar built in SQ-Panel.:
               </p>
             </div>
 

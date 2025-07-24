@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { targetDomain } from '../../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'C3-Mini-Triple';
+  const pageTitle = 'C3-Mini Triples';
   return (
     <>
       <Head>
@@ -25,7 +25,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             __html: JSON.stringify({
               '@context': 'https://schema.org/',
               '@type': 'Product',
-              name: 'C3 Mini Triple',
+              name: 'More C3-Mini Triples',
               image: `${targetDomain}/img/content/c3-mini-triple/c3-mini-triple.jpg`,
               description:
                 'Compact embedded platform integrating ESP-C3 microcontroller with triple sensor capability, ideal for IoT and smart applications.',
@@ -59,7 +59,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <h4 className="mb-4">
-            Applications for the C3-mini with Sensor & Display (Triples,
+            More applications for the C3-Mini with Sensor & Display (Triples,
             continued)
           </h4>
 
