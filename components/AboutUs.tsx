@@ -13,22 +13,23 @@ const AboutUs = ({
 }) => {
   return (
     <>
-      <section className="overflow-visible pb-0 pt-4">
+      <section className="overflow-visible pb-0 pt-4 mb-10">
         <div className="container position-relative z-index-3">
+          <div className="section-title mb-1-9">
+                  <span className="sm-title">About Us</span>
+                  <h4 className="mb-0 ">{aboutUsSammury}</h4>
+                </div>
           <div className="row align-items-center about-style-03">
             <div className="col-lg-8 wow fadeIn" data-wow-delay="200ms">
               <div className="pe-lg-1-9">
-                <div className="section-title mb-1-9">
-                  <span className="sm-title">About Us</span>
-                  <h2 className="mb-0 h3">{aboutUsSammury}</h2>
-                </div>
+                
                 <div className="mb-1-9">
                   <div className="d-flex about-text mb-1-9">
                     <div className="flex-shrink-0">
                       <i className="fa-brands fa-gitter"></i>
                     </div>
                     <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">Our Mission</h4>
+                      <h4 className="">Our Mission</h4>
                       <p className="mb-0">{mission}</p>
                     </div>
                   </div>

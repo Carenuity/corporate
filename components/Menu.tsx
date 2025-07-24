@@ -313,6 +313,14 @@ const Menu = ({
                   </Link>
                 </li>
                 <li>
+                  <Link
+                    href={'/ai-program-germany'}
+                    style={{ textAlign: 'left' }}
+                  >
+                    🇩🇪 Germany
+                  </Link>
+                </li>
+                <li>
                   <a
                     href={urls.supplimentAiMaterials}
                     target="_blank"

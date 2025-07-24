@@ -127,7 +127,57 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                         plan to cooperate on AI-assisted edge-devices
                       </p>
                     </div>
+
+                    
                   </div>
+
+                  <div className="d-flex about-text">
+                    <div className="flex-shrink-0">
+                      {/* <i className='fa-solid fa-briefcase'></i> */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/kenya/kenyatta-university-logo.PNG"
+                        alt="Technical University of Mombasa"
+                        className="rounded-circle shadow"
+                        style={{ width: '5rem', height: '5rem' }}
+                      />
+                    </div>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
+                         Kenyatta University (KU)
+                      </h4>
+                      <p className="mb-0">
+                       News:
+                      </p>
+                    </div>
+
+                    
+                  </div>
+                  <div className="d-flex about-text">
+                    <div className="flex-shrink-0">
+                      {/* <i className='fa-solid fa-briefcase'></i> */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/kenya/cooperative-logo.PNG"
+                        alt="Technical University of Mombasa"
+                        className="rounded-circle shadow"
+                        style={{ width: '5rem', height: '5rem' }}
+                      />
+                    </div>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
+                         The Cooperative University of Kenya(CUK)
+                      </h4>
+                      <p className="mb-0">
+                       News:
+                      </p>
+                    </div>
+
+                    
+                  </div>
+
+
+                  
                 </div>
               </div>
             </div>

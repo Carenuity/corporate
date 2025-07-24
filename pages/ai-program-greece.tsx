@@ -57,7 +57,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="flex-shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src={UOP}
+                        src="/img/content/greece/peloponnese-logo.GIF"
                         alt="UOP"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -92,6 +92,75 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                         March 2024.
                       </p>
                     </div>
+                  </div>
+                  
+                   
+
+                   <div className="d-flex about-text">
+                    <div className="flex-shrink-0">
+                      {/* <i className='fa-solid fa-briefcase'></i> */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/greece/aristotle-logo.JFIF"
+                        alt="Technical University of Mombasa"
+                        className="rounded-circle shadow"
+                        style={{ width: '5rem', height: '5rem' }}
+                      />
+                    </div>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
+                        Aristotle University of Thessaloniki (AUTH)
+                      </h4>
+                      <p className="mb-0">
+                       News:
+                      </p>
+                    </div>
+
+                    
+                  </div>
+                  <div className="d-flex about-text">
+                    <div className="flex-shrink-0">
+                      {/* <i className='fa-solid fa-briefcase'></i> */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/greece/aristotle-logo.JFIF"
+                        alt="Technical University of Mombasa"
+                        className="rounded-circle shadow"
+                        style={{ width: '5rem', height: '5rem' }}
+                      />
+                    </div>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
+                        Open AUTH Home Challenge (OAUTH)
+                      </h4>
+                      <p className="mb-0">
+                       News:
+                      </p>
+                    </div>
+
+                    
+                  </div>
+                  <div className="d-flex about-text">
+                    <div className="flex-shrink-0">
+                      {/* <i className='fa-solid fa-briefcase'></i> */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/greece/democritus-logo.PNG"
+                        alt="Technical University of Mombasa"
+                        className="rounded-circle shadow"
+                        style={{ width: '5rem', height: '5rem' }}
+                      />
+                    </div>
+                    <div className="flex-grow-1 ms-3">
+                      <h4 className="h5">
+                       Democritus University of Thrace (DUTH)
+                      </h4>
+                      <p className="mb-0">
+                       News:
+                      </p>
+                    </div>
+
+                    
                   </div>
                 </div>
               </div>
