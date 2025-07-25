@@ -28,7 +28,7 @@ const Page = () => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'EnviroSence 680',
-              image: '/img/content/envirosence/envirosence.jpeg',
+              image: '${targetDomain}/img/content/envirosence/envirosence.jpeg',
               description:
                 'Advanced environmental monitoring device with BME680 sensor and ESP-C3 microcontroller for real-time temperature, humidity, pressure, altitude, gas concentration, and AQI.',
               sku: 'CSB-ES680',
