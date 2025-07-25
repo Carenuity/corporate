@@ -70,26 +70,26 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             for developers and engineers looking to integrate reliable and
             precise pressure sensors into their IoT systems.
           </p>
-          <strong>Kit Contents:</strong>
+          <strong>Example, what kits contain, e.g Infineons Pressure Sensor DPS310:</strong>
           <ul>
             <li>
-              <strong>10x 3D-Printed Enclosure:</strong>Durable and eco-friendly
+              <strong>10x 3D-Printed Enclosure: </strong>Durable and eco-friendly
               enclosures for the single adapters
             </li>
             <li>
-              <strong>10x Shield2Go Single Adapter Trust-X V2.0:</strong>Enables
+              <strong>10x Shield2Go Single Adapter Trust-X V2.0: </strong>Enables
               easy sensor integration
             </li>
             <li>
-              <strong>10x ESP32-WROOM-32D Modules:</strong>WiFi- and
+              <strong>10x ESP32-WROOM-32D Modules: </strong>WiFi- and
               Bluetooth-enabled, perfect for IoT applications
             </li>
             <li>
-              <strong>10x DPS310 Pressure Sensor:</strong>High-precision
+              <strong>10x DPS310 Pressure Sensor: </strong>High-precision
               barometric sensor from our Chipglobe Comfort Line
             </li>
             <li>
-              <strong>10x USB Cable:</strong>High-quality Chipglobe USB cables
+              <strong>10x USB Cable: </strong>High-quality Chipglobe USB cables
               for power supply
             </li>
           </ul>
