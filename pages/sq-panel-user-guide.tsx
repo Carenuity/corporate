@@ -1,8 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
+import Link from 'next/link';
 
-const Page = () => {
+const Page = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-Panel User Guide ';
   return (
     <>
@@ -31,10 +32,10 @@ const Page = () => {
           <h4>SQ-Panel User Guide </h4>
           <div className='row'>
              
-           <div className="col-lg-10 mb-6">
+           <div className="col-lg-12 mb-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/sq-panel-guide/guide1.JPEG"
+                src="/img/content/sq-panel-guide/guide3.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -46,10 +47,10 @@ const Page = () => {
                 }}
               />
             </div>
-             <div className="col-lg-10 mb-4">
+             <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/sq-panel-guide/guide2.JPEG"
+                src="/img/content/sq-panel-guide/guide4.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -61,6 +62,31 @@ const Page = () => {
                 }}
               />
             </div>
+
+             <div style={{ textAlign:"center" }} >
+                          <p>
+                            {!isMobile && (
+                              <Link
+                                href={'/carenuity-app-guide'}
+                                className={'btn btn-lg btn-success rounded-pill'}
+                              >
+                                <span className="small">Mobile App User Guide</span>
+                              </Link>
+                            )}
+            
+                            {isMobile && (
+                              <a
+                                href={'/carenuity-app-guide'}
+                                className={'btn btn-lg btn-success rounded-pill'}
+                              >
+                                <span className="small">
+                                 Mobile App User Guide{' '}
+                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                </span>
+                              </a>
+                            )}
+                          </p>
+                        </div>
          </div>
         </div>
       </section>

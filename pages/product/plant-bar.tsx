@@ -110,7 +110,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-6">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide1.png"
+                src="/img/content/plant-bar/slide1.PNG"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -126,7 +126,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide2.png"
+                src="/img/content/plant-bar/slide2.PNG"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -141,7 +141,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide3.png"
+                src="/img/content/plant-bar/slide3.PNG"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -157,7 +157,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide4.png"
+                src="/img/content/plant-bar/slide4.PNG"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -277,10 +277,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && <>Structure</>}
             {state === 'de' && <>Struktur</>}
           </h4>
+           <div className="row">
           <div className="col-md-4 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/plant-bar/plant-bar2.png"
+              src="/img/content/plant-bar/plant-bar2.PNG"
               className="wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -292,6 +293,21 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               }}
             />
           </div>
+          <div className="col-md-4 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/content/plant-bar/plant-bar3.JPEG"
+              className="wow fadeInUp"
+              data-wow-delay="100ms"
+              alt="..."
+              style={{
+                visibility: 'visible',
+                // width: '220px',
+                animationDelay: '100ms',
+                animationName: 'fadeIn',
+              }}
+            />
+          </div></div>
           <div>
             <h4>Shop with us</h4>
             <div className="row">
@@ -305,7 +321,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/plant-bar/capacitive-soil-moisture.png"
+                    src="/img/content/plant-bar/capacitive-soil-moisture.PNG"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
