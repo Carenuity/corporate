@@ -31,7 +31,7 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container">
-          <h4>Evaluation kit for large displays</h4>
+          <h4>We make it so that you can build it in 3 min</h4>
         </div>
       </section>
     </>
