@@ -258,22 +258,22 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <p style={{ textAlign: 'center' }}>
             {!isMobile && (
               <Link
-                href={'/install-for-free'}
+                href={'/sq-panel'}
                 target="blank"
                 className={'btn btn-lg btn-success rounded-pill'}
               >
-                <span className="small">Install-for-Free </span>
+                <span className="small">SQ-Panel</span>
               </Link>
             )}
 
             {isMobile && (
               <a
-                href={'/install-for-free'}
+                href={'/sq-panel'}
                 target="blank"
                 className={'btn btn-lg btn-success rounded-pill'}
               >
                 <span className="small">
-                  Install-for-Free{' '}
+                  SQ-Panel{' '}
                   {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                 </span>
               </a>
