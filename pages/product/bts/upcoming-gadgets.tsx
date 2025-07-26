@@ -3,7 +3,7 @@ import Head from 'next/head';
 import PageTitle from '../../components/PageTitle';
 
 const Page = () => {
-  const pageTitle = 'Evaluation kit for large displays';
+  const pageTitle = 'Upcoming Gadgets';
   return (
     <>
       <Head>
