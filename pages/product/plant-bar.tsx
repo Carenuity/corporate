@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { targetDomain } from '../../utils/constants';
 
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'Plant Bar';
+  const pageTitle = 'PlantBar';
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -29,10 +29,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             __html: JSON.stringify({
               '@context': 'https://schema.org/',
               '@type': 'Product',
-              name: 'Plant Bar',
+              name: 'PlantBar',
               image: `${targetDomain}/img/content/plant-bar/plant-bar.jpg`,
               description:
-                'Plant Bar sensor system for monitoring soil moisture, temperature, and light, enabling precision care in smart gardening and agriculture.',
+                'PlantBar Sensor device for monitoring soil moisture, temperature, enabling precision care in smart gardening and agriculture.',
               sku: 'CSB-PB001',
               brand: {
                 '@type': 'Brand',
