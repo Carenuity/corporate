@@ -10,7 +10,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
   return (
     <>
       <Head>
-        <title>C3-Mini Piggypacks</title>
+        <title>C3-Mini Piggybacks</title>
       </Head>
       <div>
         <div className="wow fadeIn" data-wow-delay="200ms">
