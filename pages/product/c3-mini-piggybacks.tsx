@@ -36,12 +36,33 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           </p>
           
         </div>
+        <div>
+           <h2 className="mb-0 h6">First example:
+              </h2>
+            <p>C3-Mini Triple with Piggyback Sensor AHT20+BMP280</p>
+              <div className="row">
+                             <div className="col-md-8 mb-4">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src="/img/content/piggybacks/piggy2.JPEG"
+                            className="wow fadeInUp"
+                            data-wow-delay="100ms"
+                            alt="..."
+                            style={{
+                              visibility: 'visible',
+                              width: '420px',
+                              animationDelay: '100ms',
+                              animationName: 'fadeIn',
+                              padding:"10px"
+                            }}
+                          /></div></div>
+        </div>
          <div>
                    <h2 className="mb-2 h6">Shop with us</h2>
                    
                      
                         <div
-                          className="e-card"
+                          className="e-card mb-8"
                           style={{
                             boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
                             maxHeight: '1070px',
@@ -137,6 +158,37 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <div style={{
+                            textAlign:"center"
+                          }}>
+                      <p className=" mb-4">
+                                {!isMobile && (
+                                  <Link
+                                    href={'/install-for-free'}
+                                    target="_blank"
+                                    className={'btn btn-lg btn-success rounded-pill'}
+                                    style={{ color: 'white' }}
+                                  >
+                                    <span className="small"> Install for free</span>
+                                  </Link>
+                                )}
+        
+                                {isMobile && (
+                                  <a
+                                    href={'/install-for-free'}
+                                    target="_blank"
+                                    className={'btn btn-lg btn-success rounded-pill'}
+                                    style={{ color: 'white' }}
+                                    rel="noreferrer"
+                                  >
+                                    <span className="small">
+                                      Install for free{' '}
+                                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                                    </span>
+                                  </a>
+                                )}
+                              </p>
                     </div>
                   </div>
       </div>

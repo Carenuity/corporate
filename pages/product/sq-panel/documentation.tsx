@@ -105,6 +105,18 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         Serial-Number V2.0.1 [PDF]
                       </a>
                     </div>
+
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/sq-panel-user-guide.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        SQ-Panel user guide [PDF]
+                      </a>
+                    </div>
                   </>
                 )}
 
