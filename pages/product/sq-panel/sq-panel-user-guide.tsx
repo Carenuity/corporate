@@ -30,9 +30,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="pt-4">
         <div className="container">
           <h4>SQ-Panel User Guide </h4>
-          <div className='row'>
-             
-           <div className="col-lg-12 mb-3">
+          <div className="row">
+            <div className="col-lg-12 mb-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/sq-panel-guide/guide3.PNG"
@@ -47,7 +46,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
-             <div className="col-lg-12 mb-4">
+            <div className="col-lg-12 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/sq-panel-guide/guide4.PNG"
@@ -63,31 +62,31 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
 
-             <div style={{ textAlign:"center" }} >
-                          <p>
-                            {!isMobile && (
-                              <Link
-                                href={'/carenuity-app-guide'}
-                                className={'btn btn-lg btn-success rounded-pill'}
-                              >
-                                <span className="small">Mobile App User Guide</span>
-                              </Link>
-                            )}
-            
-                            {isMobile && (
-                              <a
-                                href={'/carenuity-app-guide'}
-                                className={'btn btn-lg btn-success rounded-pill'}
-                              >
-                                <span className="small">
-                                 Mobile App User Guide{' '}
-                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                </span>
-                              </a>
-                            )}
-                          </p>
-                        </div>
-         </div>
+            <div style={{ textAlign: 'center' }}>
+              <p>
+                {!isMobile && (
+                  <Link
+                    href={'/carenuity-app-guide'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">Mobile App User Guide</span>
+                  </Link>
+                )}
+
+                {isMobile && (
+                  <a
+                    href={'/carenuity-app-guide'}
+                    className={'btn btn-lg btn-success rounded-pill'}
+                  >
+                    <span className="small">
+                      Mobile App User Guide{' '}
+                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                    </span>
+                  </a>
+                )}
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>

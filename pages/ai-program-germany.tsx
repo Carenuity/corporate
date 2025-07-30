@@ -4,7 +4,6 @@ import Head from 'next/head';
 // eslint-disable-next-line no-unused-vars
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'University Program for AI - Germany';
-  
 
   return (
     <>
@@ -31,7 +30,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       <section className="overflow-hidden py-3">
         <div className="container position-relative z-index-3">
           <div className="row align-items-center about-style-03">
-            <div  
+            <div
               className="col-lg-8 wow fadeIn"
               data-wow-delay="200ms"
               style={{
@@ -43,9 +42,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               <div className="pe-lg-1-9">
                 <div className="section-title mb-1-9">
                   <span className="sm-title">Germany</span>
-                  <h2 className="mb-0 h3">
-                    
-                  </h2>
+                  <h2 className="mb-0 h3"></h2>
                 </div>
                 <div className="mb-1-9">
                   <div className="d-flex about-text mb-1-9">
@@ -59,13 +56,13 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       />
                     </div>
                     <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">Hochschule für angewandte Wissenschaften Landshut (HAW)</h4>
-                      <p className="mb-0">
-                        News: 
-                      </p>
+                      <h4 className="h5">
+                        Hochschule für angewandte Wissenschaften Landshut (HAW)
+                      </h4>
+                      <p className="mb-0">News:</p>
                     </div>
                   </div>
-                 
+
                   <div className="d-flex about-text">
                     <div className="flex-shrink-0">
                       {/* <i className='fa-solid fa-briefcase'></i> */}
@@ -81,12 +78,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       <h4 className="h5">
                         Technical Hochschule Würzburg-Schweinfurt(THWS)
                       </h4>
-                      <p className="mb-0">
-                        News:
-                      </p>
+                      <p className="mb-0">News:</p>
                     </div>
-
-                    
                   </div>
 
                   <div className="d-flex about-text">
@@ -104,16 +97,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       <h4 className="h5">
                         Hochschule für angewandtes Management (HAM)
                       </h4>
-                      <p className="mb-0">
-                       News:
-                      </p>
+                      <p className="mb-0">News:</p>
                     </div>
-
-                    
                   </div>
-                  
-
-                  
                 </div>
               </div>
             </div>

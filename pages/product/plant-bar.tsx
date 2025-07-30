@@ -277,37 +277,38 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && <>Structure</>}
             {state === 'de' && <>Struktur</>}
           </h4>
-           <div className="row">
-          <div className="col-md-4 mb-4">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/img/content/plant-bar/plant-bar2.PNG"
-              className="wow fadeInUp"
-              data-wow-delay="100ms"
-              alt="..."
-              style={{
-                visibility: 'visible',
-                // width: '220px',
-                animationDelay: '100ms',
-                animationName: 'fadeIn',
-              }}
-            />
+          <div className="row">
+            <div className="col-md-4 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/plant-bar/plant-bar2.PNG"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  // width: '220px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className="col-md-4 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/plant-bar/plant-bar3.JPEG"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  // width: '220px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
           </div>
-          <div className="col-md-4 mb-4">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/img/content/plant-bar/plant-bar3.JPEG"
-              className="wow fadeInUp"
-              data-wow-delay="100ms"
-              alt="..."
-              style={{
-                visibility: 'visible',
-                // width: '220px',
-                animationDelay: '100ms',
-                animationName: 'fadeIn',
-              }}
-            />
-          </div></div>
           <div>
             <h4>Shop with us</h4>
             <div className="row">

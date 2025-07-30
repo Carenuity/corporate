@@ -40,9 +40,15 @@ export const urls: CompanyUrls = {
 export const servicesUrls: Service = {
   standard: [
     {
-      name: 'C3-Mini™ & Applications',
+      name: 'C3-Mini™ Applications',
       url: '/c3-mini',
       icon: 'fas fa-code',
+      type: 'icon',
+    },
+    {
+      name: 'AI Assisted Solutions ',
+      url: '/ai-assisted-devices',
+      icon: 'fa-solid fa-brain',
       type: 'icon',
     },
     {
@@ -52,15 +58,9 @@ export const servicesUrls: Service = {
       type: 'icon',
     },
     {
-      name: 'C3-Mini™ Sensor Box',
+      name: 'C3-Mini™ Sensor Selection Box',
       url: '/c3-mini-box',
       icon: 'fa-solid fa-keyboard',
-      type: 'icon',
-    },
-    {
-      name: 'AI Assisted Solutions ',
-      url: '/ai-assisted-devices',
-      icon: 'fa-solid fa-brain',
       type: 'icon',
     },
   ],
@@ -90,7 +90,7 @@ export const servicesUrls: Service = {
       type: 'image',
     },
     {
-      name: 'SQ Feature Evaluation', // 'Evaluate at Home',
+      name: 'Feature Evaluation',
       url: '/evaluate-at-home',
       icon: 'fa-solid fa-house',
       type: 'icon',

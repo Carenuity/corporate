@@ -6,7 +6,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'University Program for AI - Greece';
   const boardImage =
     'https://static.vecteezy.com/system/resources/thumbnails/006/735/856/small_2x/greece-map-freehand-drawing-on-white-background-free-vector.jpg';
-  const UOP = 'https://users.uop.gr/~nkolok/img/uop.gif';
+  // const UOP = 'https://users.uop.gr/~nkolok/img/uop.gif';
   const calendar =
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhCddk27nPFZ-0qMAYbvje7RemkCPzeG8KhawXc2iJZGHlQ1915ab3d0Wz4d0V6eqOPw&usqp=CAU';
 
@@ -93,10 +93,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       </p>
                     </div>
                   </div>
-                  
-                   
 
-                   <div className="d-flex about-text">
+                  <div className="d-flex about-text">
                     <div className="flex-shrink-0">
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -111,12 +109,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       <h4 className="h5">
                         Aristotle University of Thessaloniki (AUTH)
                       </h4>
-                      <p className="mb-0">
-                       News:
-                      </p>
+                      <p className="mb-0">News:</p>
                     </div>
-
-                    
                   </div>
                   <div className="d-flex about-text">
                     <div className="flex-shrink-0">
@@ -130,15 +124,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       />
                     </div>
                     <div className="flex-grow-1 ms-3">
-                      <h4 className="h5">
-                        Open AUTH Home Challenge (OAUTH)
-                      </h4>
-                      <p className="mb-0">
-                       News:
-                      </p>
+                      <h4 className="h5">Open AUTH Home Challenge (OAUTH)</h4>
+                      <p className="mb-0">News:</p>
                     </div>
-
-                    
                   </div>
                   <div className="d-flex about-text">
                     <div className="flex-shrink-0">
@@ -153,14 +141,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     </div>
                     <div className="flex-grow-1 ms-3">
                       <h4 className="h5">
-                       Democritus University of Thrace (DUTH)
+                        Democritus University of Thrace (DUTH)
                       </h4>
-                      <p className="mb-0">
-                       News:
-                      </p>
+                      <p className="mb-0">News:</p>
                     </div>
-
-                    
                   </div>
                 </div>
               </div>

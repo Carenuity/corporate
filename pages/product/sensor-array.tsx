@@ -70,15 +70,17 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             for developers and engineers looking to integrate reliable and
             precise pressure sensors into their IoT systems.
           </p>
-          <strong>Example, what kits contain, e.g Infineons Pressure Sensor DPS310:</strong>
+          <strong>
+            Example, what kits contain, e.g Infineons Pressure Sensor DPS310:
+          </strong>
           <ul>
             <li>
-              <strong>10x 3D-Printed Enclosure: </strong>Durable and eco-friendly
-              enclosures for the single adapters
+              <strong>10x 3D-Printed Enclosure: </strong>Durable and
+              eco-friendly enclosures for the single adapters
             </li>
             <li>
-              <strong>10x Shield2Go Single Adapter Trust-X V2.0: </strong>Enables
-              easy sensor integration
+              <strong>10x Shield2Go Single Adapter Trust-X V2.0: </strong>
+              Enables easy sensor integration
             </li>
             <li>
               <strong>10x ESP32-WROOM-32D Modules: </strong>WiFi- and
