@@ -176,10 +176,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <ul style={{ listStyleType: 'square' }}>
               <li>
                 <Link
-                  href="https://www.thingspeak.com "
+                  href="https://www.thingspeak.com"
                   className="text-success"
                 >
-                  <h6 className="text-success">https://www.thingspeak.com </h6>
+                  <h6 className="text-success">https://www.thingspeak.com</h6>
                 </Link>
               </li>
               <li>

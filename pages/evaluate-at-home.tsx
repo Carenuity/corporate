@@ -92,7 +92,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/evaluate01.PNG"
+                    src="/img/content/evaluate/evaluate01.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -146,7 +146,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/evaluate02.PNG"
+                    src="/img/content/evaluate/evaluate02.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -198,7 +198,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/evaluate03.PNG"
+                    src="/img/content/evaluate/evaluate03.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -232,7 +232,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h6>Results</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/evaluate/check1.PNG"
+                  src="/img/content/evaluate/check1.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -273,7 +273,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <div className="col-md-1 mb-6 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/evaluate/arrow.PNG"
+                  src="/img/content/evaluate/arrow.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -290,7 +290,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <h6>Implementation of the feature</h6>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/evaluate/sq-panel.PNG"
+                  src="/img/content/evaluate/sq-panel.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -314,7 +314,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/evaluate/Evaluation-Kits-Overview_1.PNG"
+                src="/img/content/evaluate/Evaluation-Kits-Overview_1.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -364,7 +364,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/kit-s.PNG"
+                            src="/img/content/evaluate/kit-s.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
@@ -467,7 +467,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/kit.PNG"
+                            src="/img/content/evaluate/kit.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
@@ -578,7 +578,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/kit-l.PNG"
+                            src="/img/content/evaluate/kit-l.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
@@ -679,7 +679,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         <div className="col-md-4 mb-4">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
-                            src="/img/content/evaluate/kit-xl.PNG"
+                            src="/img/content/evaluate/kit-xl.png"
                             className="wow fadeInUp"
                             data-wow-delay="100ms"
                             alt="..."
@@ -871,7 +871,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel-s-m.PNG"
+                    src="/img/content/evaluate/sq-panel-s-m.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."

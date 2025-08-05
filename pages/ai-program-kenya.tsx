@@ -134,7 +134,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/kenya/kenyatta-university-logo.PNG"
+                        src="/img/content/kenya/kenyatta-university-logo.png"
                         alt="Technical University of Mombasa"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -150,7 +150,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/kenya/cooperative-logo.PNG"
+                        src="/img/content/kenya/cooperative-logo.png"
                         alt="Technical University of Mombasa"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}

@@ -57,7 +57,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="flex-shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/greece/peloponnese-logo.GIF"
+                        src="/img/content/greece/peloponnese-logo.gif"
                         alt="UOP"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -99,7 +99,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/greece/aristotle-logo.JFIF"
+                        src="/img/content/greece/aristotle-logo.jfif"
                         alt="Technical University of Mombasa"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -117,7 +117,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/greece/aristotle-logo.JFIF"
+                        src="/img/content/greece/aristotle-logo.jfif"
                         alt="Technical University of Mombasa"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -133,7 +133,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/greece/democritus-logo.PNG"
+                        src="/img/content/greece/democritus-logo.png"
                         alt="Technical University of Mombasa"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
