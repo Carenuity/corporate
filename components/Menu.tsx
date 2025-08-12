@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { navigationBannerUrls, servicesUrls } from '../utils/constants';
+import {
+  navigationBannerUrls,
+  servicesUrls,
+  SOLUTIONS_BUILDER_URL,
+} from '../utils/constants';
 import { ServiceUrl } from '../utils/types';
 import { useContext, useEffect, useRef, useState } from 'react';
 import { StoreContext } from './context/Store';
@@ -242,6 +246,11 @@ const Menu = ({
               </ul>
             </li>
           </ul>
+        </li>
+        <li className="d-lg-none d-inline-block">
+          <a href={SOLUTIONS_BUILDER_URL} target={'_blank'} rel="noreferrer">
+            Solutions Builder
+          </a>
         </li>
         <li>
           <Link

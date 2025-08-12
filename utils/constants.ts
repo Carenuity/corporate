@@ -2,6 +2,7 @@ import { CompanyInfo, CompanyUrls, Microcontroller, Service } from './types';
 
 export const LANG_ENGLISH = 'en';
 export const LANG_GERMANY = 'de';
+export const SOLUTIONS_BUILDER_URL = 'https://solutions.carenuity.com';
 
 export const StoreReducerType = {
   LOADING: 'loading',
@@ -105,7 +106,7 @@ export const servicesUrls: Service = {
     },
     {
       name: 'Solution Builder', //  for new businesses
-      url: 'https://solutions.carenuity.com',
+      url: SOLUTIONS_BUILDER_URL,
       icon: 'fas fa-store',
       type: 'icon',
     },
@@ -200,4 +201,4 @@ export const microcontrollers: any = {
 export const NewsletterHostname =
   'https://newsletter-test-dot-solution-builder-421307.ew.r.appspot.com';
 
-export const targetDomain = 'https://carenuity.netlify.app'; // https://carenuity.com
+export const targetDomain = 'https://carenuity.com'; // https://carenuity.netlify.app

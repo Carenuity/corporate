@@ -73,15 +73,8 @@ const Header = ({
                             <i className='fas fa-search'></i>
                           </a>
                         </li> */}
-                        <li className="d-none d-xl-inline-block">
-                          {/* <Link
-                            href={state.urls.shop}
-                            target="_blank"
-                            className="btn-style1 medium"
-                          >
-                            <span>Shop</span>
-                          </Link> */}
 
+                        <li className="d-none d-xl-inline-block">
                           <div ref={installBtnRef}>
                             {/* className="d-none" */}
                             <Link

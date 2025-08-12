@@ -49,7 +49,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="flex-shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/germany/landshut-logo.SVG"
+                        src="/img/content/germany/landshut-logo.svg"
                         alt="Hochschule für angewandte Wissenschaften Landshut"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -68,7 +68,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/germany/thws-logo.PNG"
+                        src="/img/content/germany/thws-logo.png"
                         alt="Technical Hochschule Würzburg-Schweinfurt"
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -87,7 +87,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       {/* <i className='fa-solid fa-briefcase'></i> */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/germany/hochschule-logo.JFIF"
+                        src="/img/content/germany/hochschule-logo.jfif"
                         alt=" Hochschule für angewandtes Management "
                         className="rounded-circle shadow"
                         style={{ width: '5rem', height: '5rem' }}
@@ -115,14 +115,14 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               <div className="ps-lg-2-9 position-relative text-center text-sm-start">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/germany/germany.JPG"
+                  src="/img/content/germany/germany.jpg"
                   alt="Micro-controller"
                   className="d-sm-none d-inline-block"
                 />
                 <div className="about-img d-none d-sm-block">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/germany/germany.JPG"
+                    src="/img/content/germany/germany.jpg"
                     className="img-fluid"
                     alt="Micro-controller"
                     style={{ width: '100%' }}

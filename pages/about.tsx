@@ -63,7 +63,7 @@ const About = () => {
           <div className="col-lg-12 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/about-us/brand-visibility.PNG"
+              src="/img/content/about-us/brand-visibility.png"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -117,57 +117,77 @@ const About = () => {
           <div>
             <h4>Carenuity Instagram Strategy - One-Pager</h4>
             <p>
-                    Carenuity operates three distinct Instagram channels to effectively reach and engage 
-                    three different user segments Each channel is tailored to the needs, expectations, and 
-                    technical expertise of its audience.
+              Carenuity operates three distinct Instagram channels to
+              effectively reach and engage three different user segments Each
+              channel is tailored to the needs, expectations, and technical
+              expertise of its audience.
             </p>
           </div>
-           <div
+          <div
             className="e-card mb-4"
             style={{
               boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
               maxHeight: '1070px',
-              padding:"20px"
+              padding: '20px',
             }}
           >
-          <div className='row'>
-          <div className="col-md-8 mb-4">
-            
-
-            <h6>@carenuity - The Premium Channel</h6>
-            <p>
-              <ul>
-                <li>Target Audience: Professionals, caregivers, decision-makers, smart home enthusiasts</li>
-                 <li>Purpose: Showcase the SQ-Panel, build brand trust, and reinforce Carenuity&apos;s premium positioning</li>
-                  <li>Persona: Kim - Tech-savvy decision-maker who values quality and innovation</li>
-              </ul>
-              
-            </p>
-            <h6>@diy carenuity - The Maker Channel</h6>
-            <p>
-              <ul>
-                <li>Target Audience: Makers, students, tech-savvy DIY users</li>
-                <li>Purpose: Foster innovation, support DIY challenges, and grow a vibrant maker community</li>
-                <li>
-                Persona: Darlin - Creative tinkerer and student who enjoys building and sharing</li>
-                </ul>
-              
-
-            </p>
-            <h6>@bts carenuity - The Insights & Caregiver Channel</h6>
-            <p>
-              <ul>
-                <li>Target Audience: Non-technical users, caregivers, internal content team
-                </li>
-            <li>Purpose: Collect insights, test content, and improve storytelling for the main channel</li>
-            <li>Persona: Sonja - Caring, practical, values simplicity and ready-to-use solutions</li>
-              </ul>
-            </p>
-          </div>
-          <div className="col-md-4 mb-4">
+            <div className="row">
+              <div className="col-md-8 mb-4">
+                <h6>@carenuity - The Premium Channel</h6>
+                <p>
+                  <ul>
+                    <li>
+                      Target Audience: Professionals, caregivers,
+                      decision-makers, smart home enthusiasts
+                    </li>
+                    <li>
+                      Purpose: Showcase the SQ-Panel, build brand trust, and
+                      reinforce Carenuity&apos;s premium positioning
+                    </li>
+                    <li>
+                      Persona: Kim - Tech-savvy decision-maker who values
+                      quality and innovation
+                    </li>
+                  </ul>
+                </p>
+                <h6>@diy carenuity - The Maker Channel</h6>
+                <p>
+                  <ul>
+                    <li>
+                      Target Audience: Makers, students, tech-savvy DIY users
+                    </li>
+                    <li>
+                      Purpose: Foster innovation, support DIY challenges, and
+                      grow a vibrant maker community
+                    </li>
+                    <li>
+                      Persona: Darlin - Creative tinkerer and student who enjoys
+                      building and sharing
+                    </li>
+                  </ul>
+                </p>
+                <h6>@bts carenuity - The Insights & Caregiver Channel</h6>
+                <p>
+                  <ul>
+                    <li>
+                      Target Audience: Non-technical users, caregivers, internal
+                      content team
+                    </li>
+                    <li>
+                      Purpose: Collect insights, test content, and improve
+                      storytelling for the main channel
+                    </li>
+                    <li>
+                      Persona: Sonja - Caring, practical, values simplicity and
+                      ready-to-use solutions
+                    </li>
+                  </ul>
+                </p>
+              </div>
+              <div className="col-md-4 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/about-us/insta.JPEG"
+                  src="/img/content/about-us/insta.jpeg"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -180,16 +200,21 @@ const About = () => {
                   }}
                 />
               </div>
-          </div></div>
+            </div>
+          </div>
           <div>
             <h4>Strategic Benefits</h4>
             <p>
               <ul>
-                <li>Clarity: Each audience receives tailored content
+                <li>Clarity: Each audience receives tailored content</li>
+                <li>
+                  Efficiency: BTS insights inform content and product
+                  development
                 </li>
-                  <li>Efficiency: BTS insights inform content and product development</li>
-                  <li>Community: DIY channel builds engagement and innovation</li>
-                  <li>Positioning: Main channel maintains a premium brand image</li>
+                <li>Community: DIY channel builds engagement and innovation</li>
+                <li>
+                  Positioning: Main channel maintains a premium brand image
+                </li>
               </ul>
             </p>
           </div>
