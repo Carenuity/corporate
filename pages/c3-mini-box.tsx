@@ -3,8 +3,10 @@ import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
 import { StoreContext } from '../components/context/Store';
 import Head from 'next/head';
+import Link from 'next/link';
 
-const Index = () => {
+const Index = ({ isMobile }: { isMobile: boolean }) => {
+
   const { state } = useContext(StoreContext);
   return (
     <>
@@ -52,12 +54,39 @@ const Index = () => {
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.
             </p>
-            <a
+            <p className=" mb-4">
+              {!isMobile && (
+                <Link
+                  href={'/c3-mini-box-devices'}
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
+                >
+                  <span className="small"> Install For Free (7 Devices)</span>
+                </Link>
+              )}
+
+              {isMobile && (
+                <a
+                  href={'/c3-mini-box-devices'}
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
+                  rel="noreferrer"
+                >
+                  <span className="small">
+                    Install For Free (7 Devices){' '}
+                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                  </span>
+                </a>
+              )}
+            </p>
+            {/* <a
               href={'/c3-mini-box-devices'}
               className="btn-style2 px-3 small text-center"
             >
               <span className="text-white">Install For Free (7 Devices)</span>
-            </a>
+            </a> */}
           </div>
         </div>
         <h3 className="h5">Build your own device within seconds:</h3>
@@ -168,24 +197,78 @@ const Index = () => {
               and the OLED display on the Triple-Adapter, as illustrated and
               install the selected application:
             </p>
-            <a
+            <p className=" mb-4">
+              {!isMobile && (
+                <Link
+                  href={'https://solutions.carenuity.com/'}
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
+                >
+                  <span className="small"> Install For Free </span>
+                </Link>
+              )}
+
+              {isMobile && (
+                <a
+                  href={'https://solutions.carenuity.com/'}
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
+                  rel="noreferrer"
+                >
+                  <span className="small">
+                    Install For Free{' '}
+                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                  </span>
+                </a>
+              )}
+            </p>
+            {/* <a
               href={state.urls.webFlash}
               className="btn-style2 px-3 small text-center"
             >
               <span className="text-white">Install For Free</span>
-            </a>
+            </a> */}
             <p className="mt-3 text-start">
               Once you want to buy more parts or spare parts, be it sensors or
               microcontrollers, you find a good offer in the ChipGlobe WebShop:
             </p>
-            <a
-              href="https://www.chipglobe.shop/en/c/iot-systems/wemos-d1-mini?sort=position-asc&page=2"
+              <p className=" mb-4">
+              {!isMobile && (
+                <Link
+                  href={'https://www.chipglobe.shop/en/c/sensors/d1-c3-mini'}
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
+                >
+                  <span className="small"> Buy C3-Mini Parts</span>
+                </Link>
+              )}
+
+              {isMobile && (
+                <a
+                  href={'https://www.chipglobe.shop/en/c/sensors/d1-c3-mini'}
+                  target="_blank"
+                  className={'btn btn-lg btn-success rounded-pill'}
+                  style={{ color: 'white' }}
+                  rel="noreferrer"
+                >
+                  <span className="small">
+                    Buy C3-Mini Parts{' '}
+                    {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                  </span>
+                </a>
+              )}
+            </p>
+            {/* <a
+              href="https://www.chipglobe.shop/en/c/sensors/d1-c3-mini"
               target="_blank"
               rel="noreferrer"
               className="btn-style2 px-3 small text-center"
             >
               <span className="text-white">Buy C3-Mini Parts</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

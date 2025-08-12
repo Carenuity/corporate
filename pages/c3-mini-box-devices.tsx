@@ -30,9 +30,9 @@ const Index = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 mt-n1-9">
-              <div className="pe-lg-1-9 mt-3">
-                <div className="owl-carousel owl-theme text-center testimonial-carousel1">
+            <div className="col-lg-8 mt-n1-9 mb-4">
+              <div className="pe-lg-1-9 mt-3 ">
+                <div className="owl-carousel owl-theme text-center testimonial-carousel1 mb-6">
                   <CarouselImage
                     url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide1.PNG'}
                   />
@@ -65,8 +65,9 @@ const Index = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="border-bottom mb-2 pb-2 h5">
-                    C3-Mini Devices
+                  <h3 className="border-bottom mb-2 pb-2 h5"></h3>
+                  <h3 className=" mb-2 pb-2 h5">
+                    Get the box so that you can build all these C3-Mini Devices within 3 minutes.
                   </h3>
                   {/* Barometric */}
                   {/* <CarenuityDevice
@@ -101,22 +102,28 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 text-center">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/sensors/YOUR-SENSOR_C3-Mini_0.66-OLED_cloudfree.png"
-                alt="Custom Sensor"
-                className="img-fluid"
-              />
-              <div className="mt-4">
-                <h3 className="h5 text-start">Install-for-Free Video Guide</h3>
+            <div className="row text-center">
+              <h3 className="h5 text-start">Install-for-Free Video Guide</h3>
+              
+              <div className="col-lg-6 mb-4 ">
+                
                 <video
                   src="/videos/content/installing_app_on_C3-Mini.MOV"
                   className="rounded-2 img-fluid"
                   controls
                   loop
+                  style={{textAlign:"left"}}
                 ></video>
               </div>
+
+              {/* <div className='col-lg-2'> */}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+              {/* <img
+                src="/img/sensors/YOUR-SENSOR_C3-Mini_0.66-OLED_cloudfree.png"
+                alt="Custom Sensor"
+                className="img-fluid"
+              />
+              </div> */}
               <div className="d-flex flex-column bg-secondary align-items-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
