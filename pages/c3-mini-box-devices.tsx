@@ -136,7 +136,7 @@ const Index = () => {
                 />
                 <p className="text-white mx-3 text-start">
                   Stack one of the seven sensor boards onto the Triple-Adapter,
-                  Have the C3-Mini in the middle and the display board on the
+                  place the C3-Mini in the middle and add the display or buzzer on the
                   right.
                 </p>
               </div>
