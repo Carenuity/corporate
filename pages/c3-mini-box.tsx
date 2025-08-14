@@ -89,7 +89,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </a> */}
           </div>
         </div>
-        <h3 className="h5">Build your own device within seconds:</h3>
+        <h3 className="h5">Build your own device within 3 minutes:</h3>
         <div className="row mb-1-9">
           <div className="col-md-4 wow fadeIn" data-wow-delay="200ms">
             <div className="d-flex align-items-center">
