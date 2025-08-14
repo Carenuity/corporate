@@ -33,10 +33,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           </p>
           <p>
             Beside the C3-Mini comes one Display to visualize the sensors
-            measurements and a Buzzer for triggering an alarm. A Triple-Adapter
-            allows to conveniently plug the parts together and the USB-A Type-C
+            measurements and a Buzzer for triggering notifications or alarms. The Triple-Adapter
+            allows to conveniently plug the parts together and the USB Type-C
             data cable inside allows powering your built device. Just use the
-            free C3-Installer - of course for free.
+            Solution Builder - for free.
           </p>
         </div>
         <div className="row mb-1-9">
@@ -193,9 +193,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           >
             <p className="text-start">
               From this Modular C3-Mini™ Sensor Selection Box you select one of
-              the 7 sensors, which you combine with the C3-Mini microcontroller
-              and the OLED display on the Triple-Adapter, as illustrated and
-              install the selected application:
+              the 7 sensors, which you combine with the C3-Mini Microcontroller
+              and the OLED Display or Buzzer on the Triple-Adapter, as illustrated.
+              By clicking install button you install the selected application:
             </p>
             <p className=" mb-4">
               {!isMobile && (
@@ -205,7 +205,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   className={'btn btn-lg btn-success rounded-pill'}
                   style={{ color: 'white' }}
                 >
-                  <span className="small"> Install For Free </span>
+                  <span className="small"> Install-for-Free by Solution-Builder </span>
                 </Link>
               )}
 
@@ -228,7 +228,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               href={state.urls.webFlash}
               className="btn-style2 px-3 small text-center"
             >
-              <span className="text-white">Install For Free</span>
+              <span className="text-white">Install-for-Free by Solution-Builder</span>
             </a> */}
             <p className="mt-3 text-start">
               Once you want to buy more parts or spare parts, be it sensors or
@@ -267,7 +267,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               rel="noreferrer"
               className="btn-style2 px-3 small text-center"
             >
-              <span className="text-white">Buy C3-Mini Parts</span>
+              <span className="text-white">Buy C3-Mini Sensors</span>
             </a> */}
           </div>
         </div>
