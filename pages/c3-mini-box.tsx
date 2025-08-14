@@ -85,7 +85,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               href={'/c3-mini-box-devices'}
               className="btn-style2 px-3 small text-center"
             >
-              <span className="text-white">Install For Free (7 Devices)</span>
+              <span className="text-white">Install-for-Free (14 Devices)</span>
             </a> */}
           </div>
         </div>
