@@ -170,23 +170,23 @@ const Page = () => {
             </>}
           </p>    
            <h4 className="mn-4">
-            {state === 'en' && <>Get Yours Today</>}
-            {state === 'de' && <>Holen Sie sich Ihr Exemplar noch heute</>}
+            {state === 'en' && <>Get Your Eval-Kit Today</>}
+            {state === 'de' && <>Holen Sie sich Ihr Evaluierungskit noch heute</>}
           </h4>   
           <p className="mn-4">
             {state === 'en' && <>
-            Available now in two options:
+            Evaluation Kits are available in two options:
                <ul>
-                <li>DIY Kit - Build it yourself in minutes.</li>
-                <li>Ready-to-Use Device - Plug in and start monitoring.</li>
+                <li>DIY Kit - Build it yourself.</li>
+                <li>Ready-to-Use Device (Comfort Line) - No Soldering - No Wiring - No Code - Just plug in and start monitoring.</li>
             </ul> 
             </>}
             {state === 'de' && <>
             Jetzt in zwei Optionen erhältlich:
             
              <ul>
-                <li>DIY-Kit - Bauen Sie es in wenigen Minuten selbst zusammen.</li>
-                <li>Gebrauchsfertiges Gerät - Einstecken und mit der Überwachung beginnen.</li>
+                <li>DIY-Kit - Bauen Sie es selbst zusammen.</li>
+                <li>Gebrauchsfertiges Gerät (Comfort Line) - Kein Löten - Keine Kabel - Kein Programmieren - Einfach einstecken und mit der Überwachung beginnen.</li>
             </ul> 
             </>}
           </p>    
@@ -200,3 +200,4 @@ const Page = () => {
 };
 
 export default Page;
+
