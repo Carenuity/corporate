@@ -1,13 +1,10 @@
-import { useContext } from 'react';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
-import { StoreContext } from '../components/context/Store';
 import Head from 'next/head';
 import Link from 'next/link';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
-
-  const { state } = useContext(StoreContext);
+  // const { state } = useContext(StoreContext);
   return (
     <>
       <Head>
@@ -33,10 +30,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           </p>
           <p>
             Beside the C3-Mini comes one Display to visualize the sensors
-            measurements and a Buzzer for triggering notifications or alarms. The Triple-Adapter
-            allows to conveniently plug the parts together and the USB Type-C
-            data cable inside allows powering your built device. Just use the
-            Solution Builder - for free.
+            measurements and a Buzzer for triggering notifications or alarms.
+            The Triple-Adapter allows to conveniently plug the parts together
+            and the USB Type-C data cable inside allows powering your built
+            device. Just use the Solution Builder - for free.
           </p>
         </div>
         <div className="row mb-1-9">
@@ -194,8 +191,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <p className="text-start">
               From this Modular C3-Mini™ Sensor Selection Box you select one of
               the 7 sensors, which you combine with the C3-Mini Microcontroller
-              and the OLED Display or Buzzer on the Triple-Adapter, as illustrated.
-              By clicking install button you install the selected application:
+              and the OLED Display or Buzzer on the Triple-Adapter, as
+              illustrated. By clicking install button you install the selected
+              application:
             </p>
             <p className=" mb-4">
               {!isMobile && (
@@ -205,7 +203,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   className={'btn btn-lg btn-success rounded-pill'}
                   style={{ color: 'white' }}
                 >
-                  <span className="small"> Install-for-Free by Solution-Builder </span>
+                  <span className="small">
+                    {' '}
+                    Install-for-Free by Solution-Builder{' '}
+                  </span>
                 </Link>
               )}
 
@@ -234,7 +235,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               Once you want to buy more parts or spare parts, be it sensors or
               microcontrollers, you find a good offer in the ChipGlobe WebShop:
             </p>
-              <p className=" mb-4">
+            <p className=" mb-4">
               {!isMobile && (
                 <Link
                   href={'https://www.chipglobe.shop/en/c/sensors/d1-c3-mini'}
