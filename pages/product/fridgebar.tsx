@@ -34,11 +34,11 @@ const Page = () => {
 
       <section className="pt-4">
         <div className="container ">
-          <h4 className="mn-4">
+          <h3 className="mn-4">
             {state === 'en' && <>Carenuity FridgeBar — Landing Page Concept (Updated)</>}
             {state === 'de' && <>Carenuity FridgeBar – Landingpage-Konzept (aktualisiert)
 Hero-Bereich</>}
-          </h4>
+          </h3>
 
           <h4 className="mn-4">
             {state === 'en' && <>Carenuity FridgeBar — Protect Your Food, Assure Freshness</>}
