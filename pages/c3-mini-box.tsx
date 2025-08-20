@@ -62,7 +62,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   className={'btn btn-lg btn-success rounded-pill'}
                   style={{ color: 'white' }}
                 >
-                  <span className="small"> Install For Free (7 Devices)</span>
+                  <span className="small"> Install For Free (14 Devices)</span>
                 </Link>
               )}
 

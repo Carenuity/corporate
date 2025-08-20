@@ -30,8 +30,17 @@ const Index = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
+            <div className="col-md-3 wow fadeIn pe-lg-1-9 mt-   " data-wow-delay="200ms" >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={'/img/content/modular-C3-Mini-sensor-selection-box.webp'}
+              alt="Carenuity Sensors"
+              style={{  height:"320px"}}
+            />
+           
+          </div>
             <div className="col-lg-8 mt-n1-9 mb-4">
-              <div className="pe-lg-1-9 mt-3 ">
+              <div className="pe-lg-1-9 mt-5 ">
                 <div className="owl-carousel owl-theme text-center testimonial-carousel1 mb-6">
                   <CarouselImage
                     url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide1.PNG'}
