@@ -50,14 +50,14 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               >
                 <div className="row mt-1-9">
-                  <ModuleImage
+                  {/* <ModuleImage
                     url={{
                       pathname: '/#!',
                       query: { ...query, environment: '0.66-OLED' },
                     }}
                     image={'/img/environments/environments-title.png'}
                     gridClass="col-12"
-                  />
+                  /> */}
                   <div className="d-flex flex-column justify-content-between mt-5">
                     <ModuleImage
                       url={{
