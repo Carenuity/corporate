@@ -3,9 +3,12 @@ import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
 import SolutionWidget from '../../components/SolutionWidget';
 import Link from 'next/link';
+import ServiceHOC from '../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../utils/constants';
+
 import { targetDomain } from '../../utils/constants';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'C3-Mini Triples';
   return (
     <>
@@ -45,16 +48,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           }}
         />
 
-        <title>{pageTitle}</title>
+        <title>C3 Mini Triple</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
+      
 
       <section className="pt-4">
         <div className="container">
@@ -64,7 +61,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           </h4>
 
           <div className="row mb-4">
-            <div className="col-lg-8">
+            <div className="">
               {/* IR Radiometer */}
               <SolutionWidget solutionId="KzjsdjS3rA1J5ABAn9Uu" />
 
@@ -130,4 +127,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
   );
 };
 
-export default Page;
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/c3-mini-triple',
+  pageTitle: 'C3 Mini Triple',
+  serviceCategory: 'Our Products',
+});

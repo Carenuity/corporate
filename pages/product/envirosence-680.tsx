@@ -2,12 +2,14 @@ import React from 'react';
 
 import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
+import ServiceHOC from '../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../utils/constants';
 import SubscriptionWidget from '../../components/SubscriptionWidget';
 import SolutionWidget from '../../components/SolutionWidget';
 import { targetDomain } from '../../utils/constants';
 
-const Page = () => {
-  const pageTitle = 'Envirosence 680';
+const Index = () => {
+  // const pageTitle = 'Envirosence 680';
   return (
     <>
       <Head>
@@ -47,16 +49,10 @@ const Page = () => {
           }}
         />
 
-        <title>{pageTitle}</title>
+        <title>Envirosence 680</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
+      
 
       <section className="pt-4">
         <div className="container">
@@ -72,25 +68,6 @@ const Page = () => {
               <h4>
                 EnviroSence 680 - Advanced Environmental Monitoring Solution
               </h4>
-              <div className="col-lg-9">
-                <p>
-                  EnviroSence 680 is a versatile and compact device designed to
-                  monitor and display essential environmental data in real-time.
-                  It integrates the powerful BME680 sensor with the ESP-C3 mini
-                  microcontroller, providing accurate measurements of
-                  temperature, humidity, pressure, altitude, gas concentration,
-                  and air quality index (AQI). The device features a vibrant TFT
-                  display, making data visualization clear and user-friendly.
-                </p>
-                <p>
-                  To ensure a smooth user experience, the interface is developed
-                  using LVGL, a highly optimized graphical library tailored for
-                  embedded systems. EnviroSence 680&apos;s intuitive GUI
-                  presents all the environmental parameters at a glance, making
-                  it ideal for applications in smart homes, industrial
-                  monitoring, and precision agriculture.
-                </p>
-              </div>
               <div className="col-lg-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -106,6 +83,26 @@ const Page = () => {
                   }}
                 />
               </div>
+              <div className="col-lg-9">
+                <p>
+                  EnviroSence 680 is a versatile and compact device designed to
+                  monitor and display essential environmental data in real-time.
+                  It integrates the powerful BME680 sensor with the ESP-C3 mini
+                  microcontroller, providing accurate measurements of
+                  temperature, humidity, pressure, altitude, gas concentration,
+                  and air quality index (AQI). The device features a vibrant TFT
+                  display, making data visualization clear and user-friendly.
+                </p>
+                
+              </div>
+              <p>
+                  To ensure a smooth user experience, the interface is developed
+                  using LVGL, a highly optimized graphical library tailored for
+                  embedded systems. EnviroSence 680&apos;s intuitive GUI
+                  presents all the environmental parameters at a glance, making
+                  it ideal for applications in smart homes, industrial
+                  monitoring, and precision agriculture.
+                </p>
             </div>
           </div>
 
@@ -179,4 +176,10 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/envirosence-680',
+  pageTitle: 'Envirosence 680',
+  serviceCategory: 'Our Products',
+});
+

@@ -4,33 +4,20 @@ import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
 import { useContext } from 'react';
+import ServiceHOC from '../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../utils/constants';
 
-const Page = () => {
-  const pageTitle = 'AquaBar';
+const Index = () => {
+
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
       <Translatable />
       <Head>
-        <meta
-          name="keywords"
-          content="Carenuity ChipGlobe Electronics Embedded Systems"
-        />
-        <meta
-          name="description"
-          content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
-        />
-        {/* JSON-LD structured data */}
-        <title>{pageTitle}</title>
+       
+        <title>AquaBar</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
 
       <section className="pt-4">
         <div className="container ">
@@ -50,7 +37,7 @@ Hero-Bereich</>}
           </p>
 
           <div className='row'>
-            <div className='col-lg-8'>
+            <div >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/img/content/freshcheck/aquarium.png"
@@ -232,4 +219,9 @@ Hero-Bereich</>}
   );
 };
 
-export default Page;
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/aquabar',
+  pageTitle: 'AquaBar',
+  serviceCategory: 'Our Products',
+});

@@ -7,9 +7,11 @@ import { useContext } from 'react';
 import { LanguageSwitchContext } from '../../../components/context/LanguageSwitch';
 import Translatable from '../../../components/Translatable';
 import { targetDomain } from '../../../utils/constants';
+import ServiceHOC from '../../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../../utils/constants';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'Autonomous Driving Car';
+const Index = ({ isMobile }: { isMobile: boolean }) => {
+  
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -49,16 +51,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             }),
           }}
         />
-        <title>{pageTitle}</title>
+        <title>Autonomous Driving Car</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
+    
 
       <section className="pt-4">
         <div className="container">
@@ -221,7 +217,22 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       at an evening event at the foyer of Schaeffler. This event
                       was graced by notable figures such as Dr. Grunau, the
                       former representative of the management board of FAG
-                      Schaeffler Group Industry, and Dipl.-Ing. Seubert, the
+                      Schaeffler Group Industry, and Dipl.-Ing. 
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Die Enthüllung des Schaeffler FAG Modells MF3 fand im
+                      Rahmen einer Abendveranstaltung im Foyer von Schaeffler
+                      statt. 
+                    </>
+                  )}
+                </p>
+              </div>
+              <p className="mn-4">
+                  {state === 'en' && (
+                    <>
+                      Seubert, the
                       former chairman of the Unterfranken district association
                       of the Verein Deutscher Ingenieure (VDI). Their presence
                       underscored the importance of innovation and collaboration
@@ -233,9 +244,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                   {state === 'de' && (
                     <>
-                      Die Enthüllung des Schaeffler FAG Modells MF3 fand im
-                      Rahmen einer Abendveranstaltung im Foyer von Schaeffler
-                      statt. Diese Veranstaltung wurde Dr. Grunau, der
+                     Diese Veranstaltung wurde Dr. Grunau, der
                       ehemaliger Repräsentant der Geschäftsführung der FAG
                       Schaeffler Gruppe; und Dipl.-Ing. Seubert, der ehemalige
                       Vorsitzende des Bezirksvereins Unterfranken des Vereins
@@ -249,7 +258,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     </>
                   )}
                 </p>
-              </div>
             </div>
           </div>
 
@@ -493,7 +501,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '450px',
+                        height: '400px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -536,7 +544,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '450px',
+                        height: '400px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -580,7 +588,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '450px',
+                        height: '400px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -620,7 +628,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '450px',
+                        height: '400px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -661,7 +669,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '450px',
+                        height: '400px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -701,7 +709,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '450px',
+                        height: '400px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -1423,12 +1431,12 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <div className="row">
               {state === 'en' && (
                 <>
-                  <div className="col-md-4 mb-4">
+                  <div className="col-md-6 mb-4">
                     <div
                       className="e-card"
                       style={{
                         boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        height: '620px',
+                        maxHeight: '1020px',
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -1457,7 +1465,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           neural networks.
                         </p>
                         <div className="row">
-                          <p className="col-md-5 mb-4">
+                          <p className="col-lg-5 mb-2">
                             {!isMobile && (
                               <Link
                                 href={
@@ -1493,7 +1501,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                               </a>
                             )}
                           </p>
-                          <p className="col-md-5 mb-4">
+                          <p className="col-lg-5 mb-4">
                             {!isMobile && (
                               <Link
                                 href={''}
@@ -1530,7 +1538,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               )}
               {state === 'de' && (
                 <>
-                  <div className="col-md-4 mb-4">
+                  <div className="col-md-6 mb-4">
                     <div
                       className="e-card"
                       style={{
@@ -1565,7 +1573,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           Netzwerken.
                         </p>
                         <div className="row">
-                          <p className="col-md-6 mb-4">
+                          <p className="col-lg-7 mb-2">
                             {!isMobile && (
                               <Link
                                 href={
@@ -1601,7 +1609,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                               </a>
                             )}
                           </p>
-                          <p className="col-md-5 mb-4">
+                          <p className=" col-lg-5 mb-4">
                             {!isMobile && (
                               <Link
                                 href={''}
@@ -1644,4 +1652,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
   );
 };
 
-export default Page;
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/autonomous-driving-car',
+  pageTitle: 'Autonomous Driving Car',
+  serviceCategory: 'Our Products',
+});

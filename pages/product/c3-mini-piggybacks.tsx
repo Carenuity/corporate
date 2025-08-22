@@ -201,8 +201,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
 };
 
 export default ServiceHOC(Index, {
-  servicesCategoryUrls: servicesUrls.standard,
-  pageUrl: '../c3-mini-piggypacks',
-  pageTitle: 'C3-Mini Piggypacks',
-  serviceCategory: 'Budget Friendly Not Only For Students',
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '../c3-mini-piggybacks',
+  pageTitle: 'C3-Mini Piggybacks',
+  serviceCategory: 'Our Products',
 });

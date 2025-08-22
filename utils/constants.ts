@@ -97,6 +97,66 @@ export const servicesUrls: Service = {
       type: 'icon',
     },
   ],
+
+   products: [
+    {
+      name: 'Autonomous Driving Car',
+      url: '/product/autonomous-driving-car',
+      icon: 'fas fa-code',
+      type: 'icon',
+    },
+    {
+      name: 'AquaBar ',
+      url: '/product/aquabar',
+      icon: 'fa-solid fa-brain',
+      type: 'icon',
+    },
+    {
+      name: 'C3 Mini PiggyBack',
+      url: '/product/c3-mini-piggybacks',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'C3 Mini Triple',
+      url: '/product/c3-mini-triple',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'Envirosence 680',
+      url: '/product/envirosence-680',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'FreshCheck',
+      url: '/product/freshcheck',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'FridgeBar',
+      url: '/product/fridgebar',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'PlantBar',
+      url: '/product/plantbar',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'Sensor Array',
+      url: '/product/sensor-array',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+ 
+  ],
+
+
   business: [
     {
       name: 'Smartphone SQ-App',

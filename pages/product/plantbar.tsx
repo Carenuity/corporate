@@ -5,10 +5,12 @@ import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
 import Link from 'next/link';
+import ServiceHOC from '../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../utils/constants';
 import { targetDomain } from '../../utils/constants';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'PlantBar';
+const Index = ({ isMobile }: { isMobile: boolean }) => {
+ 
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -49,16 +51,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           }}
         />
 
-        <title>{pageTitle}</title>
+        <title>PlantBar</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
+     
 
       <section className="pt-4">
         <div className="container">
@@ -344,7 +340,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       voltage of 3.3 to 5.5V ...{' '}
                     </p>
                     <div className="row">
-                      <p className="col-md-3 mb-4">
+                      <p className="col-md-6 mb-4">
                         {!isMobile && (
                           <Link
                             href={
@@ -373,7 +369,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           </a>
                         )}
                       </p>
-                      <p className="col-md-4 mb-4">
+                      <p className="col-md-6 mb-4">
                         {!isMobile && (
                           <Link
                             href={''}
@@ -410,4 +406,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
   );
 };
 
-export default Page;
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/plantbar',
+  pageTitle: 'PlantBar',
+  serviceCategory: 'Our Products',
+});

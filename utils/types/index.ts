@@ -53,6 +53,7 @@ export interface Service {
   standard: ServiceUrl[];
   premium: ServiceUrl[];
   business: ServiceUrl[];
+  products: ServiceUrl[];
   // benefits: ServiceUrl[];
 }
 

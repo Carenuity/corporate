@@ -2,12 +2,13 @@ import React from 'react';
 
 import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
-
+import ServiceHOC from '../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../utils/constants';
 import Link from 'next/link';
 import { targetDomain } from '../../utils/constants';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'Sensor Array';
+const Index = ({ isMobile }: { isMobile: boolean }) => {
+  
   return (
     <>
       <Head>
@@ -46,16 +47,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           }}
         />
 
-        <title>{pageTitle}</title>
+        <title>Sensor Array</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
+     
 
       <section className="pt-4">
         <div className="container">
@@ -130,7 +125,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       systems with a focus on precise pressure measurements.{' '}
                     </p>
                     <div className="row">
-                      <p className="col-md-3 mb-4">
+                      <p className="col-md-6 mb-4">
                         {!isMobile && (
                           <Link
                             href={
@@ -159,7 +154,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           </a>
                         )}
                       </p>
-                      <p className="col-md-4 mb-4">
+                      <p className="col-md-6 mb-4">
                         {!isMobile && (
                           <Link
                             href={''}
@@ -195,5 +190,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
     </>
   );
 };
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/sensor-array',
+  pageTitle: 'Sensor Array',
+  serviceCategory: 'Our Products',
+});
 
-export default Page;
