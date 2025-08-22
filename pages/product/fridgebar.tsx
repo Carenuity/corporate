@@ -4,9 +4,11 @@ import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
 import { useContext } from 'react';
+import ServiceHOC from '../../components/hoc/ServiceHOC';
+import { servicesUrls } from '../../utils/constants';
 
-const Page = () => {
-  const pageTitle = 'FridgeBar';
+const Index = () => {
+ 
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -21,16 +23,9 @@ const Page = () => {
           content={`We're Delivering Peace-in-Mind by Vital and Environmental Sensing and Care that you See what No Else will See.`}
         />
         {/* JSON-LD structured data */}
-        <title>{pageTitle}</title>
+        <title>FridgeBar</title>
       </Head>
 
-      {/* <!-- PAGE TITLE
-        ================================================== --> */}
-      <PageTitle
-        links={[{ path: '/', title: '' }]}
-        pageTitle={pageTitle}
-        pageUrl=""
-      />
 
       <section className="pt-4">
         <div className="container ">
@@ -73,7 +68,7 @@ const Page = () => {
             )}
           </p>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/content/freshcheck/fridge.png"
@@ -400,4 +395,9 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ServiceHOC(Index, {
+  servicesCategoryUrls: servicesUrls.products,
+  pageUrl: '/product/fridgebar',
+  pageTitle: 'FridgeBar',
+  serviceCategory: 'Our Products',
+});
