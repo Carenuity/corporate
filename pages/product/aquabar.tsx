@@ -74,7 +74,7 @@ const Index = () => {
             <div className="">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/freshcheck/aquarium.png"
+                src="/img/content/freshcheck/aquabar.png"
                 className=" wow fadeInUp mb-6"
                 data-wow-delay="100ms"
                 alt="..."
