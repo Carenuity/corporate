@@ -2138,7 +2138,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   <li>Provides lux (illuminance) and color temperature estimates</li>
                   
                 </ul>
-                <li></li>
+                <li>High-resolution measurements</li>
                 <ul>
                   <li>16-bit ADC for accurate sensing</li>
                   <li>Wide dynamic range for use in bright or dim environments</li>
