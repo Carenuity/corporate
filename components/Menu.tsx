@@ -290,10 +290,15 @@ const Menu = ({
                 Blogs
               </Link>
             </li>
+            <li>
+              <Link href={'/help-center'} style={{ textAlign: 'left' }}>
+                Help Center
+              </Link>
+            </li>
             <li className="has-sub">
               <span className="submenu-button"></span>
               <Link href="#!" style={{ textAlign: 'left' }}>
-                Help Center
+               University Program/Guides/API Keys.
               </Link>
               <ul className="sub-menu">
                 <li className="border-bottom">

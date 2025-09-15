@@ -156,6 +156,23 @@ export const servicesUrls: Service = {
  
   ],
 
+   helpcenter: [
+    {
+      name: 'User Help Center',
+      url: '/help-center',
+      icon: 'fas fa-code',
+      type: 'icon',
+    },
+    {
+      name: 'Developer Help Center',
+      url: '/developer-help-center',
+      icon: 'fa-solid fa-brain',
+      type: 'icon',
+    },
+    
+ 
+  ],
+
 
   business: [
     {

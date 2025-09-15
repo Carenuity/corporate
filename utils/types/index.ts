@@ -54,6 +54,7 @@ export interface Service {
   premium: ServiceUrl[];
   business: ServiceUrl[];
   products: ServiceUrl[];
+  helpcenter: ServiceUrl[];
   // benefits: ServiceUrl[];
 }
 
