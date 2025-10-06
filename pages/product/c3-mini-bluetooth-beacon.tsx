@@ -84,7 +84,7 @@ const Index = () => {
 
 export default ServiceHOC(Index, {
   servicesCategoryUrls: servicesUrls.products,
-  pageUrl: '/product/aquabar',
+  pageUrl: '/product/c3-mini-bluetooth-beacon',
   pageTitle: 'C3-Mini:Bluetooth Beacon',
   serviceCategory: 'Our Products',
 });
