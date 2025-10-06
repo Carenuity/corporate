@@ -161,7 +161,7 @@ export const servicesUrls: Service = {
     },
     {
       name: 'C3-Mini:Bluetooth Beacon',
-      url: '/product/c3-mini-bluetooth-becon',
+      url: '/product/c3-mini-bluetooth-beacon',
       icon: 'fas fa-box',
       type: 'icon',
     },
