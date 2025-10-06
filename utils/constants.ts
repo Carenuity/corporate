@@ -153,6 +153,18 @@ export const servicesUrls: Service = {
       icon: 'fas fa-box',
       type: 'icon',
     },
+    {
+      name: 'Leaf Temperature Measurement',
+      url: '/product/leaf-temperature-measurement',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'C3-Mini:Bluetooth Beacon',
+      url: '/product/c3-mini-bluetooth-becon',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
  
   ],
 
