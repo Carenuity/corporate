@@ -96,7 +96,7 @@ const Privacy = () => {
         <li>(a) with your consent,</li>
         <li>(b) for the performance of a contract or pre-contractual measures,</li>
         <li>(c) to comply with legal obligations,</li>
-        <li>(f) for legitimate interests such as service improvement and IT security.</li>
+        <li>(d) for legitimate interests such as service improvement and IT security.</li>
       </ul>
 
       <h6>Withdrawal of Consent</h6>
@@ -270,7 +270,7 @@ const Privacy = () => {
     <li>(a) mit Ihrer Einwilligung</li>
     <li>(b) zur Vertragserfüllung oder vorvertraglichen Maßnahmen</li>
     <li>(c) zur Erfüllung rechtlicher Verpflichtungen</li>
-    <li>(f) aufgrund berechtigter Interessen (z. B. Verbesserung des Services, IT-Sicherheit)</li>
+    <li>(d) aufgrund berechtigter Interessen (z. B. Verbesserung des Services, IT-Sicherheit)</li>
   </ul>
 
   <h6>Widerruf der Einwilligung</h6>
