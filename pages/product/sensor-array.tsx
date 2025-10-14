@@ -93,12 +93,12 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           <div>
             <h4>Shop with us</h4>
             <div className="row">
-              <div className="col-md-4 mb-4">
+              <div className="col-md-6 mb-4">
                 <div
                   className="e-card"
                   style={{
                     boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                    height: '470px',
+                    maxHeight: '470px',
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}

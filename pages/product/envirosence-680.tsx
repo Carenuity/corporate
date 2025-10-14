@@ -156,13 +156,15 @@ const Index = () => {
             }}
           />
 
-          <SolutionWidget solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
-
+          <SolutionWidget  solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
+            
+            <hr className="my-7 "/>
           <div
             id="subscribe"
-            className="my-10 "
+            className="my-5 "
             style={{ textAlign: 'center' }}
           >
+            
             <h2>Product Wishlist</h2>
             <p>
               Join <strong>Envirosence 680</strong> wishlist for updates when

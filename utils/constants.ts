@@ -124,6 +124,24 @@ export const servicesUrls: Service = {
       type: 'icon',
     },
     {
+      name: 'C3-Mini:Bluetooth Beacon',
+      url: '/product/c3-mini-bluetooth-beacon',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+     {
+      name: 'DingDongBar',
+      url: '/product/dingdongbar',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'DinoShrek',
+      url: '/product/dinoshrek',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
       name: 'Envirosence 680',
       url: '/product/envirosence-680',
       icon: 'fas fa-box',
@@ -142,6 +160,13 @@ export const servicesUrls: Service = {
       type: 'icon',
     },
     {
+      name: 'Leaf Temperature Measurement',
+      url: '/product/leaf-temperature-measurement',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    
+    {
       name: 'PlantBar',
       url: '/product/plantbar',
       icon: 'fas fa-box',
@@ -153,18 +178,7 @@ export const servicesUrls: Service = {
       icon: 'fas fa-box',
       type: 'icon',
     },
-    {
-      name: 'Leaf Temperature Measurement',
-      url: '/product/leaf-temperature-measurement',
-      icon: 'fas fa-box',
-      type: 'icon',
-    },
-    {
-      name: 'C3-Mini:Bluetooth Beacon',
-      url: '/product/c3-mini-bluetooth-beacon',
-      icon: 'fas fa-box',
-      type: 'icon',
-    },
+    
  
   ],
 

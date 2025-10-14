@@ -308,7 +308,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           <div>
             <h4>Shop with us</h4>
             <div className="row">
-              <div className="col-md-4 mb-4">
+              <div className="col-md-6 mb-4">
                 <div
                   className="e-card"
                   style={{

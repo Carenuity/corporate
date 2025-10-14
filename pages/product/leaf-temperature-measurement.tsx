@@ -6,6 +6,8 @@ import Translatable from '../../components/Translatable';
 import { useContext } from 'react';
 import ServiceHOC from '../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../utils/constants';
+import SubscriptionWidget from '../../components/SubscriptionWidget';
+
 
 const Index = () => {
 
@@ -80,6 +82,21 @@ const Index = () => {
         </ul>
         </div>
 
+         {/* wishlist */}
+          <hr className="my-7 "/>
+          <div
+            id="subscribe"
+            className="my-5 "
+            style={{ textAlign: 'center' }}
+          >
+            
+            <h2>Product Wishlist</h2>
+            <p>
+              Join <strong>Envirosence 680</strong> wishlist for updates when
+              ready
+            </p>
+            <SubscriptionWidget categoryId={3} />
+          </div>
         </div>
       </section>
     </>

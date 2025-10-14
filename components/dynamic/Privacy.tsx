@@ -3,9 +3,12 @@ import { LANG_ENGLISH } from '../../utils/constants';
 import BlogLayout from '../BlogLayout';
 import PageTitle from '../PageTitle';
 
+
 const Index = () => {
   return (
     <>
+   
+    
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
