@@ -197,6 +197,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
                 type="submit"
                 className={'btn btn-lg btn-success rounded-pill'}
                 style={{
+                  height: '48px',
                   width: '150px',
                 }}
               >
