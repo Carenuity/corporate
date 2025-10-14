@@ -44,7 +44,7 @@ const About = () => {
       <section className="pt-4">
         <div className="container">
           <AboutUs
-            
+           aboutUsSammury={state.companyInfo.Sammury} 
             mission={state.companyInfo.mission}
             vision={state.companyInfo.vision}
             visionDescription={state.companyInfo.visionDescription}
