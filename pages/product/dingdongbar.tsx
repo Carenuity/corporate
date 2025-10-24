@@ -7,7 +7,7 @@ import { useContext } from 'react';
 import ServiceHOC from '../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../utils/constants';
 import SubscriptionWidget from '../../components/SubscriptionWidget';
-
+import SolutionWidget from '../../components/SolutionWidget';
 
 const Index = () => {
 
@@ -71,7 +71,7 @@ const Index = () => {
             </div>
              
             </div></div>
-        
+        <div className='mb-4'>
                 <p>
         Designed for simplicity and reliability, the DingDongBar eliminates the need for physical interaction such as pressing a button.
         This makes it ideal for environments where hands-free operation is preferred — like doorways, reception areas, offices, or
@@ -83,8 +83,14 @@ const Index = () => {
         battery. It can also be easily integrated into IoT systems, door alert setups, or automation projects, making it useful in both
         educational prototypes and real-world applications.
         </p>
-
-
+                <a
+                    href="https://www.instagram.com/reel/DPvhCTIjXhl/?igsh=MmVnYTl5Nmx5Z3pw"
+                    target="blank"
+                  >
+                    <u>See how to assemble</u>
+                    <br />
+                  </a>
+                </div>
         <p>Typical uses include:</p>
         <ul>
         <li>Motion-activated door alerts in offices and shops</li>
@@ -232,6 +238,7 @@ const Index = () => {
         </table>
         </div>
                   
+                  <SolutionWidget  solutionId={'ce57xKxHhSJGVzb4P1Jk'} />
 
           <hr className="my-7 "/>
           <div
