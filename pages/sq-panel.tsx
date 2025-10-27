@@ -3502,7 +3502,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </div>
             </div>
             <div>
-              <h4>SQ-Panel Vorverkauf - startet am 16. July 2025</h4>
+              <h4>SQ-Panel Vorverkauf - startet am 16. January 2026</h4>
               <p>
                 We have a major upgrade for the SQ-Panel following the proposals
                 from our community. To get early news, insights and potentially
@@ -3546,7 +3546,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
                     <div style={{ padding: '10px' }}>
                       <h6 className="text-success">
-                        Carenuity SQ Panel - Your intelligent Air Quality
+                        Carenuity SQ-Panel - Your intelligent Air Quality
                         Display
                       </h6>
                       <p>
