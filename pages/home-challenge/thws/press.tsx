@@ -608,7 +608,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 />
               </div>
-
+    https://www.thws.de/service/news-presse/pressemeldungen/thema/praxisnah-im-studium-bewegungsmelder-selbst-bauen/
               <div className="col-lg-3 ">
                 <p>
                   {!isMobile && (
