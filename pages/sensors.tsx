@@ -192,7 +192,7 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 >
                   <div className="section-title left">
-                    <span className="sm-title">Higlight</span>
+                    <span className="sm-title">Highlight</span>
                   </div>
                   {/* <h2 className='h1 mb-1-9'>SEO &amp; Content Writing</h2> */}
                 </div>
