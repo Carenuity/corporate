@@ -83,7 +83,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <div className="row">
-              <h4 className="mb-4">Students Home Challenge Projects</h4>
+              <h4 className="mb-4">Retrospective: Students Home Challenge Projects 2024</h4>
               <div className="col-lg-4 mb-4">
                 <h6>
                   <a
