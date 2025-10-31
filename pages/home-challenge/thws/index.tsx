@@ -85,7 +85,7 @@ const Page = () => {
                  <p style={{ textAlign: 'center' }}>
                 <Link
               href={'/home-challenge/register/thws'}
-              className={'btn btn-lg btn-success rounded-pill'}
+              className={'btn btn-sm btn-success rounded-pill'}
             >
               <span className="small">Register </span>
             </Link>
