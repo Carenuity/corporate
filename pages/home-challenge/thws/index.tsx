@@ -52,24 +52,7 @@ const Page = () => {
           </div>
           <div className='row'>
             <div className='col-lg-3 mb-4' ></div>
-  <div className='col-lg-2 mb-4' >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/press-materials-for-thws/whatsapp2.jpeg"
-                  className="mt-1-9 wow fadeInUp img-fluid mb-2"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                />
-                <p style={{ textAlign: 'center' }}>
-               <strong>Scan</strong>  to join whatsapp group 
-                </p>
-              </div>
-              <div className='col-lg-4 mb-4' >
+            <div className='col-lg-4 mb-4' >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/press-materials-for-thws/register.jpeg"
@@ -92,6 +75,24 @@ const Page = () => {
             <p>for the home challenge towards AI</p>
             </p>
               </div>
+  <div className='col-lg-2 mb-4' >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/press-materials-for-thws/whatsapp2.jpeg"
+                  className="mt-1-9 wow fadeInUp img-fluid mb-2"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
+                <p style={{ textAlign: 'center' }}>
+               <strong>Scan</strong>  to join whatsapp group 
+                </p>
+              </div>
+              
           </div>
         
           <p style={{ textAlign: 'center' }}>
