@@ -2354,7 +2354,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             
             <h2>Product Wishlist</h2>
             <p>
-              Join <strong>Envirosence 680</strong> wishlist for updates when
+              Join <strong>C3-Mini Piggypacks</strong> wishlist for updates when
               ready
             </p>
             <SubscriptionWidget categoryId={3} />

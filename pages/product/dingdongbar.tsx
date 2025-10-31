@@ -249,7 +249,7 @@ const Index = () => {
             
             <h4>Product Wishlist</h4>
             <p>
-              Join <strong>Envirosence 680</strong> wishlist for updates when
+              Join <strong>DingDongBar</strong> wishlist for updates when
               ready
             </p>
             <SubscriptionWidget categoryId={3} />

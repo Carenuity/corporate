@@ -89,7 +89,7 @@ const Index = () => {
             
             <h2>Product Wishlist</h2>
             <p>
-              Join <strong>Envirosence 680</strong> wishlist for updates when
+              Join <strong>C3-Mini:Bluetooth Beacon</strong> wishlist for updates when
               ready
             </p>
             <SubscriptionWidget categoryId={3} />
