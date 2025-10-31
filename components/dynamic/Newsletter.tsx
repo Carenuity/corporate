@@ -22,7 +22,8 @@ const Newsletter = (/*{ email }: { email: string }*/) => {
           )}
         </p>
         <Link
-          href={'/sq-panel-plus#subscribe'}
+          href={'/product/sq-panel/launch-page'}
+          // href={'/sq-panel-plus#subscribe'}
           // href={`mailto:${email}?subject=${encodeURIComponent(
           //   'Subscription to Carenuity Newsletter'
           // )}&body=${encodeURIComponent(

@@ -594,7 +594,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </>
                 )}
               </h4>
-              <div>
+              <div className='mb-4' style={{textAlign:"center"}}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/press-materials-for-thws/whatsapp.jpeg"
@@ -608,31 +608,23 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   }}
                 />
               </div>
-    https://www.thws.de/service/news-presse/pressemeldungen/thema/praxisnah-im-studium-bewegungsmelder-selbst-bauen/
-              <div className="col-lg-3 ">
-                <p>
-                  {!isMobile && (
-                    <Link
-                      href={'/home-challenge/thws'}
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">Back to startpage</span>
-                    </Link>
-                  )}
 
-                  {isMobile && (
-                    <a
-                      href={'/home-challenge/thws'}
-                      className={'btn btn-lg btn-success rounded-pill'}
-                    >
-                      <span className="small">
-                        Back to startpage{' '}
-                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                      </span>
-                    </a>
-                  )}
-                </p>
-              </div>
+              <div style={{textAlign:"center"}} className='mb-4'>
+              <a href='https://www.thws.de/service/news-presse/pressemeldungen/thema/praxisnah-im-studium-bewegungsmelder-selbst-bauen/ ' 
+              target='blank'>   <u>Würzburg-Schweinfurt University of Applied Sciences</u>
+                </a>
+                </div>
+
+                  <p style={{ textAlign: 'center' }}>
+                 <Link
+              href={'/home-challenge/thws'}
+              className={'btn btn-lg btn-success rounded-pill'}
+            >
+              <span className="small">Back to startpage</span>
+            </Link>
+            </p>
+
+               
             </div>
           </div>
         </div>

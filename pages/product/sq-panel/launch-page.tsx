@@ -446,12 +446,16 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div id="subscribe" className=" mb-4" style={{ textAlign: 'center' }}>
             <h3>
               {state === 'en' && (
-                <>Subscribe to the waiting list for early bird discount!</>
+                <>
+                Subscribe to our Newsletter
+                {/* Subscribe to the waiting list for early bird discount! */}
+                </>
               )}
               {state === 'de' && (
                 <>
-                  Tragen Sie sich in die Warteliste ein und sichern Sie sich den
-                  Frühbucherrabatt!
+                Abonnieren Sie unseren Newsletter
+                  {/* Tragen Sie sich in die Warteliste ein und sichern Sie sich den
+                  Frühbucherrabatt! */}
                 </>
               )}
             </h3>
