@@ -267,7 +267,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     of own Apps.
                   </p>
                   <p className="">
-                    <strong>Reward:</strong> Sensor DS18B20 or Oximeter Sensor
+                    <strong>Reward:</strong> Sensor 
                   </p>
 
                   <p className="mb-4">
