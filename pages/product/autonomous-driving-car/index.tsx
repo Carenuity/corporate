@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import PageTitle from '../../../components/PageTitle';
 import Carousel from './carousel';
 import Link from 'next/link';
 import { useContext } from 'react';
@@ -11,7 +10,6 @@ import ServiceHOC from '../../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../../utils/constants';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
-  
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -53,8 +51,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
         />
         <title>Autonomous Driving Car</title>
       </Head>
-
-    
 
       <section className="pt-4">
         <div className="container">
@@ -217,47 +213,45 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       at an evening event at the foyer of Schaeffler. This event
                       was graced by notable figures such as Dr. Grunau, the
                       former representative of the management board of FAG
-                      Schaeffler Group Industry, and Dipl.-Ing. 
+                      Schaeffler Group Industry, and Dipl.-Ing.
                     </>
                   )}
                   {state === 'de' && (
                     <>
                       Die Enthüllung des Schaeffler FAG Modells MF3 fand im
                       Rahmen einer Abendveranstaltung im Foyer von Schaeffler
-                      statt. 
+                      statt.
                     </>
                   )}
                 </p>
               </div>
               <p className="mn-4">
-                  {state === 'en' && (
-                    <>
-                      Seubert, the
-                      former chairman of the Unterfranken district association
-                      of the Verein Deutscher Ingenieure (VDI). Their presence
-                      underscored the importance of innovation and collaboration
-                      in the engineering community. After several wins, the MF3
-                      was finally parked on the first floor of the THWS
-                      University in Schweinfurt, where it continues to inspire
-                      students and engineers alike.
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                     Diese Veranstaltung wurde Dr. Grunau, der
-                      ehemaliger Repräsentant der Geschäftsführung der FAG
-                      Schaeffler Gruppe; und Dipl.-Ing. Seubert, der ehemalige
-                      Vorsitzende des Bezirksvereins Unterfranken des Vereins
-                      Deutscher Ingenieure (VDI). Mit ihrer Anwesenheit
-                      unterstrichen sie die Bedeutung von Innovation und
-                      Zusammenarbeit in der Ingenieurgemeinschaft. Nach mehreren
-                      Siegen wurde der MF3 schließlich in der ersten Stock der
-                      THWS Hochschule in Schweinfurt geparkt, wo er wo er
-                      weiterhin Studenten und Ingenieure gleichermaßen
-                      inspiriert.
-                    </>
-                  )}
-                </p>
+                {state === 'en' && (
+                  <>
+                    Seubert, the former chairman of the Unterfranken district
+                    association of the Verein Deutscher Ingenieure (VDI). Their
+                    presence underscored the importance of innovation and
+                    collaboration in the engineering community. After several
+                    wins, the MF3 was finally parked on the first floor of the
+                    THWS University in Schweinfurt, where it continues to
+                    inspire students and engineers alike.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Diese Veranstaltung wurde Dr. Grunau, der ehemaliger
+                    Repräsentant der Geschäftsführung der FAG Schaeffler Gruppe;
+                    und Dipl.-Ing. Seubert, der ehemalige Vorsitzende des
+                    Bezirksvereins Unterfranken des Vereins Deutscher Ingenieure
+                    (VDI). Mit ihrer Anwesenheit unterstrichen sie die Bedeutung
+                    von Innovation und Zusammenarbeit in der
+                    Ingenieurgemeinschaft. Nach mehreren Siegen wurde der MF3
+                    schließlich in der ersten Stock der THWS Hochschule in
+                    Schweinfurt geparkt, wo er wo er weiterhin Studenten und
+                    Ingenieure gleichermaßen inspiriert.
+                  </>
+                )}
+              </p>
             </div>
           </div>
 

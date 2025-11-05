@@ -33,7 +33,7 @@ export const urls: CompanyUrls = {
   webFlash: 'https://chipglobe-dev.web.app/',
   supplimentAiMaterials: 'https://www.youtube.com/@AshutoshTripathi_AI/videos',
   benefitsVideo: '/benefits',
-  auth: 'https://sq-panel.vercel.app/login',
+  auth: `https://carenuity.auth.eu-central-1.amazoncognito.com/login?client_id=1c1tm67sd25m138f8ccllrdofe&scope=openid&response_type=code&redirect_uri=https%3A%2F%2Fsolutions.carenuity.com`, // 'https://sq-panel.vercel.app/login',
   logos: ['/img/logos/logo.svg', '/img/logos/logo-inner.png'],
   banner: '/img/banner.jpg',
 };
@@ -98,7 +98,7 @@ export const servicesUrls: Service = {
     },
   ],
 
-   products: [
+  products: [
     {
       name: 'Autonomous Driving Car',
       url: '/product/autonomous-driving-car',
@@ -129,7 +129,7 @@ export const servicesUrls: Service = {
       icon: 'fas fa-box',
       type: 'icon',
     },
-     {
+    {
       name: 'DingDongBar',
       url: '/product/dingdongbar',
       icon: 'fas fa-box',
@@ -165,7 +165,7 @@ export const servicesUrls: Service = {
       icon: 'fas fa-box',
       type: 'icon',
     },
-    
+
     {
       name: 'PlantBar',
       url: '/product/plantbar',
@@ -178,11 +178,9 @@ export const servicesUrls: Service = {
       icon: 'fas fa-box',
       type: 'icon',
     },
-    
- 
   ],
 
-   helpcenter: [
+  helpcenter: [
     {
       name: 'User Help Center',
       url: '/help-center',
@@ -195,10 +193,7 @@ export const servicesUrls: Service = {
       icon: 'fa-solid fa-brain',
       type: 'icon',
     },
-    
- 
   ],
-
 
   business: [
     {

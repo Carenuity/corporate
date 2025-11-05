@@ -5,7 +5,7 @@ import { LanguageSwitchContext } from '../../../components/context/LanguageSwitc
 import Link from 'next/link';
 import PageTitle from '../../../components/PageTitle';
 
-const Page = ({ isMobile }: { isMobile: boolean }) => {
+const Page = () => {
   const pageTitle = 'Press Materials';
   const { state } = useContext(LanguageSwitchContext);
   return (
@@ -83,7 +83,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </div>
 
             <div className="row">
-              <h4 className="mb-4">Retrospective: Students Home Challenge Projects 2024</h4>
+              <h4 className="mb-4">
+                Retrospective: Students Home Challenge Projects 2024
+              </h4>
               <div className="col-lg-4 mb-4">
                 <h6>
                   <a
@@ -594,7 +596,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </>
                 )}
               </h4>
-              <div className='mb-4' style={{textAlign:"center"}}>
+              <div className="mb-4" style={{ textAlign: 'center' }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/img/content/press-materials-for-thws/whatsapp.jpeg"
@@ -609,22 +611,24 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 />
               </div>
 
-              <div style={{textAlign:"center"}} className='mb-4'>
-              <a href='https://www.thws.de/service/news-presse/pressemeldungen/thema/praxisnah-im-studium-bewegungsmelder-selbst-bauen/ ' 
-              target='blank'>   <u>Würzburg-Schweinfurt University of Applied Sciences</u>
+              <div style={{ textAlign: 'center' }} className="mb-4">
+                <a
+                  href="https://www.thws.de/service/news-presse/pressemeldungen/thema/praxisnah-im-studium-bewegungsmelder-selbst-bauen/ "
+                  target="blank"
+                >
+                  {' '}
+                  <u>Würzburg-Schweinfurt University of Applied Sciences</u>
                 </a>
-                </div>
+              </div>
 
-                  <p style={{ textAlign: 'center' }}>
-                 <Link
-              href={'/home-challenge/thws'}
-              className={'btn btn-lg btn-success rounded-pill'}
-            >
-              <span className="small">Back to startpage</span>
-            </Link>
-            </p>
-
-               
+              <p style={{ textAlign: 'center' }}>
+                <Link
+                  href={'/home-challenge/thws'}
+                  className={'btn btn-lg btn-success rounded-pill'}
+                >
+                  <span className="small">Back to startpage</span>
+                </Link>
+              </p>
             </div>
           </div>
         </div>

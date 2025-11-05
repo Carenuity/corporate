@@ -1,5 +1,4 @@
 import React from 'react';
-import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
 import SolutionWidget from '../../components/SolutionWidget';
 import Link from 'next/link';
@@ -10,7 +9,8 @@ import SubscriptionWidget from '../../components/SubscriptionWidget';
 import { targetDomain } from '../../utils/constants';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'C3-Mini Triples';
+  // const pageTitle = 'C3-Mini Triples';
+
   return (
     <>
       <Head>
@@ -51,8 +51,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
 
         <title>C3 Mini Triple</title>
       </Head>
-
-      
 
       <section className="pt-4">
         <div className="container">
@@ -124,13 +122,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           </div>
 
           {/* wishlist */}
-          <hr className="my-7 "/>
-          <div
-            id="subscribe"
-            className="my-5 "
-            style={{ textAlign: 'center' }}
-          >
-            
+          <hr className="my-7 " />
+          <div id="subscribe" className="my-5 " style={{ textAlign: 'center' }}>
             <h2>Product Wishlist</h2>
             <p>
               Join <strong>C3-Mini Triples</strong> wishlist for updates when

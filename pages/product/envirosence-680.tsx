@@ -1,6 +1,5 @@
 import React from 'react';
 
-import PageTitle from '../../components/PageTitle';
 import Head from 'next/head';
 import ServiceHOC from '../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../utils/constants';
@@ -52,8 +51,6 @@ const Index = () => {
         <title>Envirosence 680</title>
       </Head>
 
-      
-
       <section className="pt-4">
         <div className="container">
           <div
@@ -93,16 +90,15 @@ const Index = () => {
                   and air quality index (AQI). The device features a vibrant TFT
                   display, making data visualization clear and user-friendly.
                 </p>
-                
               </div>
               <p>
-                  To ensure a smooth user experience, the interface is developed
-                  using LVGL, a highly optimized graphical library tailored for
-                  embedded systems. EnviroSence 680&apos;s intuitive GUI
-                  presents all the environmental parameters at a glance, making
-                  it ideal for applications in smart homes, industrial
-                  monitoring, and precision agriculture.
-                </p>
+                To ensure a smooth user experience, the interface is developed
+                using LVGL, a highly optimized graphical library tailored for
+                embedded systems. EnviroSence 680&apos;s intuitive GUI presents
+                all the environmental parameters at a glance, making it ideal
+                for applications in smart homes, industrial monitoring, and
+                precision agriculture.
+              </p>
             </div>
           </div>
 
@@ -156,15 +152,10 @@ const Index = () => {
             }}
           />
 
-          <SolutionWidget  solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
-            
-            <hr className="my-7 "/>
-          <div
-            id="subscribe"
-            className="my-5 "
-            style={{ textAlign: 'center' }}
-          >
-            
+          <SolutionWidget solutionId={'EVfcgU5gUOrAKLN3Ik0Y'} />
+
+          <hr className="my-7 " />
+          <div id="subscribe" className="my-5 " style={{ textAlign: 'center' }}>
             <h2>Product Wishlist</h2>
             <p>
               Join <strong>Envirosence 680</strong> wishlist for updates when
@@ -184,4 +175,3 @@ export default ServiceHOC(Index, {
   pageTitle: 'Envirosence 680',
   serviceCategory: 'Our Products',
 });
-

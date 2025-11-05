@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import { useContext } from 'react';
-import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
 import Link from 'next/link';
@@ -10,8 +9,8 @@ import { servicesUrls } from '../../utils/constants';
 import { targetDomain } from '../../utils/constants';
 
 const Index = ({ isMobile }: { isMobile: boolean }) => {
- 
   const { state } = useContext(LanguageSwitchContext);
+
   return (
     <>
       <Translatable />
@@ -53,8 +52,6 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
 
         <title>PlantBar</title>
       </Head>
-
-     
 
       <section className="pt-4">
         <div className="container">
