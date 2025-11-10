@@ -34,7 +34,495 @@ const Privacy = () => {
       <section className="pt-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8">
+
+            {state === 'en' && (
+                    <>
+                      <div className="col-lg-8">
+            <h4>1. General Information</h4>
+            <p>
+              We, the operators of this website, take the protection of your personal
+              data very seriously. Personal data refers to all information that
+              identifies you as an individual. This Privacy Policy explains what data
+              we collect, how we use it, and what rights you have under the GDPR and
+              German Federal Data Protection Act (BDSG).
+            </p>
+
+            <h4>2. Data Collection</h4>
+            <p>
+              Data is collected when you visit our website, use contact forms, or
+              access embedded content. This may include:
+            </p>
+            <ul>
+              <li>IP address, browser type and version, operating system</li>
+              <li>Date and time of access, visited pages</li>
+              <li>Form data (name, email, message)</li>
+              <li>Cookies and analytics data</li>
+              <li>Interactions with Google services (Maps, YouTube, reCAPTCHA)</li>
+            </ul>
+
+            <h4>3. Legal Bases for Processing</h4>
+            <ul>
+              <li>Art. 6(1)(a) GDPR – Consent: e.g. for analytics or newsletter.</li>
+              <li>
+                Art. 6(1)(b) GDPR – Contract performance: for handling requests or
+                orders.
+              </li>
+              <li>
+                Art. 6(1)(c) GDPR – Legal obligation: for retention or reporting
+                duties.
+              </li>
+              <li>
+                Art. 6(1)(f) GDPR – Legitimate interests: to maintain functionality,
+                security, or optimize services.
+              </li>
+            </ul>
+
+            <h4>4. Processors and Third Parties</h4>
+            <p>
+              We use selected service providers according to Art. 28 GDPR:
+            </p>
+            <ul>
+              <li>Web hosting and email services (EU)</li>
+              <li>Google Analytics and YouTube (Google LLC, USA)</li>
+              <li>Google Maps API, reCAPTCHA, Google Web Fonts</li>
+            </ul>
+            <p>
+              Transfers to third countries (e.g., USA) occur only under EU Standard
+              Contractual Clauses or comparable safeguards.
+            </p>
+
+            <h4>5. Data Retention and Deletion</h4>
+            <p>
+              Personal data is retained only as long as necessary for its intended
+              purpose or as required by law. Afterward, it is deleted or anonymized in
+              accordance with Art. 17 GDPR.
+            </p>
+
+            <h4>6. Your Rights</h4>
+            <ul>
+              <li>Access (Art. 15 GDPR)</li>
+              <li>Rectification (Art. 16 GDPR)</li>
+              <li>Erasure ("right to be forgotten", Art. 17 GDPR)</li>
+              <li>Restriction of processing (Art. 18 GDPR)</li>
+              <li>Data portability (Art. 20 GDPR)</li>
+              <li>Objection to processing (Art. 21 GDPR)</li>
+              <li>
+                Complaint to a supervisory authority (Art. 77 GDPR) – Bavarian State
+                Office for Data Protection Supervision (BayLDA), Promenade 18, 91522
+                Ansbach, Germany – www.lda.bayern.de
+              </li>
+            </ul>
+
+            <h4>7. Cookies and Consent</h4>
+            <p>
+              Our website uses cookies for essential, analytical, and performance
+              purposes. Non-essential cookies are only activated after your consent,
+              which you can withdraw or change anytime.
+            </p>
+
+            <h4>8. Analytics and Services</h4>
+            <h5>Google Analytics</h5>
+            <p>
+              Used to analyze user behavior; IP anonymization is active. Opt-out via:
+              Google Analytics Opt-out.
+            </p>
+
+            <h5>YouTube</h5>
+            <p>
+              Embedded videos use YouTube iFrame. Data is handled by Google under its
+              privacy policy. Log out of your YouTube account to prevent association.
+            </p>
+
+            <h5>Google Maps</h5>
+            <p>
+              When using Maps, IP and location data are transmitted to Google. Use is
+              based on legitimate interests for location display.
+            </p>
+
+            <h5>Google reCAPTCHA</h5>
+            <p>
+              Used to prevent spam. Sends IP and interaction data to Google for
+              verification.
+            </p>
+
+            <h5>Google Web Fonts</h5>
+            <p>
+              Ensures consistent font display; your IP may be sent to Google servers.
+            </p>
+
+            <h4>9. Data Security</h4>
+            <p>
+              We use technical and organizational measures to protect your data
+              against loss, manipulation, or unauthorized access.
+            </p>
+
+            <h4>10. Updates</h4>
+            <p>
+              This Privacy Policy is reviewed regularly. The latest version is always
+              available at www.chipglobe.com/privacy.
+            </p>
+          </div> 
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                <div className="col-lg-8">
+      <h4>1. Allgemeine Hinweise</h4>
+      <p>
+        Der Schutz Ihrer persönlichen Daten ist uns, der Chipglobe GmbH, ein
+        wichtiges Anliegen. Personenbezogene Daten sind alle Informationen, mit
+        denen Sie persönlich identifiziert werden können. Diese
+        Datenschutzerklärung erläutert, welche Daten wir erheben, wie wir sie
+        verwenden und welche Rechte Sie gemäß der Datenschutz-Grundverordnung
+        (DSGVO) und dem Bundesdatenschutzgesetz (BDSG) haben.
+      </p>
+
+      <h4>2. Erhebung von Daten</h4>
+      <p>
+        Wir erheben personenbezogene Daten, wenn Sie unsere Website besuchen,
+        Kontaktformulare nutzen oder eingebettete Inhalte aufrufen. Dies kann
+        umfassen:
+      </p>
+      <ul>
+        <li>IP-Adresse, Browsertyp und Version, Betriebssystem</li>
+        <li>Datum und Uhrzeit des Zugriffs, aufgerufene Seiten</li>
+        <li>Formulardaten (Name, E-Mail-Adresse, Nachricht)</li>
+        <li>Cookies und Analyseinformationen</li>
+        <li>Interaktionen mit Google-Diensten (Maps, YouTube, reCAPTCHA)</li>
+      </ul>
+
+      <h4>3. Rechtsgrundlagen der Verarbeitung</h4>
+      <ul>
+        <li>
+          Art. 6 Abs. 1 lit. a DSGVO – Einwilligung: z. B. bei Analyse-Cookies
+          oder Newsletter.
+        </li>
+        <li>
+          Art. 6 Abs. 1 lit. b DSGVO – Vertragserfüllung: z. B. zur Bearbeitung
+          von Anfragen oder Bestellungen.
+        </li>
+        <li>
+          Art. 6 Abs. 1 lit. c DSGVO – Rechtliche Verpflichtung: z. B.
+          gesetzliche Aufbewahrungs- oder Nachweispflichten.
+        </li>
+        <li>
+          Art. 6 Abs. 1 lit. f DSGVO – Berechtigtes Interesse: z. B. zur
+          Aufrechterhaltung der Funktionalität, Sicherheit oder Optimierung
+          unserer Website.
+        </li>
+      </ul>
+
+      <h4>4. Auftragsverarbeiter und Dritte</h4>
+      <p>Wir setzen sorgfältig ausgewählte Dienstleister nach Art. 28 DSGVO ein:</p>
+      <ul>
+        <li>Webhosting und E-Mail-Dienste (innerhalb der EU)</li>
+        <li>Google Analytics und YouTube (Google LLC, USA)</li>
+        <li>Google Maps API, reCAPTCHA und Google Web Fonts</li>
+      </ul>
+      <p>
+        Datenübermittlungen in Drittländer (z. B. USA) erfolgen ausschließlich
+        auf Grundlage der EU-Standardvertragsklauseln oder vergleichbarer
+        Garantien gemäß Art. 46 DSGVO.
+      </p>
+
+      <h4>5. Speicherdauer und Löschung</h4>
+      <p>
+        Personenbezogene Daten werden nur so lange gespeichert, wie dies zur
+        Erfüllung des jeweiligen Zwecks erforderlich ist oder gesetzliche
+        Aufbewahrungsfristen bestehen. Danach werden die Daten gemäß Art. 17
+        DSGVO gelöscht oder anonymisiert.
+      </p>
+
+      <h4>6. Ihre Rechte</h4>
+      <ul>
+        <li>Auskunft (Art. 15 DSGVO)</li>
+        <li>Berichtigung (Art. 16 DSGVO)</li>
+        <li>Löschung („Recht auf Vergessenwerden“, Art. 17 DSGVO)</li>
+        <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+        <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+        <li>Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)</li>
+        <li>
+          Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO): Bayerisches
+          Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522
+          Ansbach, Deutschland – www.lda.bayern.de
+        </li>
+      </ul>
+
+      <h4>7. Cookies und Einwilligung</h4>
+      <p>
+        Unsere Website verwendet Cookies, um grundlegende Funktionen
+        bereitzustellen, die Nutzung der Website zu analysieren und die Leistung
+        zu verbessern. Nicht technisch notwendige Cookies werden nur nach Ihrer
+        Einwilligung gesetzt. Sie können Ihre Zustimmung jederzeit über die
+        Cookie-Einstellungen am Seitenende ändern oder widerrufen.
+      </p>
+
+      <h4>8. Analysedienste und Drittanbieter</h4>
+      <h5>Google Analytics</h5>
+      <p>
+        Zur Analyse des Nutzerverhaltens. IP-Anonymisierung ist aktiviert.
+        Widerspruch über: Google Analytics Opt-out
+      </p>
+
+      <h5>YouTube</h5>
+      <p>
+        Beim Abspielen eingebetteter YouTube-Videos werden Daten an Google LLC
+        übermittelt. Loggen Sie sich vorab aus Ihrem YouTube-Konto aus, um eine
+        Zuordnung zu vermeiden.
+      </p>
+
+      <h5>Google Maps</h5>
+      <p>
+        Beim Aufruf von Karten werden IP- und Standortdaten an Google
+        übermittelt. Nutzung erfolgt auf Grundlage berechtigter Interessen zur
+        Darstellung von Standorten.
+      </p>
+
+      <h5>Google reCAPTCHA</h5>
+      <p>
+        Dient der Vermeidung von Spam-Eingaben. Übermittelt IP- und
+        Interaktionsdaten an Google zur Prüfung.
+      </p>
+
+      <h5>Google Web Fonts</h5>
+      <p>
+        Zur einheitlichen Darstellung von Schriftarten werden diese von
+        Google-Servern geladen. Dabei kann Ihre IP-Adresse an Google übertragen
+        werden.
+      </p>
+
+      <h4>9. Datensicherheit</h4>
+      <p>
+        Wir setzen technische und organisatorische Maßnahmen ein, um Ihre Daten
+        vor Verlust, Manipulation und unbefugtem Zugriff zu schützen.
+      </p>
+
+      <h4>10. Aktualität</h4>
+      <p>
+        Diese Datenschutzerklärung wird regelmäßig überprüft und angepasst. Die
+        jeweils aktuelle Version finden Sie unter
+        www.chipglobe.com/de/datenschutz.
+      </p>
+    </div>     
+                    </>
+                  )}
+
+           
+         
+
+
+            
+
+            <div
+              className="col-lg-4"
+              style={{
+                height: '135vh',
+                backgroundColor: '#036437ff',
+                color: '#ffffff',
+                paddingTop: '20px',
+              }}
+            >
+              {state === 'en' && (
+                <>
+                  <h3 className="h5 text-white">
+                    <strong>
+                      Information pursuant to Section 5 of the German Telemedia
+                      Act (TMG):
+                    </strong>
+                  </h3>
+                  <address>
+                    <p>
+                      CHIPGLOBE GmbH <br />
+                      Cincinnatistrasse 60 <br />
+                      81549 Munich, Germany <br />
+                    </p>
+                    <div>
+                      Tel.:{' '}
+                      <a
+                        href="tel:+4989122246900"
+                        className="text-white text-primary-hover"
+                      >
+                        <strong>+49 89 1222 469 00</strong>
+                      </a>
+                    </div>
+                    <div>
+                      Fax:{' '}
+                      <a
+                        href="tel:+4989122246969"
+                        className="text-white text-primary-hover"
+                      >
+                        <strong>+49 89 1222 469 69</strong>
+                      </a>
+                    </div>
+                    <div>
+                      Email:{' '}
+                      <a
+                        href="mailto:info@chipglobe.com"
+                        className="text-white text-primary-hover"
+                      >
+                        <strong>info@chipglobe.com</strong>
+                      </a>
+                    </div>
+                  </address>
+                  <div>
+                    <p>
+                      Commercial register: District Court of Munich
+                      <br />
+                      Commercial register number: HRB 209414
+                      <br />
+                      VAT Identification Number pursuant to Section 27a of the
+                      German Value Added Tax Act: DE293062415
+                      <br />
+                      Registered under WEEE reg. no.: DE 53301452
+                    </p>
+                    {/* <p>
+          Munich Commercial Register: <strong>HRB 209414</strong>
+        </p>
+        <p>
+          VAT ID number pursuant to Section 27a of the German VAT Act (UStG):{' '}
+          <strong>DE293062415</strong>
+        </p> */}
+                  </div>
+                  <p>
+                    <span>
+                      <strong>
+                        CEO / person responsible pursuant to the German Press
+                        Act
+                      </strong>
+                      <br />
+                      Volker Frisch
+                    </span>
+                    <br />
+                    <span>
+                      Phone:{' '}
+                      <a
+                        href="tel:+4989122246901"
+                        className="text-white text-primary-hover"
+                      >
+                        +49 89 1222 469 01
+                      </a>
+                    </span>
+                    <br />
+                    <span>
+                      Email:{' '}
+                      <a
+                        href="mailto:volker.frisch@chipglobe.com"
+                        className="text-white text-primary-hover"
+                      >
+                        volker.frisch@chipglobe.com
+                      </a>
+                    </span>
+                  </p>
+                  <p>
+                    <strong>
+                      Responsible for content pursuant to Section 55 para. 2 of
+                      the German Interstate Broadcasting Treaty (RStV):
+                    </strong>{' '}
+                    <br />
+                    Volker Frisch
+                  </p>
+                </>
+              )}
+
+              {state === 'de' && (
+                <>
+                  <h3 className="h5 text-white">
+                    <strong>Angaben gemäß § 5 TMG:</strong>
+                  </h3>
+                  <address>
+                    <p>
+                      CHIPGLOBE GmbH <br />
+                      Cincinnatistr. 60 <br />
+                      81549 München <br />
+                    </p>
+                    <div>
+                      <div>
+                        Tel.:{' '}
+                        <a
+                          href="tel:+4989122246900"
+                          className="text-white text-primary-hover"
+                        >
+                          <strong>+49 89 1222 469 00</strong>
+                        </a>
+                      </div>
+                      <div>
+                        Fax:{' '}
+                        <a
+                          href="tel:+4989122246969"
+                          className="text-white text-primary-hover"
+                        >
+                          <strong>+49 89 1222 469 69</strong>
+                        </a>
+                      </div>
+                      <div>
+                        Email:{' '}
+                        <a
+                          href="mailto:info@chipglobe.com"
+                          className="text-white text-primary-hover"
+                        >
+                          <strong>info@chipglobe.com</strong>
+                        </a>
+                      </div>
+                    </div>
+                  </address>
+                  <div>
+                    <p>
+                      Handelsregister: Amtsgericht München
+                      <br />
+                      Handelsregisternummer: HRB 209414
+                      <br />
+                      Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:
+                      DE293062415
+                      <br />
+                      Registriert unter WEEE-Reg.-Nr.: DE 53301452
+                    </p>
+                    {/* <p>
+          Handelsregister München: <strong>HRB 209414</strong>
+        </p>
+        <p>
+          Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:{' '}
+          <strong>DE293062415</strong>
+        </p> */}
+                  </div>
+                  <p>
+                    <span>
+                      <strong>Geschäftsführung / V.i.S.d.P.</strong>
+                      <br />
+                      Volker Frisch
+                    </span>
+                    <br />
+                    <span>
+                      Telefon:{' '}
+                      <a
+                        href="tel:+4989122246901"
+                        className="text-white text-primary-hover"
+                      >
+                        +49 89 1222 469 01
+                      </a>
+                    </span>
+                    <br />
+                    <span>
+                      Email:{' '}
+                      <a
+                        href="mailto:volker.frisch@chipglobe.com"
+                        className="text-white text-primary-hover"
+                      >
+                        volker.frisch@chipglobe.com
+                      </a>
+                    </span>
+                  </p>
+                  <p>
+                    <strong>
+                      Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+                    </strong>{' '}
+                    <br />
+                    Volker Frisch
+                  </p>
+                </>
+              )}
+            </div>
+
+            {/* <div className="col-lg-8">
               {state === 'en' && (
                 <>
                   <h4>1. Data Protection Overview</h4>
@@ -557,216 +1045,7 @@ const Privacy = () => {
                   </div>
                 </>
               )}
-            </div>
-
-            <div
-              className="col-lg-4"
-              style={{
-                height: '135vh',
-                backgroundColor: '#036437ff',
-                color: '#ffffff',
-                paddingTop: '20px',
-              }}
-            >
-              {state === 'en' && (
-                <>
-                  <h3 className="h5 text-white">
-                    <strong>
-                      Information pursuant to Section 5 of the German Telemedia
-                      Act (TMG):
-                    </strong>
-                  </h3>
-                  <address>
-                    <p>
-                      CHIPGLOBE GmbH <br />
-                      Cincinnatistrasse 60 <br />
-                      81549 Munich, Germany <br />
-                    </p>
-                    <div>
-                      Tel.:{' '}
-                      <a
-                        href="tel:+4989122246900"
-                        className="text-white text-primary-hover"
-                      >
-                        <strong>+49 89 1222 469 00</strong>
-                      </a>
-                    </div>
-                    <div>
-                      Fax:{' '}
-                      <a
-                        href="tel:+4989122246969"
-                        className="text-white text-primary-hover"
-                      >
-                        <strong>+49 89 1222 469 69</strong>
-                      </a>
-                    </div>
-                    <div>
-                      Email:{' '}
-                      <a
-                        href="mailto:info@chipglobe.com"
-                        className="text-white text-primary-hover"
-                      >
-                        <strong>info@chipglobe.com</strong>
-                      </a>
-                    </div>
-                  </address>
-                  <div>
-                    <p>
-                      Commercial register: District Court of Munich
-                      <br />
-                      Commercial register number: HRB 209414
-                      <br />
-                      VAT Identification Number pursuant to Section 27a of the
-                      German Value Added Tax Act: DE293062415
-                      <br />
-                      Registered under WEEE reg. no.: DE 53301452
-                    </p>
-                    {/* <p>
-          Munich Commercial Register: <strong>HRB 209414</strong>
-        </p>
-        <p>
-          VAT ID number pursuant to Section 27a of the German VAT Act (UStG):{' '}
-          <strong>DE293062415</strong>
-        </p> */}
-                  </div>
-                  <p>
-                    <span>
-                      <strong>
-                        CEO / person responsible pursuant to the German Press
-                        Act
-                      </strong>
-                      <br />
-                      Volker Frisch
-                    </span>
-                    <br />
-                    <span>
-                      Phone:{' '}
-                      <a
-                        href="tel:+4989122246901"
-                        className="text-white text-primary-hover"
-                      >
-                        +49 89 1222 469 01
-                      </a>
-                    </span>
-                    <br />
-                    <span>
-                      Email:{' '}
-                      <a
-                        href="mailto:volker.frisch@chipglobe.com"
-                        className="text-white text-primary-hover"
-                      >
-                        volker.frisch@chipglobe.com
-                      </a>
-                    </span>
-                  </p>
-                  <p>
-                    <strong>
-                      Responsible for content pursuant to Section 55 para. 2 of
-                      the German Interstate Broadcasting Treaty (RStV):
-                    </strong>{' '}
-                    <br />
-                    Volker Frisch
-                  </p>
-                </>
-              )}
-
-              {state === 'de' && (
-                <>
-                  <h3 className="h5 text-white">
-                    <strong>Angaben gemäß § 5 TMG:</strong>
-                  </h3>
-                  <address>
-                    <p>
-                      CHIPGLOBE GmbH <br />
-                      Cincinnatistr. 60 <br />
-                      81549 München <br />
-                    </p>
-                    <div>
-                      <div>
-                        Tel.:{' '}
-                        <a
-                          href="tel:+4989122246900"
-                          className="text-white text-primary-hover"
-                        >
-                          <strong>+49 89 1222 469 00</strong>
-                        </a>
-                      </div>
-                      <div>
-                        Fax:{' '}
-                        <a
-                          href="tel:+4989122246969"
-                          className="text-white text-primary-hover"
-                        >
-                          <strong>+49 89 1222 469 69</strong>
-                        </a>
-                      </div>
-                      <div>
-                        Email:{' '}
-                        <a
-                          href="mailto:info@chipglobe.com"
-                          className="text-white text-primary-hover"
-                        >
-                          <strong>info@chipglobe.com</strong>
-                        </a>
-                      </div>
-                    </div>
-                  </address>
-                  <div>
-                    <p>
-                      Handelsregister: Amtsgericht München
-                      <br />
-                      Handelsregisternummer: HRB 209414
-                      <br />
-                      Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:
-                      DE293062415
-                      <br />
-                      Registriert unter WEEE-Reg.-Nr.: DE 53301452
-                    </p>
-                    {/* <p>
-          Handelsregister München: <strong>HRB 209414</strong>
-        </p>
-        <p>
-          Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:{' '}
-          <strong>DE293062415</strong>
-        </p> */}
-                  </div>
-                  <p>
-                    <span>
-                      <strong>Geschäftsführung / V.i.S.d.P.</strong>
-                      <br />
-                      Volker Frisch
-                    </span>
-                    <br />
-                    <span>
-                      Telefon:{' '}
-                      <a
-                        href="tel:+4989122246901"
-                        className="text-white text-primary-hover"
-                      >
-                        +49 89 1222 469 01
-                      </a>
-                    </span>
-                    <br />
-                    <span>
-                      Email:{' '}
-                      <a
-                        href="mailto:volker.frisch@chipglobe.com"
-                        className="text-white text-primary-hover"
-                      >
-                        volker.frisch@chipglobe.com
-                      </a>
-                    </span>
-                  </p>
-                  <p>
-                    <strong>
-                      Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-                    </strong>{' '}
-                    <br />
-                    Volker Frisch
-                  </p>
-                </>
-              )}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
