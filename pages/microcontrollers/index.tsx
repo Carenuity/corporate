@@ -15,8 +15,9 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'C3-Mini' },
         }}
-        image={'/img/boards/C3-Mini-microcontroller.webp'}
-        gridClass="col-md-6"
+        image={'/img/boards/C3-Mini-microcontroller.jpeg' }
+        
+        gridClass="col-md-6 mb-3"
       />
       <ModuleImage
         url={{
@@ -24,7 +25,7 @@ const Microcontrollers = () => {
           query: { ...query, microcontroller: 'ESP32-Mini' },
         }}
         image={'/img/boards/ESP32-Mini-microcontroller.webp'}
-        gridClass="col-md-6"
+        gridClass="col-md-6 mb-3"
       />
       <ModuleImage
         url={{
