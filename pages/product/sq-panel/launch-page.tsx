@@ -447,13 +447,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             <h3>
               {state === 'en' && (
                 <>
-                Subscribe to our Newsletter
-                {/* Subscribe to the waiting list for early bird discount! */}
+                  Subscribe to our Newsletter
+                  {/* Subscribe to the waiting list for early bird discount! */}
                 </>
               )}
               {state === 'de' && (
                 <>
-                Abonnieren Sie unseren Newsletter
+                  Abonnieren Sie unseren Newsletter
                   {/* Tragen Sie sich in die Warteliste ein und sichern Sie sich den
                   Frühbucherrabatt! */}
                 </>

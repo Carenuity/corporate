@@ -1,11 +1,9 @@
 import Head from 'next/head';
 import React from 'react';
-import PageTitle from '../components/PageTitle';
-import Link from 'next/link';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
 
-const Index = ({ isMobile }: { isMobile: boolean }) => {
+const Index = () => {
   const pageTitle = 'Help Center';
   return (
     <>
@@ -21,15 +19,9 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
         <title>{pageTitle}</title>
       </Head>
 
-     
-      
-
       <section className="overflow-hidden py-3">
         <div className="container position-relative z-index-3">
-           <div>
-            
-           </div>
-          
+          <div></div>
         </div>
       </section>
     </>

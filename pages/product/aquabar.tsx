@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import PageTitle from '../../components/PageTitle';
 import { LanguageSwitchContext } from '../../components/context/LanguageSwitch';
 import Translatable from '../../components/Translatable';
 import { useContext } from 'react';
@@ -8,9 +7,7 @@ import ServiceHOC from '../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../utils/constants';
 import SubscriptionWidget from '../../components/SubscriptionWidget';
 
-
 const Index = () => {
-
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -27,8 +24,6 @@ const Index = () => {
         {/* JSON-LD structured data */}
         <title>AquaBar</title>
       </Head>
-
-     
 
       <section className="pt-4">
         <div className="container ">
@@ -348,17 +343,11 @@ const Index = () => {
             )}
           </ul>
 
-          <hr className="my-7 "/>
-          <div
-            id="subscribe"
-            className="my-5 "
-            style={{ textAlign: 'center' }}
-          >
-            
+          <hr className="my-7 " />
+          <div id="subscribe" className="my-5 " style={{ textAlign: 'center' }}>
             <h2>Product Wishlist</h2>
             <p>
-              Join <strong>Aquabar</strong> wishlist for updates when
-              ready
+              Join <strong>Aquabar</strong> wishlist for updates when ready
             </p>
             <SubscriptionWidget categoryId={3} />
           </div>
@@ -374,4 +363,3 @@ export default ServiceHOC(Index, {
   pageTitle: 'AquaBar',
   serviceCategory: 'Our Products',
 });
-

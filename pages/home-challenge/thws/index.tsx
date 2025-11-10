@@ -38,63 +38,60 @@ const Page = () => {
             height="600px"
           ></iframe>
           <div style={{ textAlign: 'center' }}>
-          <a
-            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGTv8E29BE&#x2F;vw2sd2l1Wp4OwFOmFTSw1A&#x2F;view?utm_content=DAGTv8E29BE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mb-6"
-            
-          >
-            <u>THWS Home Challenge</u>
-          </a>{' '}
-          
-          by carenuity
-          </div>
-          <div className='row'>
-            <div className='col-lg-3 mb-4' ></div>
-            <div className='col-lg-4 mb-4' >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/press-materials-for-thws/register.jpeg"
-                  className="mt-1-9 wow fadeInUp img-fluid mb-3"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                />
-                 <p style={{ textAlign: 'center' }}>
-                <Link
-              href={'/home-challenge/register/thws'}
-              className={'btn btn-sm btn-success rounded-pill'}
+            <a
+              href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGTv8E29BE&#x2F;vw2sd2l1Wp4OwFOmFTSw1A&#x2F;view?utm_content=DAGTv8E29BE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-6"
             >
-              <span className="small">Register </span>
-            </Link>
-            <p>for the home challenge towards AI</p>
-            </p>
-              </div>
-  <div className='col-lg-2 mb-4' >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/img/content/press-materials-for-thws/whatsapp2.jpeg"
-                  className="mt-1-9 wow fadeInUp img-fluid mb-2"
-                  data-wow-delay="100ms"
-                  alt="..."
-                  style={{
-                    visibility: 'visible',
-                    animationDelay: '100ms',
-                    animationName: 'fadeIn',
-                  }}
-                />
-                <p style={{ textAlign: 'center' }}>
-               <strong>Scan</strong>  to join whatsapp group 
-                </p>
-              </div>
-              
+              <u>THWS Home Challenge</u>
+            </a>{' '}
+            by carenuity
           </div>
-        
+          <div className="row">
+            <div className="col-lg-3 mb-4"></div>
+            <div className="col-lg-4 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/press-materials-for-thws/register.jpeg"
+                className="mt-1-9 wow fadeInUp img-fluid mb-3"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              <p style={{ textAlign: 'center' }}>
+                <Link
+                  href={'/home-challenge/register/thws'}
+                  className={'btn btn-sm btn-success rounded-pill'}
+                >
+                  <span className="small">Register </span>
+                </Link>
+                <p>for the home challenge towards AI</p>
+              </p>
+            </div>
+            <div className="col-lg-2 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/press-materials-for-thws/whatsapp2.jpeg"
+                className="mt-1-9 wow fadeInUp img-fluid mb-2"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+              <p style={{ textAlign: 'center' }}>
+                <strong>Scan</strong> to join whatsapp group
+              </p>
+            </div>
+          </div>
+
           <p style={{ textAlign: 'center' }}>
             {/* {!isMobile && ( */}
             <Link
