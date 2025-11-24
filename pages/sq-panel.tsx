@@ -986,7 +986,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/datasheet-de.PDF"
+                      href="/docs/datasheet-de.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -998,7 +998,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/declaration-de.PDF"
+                      href="/docs/declaration-de.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -1022,7 +1022,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/commisioning-de.PDF"
+                      href="/docs/commisioning-de.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
