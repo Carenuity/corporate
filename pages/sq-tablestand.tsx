@@ -64,7 +64,32 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
         <div className="container">
           <h4 className="mb-4">SQ-TableStand</h4>
 
-          <p className="mn-4">
+          <div
+            className="e-card mb-6"
+            style={{
+              boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+              maxHeight: '1O00px',
+              padding: '20px',
+            }}
+          >
+            <div className="row">
+              <div className="col-lg-4 ">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/sq-tablestand/slide4.png"
+                      className="wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        width: '420px',
+                        animationDelay: '100ms',
+                        animationName: 'fadeIn',
+                      }}
+                    />
+              </div>
+              <div className="col-lg-8 ">
+                <p className="mn-4">
             {state === 'en' && (
               <>
                 The Carenuity SQ-Tablestand transforms the SQ-Panel into a
@@ -119,6 +144,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </p>
+              </div>
+              </div></div>
+          <div className="row">
+            <div className="col-lg-7 ">
           <h4 className="mn-4">
             {state === 'en' && <>Key Benefits at a Glance:</>}
             {state === 'de' && <>Vorteile auf einen Blick:</>}
@@ -220,7 +249,24 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </ul>
-
+            </div>
+          
+              <div className="col-lg-4 ">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/sq-tablestand/sq-panel.png"
+                      className="wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        width: '420px',
+                        animationDelay: '100ms',
+                        animationName: 'fadeIn',
+                      }}
+                    />
+              </div>
+</div>
           <h4 className="mn-4">
             {state === 'en' && <>System Note:</>}
             {state === 'de' && <>Systemhinweis:</>}

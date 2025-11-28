@@ -351,6 +351,85 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 }}
               />
             </div>
+            <hr/>
+                <h4>
+                   {state === 'en' && <>Simply connect, insert, and you're done:</>}
+              {state === 'de' && <>Einfach anschließen, einsetzen und fertig:</>}
+                </h4>
+                <p>
+                   {state === 'en' && <>The SQ-Power module fits into any standard flush-mounted 
+                   box (Ø 68 mm) and automatically supplies the SQ-Panel with 5 V DC.</>}
+              {state === 'de' && <>Das SQ-Power Modul passt in jede Standard-UP-Dose (Ø 68 mm) 
+              und versorgt das SQ-Panel automatisch mit 5 V DC.</>}
+                </p>
+                
+            {state === 'en' && <>
+             <div className="col-lg-5 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-power/sq-power3.PNG"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+            <div className="col-lg-2"></div>
+             </>}
+              {state === 'de' && <>
+              <div className="col-lg-5 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-power/sq-power1.JPEG"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+             <div className="col-lg-2"></div>
+              </>}
+
+              {state === 'en' && <>
+             <div className="col-lg-5 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-power/sq-power4.PNG"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+             </>}
+              {state === 'de' && <>
+              <div className="col-lg-5 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/content/sq-power/sq-power.JPEG"
+                className=" wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+              </>}
           </div>
           {state === 'en' && (
             <>
@@ -420,6 +499,142 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="col-md-4 ">
+                   <div className="mb-4">
+            <h4>
+              {state === 'en' && <>Documentation</>}
+              {/* {state === 'de' && <>Documentation</>} */}
+            </h4>
+            <p className="mn-4">
+              {state === 'en' && (
+                <>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/datasheet.pdf"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Datasheet V.1.3.0 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/declaration-of-conformity.pdf"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Declaration-of-Conformity V.1.3.0 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/leaflet.pdf"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Leaflet V1.0.0 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/commisioning.pdf"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Manual-for-Commissioning 1.0.3 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/product/serial-number"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Serial-Number V2.0.1 [PDF]
+                    </a>
+                  </div>
+                </>
+              )}
+              {/* {state === 'de' && (
+                <>
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/datasheet-de.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Datenblatt V.1.3 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/declaration-de.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Konformitätserklärung V.1.3.0 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/leaflet.pdf"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Beipackzettel V1.0.0 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/docs/commisioning-de.PDF"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Handbuch zur Inbetriebnahme 1.0.3 [PDF]
+                    </a>
+                  </div>
+
+                  <div className="d-flex align-items-center">
+                    <i className="ti-check display-31 text-black"></i>
+                    <a
+                      href="/product/serial-number"
+                      target="_blank"
+                      className="ms-2 link-success"
+                      rel="noreferrer"
+                    >
+                      Serien-Nummer V2.0.1 [PDF]
+                    </a>
+                  </div>
+                </>
+              )} */}
+            </p>
+          </div>
                 </div>
               </div>
             </>
@@ -508,7 +723,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
             </>
           )}
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-12 mb-4">
               <div
                 className="e-card"
@@ -517,10 +732,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   height: '300px',
                 }}
               >
-                <div className="row">
-                  <div className="col-md-3 mb-4">
+                <div className="row"> */}
+                  {/* <div className="col-md-3 mb-4"> */}
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    {/* <img
                       src="/img/content/sq-power/sq-power-front.png"
                       className="wow fadeInUp"
                       data-wow-delay="100ms"
@@ -595,7 +810,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                               >
                                 <span className="small">
                                   Buy Now{' '}
-                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
                                 </span>
                               </a>
                             )}
@@ -603,11 +817,11 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

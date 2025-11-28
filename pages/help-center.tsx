@@ -157,6 +157,28 @@ const Index = () => {
                 </div>
               </a>
             </div>
+             <div className="col-lg-12">
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+              <a href="/product/sq-panel/documentation">
+                <div
+                  className="e-card mb-4 "
+                  style={{
+                    boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                    height: '100px',
+                    padding: '15px',
+                    backgroundColor: '#198754',
+                    color: '#eeeeee',
+                    textAlign: 'center',
+                    justifyContent: 'center',
+
+                    display: 'flex',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <h5 style={{ color: '#eeeeee' }}> Documentation</h5>
+                </div>
+              </a>
+            </div>
           </div>
           <div
             className="e-card mb-4 "
