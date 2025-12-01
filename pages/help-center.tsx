@@ -157,7 +157,7 @@ const Index = () => {
                 </div>
               </a>
             </div>
-             <div className="col-lg-12">
+            <div className="col-lg-12">
               {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
               <a href="/product/sq-panel/documentation">
                 <div

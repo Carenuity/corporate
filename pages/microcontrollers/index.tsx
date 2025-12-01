@@ -15,8 +15,7 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'C3-Mini' },
         }}
-        image={'/img/boards/C3-Mini-microcontroller.jpeg' }
-        
+        image={'/img/boards/C3-Mini-microcontroller.jpeg'}
         gridClass="col-md-6 mb-3"
       />
       <ModuleImage
