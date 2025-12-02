@@ -84,6 +84,101 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
       />
 
       <section className="container">
+        <div>
+             {state === 'en' && (
+            <>
+                    <div
+            className="e-card mb-6"
+            style={{
+              boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+              maxHeight: '1O00px',
+              padding: '20px',
+            }}
+          >
+            <div className="row">
+              
+              <div className="col-lg-3 mt-n1-9 ">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/sq-panel/bsfz-siegel.PNG"
+                  className="mt-1-9 wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    animationDelay: '100ms',
+                    width: '260px',
+                    animationName: 'fadeIn',
+                  }}
+                />
+              </div>
+              <div className="col-lg-9 ">
+                <h5>Awarded the BSFZ Seal 2025 for Research & Development</h5>
+                <p>The red BSFZ Seal, awarded by the Federal Republic of Germany, 
+                  certifies that Carenuity conducts its own research and development. 
+                  The SQ-Panel is officially recognized as a result of innovative R&D.</p>
+                  <p>
+                    The BSFZ Seal (issued by the German Certification Office for Research Grants) 
+                    is an official quality mark of the Federal Republic of Germany confirming that a
+                     product or project is based on research and development. It strengthens trust among
+                      customers, partners, and investors by signaling official recognition of innovation and 
+                      credibility.
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+          </> )}
+          {state === 'de' && (
+            <>
+              <div
+                className="e-card mb-6"
+                style={{
+                  boxShadow: '0px 0px 15px 0px  hsla(0, 0%, 90%)',
+                  maxHeight: '1O00px',
+                  padding: '20px',
+                }}
+              >
+                <div className="row">
+                  
+                  <div className="col-lg-3 mt-n1-9 ">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/content/sq-panel/bsfz-siegel.PNG"
+                      className="mt-1-9 wow fadeInUp"
+                      data-wow-delay="100ms"
+                      alt="..."
+                      style={{
+                        visibility: 'visible',
+                        animationDelay: '100ms',
+                        width: '260px',
+                        animationName: 'fadeIn',
+                      }}
+                    />
+                  </div>
+
+                  <div className="col-lg-9 ">
+                    <h5>Ausgezeichnet mit dem BSFZ-Siegel 2025 für Forschung & Entwicklung</h5>
+                    <p>
+                      Das rote BSFZ-Siegel, vergeben von der Bundesrepublik Deutschland,
+                      bestätigt, dass Carenuity eigene Forschung und Entwicklung durchführt.
+                      Das SQ-Panel ist offiziell als Ergebnis innovativer F&E anerkannt.
+                    </p>
+
+                    <p>
+                      Das BSFZ-Siegel (ausgestellt von der Bescheinigungsstelle Forschungszulage)
+                      ist ein offizielles Qualitätsmerkmal der Bundesrepublik Deutschland und
+                      bestätigt, dass ein Produkt oder Projekt auf Forschung und Entwicklung basiert.
+                      Es stärkt das Vertrauen von Kunden, Partnern und Investoren, da es eine
+                      staatliche Anerkennung von Innovation und Glaubwürdigkeit signalisiert.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </>
+          )}
+          </div>
         {/* kickstarter */}
         <div className="row">
           <div className="mb-2">
@@ -1553,66 +1648,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                 </td>
               </tr>
-              {/* <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Color Temperature </>}
-                  {state === 'de' && <>Farbtemperatur</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>4200K (Neutral White) </>}
-                  {state === 'de' && <>4200K (Neutralweiß)</>}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> Panel Size</>}
-                  {state === 'de' && <>Panelgröße</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Slim / SQ-15 </>}
-                  {state === 'de' && <>Schlank / SQ-15</>}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> LED Type</>}
-                  {state === 'de' && <>LED-Typ</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>SMD (Surface-Mounted Diode) </>}
-                  {state === 'de' && <>SMD (Oberflächenmontierte Diode)</>}
-                </td>
-              </tr> */}
+              
               <tr>
                 <td
                   style={{
@@ -1738,26 +1774,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                 </td>
               </tr>
-              {/* <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Power Consumption </>}
-                  {state === 'de' && <>Stromverbrauch</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>200 mA </>}
-                  {state === 'de' && <>200 mA</>}
-                </td>
-              </tr> */}
+              
               <tr>
                 <td
                   style={{
@@ -1969,38 +1986,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                 </td>
               </tr>
-              {/* <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> Proximity Sensor</>}
-                  {state === 'de' && <>Näherungssensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      Senses nearby objects to enable automatic activation of
-                      features like lighting when someone is present
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Erkennt Objekte in der Nähe, um die automatische
-                      Aktivierung zu ermöglichen Aktivierung von Funktionen wie
-                      Beleuchtung, wenn jemand anwesend ist
-                    </>
-                  )}
-                </td>
-              </tr> */}
+              
             </table>
           </div>
 
@@ -3725,13 +3711,23 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                             )}
                           </p>
                         </div>
+
+        
+
+
+                         
                       </div>
                     </div>
                   </div>
                 </div>
+
+               
               </div>
             </>
           )}
+          
+          
+
         </div>
       </section>
 
