@@ -52,72 +52,80 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               crucial role in bridging different technologies and ensuring a
               cohesive smart home experience.
             </p>
-            
-             {state === 'en' && <>
-             <div className="col-lg-6 mb-6">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-connector/sq-connector3.PNG"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-             </>}
-              {state === 'de' && <>
-              <div className="col-lg-6 mb-6">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-connector/sq-connector4.PNG"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-              </>}
-            
-             {state === 'en' && <>
-             <div className="col-lg-6 mb-6">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-connector/sq-connector1.PNG"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-             </>}
-              {state === 'de' && <>
-              <div className="col-lg-6 mb-6">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/content/sq-connector/sq-connector2.PNG"
-                className=" wow fadeInUp"
-                data-wow-delay="100ms"
-                alt="..."
-                style={{
-                  visibility: 'visible',
-                  animationDelay: '100ms',
-                  animationName: 'fadeIn',
-                }}
-              />
-            </div>
-              </>}
+
+            {state === 'en' && (
+              <>
+                <div className="col-lg-6 mb-6">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/sq-connector/sq-connector3.png"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                </div>
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                <div className="col-lg-6 mb-6">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/sq-connector/sq-connector4.PNG"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                </div>
+              </>
+            )}
+
+            {state === 'en' && (
+              <>
+                <div className="col-lg-6 mb-6">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/sq-connector/sq-connector1.png"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                </div>
+              </>
+            )}
+            {state === 'de' && (
+              <>
+                <div className="col-lg-6 mb-6">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/content/sq-connector/sq-connector2.PNG"
+                    className=" wow fadeInUp"
+                    data-wow-delay="100ms"
+                    alt="..."
+                    style={{
+                      visibility: 'visible',
+                      animationDelay: '100ms',
+                      animationName: 'fadeIn',
+                    }}
+                  />
+                </div>
+              </>
+            )}
           </div>
           {state === 'en' && (
             <>
@@ -190,12 +198,10 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     </div>
                   </div>
                 </div>
-                 
-                     <div className="col-md-4 ">
-                   
-            <h4>Documentation</h4>
-           
-             
+
+                <div className="col-md-4 ">
+                  <h4>Documentation</h4>
+
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
@@ -255,10 +261,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       Serial-Number V2.0.1 [PDF]
                     </a>
                   </div>
-                
-                 </div>
-                
-                
+                </div>
               </div>
             </>
           )}
@@ -342,71 +345,69 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="col-md-4">
                     <h4>Documentation</h4>
                     <div className="d-flex align-items-center">
-                    <i className="ti-check display-31 text-black"></i>
-                    <a
-                      href="/docs/datasheet-de.PDF"
-                      target="_blank"
-                      className="ms-2 link-success"
-                      rel="noreferrer"
-                    >
-                      Datenblatt V.1.3 [PDF]
-                    </a>
-                  </div>
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet-de.PDF"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Datenblatt V.1.3 [PDF]
+                      </a>
+                    </div>
 
-                  <div className="d-flex align-items-center">
-                    <i className="ti-check display-31 text-black"></i>
-                    <a
-                      href="/docs/declaration-de.PDF"
-                      target="_blank"
-                      className="ms-2 link-success"
-                      rel="noreferrer"
-                    >
-                      Konformitätserklärung V.1.3.0 [PDF]
-                    </a>
-                  </div>
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/declaration-de.PDF"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Konformitätserklärung V.1.3.0 [PDF]
+                      </a>
+                    </div>
 
-                  <div className="d-flex align-items-center">
-                    <i className="ti-check display-31 text-black"></i>
-                    <a
-                      href="/docs/leaflet.pdf"
-                      target="_blank"
-                      className="ms-2 link-success"
-                      rel="noreferrer"
-                    >
-                      Beipackzettel V1.0.0 [PDF]
-                    </a>
-                  </div>
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/leaflet.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Beipackzettel V1.0.0 [PDF]
+                      </a>
+                    </div>
 
-                  <div className="d-flex align-items-center">
-                    <i className="ti-check display-31 text-black"></i>
-                    <a
-                      href="/docs/commisioning-de.PDF"
-                      target="_blank"
-                      className="ms-2 link-success"
-                      rel="noreferrer"
-                    >
-                      Handbuch zur Inbetriebnahme 1.0.3 [PDF]
-                    </a>
-                  </div>
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/commisioning-de.PDF"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Handbuch zur Inbetriebnahme 1.0.3 [PDF]
+                      </a>
+                    </div>
 
-                  <div className="d-flex align-items-center">
-                    <i className="ti-check display-31 text-black"></i>
-                    <a
-                      href="/product/serial-number"
-                      target="_blank"
-                      className="ms-2 link-success"
-                      rel="noreferrer"
-                    >
-                      Serien-Nummer V2.0.1 [PDF]
-                    </a>
-                  </div>
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/product/serial-number"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Serien-Nummer V2.0.1 [PDF]
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </>
           )}
-
-          
         </div>
       </section>
     </>

@@ -74,199 +74,206 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           >
             <div className="row">
               <div className="col-lg-4 ">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src="/img/content/sq-tablestand/slide4.png"
-                      className="wow fadeInUp"
-                      data-wow-delay="100ms"
-                      alt="..."
-                      style={{
-                        visibility: 'visible',
-                        width: '420px',
-                        animationDelay: '100ms',
-                        animationName: 'fadeIn',
-                      }}
-                    />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/img/content/sq-tablestand/slide4.PNG"
+                  className="wow fadeInUp"
+                  data-wow-delay="100ms"
+                  alt="..."
+                  style={{
+                    visibility: 'visible',
+                    width: '420px',
+                    animationDelay: '100ms',
+                    animationName: 'fadeIn',
+                  }}
+                />
               </div>
               <div className="col-lg-8 ">
                 <p className="mn-4">
-            {state === 'en' && (
-              <>
-                The Carenuity SQ-Tablestand transforms the SQ-Panel into a
-                flexible, mobile air quality monitoring solution - ideal for
-                dynamic environments like care rooms, workspaces, training
-                sessions, or home use.
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                Der Carenuity SQ-Tablestand verwandelt das SQ-Panel in eine
-                flexibel einsetzbare, mobile Lösung - ideal für wechselnde
-                Einsatzorte, Pflegebereiche, Schulungen oder
-                Homecare-Anwendungen.
-              </>
-            )}
-          </p>
+                  {state === 'en' && (
+                    <>
+                      The Carenuity SQ-Tablestand transforms the SQ-Panel into a
+                      flexible, mobile air quality monitoring solution - ideal
+                      for dynamic environments like care rooms, workspaces,
+                      training sessions, or home use.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Der Carenuity SQ-Tablestand verwandelt das SQ-Panel in
+                      eine flexibel einsetzbare, mobile Lösung - ideal für
+                      wechselnde Einsatzorte, Pflegebereiche, Schulungen oder
+                      Homecare-Anwendungen.
+                    </>
+                  )}
+                </p>
 
-          <p className="mn-4">
-            {state === 'en' && (
-              <>
-                The panel simply slides onto the stand using the same mechanical
-                connection system as the SQ-Power module. Power is supplied via
-                the USB-C port on the back of the panel. A compatible USB-C
-                cable and power supply are not included and can be selected
-                according to user preference.
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                Das Panel wird direkt auf den Ständer aufgesteckt - dank des
-                identischen mechanischen Stecksystems wie beim SQ-Power-Modul.
-                Die Stromversorgung erfolgt über den USB-C-Anschluss auf der
-                Rückseite des Panels. Ein passendes Ladekabel oder Netzteil ist
-                nicht im Lieferumfang enthalten und kann flexibel gewählt
-                werden.
-              </>
-            )}
-          </p>
-          <p className="mn-4">
-            {state === 'en' && (
-              <>
-                The stand features a non-slip, rubberized base that ensures
-                stability on any flat surface - no wall mounting or tools
-                required.
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                Der gummierte Standfuß sorgt für rutschfesten Halt - ganz ohne
-                Montage oder Werkzeuge.
-              </>
-            )}
-          </p>
+                <p className="mn-4">
+                  {state === 'en' && (
+                    <>
+                      The panel simply slides onto the stand using the same
+                      mechanical connection system as the SQ-Power module. Power
+                      is supplied via the USB-C port on the back of the panel. A
+                      compatible USB-C cable and power supply are not included
+                      and can be selected according to user preference.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Das Panel wird direkt auf den Ständer aufgesteckt - dank
+                      des identischen mechanischen Stecksystems wie beim
+                      SQ-Power-Modul. Die Stromversorgung erfolgt über den
+                      USB-C-Anschluss auf der Rückseite des Panels. Ein
+                      passendes Ladekabel oder Netzteil ist nicht im
+                      Lieferumfang enthalten und kann flexibel gewählt werden.
+                    </>
+                  )}
+                </p>
+                <p className="mn-4">
+                  {state === 'en' && (
+                    <>
+                      The stand features a non-slip, rubberized base that
+                      ensures stability on any flat surface - no wall mounting
+                      or tools required.
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Der gummierte Standfuß sorgt für rutschfesten Halt - ganz
+                      ohne Montage oder Werkzeuge.
+                    </>
+                  )}
+                </p>
               </div>
-              </div></div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-lg-7 ">
-          <h4 className="mn-4">
-            {state === 'en' && <>Key Benefits at a Glance:</>}
-            {state === 'de' && <>Vorteile auf einen Blick:</>}
-          </h4>
-          <ul className="mn-4">
-            {state === 'en' && (
-              <>
-                <li>
-                  Enables mobile use of the SQ-Panel - no wall installation
-                  required
-                </li>
-                <li>
-                  Uses the same mechanical interface as the SQ-Power module
-                </li>
-                <li>
-                  Power supplied via USB-C (adapter and cable not included)
-                </li>
-                <li>Quick setup - tool-free and instantly ready</li>
-                <li>Compact, stable and lightweight for flexible deployment</li>
-                <li>
-                  Rubberized base for safe placement on desks, counters, and
-                  more
-                </li>
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                <li>Mobiler Betrieb des SQ-Panels ohne Wandmontage</li>
-                <li>Kompatibel mit dem Stecksystem des SQ-Power-Moduls</li>
-                <li>Stromversorgung über USB-C (flexibel wählbares Zubehör)</li>
-                <li>Kein Werkzeug notwendig - sofort einsatzbereit</li>
-                <li>
-                  Kompakt, leicht, stabil - ideal für Pflege, Präsentation oder
-                  Büro
-                </li>
-                <li>
-                  Rutschfeste Unterseite für sicheren Stand auf jeder Fläche
-                </li>
-              </>
-            )}
-          </ul>
+              <h4 className="mn-4">
+                {state === 'en' && <>Key Benefits at a Glance:</>}
+                {state === 'de' && <>Vorteile auf einen Blick:</>}
+              </h4>
+              <ul className="mn-4">
+                {state === 'en' && (
+                  <>
+                    <li>
+                      Enables mobile use of the SQ-Panel - no wall installation
+                      required
+                    </li>
+                    <li>
+                      Uses the same mechanical interface as the SQ-Power module
+                    </li>
+                    <li>
+                      Power supplied via USB-C (adapter and cable not included)
+                    </li>
+                    <li>Quick setup - tool-free and instantly ready</li>
+                    <li>
+                      Compact, stable and lightweight for flexible deployment
+                    </li>
+                    <li>
+                      Rubberized base for safe placement on desks, counters, and
+                      more
+                    </li>
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    <li>Mobiler Betrieb des SQ-Panels ohne Wandmontage</li>
+                    <li>Kompatibel mit dem Stecksystem des SQ-Power-Moduls</li>
+                    <li>
+                      Stromversorgung über USB-C (flexibel wählbares Zubehör)
+                    </li>
+                    <li>Kein Werkzeug notwendig - sofort einsatzbereit</li>
+                    <li>
+                      Kompakt, leicht, stabil - ideal für Pflege, Präsentation
+                      oder Büro
+                    </li>
+                    <li>
+                      Rutschfeste Unterseite für sicheren Stand auf jeder Fläche
+                    </li>
+                  </>
+                )}
+              </ul>
 
-          <h4 className="mn-4">
-            {state === 'en' && <>Technical Specifications:</>}
-            {state === 'de' && <>Technische Daten:</>}
-          </h4>
-          <ul className="mn-4">
-            {state === 'en' && (
-              <>
-                <li>
-                  <strong>Function:</strong> Mobile table stand for Carenuity
-                  SQ-Panel
-                </li>
-                <li>
-                  <strong>Material: </strong>Durable plastic body with rubber
-                  base
-                </li>
-                <li>
-                  <strong>Mounting system: </strong>Snap-on interface
-                  (compatible with SQ-Power)
-                </li>
-                <li>
-                  <strong>Power input: </strong>USB-C (power supply and cable
-                  not included)
-                </li>
-                <li>
-                  <strong>Installation: </strong>Tool-free, plug & use
-                </li>
-                <li>
-                  <strong>Compatibility: </strong>Only compatible with Carenuity
-                  SQ-Panel
-                </li>
-              </>
-            )}
-            {state === 'de' && (
-              <>
-                <li>
-                  <strong>Funktion: </strong>Mobiler Tischständer für das
-                  SQ-Panel
-                </li>
-                <li>
-                  <strong>Material:</strong> Robustes Kunststoffgehäuse mit
-                  gummierter Unterseite
-                </li>
-                <li>
-                  <strong>Mechanik:</strong> Aufsteckverbindung wie bei SQ-Power
-                </li>
-                <li>
-                  <strong>Stromversorgung:</strong> Über USB-C (Kabel/Netzteil
-                  nicht enthalten)
-                </li>
-                <li>
-                  <strong>Montage:</strong> Werkzeugfrei, sofort betriebsbereit
-                </li>
-                <li>
-                  <strong>Kompatibilität:</strong> Nur für Carenuity SQ-Panel
-                  geeignet
-                </li>
-              </>
-            )}
-          </ul>
+              <h4 className="mn-4">
+                {state === 'en' && <>Technical Specifications:</>}
+                {state === 'de' && <>Technische Daten:</>}
+              </h4>
+              <ul className="mn-4">
+                {state === 'en' && (
+                  <>
+                    <li>
+                      <strong>Function:</strong> Mobile table stand for
+                      Carenuity SQ-Panel
+                    </li>
+                    <li>
+                      <strong>Material: </strong>Durable plastic body with
+                      rubber base
+                    </li>
+                    <li>
+                      <strong>Mounting system: </strong>Snap-on interface
+                      (compatible with SQ-Power)
+                    </li>
+                    <li>
+                      <strong>Power input: </strong>USB-C (power supply and
+                      cable not included)
+                    </li>
+                    <li>
+                      <strong>Installation: </strong>Tool-free, plug & use
+                    </li>
+                    <li>
+                      <strong>Compatibility: </strong>Only compatible with
+                      Carenuity SQ-Panel
+                    </li>
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    <li>
+                      <strong>Funktion: </strong>Mobiler Tischständer für das
+                      SQ-Panel
+                    </li>
+                    <li>
+                      <strong>Material:</strong> Robustes Kunststoffgehäuse mit
+                      gummierter Unterseite
+                    </li>
+                    <li>
+                      <strong>Mechanik:</strong> Aufsteckverbindung wie bei
+                      SQ-Power
+                    </li>
+                    <li>
+                      <strong>Stromversorgung:</strong> Über USB-C
+                      (Kabel/Netzteil nicht enthalten)
+                    </li>
+                    <li>
+                      <strong>Montage:</strong> Werkzeugfrei, sofort
+                      betriebsbereit
+                    </li>
+                    <li>
+                      <strong>Kompatibilität:</strong> Nur für Carenuity
+                      SQ-Panel geeignet
+                    </li>
+                  </>
+                )}
+              </ul>
             </div>
-          
-              <div className="col-lg-4 ">
+
+            <div className="col-lg-4 ">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src="/img/content/sq-tablestand/sq-panel.png"
-                      className="wow fadeInUp"
-                      data-wow-delay="100ms"
-                      alt="..."
-                      style={{
-                        visibility: 'visible',
-                        width: '420px',
-                        animationDelay: '100ms',
-                        animationName: 'fadeIn',
-                      }}
-                    />
-              </div>
-</div>
+              <img
+                src="/img/content/sq-tablestand/sq-panel.png"
+                className="wow fadeInUp"
+                data-wow-delay="100ms"
+                alt="..."
+                style={{
+                  visibility: 'visible',
+                  width: '420px',
+                  animationDelay: '100ms',
+                  animationName: 'fadeIn',
+                }}
+              />
+            </div>
+          </div>
           <h4 className="mn-4">
             {state === 'en' && <>System Note:</>}
             {state === 'de' && <>Systemhinweis:</>}
