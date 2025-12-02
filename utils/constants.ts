@@ -148,6 +148,12 @@ export const servicesUrls: Service = {
       type: 'icon',
     },
     {
+      name: 'ESP32 Audio',
+      url: '/product/esp32-audio',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
       name: 'FreshCheck',
       url: '/product/freshcheck',
       icon: 'fas fa-box',
@@ -162,6 +168,12 @@ export const servicesUrls: Service = {
     {
       name: 'Leaf Temperature Measurement',
       url: '/product/leaf-temperature-measurement',
+      icon: 'fas fa-box',
+      type: 'icon',
+    },
+    {
+      name: 'Magnetic Traffic Counting',
+      url: '/product/magnetic-traffic-counting',
       icon: 'fas fa-box',
       type: 'icon',
     },

@@ -179,7 +179,7 @@ const Index = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> 
           <div
             className="e-card mb-4 "
             style={{

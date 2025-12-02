@@ -4,6 +4,7 @@ import Translatable from '../../components/Translatable';
 import ServiceHOC from '../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../utils/constants';
 import SubscriptionWidget from '../../components/SubscriptionWidget';
+import SolutionWidget from '../../components/SolutionWidget'
 
 const Index = () => {
   // const { state } = useContext(LanguageSwitchContext);
@@ -106,6 +107,8 @@ const Index = () => {
               and start broadcasting instantly.
             </p>
           </div>
+
+          <SolutionWidget solutionId={'gcpeCqsEmow07IpngCi2'} />
 
           {/* wishlist */}
           <hr className="my-7 " />
