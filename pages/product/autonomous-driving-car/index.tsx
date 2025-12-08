@@ -1638,6 +1638,54 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   </div>
                 </>
               )}
+
+              <div className='col-lg-6'>
+              <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        maxHeight: '1020px',
+                        padding:"10px"
+                      }}
+                    >
+                      <div className='row'>
+                       
+                           {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus4.JPEG"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+                        
+                        
+                        <div style={{ padding: '10px' }}>
+                        
+                        <p>
+                          Eren met with Deogratius and David, robotics and mechatronics students in their 5th and
+                           7th semesters, in Schweinfurt at THWS. He introduced them to the development process of
+                            the AI-Car platform, as outlined in the Autonomous Driving Car project. The Schaeffler 
+                            FAG Model MF3 offered an ideal spot for the mandatory selfie. Both students expressed 
+                            strong interest in contributing to the AI-Car and supporting its continued expansion 
+                            with more Infineon Sensors integrated into the Infineon AI-Car platform.  
+                        </p>
+                        
+                      
+                        </div>
+
+                      </div>
+                     
+
+                      
+                    </div>
+              </div>
+               
             </div>
           </div>
         </div>
