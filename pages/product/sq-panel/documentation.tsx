@@ -166,7 +166,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         className="ms-2 link-success"
                         rel="noreferrer"
                       >
-                        Handbuch zur Inbetriebnahme 1.0.3 [PDF]
+                        Handbuch zur Inbetriebnahme 1.1.0 [PDF]
                       </a>
                     </div>
 
