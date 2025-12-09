@@ -28,9 +28,10 @@ const Index = () => {
       <section className="pt-4">
         <div className="container">
           <h4>
-            {/* Modular */}
             {state === 'en' && (
-              <>ESP32 Audio Project Based on the Carenuity Architecture</>
+              <>
+                Modular ESP32 Audio Project Based on the Carenuity Architecture
+              </>
             )}
             {state === 'de' && (
               <>
@@ -39,6 +40,7 @@ const Index = () => {
               </>
             )}
           </h4>
+
           <div
             className="e-card mb-4"
             style={{
