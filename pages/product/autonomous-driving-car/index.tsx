@@ -1414,6 +1414,101 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               )}
             </p>
           </div>
+             {state === 'en' && <>
+              <div className='col-lg-'>
+              <div
+                      className="e-card"
+                      style={{
+                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                        maxHeight: '1020px',
+                        padding:"10px"
+                      }}
+                    >
+                      <div className='row'>
+                       <div className='col-lg-4'>
+                           {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus4.JPEG"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          // width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+                       </div> 
+                        <div className='col-lg-8'>
+                        <div >
+                        
+                        <p>
+                         Eren met with Deogratius and David, robotics and mechatronics students in their 5th and 
+                         7th semesters, in Schweinfurt at THWS. He introduced them to the development process of 
+                         the AI-Car platform, as outlined in the Autonomous Driving Car project. 
+                        </p>
+                        
+                      
+                        </div>
+                        </div>
+                        <p>The Schaeffler FAG
+                          Model MF3 offered an ideal spot for the mandatory selfie. Both students expressed strong 
+                          interest in contributing to the AI-Car and supporting its continued expansion with more Infineon 
+                          Sensors integrated into the Infineon AI-Car platform.   </p>
+                      </div>
+                     
+
+                      
+                    </div>
+              </div>
+              </>}
+
+              {state === 'de' && <>
+                <div className='col-lg-'>
+                  <div
+                    className="e-card"
+                    style={{
+                      boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
+                      maxHeight: '1020px',
+                      padding:"10px"
+                    }}
+                  >
+                    <div className='row'>
+                    <div className='col-lg-4'>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/content/autonomous/autonomus4.JPEG"
+                        className="wow fadeInUp"
+                        data-wow-delay="100ms"
+                        alt="..."
+                        style={{
+                          visibility: 'visible',
+                          width: '420px',
+                          animationDelay: '100ms',
+                          animationName: 'fadeIn',
+                        }}
+                      />
+                      </div>
+                        <div className='col-lg-8'>
+                      <div >
+                        <p>
+                          Eren traf sich in Schweinfurt an der THWS mit Deogratius und David, 
+                          Studenten der Robotik und Mechatronik im 5. und 7. Semester. 
+                          Er stellte ihnen den Entwicklungsprozess der AI-Car-Plattform vor, 
+                          wie er im Projekt „Autonomes Fahrauto“ beschrieben ist. 
+                          
+                        </p>
+                      </div>
+                        </div>
+                        <p>Das Schaeffler FAG Modell MF3 bot dabei den perfekten Platz für das obligatorische Selfie.  
+                          Beide Studenten zeigten großes Interesse daran, am AI-Car mitzuwirken und seine 
+                          Weiterentwicklung mit zusätzlichen Infineon-Sensoren in der Infineon AI-Car-Plattform zu unterstützen.</p>
+                    </div>
+                  </div>
+                </div>
+              </>}
+
           <br />
           <br />
           <div>
@@ -1639,99 +1734,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 </>
               )}
 
-              {state === 'en' && <>
-              <div className='col-lg-6'>
-              <div
-                      className="e-card"
-                      style={{
-                        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-                        maxHeight: '1020px',
-                        padding:"10px"
-                      }}
-                    >
-                      <div className='row'>
-                       
-                           {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src="/img/content/autonomous/autonomus4.JPEG"
-                        className="wow fadeInUp"
-                        data-wow-delay="100ms"
-                        alt="..."
-                        style={{
-                          visibility: 'visible',
-                          width: '420px',
-                          animationDelay: '100ms',
-                          animationName: 'fadeIn',
-                        }}
-                      />
-                        
-                        
-                        <div style={{ padding: '10px' }}>
-                        
-                        <p>
-                         Eren traf sich in Schweinfurt an der THWS mit Deogratius und David, 
-            Studenten der Robotik und Mechatronik im 5. und 7. Semester. 
-            Er stellte ihnen den Entwicklungsprozess der AI-Car-Plattform vor, 
-            wie er im Projekt „Autonomes Fahrauto“ beschrieben ist. 
-            Das Schaeffler FAG Modell MF3 bot dabei den perfekten Platz für das obligatorische Selfie.  
-            Beide Studenten zeigten großes Interesse daran, am AI-Car mitzuwirken und seine 
-            Weiterentwicklung mit zusätzlichen Infineon-Sensoren in der Infineon AI-Car-Plattform zu unterstützen.
-                        </p>
-                        
-                      
-                        </div>
-
-                      </div>
-                     
-
-                      
-                    </div>
-              </div>
-              </>}
-
-              {state === 'de' && <>
-  <div className='col-lg-6'>
-    <div
-      className="e-card"
-      style={{
-        boxShadow: '3px 3px 15px 3px  hsla(0, 0%, 80%)',
-        maxHeight: '1020px',
-        padding:"10px"
-      }}
-    >
-      <div className='row'>
-
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/img/content/autonomous/autonomus4.JPEG"
-          className="wow fadeInUp"
-          data-wow-delay="100ms"
-          alt="..."
-          style={{
-            visibility: 'visible',
-            width: '420px',
-            animationDelay: '100ms',
-            animationName: 'fadeIn',
-          }}
-        />
-
-        <div style={{ padding: '10px' }}>
-          <p>
-            Eren traf sich in Schweinfurt an der THWS mit Deogratius und David, 
-            Studenten der Robotik und Mechatronik im 5. und 7. Semester. 
-            Er stellte ihnen den Entwicklungsprozess der AI-Car-Plattform vor, 
-            wie er im Projekt „Autonomes Fahrauto“ beschrieben ist. 
-            Das Schaeffler FAG Modell MF3 bot dabei den perfekten Platz für das obligatorische Selfie.  
-            Beide Studenten zeigten großes Interesse daran, am AI-Car mitzuwirken und seine 
-            Weiterentwicklung mit zusätzlichen Infineon-Sensoren in der Infineon AI-Car-Plattform zu unterstützen.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</>}
-
+           
               
                
             </div>
