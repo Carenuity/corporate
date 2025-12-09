@@ -154,7 +154,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         className="ms-2 link-success"
                         rel="noreferrer"
                       >
-                        Beipackzettel V1.0.0 [PDF]
+                        Beipackzettel V1.0.1 [PDF]
                       </a>
                     </div>
 
