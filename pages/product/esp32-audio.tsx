@@ -28,8 +28,8 @@ const Index = () => {
       <section className="pt-4">
               <div className='container'>
           <h4>
-            {/* {state === 'en' && <>Modular ESP32 Audio Project Based on the Carenuity Architecture</>}
-            {state === 'de' && <>Modulares ESP32-Audio-Projekt basierend auf der Carenuity-Architektur</>} */}
+            {state === 'en' && <>Modular ESP32 Audio Project Based on the Carenuity Architecture</>}
+            {state === 'de' && <>Modulares ESP32-Audio-Projekt basierend auf der Carenuity-Architektur</>}
           </h4>
           <div
                       className="e-card mb-4"
