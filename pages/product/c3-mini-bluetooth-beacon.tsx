@@ -4,7 +4,7 @@ import Translatable from '../../components/Translatable';
 import ServiceHOC from '../../components/hoc/ServiceHOC';
 import { servicesUrls } from '../../utils/constants';
 import SubscriptionWidget from '../../components/SubscriptionWidget';
-import SolutionWidget from '../../components/SolutionWidget'
+import SolutionWidget from '../../components/SolutionWidget';
 
 const Index = () => {
   // const { state } = useContext(LanguageSwitchContext);
