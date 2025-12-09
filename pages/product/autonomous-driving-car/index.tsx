@@ -1415,7 +1415,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             </p>
           </div>
              {state === 'en' && <>
-              <div className='col-lg-'>
+          
               <div
                       className="e-card"
                       style={{
@@ -1460,12 +1460,12 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                      
 
                       
-                    </div>
+                    
               </div>
               </>}
 
               {state === 'de' && <>
-                <div className='col-lg-'>
+                
                   <div
                     className="e-card"
                     style={{
@@ -1506,7 +1506,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                           Weiterentwicklung mit zusätzlichen Infineon-Sensoren in der Infineon AI-Car-Plattform zu unterstützen.</p>
                     </div>
                   </div>
-                </div>
+                
               </>}
 
           <br />
