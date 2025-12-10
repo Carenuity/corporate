@@ -92,8 +92,9 @@ const KickStarter = () => {
                   target="_blank"
                   className="btn btn-lg btn-success rounded-pill shadow"
                 >
-                  {state === 'en' && 'More info'}
-                  {state === 'de' && 'Mehr Infos'}
+                  {state === 'en' && '10% Discount'}
+                  {state === 'de' && '10% Rabatt'}
+                  {/* Mehr Infos */}
                 </Link>
               </div>
               <div className="ps-3 fw-bold fs-3 hstack gap-2">
@@ -103,12 +104,14 @@ const KickStarter = () => {
                 <span className="text-success small text-center">
                   {state === 'en' && (
                     <>
-                      An investment <br /> in health! ✨
+                      Early Bird Offer
+                      {/* An investment <br /> in health! ✨ */}
                     </>
                   )}
                   {state === 'de' && (
                     <>
-                      Ein Invest in <br /> Gesundheit! ✨
+                      Frühbucherangebot
+                      {/* Ein Invest in <br /> Gesundheit! ✨ */}
                     </>
                   )}
                 </span>
