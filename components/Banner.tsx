@@ -20,12 +20,10 @@ const Banner = ({
     if (hasKickStarter) {
       if (kickstarterRef.current /* && state === 'de'*/) {
         kickstarterRef.current.click();
-      } else {
-        alert('Not ready!');
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // state
+  }, [state]);
 
   return (
     <>
