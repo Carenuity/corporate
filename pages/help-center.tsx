@@ -29,7 +29,7 @@ const Index = () => {
         <div className="container position-relative z-index-3">
           <div className="row">
             <div className="col-lg-4">
-              <Link  href="/get-started">
+              <Link href="/get-started">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -50,11 +50,11 @@ const Index = () => {
                   </h5>
                   <p></p>
                 </div>
-              </Link >
+              </Link>
             </div>
 
             <div className="col-lg-4">
-              <Link  href="/troubleshooting">
+              <Link href="/troubleshooting">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -74,11 +74,11 @@ const Index = () => {
                     {state === 'de' && <>Fehlerbehebung</>}
                   </h5>
                 </div>
-              </Link >
+              </Link>
             </div>
 
             <div className="col-lg-4">
-              <Link  href="/mobile-app">
+              <Link href="/mobile-app">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -98,11 +98,11 @@ const Index = () => {
                     {state === 'de' && <>Mobile App</>}
                   </h5>
                 </div>
-              </Link >
+              </Link>
             </div>
 
             <div className="col-lg-4">
-              <Link  href="/features-and-use-cases">
+              <Link href="/features-and-use-cases">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -122,11 +122,11 @@ const Index = () => {
                     {state === 'de' && <>Funktionen & Anwendungsfälle</>}
                   </h5>
                 </div>
-              </Link >
+              </Link>
             </div>
 
             <div className="col-lg-4">
-              <Link  href="/faq">
+              <Link href="/faq">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -146,11 +146,11 @@ const Index = () => {
                     {state === 'de' && <>FAQ</>}
                   </h5>
                 </div>
-              </Link >
+              </Link>
             </div>
 
             <div className="col-lg-4">
-              <Link  href="/maintenance-and-safety">
+              <Link href="/maintenance-and-safety">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -170,11 +170,11 @@ const Index = () => {
                     {state === 'de' && <>Wartung & Sicherheit</>}
                   </h5>
                 </div>
-              </Link >
+              </Link>
             </div>
 
             <div className="col-lg-12">
-              <Link  href="/product/sq-panel/documentation">
+              <Link href="/product/sq-panel/documentation">
                 <div
                   className="e-card mb-4"
                   style={{
@@ -194,7 +194,7 @@ const Index = () => {
                     {state === 'de' && <>Dokumentation</>}
                   </h5>
                 </div>
-              </Link >
+              </Link>
             </div>
           </div>
 
@@ -221,7 +221,9 @@ const Index = () => {
             <ul>
               <li>
                 <strong>Email:</strong>{' '}
-                <Link  href="mailto:support@carenuity.com">info@carenuity.com</Link >
+                <Link href="mailto:support@carenuity.com">
+                  info@carenuity.com
+                </Link>
               </li>
               <li>
                 <strong>
@@ -236,12 +238,12 @@ const Index = () => {
               {state === 'en' && <>Or contact us through our </>}
               {state === 'de' && <>Oder kontaktieren Sie uns über unsere </>}
 
-              <Link  href="/contact-us">
+              <Link href="/contact-us">
                 <u>
                   {state === 'en' && <>contact page.</>}
                   {state === 'de' && <>Kontaktseite.</>}
                 </u>
-              </Link >
+              </Link>
 
               {state === 'en' && (
                 <> We aim to respond within 24 h (working days).</>
