@@ -3,11 +3,16 @@ import React from 'react';
 import Link from 'next/link';
 import ServiceHOC from '../components/hoc/ServiceHOC';
 import { servicesUrls } from '../utils/constants';
-
+import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
+import Translatable from '../components/Translatable';
+import { useContext } from 'react';
 const Index = ({ isMobile }: { isMobile: boolean }) => {
+  const { state } = useContext(LanguageSwitchContext);
+
   const pageTitle = 'Help Center';
   return (
     <>
+      <Translatable />
       <Head>
         <meta
           name="keywords"
@@ -23,17 +28,40 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
       <section className="overflow-hidden py-3">
         <div className="container position-relative z-index-3">
           <div>
-            <h4>Account & App</h4>
+            <h4>
+              {state === 'en' && <>Account & App</>}
+              {state === 'de' && <>Konto & App</>}
+            </h4>
+
             <p>
-              The Carenuity App allows you to manage your SQ-Panel, monitor
-              sensor data, configure alerts, and share access with family or
-              colleagues.
+              {state === 'en' && (
+                <>
+                  The Carenuity App allows you to manage your SQ-Panel, monitor
+                  sensor data, configure alerts, and share access with family or
+                  colleagues.
+                </>
+              )}
+              {state === 'de' && (
+                <>
+                  Die Carenuity App ermöglicht es Ihnen, Ihr SQ-Panel zu
+                  verwalten, Sensordaten zu überwachen, Alarme zu konfigurieren
+                  und den Zugriff mit Familie oder Kollegen zu teilen.
+                </>
+              )}
             </p>
 
-            <h4>1. Account Setup</h4>
+            <h4>
+              {state === 'en' && <>1. Account Setup</>}
+              {state === 'de' && <>1. Konto einrichten</>}
+            </h4>
+
             <ol>
               <li>
-                <strong>Download & Install the App</strong>
+                <strong>
+                  {state === 'en' && <>Download & Install the App</>}
+                  {state === 'de' && <>App herunterladen & installieren</>}
+                </strong>
+
                 <ul>
                   <li>
                     <a
@@ -41,174 +69,265 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <u>App Store (iOS)</u>
+                      <u>
+                        {state === 'en' && <>App Store (iOS)</>}
+                        {state === 'de' && <>App Store (iOS)</>}
+                      </u>
                     </a>
                   </li>
+
                   <li>
                     <a
                       href="https://play.google.com/store/apps/details?id=com.carenuity.home"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <u>Google Play (Android)</u>
+                      <u>
+                        {state === 'en' && <>Google Play (Android)</>}
+                        {state === 'de' && <>Google Play (Android)</>}
+                      </u>
                     </a>
                   </li>
                 </ul>
               </li>
+
               <li>
-                <strong>Create an Account</strong>
+                <strong>
+                  {state === 'en' && <>Create an Account</>}
+                  {state === 'de' && <>Konto erstellen</>}
+                </strong>
+
                 <ul>
                   <li>
-                    Provide email, password, and accept Terms & Conditions.
+                    {state === 'en' && (
+                      <>
+                        Provide email, password, and accept Terms & Conditions.
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>E-Mail, Passwort angeben und AGB akzeptieren.</>
+                    )}
                   </li>
-                  <li>Verify email via confirmation link.</li>
+                  <li>
+                    {state === 'en' && <>Verify email via confirmation link.</>}
+                    {state === 'de' && (
+                      <>E-Mail über Bestätigungslink verifizieren.</>
+                    )}
+                  </li>
                 </ul>
               </li>
+
               <li>
-                <strong>Log In</strong>
+                <strong>
+                  {state === 'en' && <>Log In</>}
+                  {state === 'de' && <>Anmelden</>}
+                </strong>
+
                 <ul>
-                  <li>Enter credentials to access your dashboard.</li>
+                  <li>
+                    {state === 'en' && (
+                      <>Enter credentials to access your dashboard.</>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Geben Sie Ihre Zugangsdaten ein, um Ihr Dashboard zu
+                        öffnen.
+                      </>
+                    )}
+                  </li>
                 </ul>
               </li>
             </ol>
 
-            <h4>2. Permissions & Roles</h4>
+            <h4>
+              {state === 'en' && <>2. Permissions & Roles</>}
+              {state === 'de' && <>2. Berechtigungen & Rollen</>}
+            </h4>
+
             <ul>
               <li>
-                <strong>Owner:</strong> Full control of devices, alerts, and
-                user management.
+                <strong>
+                  {state === 'en' && <>Owner:</>}
+                  {state === 'de' && <>Eigentümer:</>}
+                </strong>
+                {state === 'en' && (
+                  <> Full control of devices, alerts, and user management.</>
+                )}
+                {state === 'de' && (
+                  <>
+                    {' '}
+                    Vollständige Kontrolle über Geräte, Alarme und
+                    Benutzerverwaltung.
+                  </>
+                )}
               </li>
+
               <li>
-                <strong>Member (full access):</strong> Can view and modify
-                devices and settings.
+                <strong>
+                  {state === 'en' && <>Member (full access):</>}
+                  {state === 'de' && <>Mitglied (Vollzugriff):</>}
+                </strong>
+                {state === 'en' && (
+                  <> Can view and modify devices and settings.</>
+                )}
+                {state === 'de' && (
+                  <> Kann Geräte und Einstellungen anzeigen und ändern.</>
+                )}
               </li>
+
               <li>
-                <strong>Member (read-only):</strong> Can view sensor data but
-                cannot modify settings.
+                <strong>
+                  {state === 'en' && <>Member (read-only):</>}
+                  {state === 'de' && <>Mitglied (nur Lesen):</>}
+                </strong>
+                {state === 'en' && (
+                  <> Can view sensor data but cannot modify settings.</>
+                )}
+                {state === 'de' && (
+                  <>
+                    {' '}
+                    Kann Sensordaten einsehen, aber keine Einstellungen ändern.
+                  </>
+                )}
               </li>
             </ul>
 
             <p>
-              <strong>Manage Permissions:</strong>
+              <strong>
+                {state === 'en' && <>Manage Permissions:</>}
+                {state === 'de' && <>Berechtigungen verwalten:</>}
+              </strong>
             </p>
+
             <ul>
               <li>
-                Open app → <em>Settings → Users & Permissions</em>.
+                {state === 'en' && (
+                  <>
+                    Open app → <em>Settings → Users & Permissions</em>.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    App öffnen →{' '}
+                    <em>Einstellungen → Benutzer & Berechtigungen</em>.
+                  </>
+                )}
               </li>
-              <li>Invite users via email; assign role.</li>
+              <li>
+                {state === 'en' && <>Invite users via email; assign role.</>}
+                {state === 'de' && (
+                  <>Benutzer per E-Mail einladen; Rolle zuweisen.</>
+                )}
+              </li>
             </ul>
 
-            <h4>3. Multi-User Support</h4>
+            <h4>
+              {state === 'en' && <>3. Multi-User Support</>}
+              {state === 'de' && <>3. Mehrbenutzerunterstützung</>}
+            </h4>
+
             <ul>
               <li>
-                Multiple users can monitor the same SQ-Panel simultaneously.
+                {state === 'en' && (
+                  <>
+                    Multiple users can monitor the same SQ-Panel simultaneously.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Mehrere Benutzer können dasselbe SQ-Panel gleichzeitig
+                    überwachen.
+                  </>
+                )}
               </li>
-              <li>Alerts and notifications are sent to all permitted users.</li>
+
               <li>
-                Each user has a personal login; activities are logged for audit.
+                {state === 'en' && (
+                  <>Alerts and notifications are sent to all permitted users.</>
+                )}
+                {state === 'de' && (
+                  <>
+                    Alarme und Benachrichtigungen werden an alle berechtigten
+                    Benutzer gesendet.
+                  </>
+                )}
+              </li>
+
+              <li>
+                {state === 'en' && (
+                  <>
+                    Each user has a personal login; activities are logged for
+                    audit.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Jeder Benutzer hat einen eigenen Login; Aktivitäten werden
+                    protokolliert.
+                  </>
+                )}
               </li>
             </ul>
 
-            <h4>4. Data Privacy</h4>
+            <h4>
+              {state === 'en' && <>4. Data Privacy</>}
+              {state === 'de' && <>4. Datenschutz</>}
+            </h4>
+
             <ul className="mb-6">
               <li>
-                All sensor and account data are stored securely on{' '}
-                <strong>European servers</strong>.
+                {state === 'en' && (
+                  <>
+                    All sensor and account data are stored securely on{' '}
+                    <strong>European servers</strong>.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Alle Sensor- und Kontodaten werden sicher auf{' '}
+                    <strong>europäischen Servern</strong> gespeichert.
+                  </>
+                )}
               </li>
-              <li>Users control which devices and data are shared.</li>
               <li>
-                Compliance with GDPR ensures personal information is protected.
+                {state === 'en' && (
+                  <>Users control which devices and data are shared.</>
+                )}
+                {state === 'de' && (
+                  <>
+                    Benutzer bestimmen, welche Geräte und Daten geteilt werden.
+                  </>
+                )}
               </li>
               <li>
-                Data sharing with third-party apps requires explicit consent.
+                {state === 'en' && (
+                  <>
+                    Compliance with GDPR ensures personal information is
+                    protected.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    DSGVO-Konformität gewährleistet den Schutz persönlicher
+                    Daten.
+                  </>
+                )}
+              </li>
+              <li>
+                {state === 'en' && (
+                  <>
+                    Data sharing with third-party apps requires explicit
+                    consent.
+                  </>
+                )}
+                {state === 'de' && (
+                  <>
+                    Das Teilen von Daten mit Drittanbieter-Apps erfordert eine
+                    ausdrückliche Zustimmung.
+                  </>
+                )}
               </li>
             </ul>
-
-            {/* <div>
-                        <h4>5. Release Notes & Version Matrix</h4>
-
-                    <p><strong>Release Notes:</strong></p>
-                    <ul>
-                    <li>Access in-app → <em>Menu → About → Release Notes</em>.</li>
-                    <li>Provides detailed information about new features, bug fixes, and improvements.</li>
-                    </ul>
-
-                    <p><strong>Version Matrix:</strong></p>
-                    <table style={{
-                width: '100%',
-                border: '1px solid #dddddd',
-                padding: '20px',
-              }}>
-                    <thead>
-                        <tr style={{ background: '#198754', color: '#ffffff' }}>
-                        <th style={{
-                    width: '30%',
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>App Version</th>
-                        <th style={{
-                    width: '30%',
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>Supported Firmware</th>
-                        <th style={{
-                    width: '30%',
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>Notes</th>
-                        </tr>
-                    </thead>
-                    <tbody >
-                        <tr style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>
-                        <td  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>v3.2.1</td>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>FW 1.8 – 2.0</td>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>Minor bug fixes, improved CO₂ calibration</td>
-                        </tr>
-                        <tr>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>v3.3.0</td>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>FW 2.0 – 2.2</td>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>Added multi-user notifications, Matter integration</td>
-                        </tr>
-                        <tr>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>v3.3.2</td>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>FW 2.2</td>
-                        <td style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}>Security patch, improved app stability</td>
-                        </tr>
-                    </tbody>
-                    </table>
-
-                    <p><strong>Tip:</strong> Always keep both app and SQ-Panel firmware updated for optimal performance.</p>
-                    </div> */}
 
             <div style={{ textAlign: 'center' }}>
               <p>
@@ -217,7 +336,10 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     href={'/carenuity-app-guide'}
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
-                    <span className="small">Mobile App User Guide</span>
+                    <span className="small">
+                      {state === 'en' && <>Mobile App User Guide</>}
+                      {state === 'de' && <>Mobile App Benutzerhandbuch</>}
+                    </span>
                   </Link>
                 )}
 
@@ -227,8 +349,8 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">
-                      Mobile App User Guide{' '}
-                      {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      {state === 'en' && <>Mobile App User Guide</>}
+                      {state === 'de' && <>Mobile App Benutzerhandbuch</>}
                     </span>
                   </a>
                 )}
