@@ -101,16 +101,16 @@ const KickStarter = () => {
                 <span className="border-success border-bottom text-uppercase text-nowrap">
                   SQ-PANEL
                 </span>{' '}
-                <span className="text-success small text-center">
+                <span className="text-success small text-center fs-6">
                   {state === 'en' && (
                     <>
-                      Early Bird Offer
+                      Early Bird Offer ✨
                       {/* An investment <br /> in health! ✨ */}
                     </>
                   )}
                   {state === 'de' && (
                     <>
-                      Frühbucherangebot
+                      Frühbucherangebot ✨
                       {/* Ein Invest in <br /> Gesundheit! ✨ */}
                     </>
                   )}
@@ -119,7 +119,7 @@ const KickStarter = () => {
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/SQ_PANEL.jpeg"
+                src="/img/sq-panel-qr2.jpeg"
                 className="position-absolute end-0 top-0 mt-3 me-2"
                 style={{ width: '25%', height: 'auto' }}
                 alt="download app qr code"
