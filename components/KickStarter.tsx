@@ -4,7 +4,8 @@ import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const KickStarter = () => {
   const defaultUrl =
-    'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a';
+    'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display-mit-touch-und-radar';
+  // 'https://www.kickstarter.com/projects/sq-panel/735960833?token=dd0fed1a';
   const { state } = useContext(LanguageSwitchContext);
   // const [url, setUrl] = useState(defaultUrl);
 
@@ -40,17 +41,18 @@ const KickStarter = () => {
           <div className="modal-content">
             <div className="modal-header p-0 position-relative border-none">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              {/* <img
                 src="/img/KICKSTARTER.png"
                 alt="kickstarter"
                 className="position-absolute w-25 top-0 end-0 mt-3 me-3"
-              />
+              /> */}
+
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              {/* <img
                 src="/img/KICKSTARTER.png"
                 alt="kickstarter"
                 className="position-absolute w-25 bottom-0 start-0 ms-3"
-              />
+              /> */}
               <video
                 src="/videos/content/sq-panel-latest.mp4"
                 autoPlay
