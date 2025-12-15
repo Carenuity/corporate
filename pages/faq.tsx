@@ -80,7 +80,7 @@ const Index = () => {
   //   },
   // ];
 
-  const faqs = [
+  const product  = [
     {
       question: {
         en: 'What is the SQ-Panel?',
@@ -93,8 +93,8 @@ const Index = () => {
     },
     {
       question: {
-        en: 'What sensors are included in the SQ-Panel?',
-        de: 'Welche Sensoren sind im SQ-Panel enthalten?',
+        en: 'Which sensors are included?',
+        de: 'Welche Sensoren sind enthalten?',
       },
       answer: {
         en: 'The SQ-Panel integrates multiple sensors for temperature, humidity, air pressure, CO2 levels, volatile organic compounds (VOCs), and air quality index (AQI). These combined measurements help you maintain a healthier and more comfortable indoor environment.',
@@ -103,8 +103,44 @@ const Index = () => {
     },
     {
       question: {
-        en: 'How do I set up the SQ-Panel using the Matter procedure?',
-        de: 'Wie richte ich das SQ-Panel über das Matter-Verfahren ein?',
+        en: 'What mounting options are available?',
+        de: 'Welche Montageoptionen gibt es?',
+      },
+      answer: {
+        en: 'The SQ-Panel offers flexible installation. It can be wall-mounted for a clean, integrated look, or placed on a stand for easy relocation. Both options ensure accessibility and visibility in various environments.',
+        de: 'Das SQ-Panel bietet eine flexible Installation. Es kann für ein sauberes, integriertes Erscheinungsbild an der Wand montiert oder auf einem Ständer platziert werden, um eine einfache Standortänderung zu ermöglichen. Beide Optionen gewährleisten Zugänglichkeit und Sichtbarkeit in verschiedenen Umgebungen.',
+      },
+    },
+     {
+      question: {
+        en: 'Can the SQ-Panel be used in multiple rooms?',
+        de: 'Kann das SQ-Panel in mehreren Räumen verwendet werden?',
+      },
+      answer: {
+        en: 'Yes. You can deploy several SQ-Panels across different rooms to create a connected monitoring network. All devices can be managed from one app or ecosystem, giving you a complete overview of your indoor air quality.',
+        de: 'Ja. Sie können mehrere SQ-Panels in verschiedenen Räumen installieren, um ein vernetztes Überwachungsnetzwerk zu erstellen. Alle Geräte können über eine App oder ein Ökosystem verwaltet werden, sodass Sie einen vollständigen Überblick über die Raumluftqualität haben.',
+      },
+    },
+    
+     {
+      question: {
+        en: 'What is the range of the Matter‑enabled SQ‑Panel?',
+        de: 'Wie groß ist die Reichweite des Matter‑unterstützten SQ‑Panels?',
+      },
+      answer: {
+        en: 'The SQ-Panel supports a wireless range of up to 80 meters indoors (depending on building structure). This ensures stable and reliable connectivity within most homes and office environments.',
+        de: 'Das SQ-Panel unterstützt eine kabellose Reichweite von bis zu 80 Metern im Innenbereich (abhängig von der Gebäudestruktur). Dies gewährleistet eine stabile und zuverlässige Verbindung in den meisten Wohnungen und Büros.',
+      },
+    },
+ 
+  ];
+   const setup  = [
+   
+    
+    {
+      question: {
+        en: 'How do I set up the SQ‑Panel via Matter?',
+        de: 'Wie richte ich das SQ‑Panel per Matter ein?',
       },
       answer: {
         en: 'Setup is simple: open the Carenuity app and scan the QR code displayed on the panel. The device will automatically connect to your preferred Matter-compatible ecosystem (such as Alexa, Google Home, or Apple Home), allowing quick and seamless integration.',
@@ -113,8 +149,8 @@ const Index = () => {
     },
     {
       question: {
-        en: 'Do I need the Carenuity app after setup?',
-        de: 'Brauche ich die Carenuity-App nach der Einrichtung?',
+        en: 'Do I still need the Carenuity app after setup?',
+        de: 'Brauche ich die Carenuity‑App nach der Einrichtung?',
       },
       answer: {
         en: 'The Carenuity app is mainly required for the initial setup and advanced configurations. Once connected, you can manage and control the SQ-Panel directly through your chosen Matter ecosystem, while the app remains useful for monitoring, firmware updates, and troubleshooting.',
@@ -131,26 +167,34 @@ const Index = () => {
         de: 'Benutzerprofile können über die Carenuity-App oder innerhalb Ihres Matter-Ökosystems verwaltet werden. So können Sie persönliche Einstellungen festlegen, Benachrichtigungsschwellen für bestimmte Sensoren anpassen und Warnungen für unterschiedliche Familienmitglieder oder Arbeitsumgebungen definieren.',
       },
     },
-    {
+   {
       question: {
-        en: 'Can the SQ-Panel be used in multiple rooms?',
-        de: 'Kann das SQ-Panel in mehreren Räumen verwendet werden?',
+        en: 'How can I adjust sensor thresholds?',
+        de: 'Wie kann ich Sensor‑Schwellenwerte anpassen?',
       },
       answer: {
-        en: 'Yes. You can deploy several SQ-Panels across different rooms to create a connected monitoring network. All devices can be managed from one app or ecosystem, giving you a complete overview of your indoor air quality.',
-        de: 'Ja. Sie können mehrere SQ-Panels in verschiedenen Räumen installieren, um ein vernetztes Überwachungsnetzwerk zu erstellen. Alle Geräte können über eine App oder ein Ökosystem verwaltet werden, sodass Sie einen vollständigen Überblick über die Raumluftqualität haben.',
+        en: 'Thresholds for temperature, CO<sub>2</sub>, VOCs, and other metrics can be customized through the Carenuity app or any Matter-compatible platform. Once set, you will receive alerts when values exceed your defined safety or comfort levels.',
+        de: 'Schwellenwerte für Temperatur, CO<sub>2</sub>, VOCs und andere Messgrößen können über die Carenuity-App oder jede Matter-kompatible Plattform angepasst werden. Sobald festgelegt, erhalten Sie Warnungen, wenn Werte Ihre definierten Sicherheits- oder Komfortgrenzen überschreiten.',
       },
     },
+    
+   
+    
+    
+  ];
+   const integration = [
+    
     {
       question: {
-        en: 'What are the mounting options for the SQ-Panel?',
-        de: 'Welche Montageoptionen gibt es für das SQ-Panel?',
+        en: 'Is the SQ‑Panel compatible with other smart home systems?',
+        de: 'Ist das SQ-Panel mit anderen Smart-Home-Systemen kompatibel?',
       },
       answer: {
-        en: 'The SQ-Panel offers flexible installation. It can be wall-mounted for a clean, integrated look, or placed on a stand for easy relocation. Both options ensure accessibility and visibility in various environments.',
-        de: 'Das SQ-Panel bietet eine flexible Installation. Es kann für ein sauberes, integriertes Erscheinungsbild an der Wand montiert oder auf einem Ständer platziert werden, um eine einfache Standortänderung zu ermöglichen. Beide Optionen gewährleisten Zugänglichkeit und Sichtbarkeit in verschiedenen Umgebungen.',
+        en: 'Yes. Thanks to Matter support, the SQ-Panel integrates seamlessly with popular ecosystems including Alexa, Google Home, and Apple Home. This ensures interoperability and future-proof compatibility with your smart home setup.',
+        de: 'Ja. Dank Matter-Unterstützung lässt sich das SQ-Panel nahtlos in beliebte Ökosysteme wie Alexa, Google Home und Apple Home integrieren. Dies gewährleistet Interoperabilität und zukunftssichere Kompatibilität mit Ihrem Smart-Home-Setup.',
       },
     },
+    
     {
       question: {
         en: 'How does the SQ-Panel ensure data security?',
@@ -171,36 +215,9 @@ const Index = () => {
         de: 'Absolut. Mit der Carenuity-App können Sie jederzeit auf Echtzeit- und historische Luftqualitätsdaten zugreifen. Ob zu Hause, im Büro oder unterwegs – Sie bleiben über Ihre Innenraumumgebung informiert.',
       },
     },
-    {
-      question: {
-        en: 'What is the range of the Matter-supported SQ-Panel?',
-        de: 'Wie groß ist die Reichweite des Matter-kompatiblen SQ-Panels?',
-      },
-      answer: {
-        en: 'The SQ-Panel supports a wireless range of up to 80 meters indoors (depending on building structure). This ensures stable and reliable connectivity within most homes and office environments.',
-        de: 'Das SQ-Panel unterstützt eine kabellose Reichweite von bis zu 80 Metern im Innenbereich (abhängig von der Gebäudestruktur). Dies gewährleistet eine stabile und zuverlässige Verbindung in den meisten Wohnungen und Büros.',
-      },
-    },
-    {
-      question: {
-        en: 'How can I customize sensor thresholds?',
-        de: 'Wie kann ich die Sensorschwellenwerte anpassen?',
-      },
-      answer: {
-        en: 'Thresholds for temperature, CO<sub>2</sub>, VOCs, and other metrics can be customized through the Carenuity app or any Matter-compatible platform. Once set, you will receive alerts when values exceed your defined safety or comfort levels.',
-        de: 'Schwellenwerte für Temperatur, CO<sub>2</sub>, VOCs und andere Messgrößen können über die Carenuity-App oder jede Matter-kompatible Plattform angepasst werden. Sobald festgelegt, erhalten Sie Warnungen, wenn Werte Ihre definierten Sicherheits- oder Komfortgrenzen überschreiten.',
-      },
-    },
-    {
-      question: {
-        en: 'Is the SQ-Panel compatible with other smart home systems?',
-        de: 'Ist das SQ-Panel mit anderen Smart-Home-Systemen kompatibel?',
-      },
-      answer: {
-        en: 'Yes. Thanks to Matter support, the SQ-Panel integrates seamlessly with popular ecosystems including Alexa, Google Home, and Apple Home. This ensures interoperability and future-proof compatibility with your smart home setup.',
-        de: 'Ja. Dank Matter-Unterstützung lässt sich das SQ-Panel nahtlos in beliebte Ökosysteme wie Alexa, Google Home und Apple Home integrieren. Dies gewährleistet Interoperabilität und zukunftssichere Kompatibilität mit Ihrem Smart-Home-Setup.',
-      },
-    },
+   
+    
+    
   ];
 
   return (
@@ -221,7 +238,7 @@ const Index = () => {
       <section className="pt-4">
         <div className="container">
           <div className="max-w-2xl mx-auto ">
-            <h4>
+            <h4 style={{color:"#198754"}}>
               {state === 'en' && <>SQ-Panel FAQ</>}
               {state === 'de' && <>SQ-Panel FAQ</>}
             </h4>
@@ -242,8 +259,37 @@ const Index = () => {
                 </>
               )}
             </p>
-
-            {faqs.map((faq, index) => (
+              
+               <h4 style={{color:"#198754"}}>
+              {state === 'en' && <>Product & Hardware</>}
+              {state === 'de' && <>Produkt & Hardware</>}
+            </h4>
+            {product.map((faq, index) => (
+              <FAQCard
+                key={index}
+                question={state === 'en' ? faq.question.en : faq.question.de}
+                answer={state === 'en' ? faq.answer.en : faq.answer.de}
+              />
+            ))}
+            
+             <h4 style={{color:"#198754"}}>
+              {state === 'en' && <>Setup & Usage</>}
+              {state === 'de' && <>Einrichtung & Bedienung
+</>}
+            </h4>
+            {setup.map((faq, index) => (
+              <FAQCard
+                key={index}
+                question={state === 'en' ? faq.question.en : faq.question.de}
+                answer={state === 'en' ? faq.answer.en : faq.answer.de}
+              />
+            ))}
+            
+             <h4>
+              {state === 'en' && <>Integration, Compatibility & Security</>}
+              {state === 'de' && <>Integration, Kompatibilität & Sicherheit</>}
+            </h4>
+            {integration.map((faq, index) => (
               <FAQCard
                 key={index}
                 question={state === 'en' ? faq.question.en : faq.question.de}
