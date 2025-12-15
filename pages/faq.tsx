@@ -227,7 +227,7 @@ const Index = () => {
       <section className="pt-4">
         <div className="container">
           <div className="max-w-2xl mx-auto ">
-            <h4 style={{ color: '#198754' }}>
+            <h4 >
               {state === 'en' && <>SQ-Panel FAQ</>}
               {state === 'de' && <>SQ-Panel FAQ</>}
             </h4>
@@ -273,7 +273,7 @@ const Index = () => {
               />
             ))}
 
-            <h4>
+            <h4 style={{ color: '#198754' }}>
               {state === 'en' && <>Integration, Compatibility & Security</>}
               {state === 'de' && <>Integration, Kompatibilität & Sicherheit</>}
             </h4>
