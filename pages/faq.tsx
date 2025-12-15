@@ -80,7 +80,7 @@ const Index = () => {
   //   },
   // ];
 
-  const product  = [
+  const product = [
     {
       question: {
         en: 'What is the SQ-Panel?',
@@ -111,7 +111,7 @@ const Index = () => {
         de: 'Das SQ-Panel bietet eine flexible Installation. Es kann für ein sauberes, integriertes Erscheinungsbild an der Wand montiert oder auf einem Ständer platziert werden, um eine einfache Standortänderung zu ermöglichen. Beide Optionen gewährleisten Zugänglichkeit und Sichtbarkeit in verschiedenen Umgebungen.',
       },
     },
-     {
+    {
       question: {
         en: 'Can the SQ-Panel be used in multiple rooms?',
         de: 'Kann das SQ-Panel in mehreren Räumen verwendet werden?',
@@ -121,8 +121,8 @@ const Index = () => {
         de: 'Ja. Sie können mehrere SQ-Panels in verschiedenen Räumen installieren, um ein vernetztes Überwachungsnetzwerk zu erstellen. Alle Geräte können über eine App oder ein Ökosystem verwaltet werden, sodass Sie einen vollständigen Überblick über die Raumluftqualität haben.',
       },
     },
-    
-     {
+
+    {
       question: {
         en: 'What is the range of the Matter‑enabled SQ‑Panel?',
         de: 'Wie groß ist die Reichweite des Matter‑unterstützten SQ‑Panels?',
@@ -132,11 +132,8 @@ const Index = () => {
         de: 'Das SQ-Panel unterstützt eine kabellose Reichweite von bis zu 80 Metern im Innenbereich (abhängig von der Gebäudestruktur). Dies gewährleistet eine stabile und zuverlässige Verbindung in den meisten Wohnungen und Büros.',
       },
     },
- 
   ];
-   const setup  = [
-   
-    
+  const setup = [
     {
       question: {
         en: 'How do I set up the SQ‑Panel via Matter?',
@@ -167,7 +164,7 @@ const Index = () => {
         de: 'Benutzerprofile können über die Carenuity-App oder innerhalb Ihres Matter-Ökosystems verwaltet werden. So können Sie persönliche Einstellungen festlegen, Benachrichtigungsschwellen für bestimmte Sensoren anpassen und Warnungen für unterschiedliche Familienmitglieder oder Arbeitsumgebungen definieren.',
       },
     },
-   {
+    {
       question: {
         en: 'How can I adjust sensor thresholds?',
         de: 'Wie kann ich Sensor‑Schwellenwerte anpassen?',
@@ -177,13 +174,8 @@ const Index = () => {
         de: 'Schwellenwerte für Temperatur, CO<sub>2</sub>, VOCs und andere Messgrößen können über die Carenuity-App oder jede Matter-kompatible Plattform angepasst werden. Sobald festgelegt, erhalten Sie Warnungen, wenn Werte Ihre definierten Sicherheits- oder Komfortgrenzen überschreiten.',
       },
     },
-    
-   
-    
-    
   ];
-   const integration = [
-    
+  const integration = [
     {
       question: {
         en: 'Is the SQ‑Panel compatible with other smart home systems?',
@@ -194,7 +186,7 @@ const Index = () => {
         de: 'Ja. Dank Matter-Unterstützung lässt sich das SQ-Panel nahtlos in beliebte Ökosysteme wie Alexa, Google Home und Apple Home integrieren. Dies gewährleistet Interoperabilität und zukunftssichere Kompatibilität mit Ihrem Smart-Home-Setup.',
       },
     },
-    
+
     {
       question: {
         en: 'How does the SQ-Panel ensure data security?',
@@ -215,9 +207,6 @@ const Index = () => {
         de: 'Absolut. Mit der Carenuity-App können Sie jederzeit auf Echtzeit- und historische Luftqualitätsdaten zugreifen. Ob zu Hause, im Büro oder unterwegs – Sie bleiben über Ihre Innenraumumgebung informiert.',
       },
     },
-   
-    
-    
   ];
 
   return (
@@ -238,7 +227,7 @@ const Index = () => {
       <section className="pt-4">
         <div className="container">
           <div className="max-w-2xl mx-auto ">
-            <h4 style={{color:"#198754"}}>
+            <h4 style={{ color: '#198754' }}>
               {state === 'en' && <>SQ-Panel FAQ</>}
               {state === 'de' && <>SQ-Panel FAQ</>}
             </h4>
@@ -259,8 +248,8 @@ const Index = () => {
                 </>
               )}
             </p>
-              
-               <h4 style={{color:"#198754"}}>
+
+            <h4 style={{ color: '#198754' }}>
               {state === 'en' && <>Product & Hardware</>}
               {state === 'de' && <>Produkt & Hardware</>}
             </h4>
@@ -271,11 +260,10 @@ const Index = () => {
                 answer={state === 'en' ? faq.answer.en : faq.answer.de}
               />
             ))}
-            
-             <h4 style={{color:"#198754"}}>
+
+            <h4 style={{ color: '#198754' }}>
               {state === 'en' && <>Setup & Usage</>}
-              {state === 'de' && <>Einrichtung & Bedienung
-</>}
+              {state === 'de' && <>Einrichtung & Bedienung</>}
             </h4>
             {setup.map((faq, index) => (
               <FAQCard
@@ -284,8 +272,8 @@ const Index = () => {
                 answer={state === 'en' ? faq.answer.en : faq.answer.de}
               />
             ))}
-            
-             <h4>
+
+            <h4>
               {state === 'en' && <>Integration, Compatibility & Security</>}
               {state === 'de' && <>Integration, Kompatibilität & Sicherheit</>}
             </h4>
