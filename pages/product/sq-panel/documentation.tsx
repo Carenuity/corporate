@@ -90,7 +90,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         className="ms-2 link-success"
                         rel="noreferrer"
                       >
-                        Manual-for-Commissioning 1.0.3 [PDF]
+                        Manual-for-Commissioning 1.1.0 [PDF]
                       </a>
                     </div>
 
