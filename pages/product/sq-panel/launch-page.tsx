@@ -9,7 +9,7 @@ import Translatable from '../../../components/Translatable';
 
 // eslint-disable-next-line no-unused-vars
 const Page = ({ isMobile }: { isMobile: boolean }) => {
-  const pageTitle = 'SQ-Panel Launch';
+  const pageTitle = 'SQ-Panel Newsletter & Launch';
   const { state } = useContext(LanguageSwitchContext);
   return (
     <>
@@ -38,6 +38,43 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
       <section className="container">
         <div className="container">
           <div className="row">
+            <div className="col-lg-12 mb-4">
+              <div
+                id="subscribe"
+                className=" mb-4"
+                style={{ textAlign: 'center' }}
+              >
+                <h3>
+                  {state === 'en' && (
+                    <>
+                      Subscribe to our Newsletter
+                      {/* Subscribe to the waiting list for early bird discount! */}
+                    </>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Abonnieren Sie unseren Newsletter
+                      {/* Tragen Sie sich in die Warteliste ein und sichern Sie sich den
+                  Frühbucherrabatt! */}
+                    </>
+                  )}
+                </h3>
+                <p>
+                  {state === 'en' && (
+                    <>Sign up for exclusive product launch discounts!</>
+                  )}
+                  {state === 'de' && (
+                    <>
+                      Melden Sie sich für exklusive Produkteinführungsrabatte
+                      an!
+                    </>
+                  )}
+                </p>
+              </div>
+              <SubscriptionWidget categoryId={1} />
+              <hr />
+            </div>
+
             <div className="col-lg-6 mb-4">
               <h5 className=" mb-1">
                 {state === 'en' && <>Carenuity SQ-Panel Launch</>}
@@ -439,36 +476,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 )}
               </p>
             </div>
-            <hr />
           </div>
-          <br />
-          <br />
-          <div id="subscribe" className=" mb-4" style={{ textAlign: 'center' }}>
-            <h3>
-              {state === 'en' && (
-                <>
-                  Subscribe to our Newsletter
-                  {/* Subscribe to the waiting list for early bird discount! */}
-                </>
-              )}
-              {state === 'de' && (
-                <>
-                  Abonnieren Sie unseren Newsletter
-                  {/* Tragen Sie sich in die Warteliste ein und sichern Sie sich den
-                  Frühbucherrabatt! */}
-                </>
-              )}
-            </h3>
-            <p>
-              {state === 'en' && (
-                <>Sign up for exclusive product launch discounts!</>
-              )}
-              {state === 'de' && (
-                <>Melden Sie sich für exklusive Produkteinführungsrabatte an!</>
-              )}
-            </p>
-          </div>
-          <SubscriptionWidget categoryId={1} />
         </div>
       </section>
     </>
