@@ -1428,7 +1428,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/autonomous/autonomus4.JPEG"
+                      src="/img/content/autonomous/autonomus4.jpeg"
                       className="wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
@@ -1477,7 +1477,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/autonomous/autonomus4.JPEG"
+                      src="/img/content/autonomous/autonomus4.jpeg"
                       className="wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
