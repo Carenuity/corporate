@@ -439,7 +439,7 @@ const Index = () => {
             )}
           </h4>
 
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>General</>}
             {state === 'de' && <>General</>}
           </h5>
@@ -450,7 +450,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Core Concept: S–M–A Architecture</>}
             {state === 'de' && <>Kernkonzept: S–M–A-Architektur</>}
           </h5>
@@ -462,7 +462,7 @@ const Index = () => {
             />
           ))}
 
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>C3-Mini</>}
             {state === 'de' && <>C3-Mini</>}
           </h5>
@@ -474,7 +474,7 @@ const Index = () => {
             />
           ))}
 
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Triple-Adapter</>}
             {state === 'de' && <>Triple-Adapter</>}
           </h5>
@@ -485,7 +485,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Sensorboxes and All-for-One Sensor Boxes</>}
             {state === 'de' && <>Sensorboxen und All-for-One-Sensorboxen</>}
           </h5>
@@ -496,7 +496,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Sensors</>}
             {state === 'de' && <>Sensoren</>}
           </h5>
@@ -507,7 +507,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Actuators</>}
             {state === 'de' && <>Stellantriebe</>}
           </h5>
@@ -519,7 +519,7 @@ const Index = () => {
             />
           ))}
 
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Installation and Updates</>}
             {state === 'de' && <>Installation and Updates</>}
           </h5>
@@ -530,7 +530,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Ecosystem Integration</>}
             {state === 'de' && <>Ökosystemintegration</>}
           </h5>
@@ -541,7 +541,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Solution Builder and Sensorbox Portal</>}
             {state === 'de' && <>Lösungsgenerator und Sensorbox-Portal</>}
           </h5>
@@ -552,7 +552,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Services</>}
             {state === 'de' && <>Dienstleistungen</>}
           </h5>
@@ -563,7 +563,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Housing Extension Kit</>}
             {state === 'de' && <>Wohnraum-Erweiterungsset</>}
           </h5>
@@ -574,7 +574,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Developers and Makers</>}
             {state === 'de' && <>Entwickler und Hersteller</>}
           </h5>
@@ -585,7 +585,7 @@ const Index = () => {
               answer={state === 'en' ? faq.answer.en : faq.answer.de}
             />
           ))}
-          <h5 style={{ color: '#198754' }}>
+          <h5 style={{ color: '#198754', paddingTop:"10px" }}>
             {state === 'en' && <>Summary</>}
             {state === 'de' && <>Zusammenfassung</>}
           </h5>
