@@ -3729,138 +3729,132 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               </>
             )}
           </div>
-          <div className='row'>
+          <div className="row">
             <p className="col-md-4 mb-4"></p>
             {state === 'en' && (
               <>
-              
-               <p className="col-md-2 mb-4">
-                          {!isMobile && (
-                            <Link
-                              href={
-                                'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
-                              }
-                              target="_blank"
-                              className={'btn btn-sm btn-success rounded-pill'}
-                              style={{ color: 'white' }}
-                            >
-                              <span className="small"> Buy Now</span>
-                            </Link>
-                          )}
+                <p className="col-md-2 mb-4">
+                  {!isMobile && (
+                    <Link
+                      href={
+                        'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
+                      }
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                      style={{ color: 'white' }}
+                    >
+                      <span className="small"> Buy Now</span>
+                    </Link>
+                  )}
 
-                          {isMobile && (
-                            <a
-                              href={
-                                'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
-                              }
-                              target="_blank"
-                              className={'btn btn-sm btn-success rounded-pill'}
-                              style={{ color: 'white' }}
-                              rel="noreferrer"
-                            >
-                              <span className="small">
-                                Buy Now{' '}
-                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                              </span>
-                            </a>
-                          )}
-                        </p>
-                        <p className="col-md-6 mb-4">
-                          {!isMobile && (
-                            <Link
-                              href={'/product/sq-panel/launch-page'}
-                              target="_blank"
-                              className={'btn btn-sm btn-success rounded-pill'}
-                              style={{ color: 'white' }}
-                            >
-                              <span className="small"> Subscribe to SQ-Panel Newsletter</span>
-                            </Link>
-                          )}
+                  {isMobile && (
+                    <a
+                      href={
+                        'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
+                      }
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                      style={{ color: 'white' }}
+                      rel="noreferrer"
+                    >
+                      <span className="small">
+                        Buy Now{' '}
+                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      </span>
+                    </a>
+                  )}
+                </p>
+                <p className="col-md-6 mb-4">
+                  {!isMobile && (
+                    <Link
+                      href={'/product/sq-panel/launch-page'}
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                      style={{ color: 'white' }}
+                    >
+                      <span className="small">
+                        {' '}
+                        Subscribe to SQ-Panel Newsletter
+                      </span>
+                    </Link>
+                  )}
 
-                          {isMobile && (
-                            <a
-                              href={'/product/sq-panel/launch-page'}
-                              target="_blank"
-                              className={'btn btn-sm btn-success rounded-pill'}
-                              style={{ color: 'white' }}
-                              rel="noreferrer"
-                            >
-                              <span className="small">
-                                Subscribe to SQ-Panel Newsletter{' '}
-                                {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                              </span>
-                            </a>
-                          )}
-                        </p>
+                  {isMobile && (
+                    <a
+                      href={'/product/sq-panel/launch-page'}
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                      style={{ color: 'white' }}
+                      rel="noreferrer"
+                    >
+                      <span className="small">
+                        Subscribe to SQ-Panel Newsletter{' '}
+                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      </span>
+                    </a>
+                  )}
+                </p>
               </>
             )}
             {state === 'de' && (
               <>
-               <p className="col-md-2 mb-4">
-                            {!isMobile && (
-                              <Link
-                                href={
-                                  'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
-                                }
-                                target="_blank"
-                                className={
-                                  'btn btn-sm btn-success rounded-pill'
-                                }
-                              >
-                                <span className="small"> Jetzt kaufen</span>
-                              </Link>
-                            )}
+                <p className="col-md-2 mb-4">
+                  {!isMobile && (
+                    <Link
+                      href={
+                        'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
+                      }
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                    >
+                      <span className="small"> Jetzt kaufen</span>
+                    </Link>
+                  )}
 
-                            {isMobile && (
-                              <a
-                                href={
-                                  'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
-                                }
-                                target="_blank"
-                                className={
-                                  'btn btn-sm btn-success rounded-pill'
-                                }
-                                rel="noreferrer"
-                              >
-                                <span className="small">
-                                  Jetzt kaufen{' '}
-                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                </span>
-                              </a>
-                            )}
-                          </p>
-                          <p className="col-md-6 mb-4">
-                            {!isMobile && (
-                              <Link
-                                href={'/product/sq-panel/launch-page'}
-                                target="_blank"
-                                className={
-                                  'btn btn-sm btn-success rounded-pill'
-                                }
-                              >
-                                <span className="small">
-                                  {' '}
-                                  SQ-Panel-Newsletter abonnieren
-                                </span>
-                              </Link>
-                            )}
+                  {isMobile && (
+                    <a
+                      href={
+                        'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
+                      }
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                      rel="noreferrer"
+                    >
+                      <span className="small">
+                        Jetzt kaufen{' '}
+                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      </span>
+                    </a>
+                  )}
+                </p>
+                <p className="col-md-6 mb-4">
+                  {!isMobile && (
+                    <Link
+                      href={'/product/sq-panel/launch-page'}
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                    >
+                      <span className="small">
+                        {' '}
+                        SQ-Panel-Newsletter abonnieren
+                      </span>
+                    </Link>
+                  )}
 
-                            {isMobile && (
-                              <a
-                                href={'/product/sq-panel/launch-page'}
-                                target="_blank"
-                                className={
-                                  'btn btn-sm btn-success rounded-pill'
-                                }
-                                rel="noreferrer"
-                              >
-                                <span className="small">
-                                  SQ-Panel-Newsletter abonnieren{' '}
-                                  {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
-                                </span>
-                              </a>
-                            )}
-                          </p>
+                  {isMobile && (
+                    <a
+                      href={'/product/sq-panel/launch-page'}
+                      target="_blank"
+                      className={'btn btn-sm btn-success rounded-pill'}
+                      rel="noreferrer"
+                    >
+                      <span className="small">
+                        SQ-Panel-Newsletter abonnieren{' '}
+                        {/* <i className='fa-solid fa-arrow-right ps-1'></i>display-10 */}
+                      </span>
+                    </a>
+                  )}
+                </p>
               </>
             )}
           </div>
