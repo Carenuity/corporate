@@ -74,6 +74,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <SubscriptionWidget categoryId={1} />
               <hr />
             </div>
+            
+<br />
+<br />
 
             <div className="col-lg-6 mb-4">
               <h5 className=" mb-1">
@@ -421,7 +424,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               </div>
               <h4>
                 {state === 'en' && <>Supports Matter</>}
-                {state === 'de' && <>Unterstützt Materie</>}
+                {state === 'de' && <>Unterstützt Matter</>}
               </h4>
               <p>
                 {state === 'en' && (
