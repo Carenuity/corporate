@@ -79,6 +79,8 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 <br />
 
             <div className="col-lg-6 mb-4">
+              <br />
+              <br />
               <h5 className=" mb-1">
                 {state === 'en' && <>Carenuity SQ-Panel Launch</>}
                 {state === 'de' && <>Einführung des Carenuity SQ-Panels</>}
