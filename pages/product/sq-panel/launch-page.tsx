@@ -74,9 +74,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <SubscriptionWidget categoryId={1} />
               <hr />
             </div>
-            
-<br />
-<br />
+
+            <br />
+            <br />
 
             <div className="col-lg-6 mb-4">
               <br />
