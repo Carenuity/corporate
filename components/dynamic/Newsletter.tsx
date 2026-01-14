@@ -22,9 +22,7 @@ const Newsletter = (/*{ email }: { email: string }*/) => {
           )}
         </p>
         <Link
-          href={
-            'https://newsletter-test-dot-solution-builder-421307.ew.r.appspot.com'
-          }
+          href={'https://newsletters.carenuity.com'}
           target="_blank"
           // href={'/product/sq-panel/launch-page'}
           // href={'/sq-panel-plus#subscribe'}
