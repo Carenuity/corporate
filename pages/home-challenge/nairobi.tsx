@@ -35,13 +35,13 @@ const Page = () => {
             width="100%"
             height="600px"
           ></iframe>
-          <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGW1NlDwpw&#x2F;EjOuorYweO_44m_LY-ZA_Q&#x2F;view?utm_content=DAGW1NlDwpw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
-        target="_blank" 
-        rel="noopener">
-            <u>Nairobi Home Challenge</u></a>{' '} 
-            by carenuity
-         
-          
+          <a
+            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGW1NlDwpw&#x2F;EjOuorYweO_44m_LY-ZA_Q&#x2F;view?utm_content=DAGW1NlDwpw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+            target="blank"
+          >
+            <u>Nairobi Home Challenge</u>
+          </a>{' '}
+          by carenuity
         </div>
       </section>
     </>
