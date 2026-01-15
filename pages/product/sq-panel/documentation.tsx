@@ -57,7 +57,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         Datasheet_SQ-Panel_V1.1.3 [PDF]
                       </a>
                     </div>
-                    
+
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
@@ -81,7 +81,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         Datasheet_SQ-Connector_V1.1.3 [PDF]
                       </a>
                     </div>
-
 
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
@@ -158,7 +157,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         Datasheet_SQ-Panel_V1.1.3 [PDF]
                       </a>
                     </div>
-                    
+
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
@@ -235,7 +234,6 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                 {italy && (
                   <>
-                   
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
@@ -247,7 +245,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                         Scheda tecnica_SQ-Panel_V1.1.3 [PDF]
                       </a>
                     </div>
-                    
+
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
@@ -287,7 +285,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                       href="/docs/leaflet/leaflet_it.pdf"
+                        href="/docs/leaflet/leaflet_it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
