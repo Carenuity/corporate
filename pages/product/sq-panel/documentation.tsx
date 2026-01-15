@@ -39,9 +39,9 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
           <div className="row  mb-8">
             <div className="col-lg-9">
               <h4 className="">
-                {state === 'en' && !italy && <>Documentation</>}
-                {state === 'de' && !italy && <>Documentation</>}
-                {italy && <>Documentazione</>}
+                {state === 'en' && !italy && <>SQ-Panel Documentation</>}
+                {state === 'de' && !italy && <>SQ-Panel Documentation</>}
+                {italy && <>SQ-Panel Documentazione</>}
               </h4>
               <p className="">
                 {state === 'en' && !italy && (
@@ -49,14 +49,39 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet.pdf"
+                        href="/docs/datasheet/Datasheet_SQ-Panel_V1.1.3.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
                       >
-                        Datasheet V.1.3.0 [PDF]
+                        Datasheet_SQ-Panel_V1.1.3 [PDF]
                       </a>
                     </div>
+                    
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet/Datasheet_SQ-Power_V1.1.3.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Datasheet_SQ-Power_V1.1.3 [PDF]
+                      </a>
+                    </div>
+
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet/Datasheet_SQ-Connector_V1.1.3.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Datasheet_SQ-Connector_V1.1.3 [PDF]
+                      </a>
+                    </div>
+
 
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
@@ -73,7 +98,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/leaflet.pdf"
+                        href="/docs/leaflet/leaflet.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -125,12 +150,36 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet-de.PDF"
+                        href="/docs/datasheet/Datasheet_SQ-Panel_V1.1.3_de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
                       >
-                        Datenblatt V.1.3 [PDF]
+                        Datasheet_SQ-Panel_V1.1.3 [PDF]
+                      </a>
+                    </div>
+                    
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet/Datasheet_SQ-Power_V1.1.3_de.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Datasheet_SQ-Power_V1.1.3 [PDF]
+                      </a>
+                    </div>
+
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet/Datasheet_SQ-Connector_V1.1.3_de.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Datasheet_SQ-Connector_V1.1.3 [PDF]
                       </a>
                     </div>
 
@@ -149,7 +198,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/leaflet.pdf"
+                        href="/docs/leaflet/leaflet_de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -186,15 +235,40 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                 {italy && (
                   <>
+                   
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet-it.PDF"
+                        href="/docs/datasheet/Datasheet_SQ-Panel_V1.1.3_it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
                       >
-                        Scheda tecnica V.1.3.0 [PDF]
+                        Scheda tecnica_SQ-Panel_V1.1.3 [PDF]
+                      </a>
+                    </div>
+                    
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet/Datasheet_SQ-Power_V1.1.3_it.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Scheda tecnica_SQ-Power_V1.1.3 [PDF]
+                      </a>
+                    </div>
+
+                    <div className="d-flex align-items-center">
+                      <i className="ti-check display-31 text-black"></i>
+                      <a
+                        href="/docs/datasheet/Datasheet_SQ-Connector_V1.1.3_it.pdf"
+                        target="_blank"
+                        className="ms-2 link-success"
+                        rel="noreferrer"
+                      >
+                        Scheda tecnica_SQ-Connector_V1.1.3 [PDF]
                       </a>
                     </div>
 
@@ -213,7 +287,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/leaflet-it.PDF"
+                       href="/docs/leaflet/leaflet_it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
