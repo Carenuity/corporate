@@ -27,7 +27,7 @@ const Index = () => {
 
       <section className="overflow-hidden py-3">
         <div className="container position-relative z-index-3">
-          <h4 className="mb-4">SQ-Panel</h4>
+          <h4 className="mb-4">SQ-System</h4>
           <div className="row">
             <div className="col-lg-4">
               <Link href="/get-started">
