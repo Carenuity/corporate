@@ -276,7 +276,7 @@ const Menu = ({
                 Help Center
               </Link>
             </li>
-             <li className="has-sub">
+            <li className="has-sub">
               <span className="submenu-button"></span>
               <Link href="#!" style={{ textAlign: 'left' }}>
                 University Program/Guides/API Keys.
@@ -433,19 +433,9 @@ const Menu = ({
                 </Link>
               )}
             </li>
+
             
-            {/* <li>
-              <Link
-                href={shopUrl}
-                target="_blank"
-                style={{ textAlign: 'left' }}
-              >
-                Shop
-              </Link>
-            </li> */}
-            
-            
-           
+
             <li>
               {isMobile && (
                 /* eslint-disable-next-line @next/next/no-html-link-for-pages */
@@ -459,7 +449,6 @@ const Menu = ({
                 </Link>
               )}
             </li>
-            
           </ul>
         </li>
         {/* <li>
