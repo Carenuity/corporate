@@ -61,7 +61,7 @@ const Header = ({
                     <Menu
                       isMobile={isMobile}
                       authUrl={state.urls.auth}
-                      shopUrl={state.urls.shop}
+                      // shopUrl={state.urls.shop}
                     />
                     {/* <!-- end menu area --> */}
 
