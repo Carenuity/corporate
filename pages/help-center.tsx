@@ -28,6 +28,24 @@ const Index = () => {
       <section className="overflow-hidden py-3">
         <div className="container position-relative z-index-3">
           <h4 className="mb-4">SQ-System</h4>
+          <p>
+            {state === 'en' && (
+              <>
+                The modular premium system for professional air‑quality
+                monitoring. Designed for permanent installations, scalable
+                environments, and long‑term use.
+              </>
+            )}
+
+            {state === 'de' && (
+              <>
+                {' '}
+                Das modulare Premium-System für die professionelle Überwachung
+                der Luftqualität. Entwickelt für Festinstallationen, skalierbare
+                Umgebungen und den langfristigen Einsatz.
+              </>
+            )}
+          </p>
           <div className="row">
             <div className="col-lg-4">
               <Link href="/get-started">

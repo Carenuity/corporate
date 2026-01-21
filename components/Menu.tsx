@@ -20,9 +20,9 @@ const Menu = ({
   isMobile: boolean;
 }) => {
   const [banner, setBanner] = useState(navigationBannerUrls[1]);
-  const {
-    state: { urls },
-  } = useContext(StoreContext);
+  // const {
+  //   state: { urls },
+  // } = useContext(StoreContext);
   const { state: language } = useContext(LanguageSwitchContext);
   const { state } = useContext(LanguageSwitchContext);
   const installBtnRef = useRef<HTMLLIElement>(null);
