@@ -315,7 +315,7 @@ const Menu = ({
                     🇩🇪 Germany
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href={urls.supplimentAiMaterials}
                     target="_blank"
@@ -324,7 +324,7 @@ const Menu = ({
                   >
                     🦾 Supplemental Materials
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <span
                     className="mb-0 mb-lg-1 d-block py-2 px-4 text-uppercase sub-title small text-muted"
@@ -389,7 +389,7 @@ const Menu = ({
                     🔑 Get ThingSpeak API Key
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href={'/c3-mini-spotify-remote-control'}
                     className="text-wrap"
@@ -398,8 +398,8 @@ const Menu = ({
                     🎼 C3-Mini™ Spotify Remote Control (launch 4th Quarter of
                     2025)
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     href={'/faq'}
                     className="text-wrap"
@@ -407,7 +407,7 @@ const Menu = ({
                   >
                     ❓FAQ
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li>
