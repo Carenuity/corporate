@@ -191,8 +191,8 @@ const Index = () => {
                   }}
                 >
                   <h5 style={{ color: '#eeeeee' }}>
-                    {state === 'en' && <>Documentation</>}
-                    {state === 'de' && <>Dokumentation</>}
+                    {state === 'en' && <>Documentation of the SQ-System</>}
+                    {state === 'de' && <>Dokumentation des SQ-System</>}
                   </h5>
                 </div>
               </Link>
