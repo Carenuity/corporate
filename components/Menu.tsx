@@ -12,11 +12,11 @@ import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const Menu = ({
   authUrl,
-  shopUrl,
+  // shopUrl,
   isMobile,
 }: {
   authUrl: string;
-  shopUrl: string;
+  // shopUrl: string;
   isMobile: boolean;
 }) => {
   const [banner, setBanner] = useState(navigationBannerUrls[1]);
@@ -434,7 +434,15 @@ const Menu = ({
               )}
             </li>
 
-            
+            {/* <li>
+              <Link
+                href={shopUrl}
+                target="_blank"
+                style={{ textAlign: 'left' }}
+              >
+                Shop
+              </Link>
+            </li> */}
 
             <li>
               {isMobile && (
