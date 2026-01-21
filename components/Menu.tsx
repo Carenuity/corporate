@@ -279,7 +279,7 @@ const Menu = ({
             <li className="has-sub">
               <span className="submenu-button"></span>
               <Link href="#!" style={{ textAlign: 'left' }}>
-                University Program/Guides/API Keys.
+                Programs/Guides/API Keys.
               </Link>
               <ul className="sub-menu">
                 <li className="border-bottom">
