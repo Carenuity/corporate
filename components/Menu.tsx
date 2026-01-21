@@ -7,7 +7,7 @@ import {
 } from '../utils/constants';
 import { ServiceUrl } from '../utils/types';
 import { useContext, useEffect, useRef, useState } from 'react';
-import { StoreContext } from './context/Store';
+// import { StoreContext } from './context/Store';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
 
 const Menu = ({
