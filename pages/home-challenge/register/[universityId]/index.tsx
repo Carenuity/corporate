@@ -20,7 +20,8 @@ type UniversityId =
   | 'oauth'
   | 'tum'
   | 'duth'
-  | 'night-sessions';
+  | 'night-sessions'
+  | 'nairobi'  ;
 type UniversitySubscriptionWidgetProps = {
   universityId: UniversityId;
   openPositionsRef: React.RefObject<HTMLInputElement>;
@@ -62,6 +63,8 @@ const UniversitySubscriptionWidget: React.FC<
 
     case 'night-sessions':
       return <SubscriptionWidget categoryId={16} {...props} />;
+      case 'nairobi':
+      return <SubscriptionWidget categoryId={15} {...props} />;
   }
 };
 
@@ -99,6 +102,9 @@ const getUniversityName = ({
 
     case 'night-sessions':
       return 'Tech Thursdays: AI, IoT and Databases';
+      
+    case 'nairobi':
+      return 'Nairobi ';
   }
 };
 
@@ -285,6 +291,7 @@ export const getStaticPaths: GetStaticPaths = async (
     'tum',
     'duth',
     'night-sessions',
+    'nairobi',
   ]; // Object.keys(microcontrollers);
 
   const ids = universityIds.map((key: string) => ({
