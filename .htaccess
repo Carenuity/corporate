@@ -3,3 +3,9 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Rewrite URLs containing capital letters to lowercase
+# Onces tested change 302 to 301 - permanent redirect
+
+RewriteCond expr "tolower(%{REQUEST_URI}) =~ /(.*)/"
+RewriteRule [A-Z] %1 [R=302,L]
