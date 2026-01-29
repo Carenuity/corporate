@@ -59,7 +59,7 @@ export default function Home({
         bannerImage={bannerImage}
         slogan="Real Estate Electronics Matter"
         isMobile={isMobile}
-        hasKickStarter={true}
+        hasKickStarter={false}
       />
       {/* <!--
       <section
