@@ -51,15 +51,15 @@ In summary, the Solution Builder by Carenuity is an end-to-end platform that cov
             environmental monitoring, such as temperature, humidity, air
             quality, and more
           </p>
-          <h4>Long Range 868 MHz Communication</h4>
+          <h4>Option: Long Range 868 MHz Communication</h4>
           <p>
-            A key feature of Carenuity&apos;s SQ-Products is their long-range
+            A key option of Carenuity&apos;s SQ-Products is their long-range
             communication capability using the 868 MHz frequency. This allows
             for reliable and extended range connectivity, making these products
             ideal for applications that require robust and wide-area coverage.
             The 868 MHz frequency is particularly effective in penetrating
             obstacles and providing stable connections over long distances,
-            enhancing the overall performance and reliability of the system.
+            enhancing the overall performance and reliability of the system. By default, the C3-Mini Devices communicate on Standard Wifi (2.4 GHz) and are capable for Matter (Matter-over-Wifi).
           </p>
           <h4>Instant Applications & Quick Change Feature</h4>
           <p>
