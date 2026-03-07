@@ -338,7 +338,7 @@ const Sensors = () => {
                         area and the calibration curve. This method is accurate
                         and sensitive, but requires more complex equipment and
                         calibration. It is used for laboratory analysis and
-                        research purposes .
+                        research purposes.
                       </div>
                     </>
                   )}
@@ -472,14 +472,14 @@ const Sensors = () => {
                         volatile organic compounds (VOCs) that are correlated
                         with CO<sub>2</sub> levels. This method is compact,
                         digital, and multi-gas, and can provide outputs such as
-                        equivalent CO<sub>2</sub>
+                        equivalent CO<sub>2</sub> 
                         (eCO<sub>2</sub>), total VOCs (TVOC), and air quality
-                        index (AQI)78 ScioSense&apos;s ENS160 is a digital metal
-                        oxide multi-gas sensor that uses four sensor elements
+                        index (AQI). ScioSense&apos;s CCS811 and ENS160 or Sensirion&apos;s SGP30 are digital metal
+                        oxide multi-gas sensors that use up to four sensor elements
                         and an independent hotplate control to detect a wide
                         range of VOCs and oxidizing gases with superior
-                        sensitivity It is ideal for home appliances, IoT
-                        devices, building automation, and HVAC applications .
+                        sensitivity. They are ideal for home appliances, IoT
+                        devices, building automation, and HVAC applications.
                       </div>
                     </>
                   )}
@@ -497,14 +497,14 @@ const Sensors = () => {
                         Verbindungen (VOC), die mit CO<sub>2</sub> korreliert
                         sind . Diese Methode ist kompakt, digital und
                         mehrgasfähig und kann Ergebnisse wie äquivalentes CO
-                        <sub>2</sub>
+                        <sub>2</sub> 
                         (eCO<sub>2</sub>), gesamte VOCs (TVOC) und den
-                        Luftqualitätsindex (AQI)78 Der ENS160 von ScioSense ist
-                        ein digitaler Metalloxid Mehrgassensor, der vier
+                        Luftqualitätsindex (AQI). Der CCS811 oder ENS160 von ScioSense oder der SGP30 von Sensirion sind
+                         digitale Metalloxid Gassensoren, die bis zu vier
                         Sensorelemente und eine unabhängige Heizplattensteuerung
-                        verwendet, um eine breite Palette von VOCs und
+                        verwenden, um eine breite Palette von VOCs und
                         oxidierenden Gasen mit hervorragender Empfindlichkeit zu
-                        erkennen. Er ist ideal für Haushaltsgeräte, IoT-Geräte,
+                        erkennen. Sie sind ideal für Haushaltsgeräte, IoT-Geräte,
                         Gebäudeautomatisierung und HLK-Anwendungen.
                       </div>
                     </>
