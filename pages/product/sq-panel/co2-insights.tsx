@@ -47,13 +47,13 @@ const Sensors = () => {
                 {state === 'en' && (
                   <>
                     Breathe Easy, Live Better: Why CO₂ Awareness is Essential
-                    for Your Health
+                    for Your Health.
                   </>
                 )}
                 {state === 'de' && (
                   <>
                     Einfacher atmen, besser leben: Warum CO₂-Bewusstsein wichtig
-                    für Ihre Gesundheit ist
+                    für Ihre Gesundheit ist.
                   </>
                 )}
               </h4>
@@ -83,7 +83,7 @@ const Sensors = () => {
                     meisten unterschätzten Faktoren, die das Innenraumklima
                     beeinflussen, ist Kohlendioxid (CO₂). CO₂ ist zwar von Natur
                     aus in der Luft vorhanden, doch kann es sich bei schlechter
-                    Belüftung in Wohnungen, Büros, Klassenzimmern und anderen
+                    Belüftung in Wohnungen, Büros, Homeoffice, Klassenzimmern und anderen
                     geschlossenen Räumen in ungesunden Mengen anreichern.
                     Erhöhte CO₂-Werte stehen in direktem Zusammenhang mit
                     Kopfschmerzen, Müdigkeit, Konzentrationsschwäche,
