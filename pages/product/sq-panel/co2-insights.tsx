@@ -574,16 +574,16 @@ const Sensors = () => {
                   <>
                     Carenuity specializes in sensor devices, offering a
                     portfolio of 24 sensor products that come with enclosures
-                    and can be customized on various levels to meet your
-                    specific needs.
+                    and can be customized on all levels to meet your
+                    specific needs. Just call us.
                   </>
                 )}
                 {state === 'de' && (
                   <>
                     Carenuity hat sich auf Sensorgeräte spezialisiert und bietet
-                    unter ein Portfolio von 24 Sensorprodukten an, die mit
-                    Gehäusen geliefert werden und unter auf verschiedenen Ebenen
-                    an Ihre spezifischen Anforderungen angepasst werden können.
+                    ein Portfolio von 24 Sensorprodukten an, die optional mit
+                    Gehäusen geliefert werden und auf allen Ebenen
+                    an Ihre spezifischen Anforderungen angepasst werden können. Rufen Sie einfach an.
                   </>
                 )}
               </p>
@@ -592,13 +592,13 @@ const Sensors = () => {
                 {state === 'en' && (
                   <>
                     These Applications are available by One-Click on the
-                    Install-for-Free Buttons
+                    Solution Builder with it&apos;s Install-for-Free Buttons.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Diese Anwendungen sind mit einem Klick auf die
-                    Install-for-Free-Buttons verfügbar
+                    Diese Anwendungen sind mit einem Klick im Solution Builder mit seinen
+                    Install-for-Free-Buttons verfügbar.
                   </>
                 )}
               </p>
@@ -656,13 +656,13 @@ const Sensors = () => {
                 {state === 'en' && (
                   <>
                     Get new Applications by combining the Sensor,
-                    Microcontroller and Actuator (S-M-A)
+                    Microcontroller and Actuator (S-M-A Swapping).
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Neue Anwendungen durch Kombination von Sensor,
-                    Mikrocontroller und Aktor
+                    Erhalten Sie neue Anwendungen durch die Kombination von Sensor,
+                    Mikrocontroller und Aktor (S-M-A Swapping).
                   </>
                 )}
               </p>
