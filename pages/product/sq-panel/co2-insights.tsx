@@ -83,16 +83,16 @@ const Sensors = () => {
                     meisten unterschätzten Faktoren, die das Innenraumklima
                     beeinflussen, ist Kohlendioxid (CO₂). CO₂ ist zwar von Natur
                     aus in der Luft vorhanden, doch kann es sich bei schlechter
-                    Belüftung in Wohnungen, Büros, Homeoffice, Klassenzimmern und anderen
-                    geschlossenen Räumen in ungesunden Mengen anreichern.
-                    Erhöhte CO₂-Werte stehen in direktem Zusammenhang mit
-                    Kopfschmerzen, Müdigkeit, Konzentrationsschwäche,
-                    Schläfrigkeit und sogar eingeschränkten kognitiven
-                    Funktionen. Im Laufe der Zeit kann eine anhaltende Belastung
-                    zu chronischen Beschwerden, schlechtem Schlaf und einem
-                    Rückgang der geistigen Leistungsfähigkeit führen - besonders
-                    bedenklich für Kinder, ältere Menschen und Personen mit
-                    Atemwegserkrankungen.
+                    Belüftung in Wohnungen, Büros, Homeoffice, Klassenzimmern
+                    und anderen geschlossenen Räumen in ungesunden Mengen
+                    anreichern. Erhöhte CO₂-Werte stehen in direktem
+                    Zusammenhang mit Kopfschmerzen, Müdigkeit,
+                    Konzentrationsschwäche, Schläfrigkeit und sogar
+                    eingeschränkten kognitiven Funktionen. Im Laufe der Zeit
+                    kann eine anhaltende Belastung zu chronischen Beschwerden,
+                    schlechtem Schlaf und einem Rückgang der geistigen
+                    Leistungsfähigkeit führen - besonders bedenklich für Kinder,
+                    ältere Menschen und Personen mit Atemwegserkrankungen.
                   </>
                 )}
               </p>
@@ -472,14 +472,15 @@ const Sensors = () => {
                         volatile organic compounds (VOCs) that are correlated
                         with CO<sub>2</sub> levels. This method is compact,
                         digital, and multi-gas, and can provide outputs such as
-                        equivalent CO<sub>2</sub> 
+                        equivalent CO<sub>2</sub>
                         (eCO<sub>2</sub>), total VOCs (TVOC), and air quality
-                        index (AQI). ScioSense&apos;s CCS811 and ENS160 or Sensirion&apos;s SGP30 are digital metal
-                        oxide multi-gas sensors that use up to four sensor elements
-                        and an independent hotplate control to detect a wide
-                        range of VOCs and oxidizing gases with superior
-                        sensitivity. They are ideal for home appliances, IoT
-                        devices, building automation, and HVAC applications.
+                        index (AQI). ScioSense&apos;s CCS811 and ENS160 or
+                        Sensirion&apos;s SGP30 are digital metal oxide multi-gas
+                        sensors that use up to four sensor elements and an
+                        independent hotplate control to detect a wide range of
+                        VOCs and oxidizing gases with superior sensitivity. They
+                        are ideal for home appliances, IoT devices, building
+                        automation, and HVAC applications.
                       </div>
                     </>
                   )}
@@ -497,14 +498,15 @@ const Sensors = () => {
                         Verbindungen (VOC), die mit CO<sub>2</sub> korreliert
                         sind . Diese Methode ist kompakt, digital und
                         mehrgasfähig und kann Ergebnisse wie äquivalentes CO
-                        <sub>2</sub> 
+                        <sub>2</sub>
                         (eCO<sub>2</sub>), gesamte VOCs (TVOC) und den
-                        Luftqualitätsindex (AQI). Der CCS811 oder ENS160 von ScioSense oder der SGP30 von Sensirion sind
-                         digitale Metalloxid Gassensoren, die bis zu vier
-                        Sensorelemente und eine unabhängige Heizplattensteuerung
-                        verwenden, um eine breite Palette von VOCs und
-                        oxidierenden Gasen mit hervorragender Empfindlichkeit zu
-                        erkennen. Sie sind ideal für Haushaltsgeräte, IoT-Geräte,
+                        Luftqualitätsindex (AQI). Der CCS811 oder ENS160 von
+                        ScioSense oder der SGP30 von Sensirion sind digitale
+                        Metalloxid Gassensoren, die bis zu vier Sensorelemente
+                        und eine unabhängige Heizplattensteuerung verwenden, um
+                        eine breite Palette von VOCs und oxidierenden Gasen mit
+                        hervorragender Empfindlichkeit zu erkennen. Sie sind
+                        ideal für Haushaltsgeräte, IoT-Geräte,
                         Gebäudeautomatisierung und HLK-Anwendungen.
                       </div>
                     </>
@@ -574,16 +576,17 @@ const Sensors = () => {
                   <>
                     Carenuity specializes in sensor devices, offering a
                     portfolio of 24 sensor products that come with enclosures
-                    and can be customized on all levels to meet your
-                    specific needs. Just call us.
+                    and can be customized on all levels to meet your specific
+                    needs. Just call us.
                   </>
                 )}
                 {state === 'de' && (
                   <>
                     Carenuity hat sich auf Sensorgeräte spezialisiert und bietet
                     ein Portfolio von 24 Sensorprodukten an, die optional mit
-                    Gehäusen geliefert werden und auf allen Ebenen
-                    an Ihre spezifischen Anforderungen angepasst werden können. Rufen Sie einfach an.
+                    Gehäusen geliefert werden und auf allen Ebenen an Ihre
+                    spezifischen Anforderungen angepasst werden können. Rufen
+                    Sie einfach an.
                   </>
                 )}
               </p>
@@ -597,8 +600,8 @@ const Sensors = () => {
                 )}
                 {state === 'de' && (
                   <>
-                    Diese Anwendungen sind mit einem Klick im Solution Builder mit seinen
-                    Install-for-Free-Buttons verfügbar.
+                    Diese Anwendungen sind mit einem Klick im Solution Builder
+                    mit seinen Install-for-Free-Buttons verfügbar.
                   </>
                 )}
               </p>
@@ -661,8 +664,8 @@ const Sensors = () => {
                 )}
                 {state === 'de' && (
                   <>
-                    Erhalten Sie neue Anwendungen durch die Kombination von Sensor,
-                    Mikrocontroller und Aktor (S-M-A Swapping).
+                    Erhalten Sie neue Anwendungen durch die Kombination von
+                    Sensor, Mikrocontroller und Aktor (S-M-A Swapping).
                   </>
                 )}
               </p>

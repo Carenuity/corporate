@@ -260,7 +260,7 @@ export default function Home({
               <img
                 src="/img/content/case/patricia.png"
                 className="wow fadeInUp"
-                data-wow-delay="100ms" 
+                data-wow-delay="100ms"
                 alt="..."
                 style={{
                   visibility: 'visible',

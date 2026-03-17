@@ -1,4 +1,4 @@
- 'use client';
+'use client';
 
 import { useContext, useEffect } from 'react';
 import { LanguageSwitchContext } from './context/LanguageSwitch';
