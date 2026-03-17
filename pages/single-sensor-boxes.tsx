@@ -85,7 +85,7 @@ const Index = () => {
           <div className="col-md-6 wow mb-4 fadeIn" data-wow-delay="400ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/selection-boxes/C3-mini_selection-box_case.png"
+              src="/img/selection-boxes/c3-mini-selection-box-case.png"
               alt="selection box"
             />
             <p>Air-Quality-Meter: Air Quality (VOCs, CO2 & Humidity)</p>
@@ -103,7 +103,7 @@ const Index = () => {
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={'/img/selection-boxes/Bio-Pulse-Meter.jpeg'}
+              src={'/img/selection-boxes/bio-pulse-meter.jpeg'}
               alt="selection box"
             />
             <p>Bio-Pulse Meter: Bio-Pulse Meter</p>
@@ -112,7 +112,7 @@ const Index = () => {
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={'/img/selection-boxes/PIR_C3-Mini_0.66-OLED.jpeg'}
+              src={'/img/selection-boxes/pir-c3-mini-0.66-oled.jpeg'}
               alt="selection box"
             />
             <p> Fridge Openings Counter</p>

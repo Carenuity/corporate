@@ -258,9 +258,9 @@ export default function Home({
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/case/SQ-Panel_Quote_Patricia.png"
+                src="/img/content/case/patricia.png"
                 className="wow fadeInUp"
-                data-wow-delay="100ms"
+                data-wow-delay="100ms" 
                 alt="..."
                 style={{
                   visibility: 'visible',
@@ -303,7 +303,7 @@ export default function Home({
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/case/SQ-Panel_Quote_Patric.png"
+                src="/img/content/case/patric.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."

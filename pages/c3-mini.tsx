@@ -34,7 +34,7 @@ const Index = () => {
           <div className="col-6 px-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/C3-MINI/C3-MINI_front.jpeg"
+              src="/img/content/c3-mini/c3-mini-front.jpeg"
               alt="C3-MINI"
               className="img-fluid img-thumbnail rounded-0 rounded-start"
             />
@@ -42,7 +42,7 @@ const Index = () => {
           <div className="col-6 px-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/C3-MINI/C3-MINI_back.jpeg"
+              src="/img/content/c3-mini/c3-mini-back.jpeg"
               alt="C3-MINI"
               className="img-fluid img-thumbnail rounded-0 rounded-end"
             />
@@ -330,7 +330,7 @@ const Index = () => {
           <div className="col-12">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/C3-MINI/C3-MINI_pins.jpeg"
+              src="/img/content/c3-mini/c3-mini-pins.jpeg"
               alt="C3-MINI Pins"
               className="img-fluid"
             />
@@ -521,7 +521,7 @@ const Index = () => {
         </p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/img/content/C3-MINI/D1-versus-C3-Mini.png"
+          src="/img/content/c3-mini/d1-versus-c3-mini.png"
           className="wow fadeInUp mb-3"
           data-wow-delay="100ms"
           alt="..."
@@ -564,12 +564,12 @@ const Index = () => {
         <div className="row mb-1-9">
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={'/img/boards/PREVIEW_M_C3-MINI.PNG'} alt="C3-Mini" />
+            <img src={'/img/boards/preview-m-c3-mini.png'} alt="C3-Mini" />
           </div>
           <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/selection-boxes/C3-mini_selection-box_case.png"
+              src="/img/selection-boxes/c3-mini-selection-box-case.png"
               alt="C3-Mini"
             />
             <p className="mb-1-9 wow fadeIn" data-wow-delay="200ms">
@@ -628,7 +628,7 @@ const Index = () => {
             short: 'GPIO Viewer',
             long: `Monitor GPIO pins on your browser`,
           }}
-          imageUrl={'/img/sensors/GPIO_banner.jpeg'}
+          imageUrl={'/img/sensors/gpio-banner.jpeg'}
           webFlashUrl={'https://chipglobe-dev.web.app/cloudfree/GPIO/C3-Mini'}
         />
 
@@ -638,7 +638,7 @@ const Index = () => {
             short: 'WLED',
             long: `C3-Mini WLED Installer`,
           }}
-          imageUrl={'/img/sensors/WLED.jpeg'}
+          imageUrl={'/img/sensors/wled.jpeg'}
           webFlashUrl={'https://chipglobe-dev.web.app/cloudfree/WLED/C3-Mini'}
         />
 
@@ -648,7 +648,7 @@ const Index = () => {
             short: 'YouTube Meter',
             long: `YouTube Channel Statistics Meter with C3-Mini`,
           }}
-          imageUrl={'/img/sensors/Youtube-Meter.jpeg'}
+          imageUrl={'/img/sensors/youtube-meter.jpeg'}
           webFlashUrl={
             'https://chipglobe-dev.web.app/cloudfree/YOUTUBE-METEER/C3-Mini'
           }
