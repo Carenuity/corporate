@@ -40,13 +40,13 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={'/img/content/modular-C3-Mini-sensor-selection-box.webp'}
+              src={'/img/content/modular-c3-mini-sensor-selection-box.webp'}
               alt="Carenuity Sensors"
             />
           </div>
           <div className="col-md-6 wow fadeIn" data-wow-delay="400ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/content/Sensor-Selection-Box.jpeg" alt="C3-Mini" />
+            <img src="/img/content/sensor-selection-box.jpeg" alt="C3-Mini" />
             <p className="mb-1-9 wow fadeIn" data-wow-delay="200ms">
               You find that sticker on each Modular C3-Mini™ Sensor Selection
               Box.

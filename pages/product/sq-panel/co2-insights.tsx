@@ -47,13 +47,13 @@ const Sensors = () => {
                 {state === 'en' && (
                   <>
                     Breathe Easy, Live Better: Why CO₂ Awareness is Essential
-                    for Your Health
+                    for Your Health.
                   </>
                 )}
                 {state === 'de' && (
                   <>
                     Einfacher atmen, besser leben: Warum CO₂-Bewusstsein wichtig
-                    für Ihre Gesundheit ist
+                    für Ihre Gesundheit ist.
                   </>
                 )}
               </h4>
@@ -83,16 +83,16 @@ const Sensors = () => {
                     meisten unterschätzten Faktoren, die das Innenraumklima
                     beeinflussen, ist Kohlendioxid (CO₂). CO₂ ist zwar von Natur
                     aus in der Luft vorhanden, doch kann es sich bei schlechter
-                    Belüftung in Wohnungen, Büros, Klassenzimmern und anderen
-                    geschlossenen Räumen in ungesunden Mengen anreichern.
-                    Erhöhte CO₂-Werte stehen in direktem Zusammenhang mit
-                    Kopfschmerzen, Müdigkeit, Konzentrationsschwäche,
-                    Schläfrigkeit und sogar eingeschränkten kognitiven
-                    Funktionen. Im Laufe der Zeit kann eine anhaltende Belastung
-                    zu chronischen Beschwerden, schlechtem Schlaf und einem
-                    Rückgang der geistigen Leistungsfähigkeit führen - besonders
-                    bedenklich für Kinder, ältere Menschen und Personen mit
-                    Atemwegserkrankungen.
+                    Belüftung in Wohnungen, Büros, Homeoffice, Klassenzimmern
+                    und anderen geschlossenen Räumen in ungesunden Mengen
+                    anreichern. Erhöhte CO₂-Werte stehen in direktem
+                    Zusammenhang mit Kopfschmerzen, Müdigkeit,
+                    Konzentrationsschwäche, Schläfrigkeit und sogar
+                    eingeschränkten kognitiven Funktionen. Im Laufe der Zeit
+                    kann eine anhaltende Belastung zu chronischen Beschwerden,
+                    schlechtem Schlaf und einem Rückgang der geistigen
+                    Leistungsfähigkeit führen - besonders bedenklich für Kinder,
+                    ältere Menschen und Personen mit Atemwegserkrankungen.
                   </>
                 )}
               </p>
@@ -338,7 +338,7 @@ const Sensors = () => {
                         area and the calibration curve. This method is accurate
                         and sensitive, but requires more complex equipment and
                         calibration. It is used for laboratory analysis and
-                        research purposes .
+                        research purposes.
                       </div>
                     </>
                   )}
@@ -474,12 +474,13 @@ const Sensors = () => {
                         digital, and multi-gas, and can provide outputs such as
                         equivalent CO<sub>2</sub>
                         (eCO<sub>2</sub>), total VOCs (TVOC), and air quality
-                        index (AQI)78 ScioSense&apos;s ENS160 is a digital metal
-                        oxide multi-gas sensor that uses four sensor elements
-                        and an independent hotplate control to detect a wide
-                        range of VOCs and oxidizing gases with superior
-                        sensitivity It is ideal for home appliances, IoT
-                        devices, building automation, and HVAC applications .
+                        index (AQI). ScioSense&apos;s CCS811 and ENS160 or
+                        Sensirion&apos;s SGP30 are digital metal oxide multi-gas
+                        sensors that use up to four sensor elements and an
+                        independent hotplate control to detect a wide range of
+                        VOCs and oxidizing gases with superior sensitivity. They
+                        are ideal for home appliances, IoT devices, building
+                        automation, and HVAC applications.
                       </div>
                     </>
                   )}
@@ -499,12 +500,13 @@ const Sensors = () => {
                         mehrgasfähig und kann Ergebnisse wie äquivalentes CO
                         <sub>2</sub>
                         (eCO<sub>2</sub>), gesamte VOCs (TVOC) und den
-                        Luftqualitätsindex (AQI)78 Der ENS160 von ScioSense ist
-                        ein digitaler Metalloxid Mehrgassensor, der vier
-                        Sensorelemente und eine unabhängige Heizplattensteuerung
-                        verwendet, um eine breite Palette von VOCs und
-                        oxidierenden Gasen mit hervorragender Empfindlichkeit zu
-                        erkennen. Er ist ideal für Haushaltsgeräte, IoT-Geräte,
+                        Luftqualitätsindex (AQI). Der CCS811 oder ENS160 von
+                        ScioSense oder der SGP30 von Sensirion sind digitale
+                        Metalloxid Gassensoren, die bis zu vier Sensorelemente
+                        und eine unabhängige Heizplattensteuerung verwenden, um
+                        eine breite Palette von VOCs und oxidierenden Gasen mit
+                        hervorragender Empfindlichkeit zu erkennen. Sie sind
+                        ideal für Haushaltsgeräte, IoT-Geräte,
                         Gebäudeautomatisierung und HLK-Anwendungen.
                       </div>
                     </>
@@ -574,16 +576,17 @@ const Sensors = () => {
                   <>
                     Carenuity specializes in sensor devices, offering a
                     portfolio of 24 sensor products that come with enclosures
-                    and can be customized on various levels to meet your
-                    specific needs.
+                    and can be customized on all levels to meet your specific
+                    needs. Just call us.
                   </>
                 )}
                 {state === 'de' && (
                   <>
                     Carenuity hat sich auf Sensorgeräte spezialisiert und bietet
-                    unter ein Portfolio von 24 Sensorprodukten an, die mit
-                    Gehäusen geliefert werden und unter auf verschiedenen Ebenen
-                    an Ihre spezifischen Anforderungen angepasst werden können.
+                    ein Portfolio von 24 Sensorprodukten an, die optional mit
+                    Gehäusen geliefert werden und auf allen Ebenen an Ihre
+                    spezifischen Anforderungen angepasst werden können. Rufen
+                    Sie einfach an.
                   </>
                 )}
               </p>
@@ -592,13 +595,13 @@ const Sensors = () => {
                 {state === 'en' && (
                   <>
                     These Applications are available by One-Click on the
-                    Install-for-Free Buttons
+                    Solution Builder with it&apos;s Install-for-Free Buttons.
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Diese Anwendungen sind mit einem Klick auf die
-                    Install-for-Free-Buttons verfügbar
+                    Diese Anwendungen sind mit einem Klick im Solution Builder
+                    mit seinen Install-for-Free-Buttons verfügbar.
                   </>
                 )}
               </p>
@@ -656,13 +659,13 @@ const Sensors = () => {
                 {state === 'en' && (
                   <>
                     Get new Applications by combining the Sensor,
-                    Microcontroller and Actuator (S-M-A)
+                    Microcontroller and Actuator (S-M-A Swapping).
                   </>
                 )}
                 {state === 'de' && (
                   <>
-                    Neue Anwendungen durch Kombination von Sensor,
-                    Mikrocontroller und Aktor
+                    Erhalten Sie neue Anwendungen durch die Kombination von
+                    Sensor, Mikrocontroller und Aktor (S-M-A Swapping).
                   </>
                 )}
               </p>

@@ -246,7 +246,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/sq-panel.PNG"
+              src="/img/content/kickstarter/sq-panel.png"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -388,7 +388,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/sq-panel02.PNG"
+              src="/img/content/kickstarter/sq-panel02.png"
               className=" wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -439,7 +439,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/kickstarter/temp.PNG"
+                src="/img/content/kickstarter/temp.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -475,7 +475,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/kickstarter/humidity.PNG"
+                src="/img/content/kickstarter/humidity.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -514,7 +514,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/kickstarter/tile.PNG"
+                    src="/img/content/kickstarter/tile.png"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -531,7 +531,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/kickstarter/tile02.PNG"
+                    src="/img/content/kickstarter/tile02.png"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -2056,7 +2056,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/gaia-x.PNG"
+              src="/img/content/kickstarter/gaia-x.png"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -2168,7 +2168,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/hz.PNG"
+              src="/img/content/kickstarter/hz.png"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -2375,7 +2375,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-4 ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/sq-panel03.PNG"
+              src="/img/content/kickstarter/sq-panel03.png"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
