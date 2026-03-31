@@ -36,7 +36,7 @@ const Index = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={'/img/content/modular-C3-Mini-sensor-selection-box.webp'}
+                src={'/img/content/modular-c3-mini-sensor-selection-box.webp'}
                 alt="Carenuity Sensors"
                 style={{ height: '320px' }}
               />
