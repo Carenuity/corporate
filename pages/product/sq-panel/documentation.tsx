@@ -43,7 +43,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 {state === 'de' && !italy && <>SQ-Panel Documentation</>}
                 {italy && <>SQ-Panel Documentazione</>}
               </h4>
-              <p className="">
+              <div className="">
                 {state === 'en' && !italy && (
                   <>
                     <div className="d-flex align-items-center">
@@ -319,7 +319,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     </div>
                   </>
                 )}
-              </p>
+              </div>
             </div>
             <div className="col-lg-3" style={{ textAlign: 'right' }}>
               <label className={'btn btn-sm btn-success rounded-pill'}>

@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { LanguageSwitchContext } from '../components/context/LanguageSwitch';
 import Head from 'next/head';
 import PageTitle from '../components/PageTitle';
@@ -11,6 +11,12 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
   const { state } = useContext(LanguageSwitchContext);
   const bannerImage = '/img/content/SQ-Panel-sideview.webp';
   const iframeHeight = '40.5rem';
+
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  const effectiveIsMobile = mounted ? isMobile : false;
 
   useEffect(() => {
     if (document !== undefined) {
@@ -54,7 +60,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'SQ-Panel',
-              image: `${targetDomain}/img/content/sq-panel/sq-panel-main.jpg`,
+              image: `${targetDomain}/img/content/sq-panel-plus/sq-panel.png`,
               description:
                 'SQ-Panel is a modular smart panel solution for indoor air quality, environmental, and safety monitoring, adaptable for offices, schools, hospitals, and smart buildings.',
               sku: 'CSB-SQ001',
@@ -246,7 +252,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/sq-panel.png"
+              src="/img/content/kickstarter/sq-panel.PNG"
               className="mt-1-9 wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -388,7 +394,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-6 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/sq-panel02.png"
+              src="/img/content/kickstarter/sq-panel02.PNG"
               className=" wow fadeInUp img-fluid"
               data-wow-delay="100ms"
               alt="..."
@@ -439,7 +445,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/kickstarter/temp.png"
+                src="/img/content/kickstarter/temp.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -475,7 +481,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/kickstarter/humidity.png"
+                src="/img/content/kickstarter/humidity.PNG"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -514,7 +520,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/kickstarter/tile.png"
+                    src="/img/content/kickstarter/tile.PNG"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -917,7 +923,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && <>Documentation</>}
               {state === 'de' && <>Documentation</>}
             </h4>
-            <p className="mn-4">
+            <div className="mn-4">
               {state === 'en' && (
                 <>
                   <div className="d-flex align-items-center">
@@ -1044,7 +1050,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   </div>
                 </>
               )}
-            </p>
+            </div>
           </div>
 
           <div className=" mb-6 wow fadeIn  ">
@@ -1451,446 +1457,451 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                 padding: '20px',
               }}
             >
-              <tr style={{ background: '#198754', color: '#ffffff' }}>
-                <th
-                  style={{
-                    width: '30%',
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Feature </>}
-                  {state === 'de' && <>Besonderheit</>}
-                </th>
-                <th
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Details </>}
-                  {state === 'de' && <>Details</>}
-                </th>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Product Type </>}
-                  {state === 'de' && <>Produkttyp</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Sensor Panel </>}
-                  {state === 'de' && <>Sensorpanel</>}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Power Consumption </>}
-                  {state === 'de' && <>Stromverbrauch</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      (direct connection with 220-240V AC Transformer) max 5W
-                      120-240AC 50/60Hz
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      {' '}
-                      (direkter Anschluss mit 220-240V AC Transformator) max 5W
-                      120-240AC 50/60Hz
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> Light Output</>}
-                  {state === 'de' && <>Lichtleistung</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      200 lumen/meter<sup>2</sup>/steradian
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      200 lumen/meter<sup>2</sup>/steradian
-                    </>
-                  )}
-                </td>
-              </tr>
+              <thead>
+                <tr style={{ background: '#198754', color: '#ffffff' }}>
+                  <th
+                    style={{
+                      width: '30%',
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Feature </>}
+                    {state === 'de' && <>Besonderheit</>}
+                  </th>
+                  <th
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Details </>}
+                    {state === 'de' && <>Details</>}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Product Type </>}
+                    {state === 'de' && <>Produkttyp</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Sensor Panel </>}
+                    {state === 'de' && <>Sensorpanel</>}
+                  </td>
+                </tr>
+                <tr style={{ background: '#eeeeee' }}>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Power Consumption </>}
+                    {state === 'de' && <>Stromverbrauch</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        (direct connection with 220-240V AC Transformer) max 5W
+                        120-240AC 50/60Hz
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        {' '}
+                        (direkter Anschluss mit 220-240V AC Transformator) max
+                        5W 120-240AC 50/60Hz
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <> Light Output</>}
+                    {state === 'de' && <>Lichtleistung</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        200 lumen/meter<sup>2</sup>/steradian
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        200 lumen/meter<sup>2</sup>/steradian
+                      </>
+                    )}
+                  </td>
+                </tr>
 
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Display Size </>}
-                  {state === 'de' && <>Anzeigegröße</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>2.6-inch touchscreen </>}
-                  {state === 'de' && <>2,6-Zoll-Touchscreen</>}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>60-GHz Radar Sensor </>}
-                  {state === 'de' && <>60-GHz-Radarsensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> 60-GHz Radar Sensor</>}
-                  {state === 'de' && <>60-GHz-Radarsensor</>}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Radar Field of View (FoV) </>}
-                  {state === 'de' && <>Radarsichtfeld</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      90° Horizontal Plane Beamwidth (HPBW) -+45<sup>o</sup>{' '}
-                      Azimuth & +40<sup>o</sup> Elevation FoV{' '}
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      90° horizontale ebene Strahlbreite (HPBW) -+45<sup>o</sup>{' '}
-                      Azimuth & +40<sup>o</sup> Elevation FoV
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Radar Applications </>}
-                  {state === 'de' && <>Radaranwendungen</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>Micro-motion detection, industrial and consumer IoT </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Mikrobewegungserkennung, industriell und Verbraucher-IoT
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Antenna</>}
-                  {state === 'de' && <>Antenne</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      Antennas-in-Package (AIP) design for compact integration
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Antennas-in-Package (AIP)-Design für kompakte Integration
-                    </>
-                  )}
-                </td>
-              </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Display Size </>}
+                    {state === 'de' && <>Anzeigegröße</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>2.6-inch touchscreen </>}
+                    {state === 'de' && <>2,6-Zoll-Touchscreen</>}
+                  </td>
+                </tr>
+                <tr style={{ background: '#eeeeee' }}>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>60-GHz Radar Sensor </>}
+                    {state === 'de' && <>60-GHz-Radarsensor</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <> 60-GHz Radar Sensor</>}
+                    {state === 'de' && <>60-GHz-Radarsensor</>}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Radar Field of View (FoV) </>}
+                    {state === 'de' && <>Radarsichtfeld</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        90° Horizontal Plane Beamwidth (HPBW) -+45<sup>o</sup>{' '}
+                        Azimuth & +40<sup>o</sup> Elevation FoV{' '}
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        90° horizontale ebene Strahlbreite (HPBW) -+45
+                        <sup>o</sup> Azimuth & +40<sup>o</sup> Elevation FoV
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr style={{ background: '#eeeeee' }}>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Radar Applications </>}
+                    {state === 'de' && <>Radaranwendungen</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>Micro-motion detection, industrial and consumer IoT </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Mikrobewegungserkennung, industriell und Verbraucher-IoT
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Antenna</>}
+                    {state === 'de' && <>Antenne</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        Antennas-in-Package (AIP) design for compact integration
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Antennas-in-Package (AIP)-Design für kompakte
+                        Integration
+                      </>
+                    )}
+                  </td>
+                </tr>
 
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> Environmental Usage</>}
-                  {state === 'de' && <>Umweltnutzung</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <> Suitable for indoor applications, optimized for IoT</>
-                  )}
-                  {state === 'de' && (
-                    <>Geeignet für Innenanwendungen, optimiert für IoT</>
-                  )}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> Temperature Sensor</>}
-                  {state === 'de' && <>Temperatursensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      Monitors the ambient temperature, enabling climate control
-                      systems and user comfort adjustments
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Überwacht die Umgebungstemperatur, Ermöglicht
-                      Klimatisierungssysteme und Anpassungen des
-                      Benutzerkomforts
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> Humidity Sensor</>}
-                  {state === 'de' && <>Feuchtigkeitssensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      Tracks humidity levels to support air quality monitoring
-                      and HVAC optimization{' '}
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Verfolgt die Luftfeuchtigkeit, um die Luft zu unterstützen
-                      Qualitätsüberwachung und HVAC-Optimierung
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <> VOC Sensor</>}
-                  {state === 'de' && <>VOC-Sensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      Measures total volatile organic compounds to monitor air
-                      quality
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Misst die Gesamtmenge an flüchtigen organischen Stoffen
-                      Verbindungen zur Überwachung der Luftqualität
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>CO2 Sensor </>}
-                  {state === 'de' && <>CO2-Sensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      Monitors carbon dioxide levels to ensure a healthy indoor
-                      environment
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Überwacht den Kohlendioxidgehalt, um sicherzustellen ein
-                      gesundes Raumklima
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr style={{ background: '#eeeeee' }}>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Indoor Air Quality Sensor </>}
-                  {state === 'de' && (
-                    <>Sensor für die Luftqualität in Innenräumen</>
-                  )}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      Monitors overall air quality, combining data from multiple
-                      sensors{' '}
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Überwacht die allgemeine Luftqualität, Kombinieren von
-                      Daten mehrerer Sensoren
-                    </>
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && <>Pressure Sensor </>}
-                  {state === 'de' && <>Drucksensor</>}
-                </td>
-                <td
-                  style={{
-                    border: '1px solid #dddddd',
-                    padding: '8px',
-                  }}
-                >
-                  {state === 'en' && (
-                    <>
-                      {' '}
-                      Measures air pressure to provide comprehensive
-                      environmental monitoring
-                    </>
-                  )}
-                  {state === 'de' && (
-                    <>
-                      Misst den Luftdruck sorgen für eine umfassende
-                      Umweltüberwachung
-                    </>
-                  )}
-                </td>
-              </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <> Environmental Usage</>}
+                    {state === 'de' && <>Umweltnutzung</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <> Suitable for indoor applications, optimized for IoT</>
+                    )}
+                    {state === 'de' && (
+                      <>Geeignet für Innenanwendungen, optimiert für IoT</>
+                    )}
+                  </td>
+                </tr>
+                <tr style={{ background: '#eeeeee' }}>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <> Temperature Sensor</>}
+                    {state === 'de' && <>Temperatursensor</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        Monitors the ambient temperature, enabling climate
+                        control systems and user comfort adjustments
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Überwacht die Umgebungstemperatur, Ermöglicht
+                        Klimatisierungssysteme und Anpassungen des
+                        Benutzerkomforts
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <> Humidity Sensor</>}
+                    {state === 'de' && <>Feuchtigkeitssensor</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        Tracks humidity levels to support air quality monitoring
+                        and HVAC optimization{' '}
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Verfolgt die Luftfeuchtigkeit, um die Luft zu
+                        unterstützen Qualitätsüberwachung und HVAC-Optimierung
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr style={{ background: '#eeeeee' }}>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <> VOC Sensor</>}
+                    {state === 'de' && <>VOC-Sensor</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        Measures total volatile organic compounds to monitor air
+                        quality
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Misst die Gesamtmenge an flüchtigen organischen Stoffen
+                        Verbindungen zur Überwachung der Luftqualität
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>CO2 Sensor </>}
+                    {state === 'de' && <>CO2-Sensor</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        Monitors carbon dioxide levels to ensure a healthy
+                        indoor environment
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Überwacht den Kohlendioxidgehalt, um sicherzustellen ein
+                        gesundes Raumklima
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr style={{ background: '#eeeeee' }}>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Indoor Air Quality Sensor </>}
+                    {state === 'de' && (
+                      <>Sensor für die Luftqualität in Innenräumen</>
+                    )}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        Monitors overall air quality, combining data from
+                        multiple sensors{' '}
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Überwacht die allgemeine Luftqualität, Kombinieren von
+                        Daten mehrerer Sensoren
+                      </>
+                    )}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && <>Pressure Sensor </>}
+                    {state === 'de' && <>Drucksensor</>}
+                  </td>
+                  <td
+                    style={{
+                      border: '1px solid #dddddd',
+                      padding: '8px',
+                    }}
+                  >
+                    {state === 'en' && (
+                      <>
+                        {' '}
+                        Measures air pressure to provide comprehensive
+                        environmental monitoring
+                      </>
+                    )}
+                    {state === 'de' && (
+                      <>
+                        Misst den Luftdruck sorgen für eine umfassende
+                        Umweltüberwachung
+                      </>
+                    )}
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
 
@@ -2056,7 +2067,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/gaia-x.png"
+              src="/img/content/kickstarter/gaia-x.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -2168,7 +2179,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/hz.png"
+              src="/img/content/kickstarter/hz.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -2375,7 +2386,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
           <div className="col-lg-4 ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/content/kickstarter/sq-panel03.png"
+              src="/img/content/kickstarter/sq-panel03.PNG"
               className=" wow fadeInUp"
               data-wow-delay="100ms"
               alt="..."
@@ -3446,7 +3457,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                       </p>
                       <div className="row">
                         <p className="col-md-3 mb-4">
-                          {!isMobile && (
+                          {!effectiveIsMobile && (
                             <Link
                               href={
                                 'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
@@ -3459,7 +3470,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                             </Link>
                           )}
 
-                          {isMobile && (
+                          {effectiveIsMobile && (
                             <a
                               href={
                                 'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
@@ -3477,7 +3488,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                           )}
                         </p>
                         <p className="col-md-8 mb-4">
-                          {!isMobile && (
+                          {!effectiveIsMobile && (
                             <Link
                               href={'/evaluate-at-home'}
                               target="_blank"
@@ -3488,7 +3499,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                             </Link>
                           )}
 
-                          {isMobile && (
+                          {effectiveIsMobile && (
                             <a
                               href={'/evaluate-at-home'}
                               target="_blank"
@@ -3550,7 +3561,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                         </p>
                         <div className="row">
                           <p className="col-md-4 mb-4">
-                            {!isMobile && (
+                            {!effectiveIsMobile && (
                               <Link
                                 href={
                                   'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
@@ -3564,7 +3575,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                               </Link>
                             )}
 
-                            {isMobile && (
+                            {effectiveIsMobile && (
                               <a
                                 href={
                                   'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
@@ -3583,7 +3594,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                             )}
                           </p>
                           <p className="col-md-8 mb-4">
-                            {!isMobile && (
+                            {!effectiveIsMobile && (
                               <Link
                                 href={'/evaluate-at-home'}
                                 target="_blank"
@@ -3598,7 +3609,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                               </Link>
                             )}
 
-                            {isMobile && (
+                            {effectiveIsMobile && (
                               <a
                                 href={'/evaluate-at-home'}
                                 target="_blank"
@@ -3734,7 +3745,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'en' && (
               <>
                 <p className="col-md-2 mb-4">
-                  {!isMobile && (
+                  {!effectiveIsMobile && (
                     <Link
                       href={
                         'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
@@ -3747,7 +3758,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     </Link>
                   )}
 
-                  {isMobile && (
+                  {effectiveIsMobile && (
                     <a
                       href={
                         'https://www.chipglobe.shop/en/p/carenuity-sq-panel-smart-air-quality-display'
@@ -3765,7 +3776,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                 </p>
                 <p className="col-md-6 mb-4">
-                  {!isMobile && (
+                  {!effectiveIsMobile && (
                     <Link
                       href={'/product/sq-panel/launch-page'}
                       target="_blank"
@@ -3779,7 +3790,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     </Link>
                   )}
 
-                  {isMobile && (
+                  {effectiveIsMobile && (
                     <a
                       href={'/product/sq-panel/launch-page'}
                       target="_blank"
@@ -3799,7 +3810,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
             {state === 'de' && (
               <>
                 <p className="col-md-2 mb-4">
-                  {!isMobile && (
+                  {!effectiveIsMobile && (
                     <Link
                       href={
                         'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
@@ -3811,7 +3822,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     </Link>
                   )}
 
-                  {isMobile && (
+                  {effectiveIsMobile && (
                     <a
                       href={
                         'https://www.chipglobe.shop/p/carenuity-sq-panel-intelligentes-luftqualitaets-display'
@@ -3828,7 +3839,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                   )}
                 </p>
                 <p className="col-md-6 mb-4">
-                  {!isMobile && (
+                  {!effectiveIsMobile && (
                     <Link
                       href={'/product/sq-panel/launch-page'}
                       target="_blank"
@@ -3841,7 +3852,7 @@ export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
                     </Link>
                   )}
 
-                  {isMobile && (
+                  {effectiveIsMobile && (
                     <a
                       href={'/product/sq-panel/launch-page'}
                       target="_blank"

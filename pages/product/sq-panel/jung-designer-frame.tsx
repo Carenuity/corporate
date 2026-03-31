@@ -283,7 +283,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && <>Documentation</>}
               {state === 'de' && <>Documentation</>}
             </h4>
-            <p className="mn-4">
+            <div className="mn-4">
               {state === 'en' && (
                 <>
                   <div className="d-flex align-items-center">
@@ -386,7 +386,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </div>
                 </>
               )}
-            </p>
+            </div>
           </div>
 
           {state === 'en' && (
