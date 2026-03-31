@@ -352,7 +352,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/magnetic-traffic/infenio.JPEG"
+                  src="/img/content/magnetic-traffic/infenio.jpeg"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."

@@ -30,7 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'SQ-Tablestand',
-              image: `${targetDomain}/img/content/sq-tablestand/sq-tablestand-main.jpg`,
+              image: `${targetDomain}/img/content/sq-tablestand/sq-stand.jpeg`,
               description:
                 'SQ-Tablestand is a portable smart module designed for tabletop monitoring of environmental and power parameters, ideal for offices, labs, and smart workspaces.',
               sku: 'CSB-SQT001',

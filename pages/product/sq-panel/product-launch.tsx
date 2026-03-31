@@ -215,7 +215,7 @@ const Page = () => {
             <div className="col-md-4 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/product-launch/Slide2.png"
+                src="/img/content/product-launch/slide2.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -337,7 +337,7 @@ const Page = () => {
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/product-launch/Slide1.png"
+                src="/img/content/product-launch/slide1.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."

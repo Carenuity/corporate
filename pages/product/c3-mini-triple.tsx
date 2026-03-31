@@ -30,7 +30,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'More C3-Mini Triples',
-              image: `${targetDomain}/img/content/c3-mini-triple/c3-mini-triple.jpg`,
+              image: `${targetDomain}/img/content/c3-mini/c3-mini-pins.jpeg`,
               description:
                 'Compact embedded platform integrating ESP-C3 microcontroller with triple sensor capability, ideal for IoT and smart applications.',
               sku: 'CSB-C3T001',

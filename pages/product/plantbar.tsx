@@ -31,7 +31,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'PlantBar',
-              image: `${targetDomain}/img/content/plant-bar/plant-bar.jpg`,
+              image: `${targetDomain}/img/content/plant-bar/plant-bar.png`,
               description:
                 'PlantBar Sensor device for monitoring soil moisture, temperature, enabling precision care in smart gardening and agriculture.',
               sku: 'CSB-PB001',
@@ -103,7 +103,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-6">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide1.PNG"
+                src="/img/content/plant-bar/slide1.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -119,7 +119,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide2.PNG"
+                src="/img/content/plant-bar/slide2.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -134,7 +134,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide3.PNG"
+                src="/img/content/plant-bar/slide3.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -150,7 +150,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-3 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/slide4.PNG"
+                src="/img/content/plant-bar/slide4.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -274,7 +274,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-4 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/plant-bar2.PNG"
+                src="/img/content/plant-bar/plant-bar2.png"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -289,7 +289,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
             <div className="col-md-4 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/plant-bar/plant-bar3.JPEG"
+                src="/img/content/plant-bar/plant-bar3.jpeg"
                 className="wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -315,7 +315,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/plant-bar/capacitive-soil-moisture.PNG"
+                    src="/img/content/plant-bar/capacitive-soil-moisture.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."

@@ -31,7 +31,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'Autonomous Driving Car',
-              image: `${targetDomain}/img/content/autonomous-car/car-demo.jpg`,
+              image: `${targetDomain}/img/content/autonomous/car1.jpg`,
               description:
                 'Educational autonomous driving car platform featuring sensors and embedded systems, ideal for learning machine vision, obstacle avoidance, and smart driving algorithms.',
               sku: 'CSB-ADC001',
@@ -500,7 +500,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus1.png"
+                        src="/img/content/autonomous/autonomus1.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -543,7 +543,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus1.png"
+                        src="/img/content/autonomous/autonomus1.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -587,7 +587,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus2.png"
+                        src="/img/content/autonomous/autonomus2.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -627,7 +627,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus2.png"
+                        src="/img/content/autonomous/autonomus2.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -668,7 +668,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus3.png"
+                        src="/img/content/autonomous/autonomus3.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -708,7 +708,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/autonomus3.png"
+                        src="/img/content/autonomous/autonomus3.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -1533,7 +1533,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/shopcar.png"
+                        src="/img/content/autonomous/shopcar.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."
@@ -1640,7 +1640,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src="/img/content/autonomous/shopcar.png"
+                        src="/img/content/autonomous/shopcar.PNG"
                         className="wow fadeInUp"
                         data-wow-delay="100ms"
                         alt="..."

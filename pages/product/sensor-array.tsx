@@ -26,7 +26,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'Sensor Array',
-              image: `${targetDomain}/img/content/sensor-array/sensor-array.jpg`,
+              image: `${targetDomain}/img/content/Sensor-array/sensor1.png`,
               description:
                 'Multi-sensor array platform for real-time monitoring of environmental and vital parameters, ideal for IoT, healthcare, and smart building applications.',
               sku: 'CSB-SA001',
