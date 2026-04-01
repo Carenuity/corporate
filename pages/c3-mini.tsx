@@ -224,7 +224,7 @@ const Index = () => {
             <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
               <a
-                href="/docs/Schematic V2.2.1.pdf"
+                href="/docs/schematic-v2.2.1.pdf"
                 target="_blank"
                 className="ms-2 link-success"
                 rel="noreferrer"
@@ -237,7 +237,7 @@ const Index = () => {
             <div className="d-flex align-items-center">
               <i className="ti-check display-31 text-black"></i>
               <a
-                href="/docs/Dimension V2.2.1.PDF"
+                href="/docs/dimension-v2.2.1.pdf"
                 target="_blank"
                 className="ms-2 link-success"
                 rel="noreferrer"

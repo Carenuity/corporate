@@ -307,7 +307,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/ecosystems/EcoSystem_CloudFree.png"
+                  src="/img/content/ecosystems/ecosystem-cloudfree.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -338,7 +338,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/ecosystems/EcoSystem_HomeAssistant.png"
+                  src="/img/content/ecosystems/ecosystem-homeassistant.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -367,7 +367,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/ecosystems/EcoSystem_IoT-AppStore.png"
+                  src="/img/content/ecosystems/ecosystem-iot-appstore.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -397,7 +397,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/ecosystems/EcoSystem_Matter.png"
+                  src="/img/content/ecosystems/ecosystem-matter.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."

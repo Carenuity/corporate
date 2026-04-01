@@ -181,7 +181,7 @@ const Sensors = () => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/co2/Cavity Ring-Down Spectroscopy (CRDS).png"
+                      src="/img/content/co2/cavity-ring-down-spectroscopy-crds.png"
                       className=" wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
@@ -243,7 +243,7 @@ const Sensors = () => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/co2/Non-Dispersive Infrared (NDIR).png"
+                      src="/img/content/co2/non-dispersive-infrared-ndir.png"
                       className=" wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
@@ -311,7 +311,7 @@ const Sensors = () => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/co2/Gas Chromatography (GC).png"
+                      src="/img/content/co2/gas-chromatography-gc.png"
                       className=" wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
@@ -378,7 +378,7 @@ const Sensors = () => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/co2/Photoacoustic Spectroscopy (PAS) e.g. Infineon PAS CO2.png"
+                      src="/img/content/co2/photoacoustic-spectroscopy-pas-eg-infineon-pas-co2.png"
                       className=" wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."
@@ -447,7 +447,7 @@ const Sensors = () => {
                   <div className="col-lg-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/img/content/co2/Metal Oxide (MOX) e.g. Carenuity SQ-Panel.png"
+                      src="/img/content/co2/metal-oxide-mox-eg-carenuity-sq-panel.png"
                       className=" wow fadeInUp"
                       data-wow-delay="100ms"
                       alt="..."

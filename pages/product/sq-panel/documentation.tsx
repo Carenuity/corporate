@@ -49,7 +49,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Panel_V1.1.3.pdf"
+                        href="/docs/datasheet/datasheet-sq-panel-v1.1.3.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -61,7 +61,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Power_V1.1.3.pdf"
+                        href="/docs/datasheet/datasheet-sq-power-v1.1.3.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -73,7 +73,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Connector_V1.1.3.pdf"
+                        href="/docs/datasheet/datasheet-sq-connector-v1.1.3.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -109,7 +109,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/Commissioning-en.pdf"
+                        href="/docs/commissioning-en.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -149,7 +149,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Panel_V1.1.3_de.pdf"
+                        href="/docs/datasheet/datasheet-sq-panel-v1.1.3-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -161,7 +161,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Power_V1.1.3_de.pdf"
+                        href="/docs/datasheet/datasheet-sq-power-v1.1.3-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -173,7 +173,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Connector_V1.1.3_de.pdf"
+                        href="/docs/datasheet/datasheet-sq-connector-v1.1.3-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -185,7 +185,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/declaration-de.PDF"
+                        href="/docs/declaration-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -209,7 +209,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/Commissioning-de.PDF"
+                        href="/docs/commissioning-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -237,7 +237,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Panel_V1.1.3_it.pdf"
+                        href="/docs/datasheet/datasheet-sq-panel-v1.1.3-it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -249,7 +249,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Power_V1.1.3_it.pdf"
+                        href="/docs/datasheet/datasheet-sq-power-v1.1.3-it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -261,7 +261,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet/Datasheet_SQ-Connector_V1.1.3_it.pdf"
+                        href="/docs/datasheet/datasheet-sq-connector-v1.1.3-it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -273,7 +273,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/declaration-it.PDF"
+                        href="/docs/declaration-it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -297,7 +297,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/commisioning-it.PDF"
+                        href="/docs/commisioning-it.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
