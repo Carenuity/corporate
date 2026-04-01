@@ -5,16 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
 
-      const data = {
-        Name: form.name.value,
-        Email: form.email.value,
-        Company: form.company.value,
-        Mobile: form.mobile.value,
-        Street: form.street.value,
-        Zip: form.zip.value,
-        Subject: form.subject.value,
-        Message: form.message.value,
-      };
+      const SHAREPOINT_BASE =
+        'https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com';
 
       const loading = document.querySelector('.loading');
       const errorMsg = document.querySelector('.error-message');
@@ -26,11 +18,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
       try {
         const response = await fetch(
-          'https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Carenuity Inbox',
+          `${SHAREPOINT_BASE}/api/v1/sharepoint/lists/${encodeURIComponent(
+            'Carenuity Inbox'
+          )}/items`,
           {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data),
+            body: JSON.stringify({
+              fields: {
+                Name: form.name.value,
+                Email: form.email.value,
+                Company: form.company.value,
+                Mobile: form.mobile.value,
+                Street: form.street.value,
+                Zip: form.zip.value,
+                Subject: form.subject.value,
+                Message: form.message.value,
+              },
+            }),
           }
         );
 

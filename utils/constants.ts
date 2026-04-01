@@ -309,7 +309,9 @@ export const microcontrollers: any = {
   } as Microcontroller,
 };
 
-export const NewsletterHostname =
-  'https://newsletter-test-dot-solution-builder-421307.ew.r.appspot.com';
+export const SharepointHostname =
+  'https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com';
+
+export const NewsletterHostname = 'https://newsletters.carenuity.com';
 
 export const targetDomain = 'https://carenuity.com'; // https://carenuity.netlify.app

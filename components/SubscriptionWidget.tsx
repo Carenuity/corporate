@@ -28,13 +28,11 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
   const [inProgress, setInProgress] = useState(false);
   const { state } = useContext(LanguageSwitchContext);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setInProgress(true);
     const email = e.currentTarget['subscriber-email']?.value;
     if (!email) {
       alert('Please enter an email address.');
-      setInProgress(false);
       return;
     }
 
@@ -93,70 +91,34 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       return;
     }
 
-    // Send the emails to the server
-    setTimeout(async () => {
-      const url = `${NewsletterHostname}/v1/subscriptions`;
-      try {
-        const newsletterRequests = newsletters.map((payload) => {
-          return fetch(url, {
+    setInProgress(true);
+    const url = `${NewsletterHostname}/v1/subscriptions`;
+    try {
+      const responses = await Promise.all(
+        newsletters.map((payload) =>
+          fetch(url, {
             method: 'POST',
             body: JSON.stringify(payload),
             headers: {
               'Content-Type': 'application/json',
             },
-          });
-        });
+          })
+        )
+      );
 
-        const newsletterResponses = await Promise.all(newsletterRequests);
-
-        let hasError = false;
-        newsletterResponses.forEach(async (response, index) => {
-          if (!response.ok) {
-            const bodyText = await response.text();
-            console.error(bodyText);
-            hasError = true;
-          }
-
-          if (newsletterResponses.length - 1 === index) {
-            setInProgress(false);
-
-            if (hasError) {
-              alert(`Something went wrong! Kindly try again.`);
-            } else {
-              alert(
-                'Subscription(s) initiated successfully. Check your email for verification(s)'
-              );
-            }
-          }
-        });
-
-        // const response = await fetch(url, {
-        //   method: 'POST',
-        //   body: JSON.stringify({
-        //     categoryId,
-        //     email,
-        //   }),
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-        // });
-
-        // const bodyText = await response.text();
-
-        // if (response.ok) {
-        //   const msg = JSON.parse(bodyText);
-        //   alert(msg.data);
-        //   setInProgress(false);
-        //   return;
-        // }
-        // console.error(bodyText);
-        // alert(`Something went wrong! Kindly try again.`);
-      } catch (error) {
+      const hasError = responses.some((r) => !r.ok);
+      if (hasError) {
         alert(`Something went wrong! Kindly try again.`);
-        setInProgress(false);
+      } else {
+        alert(
+          'Subscription(s) initiated successfully. Check your email for verification(s)'
+        );
       }
-      // setInProgress(false);
-    }, 0);
+    } catch {
+      alert(`Something went wrong! Kindly try again.`);
+    } finally {
+      setInProgress(false);
+    }
   };
 
   return (
