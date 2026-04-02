@@ -6,7 +6,7 @@ import IoTComponentsCount from '../components/IoTComponentsCount';
 const Index = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'Install For Free';
   // const boardImage =
-  //   '/img/content/triple-adapter-with-letters-S-M-A-for-orientation.webp';
+  //   '/img/content/triple-adapter-with-letters-s-m-a-for-orientation.webp';
   // const { state } = useContext(StoreContext);
 
   return (
