@@ -497,7 +497,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {!isMobile && (
                 <Link
                   href={
-                    '/home-challenge/why-should-I-involve-myself-as-a-professor'
+                    '/home-challenge/why-should-i-involve-myself-as-a-professor'
                   }
                 >
                   <u className="small">
@@ -509,7 +509,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
             <p>
               {!isMobile && (
-                <Link href={'/home-challenge/why-should-I-become-a-sponsor'}>
+                <Link href={'/home-challenge/why-should-i-become-a-sponsor'}>
                   <u className="small"> Why should I become a sponsor</u>
                 </Link>
               )}

@@ -241,7 +241,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/commisioning.pdf"
+                      href="/docs/commissioning.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -383,7 +383,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/commisioning-de.pdf"
+                        href="/docs/commissioning-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
