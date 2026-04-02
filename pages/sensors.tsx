@@ -42,140 +42,140 @@ const Sensors = ({ isMobile }: { isMobile: boolean }) => {
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'BMP180' },
                     }}
-                    image={'/img/sensors/Barometer-sensor.png'}
+                    image={'/img/sensors/barometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'DHT11' },
                     }}
-                    image={'/img/sensors/Hygrometer-sensor.png'}
+                    image={'/img/sensors/hygrometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'SHT30' },
                     }}
-                    image={'/img/sensors/Hygro-Thermometer-sensor.png'}
+                    image={'/img/sensors/hygro-thermometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Ambient-Light' },
                     }}
-                    image={'/img/sensors/Luxmeter-sensor.png'}
+                    image={'/img/sensors/luxmeter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Barometric-pressure' },
                     }}
-                    image={'/img/sensors/Thermo-Barometer-sensor.png'}
+                    image={'/img/sensors/thermo-barometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'IR' },
                     }}
-                    image={'/img/sensors/IR-Radiometer-sensor.png'}
+                    image={'/img/sensors/ir-radiometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'PIR' },
                     }}
-                    image={'/img/sensors/Motion-Detector-sensor.png'}
+                    image={'/img/sensors/motion-detector-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Radar' },
                     }}
-                    image={'/img/sensors/Radar-Meter-sensor.png'}
+                    image={'/img/sensors/radar-meter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'DS18B20' },
                     }}
-                    image={'/img/sensors/Thermometer-sensor.png'}
+                    image={'/img/sensors/thermometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Button' },
                     }}
-                    image={'/img/sensors/Presence-Detector-sensor.png'}
+                    image={'/img/sensors/presence-detector-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'SGP30' },
                     }}
-                    image={'/img/sensors/Air-Qual-CO2-Meter-sensor.png'}
+                    image={'/img/sensors/air-qual-co2-meter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Motion' },
                     }}
-                    image={'/img/sensors/Motion-sensor.png'}
+                    image={'/img/sensors/motion-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Air-Parameter' },
                     }}
-                    image={'/img/sensors/Air-Parameter-sensor.png'}
+                    image={'/img/sensors/air-parameter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Hygrometer-2' },
                     }}
-                    image={'/img/sensors/Hygrometer-2-sensor.png'}
+                    image={'/img/sensors/hygrometer-2-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Si1133' },
                     }}
-                    image={'/img/sensors/UV-Radiometer-sensor.png'}
+                    image={'/img/sensors/uv-radiometer-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Motion-Detector-2' },
                     }}
-                    image={'/img/sensors/Motion-Detector-2-sensor.png'}
+                    image={'/img/sensors/motion-detector-2-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'CO2-Meter' },
                     }}
-                    image={'/img/sensors/CO2-Meter-sensor.png'}
+                    image={'/img/sensors/co2-meter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'SGP40' },
                     }}
-                    image={'/img/sensors/Air-Quality-Meter-sensor.png'}
+                    image={'/img/sensors/air-quality-meter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Heart-Pulse-Oximeter' },
                     }}
-                    image={'/img/sensors/Heart-Pulse-Oximeter-sensor.png'}
+                    image={'/img/sensors/heart-pulse-oximeter-sensor.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/microcontrollers',
                       query: { ...query, sensor: 'Moisture-Meter' },
                     }}
-                    image={'/img/sensors/Moisture-Meter-sensor.png'}
+                    image={'/img/sensors/moisture-meter-sensor.png'}
                   />
                 </div>
               </div>

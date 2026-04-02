@@ -45,35 +45,35 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                       pathname: '/environments',
                       query: { ...query, actuator: '0.66-OLED' },
                     }}
-                    image={'/img/actuators/0.66-OLED-actuator.png'}
+                    image={'/img/actuators/0.66-oled-actuator.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/environments',
                       query: { ...query, actuator: 'wemos-RGB' },
                     }}
-                    image={'/img/actuators/wemos-RGB-actuator.png'}
+                    image={'/img/actuators/wemos-rgb-actuator.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/environments',
                       query: { ...query, actuator: 'Lolin-RGB' },
                     }}
-                    image={'/img/actuators/Lolin-RGB-actuator.png'}
+                    image={'/img/actuators/lolin-rgb-actuator.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/environments',
                       query: { ...query, actuator: 'RGB-LED' },
                     }}
-                    image={'/img/actuators/RGB-LED-actuator.png'}
+                    image={'/img/actuators/rgb-led-actuator.png'}
                   />
                   <ModuleImage
                     url={{
                       pathname: '/environments',
                       query: { ...query, actuator: 'wemos-matrix-LED' },
                     }}
-                    image={'/img/actuators/wemos-matrix-LED-actuator.png'}
+                    image={'/img/actuators/wemos-matrix-led-actuator.png'}
                   />
                   <ModuleImage
                     url={{
@@ -87,7 +87,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                       pathname: '/environments',
                       query: { ...query, actuator: '0.78-OLED' },
                     }}
-                    image={'/img/actuators/0.78-OLED-actuator.png'}
+                    image={'/img/actuators/0.78-oled-actuator.png'}
                   />
                   <ModuleImage
                     url={{
@@ -122,7 +122,7 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                       pathname: '/environments',
                       query: { ...query, actuator: '2.8-OLED' },
                     }}
-                    image={'/img/actuators/2.8-OLED-actuator.png'}
+                    image={'/img/actuators/2.8-oled-actuator.png'}
                   />
                   <ModuleImage
                     url={{

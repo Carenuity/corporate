@@ -64,14 +64,14 @@ const Actuators = ({ isMobile }: { isMobile: boolean }) => {
                         pathname: webFlash,
                         query: { ...query, environment: 'ha' },
                       }}
-                      image={'/img/environments/Home-assistant-environment.png'}
+                      image={'/img/environments/home-assistant-environment.png'}
                     />
                     <ModuleImage
                       url={{
                         pathname: webFlash,
                         query: { ...query, environment: 'ias' },
                       }}
-                      image={'/img/environments/IoT-appstore-environment.png'}
+                      image={'/img/environments/iot-appstore-environment.png'}
                       gridClass="col-md-5 mt-3"
                     />
                   </div>

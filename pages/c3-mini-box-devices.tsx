@@ -200,7 +200,7 @@ const Index = () => {
                       short: 'Barometer',
                       long: `Barometric Pressure & Temperature by BMP180-Sensor (BOSCH)`,
                     }}
-                    imageUrl={'/img/sensors/Barometer-sensor.png'}
+                    imageUrl={'/img/sensors/barometer-sensor.png'}
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/BMP180/C3-Mini'
                     }
@@ -364,7 +364,7 @@ const Index = () => {
 
               <div className="col-lg-6 mb-4 ">
                 <video
-                  src="/videos/content/installing_app_on_C3-Mini.MOV"
+                  src="/videos/content/installing-app-on-c3-mini.mov"
                   className="rounded-2 img-fluid"
                   controls
                   loop

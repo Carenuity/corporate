@@ -9,7 +9,7 @@ import { targetDomain } from '../utils/constants';
 export const SqPanel = ({ isMobile }: { isMobile: boolean }) => {
   const pageTitle = 'SQ-Panel Sensor Display';
   const { state } = useContext(LanguageSwitchContext);
-  const bannerImage = '/img/content/SQ-Panel-sideview.webp';
+  const bannerImage = '/img/content/sq-panel-sideview.webp';
   const iframeHeight = '40.5rem';
 
   const [mounted, setMounted] = useState(false);

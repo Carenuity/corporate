@@ -137,7 +137,7 @@ const Index = () => {
           <div className="col-md-6 wow fadeIn" data-wow-delay="200ms">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <video
-              src="/videos/content/Weather.mp4"
+              src="/videos/content/weather.mp4"
               loop={true}
               autoPlay={true}
               className="mt-1-9 wow fadeInUp w-100"
