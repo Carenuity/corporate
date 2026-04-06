@@ -22,8 +22,7 @@ type UniversityId =
   | 'duth'
   | 'night-sessions'
   | 'nairobi'
-  | 'kisii';
-
+  | 'ksu';
 type UniversitySubscriptionWidgetProps = {
   universityId: UniversityId;
   openPositionsRef: React.RefObject<HTMLInputElement>;
@@ -65,10 +64,12 @@ const UniversitySubscriptionWidget: React.FC<
 
     case 'night-sessions':
       return <SubscriptionWidget categoryId={16} {...props} />;
+
     case 'nairobi':
       return <SubscriptionWidget categoryId={15} {...props} />;
-    case 'kisii-university':
-      return <SubscriptionWidget categoryId={15} {...props} />;
+
+    case 'ksu':
+      return <SubscriptionWidget categoryId={18} {...props} />;
   }
 };
 
@@ -101,6 +102,7 @@ const getUniversityName = ({
 
     case 'tum':
       return 'Technical University of Mombasa';
+      
     case 'duth':
       return 'Democritus University of Thrace ';
 
@@ -110,7 +112,7 @@ const getUniversityName = ({
     case 'nairobi':
       return 'Nairobi ';
 
-    case 'kisii-university':
+    case 'ksu':
       return 'Kisii University ';
   }
 };
@@ -299,7 +301,7 @@ export const getStaticPaths: GetStaticPaths = async (
     'duth',
     'night-sessions',
     'nairobi',
-    'kisii-university',
+    'ksu',
   ]; // Object.keys(microcontrollers);
 
   const ids = universityIds.map((key: string) => ({
