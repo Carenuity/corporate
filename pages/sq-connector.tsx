@@ -76,7 +76,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="col-lg-6 mb-6">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/sq-connector/sq-connector4.PNG"
+                    src="/img/content/sq-connector/sq-connector4.jpeg"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -113,7 +113,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="col-lg-6 mb-6">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/sq-connector/sq-connector2.PNG"
+                    src="/img/content/sq-connector/sq-connector2.png"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -241,7 +241,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/commisioning.pdf"
+                      href="/docs/commissioning.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -347,7 +347,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/datasheet-de.PDF"
+                        href="/docs/datasheet-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -359,7 +359,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/declaration-de.PDF"
+                        href="/docs/declaration-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"
@@ -383,7 +383,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                     <div className="d-flex align-items-center">
                       <i className="ti-check display-31 text-black"></i>
                       <a
-                        href="/docs/commisioning-de.PDF"
+                        href="/docs/commissioning-de.pdf"
                         target="_blank"
                         className="ms-2 link-success"
                         rel="noreferrer"

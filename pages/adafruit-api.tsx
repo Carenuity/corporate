@@ -101,7 +101,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <p className="fw-bold">
                 For further reading{' '}
                 <a
-                  href="/docs/adafruit_IO.pdf"
+                  href="/docs/adafruit-io.pdf"
                   target="_blank"
                   className="link-success"
                 >

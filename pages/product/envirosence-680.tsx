@@ -128,7 +128,7 @@ const Index = () => {
             <h6>Documentation</h6>
             <p>
               <a
-                href="/docs/Schematic V2.0.1.pdf"
+                href="/docs/schematic-v2.0.1.pdf"
                 target="_blank"
                 className="ms-2 link-success"
                 rel="noreferrer"

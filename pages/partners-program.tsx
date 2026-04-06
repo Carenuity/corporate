@@ -60,7 +60,7 @@ const Page = () => {
 
             <div className="col-md-4 mb-6">
               <video
-                src="/videos/content/Partnerprogramm.mp4"
+                src="/videos/content/partnerprogramm.mp4"
                 loop={true}
                 autoPlay={true}
                 muted

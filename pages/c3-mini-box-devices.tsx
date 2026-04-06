@@ -36,7 +36,7 @@ const Index = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={'/img/content/modular-C3-Mini-sensor-selection-box.webp'}
+                src={'/img/content/modular-c3-mini-sensor-selection-box.webp'}
                 alt="Carenuity Sensors"
                 style={{ height: '320px' }}
               />
@@ -45,34 +45,34 @@ const Index = () => {
               <div className="pe-lg-1-9 mt-5 ">
                 <div className="owl-carousel owl-theme text-center testimonial-carousel1 mb-6">
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide1.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide1.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide2.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide2.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide3.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide3.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide4.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide4.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide5.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide5.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide6.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide6.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide7.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide7.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide8.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide8.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide9.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide9.png'}
                   />
                   <CarouselImage
-                    url={'/img/content/C3-Mini-Sensor-Box/carousel/Slide10.PNG'}
+                    url={'/img/content/c3-mini-sensor-box/carousel/slide10.png'}
                   />
                 </div>
               </div>
@@ -200,7 +200,7 @@ const Index = () => {
                       short: 'Barometer',
                       long: `Barometric Pressure & Temperature by BMP180-Sensor (BOSCH)`,
                     }}
-                    imageUrl={'/img/sensors/Barometer-sensor.png'}
+                    imageUrl={'/img/sensors/barometer-sensor.png'}
                     webFlashUrl={
                       'https://chipglobe-dev.web.app/cloudfree/BMP180/C3-Mini'
                     }
@@ -364,7 +364,7 @@ const Index = () => {
 
               <div className="col-lg-6 mb-4 ">
                 <video
-                  src="/videos/content/installing_app_on_C3-Mini.MOV"
+                  src="/videos/content/installing-app-on-c3-mini.mov"
                   className="rounded-2 img-fluid"
                   controls
                   loop
@@ -375,7 +375,7 @@ const Index = () => {
               {/* <div className='col-lg-2'> */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               {/* <img
-                src="/img/sensors/YOUR-SENSOR_C3-Mini_0.66-OLED_cloudfree.png"
+                src="/img/sensors/your-sensor-c3-mini-0.66-oled-cloudfree.png"
                 alt="Custom Sensor"
                 className="img-fluid"
               />

@@ -66,7 +66,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/sma1.png"
+                  src="/img/content/home-challenge/sma1.png"
                   className="mt-1-9 wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -100,7 +100,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/sma2.png"
+                  src="/img/content/home-challenge/sma2.png"
                   className="mt-1-9 wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -134,7 +134,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/continue.png"
+                  src="/img/content/home-challenge/continue.png"
                   className="mt-1-9 wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -200,7 +200,7 @@ const Page = () => {
               <div className="col-lg-3 mt-n1-9 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/free-offer/free-offer2.png"
+                  src="/img/content/home-challenge/free-offer2.png"
                   className="mt-1-9 wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."

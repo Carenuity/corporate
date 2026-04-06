@@ -52,7 +52,7 @@ const Index = () => {
               <div className="col-lg-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/audio/audio.JPEG"
+                  src="/img/content/audio/audio.jpeg"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."

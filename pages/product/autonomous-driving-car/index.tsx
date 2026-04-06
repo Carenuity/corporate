@@ -31,7 +31,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'Autonomous Driving Car',
-              image: `${targetDomain}/img/content/autonomous-car/car-demo.jpg`,
+              image: `${targetDomain}/img/content/autonomous/car1.jpg`,
               description:
                 'Educational autonomous driving car platform featuring sensors and embedded systems, ideal for learning machine vision, obstacle avoidance, and smart driving algorithms.',
               sku: 'CSB-ADC001',

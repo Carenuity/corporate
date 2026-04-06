@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Free Sensor Databases: Advisory, Implementation & Custom Code</title>
+    <meta
+      name="description"
+      content="We advise, integrate, and tailor your sensor data solution for the most popular free databases — incl. a short live presentation, real data examples, and custom code you can flash to unlimited devices via the Solution Builder."
+    />
+    <meta name="robots" content="index,follow" />
+    <style>
+      :root {
+        --primary: #0b3c5d; /* Adjust to your corporate palette as needed */
+        --accent: #18a999;
+        --bg: #f7fbfd;
+        --text: #142033;
+        --muted: #6b7280;
+        --card: #ffffff;
+        --border: #e5e7eb;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Helvetica,
+          Arial,
+          'Noto Sans',
+          'Liberation Sans',
+          sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      header {
+        padding: 56px 0 24px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0 0 12px;
+        font-size: 2.2rem;
+        color: var(--primary);
+      }
+      header p {
+        margin: 0 auto;
+        max-width: 840px;
+        color: var(--muted);
+        font-size: 1.1rem;
+      }
+      .hero {
+        background: linear-gradient(180deg, #ffffff, #eef6fb);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      .hero .media {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+      }
+      .hero img {
+        width: 100%;
+        max-width: 980px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+        background: #fff;
+      }
+      .cta {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        margin: 20px 0 0;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 18px;
+        border-radius: 10px;
+        font-weight: 600;
+      }
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+      }
+      .btn-outline {
+        border: 1px solid var(--border);
+        color: var(--text);
+        background: #fff;
+      }
+      section {
+        padding: 48px 0;
+      }
+      h2 {
+        color: var(--primary);
+        margin-top: 0;
+        font-size: 1.7rem;
+      }
+      .grid {
+        display: grid;
+        gap: 18px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 18px;
+      }
+      .list {
+        padding-left: 18px;
+      }
+      .list li {
+        margin: 8px 0;
+      }
+      footer {
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        text-align: center;
+        padding: 28px 0 56px;
+      }
+      .logos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 16px;
+        align-items: center;
+      }
+      .logos .pill {
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 10px 12px;
+        text-align: center;
+        font-weight: 600;
+        color: #374151;
+      }
+      .note {
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <h1>Your Sensor Data — instantly usable in free databases</h1>
+      <p>
+        Advisory, implementation, and custom tailoring in one service. In a
+        short session, we show exactly how <strong>your</strong> sensor data
+        will look in the most popular free databases — then hand over the
+        customized code ready to use.
+      </p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contact"
+          >Request a short intro session</a
+        >
+        <a class="btn btn-outline" href="#process">See the process</a>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="container">
+        <div class="media">
+          <!-- Replace src with the URL/file of your generated graphic -->
+          <img
+            src="sensordata-in-free-databases.png"
+            alt="Overview of free databases for sensor data"
+            style="text-align: center; margin-top: 10px"
+          />
+        </div>
+        <p style="text-align: center; margin-top: 10px">
+          ThingSpeak · Timescale · InfluxData · Adafruit IO · Prometheus ·
+          Firebase · MongoDB
+        </p>
+      </div>
+    </div>
+
+    <main class="container">
+      <section id="focus">
+        <h2>Our focus: popular free databases for sensor data</h2>
+        <div class="logos" aria-label="Supported platforms">
+          <div class="pill">ThingSpeak</div>
+          <div class="pill">Timescale</div>
+          <div class="pill">InfluxData</div>
+          <div class="pill">Adafruit IO</div>
+          <div class="pill">Prometheus</div>
+          <div class="pill">Firebase</div>
+          <div class="pill">MongoDB</div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2>What we deliver</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>1) Compact briefing & comparison</h3>
+            <ul class="list">
+              <li>Strengths/limitations & typical use cases</li>
+              <li>Data models, retention, queries & visualization</li>
+              <li>Scaling, limits, ecosystems & integrations</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>2) Your data — live in the target DB</h3>
+            <ul class="list">
+              <li>Sample or live signals ingested into the chosen platform</li>
+              <li>Dashboards, charts, alerts & API access</li>
+              <li>Immediate look & feel of your solution</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>3) Custom tailoring</h3>
+            <ul class="list">
+              <li>Fields, visuals, events, metadata</li>
+              <li>Dashboard design & permissions</li>
+              <li>Scaling to your sensor fleet size</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>4) Code you can keep</h3>
+            <ul class="list">
+              <li>Fully customized code for your devices</li>
+              <li>
+                Flashable to unlimited devices via the <em>Solution Builder</em>
+              </li>
+              <li>Consistent firmware and data formats across the fleet</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="benefits">
+        <h2>Your benefits</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>No license fees</strong><br />Use free databases without
+            subscription costs.
+          </div>
+          <div class="card">
+            <strong>Fast outcomes</strong><br />See real data & dashboards
+            within minutes.
+          </div>
+          <div class="card">
+            <strong>Independence</strong><br />Open platforms, no vendor
+            lock‑in.
+          </div>
+          <div class="card">
+            <strong>Scalable</strong><br />From PoC to rollout.
+          </div>
+          <div class="card">
+            <strong>Team enablement</strong><br />Hands‑on learning for your
+            engineers.
+          </div>
+        </div>
+      </section>
+
+      <section id="process">
+        <h2>How it works</h2>
+        <ol class="list">
+          <li>
+            <strong>Intro call</strong> — goals, sensors, datapoints, desired
+            visuals.
+          </li>
+          <li>
+            <strong>Presentation</strong> — comparison of the best‑fit
+            databases.
+          </li>
+          <li>
+            <strong>Live demo</strong> — your data in the selected platform.
+          </li>
+          <li>
+            <strong>Customization</strong> — code, data model & dashboards.
+          </li>
+          <li>
+            <strong>Handover</strong> — solution plus flash option via Solution
+            Builder.
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact">
+        <h2>Get started now</h2>
+        <p>
+          Book a short, no‑obligation introduction. We&apos;ll show you how your
+          sensors can run in a free database today.
+        </p>
+        <p>
+          <a
+            class="btn btn-primary"
+            href="mailto:info@example.com?subject=Intro%20Session%3A%20Free%20Sensor%20Databases"
+            >Request a session</a
+          >
+        </p>
+        <p class="note">
+          Note: Platform selection depends on your use case, data volume, and
+          visualization needs.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="y"></span> Sensor Data Consulting — All rights reserved.
+    </footer>
+
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

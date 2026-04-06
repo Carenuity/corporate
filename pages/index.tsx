@@ -15,7 +15,7 @@ export default function Home({
   isMobile: boolean;
 }) {
   const { state } = useContext(LanguageSwitchContext);
-  const bannerImage = 'img/banner.webp';
+  const bannerImage = '/img/banner.webp';
 
   // const secondaryBgImage = 'img/content/SQ-Panel-sideview.webp';
 

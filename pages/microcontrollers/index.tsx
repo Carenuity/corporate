@@ -15,7 +15,7 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'C3-Mini' },
         }}
-        image={'/img/boards/C3-Mini-microcontroller.jpeg'}
+        image={'/img/boards/c3-mini-microcontroller.jpeg'}
         gridClass="col-md-6 mb-3"
       />
       <ModuleImage
@@ -23,7 +23,7 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'ESP32-Mini' },
         }}
-        image={'/img/boards/ESP32-Mini-microcontroller.webp'}
+        image={'/img/boards/esp32-mini-microcontroller.webp'}
         gridClass="col-md-6 mb-3"
       />
       <ModuleImage
@@ -31,7 +31,7 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'D1-Mini' },
         }}
-        image={'/img/boards/D1-Mini-microcontroller.webp'}
+        image={'/img/boards/d1-mini-microcontroller.webp'}
         gridClass="col-md-6"
       />
       <ModuleImage
@@ -39,7 +39,7 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'ESP32-CAM' },
         }}
-        image={'/img/boards/ESP32-CAM-microcontroller.webp'}
+        image={'/img/boards/esp32-cam-microcontroller.webp'}
         gridClass="col-md-6"
       />
       <ModuleImage
@@ -47,7 +47,7 @@ const Microcontrollers = () => {
           pathname: '/actuators',
           query: { ...query, microcontroller: 'Pico-W' },
         }}
-        image={'/img/boards/Pico-W-microcontroller.webp'}
+        image={'/img/boards/pico-w-microcontroller.webp'}
         gridClass="col-12"
       />
     </div>

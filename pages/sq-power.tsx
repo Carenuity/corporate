@@ -30,7 +30,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               '@context': 'https://schema.org/',
               '@type': 'Product',
               name: 'SQ-Power',
-              image: `${targetDomain}/img/content/sq-power/sq-power-main.jpg`,
+              image: `${targetDomain}/img/content/sq-power/sq-power.png`,
               description:
                 'SQ-Power is a smart panel designed for power consumption monitoring, energy optimization, and safety management in modern buildings and industrial setups.',
               sku: 'CSB-SQP001',
@@ -399,7 +399,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="col-lg-5 mb-6">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/sq-power/sq-power1.JPEG"
+                    src="/img/content/sq-power/sq-power1.jpeg"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -437,7 +437,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <div className="col-lg-5 mb-6">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/sq-power/sq-power.JPEG"
+                    src="/img/content/sq-power/sq-power.jpeg"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -526,7 +526,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                       {state === 'en' && <>Documentation</>}
                       {/* {state === 'de' && <>Documentation</>} */}
                     </h4>
-                    <p className="mn-4">
+                    <div className="mn-4">
                       {state === 'en' && (
                         <>
                           <div className="d-flex align-items-center">
@@ -568,7 +568,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                           <div className="d-flex align-items-center">
                             <i className="ti-check display-31 text-black"></i>
                             <a
-                              href="/docs/commisioning.pdf"
+                              href="/docs/commissioning.pdf"
                               target="_blank"
                               className="ms-2 link-success"
                               rel="noreferrer"
@@ -595,7 +595,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/datasheet-de.PDF"
+                      href="/docs/datasheet-de.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -607,7 +607,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/declaration-de.PDF"
+                      href="/docs/declaration-de.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -631,7 +631,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/commisioning-de.PDF"
+                      href="/docs/commissioning-de.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -653,7 +653,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </div>
                 </>
               )} */}
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

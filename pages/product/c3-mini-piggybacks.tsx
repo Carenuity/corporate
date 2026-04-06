@@ -55,7 +55,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               <div className="col-md-4 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/piggybacks/piggy2.JPEG"
+                  src="/img/content/piggybacks/piggy2.jpeg"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
@@ -188,7 +188,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               <div className="col-md-4 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/piggybacks/piggy.JPEG"
+                  src="/img/content/piggybacks/piggy.jpeg"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."

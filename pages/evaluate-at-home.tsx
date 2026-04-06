@@ -314,7 +314,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/content/evaluate/Evaluation-Kits-Overview_1.png"
+                src="/img/content/evaluate/evaluation-kits-overview-1.png"
                 className=" wow fadeInUp"
                 data-wow-delay="100ms"
                 alt="..."
@@ -332,7 +332,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 <Link href="/install-for-free" className="text-success"> */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               {/* <img
-                    src="/img/content/evaluate/Evaluation-Kits-Overview_2.png"
+                    src="/img/content/evaluate/evaluation-kits-overview-2.png"
                     className="mt-1-6 wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -996,7 +996,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel03.PNG"
+                    src="/img/content/evaluate/sq-panel03.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -1030,7 +1030,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sma.PNG"
+                    src="/img/content/evaluate/sma.png"
                     className="wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."
@@ -1064,7 +1064,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/img/content/evaluate/sq-panel02.PNG"
+                    src="/img/content/evaluate/sq-panel02.png"
                     className=" wow fadeInUp"
                     data-wow-delay="100ms"
                     alt="..."

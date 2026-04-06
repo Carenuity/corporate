@@ -283,13 +283,13 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               {state === 'en' && <>Documentation</>}
               {state === 'de' && <>Documentation</>}
             </h4>
-            <p className="mn-4">
+            <div className="mn-4">
               {state === 'en' && (
                 <>
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD981WW_adP.pdf"
+                      href="/docs/de-lsd981ww-adp.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -301,7 +301,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD981WW_ad.pdf"
+                      href="/docs/de-lsd981ww-ad.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -313,7 +313,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD982WW_adP"
+                      href="/docs/de-lsd982ww-adp.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -325,7 +325,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD982WW_ad.pdf"
+                      href="/docs/de-lsd982ww-ad.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -340,7 +340,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD981WW_adP.pdf"
+                      href="/docs/de-lsd981ww-adp.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -352,7 +352,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD981WW_ad.pdf"
+                      href="/docs/de-lsd981ww-ad.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -364,7 +364,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD982WW_adP"
+                      href="/docs/de-lsd982ww-adp.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -376,7 +376,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   <div className="d-flex align-items-center">
                     <i className="ti-check display-31 text-black"></i>
                     <a
-                      href="/docs/de_LSD982WW_ad.pdf"
+                      href="/docs/de-lsd982ww-ad.pdf"
                       target="_blank"
                       className="ms-2 link-success"
                       rel="noreferrer"
@@ -386,7 +386,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
                   </div>
                 </>
               )}
-            </p>
+            </div>
           </div>
 
           {state === 'en' && (

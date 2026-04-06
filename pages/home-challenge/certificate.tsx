@@ -166,7 +166,7 @@ const Page = () => {
             </div>
           )}
 
-          {!certificate?.isCertified && (
+          {certificate !== undefined && !certificate.isCertified && (
             <div
               className="col-md-8"
               style={{

@@ -237,9 +237,9 @@ export const servicesUrls: Service = {
 };
 
 export const navigationBannerUrls: string[] = [
-  '/img/banner/BUDGET-Products.webp',
-  '/img/banner/PREMIUM-Products.webp',
-  '/img/banner/BUSINESS-Products.webp',
+  '/img/banner/budget-products.webp',
+  '/img/banner/premium-products.webp',
+  '/img/banner/business-products.webp',
 ];
 
 export const microcontrollers: any = {
@@ -250,7 +250,7 @@ export const microcontrollers: any = {
     Whenever you want to quick change a sensor, do the same procedure.
 
     We know this is tedious, compared to old ESP8266 / ESP32  boards. Therefore we work on convenience measures against it.`,
-    imageUrl: '/img/content/C3-Mini-microcontroller.webp',
+    imageUrl: '/img/content/c3-mini-microcontroller.webp',
     imageHighlight:
       'The ESP32-Mini was the successor of the D1-Mini, comes with added Bluetooth and is now the predecessor of the latest C3-Mini™, which we recommend to stay future proof with respect to the upcoming Matter standard.',
     disclaimer:
@@ -261,7 +261,7 @@ export const microcontrollers: any = {
     name: 'D1-Mini',
     description:
       "The D1-Mini is the most popular. Nevertheless it lacks from having Bluetooth. We continue to support D1-Mini as it simply is the cheapest for making use of any Carenuity's Install-for-Free applications",
-    imageUrl: '/img/content/D1-Mini-microcontroller.webp',
+    imageUrl: '/img/content/d1-mini-microcontroller.webp',
     imageHighlight:
       'The D1-Mini predecessor of the C3-Mini™, which we recommend to stay future proof with respect to the upcoming Matter standard. The D1-Mini has the same size, pin-out and footprint like the C3-Mini™, but misses bluetooth.',
     disclaimer:
@@ -273,7 +273,7 @@ export const microcontrollers: any = {
     name: 'ESP32-CAM',
     description:
       'For introducing the ESP32-CAM into our Carenuity portfolio, we are preparing this application, which you can preview here:',
-    imageUrl: '/img/content/ESP32-CAM-microcontroller.webp',
+    imageUrl: '/img/content/esp32-cam-microcontroller.webp',
     imageHighlight:
       'The ESP32-CAM is a very popular camera in the attractive low-cost segment. A huge variety of applications become possible, once combined with all the sensors.',
     disclaimer:
@@ -286,7 +286,7 @@ export const microcontrollers: any = {
     name: 'ESP32-Mini',
     description:
       'For staying backward compatible with kits inside the ChipGlobe Shop, we continue to support the ESP32-Mini Microcontroller',
-    imageUrl: '/img/content/ESP32-Mini-microcontroller.webp',
+    imageUrl: '/img/content/esp32-mini-microcontroller.webp',
     imageHighlight:
       'The ESP32-Mini was the successor of the D1-Mini, comes with added Bluetooth and is now the predecessor of the latest C3-Mini™, which we recommend to stay future proof with respect to the upcoming Matter standard.',
     disclaimer:
@@ -299,7 +299,7 @@ export const microcontrollers: any = {
     name: 'RPi Pico W',
     description:
       'For introducing the Raspberry Pi Pico W  into our Carenuity portfolio, we are preparing to support the ESPHome integration of Home Assistant.',
-    imageUrl: '/img/content/Pico-W-microcontroller.webp',
+    imageUrl: '/img/content/pico-w-microcontroller.webp',
     imageHighlight:
       'The RPi Pico W comes with Wifi from Infineon Technologies AG and is supported by ESPHome inside Home Assistant. Perfect reasons to combine it with all the sensors.',
     disclaimer:
@@ -309,7 +309,9 @@ export const microcontrollers: any = {
   } as Microcontroller,
 };
 
-export const NewsletterHostname =
-  'https://newsletter-test-dot-solution-builder-421307.ew.r.appspot.com';
+export const SharepointHostname =
+  'https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com';
+
+export const NewsletterHostname = 'https://newsletters.carenuity.com';
 
 export const targetDomain = 'https://carenuity.com'; // https://carenuity.netlify.app
