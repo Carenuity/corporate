@@ -59,14 +59,15 @@ const UniversitySubscriptionWidget: React.FC<
 
     case 'tum':
       return <SubscriptionWidget categoryId={15} {...props} />;
+
     case 'duth':
-      return <SubscriptionWidget categoryId={15} {...props} />;
+      return <SubscriptionWidget categoryId={19} {...props} />;
 
     case 'night-sessions':
       return <SubscriptionWidget categoryId={16} {...props} />;
 
     case 'nairobi':
-      return <SubscriptionWidget categoryId={15} {...props} />;
+      return <SubscriptionWidget categoryId={20} {...props} />;
 
     case 'ksu':
       return <SubscriptionWidget categoryId={18} {...props} />;
@@ -102,15 +103,15 @@ const getUniversityName = ({
 
     case 'tum':
       return 'Technical University of Mombasa';
-      
+
     case 'duth':
-      return 'Democritus University of Thrace ';
+      return 'Democritus University of Thrace';
 
     case 'night-sessions':
       return 'Tech Thursdays: AI, IoT and Databases';
 
     case 'nairobi':
-      return 'Nairobi ';
+      return 'Nairobi';
 
     case 'ksu':
       return 'Kisii University ';
