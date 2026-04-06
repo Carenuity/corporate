@@ -22,7 +22,7 @@ type UniversityId =
   | 'duth'
   | 'night-sessions'
   | 'nairobi'
-  | 'kisii-university';
+  | 'kisii';
 
 type UniversitySubscriptionWidgetProps = {
   universityId: UniversityId;
