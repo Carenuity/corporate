@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import PageTitle from '../../../components/PageTitle';
-import Link from 'next/link';
+
 
 const Page = () => {
   const pageTitle = 'IoT & AI Sensor Kits';
