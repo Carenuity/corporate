@@ -72,7 +72,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
               <p>
                 {!isMobile && (
                   <Link
-                    href='\product\assortment-box\c3-mini-kisii-boxes'
+                    href="\product\assortment-box\c3-mini-kisii-boxes"
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">Back to startpage</span>
@@ -81,7 +81,7 @@ const Page = ({ isMobile }: { isMobile: boolean }) => {
 
                 {isMobile && (
                   <a
-                    href='\product\assortment-box\c3-mini-kisii-boxes'
+                    href="\product\assortment-box\c3-mini-kisii-boxes"
                     className={'btn btn-lg btn-success rounded-pill'}
                   >
                     <span className="small">
