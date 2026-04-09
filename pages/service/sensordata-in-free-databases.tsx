@@ -80,7 +80,10 @@ const SensordataInFreeDatabases = () => {
                 ? 'Kostenlose Kurzpräsentation anfragen'
                 : 'Request a short intro session'}
             </Link>
-            <Link href="#process" className="btn btn-outline-secondary rounded-pill">
+            <Link
+              href="#process"
+              className="btn btn-outline-secondary rounded-pill"
+            >
               {state === 'de' ? 'So läuft es ab' : 'See the process'}
             </Link>
           </div>
