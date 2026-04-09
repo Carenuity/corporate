@@ -75,12 +75,12 @@ const SensordataInFreeDatabases = () => {
             )}
           </p>
           <div className="d-flex gap-2 justify-content-center flex-wrap mt-4">
-            <Link href="#contact" className="btn btn-success">
+            <Link href="#contact" className="btn btn-success rounded-pill">
               {state === 'de'
                 ? 'Kostenlose Kurzpräsentation anfragen'
                 : 'Request a short intro session'}
             </Link>
-            <Link href="#process" className="btn btn-outline-secondary">
+            <Link href="#process" className="btn btn-outline-secondary rounded-pill">
               {state === 'de' ? 'So läuft es ab' : 'See the process'}
             </Link>
           </div>
@@ -642,7 +642,7 @@ const SensordataInFreeDatabases = () => {
                 ? 'Kurzpräsentation Sensor-Datenbanken'
                 : 'Intro Session: Free Sensor Databases'
             )}`}
-            className="btn btn-success"
+            className="btn btn-success rounded-pill"
           >
             {state === 'de' ? 'Kurzpräsentation anfragen' : 'Request a session'}
           </Link>
