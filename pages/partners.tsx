@@ -145,7 +145,7 @@ const Page = () => {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/img/content/partners/openlab.png"
+                  src="/img/content/partners/infineon.png"
                   className="wow fadeInUp"
                   data-wow-delay="100ms"
                   alt="..."
