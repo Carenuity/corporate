@@ -157,9 +157,9 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
       {/* <!-- PAGE TITLE
         ================================================== --> */}
       <PageTitle
-        links={[{ path: '/', title: '' }]}
+        links={[{ path: '/', title: 'Home' }]}
         pageTitle={pageTitle}
-        pageUrl=""
+        pageUrl={`/home-challenge/register/${universityId}/`}
       />
 
       <section className="pt-4">

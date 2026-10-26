@@ -1,0 +1,16 @@
+# public/.htaccess is the copy that gets deployed (copied into out/ on export).
+# Keep the root .htaccess and public/.htaccess identical.
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Rewrite URLs containing capital letters to lowercase
+# Onces tested change 302 to 301 - permanent redirect
+# Skip /_next/ - build assets (build ID, [universityId] chunk) are case-sensitive
+
+RewriteCond %{REQUEST_URI} !^/_next/
+RewriteCond expr "tolower(%{REQUEST_URI}) =~ /(.*)/"
+RewriteRule [A-Z] %1 [R=302,L]

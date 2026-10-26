@@ -243,8 +243,8 @@ export const navigationBannerUrls: string[] = [
 ];
 
 export const microcontrollers: any = {
-  'C3-Mini': {
-    id: 'C3-Mini',
+  'c3-mini': {
+    id: 'c3-mini',
     name: 'C3-Mini',
     description: `For flashing C3-Mini successfully, you need to hold the BOOT-Button, click in parallel the RST-Button for a moment while still keeping BOOT button pressed and then start WebFlashing. Once Flashing started you can release the BOOT-Button. 
     Whenever you want to quick change a sensor, do the same procedure.
@@ -256,8 +256,8 @@ export const microcontrollers: any = {
     disclaimer:
       'ChipGlobe, Carenuity and C3-Mini are trademarks of ChipGlobe GmbH',
   } as Microcontroller,
-  'D1-Mini': {
-    id: 'D1-Mini',
+  'd1-mini': {
+    id: 'd1-mini',
     name: 'D1-Mini',
     description:
       "The D1-Mini is the most popular. Nevertheless it lacks from having Bluetooth. We continue to support D1-Mini as it simply is the cheapest for making use of any Carenuity's Install-for-Free applications",
@@ -268,8 +268,8 @@ export const microcontrollers: any = {
       'ChipGlobe, Carenuity and C3-Mini are trademarks of ChipGlobe GmbH',
     externalUrl: 'https://www.chipglobe.shop/c/iot-systeme/d1-c3-mini-shield',
   } as Microcontroller,
-  'ESP32-CAM': {
-    id: 'ESP32-CAM',
+  'esp32-cam': {
+    id: 'esp32-cam',
     name: 'ESP32-CAM',
     description:
       'For introducing the ESP32-CAM into our Carenuity portfolio, we are preparing this application, which you can preview here:',
@@ -281,8 +281,8 @@ export const microcontrollers: any = {
     externalUrl:
       'https://randomnerdtutorials.com/esp32-cam-shield-pcb-telegram',
   } as Microcontroller,
-  'ESP32-Mini': {
-    id: 'ESP32-Mini',
+  'esp32-mini': {
+    id: 'esp32-mini',
     name: 'ESP32-Mini',
     description:
       'For staying backward compatible with kits inside the ChipGlobe Shop, we continue to support the ESP32-Mini Microcontroller',
@@ -294,8 +294,8 @@ export const microcontrollers: any = {
     externalUrl:
       'https://www.infineon.com/cms/en/product/promopages/dual-sensor-box/',
   } as Microcontroller,
-  'RPi-Pico-W': {
-    id: 'RPi-Pico-W',
+  'rpi-pico-w': {
+    id: 'rpi-pico-w',
     name: 'RPi Pico W',
     description:
       'For introducing the Raspberry Pi Pico W  into our Carenuity portfolio, we are preparing to support the ESPHome integration of Home Assistant.',

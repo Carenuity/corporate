@@ -197,7 +197,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <area
                       alt='C3-Mini'
                       title='C3-Mini - Read More'
-                      href='/microcontrollers/C3-Mini'
+                      href='/microcontrollers/c3-mini'
                       coords='0,0,150,180'
                       shape='rect'
                       data-bs-toggle='tooltip'
@@ -205,7 +205,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <area
                       alt='ESP32-Mini'
                       title='ESP32-Mini - Read More'
-                      href='/microcontrollers/ESP32-Mini'
+                      href='/microcontrollers/esp32-mini'
                       coords='160,0,350,160'
                       shape='rect'
                       data-bs-toggle='tooltip'
@@ -213,7 +213,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <area
                       alt='D1-Mini'
                       title='D1-Mini - Read More'
-                      href='/microcontrollers/D1-Mini'
+                      href='/microcontrollers/d1-mini'
                       coords='0,200,150,360'
                       shape='rect'
                       data-bs-toggle='tooltip'
@@ -221,7 +221,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <area
                       alt='ESP32-CAM'
                       title='ESP32-CAM - Read More'
-                      href='/microcontrollers/ESP32-CAM'
+                      href='/microcontrollers/esp32-cam'
                       coords='160,170,350,370'
                       shape='rect'
                       data-bs-toggle='tooltip'
@@ -229,7 +229,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     <area
                       alt='RPi-Pico-W'
                       title='RPi-Pico-W - Read More'
-                      href='/microcontrollers/RPi-Pico-W'
+                      href='/microcontrollers/rpi-pico-w'
                       coords='0,500,320,200'
                       shape='rect'
                       data-bs-toggle='tooltip'
