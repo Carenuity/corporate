@@ -1,0 +1,9 @@
+services:
+  strato:
+    build: .
+    ports:
+      - '8080:80'
+      - '8443:443'
+    volumes:
+      # Re-run `npm run export` and refresh - no rebuild needed
+      - ../../out:/usr/local/apache2/htdocs:ro
