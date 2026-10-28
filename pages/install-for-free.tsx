@@ -495,7 +495,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
               />
             </div>
             <div className="col-md-11">
-              <p>
+              <div style={{ marginBottom: '20px' }}>
                 <ul>
                   <li>
                     <strong>WEEE Registration Number: </strong> DE 53301452.
@@ -510,7 +510,7 @@ const Index = ({ isMobile }: { isMobile: boolean }) => {
                     further inquiries.
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
 

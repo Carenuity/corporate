@@ -136,7 +136,7 @@ const Page = () => {
 
           <div className="mb-10" style={{ textAlign: 'center' }}>
             <h4 className="">Get In Touch</h4>
-            <p style={{ paddingLeft: '', paddingRight: '' }}>
+            <p>
               We&apos;d love to hear from you. Whether you have a question, need
               support, or want to explore how we can work together — reach out
               and we&apos;ll respond as soon as possible.

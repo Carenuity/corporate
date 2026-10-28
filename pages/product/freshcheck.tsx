@@ -67,7 +67,7 @@ const Index = () => {
             {state === 'en' && <>The Solution</>}
             {state === 'de' && <>Die Lösung</>}
           </h4>
-          <p className="mn-4">
+          <div className="mn-4" style={{ marginBottom: '20px' }}>
             {state === 'en' && (
               <>
                 Carenuity FreshCheck instantly measures the air quality in your
@@ -108,12 +108,12 @@ const Index = () => {
                 </ul>
               </>
             )}
-          </p>
+          </div>
           <h4 className="mn-4">
             {state === 'en' && <>Key Benefits</>}
             {state === 'de' && <>Die wichtigsten Vorteile</>}
           </h4>
-          <p className="mn-4">
+          <div className="mn-4" style={{ marginBottom: '20px' }}>
             {state === 'en' && (
               <>
                 <ul>
@@ -176,12 +176,12 @@ const Index = () => {
                 </ul>
               </>
             )}
-          </p>
+          </div>
           <h4 className="mn-4">
             {state === 'en' && <>How It Works</>}
             {state === 'de' && <>So funktioniert es</>}
           </h4>
-          <p className="mn-4">
+          <div className="mn-4" style={{ marginBottom: '20px' }}>
             {state === 'en' && (
               <>
                 <ol>
@@ -228,12 +228,12 @@ const Index = () => {
                 </ol>
               </>
             )}
-          </p>
+          </div>
           <h4 className="mn-4">
             {state === 'en' && <>Who It&apos;s For</>}
             {state === 'de' && <>Für wen ist es geeignet?</>}
           </h4>
-          <p className="mn-4">
+          <div className="mn-4" style={{ marginBottom: '20px' }}>
             {state === 'en' && (
               <>
                 <ul>
@@ -268,12 +268,12 @@ const Index = () => {
                 </ul>
               </>
             )}
-          </p>
+          </div>
           <h4 className="mn-4">
             {state === 'en' && <>Get Yours Today</>}
             {state === 'de' && <>Holen Sie sich Ihr Exemplar noch heute</>}
           </h4>
-          <p className="mn-4">
+          <div className="mn-4" style={{ marginBottom: '20px' }}>
             {state === 'en' && (
               <>
                 Available now in two options:
@@ -297,7 +297,7 @@ const Index = () => {
                 </ul>
               </>
             )}
-          </p>
+          </div>
 
           {/* wishlist */}
           <hr className="my-7 " />

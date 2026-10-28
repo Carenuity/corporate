@@ -78,7 +78,7 @@ const About = () => {
 
           <div>
             <h4>Featured Product: Carenuity™ SQ-Panel</h4>
-            <p>
+            <div style={{ marginBottom: '20px' }}>
               Carenuity&apos;s™ main product - the SQ-Panel - is visible on:
               <ul>
                 <li>Hackster.io (project-based integrations)</li>
@@ -92,11 +92,11 @@ const About = () => {
               </ul>
               It also appears in blog articles and newsletters by developers and
               maker communities.
-            </p>
+            </div>
           </div>
           <div>
             <h4>Carenuity™ Solution Builder</h4>
-            <p>
+            <div style={{ marginBottom: '20px' }}>
               The Carenuity™ Solution Builder is a web-based configuration and
               simulation tool that uses the Carenuity™ brand design, logo and
               product naming. It is referenced in:
@@ -105,7 +105,7 @@ const About = () => {
                 <li>Community projects</li>
                 <li>Product manuals and tech blogposts</li>
               </ul>
-            </p>
+            </div>
           </div>
           <div>
             <h4>Intellectual Property Note</h4>
@@ -134,7 +134,7 @@ const About = () => {
             <div className="row">
               <div className="col-md-8 mb-4">
                 <h6>@carenuity - The Premium Channel</h6>
-                <p>
+                <div style={{ marginBottom: '20px' }}>
                   <ul>
                     <li>
                       Target Audience: Professionals, caregivers,
@@ -149,9 +149,9 @@ const About = () => {
                       quality and innovation
                     </li>
                   </ul>
-                </p>
+                </div>
                 <h6>@diy carenuity - The Maker Channel</h6>
-                <p>
+                <div style={{ marginBottom: '20px' }}>
                   <ul>
                     <li>
                       Target Audience: Makers, students, tech-savvy DIY users
@@ -165,9 +165,9 @@ const About = () => {
                       building and sharing
                     </li>
                   </ul>
-                </p>
+                </div>
                 <h6>@bts carenuity - The Insights & Caregiver Channel</h6>
-                <p>
+                <div style={{ marginBottom: '20px' }}>
                   <ul>
                     <li>
                       Target Audience: Non-technical users, caregivers, internal
@@ -182,7 +182,7 @@ const About = () => {
                       ready-to-use solutions
                     </li>
                   </ul>
-                </p>
+                </div>
               </div>
               <div className="col-md-4 mb-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -204,7 +204,7 @@ const About = () => {
           </div>
           <div>
             <h4>Strategic Benefits</h4>
-            <p>
+            <div style={{ marginBottom: '20px' }}>
               <ul>
                 <li>Clarity: Each audience receives tailored content</li>
                 <li>
@@ -216,7 +216,7 @@ const About = () => {
                   Positioning: Main channel maintains a premium brand image
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </section>
