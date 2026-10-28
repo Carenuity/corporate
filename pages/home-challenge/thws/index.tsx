@@ -63,15 +63,15 @@ const Page = () => {
                   animationName: 'fadeIn',
                 }}
               />
-              <p style={{ textAlign: 'center' }}>
+              <div style={{ textAlign: 'center' }}>
                 <Link
                   href={'/home-challenge/register/thws'}
-                  className={'btn btn-sm btn-success rounded-pill'}
+                  className={'btn btn-sm btn-success rounded-pill d-none'}
                 >
                   <span className="small">Register </span>
                 </Link>
                 <p>for the home challenge towards AI</p>
-              </p>
+              </div>
             </div>
             <div className="col-lg-2 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
