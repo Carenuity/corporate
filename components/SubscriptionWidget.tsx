@@ -10,11 +10,140 @@ type ISubscriptionWidget = {
   openOfficeDayRef?: React.RefObject<HTMLInputElement>;
   chipGlobeProductsRef?: React.RefObject<HTMLInputElement>;
   homeChallengeRef?: React.RefObject<HTMLInputElement>;
+  // Page wording for categoryId, shown if the category name lookup fails
+  categoryLabel?: string;
 };
 
 type NewsletterPayload = {
   categoryId: number;
   email: string;
+};
+
+// label is the page wording, used when the category name lookup fails
+type Newsletter = NewsletterPayload & { label?: string };
+
+const CategoryNamesTimeoutMs = 5000;
+// Longer than the name lookup, since the API sends the verification email
+// before it responds
+const SubscribeTimeoutMs = 20000;
+
+// AbortSignal.timeout is missing before Safari 16 and Chrome 103
+const timeoutSignal = (ms: number): AbortSignal => {
+  if (typeof AbortSignal.timeout === 'function') {
+    return AbortSignal.timeout(ms);
+  }
+  const controller = new AbortController();
+  setTimeout(() => controller.abort(), ms);
+  return controller.signal;
+};
+
+type SubscriptionOutcome = 'sent' | 'already' | 'rateLimited' | 'failed';
+
+// POST /v1/subscriptions returns 201 { data, code } on success,
+// { error: { statusCode, message } } otherwise. Branch on code, not data.
+const subscribe = async (
+  url: string,
+  { categoryId, email }: Newsletter
+): Promise<SubscriptionOutcome> => {
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      body: JSON.stringify({ categoryId, email } as NewsletterPayload),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      signal: timeoutSignal(SubscribeTimeoutMs),
+    });
+    if (response.status === 429) return 'rateLimited';
+    if (!response.ok) return 'failed';
+    const body = await response.json().catch(() => ({}));
+    if (body.code === 'VERIFICATION_SENT') return 'sent';
+    if (body.code === 'ALREADY_SUBSCRIBED') return 'already';
+    return 'failed';
+  } catch {
+    return 'failed';
+  }
+};
+
+type CategoryNames = Record<number, string>;
+
+// Looks up category names from GET /v1/sharepoint/newsletter-categories.
+// Returns an empty lookup if the request fails or times out, so the feedback
+// still shows.
+const fetchCategoryNames = async (): Promise<CategoryNames> => {
+  try {
+    const response = await fetch(
+      `${NewsletterHostname}/v1/sharepoint/newsletter-categories`,
+      { signal: timeoutSignal(CategoryNamesTimeoutMs) }
+    );
+    if (!response.ok) return {};
+    const { data } = await response.json();
+    return Object.fromEntries(
+      data.map(({ Id, Name }: { Id: number; Name: string }) => [Id, Name])
+    );
+  } catch {
+    return {};
+  }
+};
+
+// Single-newsletter widgets get a short message without the category name,
+// since several product pages share one category id.
+const feedbackMessage = (
+  newsletters: Newsletter[],
+  outcomes: SubscriptionOutcome[],
+  names: CategoryNames
+) => {
+  const categoryNames = (selection: Newsletter[]) =>
+    selection
+      .map(
+        ({ categoryId, label }) =>
+          names[categoryId] ?? label ?? `Newsletter ${categoryId}`
+      )
+      .join(', ');
+  const withOutcome = (outcome: SubscriptionOutcome) =>
+    newsletters.filter((_, i) => outcomes[i] === outcome);
+  const sent = withOutcome('sent');
+  const already = withOutcome('already');
+  const rateLimited = withOutcome('rateLimited');
+  const failed = withOutcome('failed');
+
+  if (newsletters.length === 1) {
+    if (sent.length) {
+      return 'Subscription initiated successfully. Check your email for verification.';
+    }
+    if (already.length) return 'You are already subscribed.';
+    if (rateLimited.length) {
+      return 'Too many attempts. Kindly try again in a few minutes.';
+    }
+    return 'Something went wrong! Kindly try again.';
+  }
+
+  const lines: string[] = [];
+  if (sent.length) {
+    lines.push(
+      `Verification email sent for: ${categoryNames(
+        sent
+      )}. Check your email for verification(s).`
+    );
+  }
+  if (already.length) {
+    lines.push(
+      `Already subscribed to: ${categoryNames(already)} (no email sent).`
+    );
+  }
+  if (rateLimited.length) {
+    lines.push(
+      `Too many attempts for: ${categoryNames(
+        rateLimited
+      )}. Kindly try again in a few minutes.`
+    );
+  }
+  if (failed.length) {
+    lines.push(
+      `Something went wrong for: ${categoryNames(failed)}. Kindly try again.`
+    );
+  }
+  return lines.join('\n\n');
 };
 
 const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
@@ -24,6 +153,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
   openOfficeDayRef,
   openPositionsRef,
   homeChallengeRef,
+  categoryLabel,
 }) => {
   const [inProgress, setInProgress] = useState(false);
   const { state } = useContext(LanguageSwitchContext);
@@ -36,7 +166,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       return;
     }
 
-    const newsletters: NewsletterPayload[] = [];
+    const newsletters: Newsletter[] = [];
 
     /* add to Home Challenge newsletter if home challenge checkbox ref exists and is checked
      * or
@@ -46,11 +176,13 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       newsletters.push({
         categoryId,
         email,
+        label: categoryLabel,
       });
     } else if (!homeChallengeRef) {
       newsletters.push({
         categoryId,
         email,
+        label: categoryLabel,
       });
     }
 
@@ -59,6 +191,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       newsletters.push({
         categoryId: 11,
         email,
+        label: 'ChipGlobe products',
       });
     }
 
@@ -67,6 +200,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       newsletters.push({
         categoryId: 13,
         email,
+        label: 'Internship',
       });
     }
 
@@ -75,6 +209,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       newsletters.push({
         categoryId: 14,
         email,
+        label: 'Open Office Day',
       });
     }
 
@@ -83,6 +218,7 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
       newsletters.push({
         categoryId: 12,
         email,
+        label: 'Open positions',
       });
     }
 
@@ -93,29 +229,16 @@ const SubscriptionWidget: React.FC<ISubscriptionWidget> = ({
 
     setInProgress(true);
     const url = `${NewsletterHostname}/v1/subscriptions`;
+    // Names are only shown when several newsletters were selected, so only
+    // fetch them then, alongside the subscription requests.
     try {
-      const responses = await Promise.all(
-        newsletters.map((payload) =>
-          fetch(url, {
-            method: 'POST',
-            body: JSON.stringify(payload),
-            headers: {
-              'Content-Type': 'application/json',
-            },
-          })
-        )
-      );
-
-      const hasError = responses.some((r) => !r.ok);
-      if (hasError) {
-        alert(`Something went wrong! Kindly try again.`);
-      } else {
-        alert(
-          'Subscription(s) initiated successfully. Check your email for verification(s)'
-        );
-      }
-    } catch {
-      alert(`Something went wrong! Kindly try again.`);
+      const [outcomes, names] = await Promise.all([
+        Promise.all(
+          newsletters.map((newsletter) => subscribe(url, newsletter))
+        ),
+        newsletters.length > 1 ? fetchCategoryNames() : {},
+      ]);
+      alert(feedbackMessage(newsletters, outcomes, names));
     } finally {
       setInProgress(false);
     }

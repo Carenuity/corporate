@@ -30,6 +30,7 @@ type UniversitySubscriptionWidgetProps = {
   openOfficeDayRef: React.RefObject<HTMLInputElement>;
   chipGlobeProductsRef: React.RefObject<HTMLInputElement>;
   homeChallengeRef: React.RefObject<HTMLInputElement>;
+  categoryLabel?: string;
 };
 
 const UniversitySubscriptionWidget: React.FC<
@@ -114,7 +115,7 @@ const getUniversityName = ({
       return 'Nairobi';
 
     case 'ksu':
-      return 'Kisii University ';
+      return 'Kisii University';
   }
 };
 
@@ -258,6 +259,7 @@ const Page = ({ universityId }: { universityId: UniversityId }) => {
               openOfficeDayRef={openOfficeDayRef}
               openPositionsRef={openPositionsRef}
               homeChallengeRef={homeChallengeRef}
+              categoryLabel={school}
             />
 
             <Link
